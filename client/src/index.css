@@ -1,0 +1,255 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #111827;
+  background-color: #0f172a;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+}
+
+.app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  color: #e5e7eb;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  margin-top: 0.25rem;
+  color: #9ca3af;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-label {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background: #22c55e;
+  color: #022c22;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #16a34a;
+}
+
+.btn-secondary {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.btn-secondary:hover {
+  background: #374151;
+}
+
+.main-panel {
+  margin-top: 1rem;
+}
+
+.card {
+  background: #020617;
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #1f2937;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.sidebar {
+  max-height: calc(100vh - 120px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+  overflow: auto;
+}
+
+.playlist-item {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.45rem 0.5rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.playlist-item:hover {
+  background: #111827;
+}
+
+.playlist-item.selected {
+  background: #111827;
+  border: 1px solid #22c55e55;
+}
+
+.playlist-cover {
+  width: 44px;
+  height: 44px;
+  border-radius: 0.4rem;
+  object-fit: cover;
+}
+
+.playlist-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.playlist-meta {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.error {
+  color: #f97373;
+}
+
+.suggestions-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.75rem;
+}
+
+.suggestion-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.suggestion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion-sub {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.count-pill {
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: #1f2937;
+  font-size: 0.8rem;
+}
+
+.rule-text {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.rule-text code {
+  background: #020617;
+  padding: 0.05rem 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.suggestion-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.tracks-list {
+  margin-top: 0.5rem;
+  max-height: 260px;
+  overflow: auto;
+  border-top: 1px solid #1f2937;
+  padding-top: 0.4rem;
+}
+
+.track-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.2rem 0;
+}
+
+.track-main {
+  flex: 1;
+}
+
+.track-title {
+  font-size: 0.9rem;
+}
+
+.track-artist {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.track-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  justify-content: flex-end;
+}
+
+.pill {
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+  font-size: 0.75rem;
+  background: #0b1120;
+  color: #9ca3af;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    max-height: 240px;
+  }
+}
