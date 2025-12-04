@@ -380,46 +380,64 @@ function App() {
 
   return (
     <div className="app-root">
-      <header className="header">
-        <div>
-          <h1>Playlist Splitter</h1>
-          <p className="tagline">
-            Take one big Spotify playlist and split it into smaller, vibe-based
-            sub-playlists.
-          </p>
-        </div>
-        <div className="header-right">
-          {loggedIn && (
-            <>
-              <span className="user-label">
-                Logged in as <strong>{user.display_name || user.id}</strong>
-              </span>
-              <button className="btn-secondary" onClick={handleLogout}>
-                Log out
-              </button>
-            </>
-          )}
-        </div>
-      </header>
-
-      {!loggedIn && (
-        <main className="main-panel">
-          <section className="card">
-            <h2>Connect your Spotify</h2>
-            <p>
-              Log in with your Spotify account, choose one of your playlists,
-              and we&apos;ll suggest sub-playlists like:
-              <br />
-              <em>&quot;90s Rap&quot;, &quot;Hype/Gym&quot;, &quot;Late
-              Night&quot;, &quot;Deeper Cuts&quot;</em>.
+      {/* 1. Dashboard Header - Only show this when logged in */}
+      {loggedIn && (
+        <header className="header">
+          <div>
+            <h1>Playlist Splitter</h1>
+            <p className="tagline">
+              Take one big Spotify playlist and split it into smaller, vibe-based
+              sub-playlists.
             </p>
-            <button className="btn-primary" onClick={handleLogin}>
-              Log in with Spotify
+          </div>
+          <div className="header-right">
+            <span className="user-label">
+              Logged in as <strong>{user.display_name || user.id}</strong>
+            </span>
+            <button className="btn-secondary" onClick={handleLogout}>
+              Log out
             </button>
-          </section>
-        </main>
+          </div>
+        </header>
       )}
 
+      {/* 2. New Landing Page Layout */}
+      {!loggedIn && (
+        <div className="landing-layout">
+          <div className="landing-card">
+            <h1 className="landing-title">Playlist Splitter</h1>
+            <p className="landing-desc">
+              Take one big Spotify playlist and split it into smaller,
+              vibe-based sub-playlists automatically.
+            </p>
+            
+            <button 
+              className="btn-primary btn-login-large" 
+              onClick={handleLogin}
+            >
+              LOG IN WITH SPOTIFY
+            </button>
+          </div>
+
+          {/* Features Grid for visual balance */}
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">✨</div>
+              <div className="feature-text">AI-Powered Analysis</div>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📂</div>
+              <div className="feature-text">Smart Organization</div>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🚀</div>
+              <div className="feature-text">Instant Export</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 3. Main Dashboard (unchanged logic, just kept inside the check) */}
       {loggedIn && (
         <main className="layout">
           <section className="sidebar">
