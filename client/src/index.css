@@ -480,3 +480,43 @@ body {
     gap: 1rem;
   }
 }
+
+/* Advanced data card */
+.advanced-card {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.advanced-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.advanced-steps {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0.75rem;
+  text-align: left;
+}
+
+.advanced-steps li {
+  margin-bottom: 0.25rem;
+}
+
+/* Pills / badges */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.pill-success {
+  background: rgba(46, 204, 113, 0.12);
+  color: #2ecc71;
+  border: 1px solid rgba(46, 204, 113, 0.4);
+}
