@@ -572,6 +572,8 @@ function App() {
               <strong>extended streaming history</strong> export. All processing
               happens in your browser – nothing is sent to our server.
             </p>
+            <details className="advanced-details">
+            <summary>How do I get this from Spotify?</summary>
             <ol className="advanced-steps">
               <li>Go to your Spotify account &gt; Privacy &gt; Download your data.</li>
               <li>Request your <em>extended streaming history</em>.</li>
@@ -583,12 +585,14 @@ function App() {
               </li>
               <li>Upload them here:</li>
             </ol>
-            <input
-              type="file"
-              multiple
-              accept=".json,application/json"
-              onChange={handleHistoryFilesSelected}
-            />
+          </details>
+
+          <input
+            type="file"
+            multiple
+            accept=".json,application/json"
+            onChange={handleHistoryFilesSelected}
+          />
           </div>
 
   {!selectedPlaylist && (
