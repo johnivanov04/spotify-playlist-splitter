@@ -3,11 +3,12 @@ import { useEffect, useState } from "react";
 const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 
-function buildSuggestions(tracks) {
-  const suggestions = [];
-  const minSize = 10;
 
-  // Era buckets
+function buildSuggestions(tracks, usageMap) {
+  const suggestions = [];
+  const minSize = 10; // minimum tracks for a suggestion
+
+  // ---------- ERA / YEAR SPLITS ----------
   const hasYear = tracks.filter((t) => t.year);
   const oldSchool = hasYear.filter((t) => t.year <= 2005);
   const mid = hasYear.filter((t) => t.year > 2005 && t.year <= 2015);
@@ -16,83 +17,32 @@ function buildSuggestions(tracks) {
   if (oldSchool.length >= minSize) {
     suggestions.push({
       id: "era-old-school",
-      label: "Old School Rap",
-      description: "Tracks from before 2006",
-      ruleDescription: "year <= 2005",
+      label: "Old School (≤ 2005)",
+      description: "Tracks from earlier eras in your playlist.",
+      ruleDescription: "year ≤ 2005",
       tracks: oldSchool
     });
   }
   if (mid.length >= minSize) {
     suggestions.push({
       id: "era-mid",
-      label: "Mid-Era Rap (2006–2015)",
-      description: "Tracks released between 2006 and 2015",
-      ruleDescription: "2006 <= year <= 2015",
+      label: "2006–2015",
+      description: "Tracks released between 2006 and 2015.",
+      ruleDescription: "2006 ≤ year ≤ 2015",
       tracks: mid
     });
   }
   if (newer.length >= minSize) {
     suggestions.push({
       id: "era-new",
-      label: "New Rap (2016+)",
-      description: "More recent tracks",
-      ruleDescription: "year >= 2016",
+      label: "Recent (2016+)",
+      description: "More recent additions to your playlist.",
+      ruleDescription: "year ≥ 2016",
       tracks: newer
     });
   }
 
-  // Energy / mood
-  const hype = tracks.filter(
-    (t) => t.energy !== null && t.energy >= 0.75 && t.tempo >= 110
-  );
-  const chill = tracks.filter(
-    (t) => t.energy !== null && t.energy <= 0.5
-  );
-  const happy = tracks.filter(
-    (t) => t.valence !== null && t.valence >= 0.7
-  );
-  const dark = tracks.filter(
-    (t) => t.valence !== null && t.valence <= 0.4
-  );
-
-  if (hype.length >= minSize) {
-    suggestions.push({
-      id: "mood-hype",
-      label: "Hype / Gym",
-      description: "High-energy, high-tempo tracks",
-      ruleDescription: "energy >= 0.75 && tempo >= 110",
-      tracks: hype
-    });
-  }
-  if (chill.length >= minSize) {
-    suggestions.push({
-      id: "mood-chill",
-      label: "Chill / Late Night",
-      description: "Lower-energy tracks, good for late nights",
-      ruleDescription: "energy <= 0.5",
-      tracks: chill
-    });
-  }
-  if (happy.length >= minSize) {
-    suggestions.push({
-      id: "mood-happy",
-      label: "Feel-Good",
-      description: "Higher-valence (happier) tracks",
-      ruleDescription: "valence >= 0.7",
-      tracks: happy
-    });
-  }
-  if (dark.length >= minSize) {
-    suggestions.push({
-      id: "mood-dark",
-      label: "Darker / Moodier",
-      description: "Lower-valence tracks with darker mood",
-      ruleDescription: "valence <= 0.4",
-      tracks: dark
-    });
-  }
-
-  // Popularity
+  // ---------- POPULARITY SPLITS ----------
   const hits = tracks.filter(
     (t) => typeof t.popularity === "number" && t.popularity >= 70
   );
@@ -104,8 +54,8 @@ function buildSuggestions(tracks) {
     suggestions.push({
       id: "pop-hits",
       label: "Hits / Mainstream",
-      description: "More popular tracks from your playlist",
-      ruleDescription: "popularity >= 70",
+      description: "More popular tracks from your playlist.",
+      ruleDescription: "popularity ≥ 70",
       tracks: hits
     });
   }
@@ -113,14 +63,66 @@ function buildSuggestions(tracks) {
     suggestions.push({
       id: "pop-deep",
       label: "Deeper Cuts",
-      description: "Less popular tracks you might have overlooked",
-      ruleDescription: "popularity <= 40",
+      description: "Less popular tracks you might forget about.",
+      ruleDescription: "popularity ≤ 40",
       tracks: deepCuts
     });
   }
 
+  // ---------- ADVANCED: USAGE-BASED SPLITS ----------
+  // usageMap comes from StreamingHistory_music_*.json files
+  if (usageMap) {
+    // 1) Barely played or never seen in your history
+    const barelyPlayed = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return true; // never seen in your history at all
+      const totalMs = u.totalMs ?? 0;
+      return u.plays <= 1 || totalMs < 60_000; // less than ~1 minute lifetime listening
+    });
+
+    if (barelyPlayed.length >= 5) {
+      suggestions.push({
+        id: "usage-barely-played",
+        label: "Barely Played Tracks",
+        description:
+          "Songs from this playlist that you’ve almost never listened to in your Spotify history.",
+        ruleDescription:
+          "plays ≤ 1 or total listening time < 60 seconds (from uploaded history)",
+        tracks: barelyPlayed
+      });
+    }
+
+    // 2) Old favorites you haven't played in a while
+    const longAgoFavorites = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return false;
+      if (u.plays < 5) return false;
+      if (!u.lastPlayed) return false;
+
+      const last = new Date(u.lastPlayed);
+      if (Number.isNaN(last.getTime())) return false;
+
+      const now = new Date();
+      const diffDays = (now - last) / (1000 * 60 * 60 * 24);
+      return diffDays > 180; // > 6 months ago
+    });
+
+    if (longAgoFavorites.length >= 5) {
+      suggestions.push({
+        id: "usage-long-ago",
+        label: "Old Favorites (Not Played Recently)",
+        description:
+          "Tracks you used to listen to a lot but haven’t played in over 6 months.",
+        ruleDescription:
+          "plays ≥ 5 and lastPlayed > 6 months ago (from uploaded history)",
+        tracks: longAgoFavorites
+      });
+    }
+  }
+
   return suggestions;
 }
+
 
 async function fetchJson(path, options = {}) {
   const res = await fetch(path, {
@@ -148,6 +150,8 @@ function App() {
   // saved splits in localStorage
   const [savedSplits, setSavedSplits] = useState([]);
   const [error, setError] = useState("");
+  const [usageMap, setUsageMap] = useState(null); // { [trackId]: { plays, totalMs, lastPlayed } }
+
 
   // Load saved splits from localStorage on first mount
   useEffect(() => {
@@ -195,6 +199,83 @@ function App() {
     init();
   }, []);
 
+  // Handle user uploading StreamingHistory_music_*.json files
+  async function handleHistoryFilesSelected(e) {
+    const files = Array.from(e.target.files || []);
+    if (!files.length) return;
+
+    try {
+      const allEntries = [];
+
+      // Read & parse each selected JSON file
+      for (const file of files) {
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+        if (Array.isArray(parsed)) {
+          allEntries.push(...parsed);
+        }
+      }
+
+      // Build a usage map keyed by Spotify track ID
+      const map = {};
+
+      for (const entry of allEntries) {
+        // Different exports have slightly different field names; we try a few.
+        const uri =
+          entry.spotify_track_uri ||
+          entry.trackUri ||
+          entry.uri ||
+          null;
+
+        if (!uri || !uri.startsWith("spotify:track:")) continue;
+        const trackId = uri.split(":")[2];
+
+        const ms =
+          entry.msPlayed ??
+          entry.ms_played ??
+          entry.ms_played_in_interval ??
+          0;
+
+        const endTime = entry.endTime || entry.timestamp || null;
+
+        if (!map[trackId]) {
+          map[trackId] = {
+            plays: 0,
+            totalMs: 0,
+            lastPlayed: null
+          };
+        }
+
+        map[trackId].plays += 1;
+        map[trackId].totalMs += ms;
+
+        if (endTime) {
+          const currentLast = map[trackId].lastPlayed;
+          const newDate = new Date(endTime);
+          if (
+            !currentLast ||
+            (newDate instanceof Date &&
+              !Number.isNaN(newDate.getTime()) &&
+              newDate > new Date(currentLast))
+          ) {
+            map[trackId].lastPlayed = endTime;
+          }
+        }
+      }
+
+      setUsageMap(map);
+      alert(
+        "Advanced listening data loaded! We’ll use it to suggest barely-played and long-ago favorites."
+      );
+    } catch (err) {
+      console.error("Failed to parse history files:", err);
+      alert(
+        "Could not read those files. Make sure they are the StreamingHistory_music_*.json files from Spotify."
+      );
+    }
+  }
+
+
   const handleLogin = () => {
     window.location.href = `${API_BASE}/auth/login`;
   };
@@ -232,7 +313,7 @@ function App() {
       );
       const t = data.tracks || [];
       setTracks(t);
-      const s = buildSuggestions(t);
+      const s = buildSuggestions(t, usageMap);
       setSuggestions(s);
 
       // initialize selection: all tracks in each suggestion are selected by default
@@ -476,18 +557,54 @@ function App() {
           </section>
 
           <section className="content">
-            {!selectedPlaylist && (
-              <div className="card">
-                <h2>Select a playlist</h2>
-                <p>
-                  Choose a playlist on the left to analyze it and see suggested
-                  sub-playlists.
-                </p>
-              </div>
-            )}
+  
+          <div className="card advanced-card">
+            <div className="advanced-card-header">
+              <h2>Advanced listening data (optional)</h2>
+              {usageMap && (
+                <span className="pill pill-success">
+                  Data loaded
+                </span>
+              )}
+            </div>
+            <p>
+              For deeper cleanup suggestions, you can upload your Spotify{" "}
+              <strong>extended streaming history</strong> export. All processing
+              happens in your browser – nothing is sent to our server.
+            </p>
+            <ol className="advanced-steps">
+              <li>Go to your Spotify account &gt; Privacy &gt; Download your data.</li>
+              <li>Request your <em>extended streaming history</em>.</li>
+              <li>When Spotify emails the ZIP, unzip it on your computer.</li>
+              <li>
+                In the <code>MyData</code> folder, select the files named like{" "}
+                <code>StreamingHistory_music_0.json</code>,{" "}
+                <code>StreamingHistory_music_1.json</code>, etc.
+              </li>
+              <li>Upload them here:</li>
+            </ol>
+            <input
+              type="file"
+              multiple
+              accept=".json,application/json"
+              onChange={handleHistoryFilesSelected}
+            />
+          </div>
 
-            {selectedPlaylist && (
-              <>
+  {!selectedPlaylist && (
+    <div className="card">
+      <h2>Select a playlist</h2>
+      <p>
+        Choose a playlist on the left to analyze it and see suggested
+        sub-playlists.
+      </p>
+    </div>
+  )}
+
+  {selectedPlaylist && (
+    <>
+      {/* ... rest of your existing code ... */}
+
                 <div className="card">
                   <h2>{selectedPlaylist.name}</h2>
                   {loadingTracks && <p>Analyzing your playlist…</p>}
