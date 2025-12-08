@@ -80,16 +80,20 @@ app.get("/auth/login", (req, res) => {
   req.session.spotifyState = state;
 
   const scope = [
+    "user-read-email",
     "playlist-read-private",
-    "playlist-modify-private"
-  ].join(" ");
+    "playlist-modify-private",
+    "playlist-modify-public",
+    "user-library-read"
+  ].join(" ");;
 
   const params = querystring.stringify({
     response_type: "code",
     client_id: SPOTIFY_CLIENT_ID,
     scope,
     redirect_uri: SPOTIFY_REDIRECT_URI,
-    state
+    state,
+    show_dialog: "true"
   });
 
   res.redirect(`${SPOTIFY_AUTH_URL}?${params}`);
@@ -393,6 +397,61 @@ app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
     res.status(500).json({ error: "Failed to create playlist" });
   }
 });
+
+// 8. Remove tracks from an existing playlist
+// Remove specific tracks from a playlist the user owns
+app.post(
+  "/api/playlists/:id/remove-tracks",
+  requireSpotifyAuth,
+  async (req, res) => {
+    const accessToken = req.session.accessToken;
+    const playlistId = req.params.id;
+    const { trackIds } = req.body;
+
+    if (!Array.isArray(trackIds) || trackIds.length === 0) {
+      return res.status(400).json({ error: "No trackIds provided" });
+    }
+
+    const tracksPayload = trackIds.map((id) => ({
+      uri: `spotify:track:${id}`,
+    }));
+
+    try {
+      const spotifyRes = await fetch(
+        `https://api.spotify.com/v1/playlists/${playlistId}/tracks`,
+        {
+          method: "DELETE",
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ tracks: tracksPayload }),
+        }
+      );
+
+      const text = await spotifyRes.text();
+      console.error(
+        "Spotify remove-tracks response:",
+        spotifyRes.status,
+        text
+      );
+
+      if (!spotifyRes.ok) {
+        // Pass Spotify's status + message through so the frontend sees the right code
+        return res
+          .status(spotifyRes.status)
+          .json({ error: "Spotify remove-tracks failed", details: text });
+      }
+
+      return res.json({ ok: true });
+    } catch (err) {
+      console.error("Error calling Spotify remove-tracks:", err);
+      return res
+        .status(500)
+        .json({ error: "Internal server error removing tracks" });
+    }
+  }
+);
 
 // ----------------------------------------------------------
 

@@ -70,14 +70,13 @@ function buildSuggestions(tracks, usageMap) {
   }
 
   // ---------- ADVANCED: USAGE-BASED SPLITS ----------
-  // usageMap comes from StreamingHistory_music_*.json files
   if (usageMap) {
-    // 1) Barely played or never seen in your history
+    // 1) Barely played (your relaxed thresholds)
     const barelyPlayed = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return true; // never seen in your history at all
       const totalMs = u.totalMs ?? 0;
-      return u.plays <= 1 || totalMs < 60_000; // less than ~1 minute lifetime listening
+      return u.plays <= 15 || totalMs < 60_000 * 20; // ≤15 plays OR < 20 minutes total
     });
 
     if (barelyPlayed.length >= 5) {
@@ -85,14 +84,40 @@ function buildSuggestions(tracks, usageMap) {
         id: "usage-barely-played",
         label: "Barely Played Tracks",
         description:
-          "Songs from this playlist that you’ve almost never listened to in your Spotify history.",
+          "Songs from this playlist that you haven’t really spent time with yet.",
         ruleDescription:
-          "plays ≤ 1 or total listening time < 60 seconds (from uploaded history)",
+          "plays ≤ 15 or total listening time < 20 minutes (from uploaded history)",
         tracks: barelyPlayed
       });
     }
 
-    // 2) Old favorites you haven't played in a while
+    // 2) Frequently skipped
+    const frequentlySkipped = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return false;
+
+      const plays = u.plays || 0;
+      const skips = u.skips || 0;
+      if (plays < 3) return false;     // need at least a few plays
+      if (skips < 2) return false;     // and at least 2 skips
+
+      const skipRate = skips / plays;  // 0.0–1.0
+      return skipRate >= 0.5;          // skipped on at least half of plays
+    });
+
+    if (frequentlySkipped.length >= 3) {
+      suggestions.push({
+        id: "usage-frequently-skipped",
+        label: "Frequently Skipped Tracks",
+        description:
+          "Songs in this playlist that you skip a lot in your Spotify history.",
+        ruleDescription:
+          "plays ≥ 3, skips ≥ 2, and skip rate ≥ 50% (from uploaded history)",
+        tracks: frequentlySkipped
+      });
+    }
+
+    // 3) Old favorites you haven't played in a while
     const longAgoFavorites = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return false;
@@ -122,7 +147,6 @@ function buildSuggestions(tracks, usageMap) {
 
   return suggestions;
 }
-
 
 async function fetchJson(path, options = {}) {
   const res = await fetch(path, {
@@ -199,7 +223,24 @@ function App() {
     init();
   }, []);
 
+    // Recompute suggestions when advanced usage data is loaded
+  useEffect(() => {
+    if (!selectedPlaylist || !tracks.length || !usageMap) return;
+
+    const nextSuggestions = buildSuggestions(tracks, usageMap);
+    setSuggestions(nextSuggestions);
+
+    // Reset selection state to "all checked" for the updated suggestions
+    const initialSelection = {};
+    nextSuggestions.forEach((s) => {
+      initialSelection[s.id] = new Set(s.tracks.map((t) => t.id));
+    });
+    setSelectionBySuggestion(initialSelection);
+  }, [usageMap, selectedPlaylist, tracks]);
+
+
   // Handle user uploading StreamingHistory_music_*.json files
+    // Handle user uploading StreamingHistory_* files
   async function handleHistoryFilesSelected(e) {
     const files = Array.from(e.target.files || []);
     if (!files.length) return;
@@ -230,24 +271,39 @@ function App() {
         if (!uri || !uri.startsWith("spotify:track:")) continue;
         const trackId = uri.split(":")[2];
 
+        // Duration (covers both old + new exports)
         const ms =
           entry.msPlayed ??
           entry.ms_played ??
           entry.ms_played_in_interval ??
           0;
 
-        const endTime = entry.endTime || entry.timestamp || null;
+        // Time field:
+        // - older StreamingHistory_music: endTime / timestamp
+        // - newer Streaming_History_Audio: ts
+        const endTime =
+          entry.endTime ||
+          entry.timestamp ||
+          entry.ts ||
+          null;
 
         if (!map[trackId]) {
           map[trackId] = {
             plays: 0,
             totalMs: 0,
-            lastPlayed: null
+            lastPlayed: null,
+            skips: 0,
+            skipMs: 0
           };
         }
 
         map[trackId].plays += 1;
         map[trackId].totalMs += ms;
+
+        if (entry.skipped == true) {
+          map[trackId].skips += 1;
+          map[trackId].skipMs += ms;
+        }
 
         if (endTime) {
           const currentLast = map[trackId].lastPlayed;
@@ -263,17 +319,19 @@ function App() {
         }
       }
 
+      console.log("Unique tracks in usageMap:", Object.keys(map).length);
       setUsageMap(map);
       alert(
-        "Advanced listening data loaded! We’ll use it to suggest barely-played and long-ago favorites."
+        "Advanced listening data loaded! We'll use it to suggest barely-played and long-ago favorites."
       );
     } catch (err) {
       console.error("Failed to parse history files:", err);
       alert(
-        "Could not read those files. Make sure they are the StreamingHistory_music_*.json files from Spotify."
+        "Could not read those files. Make sure they are the StreamingHistory/Streaming_History JSON files from Spotify."
       );
     }
   }
+
 
 
   const handleLogin = () => {
@@ -390,6 +448,46 @@ function App() {
       alert("Failed to create playlist on Spotify.");
     }
   };
+    const handleRemoveTracksFromPlaylist = async (suggestion) => {
+    if (!selectedPlaylist) return;
+
+    const trackIds = getSelectedTrackIdsForSuggestion(suggestion);
+
+    if (!trackIds.length) {
+      alert("No tracks selected to remove.");
+      return;
+    }
+
+    const confirm = window.confirm(
+      `Remove ${trackIds.length} tracks from "${selectedPlaylist.name}" on Spotify? This can't be undone.`
+    );
+    if (!confirm) return;
+
+    try {
+      const res = await fetch(
+        `${API_BASE}/api/playlists/${selectedPlaylist.id}/remove-tracks`,
+        {
+          method: "POST",
+          credentials: "include",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ trackIds }),
+        }
+      );
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+
+      alert("Tracks removed from your playlist on Spotify.");
+
+      // Refresh the playlist data so UI updates
+      await handleSelectPlaylist(selectedPlaylist);
+    } catch (err) {
+      console.error(err);
+      alert("Failed to remove tracks from playlist.");
+    }
+  };
+
 
   // ----- Favorite split (save/unsave) -----------------
 
@@ -687,20 +785,30 @@ function App() {
                             <button
                               className="btn-secondary"
                               onClick={() =>
-                                setExpandedSuggestionId(
-                                  expanded ? null : s.id
-                                )
+                                setExpandedSuggestionId(expanded ? null : s.id)
                               }
                             >
                               {expanded ? "Hide tracks" : "View tracks"}
                             </button>
-                            <button
-                              className="btn-primary"
-                              onClick={() => handleCreatePlaylist(s)}
-                            >
-                              Create playlist on Spotify
-                            </button>
+
+                            {s.id === "usage-frequently-skipped" ? (
+                              <button
+                                className="btn-secondary"
+                                style={{ borderColor: "#ff4d4f", color: "#ff4d4f" }} // quick "danger" look
+                                onClick={() => handleRemoveTracksFromPlaylist(s)}
+                              >
+                                Remove from playlist
+                              </button>
+                            ) : (
+                              <button
+                                className="btn-primary"
+                                onClick={() => handleCreatePlaylist(s)}
+                              >
+                                Create playlist on Spotify
+                              </button>
+                            )}
                           </div>
+
                           {expanded && (
                             <div className="tracks-list">
                               {s.tracks.map((t) => {
