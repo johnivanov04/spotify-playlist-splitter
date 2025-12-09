@@ -6,7 +6,7 @@ const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 
 function buildSuggestions(tracks, usageMap) {
   const suggestions = [];
-  const minSize = 10; // minimum tracks for a suggestion
+  const minSize = 10; // minimum tracks for era/popularity suggestions
 
   // ---------- ERA / YEAR SPLITS ----------
   const hasYear = tracks.filter((t) => t.year);
@@ -71,58 +71,33 @@ function buildSuggestions(tracks, usageMap) {
 
   // ---------- ADVANCED: USAGE-BASED SPLITS ----------
   if (usageMap) {
-    // 1) Barely played (your relaxed thresholds)
+    // --- 1) Barely played / never seen ---
     const barelyPlayed = tracks.filter((t) => {
       const u = usageMap[t.id];
-      if (!u) return true; // never seen in your history at all
+      if (!u) return true; // no history at all
+      const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
-      return u.plays <= 15 || totalMs < 60_000 * 20; // ≤15 plays OR < 20 minutes total
+      return plays <= 3 || totalMs < 3 * 60_000; // ≤3 plays or <3 minutes total
     });
 
     if (barelyPlayed.length >= 5) {
       suggestions.push({
         id: "usage-barely-played",
-        label: "Barely Played Tracks",
+        label: "Barely played tracks",
         description:
-          "Songs from this playlist that you haven’t really spent time with yet.",
+          "Songs from this playlist that you’ve almost never listened to in your Spotify history.",
         ruleDescription:
-          "plays ≤ 15 or total listening time < 20 minutes (from uploaded history)",
+          "plays ≤ 3 or total listening time < 3 minutes (from uploaded history)",
         tracks: barelyPlayed
       });
     }
 
-    // 2) Frequently skipped
-    const frequentlySkipped = tracks.filter((t) => {
-      const u = usageMap[t.id];
-      if (!u) return false;
-
-      const plays = u.plays || 0;
-      const skips = u.skips || 0;
-      if (plays < 3) return false;     // need at least a few plays
-      if (skips < 2) return false;     // and at least 2 skips
-
-      const skipRate = skips / plays;  // 0.0–1.0
-      return skipRate >= 0.5;          // skipped on at least half of plays
-    });
-
-    if (frequentlySkipped.length >= 3) {
-      suggestions.push({
-        id: "usage-frequently-skipped",
-        label: "Frequently Skipped Tracks",
-        description:
-          "Songs in this playlist that you skip a lot in your Spotify history.",
-        ruleDescription:
-          "plays ≥ 3, skips ≥ 2, and skip rate ≥ 50% (from uploaded history)",
-        tracks: frequentlySkipped
-      });
-    }
-
-    // 3) Old favorites you haven't played in a while
+    // --- 2) Old favorites not played recently ---
     const longAgoFavorites = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return false;
-      if (u.plays < 5) return false;
-      if (!u.lastPlayed) return false;
+      const plays = u.plays ?? 0;
+      if (plays < 5 || !u.lastPlayed) return false;
 
       const last = new Date(u.lastPlayed);
       if (Number.isNaN(last.getTime())) return false;
@@ -135,7 +110,7 @@ function buildSuggestions(tracks, usageMap) {
     if (longAgoFavorites.length >= 5) {
       suggestions.push({
         id: "usage-long-ago",
-        label: "Old Favorites (Not Played Recently)",
+        label: "Old favorites (not played recently)",
         description:
           "Tracks you used to listen to a lot but haven’t played in over 6 months.",
         ruleDescription:
@@ -143,10 +118,144 @@ function buildSuggestions(tracks, usageMap) {
         tracks: longAgoFavorites
       });
     }
+
+    // --- 3) Frequently skipped tracks (you already use this for removal) ---
+    const frequentlySkipped = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return false;
+      const plays = u.plays ?? 0;
+      const skips = u.skips ?? 0;
+      if (plays < 3 || skips < 2) return false;
+      const skipRate = skips / plays;
+      return skipRate >= 0.5;
+    });
+
+    if (frequentlySkipped.length >= 3) {
+      suggestions.push({
+        id: "usage-frequently-skipped",
+        label: "Frequently skipped tracks",
+        description:
+          "Songs in this playlist that you skip a lot in your Spotify history.",
+        ruleDescription:
+          "skips ≥ 2 and skip rate ≥ 50% of plays (from uploaded history)",
+        tracks: frequentlySkipped
+      });
+    }
+
+    // --- 4) CORE FAVORITES (high plays & time) ---
+    const coreFavorites = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return false;
+      const plays = u.plays ?? 0;
+      const totalMs = u.totalMs ?? 0;
+      // tweak thresholds if you want more/less strict
+      return plays >= 25 && totalMs >= 30 * 60_000; // ≥25 plays & ≥30 minutes
+    });
+
+    if (coreFavorites.length >= 5) {
+      suggestions.push({
+        id: "usage-core-favorites",
+        label: "Core favorites",
+        description:
+          "The tracks you really live in – high plays and lots of listening time.",
+        ruleDescription:
+          "plays ≥ 25 and total listening ≥ 30 minutes (from uploaded history)",
+        tracks: coreFavorites
+      });
+    }
+
+    // --- 5) TOURISTS / PADDING (low plays & time) ---
+    const tourists = tracks.filter((t) => {
+      const u = usageMap[t.id];
+      if (!u) return true; // no history → basically a tourist
+      const plays = u.plays ?? 0;
+      const totalMs = u.totalMs ?? 0;
+      return plays <= 2 && totalMs <= 2 * 60_000; // ≤2 plays & ≤2 minutes
+    });
+
+    if (tourists.length >= 5) {
+      suggestions.push({
+        id: "usage-tourists",
+        label: "Tourists / padding",
+        description:
+          "Tracks that rarely get listened to – good candidates for cleanup or a backup playlist.",
+        ruleDescription:
+          "plays ≤ 2 and total listening ≤ 2 minutes (from uploaded history)",
+        tracks: tourists
+      });
+    }
   }
 
   return suggestions;
 }
+
+function computePlaylistHealth(tracks, usageMap) {
+  if (!usageMap || !tracks || tracks.length === 0) return null;
+
+  const now = new Date();
+  let neverPlayedCount = 0;
+  let frequentlySkippedCount = 0;
+  const playsList = [];
+  const lastPlayAges = [];
+
+  for (const t of tracks) {
+    const u = usageMap[t.id];
+    const plays = u?.plays ?? 0;
+    const skips = u?.skips ?? 0;
+
+    if (!u || plays === 0) {
+      neverPlayedCount += 1;
+    }
+
+    if (u) {
+      // reuse same "frequently skipped" thresholds as above
+      const skipRate = plays > 0 ? skips / plays : 0;
+      if (plays >= 3 && skips >= 2 && skipRate >= 0.5) {
+        frequentlySkippedCount += 1;
+      }
+
+      playsList.push(plays);
+
+      if (u.lastPlayed) {
+        const d = new Date(u.lastPlayed);
+        if (!Number.isNaN(d.getTime())) {
+          const ageDays = (now - d) / (1000 * 60 * 60 * 24);
+          if (ageDays >= 0) lastPlayAges.push(ageDays);
+        }
+      }
+    } else {
+      playsList.push(0);
+    }
+  }
+
+  const total = tracks.length || 1;
+  const neverPlayedPct = (neverPlayedCount / total) * 100;
+  const frequentlySkippedPct = (frequentlySkippedCount / total) * 100;
+
+  // median plays
+  playsList.sort((a, b) => a - b);
+  let medianPlays = 0;
+  if (playsList.length) {
+    const mid = Math.floor(playsList.length / 2);
+    medianPlays =
+      playsList.length % 2 === 0
+        ? (playsList[mid - 1] + playsList[mid]) / 2
+        : playsList[mid];
+  }
+
+  const avgLastPlayAgeDays = lastPlayAges.length
+    ? lastPlayAges.reduce((sum, v) => sum + v, 0) / lastPlayAges.length
+    : null;
+
+  return {
+    neverPlayedPct: Math.round(neverPlayedPct),
+    frequentlySkippedPct: Math.round(frequentlySkippedPct),
+    medianPlays: Math.round(medianPlays),
+    avgLastPlayAgeDays:
+      avgLastPlayAgeDays !== null ? Math.round(avgLastPlayAgeDays) : null
+  };
+}
+
 
 async function fetchJson(path, options = {}) {
   const res = await fetch(path, {
@@ -175,6 +284,7 @@ function App() {
   const [savedSplits, setSavedSplits] = useState([]);
   const [error, setError] = useState("");
   const [usageMap, setUsageMap] = useState(null); // { [trackId]: { plays, totalMs, lastPlayed } }
+  const health = usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
 
 
   // Load saved splits from localStorage on first mount
@@ -705,9 +815,9 @@ function App() {
 
   {selectedPlaylist && (
     <>
-      {/* ... rest of your existing code ... */}
 
                 <div className="card">
+                  
                   <h2>{selectedPlaylist.name}</h2>
                   {loadingTracks && <p>Analyzing your playlist…</p>}
                   {!loadingTracks && !!tracks.length && (
@@ -723,6 +833,26 @@ function App() {
                   )}
                   {error && <p className="error">{error}</p>}
                 </div>
+
+                {usageMap && tracks.length > 0 && health && (
+                  <div className="card health-card">
+                    <h3>Playlist health</h3>
+                    <p className="health-summary">
+                      This playlist:{" "}
+                      <strong>{health.neverPlayedPct}%</strong> never played ·{" "}
+                      <strong>{health.frequentlySkippedPct}%</strong> frequently skipped ·{" "}
+                      median plays <strong>{health.medianPlays}</strong>
+                      {health.avgLastPlayAgeDays !== null && (
+                        <>
+                          {" "}
+                          · average last play{" "}
+                          <strong>{health.avgLastPlayAgeDays} days</strong> ago
+                        </>
+                      )}
+                    </p>
+                  </div>
+                )}
+
 
                 {!loadingTracks &&
                   suggestions.length === 0 &&
