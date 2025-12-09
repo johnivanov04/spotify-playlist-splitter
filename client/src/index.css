@@ -617,3 +617,19 @@ body {
     gap: 1rem;
   }
 }
+
+.dismiss-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-subdued);
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  margin-left: 0.4rem;
+}
+
+.dismiss-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}

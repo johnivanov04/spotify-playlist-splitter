@@ -281,6 +281,11 @@ function App() {
   const health =
     usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
 
+  // which suggestion cards the user has manually hidden
+  const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(
+    () => new Set()
+  );
+
   // Load saved splits from localStorage on first mount
   useEffect(() => {
     try {
@@ -333,6 +338,7 @@ function App() {
 
     const nextSuggestions = buildSuggestions(tracks, usageMap);
     setSuggestions(nextSuggestions);
+    setDismissedSuggestionIds(new Set());
 
     const initialSelection = {};
     nextSuggestions.forEach((s) => {
@@ -438,6 +444,7 @@ function App() {
       setSelectionBySuggestion({});
       setExpandedSuggestionId(null);
       setError("");
+      setDismissedSuggestionIds(new Set());
     }
   };
 
@@ -448,6 +455,7 @@ function App() {
     setError("");
     setExpandedSuggestionId(null);
     setSelectionBySuggestion({});
+    setDismissedSuggestionIds(new Set());
 
     try {
       setLoadingTracks(true);
@@ -484,6 +492,14 @@ function App() {
         nextSet.add(trackId);
       }
       return { ...prev, [suggestionId]: nextSet };
+    });
+  };
+
+  const handleDismissSuggestion = (suggestionId) => {
+    setDismissedSuggestionIds((prev) => {
+      const next = new Set(prev);
+      next.add(suggestionId);
+      return next;
     });
   };
 
@@ -635,6 +651,9 @@ function App() {
   };
 
   const loggedIn = !!user;
+  const visibleSuggestions = suggestions.filter(
+    (s) => !dismissedSuggestionIds.has(s.id)
+  );
 
   return (
     <div className="app-root">
@@ -838,9 +857,24 @@ function App() {
                       </div>
                     )}
 
-                  {!loadingTracks && suggestions.length > 0 && (
+                  {/* All suggestions exist, but user hid them all */}
+                  {!loadingTracks &&
+                    visibleSuggestions.length === 0 &&
+                    suggestions.length > 0 && (
+                      <div className="card">
+                        <h3>All suggestions hidden</h3>
+                        <p>
+                          You&apos;ve hidden all auto-splits for this playlist.
+                          Select another playlist or reload the page to reset
+                          them.
+                        </p>
+                      </div>
+                    )}
+
+                  {/* Normal case: show only non-dismissed suggestions */}
+                  {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
-                      {suggestions.map((s) => {
+                      {visibleSuggestions.map((s) => {
                         const expanded = expandedSuggestionId === s.id;
                         const selectedSet = selectionBySuggestion[s.id];
                         const isSaved = savedSplits.some(
@@ -859,6 +893,7 @@ function App() {
                                 </p>
                               </div>
                               <div className="suggestion-header-right">
+                                {/* Save / unsave */}
                                 <button
                                   className={
                                     isSaved ? "star-btn starred" : "star-btn"
@@ -872,14 +907,26 @@ function App() {
                                 >
                                   {isSaved ? "★" : "☆"}
                                 </button>
+
                                 <span className="count-pill">
                                   {s.tracks.length} tracks
                                 </span>
+
+                                {/* Dismiss button */}
+                                <button
+                                  className="dismiss-btn"
+                                  onClick={() => handleDismissSuggestion(s.id)}
+                                  title="Hide this suggestion"
+                                >
+                                  ✕
+                                </button>
                               </div>
                             </div>
+
                             <p className="rule-text">
                               Rule: <code>{s.ruleDescription}</code>
                             </p>
+
                             <div className="suggestion-actions">
                               <button
                                 className="btn-secondary"
