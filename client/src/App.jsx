@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 
-
 function buildSuggestions(tracks, usageMap) {
   const suggestions = [];
   const minSize = 10; // minimum tracks for era/popularity suggestions
@@ -20,7 +19,7 @@ function buildSuggestions(tracks, usageMap) {
       label: "Old School (≤ 2005)",
       description: "Tracks from earlier eras in your playlist.",
       ruleDescription: "year ≤ 2005",
-      tracks: oldSchool
+      tracks: oldSchool,
     });
   }
   if (mid.length >= minSize) {
@@ -29,7 +28,7 @@ function buildSuggestions(tracks, usageMap) {
       label: "2006–2015",
       description: "Tracks released between 2006 and 2015.",
       ruleDescription: "2006 ≤ year ≤ 2015",
-      tracks: mid
+      tracks: mid,
     });
   }
   if (newer.length >= minSize) {
@@ -38,7 +37,7 @@ function buildSuggestions(tracks, usageMap) {
       label: "Recent (2016+)",
       description: "More recent additions to your playlist.",
       ruleDescription: "year ≥ 2016",
-      tracks: newer
+      tracks: newer,
     });
   }
 
@@ -56,7 +55,7 @@ function buildSuggestions(tracks, usageMap) {
       label: "Hits / Mainstream",
       description: "More popular tracks from your playlist.",
       ruleDescription: "popularity ≥ 70",
-      tracks: hits
+      tracks: hits,
     });
   }
   if (deepCuts.length >= minSize) {
@@ -65,13 +64,13 @@ function buildSuggestions(tracks, usageMap) {
       label: "Deeper Cuts",
       description: "Less popular tracks you might forget about.",
       ruleDescription: "popularity ≤ 40",
-      tracks: deepCuts
+      tracks: deepCuts,
     });
   }
 
   // ---------- ADVANCED: USAGE-BASED SPLITS ----------
   if (usageMap) {
-    // --- 1) Barely played / never seen ---
+    // 1) Barely played / never seen
     const barelyPlayed = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return true; // no history at all
@@ -88,11 +87,11 @@ function buildSuggestions(tracks, usageMap) {
           "Songs from this playlist that you’ve almost never listened to in your Spotify history.",
         ruleDescription:
           "plays ≤ 3 or total listening time < 3 minutes (from uploaded history)",
-        tracks: barelyPlayed
+        tracks: barelyPlayed,
       });
     }
 
-    // --- 2) Old favorites not played recently ---
+    // 2) Old favorites not played recently
     const longAgoFavorites = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return false;
@@ -115,11 +114,11 @@ function buildSuggestions(tracks, usageMap) {
           "Tracks you used to listen to a lot but haven’t played in over 6 months.",
         ruleDescription:
           "plays ≥ 5 and lastPlayed > 6 months ago (from uploaded history)",
-        tracks: longAgoFavorites
+        tracks: longAgoFavorites,
       });
     }
 
-    // --- 3) Frequently skipped tracks (you already use this for removal) ---
+    // 3) Frequently skipped tracks
     const frequentlySkipped = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return false;
@@ -138,17 +137,16 @@ function buildSuggestions(tracks, usageMap) {
           "Songs in this playlist that you skip a lot in your Spotify history.",
         ruleDescription:
           "skips ≥ 2 and skip rate ≥ 50% of plays (from uploaded history)",
-        tracks: frequentlySkipped
+        tracks: frequentlySkipped,
       });
     }
 
-    // --- 4) CORE FAVORITES (high plays & time) ---
+    // 4) Core favorites (high plays & time)
     const coreFavorites = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return false;
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
-      // tweak thresholds if you want more/less strict
       return plays >= 25 && totalMs >= 30 * 60_000; // ≥25 plays & ≥30 minutes
     });
 
@@ -160,11 +158,11 @@ function buildSuggestions(tracks, usageMap) {
           "The tracks you really live in – high plays and lots of listening time.",
         ruleDescription:
           "plays ≥ 25 and total listening ≥ 30 minutes (from uploaded history)",
-        tracks: coreFavorites
+        tracks: coreFavorites,
       });
     }
 
-    // --- 5) TOURISTS / PADDING (low plays & time) ---
+    // 5) Tourists / padding (low plays & time)
     const tourists = tracks.filter((t) => {
       const u = usageMap[t.id];
       if (!u) return true; // no history → basically a tourist
@@ -181,7 +179,7 @@ function buildSuggestions(tracks, usageMap) {
           "Tracks that rarely get listened to – good candidates for cleanup or a backup playlist.",
         ruleDescription:
           "plays ≤ 2 and total listening ≤ 2 minutes (from uploaded history)",
-        tracks: tourists
+        tracks: tourists,
       });
     }
   }
@@ -208,7 +206,6 @@ function computePlaylistHealth(tracks, usageMap) {
     }
 
     if (u) {
-      // reuse same "frequently skipped" thresholds as above
       const skipRate = plays > 0 ? skips / plays : 0;
       if (plays >= 3 && skips >= 2 && skipRate >= 0.5) {
         frequentlySkippedCount += 1;
@@ -232,7 +229,6 @@ function computePlaylistHealth(tracks, usageMap) {
   const neverPlayedPct = (neverPlayedCount / total) * 100;
   const frequentlySkippedPct = (frequentlySkippedCount / total) * 100;
 
-  // median plays
   playsList.sort((a, b) => a - b);
   let medianPlays = 0;
   if (playsList.length) {
@@ -252,15 +248,14 @@ function computePlaylistHealth(tracks, usageMap) {
     frequentlySkippedPct: Math.round(frequentlySkippedPct),
     medianPlays: Math.round(medianPlays),
     avgLastPlayAgeDays:
-      avgLastPlayAgeDays !== null ? Math.round(avgLastPlayAgeDays) : null
+      avgLastPlayAgeDays !== null ? Math.round(avgLastPlayAgeDays) : null,
   };
 }
-
 
 async function fetchJson(path, options = {}) {
   const res = await fetch(path, {
     credentials: "include",
-    ...options
+    ...options,
   });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`);
@@ -278,14 +273,13 @@ function App() {
   const [loadingTracks, setLoadingTracks] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
   const [expandedSuggestionId, setExpandedSuggestionId] = useState(null);
-  // suggestionId -> Set of selected trackIds
   const [selectionBySuggestion, setSelectionBySuggestion] = useState({});
-  // saved splits in localStorage
   const [savedSplits, setSavedSplits] = useState([]);
   const [error, setError] = useState("");
-  const [usageMap, setUsageMap] = useState(null); // { [trackId]: { plays, totalMs, lastPlayed } }
-  const health = usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
+  const [usageMap, setUsageMap] = useState(null); // { [trackId]: { plays, totalMs, lastPlayed, skips } }
 
+  const health =
+    usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
 
   // Load saved splits from localStorage on first mount
   useEffect(() => {
@@ -333,14 +327,13 @@ function App() {
     init();
   }, []);
 
-    // Recompute suggestions when advanced usage data is loaded
+  // Recompute suggestions when advanced usage data is loaded
   useEffect(() => {
     if (!selectedPlaylist || !tracks.length || !usageMap) return;
 
     const nextSuggestions = buildSuggestions(tracks, usageMap);
     setSuggestions(nextSuggestions);
 
-    // Reset selection state to "all checked" for the updated suggestions
     const initialSelection = {};
     nextSuggestions.forEach((s) => {
       initialSelection[s.id] = new Set(s.tracks.map((t) => t.id));
@@ -348,9 +341,7 @@ function App() {
     setSelectionBySuggestion(initialSelection);
   }, [usageMap, selectedPlaylist, tracks]);
 
-
-  // Handle user uploading StreamingHistory_music_*.json files
-    // Handle user uploading StreamingHistory_* files
+  // Handle user uploading StreamingHistory_* files
   async function handleHistoryFilesSelected(e) {
     const files = Array.from(e.target.files || []);
     if (!files.length) return;
@@ -358,7 +349,6 @@ function App() {
     try {
       const allEntries = [];
 
-      // Read & parse each selected JSON file
       for (const file of files) {
         const text = await file.text();
         const parsed = JSON.parse(text);
@@ -367,35 +357,22 @@ function App() {
         }
       }
 
-      // Build a usage map keyed by Spotify track ID
       const map = {};
 
       for (const entry of allEntries) {
-        // Different exports have slightly different field names; we try a few.
         const uri =
-          entry.spotify_track_uri ||
-          entry.trackUri ||
-          entry.uri ||
-          null;
+          entry.spotify_track_uri || entry.trackUri || entry.uri || null;
 
         if (!uri || !uri.startsWith("spotify:track:")) continue;
         const trackId = uri.split(":")[2];
 
-        // Duration (covers both old + new exports)
         const ms =
           entry.msPlayed ??
           entry.ms_played ??
           entry.ms_played_in_interval ??
           0;
 
-        // Time field:
-        // - older StreamingHistory_music: endTime / timestamp
-        // - newer Streaming_History_Audio: ts
-        const endTime =
-          entry.endTime ||
-          entry.timestamp ||
-          entry.ts ||
-          null;
+        const endTime = entry.endTime || entry.timestamp || entry.ts || null;
 
         if (!map[trackId]) {
           map[trackId] = {
@@ -403,14 +380,14 @@ function App() {
             totalMs: 0,
             lastPlayed: null,
             skips: 0,
-            skipMs: 0
+            skipMs: 0,
           };
         }
 
         map[trackId].plays += 1;
         map[trackId].totalMs += ms;
 
-        if (entry.skipped == true) {
+        if (entry.skipped === true) {
           map[trackId].skips += 1;
           map[trackId].skipMs += ms;
         }
@@ -442,8 +419,6 @@ function App() {
     }
   }
 
-
-
   const handleLogin = () => {
     window.location.href = `${API_BASE}/auth/login`;
   };
@@ -452,7 +427,7 @@ function App() {
     try {
       await fetch(`${API_BASE}/auth/logout`, {
         method: "POST",
-        credentials: "include"
+        credentials: "include",
       });
     } finally {
       setUser(null);
@@ -484,7 +459,6 @@ function App() {
       const s = buildSuggestions(t, usageMap);
       setSuggestions(s);
 
-      // initialize selection: all tracks in each suggestion are selected by default
       const initialSelection = {};
       s.forEach((suggestion) => {
         initialSelection[suggestion.id] = new Set(
@@ -516,7 +490,6 @@ function App() {
   const getSelectedTrackIdsForSuggestion = (suggestion) => {
     const selectedSet = selectionBySuggestion[suggestion.id];
     if (!selectedSet || selectedSet.size === 0) {
-      // fallback: treat as all tracks selected
       return suggestion.tracks.map((t) => t.id);
     }
     return suggestion.tracks
@@ -536,14 +509,14 @@ function App() {
       const body = {
         name: suggestion.label,
         description: `Generated by Playlist Splitter from "${selectedPlaylist.name}"`,
-        trackIds
+        trackIds,
       };
 
       const res = await fetch(`${API_BASE}/api/playlists`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
       });
 
       if (!res.ok) {
@@ -558,7 +531,8 @@ function App() {
       alert("Failed to create playlist on Spotify.");
     }
   };
-    const handleRemoveTracksFromPlaylist = async (suggestion) => {
+
+  const handleRemoveTracksFromPlaylist = async (suggestion) => {
     if (!selectedPlaylist) return;
 
     const trackIds = getSelectedTrackIdsForSuggestion(suggestion);
@@ -589,8 +563,6 @@ function App() {
       }
 
       alert("Tracks removed from your playlist on Spotify.");
-
-      // Refresh the playlist data so UI updates
       await handleSelectPlaylist(selectedPlaylist);
     } catch (err) {
       console.error(err);
@@ -598,9 +570,7 @@ function App() {
     }
   };
 
-
   // ----- Favorite split (save/unsave) -----------------
-
   const handleToggleSaveSuggestion = (suggestion) => {
     if (!selectedPlaylist) return;
     const key = `${selectedPlaylist.id}::${suggestion.id}`;
@@ -608,7 +578,6 @@ function App() {
     setSavedSplits((prev) => {
       const existing = prev.find((s) => s.key === key);
       if (existing) {
-        // un-save
         return prev.filter((s) => s.key !== key);
       }
 
@@ -622,7 +591,7 @@ function App() {
         label: suggestion.label,
         ruleDescription: suggestion.ruleDescription,
         trackIds,
-        createdAt: Date.now()
+        createdAt: Date.now(),
       };
       return [...prev, newSplit];
     });
@@ -642,14 +611,14 @@ function App() {
       const body = {
         name: split.label,
         description: `Saved split from "${split.playlistName}"`,
-        trackIds: split.trackIds
+        trackIds: split.trackIds,
       };
 
       const res = await fetch(`${API_BASE}/api/playlists`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
       });
 
       if (!res.ok) {
@@ -690,7 +659,7 @@ function App() {
         </header>
       )}
 
-      {/* 2. New Landing Page Layout */}
+      {/* 2. Landing Page */}
       {!loggedIn && (
         <div className="landing-layout">
           <div className="landing-card">
@@ -699,16 +668,15 @@ function App() {
               Take one big Spotify playlist and split it into smaller,
               vibe-based sub-playlists automatically.
             </p>
-            
-            <button 
-              className="btn-primary btn-login-large" 
+
+            <button
+              className="btn-primary btn-login-large"
               onClick={handleLogin}
             >
               LOG IN WITH SPOTIFY
             </button>
           </div>
 
-          {/* Features Grid for visual balance */}
           <div className="features-grid">
             <div className="feature-item">
               <div className="feature-icon">✨</div>
@@ -726,7 +694,7 @@ function App() {
         </div>
       )}
 
-      {/* 3. Main Dashboard (unchanged logic, just kept inside the check) */}
+      {/* 3. Main Dashboard */}
       {loggedIn && (
         <main className="layout">
           <section className="sidebar">
@@ -755,9 +723,7 @@ function App() {
                   )}
                   <div>
                     <div className="playlist-name">{pl.name}</div>
-                    <div className="playlist-meta">
-                      {pl.tracksTotal} tracks
-                    </div>
+                    <div className="playlist-meta">{pl.tracksTotal} tracks</div>
                   </div>
                 </li>
               ))}
@@ -765,59 +731,61 @@ function App() {
           </section>
 
           <section className="content">
-  
-          <div className="card advanced-card">
-            <div className="advanced-card-header">
-              <h2>Advanced listening data (optional)</h2>
-              {usageMap && (
-                <span className="pill pill-success">
-                  Data loaded
-                </span>
-              )}
+            {/* Advanced history upload card */}
+            <div className="card advanced-card">
+              <div className="advanced-card-header">
+                <h2>Advanced listening data (optional)</h2>
+                {usageMap && <span className="pill pill-success">Data loaded</span>}
+              </div>
+              <p>
+                For deeper cleanup suggestions, you can upload your Spotify{" "}
+                <strong>extended streaming history</strong> export. All processing
+                happens in your browser – nothing is sent to our server.
+              </p>
+              <details className="advanced-details">
+                <summary>How do I get this from Spotify?</summary>
+                <ol className="advanced-steps">
+                  <li>
+                    Go to your Spotify account &gt; Privacy &gt; Download your
+                    data.
+                  </li>
+                  <li>
+                    Request your <em>extended streaming history</em>.
+                  </li>
+                  <li>
+                    When Spotify emails the ZIP, unzip it on your computer.
+                  </li>
+                  <li>
+                    In the <code>MyData</code> folder, select the files named
+                    like <code>StreamingHistory_music_0.json</code>,{" "}
+                    <code>StreamingHistory_music_1.json</code>, etc.
+                  </li>
+                  <li>Upload them here:</li>
+                </ol>
+              </details>
+
+              <input
+                type="file"
+                multiple
+                accept=".json,application/json"
+                onChange={handleHistoryFilesSelected}
+              />
             </div>
-            <p>
-              For deeper cleanup suggestions, you can upload your Spotify{" "}
-              <strong>extended streaming history</strong> export. All processing
-              happens in your browser – nothing is sent to our server.
-            </p>
-            <details className="advanced-details">
-            <summary>How do I get this from Spotify?</summary>
-            <ol className="advanced-steps">
-              <li>Go to your Spotify account &gt; Privacy &gt; Download your data.</li>
-              <li>Request your <em>extended streaming history</em>.</li>
-              <li>When Spotify emails the ZIP, unzip it on your computer.</li>
-              <li>
-                In the <code>MyData</code> folder, select the files named like{" "}
-                <code>StreamingHistory_music_0.json</code>,{" "}
-                <code>StreamingHistory_music_1.json</code>, etc.
-              </li>
-              <li>Upload them here:</li>
-            </ol>
-          </details>
 
-          <input
-            type="file"
-            multiple
-            accept=".json,application/json"
-            onChange={handleHistoryFilesSelected}
-          />
-          </div>
+            {!selectedPlaylist && (
+              <div className="card">
+                <h2>Select a playlist</h2>
+                <p>
+                  Choose a playlist on the left to analyze it and see suggested
+                  sub-playlists.
+                </p>
+              </div>
+            )}
 
-  {!selectedPlaylist && (
-    <div className="card">
-      <h2>Select a playlist</h2>
-      <p>
-        Choose a playlist on the left to analyze it and see suggested
-        sub-playlists.
-      </p>
-    </div>
-  )}
-
-  {selectedPlaylist && (
-    <>
-
+            {selectedPlaylist && (
+              <>
+                {/* Playlist header card */}
                 <div className="card">
-                  
                   <h2>{selectedPlaylist.name}</h2>
                   {loadingTracks && <p>Analyzing your playlist…</p>}
                   {!loadingTracks && !!tracks.length && (
@@ -826,22 +794,24 @@ function App() {
                         Tracks analyzed: <strong>{tracks.length}</strong>
                       </p>
                       <p className="hint">
-                        Suggestions below are based on era, energy/mood, and
-                        popularity.
+                        Suggestions below are based on era, energy/mood,
+                        popularity, and your listening history.
                       </p>
                     </>
                   )}
                   {error && <p className="error">{error}</p>}
                 </div>
 
+                {/* Playlist health card */}
                 {usageMap && tracks.length > 0 && health && (
                   <div className="card health-card">
                     <h3>Playlist health</h3>
                     <p className="health-summary">
                       This playlist:{" "}
                       <strong>{health.neverPlayedPct}%</strong> never played ·{" "}
-                      <strong>{health.frequentlySkippedPct}%</strong> frequently skipped ·{" "}
-                      median plays <strong>{health.medianPlays}</strong>
+                      <strong>{health.frequentlySkippedPct}%</strong> frequently
+                      skipped · median plays{" "}
+                      <strong>{health.medianPlays}</strong>
                       {health.avgLastPlayAgeDays !== null && (
                         <>
                           {" "}
@@ -853,207 +823,219 @@ function App() {
                   </div>
                 )}
 
+                {/* Scrollable suggestions + saved splits */}
+                <div className="content-scroll">
+                  {!loadingTracks &&
+                    suggestions.length === 0 &&
+                    tracks.length > 0 && (
+                      <div className="card">
+                        <h3>No strong groupings found</h3>
+                        <p>
+                          We couldn&apos;t find big enough clusters by year,
+                          energy, or popularity. Try another playlist or we can
+                          add adjustable thresholds later.
+                        </p>
+                      </div>
+                    )}
 
-                {!loadingTracks &&
-                  suggestions.length === 0 &&
-                  tracks.length > 0 && (
-                    <div className="card">
-                      <h3>No strong groupings found</h3>
-                      <p>
-                        We couldn&apos;t find big enough clusters by year,
-                        energy, or popularity. Try another playlist or we can
-                        add adjustable thresholds later.
-                      </p>
+                  {!loadingTracks && suggestions.length > 0 && (
+                    <div className="suggestions-grid">
+                      {suggestions.map((s) => {
+                        const expanded = expandedSuggestionId === s.id;
+                        const selectedSet = selectionBySuggestion[s.id];
+                        const isSaved = savedSplits.some(
+                          (split) =>
+                            split.playlistId === selectedPlaylist.id &&
+                            split.suggestionId === s.id
+                        );
+
+                        return (
+                          <article key={s.id} className="card suggestion-card">
+                            <div className="suggestion-header">
+                              <div>
+                                <h3>{s.label}</h3>
+                                <p className="suggestion-sub">
+                                  {s.description}
+                                </p>
+                              </div>
+                              <div className="suggestion-header-right">
+                                <button
+                                  className={
+                                    isSaved ? "star-btn starred" : "star-btn"
+                                  }
+                                  onClick={() => handleToggleSaveSuggestion(s)}
+                                  title={
+                                    isSaved
+                                      ? "Unsave this split"
+                                      : "Save this split"
+                                  }
+                                >
+                                  {isSaved ? "★" : "☆"}
+                                </button>
+                                <span className="count-pill">
+                                  {s.tracks.length} tracks
+                                </span>
+                              </div>
+                            </div>
+                            <p className="rule-text">
+                              Rule: <code>{s.ruleDescription}</code>
+                            </p>
+                            <div className="suggestion-actions">
+                              <button
+                                className="btn-secondary"
+                                onClick={() =>
+                                  setExpandedSuggestionId(
+                                    expanded ? null : s.id
+                                  )
+                                }
+                              >
+                                {expanded ? "Hide tracks" : "View tracks"}
+                              </button>
+
+                              {s.id === "usage-frequently-skipped" ? (
+                                <button
+                                  className="btn-secondary"
+                                  style={{
+                                    borderColor: "#ff4d4f",
+                                    color: "#ff4d4f",
+                                  }}
+                                  onClick={() =>
+                                    handleRemoveTracksFromPlaylist(s)
+                                  }
+                                >
+                                  Remove from playlist
+                                </button>
+                              ) : (
+                                <button
+                                  className="btn-primary"
+                                  onClick={() => handleCreatePlaylist(s)}
+                                >
+                                  Create playlist on Spotify
+                                </button>
+                              )}
+                            </div>
+
+                            {expanded && (
+                              <div className="tracks-list">
+                                {s.tracks.map((t) => {
+                                  const isSelected =
+                                    !selectedSet || selectedSet.has(t.id);
+                                  return (
+                                    <div
+                                      key={t.id}
+                                      className={
+                                        isSelected
+                                          ? "track-row"
+                                          : "track-row track-row--dim"
+                                      }
+                                    >
+                                      <label className="track-checkbox">
+                                        <input
+                                          type="checkbox"
+                                          checked={isSelected}
+                                          onChange={() =>
+                                            handleToggleTrack(s.id, t.id)
+                                          }
+                                        />
+                                      </label>
+                                      {t.imageUrl && (
+                                        <img
+                                          src={t.imageUrl}
+                                          alt={t.name}
+                                          className="track-cover"
+                                          style={{
+                                            width: 24,
+                                            height: 24,
+                                            borderRadius: 3,
+                                            marginRight: "0.5rem",
+                                          }}
+                                        />
+                                      )}
+                                      <div className="track-main">
+                                        <div className="track-title">
+                                          {t.name}
+                                        </div>
+                                        <div className="track-artist">
+                                          {t.artists?.join(", ")}
+                                        </div>
+                                        {t.spotifyUrl && (
+                                          <a
+                                            href={t.spotifyUrl}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="track-link"
+                                          >
+                                            Open in Spotify ↗
+                                          </a>
+                                        )}
+                                      </div>
+                                      <div className="track-meta">
+                                        {t.year && (
+                                          <span className="pill">{t.year}</span>
+                                        )}
+                                        {typeof t.energy === "number" && (
+                                          <span className="pill">
+                                            energy {t.energy.toFixed(2)}
+                                          </span>
+                                        )}
+                                        {typeof t.popularity === "number" && (
+                                          <span className="pill">
+                                            pop {t.popularity}
+                                          </span>
+                                        )}
+                                      </div>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </article>
+                        );
+                      })}
                     </div>
                   )}
 
-                {!loadingTracks && suggestions.length > 0 && (
-                  <div className="suggestions-grid">
-                    {suggestions.map((s) => {
-                      const expanded = expandedSuggestionId === s.id;
-                      const selectedSet = selectionBySuggestion[s.id];
-                      const isSaved = savedSplits.some(
-                        (split) =>
-                          split.playlistId === selectedPlaylist.id &&
-                          split.suggestionId === s.id
-                      );
-
-                      return (
-                        <article key={s.id} className="card suggestion-card">
-                          <div className="suggestion-header">
+                  {savedSplits.length > 0 && (
+                    <div className="card saved-splits-card">
+                      <h2>Saved splits</h2>
+                      <ul className="saved-splits-list">
+                        {savedSplits.map((split) => (
+                          <li key={split.key} className="saved-split-item">
                             <div>
-                              <h3>{s.label}</h3>
-                              <p className="suggestion-sub">
-                                {s.description}
-                              </p>
+                              <div className="saved-split-title">
+                                {split.label}
+                              </div>
+                              <div className="saved-split-meta">
+                                from{" "}
+                                <span className="saved-split-playlist">
+                                  {split.playlistName}
+                                </span>{" "}
+                                · {split.trackIds.length} tracks
+                              </div>
                             </div>
-                            <div className="suggestion-header-right">
-                              <button
-                                className={
-                                  isSaved ? "star-btn starred" : "star-btn"
-                                }
-                                onClick={() =>
-                                  handleToggleSaveSuggestion(s)
-                                }
-                                title={
-                                  isSaved
-                                    ? "Unsave this split"
-                                    : "Save this split"
-                                }
-                              >
-                                {isSaved ? "★" : "☆"}
-                              </button>
-                              <span className="count-pill">
-                                {s.tracks.length} tracks
-                              </span>
-                            </div>
-                          </div>
-                          <p className="rule-text">
-                            Rule: <code>{s.ruleDescription}</code>
-                          </p>
-                          <div className="suggestion-actions">
-                            <button
-                              className="btn-secondary"
-                              onClick={() =>
-                                setExpandedSuggestionId(expanded ? null : s.id)
-                              }
-                            >
-                              {expanded ? "Hide tracks" : "View tracks"}
-                            </button>
-
-                            {s.id === "usage-frequently-skipped" ? (
+                            <div className="saved-split-actions">
                               <button
                                 className="btn-secondary"
-                                style={{ borderColor: "#ff4d4f", color: "#ff4d4f" }} // quick "danger" look
-                                onClick={() => handleRemoveTracksFromPlaylist(s)}
+                                onClick={() => handleCreateSavedSplit(split)}
                               >
-                                Remove from playlist
+                                Create on Spotify
                               </button>
-                            ) : (
                               <button
-                                className="btn-primary"
-                                onClick={() => handleCreatePlaylist(s)}
+                                className="btn-secondary"
+                                onClick={() =>
+                                  handleRemoveSavedSplit(split.key)
+                                }
                               >
-                                Create playlist on Spotify
+                                Remove
                               </button>
-                            )}
-                          </div>
-
-                          {expanded && (
-                            <div className="tracks-list">
-                              {s.tracks.map((t) => {
-                                const isSelected =
-                                  !selectedSet || selectedSet.has(t.id);
-                                return (
-                                  <div
-                                    key={t.id}
-                                    className={
-                                      isSelected
-                                        ? "track-row"
-                                        : "track-row track-row--dim"
-                                    }
-                                  >
-                                    <label className="track-checkbox">
-                                      <input
-                                        type="checkbox"
-                                        checked={isSelected}
-                                        onChange={() =>
-                                          handleToggleTrack(s.id, t.id)
-                                        }
-                                      />
-                                    </label>
-                                    {t.imageUrl && (
-                                      <img
-                                        src={t.imageUrl}
-                                        alt={t.name}
-                                        className="track-cover"
-                                        style={{ width: 24, height: 24, borderRadius: 3, marginRight: '0.5rem' }}
-                                      />
-                                    )}
-                                    <div className="track-main">
-                                      <div className="track-title">
-                                        {t.name}
-                                      </div>
-                                      <div className="track-artist">
-                                        {t.artists?.join(", ")}
-                                      </div>
-                                      {t.spotifyUrl && (
-                                        <a
-                                          href={t.spotifyUrl}
-                                          target="_blank"
-                                          rel="noreferrer"
-                                          className="track-link"
-                                        >
-                                          Open in Spotify ↗
-                                        </a>
-                                      )}
-                                    </div>
-                                    <div className="track-meta">
-                                      {t.year && (
-                                        <span className="pill">
-                                          {t.year}
-                                        </span>
-                                      )}
-                                      {typeof t.energy === "number" && (
-                                        <span className="pill">
-                                          energy {t.energy.toFixed(2)}
-                                        </span>
-                                      )}
-                                      {typeof t.popularity === "number" && (
-                                        <span className="pill">
-                                          pop {t.popularity}
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-                                );
-                              })}
                             </div>
-                          )}
-                        </article>
-                      );
-                    })}
-                  </div>
-                )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
               </>
-            )}
-
-            {savedSplits.length > 0 && (
-              <div className="card saved-splits-card">
-                <h2>Saved splits</h2>
-                <ul className="saved-splits-list">
-                  {savedSplits.map((split) => (
-                    <li key={split.key} className="saved-split-item">
-                      <div>
-                        <div className="saved-split-title">
-                          {split.label}
-                        </div>
-                        <div className="saved-split-meta">
-                          from{" "}
-                          <span className="saved-split-playlist">
-                            {split.playlistName}
-                          </span>{" "}
-                          · {split.trackIds.length} tracks
-                        </div>
-                      </div>
-                      <div className="saved-split-actions">
-                        <button
-                          className="btn-secondary"
-                          onClick={() => handleCreateSavedSplit(split)}
-                        >
-                          Create on Spotify
-                        </button>
-                        <button
-                          className="btn-secondary"
-                          onClick={() => handleRemoveSavedSplit(split.key)}
-                        >
-                          Remove
-                        </button>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             )}
           </section>
         </main>
