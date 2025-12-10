@@ -633,3 +633,70 @@ body {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
 }
+
+.thresholds-card {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.thresholds-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.thresholds-preset select {
+  background: #000;
+  color: #fff;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+.thresholds-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.threshold-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.threshold-label {
+  font-weight: 600;
+}
+
+.threshold-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.threshold-controls input {
+  width: 3rem;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.15rem 0.25rem;
+}
+
+/* Tiny "X" button to dismiss a suggestion */
+.dismiss-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-subdued);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 0.25rem;
+}
+
+.dismiss-btn:hover {
+  color: #ffffff;
+}
