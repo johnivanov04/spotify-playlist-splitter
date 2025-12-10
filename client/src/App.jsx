@@ -2,10 +2,47 @@ import { useEffect, useState } from "react";
 
 const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
+const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 
-function buildSuggestions(tracks, usageMap) {
+const DEFAULT_THRESHOLDS = {
+  barelyPlayed: { maxPlays: 3, maxMinutes: 3 },
+  tourists: { maxPlays: 2, maxMinutes: 2 },
+  coreFavorites: { minPlays: 25, minMinutes: 30 },
+};
+
+const PRESET_THRESHOLDS = {
+  balanced: DEFAULT_THRESHOLDS,
+  aggressive: {
+    barelyPlayed: { maxPlays: 5, maxMinutes: 5 },
+    tourists: { maxPlays: 4, maxMinutes: 5 },
+    coreFavorites: { minPlays: 40, minMinutes: 45 },
+  },
+  gentle: {
+    barelyPlayed: { maxPlays: 2, maxMinutes: 2 },
+    tourists: { maxPlays: 1, maxMinutes: 1 },
+    coreFavorites: { minPlays: 20, minMinutes: 20 },
+  },
+};
+
+function cloneThresholds(cfg) {
+  return JSON.parse(JSON.stringify(cfg));
+}
+
+function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
   const minSize = 10; // minimum tracks for era/popularity suggestions
+
+  const config = thresholds || DEFAULT_THRESHOLDS;
+  const barelyCfg = config.barelyPlayed || DEFAULT_THRESHOLDS.barelyPlayed;
+  const touristsCfg = config.tourists || DEFAULT_THRESHOLDS.tourists;
+  const coreCfg = config.coreFavorites || DEFAULT_THRESHOLDS.coreFavorites;
+
+  const barelyMaxPlays = barelyCfg.maxPlays;
+  const barelyMaxMinutes = barelyCfg.maxMinutes;
+  const touristsMaxPlays = touristsCfg.maxPlays;
+  const touristsMaxMinutes = touristsCfg.maxMinutes;
+  const coreMinPlays = coreCfg.minPlays;
+  const coreMinMinutes = coreCfg.minMinutes;
 
   // ---------- ERA / YEAR SPLITS ----------
   const hasYear = tracks.filter((t) => t.year);
@@ -76,7 +113,11 @@ function buildSuggestions(tracks, usageMap) {
       if (!u) return true; // no history at all
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
-      return plays <= 3 || totalMs < 3 * 60_000; // ≤3 plays or <3 minutes total
+      const totalMinutes = totalMs / 60_000;
+      // "barely" if plays ≤ threshold OR total minutes ≤ threshold
+      return (
+        plays <= barelyMaxPlays || totalMinutes <= barelyMaxMinutes
+      );
     });
 
     if (barelyPlayed.length >= 5) {
@@ -85,8 +126,7 @@ function buildSuggestions(tracks, usageMap) {
         label: "Barely played tracks",
         description:
           "Songs from this playlist that you’ve almost never listened to in your Spotify history.",
-        ruleDescription:
-          "plays ≤ 3 or total listening time < 3 minutes (from uploaded history)",
+        ruleDescription: `plays ≤ ${barelyMaxPlays} or total listening time ≤ ${barelyMaxMinutes} minutes (from uploaded history)`,
         tracks: barelyPlayed,
       });
     }
@@ -147,7 +187,10 @@ function buildSuggestions(tracks, usageMap) {
       if (!u) return false;
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
-      return plays >= 25 && totalMs >= 30 * 60_000; // ≥25 plays & ≥30 minutes
+      const totalMinutes = totalMs / 60_000;
+      return (
+        plays >= coreMinPlays && totalMinutes >= coreMinMinutes
+      );
     });
 
     if (coreFavorites.length >= 5) {
@@ -156,8 +199,7 @@ function buildSuggestions(tracks, usageMap) {
         label: "Core favorites",
         description:
           "The tracks you really live in – high plays and lots of listening time.",
-        ruleDescription:
-          "plays ≥ 25 and total listening ≥ 30 minutes (from uploaded history)",
+        ruleDescription: `plays ≥ ${coreMinPlays} and total listening ≥ ${coreMinMinutes} minutes (from uploaded history)`,
         tracks: coreFavorites,
       });
     }
@@ -168,7 +210,11 @@ function buildSuggestions(tracks, usageMap) {
       if (!u) return true; // no history → basically a tourist
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
-      return plays <= 2 && totalMs <= 2 * 60_000; // ≤2 plays & ≤2 minutes
+      const totalMinutes = totalMs / 60_000;
+      return (
+        plays <= touristsMaxPlays &&
+        totalMinutes <= touristsMaxMinutes
+      );
     });
 
     if (tourists.length >= 5) {
@@ -177,8 +223,7 @@ function buildSuggestions(tracks, usageMap) {
         label: "Tourists / padding",
         description:
           "Tracks that rarely get listened to – good candidates for cleanup or a backup playlist.",
-        ruleDescription:
-          "plays ≤ 2 and total listening ≤ 2 minutes (from uploaded history)",
+        ruleDescription: `plays ≤ ${touristsMaxPlays} and total listening ≤ ${touristsMaxMinutes} minutes (from uploaded history)`,
         tracks: tourists,
       });
     }
@@ -278,15 +323,21 @@ function App() {
   const [error, setError] = useState("");
   const [usageMap, setUsageMap] = useState(null); // { [trackId]: { plays, totalMs, lastPlayed, skips } }
 
-  const health =
-    usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
-
-  // which suggestion cards the user has manually hidden
   const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(
     () => new Set()
   );
 
-  // Load saved splits from localStorage on first mount
+  const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
+  const [presetKey, setPresetKey] = useState("balanced");
+
+  const health =
+    usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
+
+  const visibleSuggestions = suggestions.filter(
+    (s) => !dismissedSuggestionIds.has(s.id)
+  );
+
+  // ---- Load saved splits from localStorage on first mount ----
   useEffect(() => {
     try {
       const raw = localStorage.getItem(SAVED_SPLITS_KEY);
@@ -301,6 +352,25 @@ function App() {
     }
   }, []);
 
+  // ---- Load thresholds from localStorage on first mount ----
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(THRESHOLDS_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") {
+          setThresholds((prev) => ({
+            ...prev,
+            ...parsed,
+          }));
+          setPresetKey("custom");
+        }
+      }
+    } catch (e) {
+      console.warn("Failed to load thresholds", e);
+    }
+  }, []);
+
   // Persist saved splits whenever they change
   useEffect(() => {
     try {
@@ -309,6 +379,15 @@ function App() {
       console.warn("Failed to persist saved splits", e);
     }
   }, [savedSplits]);
+
+  // Persist thresholds whenever they change
+  useEffect(() => {
+    try {
+      localStorage.setItem(THRESHOLDS_KEY, JSON.stringify(thresholds));
+    } catch (e) {
+      console.warn("Failed to persist thresholds", e);
+    }
+  }, [thresholds]);
 
   // Try to fetch /api/me on load to see if we already have a session
   useEffect(() => {
@@ -332,11 +411,11 @@ function App() {
     init();
   }, []);
 
-  // Recompute suggestions when advanced usage data is loaded
+  // Recompute suggestions when advanced usage data or thresholds are loaded
   useEffect(() => {
     if (!selectedPlaylist || !tracks.length || !usageMap) return;
 
-    const nextSuggestions = buildSuggestions(tracks, usageMap);
+    const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
     setSuggestions(nextSuggestions);
     setDismissedSuggestionIds(new Set());
 
@@ -345,9 +424,9 @@ function App() {
       initialSelection[s.id] = new Set(s.tracks.map((t) => t.id));
     });
     setSelectionBySuggestion(initialSelection);
-  }, [usageMap, selectedPlaylist, tracks]);
+  }, [usageMap, selectedPlaylist, tracks, thresholds]);
 
-  // Handle user uploading StreamingHistory_* files
+  // ---------- Advanced history upload ----------
   async function handleHistoryFilesSelected(e) {
     const files = Array.from(e.target.files || []);
     if (!files.length) return;
@@ -415,7 +494,7 @@ function App() {
       console.log("Unique tracks in usageMap:", Object.keys(map).length);
       setUsageMap(map);
       alert(
-        "Advanced listening data loaded! We'll use it to suggest barely-played and long-ago favorites."
+        "Advanced listening data loaded! We'll use it to suggest barely-played, tourists, and core favorites."
       );
     } catch (err) {
       console.error("Failed to parse history files:", err);
@@ -444,7 +523,6 @@ function App() {
       setSelectionBySuggestion({});
       setExpandedSuggestionId(null);
       setError("");
-      setDismissedSuggestionIds(new Set());
     }
   };
 
@@ -464,7 +542,7 @@ function App() {
       );
       const t = data.tracks || [];
       setTracks(t);
-      const s = buildSuggestions(t, usageMap);
+      const s = buildSuggestions(t, usageMap, thresholds);
       setSuggestions(s);
 
       const initialSelection = {};
@@ -501,6 +579,28 @@ function App() {
       next.add(suggestionId);
       return next;
     });
+  };
+
+  const handlePresetChange = (event) => {
+    const key = event.target.value;
+    setPresetKey(key);
+    const presetCfg = PRESET_THRESHOLDS[key];
+    if (presetCfg) {
+      setThresholds(cloneThresholds(presetCfg));
+    }
+  };
+
+  const handleThresholdChange = (category, field, rawValue) => {
+    const value = Number(rawValue);
+    if (Number.isNaN(value) || value < 0) return;
+    setThresholds((prev) => ({
+      ...prev,
+      [category]: {
+        ...prev[category],
+        [field]: value,
+      },
+    }));
+    setPresetKey("custom");
   };
 
   const getSelectedTrackIdsForSuggestion = (suggestion) => {
@@ -651,9 +751,6 @@ function App() {
   };
 
   const loggedIn = !!user;
-  const visibleSuggestions = suggestions.filter(
-    (s) => !dismissedSuggestionIds.has(s.id)
-  );
 
   return (
     <div className="app-root">
@@ -754,7 +851,9 @@ function App() {
             <div className="card advanced-card">
               <div className="advanced-card-header">
                 <h2>Advanced listening data (optional)</h2>
-                {usageMap && <span className="pill pill-success">Data loaded</span>}
+                {usageMap && (
+                  <span className="pill pill-success">Data loaded</span>
+                )}
               </div>
               <p>
                 For deeper cleanup suggestions, you can upload your Spotify{" "}
@@ -842,6 +941,137 @@ function App() {
                   </div>
                 )}
 
+                {/* Threshold controls */}
+                {usageMap && tracks.length > 0 && (
+                  <div className="card thresholds-card">
+                    <div className="thresholds-header">
+                      <h3>Cleanup thresholds</h3>
+                      <label className="thresholds-preset">
+                        Preset:&nbsp;
+                        <select
+                          value={presetKey}
+                          onChange={handlePresetChange}
+                        >
+                          <option value="balanced">Balanced</option>
+                          <option value="aggressive">Aggressive cleanup</option>
+                          <option value="gentle">Gentle cleanup</option>
+                          <option value="custom">Custom</option>
+                        </select>
+                      </label>
+                    </div>
+
+                    <div className="thresholds-body">
+                      <div className="threshold-row">
+                        <div className="threshold-label">Barely played</div>
+                        <div className="threshold-controls">
+                          <label>
+                            plays ≤{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.barelyPlayed.maxPlays}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "barelyPlayed",
+                                  "maxPlays",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                          <label>
+                            minutes ≤{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.barelyPlayed.maxMinutes}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "barelyPlayed",
+                                  "maxMinutes",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="threshold-row">
+                        <div className="threshold-label">Tourists / padding</div>
+                        <div className="threshold-controls">
+                          <label>
+                            plays ≤{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.tourists.maxPlays}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "tourists",
+                                  "maxPlays",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                          <label>
+                            minutes ≤{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.tourists.maxMinutes}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "tourists",
+                                  "maxMinutes",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                        </div>
+                      </div>
+
+                      <div className="threshold-row">
+                        <div className="threshold-label">Core favorites</div>
+                        <div className="threshold-controls">
+                          <label>
+                            plays ≥{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.coreFavorites.minPlays}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "coreFavorites",
+                                  "minPlays",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                          <label>
+                            minutes ≥{" "}
+                            <input
+                              type="number"
+                              min="0"
+                              value={thresholds.coreFavorites.minMinutes}
+                              onChange={(e) =>
+                                handleThresholdChange(
+                                  "coreFavorites",
+                                  "minMinutes",
+                                  e.target.value
+                                )
+                              }
+                            />
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
                 {/* Scrollable suggestions + saved splits */}
                 <div className="content-scroll">
                   {!loadingTracks &&
@@ -857,21 +1087,6 @@ function App() {
                       </div>
                     )}
 
-                  {/* All suggestions exist, but user hid them all */}
-                  {!loadingTracks &&
-                    visibleSuggestions.length === 0 &&
-                    suggestions.length > 0 && (
-                      <div className="card">
-                        <h3>All suggestions hidden</h3>
-                        <p>
-                          You&apos;ve hidden all auto-splits for this playlist.
-                          Select another playlist or reload the page to reset
-                          them.
-                        </p>
-                      </div>
-                    )}
-
-                  {/* Normal case: show only non-dismissed suggestions */}
                   {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
                       {visibleSuggestions.map((s) => {
@@ -893,7 +1108,6 @@ function App() {
                                 </p>
                               </div>
                               <div className="suggestion-header-right">
-                                {/* Save / unsave */}
                                 <button
                                   className={
                                     isSaved ? "star-btn starred" : "star-btn"
@@ -907,26 +1121,23 @@ function App() {
                                 >
                                   {isSaved ? "★" : "☆"}
                                 </button>
-
                                 <span className="count-pill">
                                   {s.tracks.length} tracks
                                 </span>
-
-                                {/* Dismiss button */}
                                 <button
                                   className="dismiss-btn"
-                                  onClick={() => handleDismissSuggestion(s.id)}
                                   title="Hide this suggestion"
+                                  onClick={() =>
+                                    handleDismissSuggestion(s.id)
+                                  }
                                 >
-                                  ✕
+                                  ×
                                 </button>
                               </div>
                             </div>
-
                             <p className="rule-text">
                               Rule: <code>{s.ruleDescription}</code>
                             </p>
-
                             <div className="suggestion-actions">
                               <button
                                 className="btn-secondary"
