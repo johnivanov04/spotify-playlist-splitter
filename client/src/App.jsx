@@ -1150,7 +1150,8 @@ function App() {
                                 {expanded ? "Hide tracks" : "View tracks"}
                               </button>
 
-                              {s.id === "usage-frequently-skipped" ? (
+                              {(s.id === "usage-frequently-skipped" || 
+                                s.id == "usage-barely-played") ? (
                                 <button
                                   className="btn-secondary"
                                   style={{
