@@ -529,7 +529,7 @@ function App() {
           isrcs,
           includeTags: AUTO_ENRICH_INCLUDE_TAGS,
           includeAcoustic: AUTO_ENRICH_INCLUDE_ACOUSTIC,
-          includeLowLevel: false,
+          includeLowLevel: true,
           limit: AUTO_ENRICH_LIMIT
         })
       });
