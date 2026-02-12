@@ -16,7 +16,8 @@ const {
   SPOTIFY_CLIENT_SECRET,
   SPOTIFY_REDIRECT_URI,
   FRONTEND_URL,
-  SESSION_SECRET
+  SESSION_SECRET,
+  MB_USER_AGENT
 } = process.env;
 
 if (!SPOTIFY_CLIENT_ID || !SPOTIFY_CLIENT_SECRET || !SPOTIFY_REDIRECT_URI) {
@@ -45,6 +46,118 @@ const SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize";
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
 const SPOTIFY_API_BASE = "https://api.spotify.com/v1";
 
+// ---- MusicBrainz / AcousticBrainz -----------------------------------------
+const MB_BASE = "https://musicbrainz.org/ws/2";
+const AB_BASE = "https://acousticbrainz.org/api/v1";
+const MB_UA =
+  MB_USER_AGENT ||
+  "SpotifyPlaylistSplitter/1.0 (dev@example.com)"; // set MB_USER_AGENT in .env
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+// MusicBrainz: keep it ~1 request/sec
+let mbLastCall = 0;
+async function mbThrottle() {
+  const now = Date.now();
+  const wait = Math.max(0, 1100 - (now - mbLastCall));
+  if (wait) await sleep(wait);
+  mbLastCall = Date.now();
+}
+
+// In-memory caches (good for dev; you can persist later)
+const isrcToMbidCache = new Map(); // isrc -> recordingMbid|null
+const mbidToTagsCache = new Map(); // mbid -> tags[]
+const mbidToABHighCache = new Map(); // mbid -> json|null
+const mbidToABLowCache = new Map(); // mbid -> json|null
+
+async function mbRecordingMbidFromISRC(isrc) {
+  const key = String(isrc || "").trim().toUpperCase();
+  if (!key) return null;
+
+  if (isrcToMbidCache.has(key)) return isrcToMbidCache.get(key);
+
+  await mbThrottle();
+  const url = `${MB_BASE}/recording/?query=isrc:${encodeURIComponent(
+    key
+  )}&fmt=json`;
+
+  const r = await fetch(url, { headers: { "User-Agent": MB_UA } });
+  if (!r.ok) {
+    isrcToMbidCache.set(key, null);
+    return null;
+  }
+
+  const data = await r.json();
+  const mbid = data?.recordings?.[0]?.id || null;
+  isrcToMbidCache.set(key, mbid);
+  return mbid;
+}
+
+async function mbRecordingTags(mbid) {
+  if (!mbid) return [];
+  if (mbidToTagsCache.has(mbid)) return mbidToTagsCache.get(mbid);
+
+  await mbThrottle();
+  const url = `${MB_BASE}/recording/${encodeURIComponent(
+    mbid
+  )}?inc=tags&fmt=json`;
+
+  const r = await fetch(url, { headers: { "User-Agent": MB_UA } });
+  if (!r.ok) {
+    mbidToTagsCache.set(mbid, []);
+    return [];
+  }
+
+  const data = await r.json();
+  const tags = Array.isArray(data?.tags)
+    ? data.tags.map((t) => ({
+        name: t.name,
+        count: typeof t.count === "number" ? t.count : null
+      }))
+    : [];
+
+  mbidToTagsCache.set(mbid, tags);
+  return tags;
+}
+
+async function abHighLevel(mbid) {
+  if (!mbid) return null;
+  if (mbidToABHighCache.has(mbid)) return mbidToABHighCache.get(mbid);
+
+  const url = `${AB_BASE}/${encodeURIComponent(
+    mbid
+  )}/high-level?map_classes=true`;
+  const r = await fetch(url);
+
+  if (!r.ok) {
+    mbidToABHighCache.set(mbid, null);
+    return null;
+  }
+
+  const data = await r.json();
+  mbidToABHighCache.set(mbid, data);
+  return data;
+}
+
+async function abLowLevel(mbid) {
+  if (!mbid) return null;
+  if (mbidToABLowCache.has(mbid)) return mbidToABLowCache.get(mbid);
+
+  const url = `${AB_BASE}/${encodeURIComponent(mbid)}/low-level`;
+  const r = await fetch(url);
+
+  if (!r.ok) {
+    mbidToABLowCache.set(mbid, null);
+    return null;
+  }
+
+  const data = await r.json();
+  mbidToABLowCache.set(mbid, data);
+  return data;
+}
+
 // ---- Helpers --------------------------------------------------
 
 function generateRandomString(length) {
@@ -72,6 +185,38 @@ async function fetchWithAuth(path, accessToken, options = {}) {
   return res.json();
 }
 
+// Fetch full Spotify track details in batches (needed for external_ids.isrc reliably)
+async function fetchSpotifyTrackDetails(ids, accessToken) {
+  const out = {}; // { [id]: trackObj }
+  const chunkSize = 50;
+
+  for (let i = 0; i < ids.length; i += chunkSize) {
+    const chunk = ids.slice(i, i + chunkSize);
+    if (!chunk.length) continue;
+
+    const url = `${SPOTIFY_API_BASE}/tracks?market=from_token&ids=${chunk.join(
+      ","
+    )}`;
+
+    const r = await fetch(url, {
+      headers: { Authorization: `Bearer ${accessToken}` }
+    });
+
+    if (!r.ok) {
+      const text = await r.text();
+      console.error("Spotify /tracks error:", r.status, text);
+      throw new Error("Failed to fetch track details");
+    }
+
+    const data = await r.json();
+    (data.tracks || []).forEach((t) => {
+      if (t && t.id) out[t.id] = t;
+    });
+  }
+
+  return out;
+}
+
 // ---- Auth routes ----------------------------------------------
 
 // 1. Start login: redirect to Spotify authorize page
@@ -85,7 +230,7 @@ app.get("/auth/login", (req, res) => {
     "playlist-modify-private",
     "playlist-modify-public",
     "user-library-read"
-  ].join(" ");;
+  ].join(" ");
 
   const params = querystring.stringify({
     response_type: "code",
@@ -236,7 +381,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
     }
 
     // 2) Extract track ids + basic metadata
-    const trackInfos = playlistTracks
+    const baseTrackInfos = playlistTracks
       .filter((item) => item.track && item.track.id)
       .map((item) => {
         const t = item.track;
@@ -262,7 +407,16 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
         };
       });
 
-    const ids = trackInfos.map((t) => t.id);
+    const ids = baseTrackInfos.map((t) => t.id);
+
+    // 2.5) Fetch full track details to reliably get ISRCs
+    const detailsById = await fetchSpotifyTrackDetails(ids, accessToken);
+
+    const trackInfos = baseTrackInfos.map((t) => {
+      const details = detailsById[t.id];
+      const isrc = details?.external_ids?.isrc || null;
+      return { ...t, isrc };
+    });
 
     // 3) Try to fetch audio features (but don't crash if Spotify blocks it)
     const featuresMap = {};
@@ -322,6 +476,64 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
   } catch (err) {
     console.error("Error fetching playlist tracks + features:", err);
     res.status(500).json({ error: "Failed to fetch playlist tracks" });
+  }
+});
+
+// NEW: Enrich tracks via MusicBrainz / AcousticBrainz
+app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
+  const { isrcs, includeTags, includeAcoustic, includeLowLevel, limit } =
+    req.body || {};
+
+  if (!Array.isArray(isrcs) || isrcs.length === 0) {
+    return res.status(400).json({ error: "Provide isrcs: string[]" });
+  }
+
+  const unique = Array.from(
+    new Set(
+      isrcs
+        .filter(Boolean)
+        .map((s) => String(s).trim().toUpperCase())
+        .filter(Boolean)
+    )
+  );
+
+  const max = typeof limit === "number" && limit > 0 ? Math.min(limit, 200) : 60;
+  const limited = unique.slice(0, max);
+
+  try {
+    const byIsrc = {};
+
+    // Sequential on purpose (MusicBrainz rate limit)
+    for (const isrc of limited) {
+      const mbid = await mbRecordingMbidFromISRC(isrc);
+
+      const out = {
+        recordingMbid: mbid
+      };
+
+      if (includeTags) {
+        out.tags = await mbRecordingTags(mbid);
+      }
+
+      if (includeAcoustic) {
+        out.acousticHighLevel = await abHighLevel(mbid);
+        if (includeLowLevel) {
+          out.acousticLowLevel = await abLowLevel(mbid); // huge; only if you want it
+        }
+      }
+
+      byIsrc[isrc] = out;
+    }
+
+    res.json({
+      byIsrc,
+      processed: limited.length,
+      totalUniqueIsrcs: unique.length,
+      limitedTo: max
+    });
+  } catch (err) {
+    console.error("brainz/enrich error:", err);
+    res.status(500).json({ error: "Failed to enrich via MusicBrainz/AcousticBrainz" });
   }
 });
 
@@ -399,7 +611,6 @@ app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
 });
 
 // 8. Remove tracks from an existing playlist
-// Remove specific tracks from a playlist the user owns
 app.post(
   "/api/playlists/:id/remove-tracks",
   requireSpotifyAuth,
@@ -413,7 +624,7 @@ app.post(
     }
 
     const tracksPayload = trackIds.map((id) => ({
-      uri: `spotify:track:${id}`,
+      uri: `spotify:track:${id}`
     }));
 
     try {
@@ -423,21 +634,16 @@ app.post(
           method: "DELETE",
           headers: {
             Authorization: `Bearer ${accessToken}`,
-            "Content-Type": "application/json",
+            "Content-Type": "application/json"
           },
-          body: JSON.stringify({ tracks: tracksPayload }),
+          body: JSON.stringify({ tracks: tracksPayload })
         }
       );
 
       const text = await spotifyRes.text();
-      console.error(
-        "Spotify remove-tracks response:",
-        spotifyRes.status,
-        text
-      );
+      console.error("Spotify remove-tracks response:", spotifyRes.status, text);
 
       if (!spotifyRes.ok) {
-        // Pass Spotify's status + message through so the frontend sees the right code
         return res
           .status(spotifyRes.status)
           .json({ error: "Spotify remove-tracks failed", details: text });
@@ -452,8 +658,6 @@ app.post(
     }
   }
 );
-
-// ----------------------------------------------------------
 
 app.listen(PORT, () => {
   console.log(`Server listening on http://127.0.0.1:${PORT}`);
