@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import kmeansModel from "./ml/kmeans_model.json";
+import { predictCluster } from "./ml/kmeansInfer";
 
 const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
@@ -36,7 +38,7 @@ function cloneThresholds(cfg) {
 
 function downloadJson(filename, obj) {
   const blob = new Blob([JSON.stringify(obj, null, 2)], {
-    type: "application/json",
+    type: "application/json"
   });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -45,7 +47,6 @@ function downloadJson(filename, obj) {
   a.click();
   URL.revokeObjectURL(url);
 }
-
 
 function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
@@ -243,6 +244,38 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   return suggestions;
 }
 
+function buildMlClusterSuggestions(tracks) {
+  const byCluster = new Map();
+
+  for (const t of tracks) {
+    try {
+      const c = predictCluster(kmeansModel, t);
+      if (!byCluster.has(c)) byCluster.set(c, []);
+      byCluster.get(c).push(t);
+    } catch (e) {
+      // If something is weird about a track, skip it instead of crashing UI.
+      // (You can console.warn here if you want.)
+    }
+  }
+
+  const suggestions = [];
+  for (const [clusterId, clusterTracks] of Array.from(byCluster.entries()).sort(
+    (a, b) => a[0] - b[0]
+  )) {
+    if (clusterTracks.length < 10) continue;
+
+    suggestions.push({
+      id: `ml-cluster-${clusterId}`,
+      label: `ML Vibe Cluster ${clusterId + 1}`,
+      description: "Grouped by learned audio + metadata similarity.",
+      ruleDescription: `kmeans cluster = ${clusterId}`,
+      tracks: clusterTracks
+    });
+  }
+
+  return suggestions;
+}
+
 function computePlaylistHealth(tracks, usageMap) {
   if (!usageMap || !tracks || tracks.length === 0) return null;
 
@@ -351,6 +384,7 @@ function App() {
     (s) => !dismissedSuggestionIds.has(s.id)
   );
 
+  // ---- Load saved splits from localStorage on first mount ----
   useEffect(() => {
     try {
       const raw = localStorage.getItem(SAVED_SPLITS_KEY);
@@ -363,6 +397,7 @@ function App() {
     }
   }, []);
 
+  // ---- Load thresholds from localStorage on first mount ----
   useEffect(() => {
     try {
       const raw = localStorage.getItem(THRESHOLDS_KEY);
@@ -378,6 +413,7 @@ function App() {
     }
   }, []);
 
+  // Persist saved splits whenever they change
   useEffect(() => {
     try {
       localStorage.setItem(SAVED_SPLITS_KEY, JSON.stringify(savedSplits));
@@ -386,6 +422,7 @@ function App() {
     }
   }, [savedSplits]);
 
+  // Persist thresholds whenever they change
   useEffect(() => {
     try {
       localStorage.setItem(THRESHOLDS_KEY, JSON.stringify(thresholds));
@@ -394,6 +431,7 @@ function App() {
     }
   }, [thresholds]);
 
+  // Try to fetch /api/me on load to see if we already have a session
   useEffect(() => {
     async function init() {
       try {
@@ -415,20 +453,29 @@ function App() {
     init();
   }, []);
 
+  // ✅ FIX: Recompute suggestions in ONE place and ALWAYS merge base + ML.
+  // Also: don't require usageMap (base suggestions still work without it).
   useEffect(() => {
-    if (!selectedPlaylist || !tracks.length || !usageMap) return;
+    if (!selectedPlaylist || !tracks.length) return;
 
-    const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
-    setSuggestions(nextSuggestions);
+    const base = buildSuggestions(tracks, usageMap, thresholds);
+    const ml = buildMlClusterSuggestions(tracks);
+    const next = [...base, ...ml];
+
+    setSuggestions(next);
     setDismissedSuggestionIds(new Set());
 
-    const initialSelection = {};
-    nextSuggestions.forEach((s) => {
-      initialSelection[s.id] = new Set(s.tracks.map((t) => t.id));
+    // initialize selection for any new suggestion ids (including ML ones)
+    setSelectionBySuggestion((prev) => {
+      const out = { ...prev };
+      for (const s of next) {
+        if (!out[s.id]) out[s.id] = new Set(s.tracks.map((t) => t.id));
+      }
+      return out;
     });
-    setSelectionBySuggestion(initialSelection);
-  }, [usageMap, selectedPlaylist, tracks, thresholds]);
+  }, [selectedPlaylist?.id, tracks, usageMap, thresholds]);
 
+  // ---------- Advanced history upload ----------
   async function handleHistoryFilesSelected(e) {
     const files = Array.from(e.target.files || []);
     if (!files.length) return;
@@ -557,13 +604,12 @@ function App() {
 
       const merged = t.map((tr) => ({
         ...tr,
-        brainz: tr.isrc ? byIsrc[String(tr.isrc).trim().toUpperCase()] || null : null
+        brainz: tr.isrc
+          ? byIsrc[String(tr.isrc).trim().toUpperCase()] || null
+          : null
       }));
 
       setTracks(merged);
-
-      // suggestions can be recomputed if you want to use brainz tags later
-      // (right now your rules don't use brainz, so this is optional)
     } catch (err) {
       console.warn("Brainz enrich failed (non-fatal):", err);
     }
@@ -585,18 +631,8 @@ function App() {
       const data = await fetchJson(`${API_BASE}/api/playlists/${pl.id}/tracks`);
       const t = data.tracks || [];
 
+      // ✅ Only set tracks here. Suggestions are recomputed by the unified useEffect.
       setTracks(t);
-
-      const s = buildSuggestions(t, usageMap, thresholds);
-      setSuggestions(s);
-
-      const initialSelection = {};
-      s.forEach((suggestion) => {
-        initialSelection[suggestion.id] = new Set(
-          suggestion.tracks.map((track) => track.id)
-        );
-      });
-      setSelectionBySuggestion(initialSelection);
 
       // Fire-and-forget enrichment (small limit)
       enrichTracksWithBrainz(pl.id, t);
@@ -676,7 +712,11 @@ function App() {
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      alert(`Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`);
+      alert(
+        `Playlist created! ${
+          data.spotifyUrl ? "Open: " + data.spotifyUrl : ""
+        }`
+      );
     } catch (err) {
       console.error(err);
       alert("Failed to create playlist on Spotify.");
@@ -768,7 +808,11 @@ function App() {
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      alert(`Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`);
+      alert(
+        `Playlist created! ${
+          data.spotifyUrl ? "Open: " + data.spotifyUrl : ""
+        }`
+      );
     } catch (err) {
       console.error(err);
       alert("Failed to create playlist on Spotify.");
@@ -784,7 +828,8 @@ function App() {
           <div>
             <h1>Playlist Splitter</h1>
             <p className="tagline">
-              Take one big Spotify playlist and split it into smaller, vibe-based sub-playlists.
+              Take one big Spotify playlist and split it into smaller, vibe-based
+              sub-playlists.
             </p>
           </div>
           <div className="header-right">
@@ -803,10 +848,14 @@ function App() {
           <div className="landing-card">
             <h1 className="landing-title">Playlist Splitter</h1>
             <p className="landing-desc">
-              Take one big Spotify playlist and split it into smaller, vibe-based sub-playlists automatically.
+              Take one big Spotify playlist and split it into smaller, vibe-based
+              sub-playlists automatically.
             </p>
 
-            <button className="btn-primary btn-login-large" onClick={handleLogin}>
+            <button
+              className="btn-primary btn-login-large"
+              onClick={handleLogin}
+            >
               LOG IN WITH SPOTIFY
             </button>
           </div>
@@ -833,7 +882,9 @@ function App() {
           <section className="sidebar">
             <h2>Your Playlists</h2>
             {loadingPlaylists && <p>Loading playlists…</p>}
-            {!loadingPlaylists && playlists.length === 0 && <p>No playlists found.</p>}
+            {!loadingPlaylists && playlists.length === 0 && (
+              <p>No playlists found.</p>
+            )}
             <ul className="playlist-list">
               {playlists.map((pl) => (
                 <li
@@ -865,18 +916,26 @@ function App() {
             <div className="card advanced-card">
               <div className="advanced-card-header">
                 <h2>Advanced listening data (optional)</h2>
-                {usageMap && <span className="pill pill-success">Data loaded</span>}
+                {usageMap && (
+                  <span className="pill pill-success">Data loaded</span>
+                )}
               </div>
               <p>
                 For deeper cleanup suggestions, you can upload your Spotify{" "}
-                <strong>extended streaming history</strong> export. All processing happens in your browser – nothing is sent to our server.
+                <strong>extended streaming history</strong> export. All processing
+                happens in your browser – nothing is sent to our server.
               </p>
 
               <details className="advanced-details">
                 <summary>How do I get this from Spotify?</summary>
                 <ol className="advanced-steps">
-                  <li>Go to your Spotify account &gt; Privacy &gt; Download your data.</li>
-                  <li>Request your <em>extended streaming history</em>.</li>
+                  <li>
+                    Go to your Spotify account &gt; Privacy &gt; Download your
+                    data.
+                  </li>
+                  <li>
+                    Request your <em>extended streaming history</em>.
+                  </li>
                   <li>When Spotify emails the ZIP, unzip it on your computer.</li>
                   <li>
                     In the <code>MyData</code> folder, select the files named like{" "}
@@ -898,7 +957,10 @@ function App() {
             {!selectedPlaylist && (
               <div className="card">
                 <h2>Select a playlist</h2>
-                <p>Choose a playlist on the left to analyze it and see suggested sub-playlists.</p>
+                <p>
+                  Choose a playlist on the left to analyze it and see suggested
+                  sub-playlists.
+                </p>
               </div>
             )}
 
@@ -912,7 +974,15 @@ function App() {
                       <p>
                         Tracks analyzed: <strong>{tracks.length}</strong>
                       </p>
-                      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.5rem 0 0.25rem" }}>
+
+                      <div
+                        style={{
+                          display: "flex",
+                          gap: "0.5rem",
+                          flexWrap: "wrap",
+                          margin: "0.5rem 0 0.25rem"
+                        }}
+                      >
                         <button
                           className="btn-secondary"
                           onClick={() =>
@@ -925,12 +995,15 @@ function App() {
                           Download ML dataset (JSON)
                         </button>
                       </div>
+
                       <p className="hint">
-                        Suggestions below are based on era, energy/mood, popularity, and your listening history.
+                        Suggestions below include rules + ML vibe clusters (k-means).
                       </p>
+
                       {AUTO_ENRICH_BRAINZ && (
                         <p className="hint">
-                          Extra enrichment: MusicBrainz tags are fetched for up to {AUTO_ENRICH_LIMIT} tracks in the background.
+                          Extra enrichment: MusicBrainz tags are fetched for up to{" "}
+                          {AUTO_ENRICH_LIMIT} tracks in the background.
                         </p>
                       )}
                     </>
@@ -942,13 +1015,15 @@ function App() {
                   <div className="card health-card">
                     <h3>Playlist health</h3>
                     <p className="health-summary">
-                      This playlist: <strong>{health.neverPlayedPct}%</strong> never played ·{" "}
-                      <strong>{health.frequentlySkippedPct}%</strong> frequently skipped · median plays{" "}
-                      <strong>{health.medianPlays}</strong>
+                      This playlist:{" "}
+                      <strong>{health.neverPlayedPct}%</strong> never played ·{" "}
+                      <strong>{health.frequentlySkippedPct}%</strong> frequently
+                      skipped · median plays <strong>{health.medianPlays}</strong>
                       {health.avgLastPlayAgeDays !== null && (
                         <>
                           {" "}
-                          · average last play <strong>{health.avgLastPlayAgeDays} days</strong> ago
+                          · average last play{" "}
+                          <strong>{health.avgLastPlayAgeDays} days</strong> ago
                         </>
                       )}
                     </p>
@@ -1087,8 +1162,8 @@ function App() {
                     <div className="card">
                       <h3>No strong groupings found</h3>
                       <p>
-                        We couldn&apos;t find big enough clusters by year, energy, or popularity.
-                        Try another playlist or we can add adjustable thresholds later.
+                        We couldn&apos;t find big enough clusters by year, energy,
+                        popularity, or ML clustering.
                       </p>
                     </div>
                   )}
@@ -1194,6 +1269,7 @@ function App() {
                                       <div className="track-main">
                                         <div className="track-title">{t.name}</div>
                                         <div className="track-artist">{t.artists?.join(", ")}</div>
+
                                         {t.spotifyUrl && (
                                           <a
                                             href={t.spotifyUrl}
@@ -1205,7 +1281,6 @@ function App() {
                                           </a>
                                         )}
 
-                                        {/* Optional: show top MusicBrainz tag (if fetched) */}
                                         {t.brainz?.tags?.length ? (
                                           <div className="track-artist" style={{ opacity: 0.85 }}>
                                             tag: {t.brainz.tags[0].name}
@@ -1242,15 +1317,24 @@ function App() {
                             <div>
                               <div className="saved-split-title">{split.label}</div>
                               <div className="saved-split-meta">
-                                from <span className="saved-split-playlist">{split.playlistName}</span> ·{" "}
-                                {split.trackIds.length} tracks
+                                from{" "}
+                                <span className="saved-split-playlist">
+                                  {split.playlistName}
+                                </span>{" "}
+                                · {split.trackIds.length} tracks
                               </div>
                             </div>
                             <div className="saved-split-actions">
-                              <button className="btn-secondary" onClick={() => handleCreateSavedSplit(split)}>
+                              <button
+                                className="btn-secondary"
+                                onClick={() => handleCreateSavedSplit(split)}
+                              >
                                 Create on Spotify
                               </button>
-                              <button className="btn-secondary" onClick={() => handleRemoveSavedSplit(split.key)}>
+                              <button
+                                className="btn-secondary"
+                                onClick={() => handleRemoveSavedSplit(split.key)}
+                              >
                                 Remove
                               </button>
                             </div>
