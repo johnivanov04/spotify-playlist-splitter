@@ -497,7 +497,7 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
     )
   );
 
-  const max = typeof limit === "number" && limit > 0 ? Math.min(limit, 200) : 60;
+  const max = typeof limit === "number" && limit > 0 ? limit : 60;
   const limited = unique.slice(0, max);
 
   try {
