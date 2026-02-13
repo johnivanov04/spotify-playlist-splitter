@@ -6,7 +6,7 @@ const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 
 // Auto-enrich tracks with MusicBrainz tags (kept small to avoid slow UI)
 const AUTO_ENRICH_BRAINZ = true;
-const AUTO_ENRICH_LIMIT = 60; // 60 ISRCs ≈ ~1 minute worst-case with MB 1/sec
+const AUTO_ENRICH_LIMIT = 5000; // 60 ISRCs ≈ ~1 minute worst-case with MB 1/sec
 const AUTO_ENRICH_INCLUDE_TAGS = true;
 const AUTO_ENRICH_INCLUDE_ACOUSTIC = false; // flip to true later if you want
 
@@ -33,6 +33,19 @@ const PRESET_THRESHOLDS = {
 function cloneThresholds(cfg) {
   return JSON.parse(JSON.stringify(cfg));
 }
+
+function downloadJson(filename, obj) {
+  const blob = new Blob([JSON.stringify(obj, null, 2)], {
+    type: "application/json",
+  });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 
 function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
@@ -899,6 +912,19 @@ function App() {
                       <p>
                         Tracks analyzed: <strong>{tracks.length}</strong>
                       </p>
+                      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.5rem 0 0.25rem" }}>
+                        <button
+                          className="btn-secondary"
+                          onClick={() =>
+                            downloadJson(
+                              `playlist_${selectedPlaylist.id}_dataset.json`,
+                              tracks
+                            )
+                          }
+                        >
+                          Download ML dataset (JSON)
+                        </button>
+                      </div>
                       <p className="hint">
                         Suggestions below are based on era, energy/mood, popularity, and your listening history.
                       </p>
