@@ -3,23 +3,24 @@
 export function buildFeatureDict(track) {
   const f = {};
 
-  const addNum = (name, v) => {
+  const addNumWithHas = (numName, hasName, v) => {
     const num = typeof v === "number" && Number.isFinite(v) ? v : null;
-    f[name] = num === null ? 0.0 : num;
-    f[`${name}__missing`] = num === null ? 1.0 : 0.0;
+    f[numName] = num === null ? 0.0 : num;
+    f[hasName] = num === null ? 0.0 : 1.0; // IMPORTANT: model expects sp__has_*
   };
 
-  // Spotify numeric features (whatever you have available)
-  addNum("sp__energy", track.energy);
-  addNum("sp__valence", track.valence);
-  addNum("sp__danceability", track.danceability);
-  addNum("sp__tempo", track.tempo);
-  addNum("sp__popularity", track.popularity);
-  addNum("sp__year", track.year);
+  // ---- Spotify numeric features + presence flags (MUST match training names) ----
+  addNumWithHas("sp__danceability", "sp__has_danceability", track.danceability);
+  addNumWithHas("sp__energy", "sp__has_energy", track.energy);
+  addNumWithHas("sp__valence", "sp__has_valence", track.valence);
+  addNumWithHas("sp__tempo", "sp__has_tempo", track.tempo);
+  addNumWithHas("sp__popularity", "sp__has_popularity", track.popularity);
+  addNumWithHas("sp__year", "sp__has_year", track.year);
 
-  // AcousticBrainz highlevel (robust to shape variations)
+  // ---- Optional: AcousticBrainz highlevel (ignored unless model.feature_names includes them) ----
   const ab = track?.brainz?.acousticHighLevel;
-  const high = ab?.highlevel && typeof ab.highlevel === "object" ? ab.highlevel : ab;
+  const high =
+    ab?.highlevel && typeof ab.highlevel === "object" ? ab.highlevel : ab;
 
   if (high && typeof high === "object") {
     for (const [clfName, clfObj] of Object.entries(high)) {
@@ -28,12 +29,11 @@ export function buildFeatureDict(track) {
       const probs = clfObj.all || clfObj.probabilities;
       if (probs && typeof probs === "object") {
         for (const [clsName, p] of Object.entries(probs)) {
-          const num = typeof p === "number" && Number.isFinite(p) ? p : null;
-          if (num === null) continue;
-          f[`ab__${clfName}__${clsName}`] = num;
+          if (typeof p === "number" && Number.isFinite(p)) {
+            f[`ab__${clfName}__${clsName}`] = p;
+          }
         }
       } else {
-        // fallback: value/probability
         const val = clfObj.value;
         const p = clfObj.probability;
         if (val != null && typeof p === "number" && Number.isFinite(p)) {
@@ -61,7 +61,7 @@ export function vectorize(featureNames, featureDict) {
 }
 
 export function scaleVector(x, scale) {
-  // training used StandardScaler(with_mean=False): x_scaled = x / scale
+  // Training used StandardScaler(with_mean=False): x_scaled = x / scale
   const xs = new Array(x.length);
   for (let i = 0; i < x.length; i++) {
     const s = scale[i] || 1.0;
