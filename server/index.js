@@ -3,7 +3,6 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-const fetch = require("node-fetch");
 const cookieSession = require("cookie-session");
 const querystring = require("querystring");
 const crypto = require("crypto");
@@ -31,10 +30,13 @@ app.use(
   cookieSession({
     name: "session",
     keys: [SESSION_SECRET || "dev-secret"],
-    maxAge: 24 * 60 * 60 * 1000
+    maxAge: 24 * 60 * 60 * 1000 // 1 day
   })
 );
 
+// --- CORS (Express 5 safe) ------------------------------------
+// Important: Express 5 + path-to-regexp will throw on app.options("*", ...)
+// Use a RegExp or "/*" instead.
 const allowedOrigins = [
   FRONTEND_URL,
   "http://127.0.0.1:5173",
@@ -42,14 +44,17 @@ const allowedOrigins = [
 ].filter(Boolean);
 
 const corsOptions = {
-  origin: allowedOrigins,
+  origin: (origin, cb) => {
+    // allow non-browser requests (no Origin header)
+    if (!origin) return cb(null, true);
+    if (allowedOrigins.includes(origin)) return cb(null, true);
+    return cb(new Error(`CORS blocked origin: ${origin}`));
+  },
   credentials: true
 };
 
 app.use(cors(corsOptions));
-
-// IMPORTANT FIX: Express/path-to-regexp can throw on "*" in some versions.
-// Use a RegExp route instead of app.options("*", ...)
+// Express 5 safe preflight handler:
 app.options(/.*/, cors(corsOptions));
 
 const SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize";
@@ -73,23 +78,8 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function fetchWithTimeout(url, options = {}, timeoutMs = 12_000) {
-  const controller = new AbortController();
-  const t = setTimeout(() => controller.abort(), timeoutMs);
-
-  try {
-    const res = await fetch(url, {
-      ...options,
-      signal: controller.signal
-    });
-    return res;
-  } finally {
-    clearTimeout(t);
-  }
-}
-
 async function fetchWithAuth(path, accessToken, options = {}) {
-  const res = await fetchWithTimeout(`${SPOTIFY_API_BASE}${path}`, {
+  const res = await fetch(`${SPOTIFY_API_BASE}${path}`, {
     ...options,
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -103,6 +93,7 @@ async function fetchWithAuth(path, accessToken, options = {}) {
     console.error("Spotify API error:", res.status, text);
     throw new Error(`Spotify API error ${res.status}`);
   }
+
   return res.json();
 }
 
@@ -147,7 +138,7 @@ app.get("/auth/callback", async (req, res) => {
   });
 
   try {
-    const tokenRes = await fetchWithTimeout(SPOTIFY_TOKEN_URL, {
+    const tokenRes = await fetch(SPOTIFY_TOKEN_URL, {
       method: "POST",
       headers: {
         Authorization:
@@ -208,7 +199,7 @@ app.get("/api/playlists", requireSpotifyAuth, async (req, res) => {
     const items = [];
 
     while (url) {
-      const r = await fetchWithTimeout(url, {
+      const r = await fetch(url, {
         headers: { Authorization: `Bearer ${accessToken}` }
       });
       if (!r.ok) {
@@ -235,8 +226,7 @@ app.get("/api/playlists", requireSpotifyAuth, async (req, res) => {
   }
 });
 
-// - batch-fetch /tracks?ids=... to get external_ids.isrc
-// - keep audio-features fetch (best-effort)
+// Fetch playlist tracks + ISRC via /tracks batch + best-effort audio-features
 app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
   const accessToken = req.session.accessToken;
   const playlistId = req.params.id;
@@ -247,7 +237,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
     const playlistTracks = [];
 
     while (url) {
-      const r = await fetchWithTimeout(url, {
+      const r = await fetch(url, {
         headers: { Authorization: `Bearer ${accessToken}` }
       });
 
@@ -294,7 +284,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
 
     const ids = trackInfos.map((t) => t.id);
 
-    // 3) Batch fetch track details to get ISRCs (Spotify: /tracks supports 50 ids)
+    // 3) Batch fetch ISRCs via /tracks (50 ids)
     const isrcMap = {};
     const tracksChunkSize = 50;
 
@@ -302,7 +292,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
       const chunk = ids.slice(i, i + tracksChunkSize);
       if (!chunk.length) break;
 
-      const r = await fetchWithTimeout(
+      const r = await fetch(
         `${SPOTIFY_API_BASE}/tracks?ids=${chunk.join(",")}&market=from_token`,
         { headers: { Authorization: `Bearer ${accessToken}` } }
       );
@@ -334,7 +324,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
       const chunk = ids.slice(i, i + afChunkSize);
       if (!chunk.length) break;
 
-      const featuresRes = await fetchWithTimeout(
+      const featuresRes = await fetch(
         `${SPOTIFY_API_BASE}/audio-features?ids=${chunk.join(",")}`,
         { headers: { Authorization: `Bearer ${accessToken}` } }
       );
@@ -345,7 +335,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
 
         if (featuresRes.status === 401 || featuresRes.status === 403) {
           console.warn(
-            "Spotify audio-features endpoint restricted. Continuing without energy/valence/tempo/danceability."
+            "Spotify audio-features endpoint restricted. Continuing without energy/valence/tempo."
           );
           break;
         }
@@ -389,7 +379,7 @@ app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
     const me = await fetchWithAuth("/me", accessToken);
     const userId = me.id;
 
-    const createRes = await fetchWithTimeout(
+    const createRes = await fetch(
       `${SPOTIFY_API_BASE}/users/${encodeURIComponent(userId)}/playlists`,
       {
         method: "POST",
@@ -419,7 +409,7 @@ app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
 
     for (let i = 0; i < uris.length; i += chunkSize) {
       const chunk = uris.slice(i, i + chunkSize);
-      const addRes = await fetchWithTimeout(
+      const addRes = await fetch(
         `${SPOTIFY_API_BASE}/playlists/${newPlaylistId}/tracks`,
         {
           method: "POST",
@@ -457,12 +447,10 @@ app.post("/api/playlists/:id/remove-tracks", requireSpotifyAuth, async (req, res
     return res.status(400).json({ error: "No trackIds provided" });
   }
 
-  const tracksPayload = trackIds.map((id) => ({
-    uri: `spotify:track:${id}`
-  }));
+  const tracksPayload = trackIds.map((id) => ({ uri: `spotify:track:${id}` }));
 
   try {
-    const spotifyRes = await fetchWithTimeout(
+    const spotifyRes = await fetch(
       `${SPOTIFY_API_BASE}/playlists/${playlistId}/tracks`,
       {
         method: "DELETE",
@@ -493,7 +481,7 @@ app.post("/api/playlists/:id/remove-tracks", requireSpotifyAuth, async (req, res
 const MB_UA = MUSICBRAINZ_USER_AGENT || "PlaylistSplitter/0.1 (dev@example.com)";
 
 const cacheIsrcToMbid = new Map(); // isrc -> mbid|null
-const cacheRecording = new Map(); // mbid -> {tags, genres, title, artistCredit}
+const cacheRecording = new Map(); // mbid -> {tags, genres, title}
 const cacheAbHigh = new Map(); // mbid -> json|null
 const cacheAbLow = new Map(); // mbid -> json|null
 
@@ -504,10 +492,9 @@ async function mbGetJson(url) {
   if (now < mbNextAllowedAt) await sleep(mbNextAllowedAt - now);
   mbNextAllowedAt = Date.now() + 1100;
 
-  const r = await fetchWithTimeout(url, {
+  const r = await fetch(url, {
     headers: { "User-Agent": MB_UA, Accept: "application/json" }
   });
-
   if (!r.ok) {
     const txt = await r.text();
     throw new Error(`MusicBrainz ${r.status}: ${txt.slice(0, 200)}`);
@@ -516,15 +503,13 @@ async function mbGetJson(url) {
 }
 
 async function abGetJson(url) {
-  const r = await fetchWithTimeout(url, { headers: { Accept: "application/json" } }, 8_000);
+  const r = await fetch(url, { headers: { Accept: "application/json" } });
   if (!r.ok) return null;
   return r.json();
 }
 
 function normalizeIsrc(isrc) {
-  return String(isrc || "")
-    .trim()
-    .toUpperCase();
+  return String(isrc || "").trim().toUpperCase();
 }
 
 app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
@@ -534,14 +519,15 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
       includeTags = true,
       includeAcoustic = true,
       includeLowLevel = false,
-      limit = 20
+      limit = 60
     } = req.body || {};
 
     if (!Array.isArray(isrcs) || isrcs.length === 0) {
       return res.status(400).json({ error: "isrcs must be a non-empty array" });
     }
 
-    const capped = Math.max(1, Math.min(Number(limit) || 20, 60));
+    // cap for politeness (you can raise this, but MB is rate-limited)
+    const capped = Math.max(1, Math.min(Number(limit) || 60, 120));
     const uniq = Array.from(new Set(isrcs.map(normalizeIsrc).filter(Boolean))).slice(0, capped);
 
     const byIsrc = {};
@@ -553,8 +539,7 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
       if (mbid === undefined) {
         try {
           const data = await mbGetJson(`${MB_BASE}/isrc/${encodeURIComponent(isrc)}?fmt=json`);
-          const recs =
-            data.recordings || data.recording_list || data["recording-list"] || [];
+          const recs = data.recordings || data.recording_list || data["recording-list"] || [];
           const first = Array.isArray(recs) && recs.length ? recs[0] : null;
           mbid = first?.id || null;
         } catch (e) {
@@ -594,13 +579,12 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
 
             rec = {
               title: rdata.title || null,
-              artistCredit: rdata["artist-credit"] || null,
               tags,
               genres
             };
             cacheRecording.set(mbid, rec);
           } catch (e) {
-            rec = { title: null, artistCredit: null, tags: [], genres: [] };
+            rec = { title: null, tags: [], genres: [] };
             cacheRecording.set(mbid, rec);
           }
         }
@@ -610,7 +594,7 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
         out.title = rec.title || null;
       }
 
-      // 3) AcousticBrainz high-level / low-level (may be null)
+      // 3) AcousticBrainz high/low
       if (mbid && includeAcoustic) {
         if (!cacheAbHigh.has(mbid)) {
           const high = await abGetJson(`${AB_BASE}/${encodeURIComponent(mbid)}/high-level`);
@@ -638,8 +622,6 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
     res.status(500).json({ error: "Failed to enrich via MusicBrainz/AcousticBrainz" });
   }
 });
-
-// ---------------------------------------------------------------
 
 app.listen(PORT, () => {
   console.log(`Server listening on http://127.0.0.1:${PORT}`);
