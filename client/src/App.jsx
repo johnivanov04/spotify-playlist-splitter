@@ -6,21 +6,13 @@ const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 
-// Auto-enrich tracks with MusicBrainz tags (kept small to avoid slow UI)
+// Auto-enrich tracks with MusicBrainz tags / AcousticBrainz highlevel
 const AUTO_ENRICH_BRAINZ = true;
-
-// Total max unique ISRCs we will enrich per playlist selection
-// (Server also caps, but keep client sane.)
-const AUTO_ENRICH_LIMIT = 60;
-
-// Batch size for each POST /api/brainz/enrich
-// MusicBrainz is rate-limited ~1 req/sec and we do ~2 MB requests per ISRC,
-// so small batches keep each request from sitting “pending” forever.
-const BRAINZ_BATCH_SIZE = 4;
-
+// Server caps limit to 120 for politeness + rate limits:
+const AUTO_ENRICH_LIMIT = 120;
 const AUTO_ENRICH_INCLUDE_TAGS = true;
 const AUTO_ENRICH_INCLUDE_ACOUSTIC = true;
-const AUTO_ENRICH_INCLUDE_LOWLEVEL = false;
+const AUTO_ENRICH_INCLUDE_ACOUSTIC_LOWLEVEL = false;
 
 const DEFAULT_THRESHOLDS = {
   barelyPlayed: { maxPlays: 3, maxMinutes: 3 },
@@ -58,12 +50,6 @@ function downloadJson(filename, obj) {
   URL.revokeObjectURL(url);
 }
 
-function normalizeIsrc(isrc) {
-  return String(isrc || "")
-    .trim()
-    .toUpperCase();
-}
-
 function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
   const minSize = 10;
@@ -80,7 +66,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   const coreMinPlays = coreCfg.minPlays;
   const coreMinMinutes = coreCfg.minMinutes;
 
-  // ---------- ERA / YEAR SPLITS ----------
+  // ERA
   const hasYear = tracks.filter((t) => t.year);
   const oldSchool = hasYear.filter((t) => t.year <= 2005);
   const mid = hasYear.filter((t) => t.year > 2005 && t.year <= 2015);
@@ -114,7 +100,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     });
   }
 
-  // ---------- POPULARITY SPLITS ----------
+  // POPULARITY
   const hits = tracks.filter(
     (t) => typeof t.popularity === "number" && t.popularity >= 70
   );
@@ -141,7 +127,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     });
   }
 
-  // ---------- ADVANCED: USAGE-BASED SPLITS ----------
+  // USAGE-BASED
   if (usageMap) {
     const barelyPlayed = tracks.filter((t) => {
       const u = usageMap[t.id];
@@ -203,10 +189,8 @@ function buildSuggestions(tracks, usageMap, thresholds) {
       suggestions.push({
         id: "usage-frequently-skipped",
         label: "Frequently skipped tracks",
-        description:
-          "Songs in this playlist that you skip a lot in your Spotify history.",
-        ruleDescription:
-          "skips ≥ 2 and skip rate ≥ 50% of plays (from uploaded history)",
+        description: "Songs in this playlist that you skip a lot in your Spotify history.",
+        ruleDescription: "skips ≥ 2 and skip rate ≥ 50% of plays (from uploaded history)",
         tracks: frequentlySkipped
       });
     }
@@ -224,8 +208,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
       suggestions.push({
         id: "usage-core-favorites",
         label: "Core favorites",
-        description:
-          "The tracks you really live in – high plays and lots of listening time.",
+        description: "The tracks you really live in – high plays and lots of listening time.",
         ruleDescription: `plays ≥ ${coreMinPlays} and total listening ≥ ${coreMinMinutes} minutes (from uploaded history)`,
         tracks: coreFavorites
       });
@@ -296,15 +279,11 @@ function computePlaylistHealth(tracks, usageMap) {
     const plays = u?.plays ?? 0;
     const skips = u?.skips ?? 0;
 
-    if (!u || plays === 0) {
-      neverPlayedCount += 1;
-    }
+    if (!u || plays === 0) neverPlayedCount += 1;
 
     if (u) {
       const skipRate = plays > 0 ? skips / plays : 0;
-      if (plays >= 3 && skips >= 2 && skipRate >= 0.5) {
-        frequentlySkippedCount += 1;
-      }
+      if (plays >= 3 && skips >= 2 && skipRate >= 0.5) frequentlySkippedCount += 1;
 
       playsList.push(plays);
 
@@ -342,19 +321,13 @@ function computePlaylistHealth(tracks, usageMap) {
     neverPlayedPct: Math.round(neverPlayedPct),
     frequentlySkippedPct: Math.round(frequentlySkippedPct),
     medianPlays: Math.round(medianPlays),
-    avgLastPlayAgeDays:
-      avgLastPlayAgeDays !== null ? Math.round(avgLastPlayAgeDays) : null
+    avgLastPlayAgeDays: avgLastPlayAgeDays !== null ? Math.round(avgLastPlayAgeDays) : null
   };
 }
 
 async function fetchJson(path, options = {}) {
-  const res = await fetch(path, {
-    credentials: "include",
-    ...options
-  });
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
-  }
+  const res = await fetch(path, { credentials: "include", ...options });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
 
@@ -373,27 +346,16 @@ function App() {
   const [error, setError] = useState("");
   const [usageMap, setUsageMap] = useState(null);
 
-  const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(
-    () => new Set()
-  );
-
+  const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(() => new Set());
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
-  const [brainzProgress, setBrainzProgress] = useState(null);
-
-  // used to avoid race conditions when switching playlists quickly
+  // avoid race conditions when switching playlists quickly
   const selectedPlaylistIdRef = useRef(null);
 
-  // abort controller for enrichment requests
-  const brainzAbortRef = useRef(null);
+  const health = usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
 
-  const health =
-    usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
-
-  const visibleSuggestions = suggestions.filter(
-    (s) => !dismissedSuggestionIds.has(s.id)
-  );
+  const visibleSuggestions = suggestions.filter((s) => !dismissedSuggestionIds.has(s.id));
 
   useEffect(() => {
     try {
@@ -459,26 +421,18 @@ function App() {
     init();
   }, []);
 
-  // Recompute suggestions when thresholds / usageMap changes (keep ML clusters included)
-  // IMPORTANT: don't wipe user selections if suggestion IDs already exist.
   useEffect(() => {
-    if (!selectedPlaylist || !tracks.length) return;
+    if (!selectedPlaylist || !tracks.length || !usageMap) return;
 
-    const base = buildSuggestions(tracks, usageMap, thresholds);
-    const ml = buildMlClusterSuggestions(tracks);
-    const nextSuggestions = [...base, ...ml];
-
+    const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
     setSuggestions(nextSuggestions);
+    setDismissedSuggestionIds(new Set());
 
-    setSelectionBySuggestion((prev) => {
-      const next = { ...prev };
-      for (const s of nextSuggestions) {
-        if (!next[s.id]) {
-          next[s.id] = new Set(s.tracks.map((t) => t.id));
-        }
-      }
-      return next;
+    const initialSelection = {};
+    nextSuggestions.forEach((s) => {
+      initialSelection[s.id] = new Set(s.tracks.map((t) => t.id));
     });
+    setSelectionBySuggestion(initialSelection);
   }, [usageMap, selectedPlaylist, tracks, thresholds]);
 
   async function handleHistoryFilesSelected(e) {
@@ -497,9 +451,7 @@ function App() {
       const map = {};
 
       for (const entry of allEntries) {
-        const uri =
-          entry.spotify_track_uri || entry.trackUri || entry.uri || null;
-
+        const uri = entry.spotify_track_uri || entry.trackUri || entry.uri || null;
         if (!uri || !uri.startsWith("spotify:track:")) continue;
         const trackId = uri.split(":")[2];
 
@@ -534,9 +486,7 @@ function App() {
           const newDate = new Date(endTime);
           if (
             !currentLast ||
-            (newDate instanceof Date &&
-              !Number.isNaN(newDate.getTime()) &&
-              newDate > new Date(currentLast))
+            (!Number.isNaN(newDate.getTime()) && newDate > new Date(currentLast))
           ) {
             map[trackId].lastPlayed = endTime;
           }
@@ -545,14 +495,10 @@ function App() {
 
       console.log("Unique tracks in usageMap:", Object.keys(map).length);
       setUsageMap(map);
-      alert(
-        "Advanced listening data loaded! We'll use it to suggest barely-played, tourists, and core favorites."
-      );
+      alert("Advanced listening data loaded!");
     } catch (err) {
       console.error("Failed to parse history files:", err);
-      alert(
-        "Could not read those files. Make sure they are the StreamingHistory/Streaming_History JSON files from Spotify."
-      );
+      alert("Could not read those files. Make sure they are the StreamingHistory JSON files from Spotify.");
     }
   }
 
@@ -567,12 +513,6 @@ function App() {
         credentials: "include"
       });
     } finally {
-      // abort any in-flight enrichment
-      try {
-        brainzAbortRef.current?.abort();
-      } catch {}
-      brainzAbortRef.current = null;
-
       setUser(null);
       setPlaylists([]);
       setSelectedPlaylist(null);
@@ -581,115 +521,57 @@ function App() {
       setSelectionBySuggestion({});
       setExpandedSuggestionId(null);
       setError("");
-      setBrainzProgress(null);
       selectedPlaylistIdRef.current = null;
     }
   };
 
-  const enrichTracksWithBrainz = async (playlistId, trackList) => {
+  const enrichTracksWithBrainz = async (playlistId, t) => {
     if (!AUTO_ENRICH_BRAINZ) return;
 
-    // Abort any previous enrichment request
+    const isrcs = t.map((x) => x.isrc).filter(Boolean);
+    if (!isrcs.length) return;
+
     try {
-      brainzAbortRef.current?.abort();
-    } catch {}
-    const controller = new AbortController();
-    brainzAbortRef.current = controller;
+      const enrRes = await fetch(`${API_BASE}/api/brainz/enrich`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          isrcs,
+          includeTags: AUTO_ENRICH_INCLUDE_TAGS,
+          includeAcoustic: AUTO_ENRICH_INCLUDE_ACOUSTIC,
+          includeLowLevel: AUTO_ENRICH_INCLUDE_ACOUSTIC_LOWLEVEL,
+          limit: AUTO_ENRICH_LIMIT
+        })
+      });
 
-    const isrcsRaw = (trackList || []).map((x) => x.isrc).filter(Boolean);
-    const uniqIsrcs = Array.from(
-      new Set(isrcsRaw.map(normalizeIsrc).filter(Boolean))
-    ).slice(0, AUTO_ENRICH_LIMIT);
+      if (!enrRes.ok) return;
 
-    if (!uniqIsrcs.length) {
-      setBrainzProgress(null);
-      return;
-    }
+      const enr = await enrRes.json();
+      const byIsrc = enr.byIsrc || {};
 
-    setBrainzProgress({
-      running: true,
-      done: 0,
-      total: uniqIsrcs.length
-    });
-
-    const batches = [];
-    for (let i = 0; i < uniqIsrcs.length; i += BRAINZ_BATCH_SIZE) {
-      batches.push(uniqIsrcs.slice(i, i + BRAINZ_BATCH_SIZE));
-    }
-
-    let done = 0;
-
-    for (const batch of batches) {
-      // If user switched playlists, stop.
       if (selectedPlaylistIdRef.current !== playlistId) return;
 
-      try {
-        const enrRes = await fetch(`${API_BASE}/api/brainz/enrich`, {
-          method: "POST",
-          credentials: "include",
-          headers: { "Content-Type": "application/json" },
-          signal: controller.signal,
-          body: JSON.stringify({
-            isrcs: batch,
-            includeTags: AUTO_ENRICH_INCLUDE_TAGS,
-            includeAcoustic: AUTO_ENRICH_INCLUDE_ACOUSTIC,
-            includeLowLevel: AUTO_ENRICH_INCLUDE_LOWLEVEL,
-            limit: batch.length
-          })
-        });
+      const merged = t.map((tr) => ({
+        ...tr,
+        brainz: tr.isrc ? byIsrc[String(tr.isrc).trim().toUpperCase()] || null : null
+      }));
+      window.__tracks = merged;
+      console.log("set window.__tracks", merged.slice(0, 5));
+      setTracks(merged);
 
-        if (!enrRes.ok) {
-          // If server rejects, stop enrichment but don't break the app
-          console.warn("brainz enrich failed:", enrRes.status);
-          break;
-        }
-
-        const enr = await enrRes.json();
-        const byIsrc = enr.byIsrc || {};
-
-        // Apply results to current tracks WITHOUT wiping other fields
-        setTracks((prev) => {
-          // If user switched playlists, ignore
-          if (selectedPlaylistIdRef.current !== playlistId) return prev;
-
-          return prev.map((tr) => {
-            const isrc = normalizeIsrc(tr.isrc);
-            const brainz = isrc ? byIsrc[isrc] || null : null;
-            if (!brainz) return tr;
-
-            return {
-              ...tr,
-              brainz: brainz
-            };
-          });
-        });
-
-        done += batch.length;
-        setBrainzProgress((p) =>
-          p ? { ...p, running: true, done: Math.min(done, p.total) } : p
-        );
-      } catch (err) {
-        if (err?.name === "AbortError") return;
-        console.warn("Brainz enrich failed (non-fatal):", err);
-        break;
-      }
+      // Debug helper: lets you inspect quickly in DevTools
+      // eslint-disable-next-line no-undef
+      window.__tracks = merged;
+      console.log("enriched sample:", merged.slice(0, 5));
+    } catch (err) {
+      console.warn("Brainz enrich failed (non-fatal):", err);
     }
-
-    setBrainzProgress((p) =>
-      p ? { ...p, running: false, done: p.done } : p
-    );
   };
 
   const handleSelectPlaylist = async (pl) => {
     setSelectedPlaylist(pl);
     selectedPlaylistIdRef.current = pl.id;
-
-    // abort any in-flight enrichment (new playlist)
-    try {
-      brainzAbortRef.current?.abort();
-    } catch {}
-    brainzAbortRef.current = null;
-    setBrainzProgress(null);
 
     setTracks([]);
     setSuggestions([]);
@@ -705,18 +587,17 @@ function App() {
 
       setTracks(t);
 
-      const base = buildSuggestions(t, usageMap, thresholds);
-      const ml = buildMlClusterSuggestions(t);
-      const all = [...base, ...ml];
-      setSuggestions(all);
+      const s = buildSuggestions(t, usageMap, thresholds);
+      const mlSuggestions = buildMlClusterSuggestions(t);
+      setSuggestions([...s, ...mlSuggestions]);
 
       const initialSelection = {};
-      all.forEach((s) => {
-        initialSelection[s.id] = new Set(s.tracks.map((track) => track.id));
+      s.forEach((suggestion) => {
+        initialSelection[suggestion.id] = new Set(suggestion.tracks.map((track) => track.id));
       });
       setSelectionBySuggestion(initialSelection);
 
-      // Fire-and-forget enrichment in small batches
+      // fire-and-forget enrichment
       enrichTracksWithBrainz(pl.id, t);
     } catch (err) {
       console.error(err);
@@ -794,9 +675,7 @@ function App() {
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      alert(
-        `Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`
-      );
+      alert(`Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`);
     } catch (err) {
       console.error(err);
       alert("Failed to create playlist on Spotify.");
@@ -818,15 +697,12 @@ function App() {
     if (!confirm) return;
 
     try {
-      const res = await fetch(
-        `${API_BASE}/api/playlists/${selectedPlaylist.id}/remove-tracks`,
-        {
-          method: "POST",
-          credentials: "include",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ trackIds })
-        }
-      );
+      const res = await fetch(`${API_BASE}/api/playlists/${selectedPlaylist.id}/remove-tracks`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ trackIds })
+      });
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
@@ -888,9 +764,7 @@ function App() {
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      alert(
-        `Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`
-      );
+      alert(`Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`);
     } catch (err) {
       console.error(err);
       alert("Failed to create playlist on Spotify.");
@@ -906,8 +780,7 @@ function App() {
           <div>
             <h1>Playlist Splitter</h1>
             <p className="tagline">
-              Take one big Spotify playlist and split it into smaller, vibe-based
-              sub-playlists.
+              Take one big Spotify playlist and split it into smaller, vibe-based sub-playlists.
             </p>
           </div>
           <div className="header-right">
@@ -926,28 +799,12 @@ function App() {
           <div className="landing-card">
             <h1 className="landing-title">Playlist Splitter</h1>
             <p className="landing-desc">
-              Take one big Spotify playlist and split it into smaller, vibe-based
-              sub-playlists automatically.
+              Take one big Spotify playlist and split it into smaller, vibe-based sub-playlists automatically.
             </p>
 
             <button className="btn-primary btn-login-large" onClick={handleLogin}>
               LOG IN WITH SPOTIFY
             </button>
-          </div>
-
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">✨</div>
-              <div className="feature-text">AI-Powered Analysis</div>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">📂</div>
-              <div className="feature-text">Smart Organization</div>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚀</div>
-              <div className="feature-text">Instant Export</div>
-            </div>
           </div>
         </div>
       )}
@@ -962,19 +819,11 @@ function App() {
               {playlists.map((pl) => (
                 <li
                   key={pl.id}
-                  className={
-                    selectedPlaylist?.id === pl.id
-                      ? "playlist-item selected"
-                      : "playlist-item"
-                  }
+                  className={selectedPlaylist?.id === pl.id ? "playlist-item selected" : "playlist-item"}
                   onClick={() => handleSelectPlaylist(pl)}
                 >
                   {pl.images && pl.images.length > 0 && (
-                    <img
-                      src={pl.images[0].url}
-                      alt={pl.name}
-                      className="playlist-cover"
-                    />
+                    <img src={pl.images[0].url} alt={pl.name} className="playlist-cover" />
                   )}
                   <div>
                     <div className="playlist-name">{pl.name}</div>
@@ -991,33 +840,8 @@ function App() {
                 <h2>Advanced listening data (optional)</h2>
                 {usageMap && <span className="pill pill-success">Data loaded</span>}
               </div>
-              <p>
-                For deeper cleanup suggestions, you can upload your Spotify{" "}
-                <strong>extended streaming history</strong> export. All processing
-                happens in your browser – nothing is sent to our server.
-              </p>
 
-              <details className="advanced-details">
-                <summary>How do I get this from Spotify?</summary>
-                <ol className="advanced-steps">
-                  <li>Go to your Spotify account &gt; Privacy &gt; Download your data.</li>
-                  <li>Request your <em>extended streaming history</em>.</li>
-                  <li>When Spotify emails the ZIP, unzip it on your computer.</li>
-                  <li>
-                    In the <code>MyData</code> folder, select the files named like{" "}
-                    <code>StreamingHistory_music_0.json</code>,{" "}
-                    <code>StreamingHistory_music_1.json</code>, etc.
-                  </li>
-                  <li>Upload them here:</li>
-                </ol>
-              </details>
-
-              <input
-                type="file"
-                multiple
-                accept=".json,application/json"
-                onChange={handleHistoryFilesSelected}
-              />
+              <input type="file" multiple accept=".json,application/json" onChange={handleHistoryFilesSelected} />
             </div>
 
             {!selectedPlaylist && (
@@ -1034,37 +858,29 @@ function App() {
                   {loadingTracks && <p>Analyzing your playlist…</p>}
                   {!loadingTracks && !!tracks.length && (
                     <>
-                      <p>
-                        Tracks analyzed: <strong>{tracks.length}</strong>
-                      </p>
-
-                      {AUTO_ENRICH_BRAINZ && brainzProgress && (
-                        <p className="hint">
-                          MusicBrainz enrichment:{" "}
-                          <strong>
-                            {brainzProgress.done}/{brainzProgress.total}
-                          </strong>
-                          {brainzProgress.running ? " (running…)" : " (done)"}
-                        </p>
-                      )}
+                      <p>Tracks analyzed: <strong>{tracks.length}</strong></p>
 
                       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.5rem 0 0.25rem" }}>
                         <button
                           className="btn-secondary"
-                          onClick={() =>
-                            downloadJson(
-                              `playlist_${selectedPlaylist.id}_dataset.json`,
-                              tracks
-                            )
-                          }
+                          onClick={() => downloadJson(`playlist_${selectedPlaylist.id}_dataset.json`, tracks)}
                         >
                           Download ML dataset (JSON)
                         </button>
+
+                        <button
+                          className="btn-secondary"
+                          onClick={() => handleSelectPlaylist(selectedPlaylist)}
+                        >
+                          Reload playlist
+                        </button>
                       </div>
 
-                      <p className="hint">
-                        Suggestions below are based on era, popularity, and optionally your listening history.
-                      </p>
+                      {AUTO_ENRICH_BRAINZ && (
+                        <p className="hint">
+                          Extra enrichment: MusicBrainz/AcousticBrainz fetched for up to {AUTO_ENRICH_LIMIT} tracks in the background.
+                        </p>
+                      )}
                     </>
                   )}
                   {error && <p className="error">{error}</p>}
@@ -1078,10 +894,7 @@ function App() {
                       <strong>{health.frequentlySkippedPct}%</strong> frequently skipped · median plays{" "}
                       <strong>{health.medianPlays}</strong>
                       {health.avgLastPlayAgeDays !== null && (
-                        <>
-                          {" "}
-                          · average last play <strong>{health.avgLastPlayAgeDays} days</strong> ago
-                        </>
+                        <> · average last play <strong>{health.avgLastPlayAgeDays} days</strong> ago</>
                       )}
                     </p>
                   </div>
@@ -1112,9 +925,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.barelyPlayed.maxPlays}
-                              onChange={(e) =>
-                                handleThresholdChange("barelyPlayed", "maxPlays", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("barelyPlayed", "maxPlays", e.target.value)}
                             />
                           </label>
                           <label>
@@ -1123,9 +934,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.barelyPlayed.maxMinutes}
-                              onChange={(e) =>
-                                handleThresholdChange("barelyPlayed", "maxMinutes", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("barelyPlayed", "maxMinutes", e.target.value)}
                             />
                           </label>
                         </div>
@@ -1140,9 +949,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.tourists.maxPlays}
-                              onChange={(e) =>
-                                handleThresholdChange("tourists", "maxPlays", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("tourists", "maxPlays", e.target.value)}
                             />
                           </label>
                           <label>
@@ -1151,9 +958,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.tourists.maxMinutes}
-                              onChange={(e) =>
-                                handleThresholdChange("tourists", "maxMinutes", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("tourists", "maxMinutes", e.target.value)}
                             />
                           </label>
                         </div>
@@ -1168,9 +973,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.coreFavorites.minPlays}
-                              onChange={(e) =>
-                                handleThresholdChange("coreFavorites", "minPlays", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("coreFavorites", "minPlays", e.target.value)}
                             />
                           </label>
                           <label>
@@ -1179,9 +982,7 @@ function App() {
                               type="number"
                               min="0"
                               value={thresholds.coreFavorites.minMinutes}
-                              onChange={(e) =>
-                                handleThresholdChange("coreFavorites", "minMinutes", e.target.value)
-                              }
+                              onChange={(e) => handleThresholdChange("coreFavorites", "minMinutes", e.target.value)}
                             />
                           </label>
                         </div>
@@ -1191,16 +992,6 @@ function App() {
                 )}
 
                 <div className="content-scroll">
-                  {!loadingTracks && suggestions.length === 0 && tracks.length > 0 && (
-                    <div className="card">
-                      <h3>No strong groupings found</h3>
-                      <p>
-                        We couldn&apos;t find big enough clusters by year or popularity.
-                        Try another playlist.
-                      </p>
-                    </div>
-                  )}
-
                   {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
                       {visibleSuggestions.map((s) => {
@@ -1245,15 +1036,12 @@ function App() {
                             <div className="suggestion-actions">
                               <button
                                 className="btn-secondary"
-                                onClick={() =>
-                                  setExpandedSuggestionId(expanded ? null : s.id)
-                                }
+                                onClick={() => setExpandedSuggestionId(expanded ? null : s.id)}
                               >
                                 {expanded ? "Hide tracks" : "View tracks"}
                               </button>
 
-                              {s.id === "usage-frequently-skipped" ||
-                              s.id === "usage-barely-played" ? (
+                              {s.id === "usage-frequently-skipped" || s.id === "usage-barely-played" ? (
                                 <button
                                   className="btn-secondary"
                                   style={{ borderColor: "#ff4d4f", color: "#ff4d4f" }}
@@ -1290,12 +1078,7 @@ function App() {
                                           src={t.imageUrl}
                                           alt={t.name}
                                           className="track-cover"
-                                          style={{
-                                            width: 24,
-                                            height: 24,
-                                            borderRadius: 3,
-                                            marginRight: "0.5rem"
-                                          }}
+                                          style={{ width: 24, height: 24, borderRadius: 3, marginRight: "0.5rem" }}
                                         />
                                       )}
 
@@ -1304,17 +1087,11 @@ function App() {
                                         <div className="track-artist">{t.artists?.join(", ")}</div>
 
                                         {t.spotifyUrl && (
-                                          <a
-                                            href={t.spotifyUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="track-link"
-                                          >
+                                          <a href={t.spotifyUrl} target="_blank" rel="noreferrer" className="track-link">
                                             Open in Spotify ↗
                                           </a>
                                         )}
 
-                                        {/* Optional: show top MusicBrainz tag (if fetched) */}
                                         {t.brainz?.tags?.length ? (
                                           <div className="track-artist" style={{ opacity: 0.85 }}>
                                             tag: {t.brainz.tags[0].name}
@@ -1324,12 +1101,9 @@ function App() {
 
                                       <div className="track-meta">
                                         {t.year && <span className="pill">{t.year}</span>}
-                                        {typeof t.energy === "number" && (
-                                          <span className="pill">energy {t.energy.toFixed(2)}</span>
-                                        )}
-                                        {typeof t.popularity === "number" && (
-                                          <span className="pill">pop {t.popularity}</span>
-                                        )}
+                                        {typeof t.energy === "number" && <span className="pill">energy {t.energy.toFixed(2)}</span>}
+                                        {typeof t.popularity === "number" && <span className="pill">pop {t.popularity}</span>}
+                                        {t.isrc && <span className="pill">isrc {t.isrc}</span>}
                                       </div>
                                     </div>
                                   );
@@ -1339,33 +1113,6 @@ function App() {
                           </article>
                         );
                       })}
-                    </div>
-                  )}
-
-                  {savedSplits.length > 0 && (
-                    <div className="card saved-splits-card">
-                      <h2>Saved splits</h2>
-                      <ul className="saved-splits-list">
-                        {savedSplits.map((split) => (
-                          <li key={split.key} className="saved-split-item">
-                            <div>
-                              <div className="saved-split-title">{split.label}</div>
-                              <div className="saved-split-meta">
-                                from <span className="saved-split-playlist">{split.playlistName}</span> ·{" "}
-                                {split.trackIds.length} tracks
-                              </div>
-                            </div>
-                            <div className="saved-split-actions">
-                              <button className="btn-secondary" onClick={() => handleCreateSavedSplit(split)}>
-                                Create on Spotify
-                              </button>
-                              <button className="btn-secondary" onClick={() => handleRemoveSavedSplit(split.key)}>
-                                Remove
-                              </button>
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
                     </div>
                   )}
                 </div>
