@@ -1,0 +1,33 @@
+{
+  "track_id": "internal-unique-id",
+  "title": "Song Title",
+  "artists": ["Artist A", "Artist B"],
+  "album": "Album Name",
+  "year": 2018,
+
+  "ids": {
+    "isrc": "USABC1234567",
+    "musicbrainz_recording_id": "mbid-here"
+  },
+
+  "brainz": {
+    "tags": [
+      { "name": "indie", "count": 5 },
+      { "name": "dream pop", "count": 3 }
+    ],
+    "genres": [
+      { "name": "indie pop", "count": 2 }
+    ],
+    "acousticHighLevel": {},
+    "acousticLowLevel": null
+  },
+
+  "runtime_metadata": {
+    "spotify_popularity": 61
+  },
+
+  "audio_embeddings": {
+    "model_name": null,
+    "vector": null
+  }
+}
