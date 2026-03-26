@@ -2,14 +2,16 @@
 """
 Featurize normalized/backfilled song records into a dense numeric matrix.
 
-Primary goal:
-- make sound / vibe / mood features dominate
-- let genre help somewhat
-- let year and popularity help only a little
+Design goals:
+- sound / vibe / mood features should dominate
+- genre should help somewhat
+- year and popularity should help only a little
+- noisy chart/popularity tags should be excluded
+- redundant acoustic complement/probability fields should be excluded
 
 Inputs:
-- song_records.json      (JSON array)
-- song_records.ndjson    (NDJSON)
+- song_records.json
+- song_records.ndjson
 
 Outputs:
 - feature_matrix.npz
@@ -17,10 +19,10 @@ Outputs:
 - row_index.json
 - featurizer_report.json
 
-Recommended first use:
+Recommended usage:
     python ml_pipeline/scripts/featurize_song_records.py \
       --input ml_pipeline/data/processed/song_records.backfilled.json \
-      --out-dir ml_pipeline/data/artifacts/features_v1
+      --out-dir ml_pipeline/data/artifacts/features_v1_1
 """
 
 from __future__ import annotations
@@ -117,6 +119,59 @@ def canonical_key(record: dict[str, Any]) -> str:
 
 
 # ----------------------------
+# feature filtering rules
+# ----------------------------
+
+_SKIP_TAG_SUBSTRINGS = {
+    "billboard",
+    "hot_100",
+}
+
+_SKIP_ACOUSTIC_KEYS = {
+    "metadata",
+    "version",
+    "versions",
+    "recording_id",
+    "mbid",
+    "analysis_time",
+    "timestamp",
+}
+
+_SKIP_ACOUSTIC_SUBSTRINGS = {
+    "__all__not_",
+    "__gender__",
+}
+
+_SKIP_ACOUSTIC_SUFFIXES = {
+    "__probability",
+}
+
+
+def keep_tag_token(token: str) -> bool:
+    if not token:
+        return False
+    for bad in _SKIP_TAG_SUBSTRINGS:
+        if bad in token:
+            return False
+    return True
+
+
+def keep_acoustic_feature(name: str) -> bool:
+    if not name:
+        return False
+
+    for bad in _SKIP_ACOUSTIC_SUBSTRINGS:
+        if bad in name:
+            return False
+
+    for suffix in _SKIP_ACOUSTIC_SUFFIXES:
+        if name.endswith(suffix):
+            return False
+
+    return True
+
+
+# ----------------------------
 # field extraction
 # ----------------------------
 
@@ -131,24 +186,19 @@ def iter_name_count_items(items: Any) -> Iterable[tuple[str, float]]:
         count = item.get("count", 1)
         if not is_nonempty_string(name):
             continue
+
+        token = normalize_token(name)
+        if not keep_tag_token(token):
+            continue
+
         try:
             weight = float(count)
         except Exception:
             weight = 1.0
         if weight < 0:
             continue
-        yield normalize_token(name), weight
 
-
-_SKIP_ACOUSTIC_KEYS = {
-    "metadata",
-    "version",
-    "versions",
-    "recording_id",
-    "mbid",
-    "analysis_time",
-    "timestamp",
-}
+        yield token, weight
 
 
 def iter_acoustic_numeric_leaves(obj: Any, prefix: str = "") -> Iterable[tuple[str, float]]:
@@ -168,7 +218,8 @@ def iter_acoustic_numeric_leaves(obj: Any, prefix: str = "") -> Iterable[tuple[s
             next_prefix = f"{prefix}__{normalize_token(key)}" if prefix else normalize_token(key)
 
             if isinstance(v, (int, float)) and not isinstance(v, bool):
-                yield next_prefix, float(v)
+                if keep_acoustic_feature(next_prefix):
+                    yield next_prefix, float(v)
             elif isinstance(v, (dict, list)):
                 yield from iter_acoustic_numeric_leaves(v, next_prefix)
             else:
@@ -177,8 +228,10 @@ def iter_acoustic_numeric_leaves(obj: Any, prefix: str = "") -> Iterable[tuple[s
     elif isinstance(obj, list):
         for i, v in enumerate(obj):
             next_prefix = f"{prefix}__{i}" if prefix else str(i)
+
             if isinstance(v, (int, float)) and not isinstance(v, bool):
-                yield next_prefix, float(v)
+                if keep_acoustic_feature(next_prefix):
+                    yield next_prefix, float(v)
             elif isinstance(v, (dict, list)):
                 yield from iter_acoustic_numeric_leaves(v, next_prefix)
 
@@ -227,13 +280,12 @@ def build_vocabs(
         tag_keys = {name for name, _ in iter_name_count_items(brainz.get("tags"))}
         genre_keys = {name for name, _ in iter_name_count_items(brainz.get("genres"))}
 
-        acoustic = brainz.get("acoustic_high_level")
         acoustic_keys = set()
+        acoustic = brainz.get("acoustic_high_level")
         if isinstance(acoustic, dict):
             for name, value in iter_acoustic_numeric_leaves(acoustic):
-                if not isinstance(value, float):
-                    continue
-                acoustic_keys.add(name)
+                if isinstance(value, float):
+                    acoustic_keys.add(name)
 
         tag_df.update(tag_keys)
         genre_df.update(genre_keys)
@@ -325,25 +377,21 @@ def featurize_records(
         brainz = record.get("brainz") or {}
         ids = record.get("ids") or {}
 
-        # --- binary presence flags
         tags_present = False
         genres_present = False
         acoustic_present = False
 
-        # has_tags
         tags = list(iter_name_count_items(brainz.get("tags")))
         if tags:
             tags_present = True
             X[row_i, 0] = binary_weight
 
-        # has_genres
         genres = list(iter_name_count_items(brainz.get("genres")))
         if genres:
             genres_present = True
             X[row_i, 1] = binary_weight
 
-        # has_acoustic_high_level
-        acoustic_vals = []
+        acoustic_vals: list[tuple[str, float]] = []
         acoustic_obj = brainz.get("acoustic_high_level")
         if isinstance(acoustic_obj, dict):
             acoustic_vals = list(iter_acoustic_numeric_leaves(acoustic_obj))
@@ -351,19 +399,16 @@ def featurize_records(
                 acoustic_present = True
                 X[row_i, 2] = binary_weight
 
-        # has_year + scaled year
         year = get_year(record)
         if year is not None:
             X[row_i, 3] = binary_weight
             X[row_i, 5] = np.float32(((year - year_mean) / year_std) * year_weight)
 
-        # has_popularity + scaled popularity
         popularity = get_popularity(record)
         if popularity is not None:
             X[row_i, 4] = binary_weight
             X[row_i, 6] = np.float32((popularity / 100.0) * popularity_weight)
 
-        # --- tags: strong semantic features
         for name, count in tags:
             idx = tag_index.get(name)
             if idx is None:
@@ -371,7 +416,6 @@ def featurize_records(
             value = math.log1p(max(count, 0.0)) * tag_weight
             X[row_i, tag_offset + idx] += np.float32(value)
 
-        # --- genres: useful, but weaker than tags for your use case
         for name, count in genres:
             idx = genre_index.get(name)
             if idx is None:
@@ -379,12 +423,10 @@ def featurize_records(
             value = math.log1p(max(count, 0.0)) * genre_weight
             X[row_i, genre_offset + idx] += np.float32(value)
 
-        # --- acoustic high-level: dominant mood/vibe features
         for name, value in acoustic_vals:
             idx = acoustic_index.get(name)
             if idx is None:
                 continue
-            # keep within a reasonable range if upstream data is noisy
             clipped = float(max(min(value, 1.0), -1.0))
             X[row_i, acoustic_offset + idx] += np.float32(clipped * acoustic_weight)
 
@@ -436,11 +478,10 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--out-dir",
-        default="ml_pipeline/data/artifacts/features_v1",
+        default="ml_pipeline/data/artifacts/features_v1_1",
         help="Directory to write feature artifacts into",
     )
 
-    # vocab pruning
     parser.add_argument("--min-tag-df", type=int, default=2)
     parser.add_argument("--min-genre-df", type=int, default=2)
     parser.add_argument("--min-acoustic-df", type=int, default=5)
@@ -448,7 +489,6 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--max-genres", type=int, default=300)
     parser.add_argument("--max-acoustic", type=int, default=1000)
 
-    # weighting
     parser.add_argument("--tag-weight", type=float, default=1.0)
     parser.add_argument("--genre-weight", type=float, default=0.7)
     parser.add_argument("--acoustic-weight", type=float, default=1.2)
