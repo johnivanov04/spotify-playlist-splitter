@@ -1,0 +1,472 @@
+{
+  "coverage": {
+    "records": 758,
+    "unique_canonical_records_estimate": 758,
+    "duplicate_estimate": 0,
+    "with_isrc": 636,
+    "with_isrc_pct": 83.91,
+    "with_mbid": 739,
+    "with_mbid_pct": 97.49,
+    "with_spotify_id": 758,
+    "with_spotify_id_pct": 100.0,
+    "with_tags": 297,
+    "with_tags_pct": 39.18,
+    "with_genres": 259,
+    "with_genres_pct": 34.17,
+    "with_acoustic_high_level": 453,
+    "with_acoustic_high_level_pct": 59.76,
+    "with_acoustic_low_level": 0,
+    "with_acoustic_low_level_pct": 0.0,
+    "with_audio_embedding": 0,
+    "with_audio_embedding_pct": 0.0,
+    "with_popularity": 758,
+    "with_popularity_pct": 100.0,
+    "with_year": 758,
+    "with_year_pct": 100.0,
+    "missing_all_ids": 0,
+    "missing_all_ids_pct": 0.0,
+    "missing_brainz": 253,
+    "missing_brainz_pct": 33.38
+  },
+  "vocabulary": {
+    "unique_tags": 381,
+    "unique_genres": 179,
+    "top_tags": [
+      [
+        "hip hop",
+        264.0
+      ],
+      [
+        "rock",
+        259.0
+      ],
+      [
+        "pop",
+        138.0
+      ],
+      [
+        "alternative rock",
+        137.0
+      ],
+      [
+        "indie rock",
+        126.0
+      ],
+      [
+        "electronic",
+        83.0
+      ],
+      [
+        "pop rock",
+        70.0
+      ],
+      [
+        "psychedelic rock",
+        64.0
+      ],
+      [
+        "indie",
+        56.0
+      ],
+      [
+        "indie pop",
+        55.0
+      ],
+      [
+        "progressive rock",
+        46.0
+      ],
+      [
+        "jazz rap",
+        41.0
+      ],
+      [
+        "classic rock",
+        37.0
+      ],
+      [
+        "alternative hip hop",
+        37.0
+      ],
+      [
+        "trip hop",
+        36.0
+      ],
+      [
+        "soul",
+        33.0
+      ],
+      [
+        "billboard hot 100",
+        31.0
+      ],
+      [
+        "neo-psychedelia",
+        30.0
+      ],
+      [
+        "contemporary r&b",
+        30.0
+      ],
+      [
+        "billboard hot 100 2025",
+        28.0
+      ],
+      [
+        "jazz",
+        27.0
+      ],
+      [
+        "rap",
+        26.0
+      ],
+      [
+        "downtempo",
+        25.0
+      ],
+      [
+        "west coast hip hop",
+        24.0
+      ],
+      [
+        "conscious hip hop",
+        24.0
+      ]
+    ],
+    "top_genres": [
+      [
+        "hip hop",
+        264.0
+      ],
+      [
+        "rock",
+        259.0
+      ],
+      [
+        "pop",
+        138.0
+      ],
+      [
+        "alternative rock",
+        137.0
+      ],
+      [
+        "indie rock",
+        126.0
+      ],
+      [
+        "electronic",
+        83.0
+      ],
+      [
+        "pop rock",
+        70.0
+      ],
+      [
+        "psychedelic rock",
+        64.0
+      ],
+      [
+        "indie pop",
+        55.0
+      ],
+      [
+        "progressive rock",
+        46.0
+      ],
+      [
+        "jazz rap",
+        41.0
+      ],
+      [
+        "classic rock",
+        37.0
+      ],
+      [
+        "alternative hip hop",
+        37.0
+      ],
+      [
+        "trip hop",
+        36.0
+      ],
+      [
+        "soul",
+        33.0
+      ],
+      [
+        "neo-psychedelia",
+        30.0
+      ],
+      [
+        "contemporary r&b",
+        30.0
+      ],
+      [
+        "jazz",
+        27.0
+      ],
+      [
+        "downtempo",
+        25.0
+      ],
+      [
+        "west coast hip hop",
+        24.0
+      ],
+      [
+        "conscious hip hop",
+        24.0
+      ],
+      [
+        "instrumental",
+        24.0
+      ],
+      [
+        "synth-pop",
+        23.0
+      ],
+      [
+        "r&b",
+        23.0
+      ],
+      [
+        "underground hip hop",
+        23.0
+      ]
+    ],
+    "top_artists": [
+      [
+        "Playboi Carti",
+        66
+      ],
+      [
+        "Travis Scott",
+        40
+      ],
+      [
+        "beabadoobee",
+        39
+      ],
+      [
+        "Clairo",
+        35
+      ],
+      [
+        "Nujabes",
+        25
+      ],
+      [
+        "Mac DeMarco",
+        24
+      ],
+      [
+        "Tame Impala",
+        23
+      ],
+      [
+        "Faye Webster",
+        18
+      ],
+      [
+        "Tyler, The Creator",
+        18
+      ],
+      [
+        "Lil Uzi Vert",
+        17
+      ],
+      [
+        "Kendrick Lamar",
+        17
+      ],
+      [
+        "Peter Cat Recording Co.",
+        15
+      ],
+      [
+        "Baby Keem",
+        14
+      ],
+      [
+        "Sweet Trip",
+        13
+      ],
+      [
+        "Frank Ocean",
+        12
+      ],
+      [
+        "The Marías",
+        11
+      ],
+      [
+        "Mac Miller",
+        11
+      ],
+      [
+        "MF DOOM",
+        10
+      ],
+      [
+        "Radiohead",
+        9
+      ],
+      [
+        "A$AP Rocky",
+        9
+      ],
+      [
+        "The Strokes",
+        8
+      ],
+      [
+        "Steve Lacy",
+        8
+      ],
+      [
+        "Cigarettes After Sex",
+        8
+      ],
+      [
+        "Strawberry Guy",
+        7
+      ],
+      [
+        "Drake",
+        7
+      ]
+    ],
+    "top_years": [
+      [
+        2018,
+        80
+      ],
+      [
+        2019,
+        73
+      ],
+      [
+        2017,
+        70
+      ],
+      [
+        2024,
+        60
+      ],
+      [
+        2021,
+        52
+      ],
+      [
+        2023,
+        47
+      ],
+      [
+        2020,
+        44
+      ],
+      [
+        2025,
+        40
+      ],
+      [
+        2015,
+        38
+      ],
+      [
+        2016,
+        35
+      ],
+      [
+        2022,
+        30
+      ],
+      [
+        2012,
+        21
+      ],
+      [
+        2013,
+        19
+      ],
+      [
+        2003,
+        14
+      ],
+      [
+        2004,
+        14
+      ],
+      [
+        2011,
+        12
+      ],
+      [
+        2009,
+        12
+      ],
+      [
+        2010,
+        12
+      ],
+      [
+        2014,
+        10
+      ],
+      [
+        2001,
+        9
+      ],
+      [
+        2006,
+        6
+      ],
+      [
+        1993,
+        6
+      ],
+      [
+        2005,
+        5
+      ],
+      [
+        1995,
+        4
+      ],
+      [
+        2007,
+        4
+      ]
+    ],
+    "year_min": 1964,
+    "year_max": 2026
+  },
+  "sources": {
+    "dataset_names": [
+      [
+        "bootstrap-playlists-v1",
+        758
+      ]
+    ],
+    "source_files": [
+      [
+        "playlist_1.json",
+        387
+      ],
+      [
+        "playlist_2.json",
+        283
+      ],
+      [
+        "playlist_4.json",
+        51
+      ],
+      [
+        "playlist_5.json",
+        37
+      ]
+    ],
+    "source_file_count": 4
+  }
+}
