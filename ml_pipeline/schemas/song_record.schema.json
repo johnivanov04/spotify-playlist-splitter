@@ -1,33 +1,221 @@
 {
-  "track_id": "internal-unique-id",
-  "title": "Song Title",
-  "artists": ["Artist A", "Artist B"],
-  "album": "Album Name",
-  "year": 2018,
-
-  "ids": {
-    "isrc": "USABC1234567",
-    "musicbrainz_recording_id": "mbid-here"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/song_record.schema.json",
+  "title": "SongRecord",
+  "description": "Normalized song record used by the offline music corpus, training pipeline, and backend inference.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "track_id",
+    "title",
+    "artists",
+    "ids",
+    "brainz",
+    "runtime_metadata",
+    "audio_embeddings",
+    "source"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "track_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable internal ID for this normalized record. Prefer ISRC, then MBID, then Spotify ID, then normalized title/artist fallback."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artists": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "album": {
+      "type": ["string", "null"]
+    },
+    "year": {
+      "type": ["integer", "null"],
+      "minimum": 1800,
+      "maximum": 3000
+    },
+    "duration_ms": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "ids": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "spotify_id",
+        "spotify_uri",
+        "isrc",
+        "musicbrainz_recording_id"
+      ],
+      "properties": {
+        "spotify_id": {
+          "type": ["string", "null"]
+        },
+        "spotify_uri": {
+          "type": ["string", "null"]
+        },
+        "isrc": {
+          "type": ["string", "null"]
+        },
+        "musicbrainz_recording_id": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "brainz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tags",
+        "genres",
+        "acoustic_high_level",
+        "acoustic_low_level"
+      ],
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nameCountItem"
+          }
+        },
+        "genres": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nameCountItem"
+          }
+        },
+        "acoustic_high_level": {
+          "type": ["object", "null"],
+          "description": "Raw AcousticBrainz high-level JSON or null if unavailable."
+        },
+        "acoustic_low_level": {
+          "type": ["object", "null"],
+          "description": "Raw AcousticBrainz low-level JSON or null if unavailable."
+        }
+      }
+    },
+    "runtime_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "spotify_popularity",
+        "spotify_url",
+        "preview_url",
+        "image_url"
+      ],
+      "properties": {
+        "spotify_popularity": {
+          "type": ["number", "null"]
+        },
+        "spotify_url": {
+          "type": ["string", "null"]
+        },
+        "preview_url": {
+          "type": ["string", "null"]
+        },
+        "image_url": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "audio_embeddings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_name",
+        "vector"
+      ],
+      "properties": {
+        "model_name": {
+          "type": ["string", "null"]
+        },
+        "vector": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataset_name",
+        "dataset_version",
+        "source_files",
+        "ingested_at_utc"
+      ],
+      "properties": {
+        "dataset_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dataset_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_files": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ingested_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "normalized_title",
+        "normalized_artists_key"
+      ],
+      "properties": {
+        "normalized_title": {
+          "type": "string"
+        },
+        "normalized_artists_key": {
+          "type": "string"
+        }
+      }
+    },
+    "debug": {
+      "type": ["object", "null"],
+      "description": "Optional raw-debug payloads useful during corpus construction. Keep out of model-serving payloads if not needed."
+    }
   },
-
-  "brainz": {
-    "tags": [
-      { "name": "indie", "count": 5 },
-      { "name": "dream pop", "count": 3 }
-    ],
-    "genres": [
-      { "name": "indie pop", "count": 2 }
-    ],
-    "acousticHighLevel": {},
-    "acousticLowLevel": null
-  },
-
-  "runtime_metadata": {
-    "spotify_popularity": 61
-  },
-
-  "audio_embeddings": {
-    "model_name": null,
-    "vector": null
+  "$defs": {
+    "nameCountItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "count"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "count": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
   }
 }

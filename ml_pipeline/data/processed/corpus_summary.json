@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "dataset_version": "0.1.0",
+  "generated_at_utc": "2026-03-26T00:24:51+00:00",
+  "counts": {
+    "files_seen": 1,
+    "raw_tracks_seen": 387,
+    "normalized_records_written": 387,
+    "duplicate_records_skipped": 0,
+    "missing_isrc": 100,
+    "missing_mbid": 272,
+    "with_brainz_tags": 47,
+    "with_brainz_genres": 45,
+    "with_acoustic_high_level": 76,
+    "with_acoustic_low_level": 0
+  },
+  "vocabulary": {
+    "unique_tags": 179,
+    "unique_genres": 83,
+    "top_tags": [
+      [
+        "rock",
+        25
+      ],
+      [
+        "pop",
+        18
+      ],
+      [
+        "indie rock",
+        18
+      ],
+      [
+        "indie pop",
+        14
+      ],
+      [
+        "alternative rock",
+        11
+      ],
+      [
+        "pop rock",
+        11
+      ],
+      [
+        "indie",
+        10
+      ],
+      [
+        "electronic",
+        9
+      ],
+      [
+        "psychedelic rock",
+        9
+      ],
+      [
+        "classic rock",
+        6
+      ],
+      [
+        "pop/rock",
+        6
+      ],
+      [
+        "singer-songwriter",
+        6
+      ],
+      [
+        "mellow",
+        5
+      ],
+      [
+        "art pop",
+        4
+      ],
+      [
+        "neo-psychedelia",
+        4
+      ],
+      [
+        "synth-pop",
+        4
+      ],
+      [
+        "psychedelic pop",
+        4
+      ],
+      [
+        "soundtrack",
+        4
+      ],
+      [
+        "alternative pop",
+        3
+      ],
+      [
+        "disco",
+        3
+      ],
+      [
+        "chill",
+        3
+      ],
+      [
+        "album rock",
+        3
+      ],
+      [
+        "britpop",
+        3
+      ],
+      [
+        "contemporary pop/rock",
+        3
+      ],
+      [
+        "happy",
+        3
+      ]
+    ],
+    "top_genres": [
+      [
+        "rock",
+        25
+      ],
+      [
+        "pop",
+        18
+      ],
+      [
+        "indie rock",
+        18
+      ],
+      [
+        "indie pop",
+        14
+      ],
+      [
+        "alternative rock",
+        11
+      ],
+      [
+        "pop rock",
+        11
+      ],
+      [
+        "electronic",
+        9
+      ],
+      [
+        "psychedelic rock",
+        9
+      ],
+      [
+        "classic rock",
+        6
+      ],
+      [
+        "singer-songwriter",
+        6
+      ],
+      [
+        "art pop",
+        4
+      ],
+      [
+        "neo-psychedelia",
+        4
+      ],
+      [
+        "synth-pop",
+        4
+      ],
+      [
+        "psychedelic pop",
+        4
+      ],
+      [
+        "alternative pop",
+        3
+      ],
+      [
+        "disco",
+        3
+      ],
+      [
+        "britpop",
+        3
+      ],
+      [
+        "rock and roll",
+        3
+      ],
+      [
+        "funk",
+        3
+      ],
+      [
+        "jangle pop",
+        3
+      ],
+      [
+        "indietronica",
+        3
+      ],
+      [
+        "soft rock",
+        3
+      ],
+      [
+        "blues rock",
+        2
+      ],
+      [
+        "garage rock",
+        2
+      ],
+      [
+        "surf punk",
+        2
+      ]
+    ]
+  }
+}

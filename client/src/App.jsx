@@ -586,6 +586,7 @@ function App() {
       const t = data.tracks || [];
 
       setTracks(t);
+      window.__tracks = t;
 
       const s = buildSuggestions(t, usageMap, thresholds);
       const mlSuggestions = buildMlClusterSuggestions(t);

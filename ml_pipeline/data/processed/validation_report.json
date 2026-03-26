@@ -1,0 +1,18 @@
+{
+  "input": "ml_pipeline/data/processed/song_records.json",
+  "records_loaded": 387,
+  "valid_records": 387,
+  "records_with_any_issue": 0,
+  "total_errors": 0,
+  "total_warnings": 0,
+  "quality_summary": {
+    "records": 387,
+    "with_isrc": 287,
+    "with_mbid": 115,
+    "with_tags": 47,
+    "with_genres": 45,
+    "with_acoustic_high_level": 76,
+    "with_audio_embedding": 0
+  },
+  "sample_issues": []
+}
