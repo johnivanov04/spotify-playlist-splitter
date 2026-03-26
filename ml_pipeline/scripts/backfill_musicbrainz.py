@@ -32,6 +32,8 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
+import ssl
+import certifi
 
 MB_BASE = "https://musicbrainz.org/ws/2"
 AB_BASE = "https://acousticbrainz.org/api/v1"
@@ -161,6 +163,7 @@ class ApiClient:
         self.timeout = timeout
         self.verbose = verbose
         self._last_request_ts = 0.0
+        self.ssl_context = ssl.create_default_context(cafile=certifi.where())
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request_ts
@@ -179,7 +182,7 @@ class ApiClient:
                 },
             )
             try:
-                with urlopen(req, timeout=self.timeout) as resp:
+                with urlopen(req, timeout=self.timeout, context=self.ssl_context) as resp:
                     body = resp.read().decode("utf-8")
                     self._last_request_ts = time.monotonic()
                     if self.verbose:
