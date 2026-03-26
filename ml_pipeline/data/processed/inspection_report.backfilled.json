@@ -5,16 +5,16 @@
     "duplicate_estimate": 0,
     "with_isrc": 636,
     "with_isrc_pct": 83.91,
-    "with_mbid": 115,
-    "with_mbid_pct": 15.17,
+    "with_mbid": 739,
+    "with_mbid_pct": 97.49,
     "with_spotify_id": 758,
     "with_spotify_id_pct": 100.0,
-    "with_tags": 47,
-    "with_tags_pct": 6.2,
-    "with_genres": 45,
-    "with_genres_pct": 5.94,
-    "with_acoustic_high_level": 76,
-    "with_acoustic_high_level_pct": 10.03,
+    "with_tags": 297,
+    "with_tags_pct": 39.18,
+    "with_genres": 259,
+    "with_genres_pct": 34.17,
+    "with_acoustic_high_level": 453,
+    "with_acoustic_high_level_pct": 59.76,
     "with_acoustic_low_level": 0,
     "with_acoustic_low_level_pct": 0.0,
     "with_audio_embedding": 0,
@@ -25,214 +25,214 @@
     "with_year_pct": 100.0,
     "missing_all_ids": 0,
     "missing_all_ids_pct": 0.0,
-    "missing_brainz": 679,
-    "missing_brainz_pct": 89.58
+    "missing_brainz": 253,
+    "missing_brainz_pct": 33.38
   },
   "vocabulary": {
-    "unique_tags": 179,
-    "unique_genres": 83,
+    "unique_tags": 381,
+    "unique_genres": 179,
     "top_tags": [
       [
+        "hip hop",
+        264.0
+      ],
+      [
         "rock",
-        82.0
+        259.0
       ],
       [
         "pop",
-        65.0
+        138.0
       ],
       [
         "alternative rock",
-        52.0
-      ],
-      [
-        "pop rock",
-        40.0
+        137.0
       ],
       [
         "indie rock",
-        31.0
-      ],
-      [
-        "indie pop",
-        21.0
-      ],
-      [
-        "psychedelic rock",
-        18.0
-      ],
-      [
-        "classic rock",
-        18.0
+        126.0
       ],
       [
         "electronic",
-        15.0
+        83.0
       ],
       [
-        "trip hop",
-        12.0
+        "pop rock",
+        70.0
+      ],
+      [
+        "psychedelic rock",
+        64.0
       ],
       [
         "indie",
-        12.0
+        56.0
       ],
       [
-        "art pop",
-        11.0
+        "indie pop",
+        55.0
       ],
       [
-        "disco",
-        10.0
+        "progressive rock",
+        46.0
+      ],
+      [
+        "jazz rap",
+        41.0
+      ],
+      [
+        "classic rock",
+        37.0
+      ],
+      [
+        "alternative hip hop",
+        37.0
+      ],
+      [
+        "trip hop",
+        36.0
+      ],
+      [
+        "soul",
+        33.0
+      ],
+      [
+        "billboard hot 100",
+        31.0
       ],
       [
         "neo-psychedelia",
-        8.0
+        30.0
       ],
       [
-        "pop/rock",
-        8.0
+        "contemporary r&b",
+        30.0
       ],
       [
-        "hip hop",
-        7.0
+        "billboard hot 100 2025",
+        28.0
       ],
       [
-        "album rock",
-        7.0
+        "jazz",
+        27.0
       ],
       [
-        "singer-songwriter",
-        7.0
+        "rap",
+        26.0
       ],
       [
-        "soft rock",
-        7.0
+        "downtempo",
+        25.0
       ],
       [
-        "mellow",
-        6.0
+        "west coast hip hop",
+        24.0
       ],
       [
-        "psychedelic pop",
-        6.0
-      ],
-      [
-        "new wave",
-        6.0
-      ],
-      [
-        "country rock",
-        6.0
-      ],
-      [
-        "synth-pop",
-        5.0
-      ],
-      [
-        "soundtrack",
-        5.0
+        "conscious hip hop",
+        24.0
       ]
     ],
     "top_genres": [
       [
+        "hip hop",
+        264.0
+      ],
+      [
         "rock",
-        82.0
+        259.0
       ],
       [
         "pop",
-        65.0
+        138.0
       ],
       [
         "alternative rock",
-        52.0
-      ],
-      [
-        "pop rock",
-        40.0
+        137.0
       ],
       [
         "indie rock",
-        31.0
-      ],
-      [
-        "indie pop",
-        21.0
-      ],
-      [
-        "psychedelic rock",
-        18.0
-      ],
-      [
-        "classic rock",
-        18.0
+        126.0
       ],
       [
         "electronic",
-        15.0
+        83.0
+      ],
+      [
+        "pop rock",
+        70.0
+      ],
+      [
+        "psychedelic rock",
+        64.0
+      ],
+      [
+        "indie pop",
+        55.0
+      ],
+      [
+        "progressive rock",
+        46.0
+      ],
+      [
+        "jazz rap",
+        41.0
+      ],
+      [
+        "classic rock",
+        37.0
+      ],
+      [
+        "alternative hip hop",
+        37.0
       ],
       [
         "trip hop",
-        12.0
+        36.0
       ],
       [
-        "art pop",
-        11.0
-      ],
-      [
-        "disco",
-        10.0
+        "soul",
+        33.0
       ],
       [
         "neo-psychedelia",
-        8.0
+        30.0
       ],
       [
-        "hip hop",
-        7.0
+        "contemporary r&b",
+        30.0
       ],
       [
-        "singer-songwriter",
-        7.0
+        "jazz",
+        27.0
       ],
       [
-        "soft rock",
-        7.0
+        "downtempo",
+        25.0
       ],
       [
-        "psychedelic pop",
-        6.0
+        "west coast hip hop",
+        24.0
       ],
       [
-        "new wave",
-        6.0
+        "conscious hip hop",
+        24.0
       ],
       [
-        "country rock",
-        6.0
+        "instrumental",
+        24.0
       ],
       [
         "synth-pop",
-        5.0
+        23.0
       ],
       [
-        "funk",
-        5.0
+        "r&b",
+        23.0
       ],
       [
-        "jangle pop",
-        5.0
-      ],
-      [
-        "psychedelic",
-        4.0
-      ],
-      [
-        "rock and roll",
-        4.0
-      ],
-      [
-        "pop rap",
-        4.0
+        "underground hip hop",
+        23.0
       ]
     ],
     "top_artists": [
