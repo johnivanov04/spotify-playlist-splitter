@@ -1,0 +1,5551 @@
+[
+  {
+    "id": "2eAZfqOm4EnOF9VvN50Tyc",
+    "name": "The Way Life Goes (feat. Oh Wonder)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Oh Wonder"
+    ],
+    "album": "Luv Is Rage 2",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/2eAZfqOm4EnOF9VvN50Tyc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f23aee9d3be9fcbca1bc6352",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 221746,
+    "isrc": "USAT21703429",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2wAJTrFhCnQyNSD3oUgTZO",
+    "name": "Work Out",
+    "artists": [
+      "J. Cole"
+    ],
+    "album": "Cole World: The Sideline Story",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/2wAJTrFhCnQyNSD3oUgTZO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27399da48a530f6ca2ef86da3cc",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 235320,
+    "isrc": "USQX91100801",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4uhvMW7ly7tJil31YYscAN",
+    "name": "Erase Your Social",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "The Perfect LUV Tape",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/4uhvMW7ly7tJil31YYscAN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737efae18357229ecafd0eb31e",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 199993,
+    "isrc": "USAT21602379",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0uxSUdBrJy9Un0EYoBowng",
+    "name": "20 Min",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "Luv Is Rage 2 (Deluxe)",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/0uxSUdBrJy9Un0EYoBowng",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d7e1c68ed8e464b03095afda",
+    "popularity": 86,
+    "previewUrl": null,
+    "durationMs": 220586,
+    "isrc": "USAT21704166",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5mCPDVBb16L4XQwDdbRUpz",
+    "name": "Passionfruit",
+    "artists": [
+      "Drake"
+    ],
+    "album": "More Life",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/5mCPDVBb16L4XQwDdbRUpz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734f0fd9dad63977146e685700",
+    "popularity": 88,
+    "previewUrl": null,
+    "durationMs": 298940,
+    "isrc": "USCM51700072",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2xyBvir9n474qfsOkxXMgx",
+    "name": "Flex",
+    "artists": [
+      "Playboi Carti",
+      "Leven Kali"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/2xyBvir9n474qfsOkxXMgx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 240459,
+    "isrc": "USUM71703106",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3yk7PJnryiJ8mAPqsrujzf",
+    "name": "Location",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/3yk7PJnryiJ8mAPqsrujzf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 168783,
+    "isrc": "USUM71616271",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0wXuerDYiBnERgIpbb3JBR",
+    "name": "Redbone",
+    "artists": [
+      "Childish Gambino"
+    ],
+    "album": "\"Awaken, My Love!\"",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/0wXuerDYiBnERgIpbb3JBR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f78c98bbf2b3c9e2a764203e",
+    "popularity": 4,
+    "previewUrl": null,
+    "durationMs": 326933,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1zi7xx7UVEFkmKfv06H8x0",
+    "name": "One Dance",
+    "artists": [
+      "Drake",
+      "Wizkid",
+      "Kyla"
+    ],
+    "album": "Views",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/1zi7xx7UVEFkmKfv06H8x0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+    "popularity": 92,
+    "previewUrl": null,
+    "durationMs": 173986,
+    "isrc": "USCM51600028",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "51EC3I1nQXpec4gDk0mQyP",
+    "name": "90210 (feat. Kacy Hill)",
+    "artists": [
+      "Travis Scott",
+      "Kacy Hill"
+    ],
+    "album": "Rodeo",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/51EC3I1nQXpec4gDk0mQyP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3b5affd8824b4ed301b7137",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 339066,
+    "isrc": "USSM11506731",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4IWGnyOHDrVZEtPWfs4s7q",
+    "name": "Do What I Want",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "The Perfect LUV Tape",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/4IWGnyOHDrVZEtPWfs4s7q",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737efae18357229ecafd0eb31e",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 175203,
+    "isrc": "USAT21602372",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2HbKqm4o0w5wEeEFXm2sD4",
+    "name": "Money Trees",
+    "artists": [
+      "Kendrick Lamar",
+      "Jay Rock"
+    ],
+    "album": "good kid, m.A.A.d city",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/2HbKqm4o0w5wEeEFXm2sD4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d28d2ebdedb220e479743797",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 386906,
+    "isrc": "USUM71210785",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1e1JKLEDKP7hEQzJfNAgPl",
+    "name": "Magnolia",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/1e1JKLEDKP7hEQzJfNAgPl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 181812,
+    "isrc": "USUM71703095",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2aSC2xhRxOLiiZZVjhbylH",
+    "name": "Hold On, We're Going Home",
+    "artists": [
+      "Drake",
+      "Majid Jordan"
+    ],
+    "album": "Nothing Was The Same",
+    "year": 2013,
+    "spotifyUrl": "https://open.spotify.com/track/2aSC2xhRxOLiiZZVjhbylH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 227880,
+    "isrc": "USCM51300762",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2aPTvyE09vUCRwVvj0I8WK",
+    "name": "Sundress",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "album": "Sundress",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
+    "popularity": 83,
+    "previewUrl": null,
+    "durationMs": 158205,
+    "isrc": "USRC11803252",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "62vpWI1CHwFy7tMIcSStl8",
+    "name": "No Role Modelz",
+    "artists": [
+      "J. Cole"
+    ],
+    "album": "2014 Forest Hills Drive",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/62vpWI1CHwFy7tMIcSStl8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736aca031ccc27d2e4dd829d14",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 292986,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ANLarE8yHVsLWW21nj79M",
+    "name": "You Was Right",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "Lil Uzi Vert vs. The World",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fc3a56b8b1c442030716c98b",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 163944,
+    "isrc": "USAT21601721",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6PGoSes0D9eUDeeAafB2As",
+    "name": "LOVE. FEAT. ZACARI.",
+    "artists": [
+      "Kendrick Lamar",
+      "Zacari"
+    ],
+    "album": "DAMN.",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/6PGoSes0D9eUDeeAafB2As",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 213400,
+    "isrc": "USUM71703088",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4IO2X2YoXoUMv0M2rwomLC",
+    "name": "Long Time - Intro",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/4IO2X2YoXoUMv0M2rwomLC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 211773,
+    "isrc": "USUM71804186",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6gBFPUFcJLzWGx4lenP6h2",
+    "name": "goosebumps",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Birds In The Trap Sing McKnight",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/6gBFPUFcJLzWGx4lenP6h2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 243836,
+    "isrc": "USSM11607555",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4gh0ZnHzaTMT1sDga7Ek0N",
+    "name": "sdp interlude",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Birds In The Trap Sing McKnight",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/4gh0ZnHzaTMT1sDga7Ek0N",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 191622,
+    "isrc": "USSM11607552",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0ESJlaM8CE1jRWaNtwSNj8",
+    "name": "beibs in the trap",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Birds In The Trap Sing McKnight",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/0ESJlaM8CE1jRWaNtwSNj8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 213863,
+    "isrc": "USSM11607551",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6OaVWaGfhXn70ZJfdVcabn",
+    "name": "NO BYSTANDERS",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6OaVWaGfhXn70ZJfdVcabn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 218283,
+    "isrc": "USSM11806663",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "46mT9NR7N9Zf5MolcrBgE3",
+    "name": "Chrome Heart Tags",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "Eternal Atake",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/46mT9NR7N9Zf5MolcrBgE3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735267529d83ab73cf102fcbbd",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 212821,
+    "isrc": "USAT22001363",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Yqmv7XJLCrQEauMbPGZSw",
+    "name": "Maria I'm Drunk (feat. Justin Bieber & Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Justin Bieber",
+      "Young Thug"
+    ],
+    "album": "Rodeo",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6Yqmv7XJLCrQEauMbPGZSw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3b5affd8824b4ed301b7137",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 349933,
+    "isrc": "USSM11506736",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1MJErNPIQUoEMu4YUUmecm",
+    "name": "Neon Guts (feat. Pharrell Williams)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Pharrell Williams"
+    ],
+    "album": "Luv Is Rage 2",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/1MJErNPIQUoEMu4YUUmecm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f23aee9d3be9fcbca1bc6352",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 258789,
+    "isrc": "USAT21703432",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3iVcZ5G6tvkXZkZKlMpIUs",
+    "name": "Alright",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "To Pimp A Butterfly",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/3iVcZ5G6tvkXZkZKlMpIUs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 219333,
+    "isrc": "USUM71502498",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2N3U8uTYhjX2KwGT0pf5x0",
+    "name": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
+    "artists": [
+      "A$AP Rocky",
+      "Rod Stewart",
+      "Miguel",
+      "Mark Ronson"
+    ],
+    "album": "AT.LONG.LAST.A$AP",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/2N3U8uTYhjX2KwGT0pf5x0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349efdc44d0733042f8b99d57",
+    "popularity": 82,
+    "previewUrl": null,
+    "durationMs": 260990,
+    "isrc": "USRC11500811",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2cYqizR4lgvp4Qu6IQ3qGN",
+    "name": "BUTTERFLY EFFECT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/2cYqizR4lgvp4Qu6IQ3qGN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 190557,
+    "isrc": "USSM11704799",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "51pshtuYkgUQnt5huMPbKL",
+    "name": "The Spins",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "K.I.D.S.",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/51pshtuYkgUQnt5huMPbKL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27350570144b4a9a459406f9a3d",
+    "popularity": 7,
+    "previewUrl": null,
+    "durationMs": 195873,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "56XhZKFVFeylLeAELp6pdE",
+    "name": "Best Day Ever",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "Best Day Ever (5th Anniversary Remastered Edition)",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/56XhZKFVFeylLeAELp6pdE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273caed626d0cb2f60220977db8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 159119,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "21UkXrc9kD48rNpTMI2ecz",
+    "name": "NEVER LEFT",
+    "artists": [
+      "Lil Tecca"
+    ],
+    "album": "NEVER LEFT",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/21UkXrc9kD48rNpTMI2ecz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731439395184efdb67631ea5e3",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 168727,
+    "isrc": "USUM72107053",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2cDCojn6uIBM6A5xTAbl3H",
+    "name": "m.A.A.d city",
+    "artists": [
+      "Kendrick Lamar",
+      "MC Eiht"
+    ],
+    "album": "good kid, m.A.A.d city (Deluxe)",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/2cDCojn6uIBM6A5xTAbl3H",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 350120,
+    "isrc": "USUM71210784",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "27a1mYSG5tYg7dmEjWBcmL",
+    "name": "CAN'T SAY",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/27a1mYSG5tYg7dmEjWBcmL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 198408,
+    "isrc": "USSM11806670",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7pbg3ABlAZv2NiIdKbBBFm",
+    "name": "Up Up And Away",
+    "artists": [
+      "Juice WRLD"
+    ],
+    "album": "Legends Never Die",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/7pbg3ABlAZv2NiIdKbBBFm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 147547,
+    "isrc": "USUG12001906",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3GXSywNvYLAVUCtjMHkKDh",
+    "name": "E. Coli (feat. Earl Sweatshirt)",
+    "artists": [
+      "The Alchemist",
+      "Earl Sweatshirt"
+    ],
+    "album": "Bread",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3GXSywNvYLAVUCtjMHkKDh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273795e7069de7cb188b7c821b4",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 132147,
+    "isrc": "USUYG1228093",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2qOm7ukLyHUXWyR4ZWLwxA",
+    "name": "It Was A Good Day",
+    "artists": [
+      "Ice Cube"
+    ],
+    "album": "The Predator",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/2qOm7ukLyHUXWyR4ZWLwxA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273994c319841a923465d62e271",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 260000,
+    "isrc": "USPO19250006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "11kDth1aKUEUMq9r1pqyds",
+    "name": "5% TINT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/11kDth1aKUEUMq9r1pqyds",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 196138,
+    "isrc": "USSM11806666",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6NMtzpDQBTOfJwMzgMX0zl",
+    "name": "SKELETONS",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6NMtzpDQBTOfJwMzgMX0zl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 145588,
+    "isrc": "USSM11806664",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "393MDhe62s8hbH8ETrlxe5",
+    "name": "Mr. Rager",
+    "artists": [
+      "Kid Cudi"
+    ],
+    "album": "Man On The Moon II: The Legend Of Mr. Rager",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/393MDhe62s8hbH8ETrlxe5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27359e842b6a3566a141f27f815",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 294226,
+    "isrc": "USUM71025042",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5bJ1DrEM4hNCafcDd1oxHx",
+    "name": "Self Care",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "Swimming",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5bJ1DrEM4hNCafcDd1oxHx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273175c577a61aa13d4fb4b6534",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 345133,
+    "isrc": "USWB11801215",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1WvGWCDuj0dfRpuBuYecXp",
+    "name": "Enough!!",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "album": "We got it from Here... Thank You 4 Your service",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/1WvGWCDuj0dfRpuBuYecXp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27344227dddfc025dbe1601d4be",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 200696,
+    "isrc": "USSM11609286",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4s7QLoImIwmPi9L6dq1nVW",
+    "name": "TSU",
+    "artists": [
+      "Drake"
+    ],
+    "album": "Certified Lover Boy",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/4s7QLoImIwmPi9L6dq1nVW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 308755,
+    "isrc": "USUG12104404",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "11pEKMLmavDu8fxOB5QjbQ",
+    "name": "Pipe Down",
+    "artists": [
+      "Drake"
+    ],
+    "album": "Certified Lover Boy",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/11pEKMLmavDu8fxOB5QjbQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 205721,
+    "isrc": "USUG12104406",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3rpspE93T6g8IDWPsbskxs",
+    "name": "Wesley's Theory",
+    "artists": [
+      "Kendrick Lamar",
+      "George Clinton",
+      "Thundercat"
+    ],
+    "album": "To Pimp A Butterfly",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/3rpspE93T6g8IDWPsbskxs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c54f244336fd6e0e1518fe77",
+    "popularity": 35,
+    "previewUrl": null,
+    "durationMs": 287360,
+    "isrc": "USUM71502567",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3pjUyVbFmM96tYhSaKJwTt",
+    "name": "Change",
+    "artists": [
+      "J. Cole"
+    ],
+    "album": "4 Your Eyez Only",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/3pjUyVbFmM96tYhSaKJwTt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f4ca75192df162f78a24023e",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 331480,
+    "isrc": "QMJMT1601086",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0N3W5peJUQtI4eyR6GJT5O",
+    "name": "King Kunta",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "To Pimp A Butterfly",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 234693,
+    "isrc": "USUM71502494",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7lT1dCz96jANsLAAADlfIg",
+    "name": "Doomsday",
+    "artists": [
+      "MF DOOM",
+      "Pebbles The Invisible Girl"
+    ],
+    "album": "Operation: Doomsday (Complete)",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/7lT1dCz96jANsLAAADlfIg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f56213eede5f2e6a6065fb6d",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 298053,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6IZvVAP7VPPnsGX6bvgkqg",
+    "name": "PRIDE.",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "DAMN.",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/6IZvVAP7VPPnsGX6bvgkqg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+    "popularity": 82,
+    "previewUrl": null,
+    "durationMs": 275253,
+    "isrc": "USUM71703084",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "29TPjc8wxfz4XMn21O7VsZ",
+    "name": "Sky",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/29TPjc8wxfz4XMn21O7VsZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 193234,
+    "isrc": "USUM72024699",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5B0kgjHULYJhAQkK5XsMoC",
+    "name": "WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign)",
+    "artists": [
+      "Tyler, The Creator",
+      "YoungBoy Never Broke Again",
+      "Ty Dolla $ign"
+    ],
+    "album": "CALL ME IF YOU GET LOST",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/5B0kgjHULYJhAQkK5XsMoC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273940aa635eea98719f6ca4ad9",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 121572,
+    "isrc": "USQX92102132",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1hz7SRTGUNAtIQ46qiNv2p",
+    "name": "GONE, GONE / THANK YOU",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/1hz7SRTGUNAtIQ46qiNv2p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 375386,
+    "isrc": "USQX91901118",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5TxRUOsGeWeRl3xOML59Ai",
+    "name": "ARE WE STILL FRIENDS?",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5TxRUOsGeWeRl3xOML59Ai",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 265480,
+    "isrc": "USQX91901168",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7umZiitjVsEjMQ6HNddpUI",
+    "name": "Love Is Only a Feeling",
+    "artists": [
+      "Joey Bada$$"
+    ],
+    "album": "Love Is Only a Feeling",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/7umZiitjVsEjMQ6HNddpUI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b142bbe4a766121f8d6fad41",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 152041,
+    "isrc": "QMKSC1700112",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1Is8hGpkGMiePASAxBluxM",
+    "name": "16",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/1Is8hGpkGMiePASAxBluxM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27335a8a0c8b82b525679eceda6",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 156040,
+    "isrc": "USSM12106871",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "29GefKRTSVW3ag4Xegm8jP",
+    "name": "Nikes On My Feet",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "K.I.D.S.",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/29GefKRTSVW3ag4Xegm8jP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27350570144b4a9a459406f9a3d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 164631,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "50a8bKqlwDEqeiEknrzkTO",
+    "name": "ball w/o you",
+    "artists": [
+      "21 Savage"
+    ],
+    "album": "i am > i was",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/50a8bKqlwDEqeiEknrzkTO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731afd2e526e3723dd4a9fb4c8",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 195046,
+    "isrc": "QZ45A1700093",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0SA0mMXWh23raZ6xzOCU2V",
+    "name": "She",
+    "artists": [
+      "Tyler, The Creator",
+      "Frank Ocean"
+    ],
+    "album": "Goblin",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/0SA0mMXWh23raZ6xzOCU2V",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27328ae9a159d24cb0ab2552712",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 253386,
+    "isrc": "GBBKS1100033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3diZz7nVRbyuvAXSW7hzI7",
+    "name": "hooligan",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/3diZz7nVRbyuvAXSW7hzI7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733bcf586e8df6f8ef4a36ca3c",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 156774,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "12OkZyDWNBLUqoReoseGrc",
+    "name": "Rhymes Like Dimes",
+    "artists": [
+      "MF DOOM",
+      "DJ Cucumber Slice"
+    ],
+    "album": "Operation: Doomsday (Complete)",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/12OkZyDWNBLUqoReoseGrc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f56213eede5f2e6a6065fb6d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 258613,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6G9aDedv5hYaTgNYDuduqk",
+    "name": "trademark usa",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/6G9aDedv5hYaTgNYDuduqk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733bcf586e8df6f8ef4a36ca3c",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 270670,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7vy76jf6qE0IvoREJrvZtg",
+    "name": "range brothers (with Kendrick Lamar)",
+    "artists": [
+      "Baby Keem",
+      "Kendrick Lamar"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/7vy76jf6qE0IvoREJrvZtg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733bcf586e8df6f8ef4a36ca3c",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 316733,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5hVghJ4KaYES3BFUATCYn0",
+    "name": "EARFQUAKE",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5hVghJ4KaYES3BFUATCYn0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 190072,
+    "isrc": "USQX91901111",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5QvBXUm5MglLJ3iBfTX2Wo",
+    "name": "RUNNING OUT OF TIME",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5QvBXUm5MglLJ3iBfTX2Wo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 177219,
+    "isrc": "USQX91901114",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0wEC0GNF74lAqrEFZJMl1m",
+    "name": "PUPPET",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/0wEC0GNF74lAqrEFZJMl1m",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 179003,
+    "isrc": "USQX91901117",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7KA4W4McWYRpgf0fWsJZWB",
+    "name": "See You Again (feat. Kali Uchis)",
+    "artists": [
+      "Tyler, The Creator",
+      "Kali Uchis"
+    ],
+    "album": "Flower Boy",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/7KA4W4McWYRpgf0fWsJZWB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+    "popularity": 90,
+    "previewUrl": null,
+    "durationMs": 180386,
+    "isrc": "USQX91701275",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "58k32my5lKofeZRtIvBDg9",
+    "name": "HONEST",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/58k32my5lKofeZRtIvBDg9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 172672,
+    "isrc": "QM6N21900313",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7pudclCl5P99Me3P5F9hPC",
+    "name": "Paradise",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "Luv Is Rage",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/7pudclCl5P99Me3P5F9hPC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b9e2cd3c76bc7e3c1c52f95",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 172703,
+    "isrc": "USAT21504173",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ZWlPOoWh0626oTaHrnl2a",
+    "name": "Ivy",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "Blonde",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 249191,
+    "isrc": "QZ5C81600002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3ruoIF2UnoXdzK8mR61ebq",
+    "name": "Rich Nigga Shit (feat. Young Thug)",
+    "artists": [
+      "21 Savage",
+      "Metro Boomin",
+      "Young Thug"
+    ],
+    "album": "SAVAGE MODE II",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/3ruoIF2UnoXdzK8mR61ebq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736a7e6ceda5e779fbb6ec1ba8",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 190331,
+    "isrc": "USSM12005348",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0qtK3XwbuG153dmwB8iepL",
+    "name": "Glitter",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "Flower Boy",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/0qtK3XwbuG153dmwB8iepL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 224893,
+    "isrc": "USQX91701285",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5FkoSXiJPKTNyYgALRJFhD",
+    "name": "ORANGE SODA",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5FkoSXiJPKTNyYgALRJFhD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 78,
+    "previewUrl": null,
+    "durationMs": 129882,
+    "isrc": "QM6N21900076",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3QFInJAm9eyaho5vBzxInN",
+    "name": "family ties (with Kendrick Lamar)",
+    "artists": [
+      "Baby Keem",
+      "Kendrick Lamar"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/3QFInJAm9eyaho5vBzxInN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27335a8a0c8b82b525679eceda6",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 252262,
+    "isrc": "USSM12105949",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3KkXRkHbMCARz0aVfEt68P",
+    "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "artists": [
+      "Post Malone",
+      "Swae Lee"
+    ],
+    "album": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e2e352d89826aef6dbd5ff8f",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 158040,
+    "isrc": "USUM71814888",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3L0IKstjUgDFVQAbQIRZRv",
+    "name": "R.I.P.",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3L0IKstjUgDFVQAbQIRZRv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 192026,
+    "isrc": "USUM71804150",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4S4Mfvv03M1cHgIOJcbUCL",
+    "name": "In My Room",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "In My Room",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/4S4Mfvv03M1cHgIOJcbUCL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273db974f9533dd9b362891b5db",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 133680,
+    "isrc": "QM24S1926435",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6scpNkWEmUxmKY7nYjVLsX",
+    "name": "Apple Pie",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Rodeo",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6scpNkWEmUxmKY7nYjVLsX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3b5affd8824b4ed301b7137",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 219360,
+    "isrc": "USSM11506739",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6bOkaEXc5CopinGazSLokx",
+    "name": "WHAT'S GOOD",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/6bOkaEXc5CopinGazSLokx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 205636,
+    "isrc": "USQX91901167",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3uYm4MtU6jUQft2DtGqEoZ",
+    "name": "Knock Knock",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "Knock Knock - Single",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/3uYm4MtU6jUQft2DtGqEoZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c7d17e0fc5e9b5d963bda62d",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 202806,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3xby7fOyqmeON8jsnom0AT",
+    "name": "Nightcrawler (feat. Swae Lee & Chief Keef)",
+    "artists": [
+      "Travis Scott",
+      "Swae Lee",
+      "Chief Keef"
+    ],
+    "album": "Rodeo",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/3xby7fOyqmeON8jsnom0AT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3b5affd8824b4ed301b7137",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 321560,
+    "isrc": "USSM11506733",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "544S44LQ1kkDoQLoEkxYNx",
+    "name": "Bad Name",
+    "artists": [
+      "Gang Starr"
+    ],
+    "album": "One Of The Best Yet",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/544S44LQ1kkDoQLoEkxYNx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fdd00d9828dbc9d17b8fb73b",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 141520,
+    "isrc": "USA2P1952944",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "58TaFP5j5i9swOf584yon2",
+    "name": "HOUSTONFORNICATION",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/58TaFP5j5i9swOf584yon2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 217828,
+    "isrc": "USSM11806671",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1lSyZ2SjkS9iJyQmUnUbuc",
+    "name": "Loose Change (feat. Earl Sweatshirt)",
+    "artists": [
+      "The Alchemist",
+      "Earl Sweatshirt"
+    ],
+    "album": "Loose Change (feat. Earl Sweatshirt)",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/1lSyZ2SjkS9iJyQmUnUbuc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bcb4453682e2793d4ced75f2",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 118398,
+    "isrc": "USUYG1366152",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0jdcdrTpIzIZGBqBvkgEaC",
+    "name": "Maytag (Tax Free)",
+    "artists": [
+      "Ben Reilly"
+    ],
+    "album": "FREELANCE",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/0jdcdrTpIzIZGBqBvkgEaC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b52709706d665bb384582db6",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 165550,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2BJSMvOGABRxokHKB0OI8i",
+    "name": "Shoota (feat. Lil Uzi Vert)",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/2BJSMvOGABRxokHKB0OI8i",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 153800,
+    "isrc": "USUM71804149",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0RyA3o15NOLJYtm9NlDu5c",
+    "name": "Frat Rules (feat. A$AP Rocky, Playboi Carti & Big Sean)",
+    "artists": [
+      "A$AP Mob",
+      "A$AP Rocky",
+      "Playboi Carti",
+      "Big Sean"
+    ],
+    "album": "Cozy Tapes Vol. 2: Too Cozy",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/0RyA3o15NOLJYtm9NlDu5c",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273285eff7a4302cd85292d4b6f",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 218937,
+    "isrc": "USRC11702071",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "078C2jXg7XsMgW78Gfx1JA",
+    "name": "SMUCKERS (feat. Lil Wayne & Kanye West)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lil Wayne",
+      "Kanye West"
+    ],
+    "album": "Cherry Bomb",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/078C2jXg7XsMgW78Gfx1JA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e4bf0d3d9e0224a30ca5f665",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 334363,
+    "isrc": "USQX91500713",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1jzIJcHCXneHw7ojC6LXiF",
+    "name": "Potato Salad",
+    "artists": [
+      "Tyler, The Creator",
+      "A$AP Rocky"
+    ],
+    "album": "Potato Salad",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/1jzIJcHCXneHw7ojC6LXiF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273215cac8c30b47bb1bfb9d2d1",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 182493,
+    "isrc": "USQX91802454",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1BpKJw4RZxaFB88NE5uxXf",
+    "name": "ILoveUIHateU",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/1BpKJw4RZxaFB88NE5uxXf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 135122,
+    "isrc": "USUM72024701",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2gAGWaK4wvt2xrFUlR4mK8",
+    "name": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+    "artists": [
+      "A$AP Rocky",
+      "Joe Fox",
+      "Kanye West"
+    ],
+    "album": "AT.LONG.LAST.A$AP",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/2gAGWaK4wvt2xrFUlR4mK8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349efdc44d0733042f8b99d57",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 323962,
+    "isrc": "USRC11500797",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4pNT8XTKWb2vhcsqwzdXCT",
+    "name": "Survival Tactics",
+    "artists": [
+      "Joey Bada$$",
+      "Capital Steez"
+    ],
+    "album": "1999",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/4pNT8XTKWb2vhcsqwzdXCT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fcd3724fba954e6104e4530d",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 202784,
+    "isrc": "USUYG1202487",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1s9DTymg5UQrdorZf43JQm",
+    "name": "Fell In Luv (feat. Bryson Tiller)",
+    "artists": [
+      "Playboi Carti",
+      "Bryson Tiller"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/1s9DTymg5UQrdorZf43JQm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 206333,
+    "isrc": "USUM71804159",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2TyjVO7KBdGHBvQxAnFFsa",
+    "name": "Kool Aid & Frozen Pizza",
+    "artists": [
+      "Mac Miller"
+    ],
+    "album": "K.I.D.S.",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/2TyjVO7KBdGHBvQxAnFFsa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27350570144b4a9a459406f9a3d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 157540,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7dFGkZbmm6cVlI28bfMaWE",
+    "name": "Righteous Minds",
+    "artists": [
+      "Joey Bada$$"
+    ],
+    "album": "1999",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/7dFGkZbmm6cVlI28bfMaWE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fcd3724fba954e6104e4530d",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 224042,
+    "isrc": "USUYG1202500",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6GnhWMhgJb7uyiiPEiEkDA",
+    "name": "Weekend (feat. Miguel)",
+    "artists": [
+      "Mac Miller",
+      "Miguel"
+    ],
+    "album": "GO:OD AM",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 208080,
+    "isrc": "USWB11508643",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4KjnaUNYPwGnJjoeTFlt91",
+    "name": "Now Or Never - Bonus Track",
+    "artists": [
+      "Kendrick Lamar",
+      "Mary J. Blige"
+    ],
+    "album": "good kid, m.A.A.d city (Deluxe)",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/4KjnaUNYPwGnJjoeTFlt91",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 256013,
+    "isrc": "USUM71210775",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "712uvW1Vezq8WpQi38v2L9",
+    "name": "Bitch, Don’t Kill My Vibe",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "good kid, m.A.A.d city (Deluxe)",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/712uvW1Vezq8WpQi38v2L9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 310720,
+    "isrc": "USUM71210774",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0d0jsoba88SpOoFxCxA2rZ",
+    "name": "The Art of Peer Pressure",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "good kid, m.A.A.d city (Deluxe)",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/0d0jsoba88SpOoFxCxA2rZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 324533,
+    "isrc": "USUM71210778",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5vuJuBqwzHJgCA1ysRfwxZ",
+    "name": "good kid",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "good kid, m.A.A.d city (Deluxe)",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/5vuJuBqwzHJgCA1ysRfwxZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 214120,
+    "isrc": "USUM71211006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3GZD6HmiNUhxXYf8Gch723",
+    "name": "Lost",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "channel ORANGE",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/3GZD6HmiNUhxXYf8Gch723",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 234093,
+    "isrc": "USUM71207186",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0725YWm6Z0TpZ6wrNk64Eb",
+    "name": "Super Rich Kids",
+    "artists": [
+      "Frank Ocean",
+      "Earl Sweatshirt"
+    ],
+    "album": "channel ORANGE",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/0725YWm6Z0TpZ6wrNk64Eb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 304760,
+    "isrc": "USUM71207196",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5lcyIeEfwZTs8Ajw3kdF7P",
+    "name": "Crack Rock",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "channel ORANGE",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/5lcyIeEfwZTs8Ajw3kdF7P",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 224146,
+    "isrc": "USUM71207184",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0msrDPXxZpts4FRnoX0bFr",
+    "name": "Monks",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "channel ORANGE",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/0msrDPXxZpts4FRnoX0bFr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 200240,
+    "isrc": "USUM71207188",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3xKsf9qdS1CyvXSMEid6g8",
+    "name": "Pink + White",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "Blonde",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+    "popularity": 88,
+    "previewUrl": null,
+    "durationMs": 184516,
+    "isrc": "QZ5C81600003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5GUYJTQap5F3RDQiCOJhrS",
+    "name": "Self Control",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "Blonde",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/5GUYJTQap5F3RDQiCOJhrS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+    "popularity": 78,
+    "previewUrl": null,
+    "durationMs": 249667,
+    "isrc": "QZ5C81600007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2LMkwUfqC6S6s6qDVlEuzV",
+    "name": "White Ferrari",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "Blonde",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/2LMkwUfqC6S6s6qDVlEuzV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+    "popularity": 86,
+    "previewUrl": null,
+    "durationMs": 248807,
+    "isrc": "QZ5C81600014",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4S7YHmlWwfwArgd8LfSPud",
+    "name": "L$D",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "album": "AT.LONG.LAST.A$AP",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/4S7YHmlWwfwArgd8LfSPud",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349efdc44d0733042f8b99d57",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 238314,
+    "isrc": "USRC11500789",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7uWVT3UkCAZyANvv0bdyQn",
+    "name": "These Walls",
+    "artists": [
+      "Kendrick Lamar",
+      "Bilal",
+      "Anna Wise",
+      "Thundercat"
+    ],
+    "album": "To Pimp A Butterfly",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/7uWVT3UkCAZyANvv0bdyQn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 300973,
+    "isrc": "USUM71502496",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4WEuEfFiczWxblHyuucSBL",
+    "name": "HiiiPower",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "Section.80",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/4WEuEfFiczWxblHyuucSBL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 279854,
+    "isrc": "USUYG1008115",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0y9uTzK9cNKSAEHnpeRG8C",
+    "name": "DUCKWORTH.",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "album": "DAMN.",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/0y9uTzK9cNKSAEHnpeRG8C",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 248613,
+    "isrc": "USUM71703379",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "475jSz0H6U3duJyNiDS0tT",
+    "name": "Right Now (feat. Pi'erre Bourne)",
+    "artists": [
+      "Playboi Carti",
+      "Pi’erre Bourne"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/475jSz0H6U3duJyNiDS0tT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 207013,
+    "isrc": "USUM71804157",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4b82tXj35SycILuILcgBQ6",
+    "name": "Hoe Cakes",
+    "artists": [
+      "MF DOOM"
+    ],
+    "album": "MM..FOOD",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/4b82tXj35SycILuILcgBQ6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 234146,
+    "isrc": "USBWK0700038",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4BnrGx9tWNF8aiXl1UhDBa",
+    "name": "One Beer",
+    "artists": [
+      "MF DOOM"
+    ],
+    "album": "MM..FOOD",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/4BnrGx9tWNF8aiXl1UhDBa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 258586,
+    "isrc": "USBWK0700040",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1FAHFrh5yApXwT66z3JzZy",
+    "name": "Guinnessez",
+    "artists": [
+      "MF DOOM",
+      "Stahhr",
+      "4ize"
+    ],
+    "album": "MM..FOOD",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/1FAHFrh5yApXwT66z3JzZy",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 281720,
+    "isrc": "USBWK0700047",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0syXbGoFZbTMXm8hGCEvW0",
+    "name": "Old Money",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/0syXbGoFZbTMXm8hGCEvW0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 135546,
+    "isrc": "USUM71804169",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3K6U7TamNyVSWcFH8pCQHX",
+    "name": "Love Hurts (feat. Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3K6U7TamNyVSWcFH8pCQHX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 180560,
+    "isrc": "USUM71804153",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2rPSFKzGeqUWwfcCFVkkq3",
+    "name": "Poke It Out (with Nicki Minaj)",
+    "artists": [
+      "Playboi Carti",
+      "Nicki Minaj"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/2rPSFKzGeqUWwfcCFVkkq3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 269813,
+    "isrc": "USUM71804173",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5nayhWICkQGMTkisxVMbRw",
+    "name": "FlatBed Freestyle",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5nayhWICkQGMTkisxVMbRw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 193973,
+    "isrc": "USUM71806122",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "45Ln3F9PRPYTXBcMFkZMzS",
+    "name": "R.I.P. Fredo (feat. Young Nudy) - Notice Me",
+    "artists": [
+      "Playboi Carti",
+      "Young Nudy"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/45Ln3F9PRPYTXBcMFkZMzS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 161200,
+    "isrc": "USUM71804178",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4f8Mh5wuWHOsfXtzjrJB3t",
+    "name": "I THINK",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/4f8Mh5wuWHOsfXtzjrJB3t",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 212016,
+    "isrc": "USQX91901112",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7p4vHnYXkxlzvfePJVpcTr",
+    "name": "Feels Like Summer",
+    "artists": [
+      "Childish Gambino"
+    ],
+    "album": "Summer Pack",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/7p4vHnYXkxlzvfePJVpcTr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 297404,
+    "isrc": "USRC11802773",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0fv2KH6hac06J86hBUTcSf",
+    "name": "NEW MAGIC WAND",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "IGOR",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/0fv2KH6hac06J86hBUTcSf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27330a635de2bb0caa4e26f6abb",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 195327,
+    "isrc": "USQX91901115",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5KUNwkaNf8l5A9sXZhiCgI",
+    "name": "Rapp Snitch Knishes",
+    "artists": [
+      "MF DOOM",
+      "Mr. Fantastik"
+    ],
+    "album": "MM..FOOD",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/5KUNwkaNf8l5A9sXZhiCgI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 172893,
+    "isrc": "USBWK0700049",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0nbXyq5TXYPCO7pr3N8S4I",
+    "name": "The Box",
+    "artists": [
+      "Roddy Ricch"
+    ],
+    "album": "Please Excuse Me for Being Antisocial",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/0nbXyq5TXYPCO7pr3N8S4I",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273820b43679aab8d3b47001f9c",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 196652,
+    "isrc": "USAT21906978",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "21O0XXPEWPtePt5RMY93Ob",
+    "name": "All Caps",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "album": "Madvillainy",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/21O0XXPEWPtePt5RMY93Ob",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 130479,
+    "isrc": "US2S70465020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3KQh7ppbDxVjdJBtjvP5BU",
+    "name": "Raid (feat. MED)",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM",
+      "MED"
+    ],
+    "album": "Madvillainy",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/3KQh7ppbDxVjdJBtjvP5BU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 150520,
+    "isrc": "US2S70465005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6cmt9CRoK0KGcNg9Tpje53",
+    "name": "Riot!",
+    "artists": [
+      "Earl Sweatshirt"
+    ],
+    "album": "Some Rap Songs",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6cmt9CRoK0KGcNg9Tpje53",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b688ab63b1a5f281cfdf451",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 66133,
+    "isrc": "USQX91802522",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3wGXyJGsCf1myH5MooQIqE",
+    "name": "The Race",
+    "artists": [
+      "Tay-K"
+    ],
+    "album": "#SantanaWorld (+)",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/3wGXyJGsCf1myH5MooQIqE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fbfeb7ded12a79fbd98f99e8",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 140000,
+    "isrc": "TCADD1793884",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5wPyd3IQAZft1vmxoIqGrU",
+    "name": "Home (KOD)",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5wPyd3IQAZft1vmxoIqGrU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 162133,
+    "isrc": "USUM71804155",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2lLG56qpLP3UbcLuzMvkWX",
+    "name": "Stop Breathing",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/2lLG56qpLP3UbcLuzMvkWX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 218943,
+    "isrc": "USUM72024691",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0V3nTTKA24XKCayp8igU4l",
+    "name": "Curls",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "album": "Madvillainy",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/0V3nTTKA24XKCayp8igU4l",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 95506,
+    "isrc": "US2S70465009",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0w6webWdhjRKdqJ3DeGgM1",
+    "name": "STATS",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/0w6webWdhjRKdqJ3DeGgM1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 169828,
+    "isrc": "QM6N21900312",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6xxvhqxfBAhAOsf8OJ5shT",
+    "name": "INVENTED IT",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/6xxvhqxfBAhAOsf8OJ5shT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 90240,
+    "isrc": "QM6MZ1999603",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Ow3QqHeeA78Q3nSnbUbkL",
+    "name": "BULLIES",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5Ow3QqHeeA78Q3nSnbUbkL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 194232,
+    "isrc": "QM6P41938808",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0lTH3Dt0GlBQhxFHSnaZ7g",
+    "name": "ROCKSTAR P",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/0lTH3Dt0GlBQhxFHSnaZ7g",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 136654,
+    "isrc": "QM6N21900326",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7qfO0IGkZ1a2OnUOkMoR4D",
+    "name": "BUSS HER UP",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "DIE FOR MY BITCH",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/7qfO0IGkZ1a2OnUOkMoR4D",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 139042,
+    "isrc": "QM6P41938802",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Nq6lLSxphlsA6nQB0KtES",
+    "name": "NO. 9",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/5Nq6lLSxphlsA6nQB0KtES",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 199190,
+    "isrc": "USUM71614560",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "02rdXe0KhMe8p6ZHzYtuw0",
+    "name": "lost souls (with Brent Faiyaz)",
+    "artists": [
+      "Baby Keem",
+      "Brent Faiyaz"
+    ],
+    "album": "The Melodic Blue",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/02rdXe0KhMe8p6ZHzYtuw0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733bcf586e8df6f8ef4a36ca3c",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 269727,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0F13K9dwYH2zpTWiR8d628",
+    "name": "Go2DaMoon (feat. Kanye West)",
+    "artists": [
+      "Playboi Carti",
+      "Kanye West"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/0F13K9dwYH2zpTWiR8d628",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 119737,
+    "isrc": "USUM72024690",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4CzhtKifG867Lu5DNQVBSA",
+    "name": "Vamp Anthem",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/4CzhtKifG867Lu5DNQVBSA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 124093,
+    "isrc": "USUM72024688",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4txKMpsSfZRV6durPuHVq0",
+    "name": "New Tank",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/4txKMpsSfZRV6durPuHVq0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 89741,
+    "isrc": "USUM72024686",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "08dz3ygXyFur6bL7Au8u8J",
+    "name": "Over",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/08dz3ygXyFur6bL7Au8u8J",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 166234,
+    "isrc": "USUM72024700",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "15JRvf02KKGHKgC31jrpuh",
+    "name": "Meh",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/15JRvf02KKGHKgC31jrpuh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 118500,
+    "isrc": "USUM72024694",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3dl8bSF08LQfCf4T6CCksf",
+    "name": "On That Time",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/3dl8bSF08LQfCf4T6CCksf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 102421,
+    "isrc": "USUM72024695",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1Bg2CNZw6S4e9cGWPmi0uI",
+    "name": "Place",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/1Bg2CNZw6S4e9cGWPmi0uI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 117239,
+    "isrc": "USUM72024698",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "03rcC8SVxCa9UdY5qgkITe",
+    "name": "Not PLaying",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/03rcC8SVxCa9UdY5qgkITe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 130304,
+    "isrc": "USUM72024704",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "60PTOzcoFycWBICdumIsFQ",
+    "name": "FOR FUN",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "RED & WHITE",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/60PTOzcoFycWBICdumIsFQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27372dc411cb171dadcd1851ddc",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 188059,
+    "isrc": "USAT22210943",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3MDcFMG1AYBPcRpYOdwDYl",
+    "name": "Conrad Tokyo (feat. Kendrick Lamar & Jack White)",
+    "artists": [
+      "A Tribe Called Quest",
+      "Kendrick Lamar",
+      "Jack White"
+    ],
+    "album": "We got it from Here... Thank You 4 Your service",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/3MDcFMG1AYBPcRpYOdwDYl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27344227dddfc025dbe1601d4be",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 211989,
+    "isrc": "USSM11609456",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "671sDyeE398eD0sdGuVbZU",
+    "name": "Steve Biko (Stir It Up)",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "album": "Midnight Marauders",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/671sDyeE398eD0sdGuVbZU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f306af1dae08f81f9d6f1f9f",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 191533,
+    "isrc": "USJI10300161",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5YTM7OgQDt9EJAYcfHLniJ",
+    "name": "Award Tour (feat. Trugoy The Dove)",
+    "artists": [
+      "A Tribe Called Quest",
+      "Trugoy The Dove"
+    ],
+    "album": "Midnight Marauders",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/5YTM7OgQDt9EJAYcfHLniJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f306af1dae08f81f9d6f1f9f",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 226440,
+    "isrc": "USJI10300405",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0JL9TZip7mL7iwC5EOkALS",
+    "name": "Lady Brown (feat. Cise Starr from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/0JL9TZip7mL7iwC5EOkALS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 199160,
+    "isrc": "JPH491605044",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4xlpJ99yL9xYQtzG6c3hwk",
+    "name": "Luv(sic.) pt3 (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "album": "Modal Soul",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/4xlpJ99yL9xYQtzG6c3hwk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 336866,
+    "isrc": "JPH491605003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4MbUcaX58NkUmKXe6FuBaV",
+    "name": "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez)",
+    "artists": [
+      "Nujabes",
+      "Substantial",
+      "Pase Rock"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/4MbUcaX58NkUmKXe6FuBaV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 203706,
+    "isrc": "JPH491605042",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2rnAYh7REAMGYqJUXJKZZK",
+    "name": "Horn in the middle",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/2rnAYh7REAMGYqJUXJKZZK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 248600,
+    "isrc": "JPH491605043",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3yKLskgaU2py5ET4OBDQmg",
+    "name": "Highs 2 Lows (feat. Cise Starr from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/3yKLskgaU2py5ET4OBDQmg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 277960,
+    "isrc": "JPH491605046",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5tO3pr49SdxO05TNlYHfHT",
+    "name": "Beat laments the world",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/5tO3pr49SdxO05TNlYHfHT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 263373,
+    "isrc": "JPH491605047",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0rKR7VLBxqVQAz2UEe3D8N",
+    "name": "Think Different (feat. Substantial)",
+    "artists": [
+      "Nujabes",
+      "Substantial"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/0rKR7VLBxqVQAz2UEe3D8N",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 197293,
+    "isrc": "JPH491605049",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2csdd679hni5tQsW8lkEV1",
+    "name": "Next view (feat. Uyama Hiroto)",
+    "artists": [
+      "Nujabes",
+      "Uyama Hiroto"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/2csdd679hni5tQsW8lkEV1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 275693,
+    "isrc": "JPH491605051",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "65u7IbuZ4viAlVBHxnpos1",
+    "name": "Latitude -remix (feat. Five Deez)",
+    "artists": [
+      "Nujabes",
+      "Five Deez"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/65u7IbuZ4viAlVBHxnpos1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 236533,
+    "isrc": "JPH491605052",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "43pWChQ7AOab9wlSGy0dN6",
+    "name": "F.I.L.O. (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/43pWChQ7AOab9wlSGy0dN6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 211226,
+    "isrc": "JPH491605053",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3MZHDutJalh9C4DNLptn2v",
+    "name": "The Final View",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/3MZHDutJalh9C4DNLptn2v",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 214946,
+    "isrc": "JPH491605055",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4pVwc3fU2RqL7l7L0fSwaq",
+    "name": "Peaceland",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Metaphorical Music",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/4pVwc3fU2RqL7l7L0fSwaq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 499120,
+    "isrc": "JPH491605056",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6SNGzhVrisdq63Ndz58ovT",
+    "name": "Luv (sic)",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Luv(sic) Hexalogy",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6SNGzhVrisdq63Ndz58ovT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 286320,
+    "isrc": "JPH491605019",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6gSalwEvVQfSFiqgwfyITp",
+    "name": "Luv (sic) pt2",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Luv(sic) Hexalogy",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6gSalwEvVQfSFiqgwfyITp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 273080,
+    "isrc": "JPH491605027",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "35cOJUqY0WBzPP7QfKRdTZ",
+    "name": "Luv (sic.) pt3 (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "album": "Luv(sic) Hexalogy",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/35cOJUqY0WBzPP7QfKRdTZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 374200,
+    "isrc": "JPH491605003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1R28m5eWk1EV9FQ3puWrUp",
+    "name": "Fazers",
+    "artists": [
+      "King Geedorah"
+    ],
+    "album": "Take Me To Your Leader",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/1R28m5eWk1EV9FQ3puWrUp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 197133,
+    "isrc": "GBCFB0300210",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "500l6Cwe40hkPqS7Sf7ufY",
+    "name": "Foreign",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/500l6Cwe40hkPqS7Sf7ufY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 142893,
+    "isrc": "USUM71804152",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5IVuqXILoxVWvWEPm82Jxr",
+    "name": "Crazy In Love (feat. JAY-Z)",
+    "artists": [
+      "Beyoncé",
+      "JAŸ-Z"
+    ],
+    "album": "Dangerously In Love",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/5IVuqXILoxVWvWEPm82Jxr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 236133,
+    "isrc": "USSM10305425",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "67vrmPygrZ9giGqHUSReAT",
+    "name": "Accordion",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "album": "Madvillainy",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/67vrmPygrZ9giGqHUSReAT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 118853,
+    "isrc": "US2S70465002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0eEXcw3JLVXcRxYrVYMy68",
+    "name": "Electric Relaxation",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "album": "The Anthology",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/0eEXcw3JLVXcRxYrVYMy68",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b1ddb9f5f519e0d37bc94a53",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 226133,
+    "isrc": "USJI19300020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5xJeZ6tLPOXNIrrphEIuay",
+    "name": "435",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "album": "435",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5xJeZ6tLPOXNIrrphEIuay",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732fd7d8336555c8d6698765e7",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 93840,
+    "isrc": "USQX91801253",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6luBKkFUt5wTwz7hpLhp12",
+    "name": "drive ME crazy!",
+    "artists": [
+      "Lil Yachty",
+      "Diana Gordon"
+    ],
+    "album": "Let’s Start Here.",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/6luBKkFUt5wTwz7hpLhp12",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 229804,
+    "isrc": "USUG12207176",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4Vir8uv89eNY6hovcNq4w6",
+    "name": "Gang Activities",
+    "artists": [
+      "Baby Keem"
+    ],
+    "album": "The Sound of Bad Habit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/4Vir8uv89eNY6hovcNq4w6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fa400a2bb9a2cf515aeffaf1",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 99989,
+    "isrc": "QZES61800981",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "53ku8y52Z5HYhJANXvC7WN",
+    "name": "Stay Up! (Viagra)",
+    "artists": [
+      "88-Keys",
+      "Kanye West"
+    ],
+    "album": "The Death of Adam",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/53ku8y52Z5HYhJANXvC7WN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731e4c4383be4711d767d11a5b",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 189360,
+    "isrc": "US2Q80800044",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "59JWp4PjZ9TRM8cmtaDYB1",
+    "name": "Yessirskiii",
+    "artists": [
+      "Lil Uzi Vert",
+      "21 Savage"
+    ],
+    "album": "Eternal Atake (Deluxe) - LUV vs. The World 2",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/59JWp4PjZ9TRM8cmtaDYB1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273128d95d09561d556c65bc08b",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 219340,
+    "isrc": "USAT22001632",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "23QyE9GQpXsX9WgEDADMa6",
+    "name": "Let It Go",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/23QyE9GQpXsX9WgEDADMa6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 150409,
+    "isrc": "USUM71703099",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5MUxrNd7Gr2HksLcAlB0IO",
+    "name": "Yah Mean",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/5MUxrNd7Gr2HksLcAlB0IO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 165642,
+    "isrc": "USUM71703096",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Ec5LeRzkisa5KJtwLfOoW",
+    "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+    "artists": [
+      "Metro Boomin",
+      "A$AP Rocky",
+      "Roisee"
+    ],
+    "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 256026,
+    "isrc": "USUM72308540",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5rurggqwwudn9clMdcchxT",
+    "name": "Calling (Spider-Man: Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)",
+    "artists": [
+      "Metro Boomin",
+      "Swae Lee",
+      "NAV",
+      "A Boogie Wit da Hoodie"
+    ],
+    "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/5rurggqwwudn9clMdcchxT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 219453,
+    "isrc": "USUM72308543",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "41bmnQZoDMQdDh5zyomtW7",
+    "name": "Endless Fashion (feat. Nicki Minaj)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Nicki Minaj"
+    ],
+    "album": "Pink Tape",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/41bmnQZoDMQdDh5zyomtW7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d7f97f84ffeaf2077813ef24",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 216703,
+    "isrc": "USAT22306857",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0WCJSIy75ZVxqY51ce0enc",
+    "name": "Pluto to Mars",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "album": "Pink Tape",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/0WCJSIy75ZVxqY51ce0enc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d7f97f84ffeaf2077813ef24",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 246497,
+    "isrc": "USAT22306864",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Lv5L45PQmp5CTjs5PlQ6e",
+    "name": "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix",
+    "artists": [
+      "EI8HT",
+      "Offset"
+    ],
+    "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/5Lv5L45PQmp5CTjs5PlQ6e",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 162280,
+    "isrc": "USUM72308558",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "57FpaFbaz5ApQ5nFm4NvcS",
+    "name": "Aruarian Dance",
+    "artists": [
+      "skoomy"
+    ],
+    "album": "Aruarian Dance",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/57FpaFbaz5ApQ5nFm4NvcS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff4d5d0b5ff8d0e994415cac",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 274665,
+    "isrc": "GX38U2346423",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3azJifCSqg9fRij2yKIbWz",
+    "name": "The Color Violet",
+    "artists": [
+      "Tory Lanez"
+    ],
+    "album": "Alone At Prom",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/3azJifCSqg9fRij2yKIbWz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730c5f23cbf0b1ab7e37d0dc67",
+    "popularity": 87,
+    "previewUrl": null,
+    "durationMs": 226466,
+    "isrc": "QZTGW2100275",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2gdz7TlVOlDemmW2RoI3st",
+    "name": "Poison Ivy",
+    "artists": [
+      "Tory Lanez"
+    ],
+    "album": "Alone at Prom (Deluxe)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/2gdz7TlVOlDemmW2RoI3st",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 187924,
+    "isrc": "CA5KR2388725",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4kjI1gwQZRKNDkw1nI475M",
+    "name": "MY EYES",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/4kjI1gwQZRKNDkw1nI475M",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 251249,
+    "isrc": "USSM12305007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0IpnZchq8ek2A6pGEP2Qb1",
+    "name": "Bean (Kobe) [feat. Chief Keef]",
+    "artists": [
+      "Lil Uzi Vert",
+      "Chief Keef"
+    ],
+    "album": "Eternal Atake (Deluxe) - LUV vs. The World 2",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/0IpnZchq8ek2A6pGEP2Qb1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273128d95d09561d556c65bc08b",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 238816,
+    "isrc": "USAT22001631",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "59J5nzL1KniFHnU120dQzt",
+    "name": "wokeuplikethis*",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/59J5nzL1KniFHnU120dQzt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 235535,
+    "isrc": "USUM71702277",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1OubIZ0ARYCUq5kceYUQiO",
+    "name": "Congratulations (feat. Bilal)",
+    "artists": [
+      "Mac Miller",
+      "Bilal"
+    ],
+    "album": "The Divine Feminine",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/1OubIZ0ARYCUq5kceYUQiO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 256426,
+    "isrc": "USWB11601434",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0AAMnNeIc6CdnfNU85GwCH",
+    "name": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+    "artists": [
+      "Metro Boomin",
+      "Coi Leray"
+    ],
+    "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/0AAMnNeIc6CdnfNU85GwCH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 189466,
+    "isrc": "USUM72308561",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ej1A2Ze6P2EOW7KfIosZR",
+    "name": "Feather (feat. Cise Starr & Akin from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr & Akin from CYNE"
+    ],
+    "album": "Modal Soul",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/2ej1A2Ze6P2EOW7KfIosZR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 175360,
+    "isrc": "JPH491605000",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4IFd7EVCyJsUHesBMXI8ju",
+    "name": "Parking Lot",
+    "artists": [
+      "Mustard",
+      "Travis Scott"
+    ],
+    "album": "Parking Lot",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/4IFd7EVCyJsUHesBMXI8ju",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ad3e25785fe6f26690797468",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 172794,
+    "isrc": "QMRSZ2401183",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1XBYiRV30ykHw5f4wm6qEn",
+    "name": "NIGHTS LIKE THIS",
+    "artists": [
+      "The Kid LAROI"
+    ],
+    "album": "THE FIRST TIME",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/1XBYiRV30ykHw5f4wm6qEn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732a182fb516812ea67edde2b8",
+    "popularity": 86,
+    "previewUrl": null,
+    "durationMs": 86983,
+    "isrc": "USSM12308065",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7AtBtwrKhz94hYXgGYyG58",
+    "name": "Middle Of The Summer (feat. Red Coldhearted)",
+    "artists": [
+      "Playboi Carti",
+      "Red Coldhearted"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/7AtBtwrKhz94hYXgGYyG58",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 137026,
+    "isrc": "USUM71805946",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7BBZGDSZbsb4Esi8YB94HT",
+    "name": "World's end Rhapsody",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Modal Soul",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/7BBZGDSZbsb4Esi8YB94HT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 341200,
+    "isrc": "JPH491605008",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1JgkiUg9mSXSwcb5Gbi4Ur",
+    "name": "Lean 4 Real (feat. Skepta)",
+    "artists": [
+      "Playboi Carti",
+      "Skepta"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/1JgkiUg9mSXSwcb5Gbi4Ur",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 177026,
+    "isrc": "USUM71804151",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "30sc425JEvj3tgmGAKORea",
+    "name": "New Choppa",
+    "artists": [
+      "Playboi Carti",
+      "A$AP Rocky"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/30sc425JEvj3tgmGAKORea",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 126043,
+    "isrc": "USUM71702734",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0PV1TFUMTBrDETzW6KQulB",
+    "name": "93 'Til Infinity",
+    "artists": [
+      "Souls Of Mischief"
+    ],
+    "album": "93 'til Infinity",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/0PV1TFUMTBrDETzW6KQulB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27343969ecfe687484121805478",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 286440,
+    "isrc": "USJI10400408",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3JJL91ilRV6fXhKqu0FGXs",
+    "name": "HOT WIND BLOWS (feat. Lil Wayne)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lil Wayne"
+    ],
+    "album": "CALL ME IF YOU GET LOST",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/3JJL91ilRV6fXhKqu0FGXs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273940aa635eea98719f6ca4ad9",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 155292,
+    "isrc": "USQX92102134",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "76gcXhY3Zv6wW0BTe9nHJo",
+    "name": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+    "artists": [
+      "Travis Scott",
+      "James Blake",
+      "21 Savage"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/76gcXhY3Zv6wW0BTe9nHJo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 314836,
+    "isrc": "USSM12305020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "764QZXmgb5fDwh1NU8pYcd",
+    "name": "Dawn on the Side",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Spiritual State",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/764QZXmgb5fDwh1NU8pYcd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739bad5ebfe556fa260f31bedd",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 315453,
+    "isrc": "JPH491605063",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1i9lZvlaDdWDPyXEE95aiq",
+    "name": "TELEKINESIS (feat. SZA & Future)",
+    "artists": [
+      "Travis Scott",
+      "SZA",
+      "Future"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/1i9lZvlaDdWDPyXEE95aiq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 353754,
+    "isrc": "USSM12305019",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7HsvTUJcXRQVK6QuALkAvW",
+    "name": "Top (feat. Pi'erre Bourne)",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/7HsvTUJcXRQVK6QuALkAvW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 133013,
+    "isrc": "USUM71804177",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1xUQwXDDKW79z7GRUt2vMW",
+    "name": "Lame Niggaz",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/1xUQwXDDKW79z7GRUt2vMW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 173683,
+    "isrc": "USUM71703097",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1UAmQe8EwpxQ80OfYVD13z",
+    "name": "Lookin",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/1UAmQe8EwpxQ80OfYVD13z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 183552,
+    "isrc": "USUM71701966",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Zy7XVdxyZQB8xp5xbpJdl",
+    "name": "way back",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Birds In The Trap Sing McKnight",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/2Zy7XVdxyZQB8xp5xbpJdl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 272500,
+    "isrc": "USSM11607549",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "33zbOXJSwW7uf4VXXWow2O",
+    "name": "the ends",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "Birds In The Trap Sing McKnight",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/33zbOXJSwW7uf4VXXWow2O",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 201263,
+    "isrc": "USSM11607548",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1KzNsOkpQthVwpCJrADJEQ",
+    "name": "dothatshit!",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/1KzNsOkpQthVwpCJrADJEQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 184964,
+    "isrc": "USUM71703104",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1QGy4rzK5p8N7OYYn5kWSt",
+    "name": "sanctuary ship",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "samurai champloo music record impression",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/1QGy4rzK5p8N7OYYn5kWSt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273878ed741b8e1342d58a332ca",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 257433,
+    "isrc": "JPVI00441290",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2TdZdeKIDMqi1B3139W4Wb",
+    "name": "Half & Half",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/2TdZdeKIDMqi1B3139W4Wb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 227044,
+    "isrc": "USUM71703101",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0uFz9q2SvuKyWB6Ur1YCfI",
+    "name": "Mamacita (feat. Rich Homie Quan & Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Rich Homie Quan",
+      "Young Thug"
+    ],
+    "album": "DAYS BEFORE RODEO",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/0uFz9q2SvuKyWB6Ur1YCfI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a2a7386de6494fc9275e1abb",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 272772,
+    "isrc": "USSM11408300",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3KCNiDi9Pza6ZD8FggNoaw",
+    "name": "MODERN JAM (feat. Teezo Touchdown)",
+    "artists": [
+      "Travis Scott",
+      "Teezo Touchdown"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/3KCNiDi9Pza6ZD8FggNoaw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 255412,
+    "isrc": "USSM12305006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Xw3iWrQKgArwlRhVuU9CK",
+    "name": "2SEATER (feat. Aaron Shaw, Samantha Nelson & Austin Feinstein)",
+    "artists": [
+      "Tyler, The Creator",
+      "Aaron Shaw",
+      "Samantha Nelson",
+      "Austin Feinstein"
+    ],
+    "album": "Cherry Bomb",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/6Xw3iWrQKgArwlRhVuU9CK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e4bf0d3d9e0224a30ca5f665",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 409779,
+    "isrc": "USQX91500710",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4b7vk8SRcYgnxpk0JOIS7r",
+    "name": "Drugs You Should Try It",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "DAYS BEFORE RODEO",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/4b7vk8SRcYgnxpk0JOIS7r",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a2a7386de6494fc9275e1abb",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 208487,
+    "isrc": "USSM12306316",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0a4SMs889NwP8oWI7Vemle",
+    "name": "LOOOVE (feat. Kid Cudi)",
+    "artists": [
+      "Travis Scott",
+      "Kid Cudi"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/0a4SMs889NwP8oWI7Vemle",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 226715,
+    "isrc": "USSM12305018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0bkV1iQHSxBaksUqgEkcbc",
+    "name": "SKITZO (feat. Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Young Thug"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/0bkV1iQHSxBaksUqgEkcbc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 366592,
+    "isrc": "USSM12305016",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6LyAwkJsHlW7RQ8S1cYAtM",
+    "name": "Overdue (with Travis Scott)",
+    "artists": [
+      "Metro Boomin",
+      "Travis Scott"
+    ],
+    "album": "NOT ALL HEROES WEAR CAPES (Deluxe)",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6LyAwkJsHlW7RQ8S1cYAtM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732887f8c05b5a9f1cb105be29",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 166093,
+    "isrc": "USUG11802479",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5oady7OSE7dH7LHiqmb3Cr",
+    "name": "Dreams, Fairytales, Fantasies (feat. Brent Faiyaz & Salaam Remi)",
+    "artists": [
+      "A$AP Ferg",
+      "Brent Faiyaz",
+      "Salaam Remi"
+    ],
+    "album": "Floor Seats",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5oady7OSE7dH7LHiqmb3Cr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731be99f274f2046dcb080a20f",
+    "popularity": 78,
+    "previewUrl": null,
+    "durationMs": 222987,
+    "isrc": "USRC11902119",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2FoahzOSxJnalPA8aBUme3",
+    "name": "all of me",
+    "artists": [
+      "21 Savage"
+    ],
+    "album": "american dream",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/2FoahzOSxJnalPA8aBUme3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27369c2e8a818640b05fac2fdfd",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 198292,
+    "isrc": "USSM12304894",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5h83TosA9CCakrcgCfB4ZC",
+    "name": "Pink Dolphin Sunset (feat. Tee)",
+    "artists": [
+      "Tory Lanez",
+      "Tee"
+    ],
+    "album": "Alone at Prom (Deluxe)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/5h83TosA9CCakrcgCfB4ZC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736955df0de00aa19411cfddd7",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 212450,
+    "isrc": "QZTGW2100274",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0Q1nTiEPnoQSqM0qrY9TMY",
+    "name": "Still Talking to You",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "FIRST COLLECTION",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/0Q1nTiEPnoQSqM0qrY9TMY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b9ac699ab7cdc138d65e73f",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 205373,
+    "isrc": "JPH491605018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7eVT1HXfWsa7u7m1VihvWo",
+    "name": "Don't Even Try It",
+    "artists": [
+      "Funky DL"
+    ],
+    "album": "FIRST COLLECTION",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/7eVT1HXfWsa7u7m1VihvWo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b9ac699ab7cdc138d65e73f",
+    "popularity": 35,
+    "previewUrl": null,
+    "durationMs": 292733,
+    "isrc": "JPH491605015",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0iYFTYlu7aNKUSmD6nfc6d",
+    "name": "People Don't Stray",
+    "artists": [
+      "Funky DL"
+    ],
+    "album": "FIRST COLLECTION",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/0iYFTYlu7aNKUSmD6nfc6d",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b9ac699ab7cdc138d65e73f",
+    "popularity": 36,
+    "previewUrl": null,
+    "durationMs": 242373,
+    "isrc": "JPH491605026",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0UStn3gS3iAhWsjjkzoAnu",
+    "name": "Home Sweet Home",
+    "artists": [
+      "Substantial"
+    ],
+    "album": "FIRST COLLECTION",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/0UStn3gS3iAhWsjjkzoAnu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b9ac699ab7cdc138d65e73f",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 223866,
+    "isrc": "JPH491605017",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7HVtTrysxfpqyozf4uYUUQ",
+    "name": "Steadfast",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "FIRST COLLECTION",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/7HVtTrysxfpqyozf4uYUUQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732b9ac699ab7cdc138d65e73f",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 252173,
+    "isrc": "JPH491605020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3GFiNXCDyjCw14IRQIQszu",
+    "name": "After Hanabi -Listen To My Beats-",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "2nd Collection",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/3GFiNXCDyjCw14IRQIQszu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b272e55a046e153084ad6d6b",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 323120,
+    "isrc": "JPH491605041",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7AgMX97ljLm9BzszyyXEYZ",
+    "name": "Jazz (We've Got)",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "album": "The Low End Theory",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/7AgMX97ljLm9BzszyyXEYZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 250240,
+    "isrc": "USJI19100004",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "69jGxyfw3lzGGYf78jdkpF",
+    "name": "flowers",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "Modal Soul",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/69jGxyfw3lzGGYf78jdkpF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 239666,
+    "isrc": "JPH491605010",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "28JBD8p18xNuOfyV7Cotdn",
+    "name": "Massive",
+    "artists": [
+      "Drake"
+    ],
+    "album": "Honestly, Nevermind",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/28JBD8p18xNuOfyV7Cotdn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738dc0d801766a5aa6a33cbe37",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 336924,
+    "isrc": "USUG12204890",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7f1UEGMBMuXfLBP5XANfrW",
+    "name": "The Hop",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "album": "Beats, Rhymes & Life",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/7f1UEGMBMuXfLBP5XANfrW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e3b93c08d98f92dc3ab0146a",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 207466,
+    "isrc": "GBAHK9600111",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0MRZ9nMoLc7qQ8Nhovv8C8",
+    "name": "Ok Alright (feat. ScHoolboy Q)",
+    "artists": [
+      "Travis Scott",
+      "ScHoolboy Q"
+    ],
+    "album": "Rodeo",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/0MRZ9nMoLc7qQ8Nhovv8C8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3b5affd8824b4ed301b7137",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 417693,
+    "isrc": "USSM11506740",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1RvcbRFBPwe8GdHDT7PkDj",
+    "name": "Luv (sic) pt5 Jumpster Remix",
+    "artists": [
+      "Nujabes",
+      "Jumpster"
+    ],
+    "album": "Luv(sic) Hexalogy",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/1RvcbRFBPwe8GdHDT7PkDj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 278973,
+    "isrc": "JPH491605078",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5O9zs6G6RcB6yP1OKwnwiM",
+    "name": "Choppa Won't Miss (feat. Young Thug)",
+    "artists": [
+      "Playboi Carti",
+      "Young Thug"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5O9zs6G6RcB6yP1OKwnwiM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 217960,
+    "isrc": "USUM71804174",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2mkV4angeBLZPTcYOSrjee",
+    "name": "Had 2",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/2mkV4angeBLZPTcYOSrjee",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 139278,
+    "isrc": "USUM71703105",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3hDp5jRxvtD31giFGUaE1x",
+    "name": "Kelly K",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Playboi Carti",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/3hDp5jRxvtD31giFGUaE1x",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 271154,
+    "isrc": "USUM71703103",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6jbYpRPTEFl1HFKHk1IC0m",
+    "name": "Like Him (feat. Lola Young)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lola Young"
+    ],
+    "album": "CHROMAKOPIA",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/6jbYpRPTEFl1HFKHk1IC0m",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273084a94988541c2402615d014",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 278014,
+    "isrc": "USQX92405794",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0NUqi0ps17YpLUC3kgsZq0",
+    "name": "DIE TRYING",
+    "artists": [
+      "PARTYNEXTDOOR",
+      "Drake",
+      "Yebba"
+    ],
+    "album": "$ome $exy $ongs 4 U",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0NUqi0ps17YpLUC3kgsZq0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b5a28a256eae6dc0424fef59",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 195431,
+    "isrc": "USLD91772033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "16wGHOPaWoat5rkAZkixxk",
+    "name": "Luv (sic) pt6 Uyama Hiroto Remix",
+    "artists": [
+      "Nujabes",
+      "Uyama Hiroto"
+    ],
+    "album": "Luv(sic) Hexalogy",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/16wGHOPaWoat5rkAZkixxk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 278786,
+    "isrc": "JPH491605079",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5pHJv0bgNsT9nPoK2BjNBn",
+    "name": "No Time (feat. Gunna)",
+    "artists": [
+      "Playboi Carti",
+      "Gunna"
+    ],
+    "album": "Die Lit",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/5pHJv0bgNsT9nPoK2BjNBn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 219453,
+    "isrc": "USUM71804187",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "21aDVa64pWR8SYQ7wBRMkd",
+    "name": "CHARGE DEM HOES A FEE (with Future & Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Future",
+      "Travis Scott"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/21aDVa64pWR8SYQ7wBRMkd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 225000,
+    "isrc": "USUM72414856",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3VdooJLOy4tLxKpnn46SMP",
+    "name": "CRUSH (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3VdooJLOy4tLxKpnn46SMP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 173320,
+    "isrc": "USUM72414869",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6iycYUk3oB0NPMdaDUrN1w",
+    "name": "EVIL J0RDAN",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6iycYUk3oB0NPMdaDUrN1w",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 183928,
+    "isrc": "USUM72414866",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5SIvP6TdWc9DNvKbENjnYc",
+    "name": "PHILLY (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5SIvP6TdWc9DNvKbENjnYc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 185706,
+    "isrc": "USUM72414868",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3lAEHk0eZzMKtCUFLXz8Ln",
+    "name": "RADAR",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3lAEHk0eZzMKtCUFLXz8Ln",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 107933,
+    "isrc": "USUM72414870",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "68qeaZhtMZ6abrJCYt6nQn",
+    "name": "RATHER LIE (with The Weeknd)",
+    "artists": [
+      "Playboi Carti",
+      "The Weeknd"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/68qeaZhtMZ6abrJCYt6nQn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 209680,
+    "isrc": "USUM72414871",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1pzN8bCzy017iK3vWzkk6Z",
+    "name": "WAKE UP F1LTHY (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/1pzN8bCzy017iK3vWzkk6Z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 169333,
+    "isrc": "USUM72414859",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4qvsNsA4gQKC9HLrmPC2Vx",
+    "name": "TRIM (with Future)",
+    "artists": [
+      "Playboi Carti",
+      "Future"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4qvsNsA4gQKC9HLrmPC2Vx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 193546,
+    "isrc": "USUM72414861",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4rXxjHSAglOynjIF8Z34dx",
+    "name": "COCAINE NOSE",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4rXxjHSAglOynjIF8Z34dx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 151160,
+    "isrc": "USUM72414863",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4XcZp2xqbiD8YsnPboNUDo",
+    "name": "WE NEED ALL DA VIBES (with Young Thug & Ty Dolla $ign)",
+    "artists": [
+      "Playboi Carti",
+      "Young Thug",
+      "Ty Dolla $ign"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4XcZp2xqbiD8YsnPboNUDo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 181626,
+    "isrc": "USUM72502293",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4uoADk7q83CHvXHW3k1etM",
+    "name": "OLYMPIAN",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4uoADk7q83CHvXHW3k1etM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 174733,
+    "isrc": "USUM72502294",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3surY3LebvLLdJezmiKUBO",
+    "name": "TWIN TRIM (with Lil Uzi Vert)",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3surY3LebvLLdJezmiKUBO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 94825,
+    "isrc": "USUM72502296",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4zK082ykqJzJGzC64NXjp1",
+    "name": "LIKE WEEZY",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4zK082ykqJzJGzC64NXjp1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 115600,
+    "isrc": "USUM72502314",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6q2PbvM9UEig4r8xku7VIb",
+    "name": "HBA",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6q2PbvM9UEig4r8xku7VIb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 212598,
+    "isrc": "USUM72502319",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3cWmqvMwVQKDigWLSZ3w9h",
+    "name": "Rockstar Made",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/3cWmqvMwVQKDigWLSZ3w9h",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 193574,
+    "isrc": "USUM72024683",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1bAv1DWUibxCIjAk9SlzRi",
+    "name": "2024",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC - SORRY 4 DA WAIT",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/1bAv1DWUibxCIjAk9SlzRi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736da4ec0bce9baf42436db10a",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 209413,
+    "isrc": "USUM72400088",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2cjhSZd6uZIrp4ddxvvBdn",
+    "name": "BACKR00MS (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "album": "MUSIC - SORRY 4 DA WAIT",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2cjhSZd6uZIrp4ddxvvBdn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736da4ec0bce9baf42436db10a",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 160306,
+    "isrc": "USUM72400005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7bO7a1KrtmGNDIOy2u3siZ",
+    "name": "FOMDJ",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC - SORRY 4 DA WAIT",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/7bO7a1KrtmGNDIOy2u3siZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736da4ec0bce9baf42436db10a",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 200253,
+    "isrc": "USUM72502625",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0dApSLrXvnYWy1wagJOmpp",
+    "name": "DIFFERENT DAY",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "MUSIC - SORRY 4 DA WAIT",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0dApSLrXvnYWy1wagJOmpp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736da4ec0bce9baf42436db10a",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 166680,
+    "isrc": "USUM72502378",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ff0Hy1uymLoiiHD1nmeOB",
+    "name": "just forget",
+    "artists": [
+      "Force Of Nature"
+    ],
+    "album": "samurai champloo music record impression",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/2ff0Hy1uymLoiiHD1nmeOB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273878ed741b8e1342d58a332ca",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 235900,
+    "isrc": "JPVI00441210",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1r9W6X7XA07X11WbW1TveA",
+    "name": "tsurugi no mai",
+    "artists": [
+      "Nujabes"
+    ],
+    "album": "samurai champloo music record impression",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/1r9W6X7XA07X11WbW1TveA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273878ed741b8e1342d58a332ca",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 206833,
+    "isrc": "JPVI00441310",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6bpK8VkbJqd7nzjwy07BVH",
+    "name": "Who's Theme",
+    "artists": [
+      "MINMI"
+    ],
+    "album": "samurai champloo music record impression",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/6bpK8VkbJqd7nzjwy07BVH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273878ed741b8e1342d58a332ca",
+    "popularity": 38,
+    "previewUrl": null,
+    "durationMs": 297566,
+    "isrc": "JPVI00428840",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2yUzr8Sr6ldG8vmHhZwTnz",
+    "name": "née-nah",
+    "artists": [
+      "21 Savage",
+      "Travis Scott",
+      "Metro Boomin"
+    ],
+    "album": "american dream",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/2yUzr8Sr6ldG8vmHhZwTnz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27369c2e8a818640b05fac2fdfd",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 220584,
+    "isrc": "USSM12309168",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0lodMO0qK83vfPiiD7FMEt",
+    "name": "TOPIA TWINS (feat. Rob49 & 21 Savage)",
+    "artists": [
+      "Travis Scott",
+      "Rob49",
+      "21 Savage"
+    ],
+    "album": "UTOPIA",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/0lodMO0qK83vfPiiD7FMEt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 223173,
+    "isrc": "USSM12305013",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4MXhiYIRDMGAuvZc5IFTwC",
+    "name": "ASTROTHUNDER",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "ASTROWORLD",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/4MXhiYIRDMGAuvZc5IFTwC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273daec894c14c0ca42d76eeb32",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 142969,
+    "isrc": "USSM11806668",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7ynGOXn5VTjD3VpbuHcpsf",
+    "name": "The Final Samba",
+    "artists": [
+      "Witness"
+    ],
+    "album": "Hope Springs Eternal",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/7ynGOXn5VTjD3VpbuHcpsf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734e47aeb51f9bf9bcf8a20a93",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 101506,
+    "isrc": "TCADN1867879",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "69UzDmxpRr3F0xY3NaApm9",
+    "name": "HIIZURU STYLE",
+    "artists": [
+      "Force Of Nature",
+      "Suiken",
+      "S-Word"
+    ],
+    "album": "samurai champloo music record impression",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/69UzDmxpRr3F0xY3NaApm9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273878ed741b8e1342d58a332ca",
+    "popularity": 40,
+    "previewUrl": null,
+    "durationMs": 223466,
+    "isrc": "JPVI00441230",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5wNIHa6wvCCKP6fWgo3UAh",
+    "name": "CHAMPAIN & VACAY",
+    "artists": [
+      "Travis Scott",
+      "Don Toliver"
+    ],
+    "album": "JACKBOYS 2",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5wNIHa6wvCCKP6fWgo3UAh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d0f8a4c3623e02a79928288",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 184789,
+    "isrc": "USSM12503071",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5P03xImM2uFukzoty7NDw7",
+    "name": "KICK OUT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "JACKBOYS 2",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5P03xImM2uFukzoty7NDw7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d0f8a4c3623e02a79928288",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 170498,
+    "isrc": "USSM12503073",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7ydu79RLStYQTOi1OM6Dvg",
+    "name": "CONTEST",
+    "artists": [
+      "Travis Scott",
+      "SoFaygo"
+    ],
+    "album": "JACKBOYS 2",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/7ydu79RLStYQTOi1OM6Dvg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d0f8a4c3623e02a79928288",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 272410,
+    "isrc": "USSM12503077",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6350Cp9yZogJcgR7TwDLAQ",
+    "name": "Champ Magnétique",
+    "artists": [
+      "Yakkle",
+      "Shing02"
+    ],
+    "album": "Champ Magnétique",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/6350Cp9yZogJcgR7TwDLAQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736d50e2df4679b0594c424597",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 243428,
+    "isrc": "QZTB72291763",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7ejepEh5DJ79YI6owGRfkk",
+    "name": "New N3on",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/7ejepEh5DJ79YI6owGRfkk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 116360,
+    "isrc": "USUM71910478",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5467KZaTToEB680WvOd9w5",
+    "name": "Ocean Prime (feat. Boldy James)",
+    "artists": [
+      "The Alchemist",
+      "Boldy James"
+    ],
+    "album": "Yacht Rock 2",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5467KZaTToEB680WvOd9w5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f427d5bb249ff27546c7cc63",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 99906,
+    "isrc": "USUYG1267295",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Lph4zADq2K62XAjVaMWxR",
+    "name": "愛密集 - Instrumental",
+    "artists": [
+      "Yakkle",
+      "Shing02"
+    ],
+    "album": "愛密集",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/6Lph4zADq2K62XAjVaMWxR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f24754fceecc832b577c81a6",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 204615,
+    "isrc": "QZFZ32076939",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3wtAUhuNHHhvtdPnI2d5qi",
+    "name": "Wok - Instrumental",
+    "artists": [
+      "void",
+      "LHBeats"
+    ],
+    "album": "Wok",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/3wtAUhuNHHhvtdPnI2d5qi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cd3f682987f441007b88a977",
+    "popularity": 38,
+    "previewUrl": null,
+    "durationMs": 181440,
+    "isrc": "QZK6J2288722",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4evMMKc2HD6fV9slMfgkMx",
+    "name": "TOXIC (with Skepta)",
+    "artists": [
+      "Playboi Carti",
+      "Skepta"
+    ],
+    "album": "MUSIC",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4evMMKc2HD6fV9slMfgkMx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 135275,
+    "isrc": "USUM72414854",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "78YTl0P96kBCBXUSzKoqAm",
+    "name": "Control",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "album": "Whole Lotta Red",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/78YTl0P96kBCBXUSzKoqAm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 197789,
+    "isrc": "USUM72024689",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2XH2U69lwqCUTMxElGqbVY",
+    "name": "Mission Statement (feat. Daimyo)",
+    "artists": [
+      "Witness",
+      "Daimyo"
+    ],
+    "album": "Hope Springs Eternal",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/2XH2U69lwqCUTMxElGqbVY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734e47aeb51f9bf9bcf8a20a93",
+    "popularity": 37,
+    "previewUrl": null,
+    "durationMs": 96960,
+    "isrc": "TCADN1867875",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "09hbZ8vF8YmlVQq55Ai1Ay",
+    "name": "Switching Lanes (feat. Playboi Carti)",
+    "artists": [
+      "Pi’erre Bourne",
+      "Playboi Carti"
+    ],
+    "album": "The Life Of Pi'erre 5",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/09hbZ8vF8YmlVQq55Ai1Ay",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273857ffe0b5ad52bf5625572db",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 190097,
+    "isrc": "USUM72109090",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "66w7lK0t98OPgvYjXp39IP",
+    "name": "Excitement",
+    "artists": [
+      "Trippie Redd",
+      "PARTYNEXTDOOR"
+    ],
+    "album": "Pegasus",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/66w7lK0t98OPgvYjXp39IP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d9e1e8811360d855de6c345c",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 283285,
+    "isrc": "QZJ842000262",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4QhWbupniDd44EDtnh2bFJ",
+    "name": "Pyramids",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "album": "channel ORANGE",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/4QhWbupniDd44EDtnh2bFJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 592920,
+    "isrc": "USUM71207185",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1b2cEcfy5d7KQ79WvZHLPd",
+    "name": "Dropped Out",
+    "artists": [
+      "pinkpills"
+    ],
+    "album": "Dropped Out",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/1b2cEcfy5d7KQ79WvZHLPd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273368fd64ca4f8760a2a105383",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 192390,
+    "isrc": "QZMWW2399609",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6s8WSX1MxNThrot8ThI6fG",
+    "name": "4X4",
+    "artists": [
+      "Travis Scott"
+    ],
+    "album": "4X4",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6s8WSX1MxNThrot8ThI6fG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b03d28fd5a76c2c30e7ac288",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 190581,
+    "isrc": "USSM12410202",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1AYAq7S27fOqQuZRZ59P2y",
+    "name": "Shibuya",
+    "artists": [
+      "Witness"
+    ],
+    "album": "Hope Springs Eternal",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/1AYAq7S27fOqQuZRZ59P2y",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734e47aeb51f9bf9bcf8a20a93",
+    "popularity": 39,
+    "previewUrl": null,
+    "durationMs": 87880,
+    "isrc": "TCADN1867876",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "787rCZF9i4L1cXGMkdyIk4",
+    "name": "LVL",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "album": "LONG.LIVE.A$AP (Deluxe Version)",
+    "year": 2013,
+    "spotifyUrl": "https://open.spotify.com/track/787rCZF9i4L1cXGMkdyIk4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732ae92030b51fb8135d694af9",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 220133,
+    "isrc": "USRC11201447",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  }
+]

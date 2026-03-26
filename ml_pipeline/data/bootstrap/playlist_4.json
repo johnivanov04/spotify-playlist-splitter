@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "3pUz2qJe5nqZemi3hhIxMk",
+    "name": "Where You Are",
+    "artists": [
+      "John Summit",
+      "HAYLA"
+    ],
+    "album": "Comfort In Chaos",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/3pUz2qJe5nqZemi3hhIxMk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ac2be70b09319ac92b074fde",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 236000,
+    "isrc": "USUG12301338",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "32VIrOsJmwvqRm4rWFBCsi",
+    "name": "Shiver",
+    "artists": [
+      "John Summit",
+      "HAYLA"
+    ],
+    "album": "Comfort In Chaos",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/32VIrOsJmwvqRm4rWFBCsi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ac2be70b09319ac92b074fde",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 234330,
+    "isrc": "USUG12401003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1oLcBdX94CvaIRzdpTJA8u",
+    "name": "Soul Searcher",
+    "artists": [
+      "Wh0",
+      "Kideko"
+    ],
+    "album": "Soul Searcher",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/1oLcBdX94CvaIRzdpTJA8u",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27312b99b074a7d2ad2c1d9c47e",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 188160,
+    "isrc": "GBJAJ2101652",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "23RoR84KodL5HWvUTneQ1w",
+    "name": "(It Goes Like) Nanana - Edit",
+    "artists": [
+      "Peggy Gou"
+    ],
+    "album": "(It Goes Like) Nanana [Edit]",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/23RoR84KodL5HWvUTneQ1w",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27388d71aadd009fe1a83df88f2",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 231545,
+    "isrc": "GBBKS2300080",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4LwxeWSBu0LQtEyGLb6FVP",
+    "name": "Losing Control",
+    "artists": [
+      "Odd Mob",
+      "OMNOM"
+    ],
+    "album": "Losing Control",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/4LwxeWSBu0LQtEyGLb6FVP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737f716a9fa5490b70c634821c",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 165335,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4qetR2UUyBeUrJ9DbYrpVQ",
+    "name": "Stop It",
+    "artists": [
+      "FISHER"
+    ],
+    "album": "Oi Oi",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/4qetR2UUyBeUrJ9DbYrpVQ",
+    "imageUrl": "https://i.scdn.co/image/fcfe6087e2f67937a0c2e5471e6e95c55fbe77ef",
+    "popularity": 3,
+    "previewUrl": null,
+    "durationMs": 163790,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7dsImih2L25fa6qjNphBI7",
+    "name": "Turn off the Lights",
+    "artists": [
+      "Chris Lake",
+      "Alexis Roberts"
+    ],
+    "album": "Turn off the Lights",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/7dsImih2L25fa6qjNphBI7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273da79fd254f4099c84f034a3f",
+    "popularity": 6,
+    "previewUrl": null,
+    "durationMs": 210546,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6txvQu0zUbiqG24A8XMLnK",
+    "name": "Miracle Maker",
+    "artists": [
+      "Dom Dolla",
+      "Clementine Douglas"
+    ],
+    "album": "Miracle Maker",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/6txvQu0zUbiqG24A8XMLnK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273defb09a682b87c78783f0ae1",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 188592,
+    "isrc": "USQX92201881",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5ijp0ctfwwkmkR6hWDQnwn",
+    "name": "Boom Shakalaka",
+    "artists": [
+      "Moksi",
+      "Emy Perez",
+      "Digitzz"
+    ],
+    "album": "The Return of House Music",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/5ijp0ctfwwkmkR6hWDQnwn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737633bacd1df5c4cff71c4240",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 178320,
+    "isrc": "USA2P1937036",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1aNUSKBe6UMyMk3pEu9ws7",
+    "name": "Atmosphere",
+    "artists": [
+      "FISHER",
+      "Kita Alexander"
+    ],
+    "album": "Atmosphere",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/1aNUSKBe6UMyMk3pEu9ws7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dd2ba3c5c37e1240f3c0496d",
+    "popularity": 7,
+    "previewUrl": null,
+    "durationMs": 182857,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2fmtrXfvbN8xkHwE0zgTTc",
+    "name": "on & on",
+    "artists": [
+      "piri",
+      "Tommy Villiers",
+      "piri & tommy"
+    ],
+    "album": "on & on",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/2fmtrXfvbN8xkHwE0zgTTc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c9910b44cbbaf1f971fc6a54",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 135013,
+    "isrc": "GBUM72204910",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "787Y2idwCU2Rk60Prv4wpr",
+    "name": "Saving Up",
+    "artists": [
+      "Dom Dolla"
+    ],
+    "album": "Saving Up",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/787Y2idwCU2Rk60Prv4wpr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731728a61c9232fdd854961f2b",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 207514,
+    "isrc": "USQX92305379",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1E3u84XwqE5mHxjdTSIodR",
+    "name": "Like Before",
+    "artists": [
+      "Jauz",
+      "Habstrakt"
+    ],
+    "album": "Like Before",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/1E3u84XwqE5mHxjdTSIodR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736f02b460d9886e117eb64143",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 209523,
+    "isrc": "NLZ542200800",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5IkqbeN8L6DC9kRA7Hp64t",
+    "name": "Dance No More (with Kaleena Zanders)",
+    "artists": [
+      "Sunday Scaries",
+      "Kaleena Zanders"
+    ],
+    "album": "Dance No More (with Kaleena Zanders)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/5IkqbeN8L6DC9kRA7Hp64t",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f4d27107428286f06bbbee2f",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 202657,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "46N3FCKFABRjNoNBVq4osr",
+    "name": "girl$",
+    "artists": [
+      "Dom Dolla"
+    ],
+    "album": "girl$",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/46N3FCKFABRjNoNBVq4osr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ccec146b253f2aee21814825",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 209552,
+    "isrc": "USQX92401650",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3LPO7SRYyPIzcOUQQnATOm",
+    "name": "Take Me to the Beach",
+    "artists": [
+      "X Eliot"
+    ],
+    "album": "Take Me to the Beach",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/3LPO7SRYyPIzcOUQQnATOm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737a86d460a759fa910df1cebd",
+    "popularity": 14,
+    "previewUrl": null,
+    "durationMs": 209538,
+    "isrc": "QZTAS2317356",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5lbFVZ3g63LLssXLKirfjA",
+    "name": "Gimme Some Keys",
+    "artists": [
+      "Matroda"
+    ],
+    "album": "Gimme Some Keys (Remixes)",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/5lbFVZ3g63LLssXLKirfjA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734c6b0e2eb096f7cf05efb3e7",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 169444,
+    "isrc": "CA5KR2136652",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1YwWHm6Ad1fizVPaQ8nrco",
+    "name": "Take U",
+    "artists": [
+      "Jengi"
+    ],
+    "album": "Take U",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/1YwWHm6Ad1fizVPaQ8nrco",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27312ee50f3c175068e9eb16a37",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 162727,
+    "isrc": "BE5KW2300388",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "77eJSMNYSqeZdhiOHDPaK6",
+    "name": "Gotta Let You Go - Club Mix",
+    "artists": [
+      "Dominica"
+    ],
+    "album": "Gotta Let You Go",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/77eJSMNYSqeZdhiOHDPaK6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734337c095ea2a9da81280353b",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 410623,
+    "isrc": "NLML61600010",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2e2yKavdT6WQzzMHwNtPFa",
+    "name": "In The Yuma (feat. Aatig)",
+    "artists": [
+      "Chris Lake",
+      "Aatig"
+    ],
+    "album": "In The Yuma (feat. Aatig)",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/2e2yKavdT6WQzzMHwNtPFa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27363b5e4e71c4d31103a6ccadf",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 156215,
+    "isrc": "USUG12207808",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "29I9dv9Nq704w0Oc5yFGsR",
+    "name": "She’s Gone, Dance On",
+    "artists": [
+      "Disclosure"
+    ],
+    "album": "She’s Gone, Dance On",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/29I9dv9Nq704w0Oc5yFGsR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730b6d4c43fe3e8485148e4872",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 226773,
+    "isrc": "USA2P2420371",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "20on25jryn53hWghthWWW3",
+    "name": "Do It To It",
+    "artists": [
+      "ACRAZE",
+      "Cherish"
+    ],
+    "album": "Do It To It",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/20on25jryn53hWghthWWW3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27384d413b195aac8a69cc6e5c6",
+    "popularity": 24,
+    "previewUrl": null,
+    "durationMs": 157890,
+    "isrc": null,
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7vfIghWey3FItmcZXZy2fE",
+    "name": "Friendly Pressure - Into The Sunshine Edit",
+    "artists": [
+      "Jhelisa",
+      "Sunship"
+    ],
+    "album": "Friendly Pressure (Sunship Remixes)",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/7vfIghWey3FItmcZXZy2fE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737307bf3c6caf9a668391b417",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 229760,
+    "isrc": "GBBCM9800344",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0dAfw35k2hBsnbSl74AVJF",
+    "name": "dashstar*",
+    "artists": [
+      "Knock2"
+    ],
+    "album": "dashstar*",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/0dAfw35k2hBsnbSl74AVJF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a8ff23b559dfbba6ca8b5175",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 198095,
+    "isrc": "CA5KR2131835",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7zp9FOU4cjFdGN1zdWTvcB",
+    "name": "TAKE IT OFF",
+    "artists": [
+      "FISHER",
+      "Aatig"
+    ],
+    "album": "TAKE IT OFF",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/7zp9FOU4cjFdGN1zdWTvcB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f4d53c951b5b8390fd5cc86e",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 194604,
+    "isrc": "USAT22306807",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1gRQxbfL4ULWyTosgXSbWT",
+    "name": "You Little Beauty",
+    "artists": [
+      "FISHER"
+    ],
+    "album": "You Little Beauty",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/1gRQxbfL4ULWyTosgXSbWT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c9103bcebb6bf4ca93c7ad3d",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 206587,
+    "isrc": "CA5KR1923939",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7u0fz3V6cYeYTX91DMmIvQ",
+    "name": "Food for the Soul",
+    "artists": [
+      "it's murph"
+    ],
+    "album": "Food for the Soul",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/7u0fz3V6cYeYTX91DMmIvQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27307f074178d042ed6df29e8e4",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 210562,
+    "isrc": "QM24S2300657",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6TvCNh37pSO9rp9fIhskKN",
+    "name": "Numb",
+    "artists": [
+      "Twin Diplomacy",
+      "Sunday Scaries"
+    ],
+    "album": "Numb",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/6TvCNh37pSO9rp9fIhskKN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349cf058fd435d32ff5155885",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 178300,
+    "isrc": "QZTAY2308581",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0pIiCv0GdhtsOjCJ5Y7zHj",
+    "name": "Morenita",
+    "artists": [
+      "HUGEL",
+      "Cumbiafrica"
+    ],
+    "album": "Morenita",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/0pIiCv0GdhtsOjCJ5Y7zHj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273588c08dcded5bc5a1c99aa71",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 176491,
+    "isrc": "GBHAD2102582",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3UYsJbgJ6EelhHwL00zmwr",
+    "name": "I Told You Once",
+    "artists": [
+      "All Cane"
+    ],
+    "album": "I Told You Once",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/3UYsJbgJ6EelhHwL00zmwr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f41d1194d1a8aa3fdcc91557",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 175977,
+    "isrc": "QZUCN2200599",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "74nEGIzIefJhJ5qX7NeIAz",
+    "name": "Beggin'",
+    "artists": [
+      "Chris Lake",
+      "Aluna"
+    ],
+    "album": "Beggin'",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/74nEGIzIefJhJ5qX7NeIAz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27333e18b9b63b4de1887880cb5",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 183397,
+    "isrc": "USUG12301938",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "40SBS57su9xLiE1WqkXOVr",
+    "name": "Afraid To Feel",
+    "artists": [
+      "LF SYSTEM"
+    ],
+    "album": "Afraid To Feel",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/40SBS57su9xLiE1WqkXOVr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc8945f4d18a31b09b80819b",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 177525,
+    "isrc": "GBAHT2200492",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7jURkEKDVEm9sHueqUX0ko",
+    "name": "Gimme That Bounce",
+    "artists": [
+      "Mau P"
+    ],
+    "album": "Gimme That Bounce",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/7jURkEKDVEm9sHueqUX0ko",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737b6eebd0073f658b4d8dcd9e",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 217410,
+    "isrc": "NLRD52264071",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5ooCfBqZyTB5CTdu1x7S77",
+    "name": "Everything You Have Done - Meduza Edit",
+    "artists": [
+      "GENESI",
+      "MEDUZA"
+    ],
+    "album": "Everything You Have Done (Meduza Edit)",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/5ooCfBqZyTB5CTdu1x7S77",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27307ce50fdc62f84f27b8434df",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 156218,
+    "isrc": "US39N2300454",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2idmlkd8oUaQvYEtINpLBX",
+    "name": "Heads Will Roll - A-Trak Remix",
+    "artists": [
+      "Yeah Yeah Yeahs",
+      "A-Trak"
+    ],
+    "album": "Heads Will Roll",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/2idmlkd8oUaQvYEtINpLBX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f20af84f025b9870f1877603",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 383546,
+    "isrc": "USUM70906794",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "44CZRkOxv7UItaAUmh8PgN",
+    "name": "Doses & Mimosas",
+    "artists": [
+      "Cherub"
+    ],
+    "album": "Year of the Caprese",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/44CZRkOxv7UItaAUmh8PgN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738544567bdc5afbafaffc3449",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 323253,
+    "isrc": "USSM11306037",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0w7JPlp7eEQI2EKW3ayXrv",
+    "name": "Drugs From Amsterdam",
+    "artists": [
+      "Mau P"
+    ],
+    "album": "Drugs From Amsterdam",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/0w7JPlp7eEQI2EKW3ayXrv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a8270fb7bd24767babe59423",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 235785,
+    "isrc": "GBK6Y2251421",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2LxdNADWier3MKTei8FbOY",
+    "name": "I Was Made For Lovin' You (feat. Nile Rodgers & House Gospel Choir)",
+    "artists": [
+      "Oliver Heldens",
+      "Nile Rodgers",
+      "House Gospel Choir"
+    ],
+    "album": "I Was Made For Lovin' You (feat. Nile Rodgers & House Gospel Choir)",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/2LxdNADWier3MKTei8FbOY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27303160d172c665e12e0a4fbfa",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 157205,
+    "isrc": "USRC12201414",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "51bwChuoablcgmmSjvwe8Y",
+    "name": "I Was Lovin' You (feat. Dots Per Inch & Ayak) - TS7 Remix",
+    "artists": [
+      "James Hype",
+      "Ayak",
+      "Dots Per Inch",
+      "TS7"
+    ],
+    "album": "I Was Lovin' You (feat. Dots Per Inch & Ayak) [Remixes]",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/51bwChuoablcgmmSjvwe8Y",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27307708b32ba0654e7e843f21b",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 244283,
+    "isrc": "UKRPL1900015",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5vASuVQkngtFoCOczem52V",
+    "name": "On Again",
+    "artists": [
+      "Mau P"
+    ],
+    "album": "On Again",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/5vASuVQkngtFoCOczem52V",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27365196ad375037658c9b2637a",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 228000,
+    "isrc": "NL8RL2409745",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1KEs5gnaNl40iM9Ytmq1DD",
+    "name": "The Weekend",
+    "artists": [
+      "Anti Up"
+    ],
+    "album": "The Weekend / Control the Media",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/1KEs5gnaNl40iM9Ytmq1DD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d110dff9c243231e2ee2b639",
+    "popularity": 36,
+    "previewUrl": null,
+    "durationMs": 178921,
+    "isrc": "USAT22401740",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4tcPIwy0UvLYjhXLrMyx89",
+    "name": "Pump It Up",
+    "artists": [
+      "Endor"
+    ],
+    "album": "Pump It Up",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/4tcPIwy0UvLYjhXLrMyx89",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e531450d406375e9ade82725",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 150635,
+    "isrc": "GBCPZ1916610",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6ho0GyrWZN3mhi9zVRW7xi",
+    "name": "Losing It",
+    "artists": [
+      "FISHER"
+    ],
+    "album": "Losing It",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6ho0GyrWZN3mhi9zVRW7xi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739367c1ee2eec0bf3a04b4868",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 248035,
+    "isrc": "CA5KR1821202",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0DiWol3AO6WpXZgp0goxAV",
+    "name": "One More Time",
+    "artists": [
+      "Daft Punk"
+    ],
+    "album": "Discovery",
+    "year": 2001,
+    "spotifyUrl": "https://open.spotify.com/track/0DiWol3AO6WpXZgp0goxAV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+    "popularity": 83,
+    "previewUrl": null,
+    "durationMs": 320357,
+    "isrc": "GBDUW0000053",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7pARbCUoO1CTzU5ucMEaVF",
+    "name": "Summer 91",
+    "artists": [
+      "Noizu"
+    ],
+    "album": "Summer 91",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/7pARbCUoO1CTzU5ucMEaVF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273103725a1e84a0fc800aab594",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 149280,
+    "isrc": "FRX202008600",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4gPzgnuf6njljiwLFKM2lV",
+    "name": "Closer",
+    "artists": [
+      "Gaskin"
+    ],
+    "album": "Closer",
+    "year": 2024,
+    "spotifyUrl": "https://open.spotify.com/track/4gPzgnuf6njljiwLFKM2lV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27331322b8923e46a23fb52891b",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 234545,
+    "isrc": "UKU932482797",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4v7kKFlEDmpVToHOICsXaM",
+    "name": "Hooked",
+    "artists": [
+      "NOTION"
+    ],
+    "album": "Hooked",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/4v7kKFlEDmpVToHOICsXaM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273669e196874273595fb78bb1b",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 206250,
+    "isrc": "CYA111900402",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Ndsdhx3jKxjQmHw7QkHmi",
+    "name": "FOUND LOVE (feat. Carrie Baxter)",
+    "artists": [
+      "NOTION",
+      "Carrie Baxter"
+    ],
+    "album": "OUTSIDER",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/5Ndsdhx3jKxjQmHw7QkHmi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730adb9c86da844824132e8f6a",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 136615,
+    "isrc": "UKQNV2100042",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4vyG9ZhHT8MKJE5mTICMFC",
+    "name": "Still Sleepless",
+    "artists": [
+      "D.O.D",
+      "Carla Monroe"
+    ],
+    "album": "Still Sleepless",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/4vyG9ZhHT8MKJE5mTICMFC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ce09321ad586bf258a394f43",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 162879,
+    "isrc": "GBKCF2101056",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3DLWVhaowApIGw1JnJj6GS",
+    "name": "Lose Control",
+    "artists": [
+      "James Hype"
+    ],
+    "album": "Lose Control",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/3DLWVhaowApIGw1JnJj6GS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b77b054e7181122b648b6f7e",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 173437,
+    "isrc": "NLRD52319304",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5u4hhtZ7f4rWkMZEZcTKrH",
+    "name": "Relax My Eyes",
+    "artists": [
+      "ANOTR",
+      "Abel Balder"
+    ],
+    "album": "Relax My Eyes",
+    "year": 2022,
+    "spotifyUrl": "https://open.spotify.com/track/5u4hhtZ7f4rWkMZEZcTKrH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273eedb2366a9c2fbb8503c703e",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 192150,
+    "isrc": "GBKQU2296427",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  }
+]
