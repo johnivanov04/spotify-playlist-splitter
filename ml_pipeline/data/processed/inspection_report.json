@@ -1,0 +1,460 @@
+{
+  "coverage": {
+    "records": 387,
+    "unique_canonical_records_estimate": 387,
+    "duplicate_estimate": 0,
+    "with_isrc": 287,
+    "with_isrc_pct": 74.16,
+    "with_mbid": 115,
+    "with_mbid_pct": 29.72,
+    "with_spotify_id": 387,
+    "with_spotify_id_pct": 100.0,
+    "with_tags": 47,
+    "with_tags_pct": 12.14,
+    "with_genres": 45,
+    "with_genres_pct": 11.63,
+    "with_acoustic_high_level": 76,
+    "with_acoustic_high_level_pct": 19.64,
+    "with_acoustic_low_level": 0,
+    "with_acoustic_low_level_pct": 0.0,
+    "with_audio_embedding": 0,
+    "with_audio_embedding_pct": 0.0,
+    "with_popularity": 387,
+    "with_popularity_pct": 100.0,
+    "with_year": 387,
+    "with_year_pct": 100.0,
+    "missing_all_ids": 0,
+    "missing_all_ids_pct": 0.0,
+    "missing_brainz": 308,
+    "missing_brainz_pct": 79.59
+  },
+  "vocabulary": {
+    "unique_tags": 179,
+    "unique_genres": 83,
+    "top_tags": [
+      [
+        "rock",
+        82.0
+      ],
+      [
+        "pop",
+        65.0
+      ],
+      [
+        "alternative rock",
+        52.0
+      ],
+      [
+        "pop rock",
+        40.0
+      ],
+      [
+        "indie rock",
+        31.0
+      ],
+      [
+        "indie pop",
+        21.0
+      ],
+      [
+        "psychedelic rock",
+        18.0
+      ],
+      [
+        "classic rock",
+        18.0
+      ],
+      [
+        "electronic",
+        15.0
+      ],
+      [
+        "trip hop",
+        12.0
+      ],
+      [
+        "indie",
+        12.0
+      ],
+      [
+        "art pop",
+        11.0
+      ],
+      [
+        "disco",
+        10.0
+      ],
+      [
+        "neo-psychedelia",
+        8.0
+      ],
+      [
+        "pop/rock",
+        8.0
+      ],
+      [
+        "hip hop",
+        7.0
+      ],
+      [
+        "album rock",
+        7.0
+      ],
+      [
+        "singer-songwriter",
+        7.0
+      ],
+      [
+        "soft rock",
+        7.0
+      ],
+      [
+        "mellow",
+        6.0
+      ],
+      [
+        "psychedelic pop",
+        6.0
+      ],
+      [
+        "new wave",
+        6.0
+      ],
+      [
+        "country rock",
+        6.0
+      ],
+      [
+        "synth-pop",
+        5.0
+      ],
+      [
+        "soundtrack",
+        5.0
+      ]
+    ],
+    "top_genres": [
+      [
+        "rock",
+        82.0
+      ],
+      [
+        "pop",
+        65.0
+      ],
+      [
+        "alternative rock",
+        52.0
+      ],
+      [
+        "pop rock",
+        40.0
+      ],
+      [
+        "indie rock",
+        31.0
+      ],
+      [
+        "indie pop",
+        21.0
+      ],
+      [
+        "psychedelic rock",
+        18.0
+      ],
+      [
+        "classic rock",
+        18.0
+      ],
+      [
+        "electronic",
+        15.0
+      ],
+      [
+        "trip hop",
+        12.0
+      ],
+      [
+        "art pop",
+        11.0
+      ],
+      [
+        "disco",
+        10.0
+      ],
+      [
+        "neo-psychedelia",
+        8.0
+      ],
+      [
+        "hip hop",
+        7.0
+      ],
+      [
+        "singer-songwriter",
+        7.0
+      ],
+      [
+        "soft rock",
+        7.0
+      ],
+      [
+        "psychedelic pop",
+        6.0
+      ],
+      [
+        "new wave",
+        6.0
+      ],
+      [
+        "country rock",
+        6.0
+      ],
+      [
+        "synth-pop",
+        5.0
+      ],
+      [
+        "funk",
+        5.0
+      ],
+      [
+        "jangle pop",
+        5.0
+      ],
+      [
+        "psychedelic",
+        4.0
+      ],
+      [
+        "rock and roll",
+        4.0
+      ],
+      [
+        "pop rap",
+        4.0
+      ]
+    ],
+    "top_artists": [
+      [
+        "beabadoobee",
+        39
+      ],
+      [
+        "Clairo",
+        35
+      ],
+      [
+        "Mac DeMarco",
+        22
+      ],
+      [
+        "Tame Impala",
+        22
+      ],
+      [
+        "Faye Webster",
+        18
+      ],
+      [
+        "Peter Cat Recording Co.",
+        15
+      ],
+      [
+        "Sweet Trip",
+        13
+      ],
+      [
+        "The Marías",
+        11
+      ],
+      [
+        "The Strokes",
+        8
+      ],
+      [
+        "Steve Lacy",
+        8
+      ],
+      [
+        "Cigarettes After Sex",
+        7
+      ],
+      [
+        "Current Joys",
+        6
+      ],
+      [
+        "Vacations",
+        5
+      ],
+      [
+        "Beach Bunny",
+        5
+      ],
+      [
+        "Strawberry Guy",
+        5
+      ],
+      [
+        "Cage The Elephant",
+        4
+      ],
+      [
+        "TV Girl",
+        4
+      ],
+      [
+        "Loving",
+        4
+      ],
+      [
+        "Shelly",
+        4
+      ],
+      [
+        "Not for Radio",
+        4
+      ],
+      [
+        "Rex Orange County",
+        3
+      ],
+      [
+        "The Beatles",
+        3
+      ],
+      [
+        "PinkPantheress",
+        3
+      ],
+      [
+        "Daft Punk",
+        3
+      ],
+      [
+        "Her's",
+        3
+      ]
+    ],
+    "top_years": [
+      [
+        2024,
+        47
+      ],
+      [
+        2019,
+        45
+      ],
+      [
+        2017,
+        42
+      ],
+      [
+        2018,
+        41
+      ],
+      [
+        2021,
+        32
+      ],
+      [
+        2015,
+        18
+      ],
+      [
+        2020,
+        17
+      ],
+      [
+        2025,
+        16
+      ],
+      [
+        2022,
+        15
+      ],
+      [
+        2016,
+        14
+      ],
+      [
+        2013,
+        13
+      ],
+      [
+        2023,
+        12
+      ],
+      [
+        2001,
+        8
+      ],
+      [
+        2009,
+        8
+      ],
+      [
+        2012,
+        7
+      ],
+      [
+        2010,
+        7
+      ],
+      [
+        2014,
+        6
+      ],
+      [
+        2011,
+        5
+      ],
+      [
+        1973,
+        3
+      ],
+      [
+        1969,
+        2
+      ],
+      [
+        2002,
+        2
+      ],
+      [
+        1977,
+        2
+      ],
+      [
+        1997,
+        2
+      ],
+      [
+        1993,
+        2
+      ],
+      [
+        1965,
+        1
+      ]
+    ],
+    "year_min": 1964,
+    "year_max": 2026
+  },
+  "sources": {
+    "dataset_names": [
+      [
+        "bootstrap-playlists-v1",
+        387
+      ]
+    ],
+    "source_files": [
+      [
+        "playlist_1.json",
+        387
+      ]
+    ],
+    "source_file_count": 1
+  }
+}
