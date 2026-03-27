@@ -1,0 +1,594 @@
+[
+  {
+    "cluster_id": 6,
+    "size": 380,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "16 Years — The Griswolds",
+      "Chamber Of Reflection — Mac DeMarco",
+      "Moonlight on the River — Mac DeMarco",
+      "Still Beating — Mac DeMarco",
+      "Blinded — The Jungle Giants",
+      "worldstar money (interlude) — Joji",
+      "The Less I Know The Better — Tame Impala",
+      "Trouble — Cage The Elephant",
+      "Young — Vacations"
+    ],
+    "top_features": [
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": 0.8068609635587519,
+        "abs_weight": 0.8068609635587519
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__reg",
+        "weight": 0.7641362277270198,
+        "abs_weight": 0.7641362277270198
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__met",
+        "weight": 0.7552181707587751,
+        "abs_weight": 0.7552181707587751
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__cou",
+        "weight": 0.738573550064792,
+        "abs_weight": 0.738573550064792
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__dis",
+        "weight": 0.7370069741651968,
+        "abs_weight": 0.7370069741651968
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__pop",
+        "weight": 0.7336517202149325,
+        "abs_weight": 0.7336517202149325
+      },
+      {
+        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
+        "weight": 0.7260751049013058,
+        "abs_weight": 0.7260751049013058
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__blu",
+        "weight": 0.7190148691497411,
+        "abs_weight": 0.7190148691497411
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": 0.6961596221342465,
+        "abs_weight": 0.6961596221342465
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__hip",
+        "weight": 0.67209499638766,
+        "abs_weight": 0.67209499638766
+      },
+      {
+        "feature": "acoustic__highlevel__moods_mirex__all__cluster4",
+        "weight": 0.6615729311620218,
+        "abs_weight": 0.6615729311620218
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 0.6562774697607402,
+        "abs_weight": 0.6562774697607402
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 305,
+    "sample_tracks": [
+      "Pretty Girl — Clairo",
+      "prom dress — mxmtoon",
+      "On the Level — Mac DeMarco",
+      "For the First Time — Mac DeMarco",
+      "One More Love Song — Mac DeMarco",
+      "Never Enough — Rex Orange County",
+      "You Say I'm in Love — Banes World",
+      "Prom Queen — Beach Bunny",
+      "Televisions — Current Joys",
+      "I'm Terrified — Current Joys"
+    ],
+    "top_features": [
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": -1.202447584354596,
+        "abs_weight": 1.202447584354596
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__reg",
+        "weight": -1.1281232140068163,
+        "abs_weight": 1.1281232140068163
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__cou",
+        "weight": -1.1116385561878732,
+        "abs_weight": 1.1116385561878732
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__blu",
+        "weight": -1.095706133335759,
+        "abs_weight": 1.095706133335759
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__met",
+        "weight": -1.0928105738487024,
+        "abs_weight": 1.0928105738487024
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__pop",
+        "weight": -1.088298382186177,
+        "abs_weight": 1.088298382186177
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__dis",
+        "weight": -1.0818515874579395,
+        "abs_weight": 1.0818515874579395
+      },
+      {
+        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
+        "weight": -1.0735650019201788,
+        "abs_weight": 1.0735650019201788
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": -1.0381650410424428,
+        "abs_weight": 1.0381650410424428
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__hip",
+        "weight": -1.0299639694674927,
+        "abs_weight": 1.0299639694674927
+      },
+      {
+        "feature": "acoustic__highlevel__moods_mirex__all__cluster1",
+        "weight": -1.0121249733103737,
+        "abs_weight": 1.0121249733103737
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": -0.9564586355840154,
+        "abs_weight": 0.9564586355840154
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 39,
+    "sample_tracks": [
+      "Cigarette Daydreams — Cage The Elephant",
+      "Somebody That I Used To Know — Gotye, Kimbra",
+      "Come a Little Closer — Cage The Elephant",
+      "Sweater Weather — The Neighbourhood",
+      "This Charming Man - 2011 Remaster — The Smiths",
+      "The Scientist — Coldplay",
+      "Island In The Sun — Weezer",
+      "Everybody Wants To Rule The World — Tears For Fears",
+      "Movin' Out (Anthony's Song) — Billy Joel",
+      "Hotel California - 2013 Remaster — Eagles"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__rock",
+        "weight": 2.9172643444932493,
+        "abs_weight": 2.9172643444932493
+      },
+      {
+        "feature": "tag__rock",
+        "weight": 2.917264341295497,
+        "abs_weight": 2.917264341295497
+      },
+      {
+        "feature": "genre__alternative_rock",
+        "weight": 2.815241944775103,
+        "abs_weight": 2.815241944775103
+      },
+      {
+        "feature": "tag__alternative_rock",
+        "weight": 2.793035014623078,
+        "abs_weight": 2.793035014623078
+      },
+      {
+        "feature": "genre__indie_rock",
+        "weight": 2.4056061048945683,
+        "abs_weight": 2.4056061048945683
+      },
+      {
+        "feature": "tag__indie_rock",
+        "weight": 2.405606097065288,
+        "abs_weight": 2.405606097065288
+      },
+      {
+        "feature": "tag__alternative_indie_rock",
+        "weight": 2.2653727089949314,
+        "abs_weight": 2.2653727089949314
+      },
+      {
+        "feature": "tag__alternative_and_punk",
+        "weight": 2.0691396329465346,
+        "abs_weight": 2.0691396329465346
+      },
+      {
+        "feature": "tag__alternative",
+        "weight": 2.051059822193753,
+        "abs_weight": 2.051059822193753
+      },
+      {
+        "feature": "tag__indie",
+        "weight": 1.960194869137857,
+        "abs_weight": 1.960194869137857
+      },
+      {
+        "feature": "genre__punk",
+        "weight": 1.933941689365109,
+        "abs_weight": 1.933941689365109
+      },
+      {
+        "feature": "tag__punk",
+        "weight": 1.9339416893650958,
+        "abs_weight": 1.9339416893650958
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "size": 26,
+    "sample_tracks": [
+      "Feel Good Inc. — Gorillaz, De La Soul",
+      "Guinnessez — MF DOOM, Stahhr",
+      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Luv(sic.) pt3 (feat. Shing02) — Nujabes, Shing02",
+      "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez) — Nujabes, Substantial",
+      "Horn in the middle — Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Beat laments the world — Nujabes",
+      "Think Different (feat. Substantial) — Nujabes, Substantial",
+      "Next view (feat. Uyama Hiroto) — Nujabes, Uyama Hiroto"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__instrumental",
+        "weight": 4.326476546236015,
+        "abs_weight": 4.326476546236015
+      },
+      {
+        "feature": "tag__instrumental",
+        "weight": 4.326476542159708,
+        "abs_weight": 4.326476542159708
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "weight": 4.040365574437722,
+        "abs_weight": 4.040365574437722
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "weight": 4.040365566013821,
+        "abs_weight": 4.040365566013821
+      },
+      {
+        "feature": "genre__downtempo",
+        "weight": 4.027571420304655,
+        "abs_weight": 4.027571420304655
+      },
+      {
+        "feature": "tag__downtempo",
+        "weight": 4.027571415619162,
+        "abs_weight": 4.027571415619162
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "weight": 3.961811688339056,
+        "abs_weight": 3.961811688339056
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "weight": 3.961811688339041,
+        "abs_weight": 3.961811688339041
+      },
+      {
+        "feature": "genre__trip_hop",
+        "weight": 3.86379409769153,
+        "abs_weight": 3.86379409769153
+      },
+      {
+        "feature": "tag__trip_hop",
+        "weight": 3.6573572916595896,
+        "abs_weight": 3.6573572916595896
+      },
+      {
+        "feature": "tag__jazz",
+        "weight": 3.5595390287442847,
+        "abs_weight": 3.5595390287442847
+      },
+      {
+        "feature": "genre__jazz",
+        "weight": 3.5595390279107106,
+        "abs_weight": 3.5595390279107106
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 3,
+    "sample_tracks": [
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "In My Life - Remastered 2009 — The Beatles",
+      "And I Love Her - Remastered 2009 — The Beatles"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__beat_music",
+        "weight": 15.148714555699033,
+        "abs_weight": 15.148714555699033
+      },
+      {
+        "feature": "tag__beat_music",
+        "weight": 15.148714529590716,
+        "abs_weight": 15.148714529590716
+      },
+      {
+        "feature": "tag__am_pop",
+        "weight": 15.148714529590716,
+        "abs_weight": 15.148714529590716
+      },
+      {
+        "feature": "tag__british_invasion",
+        "weight": 14.866583605092586,
+        "abs_weight": 14.866583605092586
+      },
+      {
+        "feature": "genre__rock_and_roll",
+        "weight": 14.46727475554931,
+        "abs_weight": 14.46727475554931
+      },
+      {
+        "feature": "genre__psychedelic",
+        "weight": 14.028543876992964,
+        "abs_weight": 14.028543876992964
+      },
+      {
+        "feature": "tag__psychedelic",
+        "weight": 14.028543876992646,
+        "abs_weight": 14.028543876992646
+      },
+      {
+        "feature": "tag__rock_and_roll",
+        "weight": 13.437288702609901,
+        "abs_weight": 13.437288702609901
+      },
+      {
+        "feature": "tag__beat",
+        "weight": 12.809412366920114,
+        "abs_weight": 12.809412366920114
+      },
+      {
+        "feature": "genre__hard_rock",
+        "weight": 12.598467178878469,
+        "abs_weight": 12.598467178878469
+      },
+      {
+        "feature": "tag__popular_music",
+        "weight": 12.598467178878462,
+        "abs_weight": 12.598467178878462
+      },
+      {
+        "feature": "tag__hard_rock",
+        "weight": 12.598467178878462,
+        "abs_weight": 12.598467178878462
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 2,
+    "sample_tracks": [
+      "The Great Gig in the Sky — Pink Floyd",
+      "Us and Them — Pink Floyd"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__space_rock",
+        "weight": 18.32114108479902,
+        "abs_weight": 18.32114108479902
+      },
+      {
+        "feature": "genre__acid_rock",
+        "weight": 18.321141084798693,
+        "abs_weight": 18.321141084798693
+      },
+      {
+        "feature": "genre__space_rock",
+        "weight": 18.321141084798633,
+        "abs_weight": 18.321141084798633
+      },
+      {
+        "feature": "tag__trippy",
+        "weight": 18.321141084798604,
+        "abs_weight": 18.321141084798604
+      },
+      {
+        "feature": "tag__box",
+        "weight": 18.321141084798604,
+        "abs_weight": 18.321141084798604
+      },
+      {
+        "feature": "tag__acid_rock",
+        "weight": 18.321141084798604,
+        "abs_weight": 18.321141084798604
+      },
+      {
+        "feature": "tag__britannique",
+        "weight": 16.536434522841628,
+        "abs_weight": 16.536434522841628
+      },
+      {
+        "feature": "genre__art_rock",
+        "weight": 15.813425861876954,
+        "abs_weight": 15.813425861876954
+      },
+      {
+        "feature": "tag__art_rock",
+        "weight": 15.81342576724615,
+        "abs_weight": 15.81342576724615
+      },
+      {
+        "feature": "tag__progressive_rock",
+        "weight": 15.659398041232746,
+        "abs_weight": 15.659398041232746
+      },
+      {
+        "feature": "genre__progressive_rock",
+        "weight": 15.659398019752908,
+        "abs_weight": 15.659398019752908
+      },
+      {
+        "feature": "tag__cold",
+        "weight": 15.312442276915549,
+        "abs_weight": 15.312442276915549
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 2,
+    "sample_tracks": [
+      "Like a Tattoo — Sade",
+      "Kiss of Life — Sade"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__sophisti_pop",
+        "weight": 18.87129907641754,
+        "abs_weight": 18.87129907641754
+      },
+      {
+        "feature": "tag__smooth_soul",
+        "weight": 18.87129907641754,
+        "abs_weight": 18.87129907641754
+      },
+      {
+        "feature": "genre__jazz_pop",
+        "weight": 18.871299076417195,
+        "abs_weight": 18.871299076417195
+      },
+      {
+        "feature": "genre__sophisti_pop",
+        "weight": 18.871299076417134,
+        "abs_weight": 18.871299076417134
+      },
+      {
+        "feature": "genre__smooth_soul",
+        "weight": 18.871299076417134,
+        "abs_weight": 18.871299076417134
+      },
+      {
+        "feature": "tag__jazz_pop",
+        "weight": 18.871299076417092,
+        "abs_weight": 18.871299076417092
+      },
+      {
+        "feature": "tag__r_b",
+        "weight": 18.871299076417092,
+        "abs_weight": 18.871299076417092
+      },
+      {
+        "feature": "tag__smooth_jazz",
+        "weight": 17.828346207085673,
+        "abs_weight": 17.828346207085673
+      },
+      {
+        "feature": "genre__smooth_jazz",
+        "weight": 17.82834617034553,
+        "abs_weight": 17.82834617034553
+      },
+      {
+        "feature": "genre__pop_soul",
+        "weight": 10.554662729845381,
+        "abs_weight": 10.554662729845381
+      },
+      {
+        "feature": "tag__pop_soul",
+        "weight": 10.554662729845338,
+        "abs_weight": 10.554662729845338
+      },
+      {
+        "feature": "tag__adult_contemporary",
+        "weight": 10.350938565652879,
+        "abs_weight": 10.350938565652879
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 1,
+    "sample_tracks": [
+      "One More Time — Daft Punk"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__club_dance",
+        "weight": 20.83822928567251,
+        "abs_weight": 20.83822928567251
+      },
+      {
+        "feature": "genre__dance",
+        "weight": 20.443685485040362,
+        "abs_weight": 20.443685485040362
+      },
+      {
+        "feature": "tag__dance",
+        "weight": 20.443685414897363,
+        "abs_weight": 20.443685414897363
+      },
+      {
+        "feature": "tag__house",
+        "weight": 19.540934813797875,
+        "abs_weight": 19.540934813797875
+      },
+      {
+        "feature": "genre__house",
+        "weight": 19.540934739179495,
+        "abs_weight": 19.540934739179495
+      },
+      {
+        "feature": "tag__french_house",
+        "weight": 18.815850222350598,
+        "abs_weight": 18.815850222350598
+      },
+      {
+        "feature": "tag__electronica",
+        "weight": 18.815850222350598,
+        "abs_weight": 18.815850222350598
+      },
+      {
+        "feature": "genre__electronica",
+        "weight": 18.81585017062099,
+        "abs_weight": 18.81585017062099
+      },
+      {
+        "feature": "genre__french_house",
+        "weight": 18.81585017062099,
+        "abs_weight": 18.81585017062099
+      },
+      {
+        "feature": "genre__euro_house",
+        "weight": 14.54066989662784,
+        "abs_weight": 14.54066989662784
+      },
+      {
+        "feature": "tag__euro_house",
+        "weight": 14.540669856965799,
+        "abs_weight": 14.540669856965799
+      },
+      {
+        "feature": "tag__disco",
+        "weight": 10.538448434592768,
+        "abs_weight": 10.538448434592768
+      }
+    ]
+  }
+]
