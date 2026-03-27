@@ -1,0 +1,133 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "electronic / reg",
+    "size": 755,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "16 Years — The Griswolds",
+      "Pretty Girl — Clairo",
+      "prom dress — mxmtoon",
+      "Chamber Of Reflection — Mac DeMarco",
+      "On the Level — Mac DeMarco",
+      "For the First Time — Mac DeMarco",
+      "One More Love Song — Mac DeMarco",
+      "Moonlight on the River — Mac DeMarco",
+      "Still Beating — Mac DeMarco"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
+        "pretty_feature": "electronic",
+        "score": 0.1701802784537319
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__reg",
+        "pretty_feature": "reg",
+        "score": 0.16964850726923153
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__cou",
+        "pretty_feature": "cou",
+        "score": 0.16672649361654063
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__blu",
+        "pretty_feature": "blu",
+        "score": 0.16402431771003048
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__met",
+        "pretty_feature": "met",
+        "score": 0.1633783710708218
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__pop",
+        "pretty_feature": "pop",
+        "score": 0.16298689814852702
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__dis",
+        "pretty_feature": "dis",
+        "score": 0.16277463566002187
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "relaxed",
+        "score": 0.15837410947584318
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__hip",
+        "pretty_feature": "hip",
+        "score": 0.1551765115582292
+      },
+      {
+        "feature": "acoustic__highlevel__moods_mirex__all__cluster1",
+        "pretty_feature": "moods mirex / cluster1",
+        "score": 0.1541287621738225
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "am pop / beat music",
+    "size": 3,
+    "sample_tracks": [
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "In My Life - Remastered 2009 — The Beatles",
+      "And I Love Her - Remastered 2009 — The Beatles"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__am_pop",
+        "pretty_feature": "am pop",
+        "score": 15.456229870568256
+      },
+      {
+        "feature": "tag__beat_music",
+        "pretty_feature": "beat music",
+        "score": 15.456229870568256
+      },
+      {
+        "feature": "genre__beat_music",
+        "pretty_feature": "beat music",
+        "score": 15.45622941200704
+      },
+      {
+        "feature": "tag__british_invasion",
+        "pretty_feature": "british invasion",
+        "score": 15.11841759134853
+      },
+      {
+        "feature": "genre__rock_and_roll",
+        "pretty_feature": "rock and roll",
+        "score": 14.404536858379553
+      },
+      {
+        "feature": "genre__psychedelic",
+        "pretty_feature": "psychedelic",
+        "score": 13.838721224311206
+      },
+      {
+        "feature": "tag__psychedelic",
+        "pretty_feature": "psychedelic",
+        "score": 13.838720785009363
+      },
+      {
+        "feature": "tag__rock_and_roll",
+        "pretty_feature": "rock and roll",
+        "score": 13.429256645965618
+      },
+      {
+        "feature": "tag__beat",
+        "pretty_feature": "beat",
+        "score": 12.944336874370876
+      },
+      {
+        "feature": "tag__hard_rock",
+        "pretty_feature": "hard rock",
+        "score": 12.944336874370876
+      }
+    ]
+  }
+]
