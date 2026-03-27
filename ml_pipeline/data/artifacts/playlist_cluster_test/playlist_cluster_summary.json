@@ -1,132 +1,277 @@
 [
   {
-    "cluster_id": 0,
-    "cluster_name": "electronic / reg",
-    "size": 755,
+    "cluster_id": 1,
+    "cluster_name": "danceable / voice instrumental / voice",
+    "size": 636,
     "sample_tracks": [
       "Can I Call You Tonight? — Dayglow",
       "16 Years — The Griswolds",
       "Pretty Girl — Clairo",
       "prom dress — mxmtoon",
-      "Chamber Of Reflection — Mac DeMarco",
       "On the Level — Mac DeMarco",
       "For the First Time — Mac DeMarco",
       "One More Love Song — Mac DeMarco",
       "Moonlight on the River — Mac DeMarco",
-      "Still Beating — Mac DeMarco"
+      "Still Beating — Mac DeMarco",
+      "Blinded — The Jungle Giants"
     ],
     "top_features": [
       {
-        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
-        "pretty_feature": "electronic",
-        "score": 0.1701802784537319
-      },
-      {
-        "feature": "acoustic__highlevel__genre_tzanetakis__all__reg",
-        "pretty_feature": "reg",
-        "score": 0.16964850726923153
-      },
-      {
-        "feature": "acoustic__highlevel__genre_tzanetakis__all__cou",
-        "pretty_feature": "cou",
-        "score": 0.16672649361654063
-      },
-      {
-        "feature": "acoustic__highlevel__genre_tzanetakis__all__blu",
-        "pretty_feature": "blu",
-        "score": 0.16402431771003048
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.16330532694972438
       },
       {
         "feature": "acoustic__highlevel__genre_tzanetakis__all__met",
-        "pretty_feature": "met",
-        "score": 0.1633783710708218
+        "pretty_feature": "metal",
+        "score": 0.155921140612123
       },
       {
-        "feature": "acoustic__highlevel__genre_tzanetakis__all__pop",
-        "pretty_feature": "pop",
-        "score": 0.16298689814852702
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.15388557775023148
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__reg",
+        "pretty_feature": "reggae",
+        "score": 0.15348132938869058
       },
       {
         "feature": "acoustic__highlevel__genre_tzanetakis__all__dis",
-        "pretty_feature": "dis",
-        "score": 0.16277463566002187
+        "pretty_feature": "disco",
+        "score": 0.1520248510858217
       },
       {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "relaxed",
-        "score": 0.15837410947584318
+        "feature": "acoustic__highlevel__moods_mirex__all__cluster4",
+        "pretty_feature": "cluster4",
+        "score": 0.14878910850954524
       },
       {
-        "feature": "acoustic__highlevel__genre_tzanetakis__all__hip",
-        "pretty_feature": "hip",
-        "score": 0.1551765115582292
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__cou",
+        "pretty_feature": "country",
+        "score": 0.14767500959427368
       },
       {
-        "feature": "acoustic__highlevel__moods_mirex__all__cluster1",
-        "pretty_feature": "moods mirex / cluster1",
-        "score": 0.1541287621738225
+        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
+        "pretty_feature": "electronic",
+        "score": 0.1460559995242251
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__blu",
+        "pretty_feature": "blues",
+        "score": 0.1427703900398527
+      },
+      {
+        "feature": "acoustic__highlevel__tonal_atonal__all__atonal",
+        "pretty_feature": "atonal",
+        "score": 0.14204461450407946
       }
     ]
   },
   {
-    "cluster_id": 1,
-    "cluster_name": "am pop / beat music",
-    "size": 3,
+    "cluster_id": 0,
+    "cluster_name": "electronic / rock",
+    "size": 91,
     "sample_tracks": [
+      "Chamber Of Reflection — Mac DeMarco",
+      "Cigarette Daydreams — Cage The Elephant",
+      "Somebody That I Used To Know — Gotye, Kimbra",
+      "The Less I Know The Better — Tame Impala",
+      "Come a Little Closer — Cage The Elephant",
+      "Sweater Weather — The Neighbourhood",
       "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "Feels Like We Only Go Backwards — Tame Impala",
       "In My Life - Remastered 2009 — The Beatles",
-      "And I Love Her - Remastered 2009 — The Beatles"
+      "Feel Good Inc. — Gorillaz, De La Soul"
     ],
     "top_features": [
       {
-        "feature": "tag__am_pop",
-        "pretty_feature": "am pop",
-        "score": 15.456229870568256
+        "feature": "tag__electronic",
+        "pretty_feature": "electronic",
+        "score": 1.6149055538953272
       },
       {
-        "feature": "tag__beat_music",
-        "pretty_feature": "beat music",
-        "score": 15.456229870568256
+        "feature": "genre__electronic",
+        "pretty_feature": "electronic",
+        "score": 1.614905530305582
       },
       {
-        "feature": "genre__beat_music",
-        "pretty_feature": "beat music",
-        "score": 15.45622941200704
+        "feature": "tag__rock",
+        "pretty_feature": "rock",
+        "score": 1.3434852207788637
       },
       {
-        "feature": "tag__british_invasion",
-        "pretty_feature": "british invasion",
-        "score": 15.11841759134853
+        "feature": "genre__rock",
+        "pretty_feature": "rock",
+        "score": 1.3434851974235864
       },
       {
-        "feature": "genre__rock_and_roll",
-        "pretty_feature": "rock and roll",
-        "score": 14.404536858379553
+        "feature": "genre__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 1.194847414420364
       },
       {
-        "feature": "genre__psychedelic",
-        "pretty_feature": "psychedelic",
-        "score": 13.838721224311206
+        "feature": "tag__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 1.1948473822804235
       },
       {
-        "feature": "tag__psychedelic",
-        "pretty_feature": "psychedelic",
-        "score": 13.838720785009363
+        "feature": "tag__psychedelic_rock",
+        "pretty_feature": "psychedelic rock",
+        "score": 1.1941730045773076
       },
       {
-        "feature": "tag__rock_and_roll",
-        "pretty_feature": "rock and roll",
-        "score": 13.429256645965618
+        "feature": "genre__psychedelic_rock",
+        "pretty_feature": "psychedelic rock",
+        "score": 1.1941730045773076
       },
       {
-        "feature": "tag__beat",
-        "pretty_feature": "beat",
-        "score": 12.944336874370876
+        "feature": "tag__trip_hop",
+        "pretty_feature": "trip hop",
+        "score": 1.1652852974572858
       },
       {
-        "feature": "tag__hard_rock",
-        "pretty_feature": "hard rock",
-        "score": 12.944336874370876
+        "feature": "genre__jazz",
+        "pretty_feature": "jazz",
+        "score": 1.1635463808438777
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "r and b / soul",
+    "size": 17,
+    "sample_tracks": [
+      "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers] — Daft Punk, Pharrell Williams, Nile Rodgers",
+      "Beat It — Michael Jackson",
+      "Die With A Smile — Lady Gaga, Bruno Mars",
+      "Nights — Frank Ocean",
+      "Like a Tattoo — Sade",
+      "Kiss of Life — Sade",
+      "Hold On, We're Going Home — Drake, Majid Jordan",
+      "Ivy — Frank Ocean",
+      "Lost — Frank Ocean",
+      "Super Rich Kids — Frank Ocean, Earl Sweatshirt"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 5.806759861645883
+      },
+      {
+        "feature": "tag__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 5.80675966896872
+      },
+      {
+        "feature": "genre__soul",
+        "pretty_feature": "soul",
+        "score": 5.577434259969103
+      },
+      {
+        "feature": "tag__soul",
+        "pretty_feature": "soul",
+        "score": 5.577434110056688
+      },
+      {
+        "feature": "genre__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 4.258664047626844
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 4.25866392408967
+      },
+      {
+        "feature": "tag__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 3.3691227458064428
+      },
+      {
+        "feature": "genre__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 3.321846608775704
+      },
+      {
+        "feature": "tag__pop",
+        "pretty_feature": "pop",
+        "score": 2.8617727273459033
+      },
+      {
+        "feature": "genre__pop",
+        "pretty_feature": "pop",
+        "score": 2.861772716892126
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "alternative indie rock / alternative pop rock",
+    "size": 14,
+    "sample_tracks": [
+      "Island In The Sun — Weezer",
+      "Someday — The Strokes",
+      "Is This It — The Strokes",
+      "Last Nite — The Strokes",
+      "Barely Legal — The Strokes",
+      "Hard To Explain — The Strokes",
+      "Let Down — Radiohead",
+      "All I Need — Radiohead",
+      "Weird Fishes / Arpeggi — Radiohead",
+      "Nude — Radiohead"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__alternative_indie_rock",
+        "pretty_feature": "alternative indie rock",
+        "score": 6.660162262251741
+      },
+      {
+        "feature": "tag__alternative_pop_rock",
+        "pretty_feature": "alternative pop rock",
+        "score": 5.71273302671992
+      },
+      {
+        "feature": "tag__alternative",
+        "pretty_feature": "alternative",
+        "score": 5.004417973305119
+      },
+      {
+        "feature": "tag__fun",
+        "pretty_feature": "fun",
+        "score": 4.746916689360747
+      },
+      {
+        "feature": "tag__alternative_and_punk",
+        "pretty_feature": "alternative and punk",
+        "score": 4.539729261191498
+      },
+      {
+        "feature": "tag__punk",
+        "pretty_feature": "punk",
+        "score": 4.506502103386519
+      },
+      {
+        "feature": "genre__punk",
+        "pretty_feature": "punk",
+        "score": 4.506501904636865
+      },
+      {
+        "feature": "genre__alternative_rock",
+        "pretty_feature": "alternative rock",
+        "score": 4.043785956358832
+      },
+      {
+        "feature": "tag__alternative_rock",
+        "pretty_feature": "alternative rock",
+        "score": 3.96457856716069
+      },
+      {
+        "feature": "tag__retro",
+        "pretty_feature": "retro",
+        "score": 3.870697443515423
       }
     ]
   }

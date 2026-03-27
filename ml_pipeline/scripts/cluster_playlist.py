@@ -7,19 +7,16 @@ This script:
 2. featurizes them against the frozen training vocabulary
 3. applies the saved scaler + PCA representation
 4. tries several KMeans values
-5. rejects or repairs solutions with tiny clusters
-6. writes cluster assignments + summaries
+5. merges tiny clusters before scoring
+6. penalizes degenerate "one giant bucket" solutions
+7. writes cluster assignments + summaries
 
-Important:
-- Input records should match the normalized schema used in song_records.backfilled.json
-- This is playlist-time clustering, not global corpus clustering
-- Missing acoustic data is neutralized using training means so it does not dominate splits
-
-Example:
-    python ml_pipeline/scripts/cluster_playlist.py \
-      --input ml_pipeline/data/bootstrap/playlist_1.normalized.json \
-      --representation ml_pipeline/data/artifacts/representation_v1/representation_artifacts.npz \
-      --out-dir ml_pipeline/data/artifacts/playlist_cluster_test
+Key fixes vs the earlier version:
+- stronger penalty for oversized dominant clusters
+- candidate k is biased upward for medium/large playlists
+- small clusters are merged before scoring, not only after selection
+- user-facing cluster names avoid cryptic acoustic abbreviations when possible
+- missing acoustic data is neutralized using training means
 """
 
 from __future__ import annotations
@@ -187,6 +184,21 @@ _SKIP_ACOUSTIC_SUFFIXES = {
     "__probability",
 }
 
+_ACOUSTIC_ABBREV_MAP = {
+    "reg": "reggae",
+    "cou": "country",
+    "blu": "blues",
+    "met": "metal",
+    "dis": "disco",
+    "hip": "hip hop",
+    "cla": "classical",
+    "dan": "dance",
+    "jaz": "jazz",
+    "roc": "rock",
+    "spe": "speech",
+    "funksoulrnb": "funk soul rnb",
+}
+
 
 def keep_tag_token(token: str) -> bool:
     if not token:
@@ -322,15 +334,11 @@ def featurize_against_frozen_vocab(
     acoustic_index: dict[str, int] = parsed["acoustic_index"]
     acoustic_columns: list[int] = parsed["acoustic_columns"]
 
-    year_mean = float(scaler_mean[meta_index["meta__year_z"]]) if "meta__year_z" in meta_index else 0.0
-    # not used directly; year z is built from playlist stats below for consistency with training feature shape
-
     n_rows = len(records)
     n_cols = len(feature_names)
     X = np.zeros((n_rows, n_cols), dtype=np.float64)
     row_meta: list[dict[str, Any]] = []
 
-    # compute playlist-local year normalization for the raw feature prior to global scaler
     years = [y for r in records if (y := get_year(r)) is not None]
     if years:
         local_year_mean = float(sum(years) / len(years))
@@ -354,7 +362,6 @@ def featurize_against_frozen_vocab(
 
         has_acoustic = bool(acoustic_vals)
 
-        # presence flags
         if tags and "meta__has_tags" in meta_index:
             X[row_i, meta_index["meta__has_tags"]] = binary_weight
 
@@ -370,9 +377,8 @@ def featurize_against_frozen_vocab(
                 ]
 
         year = get_year(record)
-        if "meta__has_year" in meta_index:
-            if year is not None:
-                X[row_i, meta_index["meta__has_year"]] = binary_weight
+        if "meta__has_year" in meta_index and year is not None:
+            X[row_i, meta_index["meta__has_year"]] = binary_weight
 
         if "meta__year_z" in meta_index and year is not None:
             X[row_i, meta_index["meta__year_z"]] = ((year - local_year_mean) / local_year_std) * year_weight
@@ -384,21 +390,18 @@ def featurize_against_frozen_vocab(
         if "meta__popularity_scaled" in meta_index and popularity is not None:
             X[row_i, meta_index["meta__popularity_scaled"]] = (popularity / 100.0) * popularity_weight
 
-        # tags
         for name, count in tags:
             idx = tag_index.get(name)
             if idx is None:
                 continue
             X[row_i, idx] += math.log1p(max(count, 0.0)) * tag_weight
 
-        # genres
         for name, count in genres:
             idx = genre_index.get(name)
             if idx is None:
                 continue
             X[row_i, idx] += math.log1p(max(count, 0.0)) * genre_weight
 
-        # acoustic
         if has_acoustic:
             for name, value in acoustic_vals:
                 idx = acoustic_index.get(name)
@@ -460,11 +463,18 @@ def build_candidate_ks(n_rows: int, min_k: int, max_k: int, min_cluster_size: in
         return []
 
     lower = max(2, min_k)
+
+    if n_rows >= 40:
+        lower = max(lower, 3)
+    if n_rows >= 120:
+        lower = max(lower, 4)
+    if n_rows >= 250:
+        lower = max(lower, 5)
+
     upper_from_size = max(2, n_rows // max(1, min_cluster_size))
     upper = min(max_k, n_rows - 1, upper_from_size)
 
     if upper < lower:
-        # allow a fallback attempt if playlist is small
         upper = min(max_k, n_rows - 1)
         lower = min(lower, upper)
 
@@ -480,50 +490,98 @@ def relabel_contiguous(labels: np.ndarray) -> np.ndarray:
     return np.array([mapping[int(x)] for x in labels], dtype=int)
 
 
+def cluster_centers_from_labels(labels: np.ndarray, embeddings: np.ndarray) -> dict[int, np.ndarray]:
+    out: dict[int, np.ndarray] = {}
+    for lab in np.unique(labels):
+        member_ix = np.where(labels == lab)[0]
+        out[int(lab)] = embeddings[member_ix].mean(axis=0)
+    return out
+
+
 def merge_small_clusters(labels: np.ndarray, embeddings: np.ndarray, min_cluster_size: int) -> np.ndarray:
     labels = labels.copy()
-    counts = Counter(labels.tolist())
 
-    large = [lab for lab, c in counts.items() if c >= min_cluster_size]
-    small = [lab for lab, c in counts.items() if c < min_cluster_size]
+    while True:
+        counts = Counter(labels.tolist())
+        small = [lab for lab, c in counts.items() if c < min_cluster_size]
+        large = [lab for lab, c in counts.items() if c >= min_cluster_size]
 
-    if not small or not large:
-        return relabel_contiguous(labels)
+        if not small or not large:
+            break
 
-    large_centers: dict[int, np.ndarray] = {}
-    for lab in large:
-        member_ix = np.where(labels == lab)[0]
-        large_centers[lab] = embeddings[member_ix].mean(axis=0)
+        centers = cluster_centers_from_labels(labels, embeddings)
 
-    for small_lab in small:
-        member_ix = np.where(labels == small_lab)[0]
-        if member_ix.size == 0:
-            continue
-        for ix in member_ix:
-            point = embeddings[ix]
-            best_lab = min(
-                large,
-                key=lambda lab: float(np.linalg.norm(point - large_centers[lab])),
-            )
-            labels[ix] = best_lab
+        # merge the smallest cluster first
+        small.sort(key=lambda lab: counts[lab])
+        small_lab = small[0]
+        small_ix = np.where(labels == small_lab)[0]
+
+        target_lab = min(
+            large,
+            key=lambda lab: float(np.linalg.norm(centers[small_lab] - centers[lab])),
+        )
+
+        for ix in small_ix:
+            labels[ix] = target_lab
 
     return relabel_contiguous(labels)
 
 
-def score_solution(labels: np.ndarray, embeddings: np.ndarray, min_cluster_size: int) -> tuple[float | None, float]:
+def score_solution(
+    labels: np.ndarray,
+    embeddings: np.ndarray,
+    min_cluster_size: int,
+) -> tuple[float | None, float, dict[str, Any]]:
     uniq = np.unique(labels)
+    counts = Counter(labels.tolist())
+    sizes = sorted((int(v) for v in counts.values()), reverse=True)
+    n = int(len(labels))
+
     if uniq.size < 2:
         silhouette = None
     else:
         silhouette = float(silhouette_score(embeddings, labels))
 
-    counts = Counter(labels.tolist())
-    small_clusters = sum(1 for c in counts.values() if c < min_cluster_size)
-    small_items = sum(c for c in counts.values() if c < min_cluster_size)
+    largest_frac = (sizes[0] / n) if sizes else 1.0
+    second_frac = (sizes[1] / n) if len(sizes) > 1 else 0.0
+
+    small_clusters = sum(1 for c in sizes if c < min_cluster_size)
+    small_items = sum(c for c in sizes if c < min_cluster_size)
 
     base = silhouette if silhouette is not None else -1.0
-    adjusted = base - (0.05 * small_clusters) - (0.01 * small_items)
-    return silhouette, adjusted
+    adjusted = base
+
+    # strong penalty for one giant cluster
+    if largest_frac > 0.55:
+        adjusted -= (largest_frac - 0.55) * 2.2
+    if largest_frac > 0.70:
+        adjusted -= (largest_frac - 0.70) * 2.5
+    if largest_frac > 0.85:
+        adjusted -= (largest_frac - 0.85) * 4.0
+
+    # penalty if the second cluster is tiny
+    if second_frac < 0.10:
+        adjusted -= (0.10 - second_frac) * 0.8
+
+    # penalty for undersized clusters
+    adjusted -= 0.05 * small_clusters
+    adjusted -= 0.01 * small_items
+
+    # slight reward for having 3+ meaningful clusters
+    meaningful_clusters = sum(1 for c in sizes if c >= min_cluster_size)
+    if meaningful_clusters >= 3:
+        adjusted += min(0.06, 0.02 * (meaningful_clusters - 2))
+
+    details = {
+        "cluster_sizes": sizes,
+        "largest_fraction": largest_frac,
+        "second_fraction": second_frac,
+        "small_cluster_count": small_clusters,
+        "small_item_count": small_items,
+        "meaningful_cluster_count": meaningful_clusters,
+    }
+
+    return silhouette, adjusted, details
 
 
 def choose_best_clustering(
@@ -543,69 +601,51 @@ def choose_best_clustering(
                 "silhouette": None,
                 "adjusted_score": None,
                 "cluster_sizes": [int(embeddings.shape[0])],
-                "had_small_clusters": False,
-                "merged_after_selection": False,
+                "largest_fraction": 1.0,
+                "meaningful_cluster_count": 1,
+                "merged_before_scoring": False,
             }
         )
         return labels, diagnostics, 1
 
-    best_payload = None
+    best_labels = None
     best_adjusted = -1e18
     best_k = None
 
     for k in candidate_ks:
         model = KMeans(n_clusters=k, random_state=random_state, n_init=n_init)
-        labels = model.fit_predict(embeddings)
-        counts = Counter(labels.tolist())
-        sizes = sorted((int(v) for v in counts.values()), reverse=True)
+        raw_labels = model.fit_predict(embeddings)
+        merged_labels = merge_small_clusters(raw_labels, embeddings, min_cluster_size=min_cluster_size)
+        merged_labels = relabel_contiguous(merged_labels)
 
-        silhouette, adjusted = score_solution(labels, embeddings, min_cluster_size)
-        had_small = any(v < min_cluster_size for v in counts.values())
+        silhouette, adjusted, details = score_solution(
+            merged_labels,
+            embeddings,
+            min_cluster_size=min_cluster_size,
+        )
 
         diagnostics.append(
             {
                 "k": int(k),
                 "silhouette": silhouette,
                 "adjusted_score": adjusted,
-                "cluster_sizes": sizes,
-                "had_small_clusters": had_small,
-                "merged_after_selection": False,
+                "cluster_sizes": details["cluster_sizes"],
+                "largest_fraction": details["largest_fraction"],
+                "second_fraction": details["second_fraction"],
+                "meaningful_cluster_count": details["meaningful_cluster_count"],
+                "small_cluster_count": details["small_cluster_count"],
+                "small_item_count": details["small_item_count"],
+                "merged_before_scoring": not np.array_equal(raw_labels, merged_labels),
             }
         )
 
         if adjusted > best_adjusted:
             best_adjusted = adjusted
-            best_payload = labels
-            best_k = int(k)
+            best_labels = merged_labels
+            best_k = int(np.unique(merged_labels).size)
 
-    assert best_payload is not None
-    final_labels = best_payload.copy()
-
-    # merge tiny clusters after choosing best solution
-    merged_labels = merge_small_clusters(final_labels, embeddings, min_cluster_size=min_cluster_size)
-    if not np.array_equal(merged_labels, final_labels):
-        final_labels = merged_labels
-        final_k = int(np.unique(final_labels).size)
-        silhouette, adjusted = score_solution(final_labels, embeddings, min_cluster_size)
-
-        diagnostics.append(
-            {
-                "k": int(best_k),
-                "post_merge_final_k": final_k,
-                "silhouette": silhouette,
-                "adjusted_score": adjusted,
-                "cluster_sizes": sorted(
-                    (int(v) for v in Counter(final_labels.tolist()).values()),
-                    reverse=True,
-                ),
-                "had_small_clusters": any(v < min_cluster_size for v in Counter(final_labels.tolist()).values()),
-                "merged_after_selection": True,
-            }
-        )
-    else:
-        final_k = int(np.unique(final_labels).size)
-
-    return relabel_contiguous(final_labels), diagnostics, final_k
+    assert best_labels is not None
+    return best_labels, diagnostics, int(best_k)
 
 
 # ----------------------------
@@ -615,21 +655,50 @@ def choose_best_clustering(
 def pretty_feature_name(feature: str) -> str:
     if feature.startswith("tag__"):
         return feature[len("tag__"):].replace("_", " ")
+
     if feature.startswith("genre__"):
         return feature[len("genre__"):].replace("_", " ")
+
     if feature.startswith("acoustic__"):
         s = feature[len("acoustic__"):]
         s = s.replace("highlevel__", "")
         s = s.replace("__all__", "__")
         parts = [p for p in s.split("__") if p]
         if not parts:
-            return feature
-        if parts[-1].startswith("cluster"):
-            return " / ".join(p.replace("_", " ") for p in parts[-2:])
-        return parts[-1].replace("_", " ")
+            return feature.replace("_", " ")
+
+        last = parts[-1]
+        if last in _ACOUSTIC_ABBREV_MAP:
+            last = _ACOUSTIC_ABBREV_MAP[last]
+
+        if len(parts) >= 2 and parts[-2] in {"mood_happy", "mood_sad", "mood_relaxed", "mood_party", "mood_electronic", "voice_instrumental", "timbre"}:
+            prefix = parts[-2].replace("_", " ")
+            return f"{prefix} / {last.replace('_', ' ')}"
+
+        return last.replace("_", " ")
+
     if feature.startswith("meta__"):
         return feature[len("meta__"):].replace("_", " ")
+
     return feature.replace("_", " ")
+
+
+def is_good_naming_feature(feature: str) -> bool:
+    if feature.startswith("tag__") or feature.startswith("genre__"):
+        return True
+
+    if not feature.startswith("acoustic__"):
+        return False
+
+    bad_substrings = [
+        "genre_tzanetakis",
+        "genre_dortmund",
+        "genre_rosamerica",
+        "ismir04_rhythm",
+        "moods_mirex",
+        "tonal_atonal",
+    ]
+    return not any(bad in feature for bad in bad_substrings)
 
 
 def top_cluster_features(
@@ -662,7 +731,11 @@ def top_cluster_features(
 def build_cluster_name(top_features: list[dict[str, Any]]) -> str:
     tokens = []
     seen = set()
-    for feat in top_features:
+
+    preferred = [f for f in top_features if is_good_naming_feature(f["feature"])]
+    fallback = [f for f in top_features if f not in preferred]
+
+    for feat in preferred + fallback:
         label = feat["pretty_feature"]
         if label in seen:
             continue
@@ -745,7 +818,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
     parser.add_argument("--min-k", type=int, default=2)
     parser.add_argument("--max-k", type=int, default=8)
-    parser.add_argument("--min-cluster-size", type=int, default=3)
+    parser.add_argument("--min-cluster-size", type=int, default=5)
     parser.add_argument("--random-state", type=int, default=42)
     parser.add_argument("--kmeans-n-init", type=int, default=20)
 
@@ -757,21 +830,12 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--binary-weight", type=float, default=0.10)
 
     parser.add_argument(
-        "--neutralize-missing-acoustic",
+        "--disable-neutralize-missing-acoustic",
         action="store_true",
-        default=True,
-        help="Use training means for missing acoustic block so missingness does not dominate clustering",
+        help="Do not replace missing acoustic block with training means",
     )
-    parser.add_argument(
-        "--sample-titles-per-cluster",
-        type=int,
-        default=10,
-    )
-    parser.add_argument(
-        "--top-features-per-cluster",
-        type=int,
-        default=10,
-    )
+    parser.add_argument("--sample-titles-per-cluster", type=int, default=10)
+    parser.add_argument("--top-features-per-cluster", type=int, default=10)
 
     return parser.parse_args(argv)
 
@@ -815,7 +879,7 @@ def main(argv: list[str] | None = None) -> int:
         year_weight=args.year_weight,
         popularity_weight=args.popularity_weight,
         binary_weight=args.binary_weight,
-        neutralize_missing_acoustic=args.neutralize_missing_acoustic,
+        neutralize_missing_acoustic=not args.disable_neutralize_missing_acoustic,
     )
 
     X_scaled, embeddings = apply_representation(
@@ -843,12 +907,7 @@ def main(argv: list[str] | None = None) -> int:
 
     assignments = []
     for meta, label in zip(row_meta, labels, strict=False):
-        assignments.append(
-            {
-                **meta,
-                "cluster": int(label),
-            }
-        )
+        assignments.append({**meta, "cluster": int(label)})
 
     cluster_summary = build_cluster_summary(
         labels=labels,
@@ -880,7 +939,7 @@ def main(argv: list[str] | None = None) -> int:
             "year_weight": args.year_weight,
             "popularity_weight": args.popularity_weight,
             "binary_weight": args.binary_weight,
-            "neutralize_missing_acoustic": bool(args.neutralize_missing_acoustic),
+            "neutralize_missing_acoustic": not args.disable_neutralize_missing_acoustic,
         },
         "outputs": {
             "assignments_json": str(out_dir / "playlist_cluster_assignments.json"),
