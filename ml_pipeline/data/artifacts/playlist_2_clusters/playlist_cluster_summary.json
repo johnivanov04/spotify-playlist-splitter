@@ -1,0 +1,140 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "danceable / voice instrumental / voice",
+    "size": 270,
+    "sample_tracks": [
+      "The Way Life Goes (feat. Oh Wonder) — Lil Uzi Vert, Oh Wonder",
+      "Erase Your Social — Lil Uzi Vert",
+      "20 Min — Lil Uzi Vert",
+      "Flex — Playboi Carti, Leven Kali",
+      "Location — Playboi Carti",
+      "Redbone — Childish Gambino",
+      "90210 (feat. Kacy Hill) — Travis Scott, Kacy Hill",
+      "Do What I Want — Lil Uzi Vert",
+      "Magnolia — Playboi Carti",
+      "Sundress — A$AP Rocky"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.0824178989942604
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.0767973923579132
+      },
+      {
+        "feature": "acoustic__highlevel__genre_rosamerica__all__rhy",
+        "pretty_feature": "rhy",
+        "score": 0.07657727650605377
+      },
+      {
+        "feature": "acoustic__highlevel__moods_mirex__all__cluster4",
+        "pretty_feature": "cluster4",
+        "score": 0.06806118289771358
+      },
+      {
+        "feature": "genre__trap",
+        "pretty_feature": "trap",
+        "score": 0.06611385938112388
+      },
+      {
+        "feature": "tag__trap",
+        "pretty_feature": "trap",
+        "score": 0.06611384911119966
+      },
+      {
+        "feature": "acoustic__highlevel__ismir04_rhythm__all__samba",
+        "pretty_feature": "samba",
+        "score": 0.06245605748182248
+      },
+      {
+        "feature": "acoustic__highlevel__ismir04_rhythm__all__rumba_misc",
+        "pretty_feature": "rumba misc",
+        "score": 0.051802952340059105
+      },
+      {
+        "feature": "acoustic__highlevel__genre_dortmund__all__electronic",
+        "pretty_feature": "electronic",
+        "score": 0.04600194978048607
+      },
+      {
+        "feature": "acoustic__highlevel__genre_tzanetakis__all__met",
+        "pretty_feature": "metal",
+        "score": 0.04560609838550247
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "west coast hip hop / g funk",
+    "size": 14,
+    "sample_tracks": [
+      "Work Out — J. Cole",
+      "Passionfruit — Drake",
+      "One Dance — Drake, Wizkid, Kyla",
+      "Money Trees — Kendrick Lamar, Jay Rock",
+      "Hold On, We're Going Home — Drake, Majid Jordan",
+      "LOVE. FEAT. ZACARI. — Kendrick Lamar, Zacari",
+      "Neon Guts (feat. Pharrell Williams) — Lil Uzi Vert, Pharrell Williams",
+      "Alright — Kendrick Lamar",
+      "Everyday (feat. Rod Stewart, Miguel & Mark Ronson) — A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
+      "m.A.A.d city — Kendrick Lamar, MC Eiht"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 3.6845870776298812
+      },
+      {
+        "feature": "genre__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 3.582890929120992
+      },
+      {
+        "feature": "tag__g_funk",
+        "pretty_feature": "g funk",
+        "score": 2.733373647957292
+      },
+      {
+        "feature": "genre__g_funk",
+        "pretty_feature": "g funk",
+        "score": 2.7333735681626266
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 2.707690652532307
+      },
+      {
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 2.646611591487975
+      },
+      {
+        "feature": "tag__hip_hop_rap",
+        "pretty_feature": "hip hop rap",
+        "score": 2.5188237627373327
+      },
+      {
+        "feature": "tag__rap_hip_hop",
+        "pretty_feature": "rap hip hop",
+        "score": 2.4012293270023397
+      },
+      {
+        "feature": "genre__pop_rap",
+        "pretty_feature": "pop rap",
+        "score": 2.194637816106569
+      },
+      {
+        "feature": "tag__pop_rap",
+        "pretty_feature": "pop rap",
+        "score": 2.194637682479016
+      }
+    ]
+  }
+]
