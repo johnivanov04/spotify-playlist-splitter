@@ -1,0 +1,96 @@
+{
+  "input": "ml_pipeline/data/runtime/playlist_2.prepared.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1/representation_artifacts.npz",
+  "records": 284,
+  "feature_count": 370,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "final_k": 2,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 270,
+    "1": 14
+  },
+  "diagnostics": [
+    {
+      "k": 5,
+      "silhouette": 0.866366032140861,
+      "adjusted_score": -1.1187748129295612,
+      "cluster_sizes": [
+        271,
+        13
+      ],
+      "largest_fraction": 0.954225352112676,
+      "second_fraction": 0.045774647887323945,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.8599218588415611,
+      "adjusted_score": -1.091768282003509,
+      "cluster_sizes": [
+        270,
+        14
+      ],
+      "largest_fraction": 0.9507042253521126,
+      "second_fraction": 0.04929577464788732,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.8599218588415611,
+      "adjusted_score": -1.091768282003509,
+      "cluster_sizes": [
+        270,
+        14
+      ],
+      "largest_fraction": 0.9507042253521126,
+      "second_fraction": 0.04929577464788732,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.8599218588415611,
+      "adjusted_score": -1.091768282003509,
+      "cluster_sizes": [
+        270,
+        14
+      ],
+      "largest_fraction": 0.9507042253521126,
+      "second_fraction": 0.04929577464788732,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/artifacts/playlist_2_clusters/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/artifacts/playlist_2_clusters/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/artifacts/playlist_2_clusters/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/artifacts/playlist_2_clusters/playlist_embeddings.npy"
+  }
+}
