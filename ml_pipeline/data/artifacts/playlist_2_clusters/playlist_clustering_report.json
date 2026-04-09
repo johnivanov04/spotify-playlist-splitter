@@ -10,69 +10,89 @@
     7,
     8
   ],
-  "final_k": 2,
+  "final_k": 6,
   "min_cluster_size": 5,
   "cluster_sizes": {
-    "0": 270,
-    "1": 14
+    "0": 199,
+    "1": 19,
+    "2": 44,
+    "3": 7,
+    "4": 5,
+    "5": 10
   },
   "diagnostics": [
     {
       "k": 5,
-      "silhouette": 0.866366032140861,
-      "adjusted_score": -1.1187748129295612,
+      "silhouette": 0.5612625412716911,
+      "adjusted_score": 0.1555583159195782,
       "cluster_sizes": [
-        271,
-        13
+        207,
+        42,
+        19,
+        11,
+        5
       ],
-      "largest_fraction": 0.954225352112676,
-      "second_fraction": 0.045774647887323945,
-      "meaningful_cluster_count": 2,
+      "largest_fraction": 0.7288732394366197,
+      "second_fraction": 0.14788732394366197,
+      "meaningful_cluster_count": 5,
       "small_cluster_count": 0,
       "small_item_count": 0,
-      "merged_before_scoring": true
+      "merged_before_scoring": false
     },
     {
       "k": 6,
-      "silhouette": 0.8599218588415611,
-      "adjusted_score": -1.091768282003509,
+      "silhouette": 0.587665755998178,
+      "adjusted_score": 0.28125730529395293,
       "cluster_sizes": [
-        270,
-        14
+        201,
+        40,
+        19,
+        11,
+        8,
+        5
       ],
-      "largest_fraction": 0.9507042253521126,
-      "second_fraction": 0.04929577464788732,
-      "meaningful_cluster_count": 2,
+      "largest_fraction": 0.7077464788732394,
+      "second_fraction": 0.14084507042253522,
+      "meaningful_cluster_count": 6,
       "small_cluster_count": 0,
       "small_item_count": 0,
-      "merged_before_scoring": true
+      "merged_before_scoring": false
     },
     {
       "k": 7,
-      "silhouette": 0.8599218588415611,
-      "adjusted_score": -1.091768282003509,
+      "silhouette": 0.5879102014295887,
+      "adjusted_score": 0.31460034227465933,
       "cluster_sizes": [
-        270,
-        14
+        199,
+        44,
+        19,
+        10,
+        7,
+        5
       ],
-      "largest_fraction": 0.9507042253521126,
-      "second_fraction": 0.04929577464788732,
-      "meaningful_cluster_count": 2,
+      "largest_fraction": 0.7007042253521126,
+      "second_fraction": 0.15492957746478872,
+      "meaningful_cluster_count": 6,
       "small_cluster_count": 0,
       "small_item_count": 0,
       "merged_before_scoring": true
     },
     {
       "k": 8,
-      "silhouette": 0.8599218588415611,
-      "adjusted_score": -1.091768282003509,
+      "silhouette": 0.5690472573505654,
+      "adjusted_score": 0.295737398195636,
       "cluster_sizes": [
-        270,
-        14
+        199,
+        36,
+        19,
+        10,
+        8,
+        7,
+        5
       ],
-      "largest_fraction": 0.9507042253521126,
-      "second_fraction": 0.04929577464788732,
-      "meaningful_cluster_count": 2,
+      "largest_fraction": 0.7007042253521126,
+      "second_fraction": 0.1267605633802817,
+      "meaningful_cluster_count": 7,
       "small_cluster_count": 0,
       "small_item_count": 0,
       "merged_before_scoring": true
