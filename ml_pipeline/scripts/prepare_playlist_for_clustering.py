@@ -2,32 +2,12 @@
 """
 Prepare one playlist for playlist-time clustering.
 
-This script is a convenience bridge from:
-- raw playlist exports (for example, window.__tracks JSON from the app)
-to:
-- normalized canonical song-record JSON
-- optionally backfilled with MusicBrainz / AcousticBrainz metadata
-
-Typical usage:
-
-1) Normalize only
-    python ml_pipeline/scripts/prepare_playlist_for_clustering.py \
-      --input ml_pipeline/data/bootstrap/playlist_2.json \
-      --output ml_pipeline/data/runtime/playlist_2.prepared.json
-
-2) Normalize + backfill
-    python ml_pipeline/scripts/prepare_playlist_for_clustering.py \
-      --input ml_pipeline/data/bootstrap/playlist_2.json \
-      --output ml_pipeline/data/runtime/playlist_2.prepared.json \
-      --backfill \
-      --include-acoustic \
-      --cache ml_pipeline/data/cache/musicbrainz_backfill_cache.json
-
-Then cluster it:
-    python ml_pipeline/scripts/cluster_playlist.py \
-      --input ml_pipeline/data/runtime/playlist_2.prepared.json \
-      --representation ml_pipeline/data/artifacts/representation_v1/representation_artifacts.npz \
-      --out-dir ml_pipeline/data/artifacts/playlist_2_clusters
+Workflow:
+1. load raw playlist export
+2. normalize into canonical song records
+3. enrich from local corpus lookup first
+4. optionally do live MusicBrainz / AcousticBrainz backfill only for remaining gaps
+5. write prepared playlist JSON
 """
 
 from __future__ import annotations
@@ -233,20 +213,12 @@ def get_image_url(raw: dict[str, Any]) -> str | None:
     return None
 
 
-def normalized_title(raw: dict[str, Any]) -> str | None:
-    title = raw.get("title")
-    if is_nonempty_string(title):
-        return normalize_token(title)
-    name = raw.get("name")
-    if is_nonempty_string(name):
-        return normalize_token(name)
-    return None
-
-
 def normalized_artists_key(artists: list[str]) -> str | None:
-    if not artists:
+    vals = [normalize_token(a) for a in artists if is_nonempty_string(a)]
+    vals = [v for v in vals if v]
+    if not vals:
         return None
-    return "::".join(normalize_token(a) for a in artists if a.strip()) or None
+    return "::".join(vals)
 
 
 def make_track_id(
@@ -420,6 +392,7 @@ def normalize_raw_record(
         },
         "debug": {
             "prepared_from_raw": True,
+            "enriched_from_local_lookup": False,
         },
     }
 
@@ -443,6 +416,133 @@ def normalize_playlist(
             continue
         out.append(record)
     return out
+
+
+# ----------------------------
+# local corpus lookup
+# ----------------------------
+
+def load_lookup(path: Path | None) -> dict[str, Any] | None:
+    if path is None:
+        return None
+    if not path.exists():
+        raise FileNotFoundError(f"Lookup file not found: {path}")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def record_alias_key(record: dict[str, Any]) -> str | None:
+    aliases = record.get("aliases") or {}
+    title = aliases.get("normalized_title")
+    artists_key = aliases.get("normalized_artists_key")
+    if is_nonempty_string(title) and is_nonempty_string(artists_key):
+        return f"{title}::{artists_key}"
+    return None
+
+
+def choose_local_match(record: dict[str, Any], lookup: dict[str, Any]) -> tuple[str | None, dict[str, Any] | None]:
+    ids = record.get("ids") or {}
+
+    spotify_id = ids.get("spotify_id")
+    if is_nonempty_string(spotify_id):
+        payload = (lookup.get("by_spotify_id") or {}).get(spotify_id)
+        if payload:
+            return "spotify_id", payload
+
+    isrc = ids.get("isrc")
+    if is_nonempty_string(isrc):
+        payload = (lookup.get("by_isrc") or {}).get(isrc)
+        if payload:
+            return "isrc", payload
+
+    mbid = ids.get("musicbrainz_recording_id")
+    if is_nonempty_string(mbid):
+        payload = (lookup.get("by_mbid") or {}).get(mbid)
+        if payload:
+            return "musicbrainz_recording_id", payload
+
+    alias = record_alias_key(record)
+    if is_nonempty_string(alias):
+        payload = (lookup.get("by_alias") or {}).get(alias)
+        if payload:
+            return "alias", payload
+
+    return None, None
+
+
+def merge_enrichment_into_record(record: dict[str, Any], payload: dict[str, Any], match_type: str) -> bool:
+    changed = False
+
+    ids = dict(record.get("ids") or {})
+    p_ids = payload.get("ids") or {}
+
+    if not is_nonempty_string(ids.get("musicbrainz_recording_id")) and is_nonempty_string(p_ids.get("musicbrainz_recording_id")):
+        ids["musicbrainz_recording_id"] = p_ids.get("musicbrainz_recording_id")
+        changed = True
+
+    brainz = dict(record.get("brainz") or {})
+    p_brainz = payload.get("brainz") or {}
+
+    if not normalize_name_count_list(brainz.get("tags")) and normalize_name_count_list(p_brainz.get("tags")):
+        brainz["tags"] = normalize_name_count_list(p_brainz.get("tags"))
+        changed = True
+
+    if not normalize_name_count_list(brainz.get("genres")) and normalize_name_count_list(p_brainz.get("genres")):
+        brainz["genres"] = normalize_name_count_list(p_brainz.get("genres"))
+        changed = True
+
+    if not isinstance(brainz.get("acoustic_high_level"), dict) and isinstance(p_brainz.get("acoustic_high_level"), dict):
+        brainz["acoustic_high_level"] = p_brainz.get("acoustic_high_level")
+        changed = True
+
+    if not isinstance(brainz.get("acoustic_low_level"), dict) and isinstance(p_brainz.get("acoustic_low_level"), dict):
+        brainz["acoustic_low_level"] = p_brainz.get("acoustic_low_level")
+        changed = True
+
+    runtime = dict(record.get("runtime_metadata") or {})
+    p_runtime = payload.get("runtime_metadata") or {}
+
+    for key in ("spotify_popularity", "spotify_url", "preview_url", "image_url"):
+        if runtime.get(key) is None and p_runtime.get(key) is not None:
+            runtime[key] = p_runtime.get(key)
+            changed = True
+
+    debug = dict(record.get("debug") or {})
+    debug["enriched_from_local_lookup"] = True
+    debug["local_lookup_match_type"] = match_type
+
+    record["ids"] = ids
+    record["brainz"] = brainz
+    record["runtime_metadata"] = runtime
+    record["debug"] = debug
+    return changed
+
+
+def enrich_from_lookup(records: list[dict[str, Any]], lookup: dict[str, Any] | None) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    stats = {
+        "lookup_hits_total": 0,
+        "lookup_hits_spotify_id": 0,
+        "lookup_hits_isrc": 0,
+        "lookup_hits_mbid": 0,
+        "lookup_hits_alias": 0,
+        "records_changed_from_lookup": 0,
+    }
+
+    if lookup is None:
+        return records, stats
+
+    out = []
+    for record in records:
+        match_type, payload = choose_local_match(record, lookup)
+        if payload is not None:
+            stats["lookup_hits_total"] += 1
+            key_name = f"lookup_hits_{match_type}"
+            if key_name in stats:
+                stats[key_name] += 1
+            if merge_enrichment_into_record(record, payload, match_type):
+                stats["records_changed_from_lookup"] += 1
+        out.append(record)
+
+    return out, stats
 
 
 # ----------------------------
@@ -578,10 +678,7 @@ def extract_best_mbid_from_search_payload(payload: Any, wanted_title: str, wante
 def extract_tags_and_genres_from_recording(payload: Any) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     if not isinstance(payload, dict):
         return [], []
-
-    tags = normalize_name_count_list(payload.get("tags"))
-    genres = normalize_name_count_list(payload.get("genres"))
-    return tags, genres
+    return normalize_name_count_list(payload.get("tags")), normalize_name_count_list(payload.get("genres"))
 
 
 def maybe_fetch_json(
@@ -601,6 +698,18 @@ def maybe_fetch_json(
     return payload
 
 
+def should_backfill_record(record: dict[str, Any], include_acoustic: bool) -> bool:
+    ids = record.get("ids") or {}
+    brainz = record.get("brainz") or {}
+
+    missing_mbid = not is_nonempty_string(ids.get("musicbrainz_recording_id"))
+    missing_tags = not normalize_name_count_list(brainz.get("tags"))
+    missing_genres = not normalize_name_count_list(brainz.get("genres"))
+    missing_acoustic = include_acoustic and not isinstance(brainz.get("acoustic_high_level"), dict)
+
+    return missing_mbid or missing_tags or missing_genres or missing_acoustic
+
+
 def backfill_playlist(
     records: list[dict[str, Any]],
     *,
@@ -610,6 +719,7 @@ def backfill_playlist(
     limit: int | None,
 ) -> tuple[list[dict[str, Any]], dict[str, int]]:
     stats = {
+        "records_considered_for_backfill": 0,
         "records_seen": 0,
         "records_changed": 0,
         "mbid_resolved_isrc": 0,
@@ -622,11 +732,20 @@ def backfill_playlist(
     }
 
     out = []
-    for idx, record in enumerate(records):
-        if limit is not None and idx >= limit:
-            out.extend(records[idx:])
-            break
+    backfill_seen = 0
 
+    for record in records:
+        if not should_backfill_record(record, include_acoustic):
+            out.append(record)
+            continue
+
+        stats["records_considered_for_backfill"] += 1
+
+        if limit is not None and backfill_seen >= limit:
+            out.append(record)
+            continue
+
+        backfill_seen += 1
         stats["records_seen"] += 1
         changed = False
 
@@ -758,10 +877,18 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--input", required=True, help="Path to raw playlist export JSON")
     parser.add_argument("--output", required=True, help="Path to write prepared playlist JSON")
     parser.add_argument("--dataset-name", default="playlist-runtime")
+
+    parser.add_argument(
+        "--lookup",
+        default="ml_pipeline/data/artifacts/corpus_lookup_v1.json",
+        help="Optional local corpus lookup artifact",
+    )
+    parser.add_argument("--disable-lookup", action="store_true")
+
     parser.add_argument("--backfill", action="store_true")
     parser.add_argument("--include-acoustic", action="store_true")
     parser.add_argument("--cache", default=None, help="Optional cache path")
-    parser.add_argument("--limit", type=int, default=None, help="Optional limit for backfill requests")
+    parser.add_argument("--limit", type=int, default=None, help="Optional limit for live backfill requests")
     parser.add_argument("--user-agent", default="PlaylistSplitterML/0.1 (contact: local-dev)")
     parser.add_argument("--sleep-seconds", type=float, default=1.05)
     parser.add_argument("--timeout", type=float, default=30.0)
@@ -775,6 +902,7 @@ def main(argv: list[str] | None = None) -> int:
     input_path = Path(args.input)
     output_path = Path(args.output)
     cache_path = Path(args.cache) if args.cache else None
+    lookup_path = None if args.disable_lookup else Path(args.lookup)
 
     if not input_path.exists():
         print(f"Input file not found: {input_path}", file=sys.stderr)
@@ -792,6 +920,14 @@ def main(argv: list[str] | None = None) -> int:
         dataset_name=args.dataset_name,
         source_file=input_path.name,
     )
+
+    try:
+        lookup = load_lookup(lookup_path) if lookup_path is not None else None
+    except Exception as exc:
+        print(f"Failed to load lookup artifact: {exc}", file=sys.stderr)
+        return 1
+
+    prepared, lookup_stats = enrich_from_lookup(prepared, lookup)
 
     if args.backfill:
         cache = load_cache(cache_path)
@@ -823,12 +959,18 @@ def main(argv: list[str] | None = None) -> int:
     for k, v in summary.items():
         print(f"{k}: {v}")
 
+    print("\n=== Local Lookup Stats ===")
+    for k, v in lookup_stats.items():
+        print(f"{k}: {v}")
+
     if backfill_stats:
         print("\n=== Backfill Stats ===")
         for k, v in backfill_stats.items():
             print(f"{k}: {v}")
 
     print(f"\nwrote: {output_path}")
+    if lookup_path is not None:
+        print(f"lookup: {lookup_path}")
     if cache_path:
         print(f"cache: {cache_path}")
 
