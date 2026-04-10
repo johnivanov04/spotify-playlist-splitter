@@ -1,0 +1,533 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "aggressive",
+    "size": 174,
+    "sample_tracks": [
+      "The Way Life Goes (feat. Oh Wonder) — Lil Uzi Vert, Oh Wonder",
+      "Erase Your Social — Lil Uzi Vert",
+      "20 Min — Lil Uzi Vert",
+      "Flex — Playboi Carti, Leven Kali",
+      "Location — Playboi Carti",
+      "Redbone — Childish Gambino",
+      "Do What I Want — Lil Uzi Vert",
+      "Magnolia — Playboi Carti",
+      "No Role Modelz — J. Cole",
+      "Long Time - Intro — Playboi Carti"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.4374068229257292
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.37058257166662695
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.36949667729548097
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "pretty_feature": "mood electronic / electronic",
+        "score": 0.3385912461989409
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.3271034319590149
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "pretty_feature": "mood happy / happy",
+        "score": 0.10892444888268077
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "pretty_feature": "aggressive",
+        "score": 0.09805598954661356
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.05864254630124346
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "cluster_name": "hip hop / rap",
+    "size": 32,
+    "sample_tracks": [
+      "Work Out — J. Cole",
+      "Money Trees — Kendrick Lamar, Jay Rock",
+      "m.A.A.d city — Kendrick Lamar, MC Eiht",
+      "Enough!! — A Tribe Called Quest",
+      "Doomsday — MF DOOM, Pebbles The Invisible Girl",
+      "PRIDE. — Kendrick Lamar",
+      "Now Or Never - Bonus Track — Kendrick Lamar, Mary J. Blige",
+      "Bitch, Don’t Kill My Vibe — Kendrick Lamar",
+      "The Art of Peer Pressure — Kendrick Lamar",
+      "good kid — Kendrick Lamar"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 2.9803573652983064
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 2.9486814895815865
+      },
+      {
+        "feature": "tag__rap",
+        "pretty_feature": "rap",
+        "score": 2.8744255822076488
+      },
+      {
+        "feature": "genre__underground_hip_hop",
+        "pretty_feature": "underground hip hop",
+        "score": 2.691873200638465
+      },
+      {
+        "feature": "tag__underground_hip_hop",
+        "pretty_feature": "underground hip hop",
+        "score": 2.691873109139963
+      },
+      {
+        "feature": "tag__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 1.8693979990662044
+      },
+      {
+        "feature": "genre__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 1.8693979604983966
+      },
+      {
+        "feature": "genre__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 1.8611380318093635
+      },
+      {
+        "feature": "tag__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 1.402852888234138
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "pretty_feature": "voice instrumental / instrumental",
+        "score": 0.8592483411306054
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "cluster_name": "pop rap / hip hop",
+    "size": 31,
+    "sample_tracks": [
+      "Passionfruit — Drake",
+      "One Dance — Drake, Wizkid, Kyla",
+      "Sundress — A$AP Rocky",
+      "LOVE. FEAT. ZACARI. — Kendrick Lamar, Zacari",
+      "goosebumps — Travis Scott",
+      "Neon Guts (feat. Pharrell Williams) — Lil Uzi Vert, Pharrell Williams",
+      "Everyday (feat. Rod Stewart, Miguel & Mark Ronson) — A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
+      "BUTTERFLY EFFECT — Travis Scott",
+      "Up Up And Away — Juice WRLD",
+      "Mr. Rager — Kid Cudi"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__pop_rap",
+        "pretty_feature": "pop rap",
+        "score": 1.2022503318650648
+      },
+      {
+        "feature": "tag__pop_rap",
+        "pretty_feature": "pop rap",
+        "score": 1.202250259008335
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 1.07845200348012
+      },
+      {
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 0.9786425231670866
+      },
+      {
+        "feature": "genre__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 0.9030567151206792
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 0.9030566875165084
+      },
+      {
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 0.6523931064846417
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.6241871057298236
+      },
+      {
+        "feature": "tag__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 0.6120316149087145
+      },
+      {
+        "feature": "tag__pop",
+        "pretty_feature": "pop",
+        "score": 0.6071848938761251
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "cool jazz / jazz",
+    "size": 18,
+    "sample_tracks": [
+      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Luv(sic.) pt3 (feat. Shing02) — Nujabes, Shing02",
+      "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez) — Nujabes, Substantial, Pase Rock",
+      "Horn in the middle — Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Beat laments the world — Nujabes",
+      "Think Different (feat. Substantial) — Nujabes, Substantial",
+      "Next view (feat. Uyama Hiroto) — Nujabes, Uyama Hiroto",
+      "Latitude -remix (feat. Five Deez) — Nujabes, Five Deez",
+      "F.I.L.O. (feat. Shing02) — Nujabes, Shing02"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__cool_jazz",
+        "pretty_feature": "cool jazz",
+        "score": 6.240205778519042
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "pretty_feature": "cool jazz",
+        "score": 6.2402055638469935
+      },
+      {
+        "feature": "genre__jazz",
+        "pretty_feature": "jazz",
+        "score": 5.447784393117413
+      },
+      {
+        "feature": "tag__jazz",
+        "pretty_feature": "jazz",
+        "score": 5.447784137913206
+      },
+      {
+        "feature": "tag__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 4.667984317142028
+      },
+      {
+        "feature": "genre__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 4.6679841630390335
+      },
+      {
+        "feature": "genre__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 4.435419759363726
+      },
+      {
+        "feature": "tag__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 4.435419616992442
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 4.273694923832519
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 4.273694820871409
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "r and b / soul",
+    "size": 10,
+    "sample_tracks": [
+      "Hold On, We're Going Home — Drake, Majid Jordan",
+      "Ivy — Frank Ocean",
+      "Lost — Frank Ocean",
+      "Super Rich Kids — Frank Ocean, Earl Sweatshirt",
+      "Crack Rock — Frank Ocean",
+      "Monks — Frank Ocean",
+      "Pink + White — Frank Ocean",
+      "Self Control — Frank Ocean",
+      "White Ferrari — Frank Ocean",
+      "Pyramids — Frank Ocean"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 7.230708049534988
+      },
+      {
+        "feature": "tag__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 6.977097150206037
+      },
+      {
+        "feature": "genre__soul",
+        "pretty_feature": "soul",
+        "score": 6.886073704923016
+      },
+      {
+        "feature": "tag__soul",
+        "pretty_feature": "soul",
+        "score": 6.886073519836488
+      },
+      {
+        "feature": "tag__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 5.0687474324641055
+      },
+      {
+        "feature": "genre__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 4.895878866652236
+      },
+      {
+        "feature": "genre__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 3.54062806545148
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 3.54062796244214
+      },
+      {
+        "feature": "tag__alternative_r_and_b",
+        "pretty_feature": "alternative r and b",
+        "score": 3.2953168108288757
+      },
+      {
+        "feature": "genre__alternative_r_and_b",
+        "pretty_feature": "alternative r and b",
+        "score": 3.2953167160038452
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "hardcore hip hop / conscious hip hop",
+    "size": 7,
+    "sample_tracks": [
+      "Alright — Kendrick Lamar",
+      "It Was A Good Day — Ice Cube",
+      "King Kunta — Kendrick Lamar",
+      "She — Tyler, The Creator, Frank Ocean",
+      "These Walls — Kendrick Lamar, Bilal, Anna Wise, Thundercat",
+      "Jazz (We've Got) — A Tribe Called Quest",
+      "Like Him (feat. Lola Young) — Tyler, The Creator, Lola Young"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__hardcore_hip_hop",
+        "pretty_feature": "hardcore hip hop",
+        "score": 6.762838957175016
+      },
+      {
+        "feature": "tag__hardcore_hip_hop",
+        "pretty_feature": "hardcore hip hop",
+        "score": 6.762838791012549
+      },
+      {
+        "feature": "tag__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 6.482608256424897
+      },
+      {
+        "feature": "genre__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 6.4826081427656925
+      },
+      {
+        "feature": "tag__g_funk",
+        "pretty_feature": "g funk",
+        "score": 5.518181745293037
+      },
+      {
+        "feature": "genre__g_funk",
+        "pretty_feature": "g funk",
+        "score": 5.518181586607371
+      },
+      {
+        "feature": "genre__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 5.050785996305076
+      },
+      {
+        "feature": "tag__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 4.903899032431701
+      },
+      {
+        "feature": "genre__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 4.903898768236144
+      },
+      {
+        "feature": "tag__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 4.429923215484483
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "cluster_name": "thug rap / trap",
+    "size": 7,
+    "sample_tracks": [
+      "90210 (feat. Kacy Hill) — Travis Scott, Kacy Hill",
+      "You Was Right — Lil Uzi Vert",
+      "Maria I'm Drunk (feat. Justin Bieber & Young Thug) — Travis Scott, Justin Bieber, Young Thug",
+      "Apple Pie — Travis Scott",
+      "Nightcrawler (feat. Swae Lee & Chief Keef) — Travis Scott, Swae Lee, Chief Keef",
+      "Ok Alright (feat. ScHoolboy Q) — Travis Scott, ScHoolboy Q",
+      "LVL — A$AP Rocky"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__thug_rap",
+        "pretty_feature": "thug rap",
+        "score": 9.12534726081787
+      },
+      {
+        "feature": "genre__trap",
+        "pretty_feature": "trap",
+        "score": 8.822096961349965
+      },
+      {
+        "feature": "tag__trap",
+        "pretty_feature": "trap",
+        "score": 8.822096313840811
+      },
+      {
+        "feature": "tag__southern_hip_hop",
+        "pretty_feature": "southern hip hop",
+        "score": 5.518181831612049
+      },
+      {
+        "feature": "genre__southern_hip_hop",
+        "pretty_feature": "southern hip hop",
+        "score": 5.518181665964919
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 1.8017743620755984
+      },
+      {
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 1.5768558006160909
+      },
+      {
+        "feature": "tag__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 1.1567665065890496
+      },
+      {
+        "feature": "genre__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 1.1567664436275469
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.8829454213840319
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "cluster_name": "breakbeat / soundtrack",
+    "size": 5,
+    "sample_tracks": [
+      "sanctuary ship — Nujabes",
+      "just forget — Force Of Nature",
+      "tsurugi no mai — Nujabes",
+      "Who's Theme — MINMI",
+      "HIIZURU STYLE — Force Of Nature, Suiken, S-Word"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__breakbeat",
+        "pretty_feature": "breakbeat",
+        "score": 12.271919664456759
+      },
+      {
+        "feature": "tag__breakbeat",
+        "pretty_feature": "breakbeat",
+        "score": 12.271918854431284
+      },
+      {
+        "feature": "tag__soundtrack",
+        "pretty_feature": "soundtrack",
+        "score": 6.969532141282585
+      },
+      {
+        "feature": "tag__hip_hop_instrumental_hip_hop",
+        "pretty_feature": "hip hop instrumental hip hop",
+        "score": 6.681412845841962
+      },
+      {
+        "feature": "tag__instrumentalhiphop",
+        "pretty_feature": "instrumentalhiphop",
+        "score": 6.681412845841962
+      },
+      {
+        "feature": "genre__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 5.3584279152277725
+      },
+      {
+        "feature": "tag__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 5.358427741459433
+      },
+      {
+        "feature": "tag__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 5.356809223770649
+      },
+      {
+        "feature": "genre__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 5.356809046301963
+      },
+      {
+        "feature": "genre__trip_hop",
+        "pretty_feature": "trip hop",
+        "score": 5.20804733673865
+      }
+    ]
+  }
+]

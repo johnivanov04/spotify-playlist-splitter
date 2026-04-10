@@ -1,0 +1,227 @@
+[
+  {
+    "display_group": "Melodic / Party Rap",
+    "size": 98,
+    "member_cluster_ids": [
+      8,
+      13,
+      10,
+      11,
+      12,
+      9,
+      14
+    ],
+    "member_cluster_names": [
+      "mood party / party / voice instrumental / voice",
+      "danceable / voice instrumental / voice",
+      "danceable / timbre / dark",
+      "voice instrumental / voice / timbre / dark",
+      "mood party / party / timbre / dark",
+      "aggressive / danceable",
+      "acoustic / mood sad / sad"
+    ],
+    "top_descriptors": [
+      "mood party / party",
+      "voice instrumental / voice",
+      "danceable",
+      "mood electronic / electronic",
+      "timbre / dark",
+      "mood happy / happy",
+      "timbre / bright",
+      "mood sad / sad",
+      "mood relaxed / relaxed",
+      "voice instrumental / instrumental"
+    ],
+    "sample_tracks": [
+      "Magnolia \u2014 Playboi Carti",
+      "beibs in the trap \u2014 Travis Scott",
+      "ARE WE STILL FRIENDS? \u2014 Tyler, The Creator",
+      "trademark usa \u2014 Baby Keem",
+      "Bad Name \u2014 Gang Starr",
+      "Fell In Luv (feat. Bryson Tiller) \u2014 Playboi Carti, Bryson Tiller",
+      "Right Now (feat. Pi'erre Bourne) \u2014 Playboi Carti, Pi\u2019erre Bourne",
+      "The Race \u2014 Tay-K",
+      "Stop Breathing \u2014 Playboi Carti",
+      "ROCKSTAR P \u2014 Baby Keem",
+      "20 Min \u2014 Lil Uzi Vert",
+      "Flex \u2014 Playboi Carti, Leven Kali"
+    ]
+  },
+  {
+    "display_group": "More Vibes",
+    "size": 76,
+    "member_cluster_ids": [
+      3,
+      17,
+      18,
+      16,
+      15
+    ],
+    "member_cluster_names": [
+      "mixed vibe cluster",
+      "mixed vibe cluster",
+      "mixed vibe cluster",
+      "mixed vibe cluster",
+      "mixed vibe cluster"
+    ],
+    "top_descriptors": [
+      "voice instrumental / instrumental",
+      "mood electronic / electronic",
+      "mood relaxed / relaxed"
+    ],
+    "sample_tracks": [
+      "drive ME crazy! \u2014 Lil Yachty, Diana Gordon",
+      "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee) \u2014 Metro Boomin, A$AP Rocky, Roisee",
+      "Calling (Spider-Man: Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie) \u2014 Metro Boomin, Swae Lee, NAV, A Boogie Wit da Hoodie",
+      "Pluto to Mars \u2014 Lil Uzi Vert",
+      "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix \u2014 EI8HT, Offset",
+      "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray) \u2014 Metro Boomin, Coi Leray",
+      "Parking Lot \u2014 Mustard, Travis Scott",
+      "NIGHTS LIKE THIS \u2014 The Kid LAROI",
+      "TIL FURTHER NOTICE (feat. James Blake & 21 Savage) \u2014 Travis Scott, James Blake, 21 Savage",
+      "TELEKINESIS (feat. SZA & Future) \u2014 Travis Scott, SZA, Future",
+      "Love Is Only a Feeling \u2014 Joey Bada$$",
+      "ILoveUIHateU \u2014 Playboi Carti"
+    ]
+  },
+  {
+    "display_group": "Jazz / Nujabes / Downtempo",
+    "size": 44,
+    "member_cluster_ids": [
+      4,
+      5
+    ],
+    "member_cluster_names": [
+      "rap / hip hop",
+      "jazz / cool jazz"
+    ],
+    "top_descriptors": [
+      "rap",
+      "hip hop",
+      "conscious hip hop",
+      "west coast hip hop",
+      "underground hip hop",
+      "jazz rap",
+      "jazz",
+      "cool jazz",
+      "instrumental",
+      "alternative hip hop"
+    ],
+    "sample_tracks": [
+      "Work Out \u2014 J. Cole",
+      "Money Trees \u2014 Kendrick Lamar, Jay Rock",
+      "Alright \u2014 Kendrick Lamar",
+      "m.A.A.d city \u2014 Kendrick Lamar, MC Eiht",
+      "It Was A Good Day \u2014 Ice Cube",
+      "Enough!! \u2014 A Tribe Called Quest",
+      "King Kunta \u2014 Kendrick Lamar",
+      "Doomsday \u2014 MF DOOM, Pebbles The Invisible Girl",
+      "PRIDE. \u2014 Kendrick Lamar",
+      "She \u2014 Tyler, The Creator, Frank Ocean",
+      "Luv(sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02",
+      "Luv (sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02"
+    ]
+  },
+  {
+    "display_group": "R&B / Soul",
+    "size": 42,
+    "member_cluster_ids": [
+      0,
+      7
+    ],
+    "member_cluster_names": [
+      "contemporary r and b / hip hop",
+      "r and b / soul"
+    ],
+    "top_descriptors": [
+      "contemporary r and b",
+      "hip hop",
+      "pop rap",
+      "pop",
+      "alternative hip hop",
+      "r and b",
+      "soul",
+      "neo soul",
+      "alternative r and b"
+    ],
+    "sample_tracks": [
+      "Passionfruit \u2014 Drake",
+      "One Dance \u2014 Drake, Wizkid, Kyla",
+      "Sundress \u2014 A$AP Rocky",
+      "LOVE. FEAT. ZACARI. \u2014 Kendrick Lamar, Zacari",
+      "goosebumps \u2014 Travis Scott",
+      "Neon Guts (feat. Pharrell Williams) \u2014 Lil Uzi Vert, Pharrell Williams",
+      "Everyday (feat. Rod Stewart, Miguel & Mark Ronson) \u2014 A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
+      "BUTTERFLY EFFECT \u2014 Travis Scott",
+      "Up Up And Away \u2014 Juice WRLD",
+      "Mr. Rager \u2014 Kid Cudi",
+      "Hold On, We're Going Home \u2014 Drake, Majid Jordan",
+      "Ivy \u2014 Frank Ocean"
+    ]
+  },
+  {
+    "display_group": "Instrumental / Breakbeat",
+    "size": 17,
+    "member_cluster_ids": [
+      1,
+      2
+    ],
+    "member_cluster_names": [
+      "cool jazz / jazz",
+      "breakbeat / soundtrack"
+    ],
+    "top_descriptors": [
+      "cool jazz",
+      "jazz",
+      "instrumental",
+      "downtempo",
+      "alternative hip hop",
+      "breakbeat",
+      "soundtrack",
+      "hip hop instrumental hip hop",
+      "instrumentalhiphop",
+      "trip hop"
+    ],
+    "sample_tracks": [
+      "Lady Brown (feat. Cise Starr from CYNE) \u2014 Nujabes, Cise Starr",
+      "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez) \u2014 Nujabes, Substantial, Pase Rock",
+      "Horn in the middle \u2014 Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) \u2014 Nujabes, Cise Starr",
+      "Beat laments the world \u2014 Nujabes",
+      "Think Different (feat. Substantial) \u2014 Nujabes, Substantial",
+      "Next view (feat. Uyama Hiroto) \u2014 Nujabes, Uyama Hiroto",
+      "Latitude -remix (feat. Five Deez) \u2014 Nujabes, Five Deez",
+      "F.I.L.O. (feat. Shing02) \u2014 Nujabes, Shing02",
+      "The Final View \u2014 Nujabes",
+      "sanctuary ship \u2014 Nujabes",
+      "just forget \u2014 Force Of Nature"
+    ]
+  },
+  {
+    "display_group": "Trap",
+    "size": 7,
+    "member_cluster_ids": [
+      6
+    ],
+    "member_cluster_names": [
+      "thug rap / trap"
+    ],
+    "top_descriptors": [
+      "thug rap",
+      "trap",
+      "southern hip hop",
+      "hip hop",
+      "east coast hip hop",
+      "timbre / dark"
+    ],
+    "sample_tracks": [
+      "90210 (feat. Kacy Hill) \u2014 Travis Scott, Kacy Hill",
+      "You Was Right \u2014 Lil Uzi Vert",
+      "Maria I'm Drunk (feat. Justin Bieber & Young Thug) \u2014 Travis Scott, Justin Bieber, Young Thug",
+      "Apple Pie \u2014 Travis Scott",
+      "Nightcrawler (feat. Swae Lee & Chief Keef) \u2014 Travis Scott, Swae Lee, Chief Keef",
+      "Ok Alright (feat. ScHoolboy Q) \u2014 Travis Scott, ScHoolboy Q",
+      "LVL \u2014 A$AP Rocky"
+    ]
+  }
+]
