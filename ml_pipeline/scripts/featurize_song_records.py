@@ -13,7 +13,6 @@ Inputs:
 - song_records.json
 - song_records.ndjson
 
-Outputs:
 - feature_matrix.npz
 - feature_names.json
 - row_index.json
@@ -122,9 +121,27 @@ def canonical_key(record: dict[str, Any]) -> str:
 # feature filtering rules
 # ----------------------------
 
+_SKIP_TAG_EXACT = {
+    # language / format / generic presence tags
+    "english",
+    "vocal",
+    "male_vocalist",
+    "female_vocalist",
+    "seen_live",
+}
+
 _SKIP_TAG_SUBSTRINGS = {
+    # charts / editorial / popularity metadata
     "billboard",
     "hot_100",
+    "chart",
+    "charts",
+    "offizielle",
+    "official",
+    "top_100",
+    "top_50",
+    "top_40",
+    "top40",
 }
 
 _SKIP_ACOUSTIC_KEYS = {
@@ -142,6 +159,16 @@ _SKIP_ACOUSTIC_SUBSTRINGS = {
     "__gender__",
 }
 
+_SKIP_ACOUSTIC_PREFIXES = {
+    # low-trust or weakly interpretable classifier families
+    "genre_dortmund__",
+    "genre_rosamerica__",
+    "genre_tzanetakis__",
+    "ismir04_rhythm__",
+    "moods_mirex__",
+    "tonal_atonal__",
+}
+
 _SKIP_ACOUSTIC_SUFFIXES = {
     "__probability",
 }
@@ -150,6 +177,10 @@ _SKIP_ACOUSTIC_SUFFIXES = {
 def keep_tag_token(token: str) -> bool:
     if not token:
         return False
+
+    if token in _SKIP_TAG_EXACT:
+        return False
+
     for bad in _SKIP_TAG_SUBSTRINGS:
         if bad in token:
             return False
@@ -162,6 +193,10 @@ def keep_acoustic_feature(name: str) -> bool:
 
     for bad in _SKIP_ACOUSTIC_SUBSTRINGS:
         if bad in name:
+            return False
+
+    for prefix in _SKIP_ACOUSTIC_PREFIXES:
+        if name.startswith(prefix):
             return False
 
     for suffix in _SKIP_ACOUSTIC_SUFFIXES:
@@ -577,6 +612,13 @@ def main(argv: list[str] | None = None) -> int:
             "max_tags": args.max_tags,
             "max_genres": args.max_genres,
             "max_acoustic": args.max_acoustic,
+        },
+        "filters": {
+            "skip_tag_exact": sorted(_SKIP_TAG_EXACT),
+            "skip_tag_substrings": sorted(_SKIP_TAG_SUBSTRINGS),
+            "skip_acoustic_prefixes": sorted(_SKIP_ACOUSTIC_PREFIXES),
+            "skip_acoustic_substrings": sorted(_SKIP_ACOUSTIC_SUBSTRINGS),
+            "skip_acoustic_suffixes": sorted(_SKIP_ACOUSTIC_SUFFIXES),
         },
         "outputs": {
             "feature_matrix_npz": str(feature_matrix_path),
