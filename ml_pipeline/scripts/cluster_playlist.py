@@ -87,7 +87,7 @@ def save_json(path: Path, payload: Any) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def load_representation(path: Path) -> dict[str, Any]:
+def load_representation(path: Path) -> dict[str, np.ndarray | list[str]]:
     if not path.exists():
         raise FileNotFoundError(f"Representation artifact not found: {path}")
 
@@ -106,21 +106,6 @@ def load_representation(path: Path) -> dict[str, Any]:
 
     feature_names_arr = data["feature_names"]
     feature_names = [str(x) for x in feature_names_arr.tolist()]
-    n_features = len(feature_names)
-
-    postscale_weights = data["postscale_weights"].astype(np.float64) if "postscale_weights" in data else np.ones(n_features, dtype=np.float64)
-    if postscale_weights.shape[0] != n_features:
-        raise ValueError(
-            f"postscale_weights length mismatch: expected {n_features}, got {postscale_weights.shape[0]}"
-        )
-
-    def scalar_or_default(key: str, default: float) -> float:
-        if key not in data:
-            return float(default)
-        value = data[key]
-        if np.isscalar(value):
-            return float(value)
-        return float(np.asarray(value).reshape(-1)[0])
 
     return {
         "scaler_mean": data["scaler_mean"].astype(np.float64),
@@ -128,21 +113,6 @@ def load_representation(path: Path) -> dict[str, Any]:
         "pca_components": data["pca_components"].astype(np.float64),
         "pca_mean": data["pca_mean"].astype(np.float64),
         "feature_names": feature_names,
-        "postscale_weights": postscale_weights,
-        "postscale_block_weights": {
-            "tag_block_weight": scalar_or_default("tag_block_weight", 1.0),
-            "genre_block_weight": scalar_or_default("genre_block_weight", 1.0),
-            "acoustic_block_weight": scalar_or_default("acoustic_block_weight", 1.0),
-            "meta_block_weight": scalar_or_default("meta_block_weight", 1.0),
-        },
-        "input_feature_weights": {
-            "tag_weight": scalar_or_default("input_tag_weight", 1.0),
-            "genre_weight": scalar_or_default("input_genre_weight", 0.7),
-            "acoustic_weight": scalar_or_default("input_acoustic_weight", 0.9),
-            "year_weight": scalar_or_default("input_year_weight", 0.25),
-            "popularity_weight": scalar_or_default("input_popularity_weight", 0.15),
-            "binary_weight": scalar_or_default("input_binary_weight", 0.10),
-        },
     }
 
 
@@ -190,17 +160,9 @@ def canonical_key(record: dict[str, Any]) -> str:
 # featurization rules
 # ----------------------------
 
-_SKIP_TAG_EXACT = {
-    "english",
-    "vocal",
-}
-
 _SKIP_TAG_SUBSTRINGS = {
     "billboard",
     "hot_100",
-    "chart",
-    "charts",
-    "offizielle",
 }
 
 _SKIP_ACOUSTIC_KEYS = {
@@ -216,12 +178,6 @@ _SKIP_ACOUSTIC_KEYS = {
 _SKIP_ACOUSTIC_SUBSTRINGS = {
     "__all__not_",
     "__gender__",
-    "genre_dortmund__",
-    "genre_rosamerica__",
-    "genre_tzanetakis__",
-    "ismir04_rhythm__",
-    "moods_mirex__",
-    "tonal_atonal__",
 }
 
 _SKIP_ACOUSTIC_SUFFIXES = {
@@ -246,8 +202,6 @@ _ACOUSTIC_ABBREV_MAP = {
 
 def keep_tag_token(token: str) -> bool:
     if not token:
-        return False
-    if token in _SKIP_TAG_EXACT:
         return False
     for bad in _SKIP_TAG_SUBSTRINGS:
         if bad in token:
@@ -480,14 +434,6 @@ def featurize_against_frozen_vocab(
     return X, row_meta
 
 
-def apply_postscale_weights(X_scaled: np.ndarray, postscale_weights: np.ndarray) -> np.ndarray:
-    if X_scaled.shape[1] != postscale_weights.shape[0]:
-        raise ValueError(
-            f"Post-scale weights length mismatch: matrix has {X_scaled.shape[1]} cols, weights has {postscale_weights.shape[0]}"
-        )
-    return X_scaled * postscale_weights
-
-
 # ----------------------------
 # representation transform
 # ----------------------------
@@ -496,18 +442,16 @@ def apply_representation(
     X: np.ndarray,
     scaler_mean: np.ndarray,
     scaler_scale: np.ndarray,
-    postscale_weights: np.ndarray,
     pca_components: np.ndarray,
     pca_mean: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray]:
     X_scaled = (X - scaler_mean) / scaler_scale
-    X_weighted = apply_postscale_weights(X_scaled, postscale_weights)
 
     if pca_components.size == 0:
-        return X_weighted, X_weighted
+        return X_scaled, X_scaled
 
-    embeddings = (X_weighted - pca_mean) @ pca_components.T
-    return X_weighted, embeddings
+    embeddings = (X_scaled - pca_mean) @ pca_components.T
+    return X_scaled, embeddings
 
 
 # ----------------------------
@@ -646,7 +590,7 @@ def choose_best_clustering(
     min_cluster_size: int,
     random_state: int,
     n_init: int,
-) -> tuple[np.ndarray, list[dict[str, Any]], int]:
+) -> tuple[np.ndarray, list[dict[str, Any]], int, float | None]:
     diagnostics: list[dict[str, Any]] = []
 
     if not candidate_ks:
@@ -662,7 +606,7 @@ def choose_best_clustering(
                 "merged_before_scoring": False,
             }
         )
-        return labels, diagnostics, 1
+        return labels, diagnostics, 1, None
 
     best_labels = None
     best_adjusted = -1e18
@@ -701,7 +645,169 @@ def choose_best_clustering(
             best_k = int(np.unique(merged_labels).size)
 
     assert best_labels is not None
-    return best_labels, diagnostics, int(best_k)
+    return best_labels, diagnostics, int(best_k), float(best_adjusted)
+
+
+def apply_subcluster_mapping(
+    labels: np.ndarray,
+    member_ix: np.ndarray,
+    sub_labels: np.ndarray,
+    parent_label: int,
+) -> np.ndarray:
+    labels = labels.copy()
+    uniq_sub = sorted(np.unique(sub_labels).tolist())
+    if len(uniq_sub) < 2:
+        return labels
+
+    sub_counts = Counter(sub_labels.tolist())
+    keep_parent = max(uniq_sub, key=lambda lab: (sub_counts[int(lab)], -int(lab)))
+    next_label = int(labels.max()) + 1
+    mapping: dict[int, int] = {}
+    for sub_lab in uniq_sub:
+        if int(sub_lab) == int(keep_parent):
+            mapping[int(sub_lab)] = int(parent_label)
+        else:
+            mapping[int(sub_lab)] = next_label
+            next_label += 1
+
+    for local_pos, global_ix in enumerate(member_ix.tolist()):
+        labels[int(global_ix)] = mapping[int(sub_labels[local_pos])]
+
+    return relabel_contiguous(labels)
+
+
+def recursively_split_oversized_clusters(
+    labels: np.ndarray,
+    embeddings: np.ndarray,
+    min_cluster_size: int,
+    min_k: int,
+    max_k: int,
+    random_state: int,
+    n_init: int,
+    max_cluster_fraction: float,
+    min_split_size: int,
+    min_adjusted_score: float,
+    max_subcluster_fraction: float,
+    max_rounds: int,
+) -> tuple[np.ndarray, list[dict[str, Any]]]:
+    labels = relabel_contiguous(labels)
+    n_total = int(len(labels))
+    diagnostics: list[dict[str, Any]] = []
+
+    if n_total <= 1 or max_rounds <= 0:
+        return labels, diagnostics
+
+    split_size_threshold = max(int(min_split_size), int(math.ceil(n_total * max_cluster_fraction)))
+
+    for round_idx in range(max_rounds):
+        counts = Counter(labels.tolist())
+        candidate_labels = [
+            int(lab)
+            for lab, count in sorted(counts.items(), key=lambda item: item[1], reverse=True)
+            if int(count) >= split_size_threshold
+        ]
+
+        if not candidate_labels:
+            break
+
+        round_diag: dict[str, Any] = {
+            "round": int(round_idx + 1),
+            "split_size_threshold": int(split_size_threshold),
+            "candidates": [],
+            "accepted": None,
+        }
+        applied = False
+
+        for parent_label in candidate_labels:
+            member_ix = np.where(labels == parent_label)[0]
+            cluster_size = int(member_ix.size)
+            sub_embeddings = embeddings[member_ix]
+
+            local_candidate_ks = build_candidate_ks(
+                n_rows=cluster_size,
+                min_k=max(2, min_k),
+                max_k=min(max_k, max(2, cluster_size - 1)),
+                min_cluster_size=min_cluster_size,
+            )
+
+            candidate_diag: dict[str, Any] = {
+                "cluster_id": int(parent_label),
+                "cluster_size": int(cluster_size),
+                "candidate_ks": local_candidate_ks,
+                "accepted": False,
+            }
+
+            if not local_candidate_ks:
+                candidate_diag["reason"] = "no_candidate_ks"
+                round_diag["candidates"].append(candidate_diag)
+                continue
+
+            sub_labels, sub_diagnostics, sub_final_k, sub_best_adjusted = choose_best_clustering(
+                embeddings=sub_embeddings,
+                candidate_ks=local_candidate_ks,
+                min_cluster_size=min_cluster_size,
+                random_state=random_state,
+                n_init=n_init,
+            )
+            sub_silhouette, sub_adjusted, sub_details = score_solution(
+                sub_labels,
+                sub_embeddings,
+                min_cluster_size=min_cluster_size,
+            )
+
+            candidate_diag.update(
+                {
+                    "sub_final_k": int(sub_final_k),
+                    "sub_best_adjusted_score": sub_best_adjusted,
+                    "sub_silhouette": sub_silhouette,
+                    "sub_adjusted_score": sub_adjusted,
+                    "sub_cluster_sizes": sub_details["cluster_sizes"],
+                    "sub_largest_fraction": sub_details["largest_fraction"],
+                    "sub_meaningful_cluster_count": sub_details["meaningful_cluster_count"],
+                    "diagnostics": sub_diagnostics,
+                }
+            )
+
+            accept = (
+                int(sub_final_k) >= 2
+                and int(sub_details["meaningful_cluster_count"]) >= 2
+                and float(sub_adjusted) >= float(min_adjusted_score)
+                and float(sub_details["largest_fraction"]) <= float(max_subcluster_fraction)
+            )
+
+            if not accept:
+                reasons = []
+                if int(sub_final_k) < 2:
+                    reasons.append("single_cluster")
+                if int(sub_details["meaningful_cluster_count"]) < 2:
+                    reasons.append("not_enough_meaningful_clusters")
+                if float(sub_adjusted) < float(min_adjusted_score):
+                    reasons.append("adjusted_score_too_low")
+                if float(sub_details["largest_fraction"]) > float(max_subcluster_fraction):
+                    reasons.append("largest_subcluster_still_too_large")
+                candidate_diag["reason"] = ",".join(reasons) if reasons else "rejected"
+                round_diag["candidates"].append(candidate_diag)
+                continue
+
+            labels = apply_subcluster_mapping(
+                labels=labels,
+                member_ix=member_ix,
+                sub_labels=sub_labels,
+                parent_label=int(parent_label),
+            )
+            candidate_diag["accepted"] = True
+            candidate_diag["reason"] = "accepted"
+            round_diag["accepted"] = candidate_diag
+            round_diag["candidates"].append(candidate_diag)
+            applied = True
+            break
+
+        diagnostics.append(round_diag)
+
+        if not applied:
+            break
+
+    return relabel_contiguous(labels), diagnostics
 
 
 # ----------------------------
@@ -878,16 +984,12 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--random-state", type=int, default=42)
     parser.add_argument("--kmeans-n-init", type=int, default=20)
 
-    parser.add_argument("--tag-weight", type=float, default=None, help="Optional override for raw tag feature weight saved in the representation artifact")
-    parser.add_argument("--genre-weight", type=float, default=None, help="Optional override for raw genre feature weight saved in the representation artifact")
-    parser.add_argument("--acoustic-weight", type=float, default=None, help="Optional override for raw acoustic feature weight saved in the representation artifact")
-    parser.add_argument("--year-weight", type=float, default=None, help="Optional override for raw year feature weight saved in the representation artifact")
-    parser.add_argument("--popularity-weight", type=float, default=None, help="Optional override for raw popularity feature weight saved in the representation artifact")
-    parser.add_argument("--binary-weight", type=float, default=None, help="Optional override for raw binary/meta-present feature weight saved in the representation artifact")
-    parser.add_argument("--tag-block-weight", type=float, default=None, help="Optional override for saved post-scale tag block weight")
-    parser.add_argument("--genre-block-weight", type=float, default=None, help="Optional override for saved post-scale genre block weight")
-    parser.add_argument("--acoustic-block-weight", type=float, default=None, help="Optional override for saved post-scale acoustic block weight")
-    parser.add_argument("--meta-block-weight", type=float, default=None, help="Optional override for saved post-scale meta block weight")
+    parser.add_argument("--tag-weight", type=float, default=1.0)
+    parser.add_argument("--genre-weight", type=float, default=0.7)
+    parser.add_argument("--acoustic-weight", type=float, default=0.9)
+    parser.add_argument("--year-weight", type=float, default=0.25)
+    parser.add_argument("--popularity-weight", type=float, default=0.15)
+    parser.add_argument("--binary-weight", type=float, default=0.10)
 
     parser.add_argument(
         "--disable-neutralize-missing-acoustic",
@@ -896,6 +998,42 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     )
     parser.add_argument("--sample-titles-per-cluster", type=int, default=10)
     parser.add_argument("--top-features-per-cluster", type=int, default=10)
+
+    parser.add_argument(
+        "--disable-recursive-splitting",
+        action="store_true",
+        help="Do not recursively split oversized first-pass clusters",
+    )
+    parser.add_argument(
+        "--recursive-split-max-fraction",
+        type=float,
+        default=0.28,
+        help="Recursively split a cluster if it exceeds this fraction of the playlist",
+    )
+    parser.add_argument(
+        "--recursive-split-min-size",
+        type=int,
+        default=24,
+        help="Minimum absolute cluster size required before recursive splitting is considered",
+    )
+    parser.add_argument(
+        "--recursive-split-min-adjusted-score",
+        type=float,
+        default=0.02,
+        help="Minimum adjusted score a local split must achieve to be kept",
+    )
+    parser.add_argument(
+        "--recursive-split-max-subcluster-fraction",
+        type=float,
+        default=0.78,
+        help="Reject a local split if its largest resulting subcluster is still above this fraction",
+    )
+    parser.add_argument(
+        "--recursive-split-max-rounds",
+        type=int,
+        default=2,
+        help="Maximum recursive split rounds to apply after the first clustering pass",
+    )
 
     return parser.parse_args(argv)
 
@@ -928,48 +1066,17 @@ def main(argv: list[str] | None = None) -> int:
     scaler_scale = rep["scaler_scale"]
     pca_components = rep["pca_components"]
     pca_mean = rep["pca_mean"]
-    saved_postscale_weights = rep["postscale_weights"]
-    saved_block_weights = rep["postscale_block_weights"]
-    saved_input_weights = rep["input_feature_weights"]
-
-    raw_tag_weight = float(args.tag_weight) if args.tag_weight is not None else float(saved_input_weights["tag_weight"])
-    raw_genre_weight = float(args.genre_weight) if args.genre_weight is not None else float(saved_input_weights["genre_weight"])
-    raw_acoustic_weight = float(args.acoustic_weight) if args.acoustic_weight is not None else float(saved_input_weights["acoustic_weight"])
-    raw_year_weight = float(args.year_weight) if args.year_weight is not None else float(saved_input_weights["year_weight"])
-    raw_popularity_weight = float(args.popularity_weight) if args.popularity_weight is not None else float(saved_input_weights["popularity_weight"])
-    raw_binary_weight = float(args.binary_weight) if args.binary_weight is not None else float(saved_input_weights["binary_weight"])
-
-    if any(v is not None for v in [args.tag_block_weight, args.genre_block_weight, args.acoustic_block_weight, args.meta_block_weight]):
-        postscale_weights = saved_postscale_weights.copy()
-        for idx, name in enumerate(feature_names):
-            if name.startswith("tag__") and args.tag_block_weight is not None:
-                postscale_weights[idx] = float(args.tag_block_weight)
-            elif name.startswith("genre__") and args.genre_block_weight is not None:
-                postscale_weights[idx] = float(args.genre_block_weight)
-            elif name.startswith("acoustic__") and args.acoustic_block_weight is not None:
-                postscale_weights[idx] = float(args.acoustic_block_weight)
-            elif name.startswith("meta__") and args.meta_block_weight is not None:
-                postscale_weights[idx] = float(args.meta_block_weight)
-        active_block_weights = {
-            "tag_block_weight": float(args.tag_block_weight) if args.tag_block_weight is not None else float(saved_block_weights["tag_block_weight"]),
-            "genre_block_weight": float(args.genre_block_weight) if args.genre_block_weight is not None else float(saved_block_weights["genre_block_weight"]),
-            "acoustic_block_weight": float(args.acoustic_block_weight) if args.acoustic_block_weight is not None else float(saved_block_weights["acoustic_block_weight"]),
-            "meta_block_weight": float(args.meta_block_weight) if args.meta_block_weight is not None else float(saved_block_weights["meta_block_weight"]),
-        }
-    else:
-        postscale_weights = saved_postscale_weights
-        active_block_weights = {k: float(v) for k, v in saved_block_weights.items()}
 
     X, row_meta = featurize_against_frozen_vocab(
         records=records,
         feature_names=feature_names,
         scaler_mean=scaler_mean,
-        tag_weight=raw_tag_weight,
-        genre_weight=raw_genre_weight,
-        acoustic_weight=raw_acoustic_weight,
-        year_weight=raw_year_weight,
-        popularity_weight=raw_popularity_weight,
-        binary_weight=raw_binary_weight,
+        tag_weight=args.tag_weight,
+        genre_weight=args.genre_weight,
+        acoustic_weight=args.acoustic_weight,
+        year_weight=args.year_weight,
+        popularity_weight=args.popularity_weight,
+        binary_weight=args.binary_weight,
         neutralize_missing_acoustic=not args.disable_neutralize_missing_acoustic,
     )
 
@@ -977,7 +1084,6 @@ def main(argv: list[str] | None = None) -> int:
         X=X,
         scaler_mean=scaler_mean,
         scaler_scale=scaler_scale,
-        postscale_weights=postscale_weights,
         pca_components=pca_components,
         pca_mean=pca_mean,
     )
@@ -989,13 +1095,31 @@ def main(argv: list[str] | None = None) -> int:
         min_cluster_size=args.min_cluster_size,
     )
 
-    labels, diagnostics, final_k = choose_best_clustering(
+    labels, diagnostics, final_k, best_adjusted_score = choose_best_clustering(
         embeddings=embeddings,
         candidate_ks=candidate_ks,
         min_cluster_size=args.min_cluster_size,
         random_state=args.random_state,
         n_init=args.kmeans_n_init,
     )
+
+    recursive_split_diagnostics: list[dict[str, Any]] = []
+    if not args.disable_recursive_splitting:
+        labels, recursive_split_diagnostics = recursively_split_oversized_clusters(
+            labels=labels,
+            embeddings=embeddings,
+            min_cluster_size=args.min_cluster_size,
+            min_k=args.min_k,
+            max_k=args.max_k,
+            random_state=args.random_state,
+            n_init=args.kmeans_n_init,
+            max_cluster_fraction=args.recursive_split_max_fraction,
+            min_split_size=args.recursive_split_min_size,
+            min_adjusted_score=args.recursive_split_min_adjusted_score,
+            max_subcluster_fraction=args.recursive_split_max_subcluster_fraction,
+            max_rounds=args.recursive_split_max_rounds,
+        )
+        final_k = int(np.unique(labels).size)
 
     assignments = []
     for meta, label in zip(row_meta, labels, strict=False):
@@ -1024,17 +1148,24 @@ def main(argv: list[str] | None = None) -> int:
             for cluster_id in sorted(np.unique(labels).tolist())
         },
         "diagnostics": diagnostics,
+        "best_adjusted_score": best_adjusted_score,
         "weights": {
-            "raw_input_weights": {
-                "tag_weight": raw_tag_weight,
-                "genre_weight": raw_genre_weight,
-                "acoustic_weight": raw_acoustic_weight,
-                "year_weight": raw_year_weight,
-                "popularity_weight": raw_popularity_weight,
-                "binary_weight": raw_binary_weight,
-            },
-            "postscale_block_weights": active_block_weights,
+            "tag_weight": args.tag_weight,
+            "genre_weight": args.genre_weight,
+            "acoustic_weight": args.acoustic_weight,
+            "year_weight": args.year_weight,
+            "popularity_weight": args.popularity_weight,
+            "binary_weight": args.binary_weight,
             "neutralize_missing_acoustic": not args.disable_neutralize_missing_acoustic,
+        },
+        "recursive_splitting": {
+            "enabled": not args.disable_recursive_splitting,
+            "max_fraction": args.recursive_split_max_fraction,
+            "min_size": args.recursive_split_min_size,
+            "min_adjusted_score": args.recursive_split_min_adjusted_score,
+            "max_subcluster_fraction": args.recursive_split_max_subcluster_fraction,
+            "max_rounds": args.recursive_split_max_rounds,
+            "rounds": recursive_split_diagnostics,
         },
         "outputs": {
             "assignments_json": str(out_dir / "playlist_cluster_assignments.json"),
@@ -1054,8 +1185,11 @@ def main(argv: list[str] | None = None) -> int:
     print(f"feature_count: {X.shape[1]}")
     print(f"embedding_dim: {embeddings.shape[1]}")
     print(f"candidate_ks: {candidate_ks}")
+    applied_recursive_splits = sum(1 for round_info in recursive_split_diagnostics if round_info.get("accepted"))
     print(f"final_k: {final_k}")
     print(f"cluster_sizes: {report['cluster_sizes']}")
+    if not args.disable_recursive_splitting:
+        print(f"recursive_splits_applied: {applied_recursive_splits}")
     print(f"wrote: {out_dir / 'playlist_cluster_assignments.json'}")
     print(f"wrote: {out_dir / 'playlist_cluster_summary.json'}")
     print(f"wrote: {out_dir / 'playlist_clustering_report.json'}")
