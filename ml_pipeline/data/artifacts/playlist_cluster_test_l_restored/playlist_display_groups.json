@@ -29,8 +29,8 @@
       "mood happy / happy",
       "timbre / bright",
       "mood sad / sad",
-      "mood relaxed / relaxed",
-      "voice instrumental / instrumental"
+      "voice instrumental / instrumental",
+      "mood relaxed / relaxed"
     ],
     "sample_tracks": [
       "Magnolia \u2014 Playboi Carti",
@@ -65,9 +65,7 @@
       "mixed vibe cluster"
     ],
     "top_descriptors": [
-      "voice instrumental / instrumental",
-      "mood electronic / electronic",
-      "mood relaxed / relaxed"
+      "voice instrumental / instrumental"
     ],
     "sample_tracks": [
       "drive ME crazy! \u2014 Lil Yachty, Diana Gordon",
@@ -82,44 +80,6 @@
       "TELEKINESIS (feat. SZA & Future) \u2014 Travis Scott, SZA, Future",
       "Love Is Only a Feeling \u2014 Joey Bada$$",
       "ILoveUIHateU \u2014 Playboi Carti"
-    ]
-  },
-  {
-    "display_group": "Jazz / Nujabes / Downtempo",
-    "size": 44,
-    "member_cluster_ids": [
-      4,
-      5
-    ],
-    "member_cluster_names": [
-      "rap / hip hop",
-      "jazz / cool jazz"
-    ],
-    "top_descriptors": [
-      "rap",
-      "hip hop",
-      "conscious hip hop",
-      "west coast hip hop",
-      "underground hip hop",
-      "jazz rap",
-      "jazz",
-      "cool jazz",
-      "instrumental",
-      "alternative hip hop"
-    ],
-    "sample_tracks": [
-      "Work Out \u2014 J. Cole",
-      "Money Trees \u2014 Kendrick Lamar, Jay Rock",
-      "Alright \u2014 Kendrick Lamar",
-      "m.A.A.d city \u2014 Kendrick Lamar, MC Eiht",
-      "It Was A Good Day \u2014 Ice Cube",
-      "Enough!! \u2014 A Tribe Called Quest",
-      "King Kunta \u2014 Kendrick Lamar",
-      "Doomsday \u2014 MF DOOM, Pebbles The Invisible Girl",
-      "PRIDE. \u2014 Kendrick Lamar",
-      "She \u2014 Tyler, The Creator, Frank Ocean",
-      "Luv(sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02",
-      "Luv (sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02"
     ]
   },
   {
@@ -160,15 +120,45 @@
     ]
   },
   {
-    "display_group": "Instrumental / Breakbeat",
-    "size": 17,
+    "display_group": "Rap / Hip-Hop",
+    "size": 37,
+    "member_cluster_ids": [
+      4
+    ],
+    "member_cluster_names": [
+      "rap / hip hop"
+    ],
+    "top_descriptors": [
+      "rap",
+      "hip hop",
+      "conscious hip hop",
+      "west coast hip hop",
+      "underground hip hop",
+      "jazz rap"
+    ],
+    "sample_tracks": [
+      "Work Out \u2014 J. Cole",
+      "Money Trees \u2014 Kendrick Lamar, Jay Rock",
+      "Alright \u2014 Kendrick Lamar",
+      "m.A.A.d city \u2014 Kendrick Lamar, MC Eiht",
+      "It Was A Good Day \u2014 Ice Cube",
+      "Enough!! \u2014 A Tribe Called Quest",
+      "King Kunta \u2014 Kendrick Lamar",
+      "Doomsday \u2014 MF DOOM, Pebbles The Invisible Girl",
+      "PRIDE. \u2014 Kendrick Lamar",
+      "She \u2014 Tyler, The Creator, Frank Ocean"
+    ]
+  },
+  {
+    "display_group": "Jazz / Nujabes / Downtempo",
+    "size": 19,
     "member_cluster_ids": [
       1,
-      2
+      5
     ],
     "member_cluster_names": [
       "cool jazz / jazz",
-      "breakbeat / soundtrack"
+      "jazz / cool jazz"
     ],
     "top_descriptors": [
       "cool jazz",
@@ -176,11 +166,8 @@
       "instrumental",
       "downtempo",
       "alternative hip hop",
-      "breakbeat",
-      "soundtrack",
-      "hip hop instrumental hip hop",
-      "instrumentalhiphop",
-      "trip hop"
+      "jazz rap",
+      "electronic"
     ],
     "sample_tracks": [
       "Lady Brown (feat. Cise Starr from CYNE) \u2014 Nujabes, Cise Starr",
@@ -193,8 +180,8 @@
       "Latitude -remix (feat. Five Deez) \u2014 Nujabes, Five Deez",
       "F.I.L.O. (feat. Shing02) \u2014 Nujabes, Shing02",
       "The Final View \u2014 Nujabes",
-      "sanctuary ship \u2014 Nujabes",
-      "just forget \u2014 Force Of Nature"
+      "Luv(sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02",
+      "Luv (sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02"
     ]
   },
   {
@@ -222,6 +209,32 @@
       "Nightcrawler (feat. Swae Lee & Chief Keef) \u2014 Travis Scott, Swae Lee, Chief Keef",
       "Ok Alright (feat. ScHoolboy Q) \u2014 Travis Scott, ScHoolboy Q",
       "LVL \u2014 A$AP Rocky"
+    ]
+  },
+  {
+    "display_group": "Instrumental / Breakbeat",
+    "size": 5,
+    "member_cluster_ids": [
+      2
+    ],
+    "member_cluster_names": [
+      "breakbeat / soundtrack"
+    ],
+    "top_descriptors": [
+      "breakbeat",
+      "soundtrack",
+      "hip hop instrumental hip hop",
+      "instrumentalhiphop",
+      "downtempo",
+      "instrumental",
+      "trip hop"
+    ],
+    "sample_tracks": [
+      "sanctuary ship \u2014 Nujabes",
+      "just forget \u2014 Force Of Nature",
+      "tsurugi no mai \u2014 Nujabes",
+      "Who's Theme \u2014 MINMI",
+      "HIIZURU STYLE \u2014 Force Of Nature, Suiken, S-Word"
     ]
   }
 ]
