@@ -1,0 +1,5267 @@
+[
+  {
+    "row": 0,
+    "track_id": "spotify:2eAZfqOm4EnOF9VvN50Tyc",
+    "canonical_key": "isrc:USAT21703429",
+    "title": "The Way Life Goes (feat. Oh Wonder)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Oh Wonder"
+    ],
+    "year": 2017,
+    "spotify_id": "2eAZfqOm4EnOF9VvN50Tyc",
+    "spotify_uri": null,
+    "isrc": "USAT21703429",
+    "musicbrainz_recording_id": "17bbadda-6ba1-4c48-b9c2-f760bbe2a86c",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 1,
+    "track_id": "spotify:2wAJTrFhCnQyNSD3oUgTZO",
+    "canonical_key": "isrc:USQX91100801",
+    "title": "Work Out",
+    "artists": [
+      "J. Cole"
+    ],
+    "year": 2011,
+    "spotify_id": "2wAJTrFhCnQyNSD3oUgTZO",
+    "spotify_uri": null,
+    "isrc": "USQX91100801",
+    "musicbrainz_recording_id": "de6f80b9-f935-4f37-8354-45cb24bb00ca",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 7
+  },
+  {
+    "row": 2,
+    "track_id": "spotify:4uhvMW7ly7tJil31YYscAN",
+    "canonical_key": "isrc:USAT21602379",
+    "title": "Erase Your Social",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2016,
+    "spotify_id": "4uhvMW7ly7tJil31YYscAN",
+    "spotify_uri": null,
+    "isrc": "USAT21602379",
+    "musicbrainz_recording_id": "85be392a-fef4-4a42-9e7c-9d242979a28d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 3,
+    "track_id": "spotify:0uxSUdBrJy9Un0EYoBowng",
+    "canonical_key": "isrc:USAT21704166",
+    "title": "20 Min",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2017,
+    "spotify_id": "0uxSUdBrJy9Un0EYoBowng",
+    "spotify_uri": null,
+    "isrc": "USAT21704166",
+    "musicbrainz_recording_id": "f59bc7f4-bfd1-4b14-acb0-b8b6c58786c5",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 4,
+    "track_id": "spotify:5mCPDVBb16L4XQwDdbRUpz",
+    "canonical_key": "isrc:USCM51700072",
+    "title": "Passionfruit",
+    "artists": [
+      "Drake"
+    ],
+    "year": 2017,
+    "spotify_id": "5mCPDVBb16L4XQwDdbRUpz",
+    "spotify_uri": null,
+    "isrc": "USCM51700072",
+    "musicbrainz_recording_id": "8eccc484-bba1-4ca0-8600-41c8be9976a9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 5,
+    "track_id": "spotify:2xyBvir9n474qfsOkxXMgx",
+    "canonical_key": "isrc:USUM71703106",
+    "title": "Flex",
+    "artists": [
+      "Playboi Carti",
+      "Leven Kali"
+    ],
+    "year": 2017,
+    "spotify_id": "2xyBvir9n474qfsOkxXMgx",
+    "spotify_uri": null,
+    "isrc": "USUM71703106",
+    "musicbrainz_recording_id": "142643f8-8b31-42bb-9080-9046e78d589d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 6,
+    "track_id": "spotify:3yk7PJnryiJ8mAPqsrujzf",
+    "canonical_key": "isrc:USUM71616271",
+    "title": "Location",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "3yk7PJnryiJ8mAPqsrujzf",
+    "spotify_uri": null,
+    "isrc": "USUM71616271",
+    "musicbrainz_recording_id": "96475c55-ae4b-4889-b9f6-d516c4a7c517",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 7,
+    "track_id": "spotify:0wXuerDYiBnERgIpbb3JBR",
+    "canonical_key": "mbid:e493730c-06d8-40b6-9c9e-c86dcc85ca4b",
+    "title": "Redbone",
+    "artists": [
+      "Childish Gambino"
+    ],
+    "year": 2016,
+    "spotify_id": "0wXuerDYiBnERgIpbb3JBR",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "e493730c-06d8-40b6-9c9e-c86dcc85ca4b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 8,
+    "track_id": "spotify:1zi7xx7UVEFkmKfv06H8x0",
+    "canonical_key": "isrc:USCM51600028",
+    "title": "One Dance",
+    "artists": [
+      "Drake",
+      "Wizkid",
+      "Kyla"
+    ],
+    "year": 2016,
+    "spotify_id": "1zi7xx7UVEFkmKfv06H8x0",
+    "spotify_uri": null,
+    "isrc": "USCM51600028",
+    "musicbrainz_recording_id": "be9e4a6b-3f56-468a-aa61-b1bcb6fc277f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 9,
+    "track_id": "spotify:51EC3I1nQXpec4gDk0mQyP",
+    "canonical_key": "isrc:USSM11506731",
+    "title": "90210 (feat. Kacy Hill)",
+    "artists": [
+      "Travis Scott",
+      "Kacy Hill"
+    ],
+    "year": 2015,
+    "spotify_id": "51EC3I1nQXpec4gDk0mQyP",
+    "spotify_uri": null,
+    "isrc": "USSM11506731",
+    "musicbrainz_recording_id": "92155ba2-b134-4f38-b964-1d80eb1bd75e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 10,
+    "track_id": "spotify:4IWGnyOHDrVZEtPWfs4s7q",
+    "canonical_key": "isrc:USAT21602372",
+    "title": "Do What I Want",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2016,
+    "spotify_id": "4IWGnyOHDrVZEtPWfs4s7q",
+    "spotify_uri": null,
+    "isrc": "USAT21602372",
+    "musicbrainz_recording_id": "79a1ff0f-53c1-4a14-a889-6035c964e0d5",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 11,
+    "track_id": "spotify:2HbKqm4o0w5wEeEFXm2sD4",
+    "canonical_key": "isrc:USUM71210785",
+    "title": "Money Trees",
+    "artists": [
+      "Kendrick Lamar",
+      "Jay Rock"
+    ],
+    "year": 2012,
+    "spotify_id": "2HbKqm4o0w5wEeEFXm2sD4",
+    "spotify_uri": null,
+    "isrc": "USUM71210785",
+    "musicbrainz_recording_id": "c294757b-0430-4eb4-ae7a-6abcffb87405",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 12,
+    "track_id": "spotify:1e1JKLEDKP7hEQzJfNAgPl",
+    "canonical_key": "isrc:USUM71703095",
+    "title": "Magnolia",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "1e1JKLEDKP7hEQzJfNAgPl",
+    "spotify_uri": null,
+    "isrc": "USUM71703095",
+    "musicbrainz_recording_id": "75a38235-5db3-4545-bd4c-e4de9baee068",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 13,
+    "track_id": "spotify:2aSC2xhRxOLiiZZVjhbylH",
+    "canonical_key": "isrc:USCM51300762",
+    "title": "Hold On, We're Going Home",
+    "artists": [
+      "Drake",
+      "Majid Jordan"
+    ],
+    "year": 2013,
+    "spotify_id": "2aSC2xhRxOLiiZZVjhbylH",
+    "spotify_uri": null,
+    "isrc": "USCM51300762",
+    "musicbrainz_recording_id": "8e22b46f-fb2d-420a-876a-e7bb60aa840f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 14,
+    "track_id": "spotify:2aPTvyE09vUCRwVvj0I8WK",
+    "canonical_key": "isrc:USRC11803252",
+    "title": "Sundress",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "year": 2018,
+    "spotify_id": "2aPTvyE09vUCRwVvj0I8WK",
+    "spotify_uri": null,
+    "isrc": "USRC11803252",
+    "musicbrainz_recording_id": "2310544e-003a-4d85-aa96-634a55023954",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 15,
+    "track_id": "spotify:62vpWI1CHwFy7tMIcSStl8",
+    "canonical_key": "mbid:91081d1f-9419-4036-86ca-4db2b2d320c4",
+    "title": "No Role Modelz",
+    "artists": [
+      "J. Cole"
+    ],
+    "year": 2014,
+    "spotify_id": "62vpWI1CHwFy7tMIcSStl8",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "91081d1f-9419-4036-86ca-4db2b2d320c4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 16,
+    "track_id": "spotify:2ANLarE8yHVsLWW21nj79M",
+    "canonical_key": "isrc:USAT21601721",
+    "title": "You Was Right",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2016,
+    "spotify_id": "2ANLarE8yHVsLWW21nj79M",
+    "spotify_uri": null,
+    "isrc": "USAT21601721",
+    "musicbrainz_recording_id": "d5fd5bca-505a-4329-aa9f-8eb5cb951bc0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 17,
+    "track_id": "spotify:6PGoSes0D9eUDeeAafB2As",
+    "canonical_key": "isrc:USUM71703088",
+    "title": "LOVE. FEAT. ZACARI.",
+    "artists": [
+      "Kendrick Lamar",
+      "Zacari"
+    ],
+    "year": 2017,
+    "spotify_id": "6PGoSes0D9eUDeeAafB2As",
+    "spotify_uri": null,
+    "isrc": "USUM71703088",
+    "musicbrainz_recording_id": "7766ea21-d94e-4f7b-966d-2d2e2b1f137f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 18,
+    "track_id": "spotify:4IO2X2YoXoUMv0M2rwomLC",
+    "canonical_key": "isrc:USUM71804186",
+    "title": "Long Time - Intro",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "4IO2X2YoXoUMv0M2rwomLC",
+    "spotify_uri": null,
+    "isrc": "USUM71804186",
+    "musicbrainz_recording_id": "d8f1e3f6-c2b9-460d-8282-8874bb59d6ba",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 19,
+    "track_id": "spotify:6gBFPUFcJLzWGx4lenP6h2",
+    "canonical_key": "isrc:USSM11607555",
+    "title": "goosebumps",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2016,
+    "spotify_id": "6gBFPUFcJLzWGx4lenP6h2",
+    "spotify_uri": null,
+    "isrc": "USSM11607555",
+    "musicbrainz_recording_id": "05b394e8-3b2c-4cc4-9a2c-cbe2814d362c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 20,
+    "track_id": "spotify:4gh0ZnHzaTMT1sDga7Ek0N",
+    "canonical_key": "isrc:USSM11607552",
+    "title": "sdp interlude",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2016,
+    "spotify_id": "4gh0ZnHzaTMT1sDga7Ek0N",
+    "spotify_uri": null,
+    "isrc": "USSM11607552",
+    "musicbrainz_recording_id": "f2c1ef66-a862-4570-87c5-c9110beb51bb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 21,
+    "track_id": "spotify:0ESJlaM8CE1jRWaNtwSNj8",
+    "canonical_key": "isrc:USSM11607551",
+    "title": "beibs in the trap",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2016,
+    "spotify_id": "0ESJlaM8CE1jRWaNtwSNj8",
+    "spotify_uri": null,
+    "isrc": "USSM11607551",
+    "musicbrainz_recording_id": "d7121a8c-9b79-4b4e-aa8b-e89cacf41e8f",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 22,
+    "track_id": "spotify:6OaVWaGfhXn70ZJfdVcabn",
+    "canonical_key": "isrc:USSM11806663",
+    "title": "NO BYSTANDERS",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "6OaVWaGfhXn70ZJfdVcabn",
+    "spotify_uri": null,
+    "isrc": "USSM11806663",
+    "musicbrainz_recording_id": "dbc22816-428e-4194-9b53-d2a5cdc1b983",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 23,
+    "track_id": "spotify:46mT9NR7N9Zf5MolcrBgE3",
+    "canonical_key": "isrc:USAT22001363",
+    "title": "Chrome Heart Tags",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2020,
+    "spotify_id": "46mT9NR7N9Zf5MolcrBgE3",
+    "spotify_uri": null,
+    "isrc": "USAT22001363",
+    "musicbrainz_recording_id": "4f416f00-6824-446c-bb6d-963fa6c3ef63",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 24,
+    "track_id": "spotify:6Yqmv7XJLCrQEauMbPGZSw",
+    "canonical_key": "isrc:USSM11506736",
+    "title": "Maria I'm Drunk (feat. Justin Bieber & Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Justin Bieber",
+      "Young Thug"
+    ],
+    "year": 2015,
+    "spotify_id": "6Yqmv7XJLCrQEauMbPGZSw",
+    "spotify_uri": null,
+    "isrc": "USSM11506736",
+    "musicbrainz_recording_id": "f3f44d7c-0a28-4fcd-9eb7-0837acdb702a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 25,
+    "track_id": "spotify:1MJErNPIQUoEMu4YUUmecm",
+    "canonical_key": "isrc:USAT21703432",
+    "title": "Neon Guts (feat. Pharrell Williams)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Pharrell Williams"
+    ],
+    "year": 2017,
+    "spotify_id": "1MJErNPIQUoEMu4YUUmecm",
+    "spotify_uri": null,
+    "isrc": "USAT21703432",
+    "musicbrainz_recording_id": "8dd39f7b-be6e-4b0a-87c9-c02ddf5dccd4",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 26,
+    "track_id": "spotify:3iVcZ5G6tvkXZkZKlMpIUs",
+    "canonical_key": "isrc:USUM71502498",
+    "title": "Alright",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2015,
+    "spotify_id": "3iVcZ5G6tvkXZkZKlMpIUs",
+    "spotify_uri": null,
+    "isrc": "USUM71502498",
+    "musicbrainz_recording_id": "b5e1e12f-8832-4ba4-b772-de15e2db2009",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 27,
+    "track_id": "spotify:2N3U8uTYhjX2KwGT0pf5x0",
+    "canonical_key": "isrc:USRC11500811",
+    "title": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
+    "artists": [
+      "A$AP Rocky",
+      "Rod Stewart",
+      "Miguel",
+      "Mark Ronson"
+    ],
+    "year": 2015,
+    "spotify_id": "2N3U8uTYhjX2KwGT0pf5x0",
+    "spotify_uri": null,
+    "isrc": "USRC11500811",
+    "musicbrainz_recording_id": "77a89ec3-8958-4365-85c1-c1b945217462",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 28,
+    "track_id": "spotify:2cYqizR4lgvp4Qu6IQ3qGN",
+    "canonical_key": "isrc:USSM11704799",
+    "title": "BUTTERFLY EFFECT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "2cYqizR4lgvp4Qu6IQ3qGN",
+    "spotify_uri": null,
+    "isrc": "USSM11704799",
+    "musicbrainz_recording_id": "303107f3-8bf0-4850-a0db-6b906954475f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 29,
+    "track_id": "spotify:51pshtuYkgUQnt5huMPbKL",
+    "canonical_key": "mbid:f48c8842-95c7-4fb2-9b3a-82cde7be8bd7",
+    "title": "The Spins",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2010,
+    "spotify_id": "51pshtuYkgUQnt5huMPbKL",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f48c8842-95c7-4fb2-9b3a-82cde7be8bd7",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 30,
+    "track_id": "spotify:56XhZKFVFeylLeAELp6pdE",
+    "canonical_key": "mbid:2f5fca2f-c89f-4f24-8fe5-0be0f2a389bf",
+    "title": "Best Day Ever",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2016,
+    "spotify_id": "56XhZKFVFeylLeAELp6pdE",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "2f5fca2f-c89f-4f24-8fe5-0be0f2a389bf",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 31,
+    "track_id": "spotify:21UkXrc9kD48rNpTMI2ecz",
+    "canonical_key": "isrc:USUM72107053",
+    "title": "NEVER LEFT",
+    "artists": [
+      "Lil Tecca"
+    ],
+    "year": 2021,
+    "spotify_id": "21UkXrc9kD48rNpTMI2ecz",
+    "spotify_uri": null,
+    "isrc": "USUM72107053",
+    "musicbrainz_recording_id": "709e504c-bdf3-47b1-ab97-711ca1e74a88",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 32,
+    "track_id": "spotify:2cDCojn6uIBM6A5xTAbl3H",
+    "canonical_key": "isrc:USUM71210784",
+    "title": "m.A.A.d city",
+    "artists": [
+      "Kendrick Lamar",
+      "MC Eiht"
+    ],
+    "year": 2012,
+    "spotify_id": "2cDCojn6uIBM6A5xTAbl3H",
+    "spotify_uri": null,
+    "isrc": "USUM71210784",
+    "musicbrainz_recording_id": "d142987d-69a5-426c-8d41-20ce2cc1534b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 33,
+    "track_id": "spotify:27a1mYSG5tYg7dmEjWBcmL",
+    "canonical_key": "isrc:USSM11806670",
+    "title": "CAN'T SAY",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "27a1mYSG5tYg7dmEjWBcmL",
+    "spotify_uri": null,
+    "isrc": "USSM11806670",
+    "musicbrainz_recording_id": "cb958c46-7d58-4982-8a5a-d53dac13dee9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 34,
+    "track_id": "spotify:7pbg3ABlAZv2NiIdKbBBFm",
+    "canonical_key": "isrc:USUG12001906",
+    "title": "Up Up And Away",
+    "artists": [
+      "Juice WRLD"
+    ],
+    "year": 2020,
+    "spotify_id": "7pbg3ABlAZv2NiIdKbBBFm",
+    "spotify_uri": null,
+    "isrc": "USUG12001906",
+    "musicbrainz_recording_id": "35066bc7-f980-42a3-96f1-900c0184be7f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 35,
+    "track_id": "spotify:3GXSywNvYLAVUCtjMHkKDh",
+    "canonical_key": "isrc:USUYG1228093",
+    "title": "E. Coli (feat. Earl Sweatshirt)",
+    "artists": [
+      "The Alchemist",
+      "Earl Sweatshirt"
+    ],
+    "year": 2018,
+    "spotify_id": "3GXSywNvYLAVUCtjMHkKDh",
+    "spotify_uri": null,
+    "isrc": "USUYG1228093",
+    "musicbrainz_recording_id": "29445eb1-c975-4fb4-bd07-688cb1a57b3f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 36,
+    "track_id": "spotify:2qOm7ukLyHUXWyR4ZWLwxA",
+    "canonical_key": "isrc:USPO19250006",
+    "title": "It Was A Good Day",
+    "artists": [
+      "Ice Cube"
+    ],
+    "year": 1992,
+    "spotify_id": "2qOm7ukLyHUXWyR4ZWLwxA",
+    "spotify_uri": null,
+    "isrc": "USPO19250006",
+    "musicbrainz_recording_id": "8eb77eca-2524-41e1-9282-a8615cd6ced5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 37,
+    "track_id": "spotify:11kDth1aKUEUMq9r1pqyds",
+    "canonical_key": "isrc:USSM11806666",
+    "title": "5% TINT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "11kDth1aKUEUMq9r1pqyds",
+    "spotify_uri": null,
+    "isrc": "USSM11806666",
+    "musicbrainz_recording_id": "346c5920-4b36-4472-9447-139d2c9e4560",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 38,
+    "track_id": "spotify:6NMtzpDQBTOfJwMzgMX0zl",
+    "canonical_key": "isrc:USSM11806664",
+    "title": "SKELETONS",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "6NMtzpDQBTOfJwMzgMX0zl",
+    "spotify_uri": null,
+    "isrc": "USSM11806664",
+    "musicbrainz_recording_id": "69ebbc04-b1d5-4829-b836-850ae4614c71",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 39,
+    "track_id": "spotify:393MDhe62s8hbH8ETrlxe5",
+    "canonical_key": "isrc:USUM71025042",
+    "title": "Mr. Rager",
+    "artists": [
+      "Kid Cudi"
+    ],
+    "year": 2010,
+    "spotify_id": "393MDhe62s8hbH8ETrlxe5",
+    "spotify_uri": null,
+    "isrc": "USUM71025042",
+    "musicbrainz_recording_id": "858ebfac-1ae5-4f12-b55d-87e7a6c55b35",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 40,
+    "track_id": "spotify:5bJ1DrEM4hNCafcDd1oxHx",
+    "canonical_key": "isrc:USWB11801215",
+    "title": "Self Care",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2018,
+    "spotify_id": "5bJ1DrEM4hNCafcDd1oxHx",
+    "spotify_uri": null,
+    "isrc": "USWB11801215",
+    "musicbrainz_recording_id": "03c4adcf-2f31-42d7-bcd5-056d68066f90",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 41,
+    "track_id": "spotify:1WvGWCDuj0dfRpuBuYecXp",
+    "canonical_key": "isrc:USSM11609286",
+    "title": "Enough!!",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 2016,
+    "spotify_id": "1WvGWCDuj0dfRpuBuYecXp",
+    "spotify_uri": null,
+    "isrc": "USSM11609286",
+    "musicbrainz_recording_id": "764a9064-5a35-48e9-949a-b8e1076cd420",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 42,
+    "track_id": "spotify:4s7QLoImIwmPi9L6dq1nVW",
+    "canonical_key": "isrc:USUG12104404",
+    "title": "TSU",
+    "artists": [
+      "Drake"
+    ],
+    "year": 2021,
+    "spotify_id": "4s7QLoImIwmPi9L6dq1nVW",
+    "spotify_uri": null,
+    "isrc": "USUG12104404",
+    "musicbrainz_recording_id": "ff5ccba1-b83b-4a7d-b676-1f717c2467e3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 43,
+    "track_id": "spotify:11pEKMLmavDu8fxOB5QjbQ",
+    "canonical_key": "isrc:USUG12104406",
+    "title": "Pipe Down",
+    "artists": [
+      "Drake"
+    ],
+    "year": 2021,
+    "spotify_id": "11pEKMLmavDu8fxOB5QjbQ",
+    "spotify_uri": null,
+    "isrc": "USUG12104406",
+    "musicbrainz_recording_id": "77f956a4-3947-4ad2-902e-445230dc6de4",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 44,
+    "track_id": "spotify:3rpspE93T6g8IDWPsbskxs",
+    "canonical_key": "isrc:USUM71502567",
+    "title": "Wesley's Theory",
+    "artists": [
+      "Kendrick Lamar",
+      "George Clinton",
+      "Thundercat"
+    ],
+    "year": 2015,
+    "spotify_id": "3rpspE93T6g8IDWPsbskxs",
+    "spotify_uri": null,
+    "isrc": "USUM71502567",
+    "musicbrainz_recording_id": "1150b931-f7bc-455d-b733-3df1d3f781ea",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 45,
+    "track_id": "spotify:3pjUyVbFmM96tYhSaKJwTt",
+    "canonical_key": "isrc:QMJMT1601086",
+    "title": "Change",
+    "artists": [
+      "J. Cole"
+    ],
+    "year": 2016,
+    "spotify_id": "3pjUyVbFmM96tYhSaKJwTt",
+    "spotify_uri": null,
+    "isrc": "QMJMT1601086",
+    "musicbrainz_recording_id": "17ab3870-aab3-4a94-877f-4f4fc5459147",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 46,
+    "track_id": "spotify:0N3W5peJUQtI4eyR6GJT5O",
+    "canonical_key": "isrc:USUM71502494",
+    "title": "King Kunta",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2015,
+    "spotify_id": "0N3W5peJUQtI4eyR6GJT5O",
+    "spotify_uri": null,
+    "isrc": "USUM71502494",
+    "musicbrainz_recording_id": "2d584d3c-d6ce-40ec-b23a-7b29c687ac07",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 47,
+    "track_id": "spotify:7lT1dCz96jANsLAAADlfIg",
+    "canonical_key": "mbid:2356e949-f493-4911-afb1-de0d470b51dc",
+    "title": "Doomsday",
+    "artists": [
+      "MF DOOM",
+      "Pebbles The Invisible Girl"
+    ],
+    "year": 1999,
+    "spotify_id": "7lT1dCz96jANsLAAADlfIg",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "2356e949-f493-4911-afb1-de0d470b51dc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 48,
+    "track_id": "spotify:6IZvVAP7VPPnsGX6bvgkqg",
+    "canonical_key": "isrc:USUM71703084",
+    "title": "PRIDE.",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2017,
+    "spotify_id": "6IZvVAP7VPPnsGX6bvgkqg",
+    "spotify_uri": null,
+    "isrc": "USUM71703084",
+    "musicbrainz_recording_id": "11ed671b-b2ec-4756-932c-a205e38147f0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 49,
+    "track_id": "spotify:29TPjc8wxfz4XMn21O7VsZ",
+    "canonical_key": "isrc:USUM72024699",
+    "title": "Sky",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "29TPjc8wxfz4XMn21O7VsZ",
+    "spotify_uri": null,
+    "isrc": "USUM72024699",
+    "musicbrainz_recording_id": "509d7ad8-eb0e-47c4-a42a-2b93d54257e6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 50,
+    "track_id": "spotify:5B0kgjHULYJhAQkK5XsMoC",
+    "canonical_key": "isrc:USQX92102132",
+    "title": "WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign)",
+    "artists": [
+      "Tyler, The Creator",
+      "YoungBoy Never Broke Again",
+      "Ty Dolla $ign"
+    ],
+    "year": 2021,
+    "spotify_id": "5B0kgjHULYJhAQkK5XsMoC",
+    "spotify_uri": null,
+    "isrc": "USQX92102132",
+    "musicbrainz_recording_id": "17d17b76-0436-4755-8c12-840bc02eb90d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 51,
+    "track_id": "spotify:1hz7SRTGUNAtIQ46qiNv2p",
+    "canonical_key": "isrc:USQX91901118",
+    "title": "GONE, GONE / THANK YOU",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "1hz7SRTGUNAtIQ46qiNv2p",
+    "spotify_uri": null,
+    "isrc": "USQX91901118",
+    "musicbrainz_recording_id": "fb010874-ff33-45c9-b2f6-4afe146096b0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 52,
+    "track_id": "spotify:5TxRUOsGeWeRl3xOML59Ai",
+    "canonical_key": "isrc:USQX91901168",
+    "title": "ARE WE STILL FRIENDS?",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "5TxRUOsGeWeRl3xOML59Ai",
+    "spotify_uri": null,
+    "isrc": "USQX91901168",
+    "musicbrainz_recording_id": "ed2214b2-f04f-4eec-b41e-ea0ae0d5cae0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 53,
+    "track_id": "spotify:7umZiitjVsEjMQ6HNddpUI",
+    "canonical_key": "isrc:QMKSC1700112",
+    "title": "Love Is Only a Feeling",
+    "artists": [
+      "Joey Bada$$"
+    ],
+    "year": 2017,
+    "spotify_id": "7umZiitjVsEjMQ6HNddpUI",
+    "spotify_uri": null,
+    "isrc": "QMKSC1700112",
+    "musicbrainz_recording_id": "a014b4ce-a94b-4542-b865-445674f3cd92",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 54,
+    "track_id": "spotify:1Is8hGpkGMiePASAxBluxM",
+    "canonical_key": "isrc:USSM12106871",
+    "title": "16",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2021,
+    "spotify_id": "1Is8hGpkGMiePASAxBluxM",
+    "spotify_uri": null,
+    "isrc": "USSM12106871",
+    "musicbrainz_recording_id": "98b74bca-c8e4-4ab2-af68-9ccbb77fd6f4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 55,
+    "track_id": "spotify:29GefKRTSVW3ag4Xegm8jP",
+    "canonical_key": "mbid:1b60814e-418f-423d-981f-c9688465a5af",
+    "title": "Nikes On My Feet",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2010,
+    "spotify_id": "29GefKRTSVW3ag4Xegm8jP",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "1b60814e-418f-423d-981f-c9688465a5af",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 56,
+    "track_id": "spotify:50a8bKqlwDEqeiEknrzkTO",
+    "canonical_key": "isrc:QZ45A1700093",
+    "title": "ball w/o you",
+    "artists": [
+      "21 Savage"
+    ],
+    "year": 2018,
+    "spotify_id": "50a8bKqlwDEqeiEknrzkTO",
+    "spotify_uri": null,
+    "isrc": "QZ45A1700093",
+    "musicbrainz_recording_id": "1f1eebb7-e61a-4b54-aa92-3046ee133e16",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 57,
+    "track_id": "spotify:0SA0mMXWh23raZ6xzOCU2V",
+    "canonical_key": "isrc:GBBKS1100033",
+    "title": "She",
+    "artists": [
+      "Tyler, The Creator",
+      "Frank Ocean"
+    ],
+    "year": 2011,
+    "spotify_id": "0SA0mMXWh23raZ6xzOCU2V",
+    "spotify_uri": null,
+    "isrc": "GBBKS1100033",
+    "musicbrainz_recording_id": "d4d9c3ba-7155-41a9-a4e5-aa69a515a405",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 58,
+    "track_id": "spotify:3diZz7nVRbyuvAXSW7hzI7",
+    "canonical_key": "mbid:d30785d7-d841-4882-8827-672651e4efec",
+    "title": "hooligan",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2021,
+    "spotify_id": "3diZz7nVRbyuvAXSW7hzI7",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "d30785d7-d841-4882-8827-672651e4efec",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 59,
+    "track_id": "spotify:12OkZyDWNBLUqoReoseGrc",
+    "canonical_key": "mbid:3d3d391d-de86-40ec-bd31-a1c7f447c480",
+    "title": "Rhymes Like Dimes",
+    "artists": [
+      "MF DOOM",
+      "DJ Cucumber Slice"
+    ],
+    "year": 1999,
+    "spotify_id": "12OkZyDWNBLUqoReoseGrc",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "3d3d391d-de86-40ec-bd31-a1c7f447c480",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 60,
+    "track_id": "spotify:6G9aDedv5hYaTgNYDuduqk",
+    "canonical_key": "mbid:c6231be9-e769-47d9-b279-bc3a38aca2fe",
+    "title": "trademark usa",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2021,
+    "spotify_id": "6G9aDedv5hYaTgNYDuduqk",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "c6231be9-e769-47d9-b279-bc3a38aca2fe",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 61,
+    "track_id": "spotify:7vy76jf6qE0IvoREJrvZtg",
+    "canonical_key": "spotify:7vy76jf6qE0IvoREJrvZtg",
+    "title": "range brothers (with Kendrick Lamar)",
+    "artists": [
+      "Baby Keem",
+      "Kendrick Lamar"
+    ],
+    "year": 2021,
+    "spotify_id": "7vy76jf6qE0IvoREJrvZtg",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 62,
+    "track_id": "spotify:5hVghJ4KaYES3BFUATCYn0",
+    "canonical_key": "isrc:USQX91901111",
+    "title": "EARFQUAKE",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "5hVghJ4KaYES3BFUATCYn0",
+    "spotify_uri": null,
+    "isrc": "USQX91901111",
+    "musicbrainz_recording_id": "b9648e9e-e8b9-4db1-943e-eb1f6db72257",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 63,
+    "track_id": "spotify:5QvBXUm5MglLJ3iBfTX2Wo",
+    "canonical_key": "isrc:USQX91901114",
+    "title": "RUNNING OUT OF TIME",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "5QvBXUm5MglLJ3iBfTX2Wo",
+    "spotify_uri": null,
+    "isrc": "USQX91901114",
+    "musicbrainz_recording_id": "ed1638ba-a3ab-4bd1-a37b-7ff1c1e52ac7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 64,
+    "track_id": "spotify:0wEC0GNF74lAqrEFZJMl1m",
+    "canonical_key": "isrc:USQX91901117",
+    "title": "PUPPET",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "0wEC0GNF74lAqrEFZJMl1m",
+    "spotify_uri": null,
+    "isrc": "USQX91901117",
+    "musicbrainz_recording_id": "68e5354e-ea11-4ae9-8af4-b3efbc4a2713",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 65,
+    "track_id": "spotify:7KA4W4McWYRpgf0fWsJZWB",
+    "canonical_key": "isrc:USQX91701275",
+    "title": "See You Again (feat. Kali Uchis)",
+    "artists": [
+      "Tyler, The Creator",
+      "Kali Uchis"
+    ],
+    "year": 2017,
+    "spotify_id": "7KA4W4McWYRpgf0fWsJZWB",
+    "spotify_uri": null,
+    "isrc": "USQX91701275",
+    "musicbrainz_recording_id": "e232b26b-2100-4269-9f96-3f3f49c57c2d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 66,
+    "track_id": "spotify:58k32my5lKofeZRtIvBDg9",
+    "canonical_key": "isrc:QM6N21900313",
+    "title": "HONEST",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "58k32my5lKofeZRtIvBDg9",
+    "spotify_uri": null,
+    "isrc": "QM6N21900313",
+    "musicbrainz_recording_id": "d262a298-7c01-468e-a6ea-d7c31a40031b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 67,
+    "track_id": "spotify:7pudclCl5P99Me3P5F9hPC",
+    "canonical_key": "isrc:USAT21504173",
+    "title": "Paradise",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2015,
+    "spotify_id": "7pudclCl5P99Me3P5F9hPC",
+    "spotify_uri": null,
+    "isrc": "USAT21504173",
+    "musicbrainz_recording_id": "b4257309-9965-4b0b-91c0-cd7e38c9e3c3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 68,
+    "track_id": "spotify:2ZWlPOoWh0626oTaHrnl2a",
+    "canonical_key": "isrc:QZ5C81600002",
+    "title": "Ivy",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "2ZWlPOoWh0626oTaHrnl2a",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600002",
+    "musicbrainz_recording_id": "fe8b367d-78ef-4ec3-9c9a-ff3435a65d5b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 69,
+    "track_id": "spotify:3ruoIF2UnoXdzK8mR61ebq",
+    "canonical_key": "isrc:USSM12005348",
+    "title": "Rich Nigga Shit (feat. Young Thug)",
+    "artists": [
+      "21 Savage",
+      "Metro Boomin",
+      "Young Thug"
+    ],
+    "year": 2020,
+    "spotify_id": "3ruoIF2UnoXdzK8mR61ebq",
+    "spotify_uri": null,
+    "isrc": "USSM12005348",
+    "musicbrainz_recording_id": "1d151fc0-219d-42c2-996b-cfa705b4ccef",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 70,
+    "track_id": "spotify:0qtK3XwbuG153dmwB8iepL",
+    "canonical_key": "isrc:USQX91701285",
+    "title": "Glitter",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2017,
+    "spotify_id": "0qtK3XwbuG153dmwB8iepL",
+    "spotify_uri": null,
+    "isrc": "USQX91701285",
+    "musicbrainz_recording_id": "083310d0-fd25-465f-b1b3-06978e618b0b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 71,
+    "track_id": "spotify:5FkoSXiJPKTNyYgALRJFhD",
+    "canonical_key": "isrc:QM6N21900076",
+    "title": "ORANGE SODA",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "5FkoSXiJPKTNyYgALRJFhD",
+    "spotify_uri": null,
+    "isrc": "QM6N21900076",
+    "musicbrainz_recording_id": "08c80e89-2914-4c7a-afaf-83f50bfafa4b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 72,
+    "track_id": "spotify:3QFInJAm9eyaho5vBzxInN",
+    "canonical_key": "isrc:USSM12105949",
+    "title": "family ties (with Kendrick Lamar)",
+    "artists": [
+      "Baby Keem",
+      "Kendrick Lamar"
+    ],
+    "year": 2021,
+    "spotify_id": "3QFInJAm9eyaho5vBzxInN",
+    "spotify_uri": null,
+    "isrc": "USSM12105949",
+    "musicbrainz_recording_id": "d1253e07-ecc6-4136-9fda-a9a089d5cb59",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 73,
+    "track_id": "spotify:3KkXRkHbMCARz0aVfEt68P",
+    "canonical_key": "isrc:USUM71814888",
+    "title": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "artists": [
+      "Post Malone",
+      "Swae Lee"
+    ],
+    "year": 2018,
+    "spotify_id": "3KkXRkHbMCARz0aVfEt68P",
+    "spotify_uri": null,
+    "isrc": "USUM71814888",
+    "musicbrainz_recording_id": "b6df9d04-2303-4ec7-a416-367b06a026cb",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 74,
+    "track_id": "spotify:3L0IKstjUgDFVQAbQIRZRv",
+    "canonical_key": "isrc:USUM71804150",
+    "title": "R.I.P.",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "3L0IKstjUgDFVQAbQIRZRv",
+    "spotify_uri": null,
+    "isrc": "USUM71804150",
+    "musicbrainz_recording_id": "f802669f-45aa-4ec6-8221-26a73739e440",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 75,
+    "track_id": "spotify:4S4Mfvv03M1cHgIOJcbUCL",
+    "canonical_key": "isrc:QM24S1926435",
+    "title": "In My Room",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2019,
+    "spotify_id": "4S4Mfvv03M1cHgIOJcbUCL",
+    "spotify_uri": null,
+    "isrc": "QM24S1926435",
+    "musicbrainz_recording_id": "d6f4dcac-8b4e-41c4-a69d-ae654b4659bd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 76,
+    "track_id": "spotify:6scpNkWEmUxmKY7nYjVLsX",
+    "canonical_key": "isrc:USSM11506739",
+    "title": "Apple Pie",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2015,
+    "spotify_id": "6scpNkWEmUxmKY7nYjVLsX",
+    "spotify_uri": null,
+    "isrc": "USSM11506739",
+    "musicbrainz_recording_id": "976064bd-953f-4b6e-976e-7dad5b362d4e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 77,
+    "track_id": "spotify:6bOkaEXc5CopinGazSLokx",
+    "canonical_key": "isrc:USQX91901167",
+    "title": "WHAT'S GOOD",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "6bOkaEXc5CopinGazSLokx",
+    "spotify_uri": null,
+    "isrc": "USQX91901167",
+    "musicbrainz_recording_id": "70aacf61-07f9-4f59-aa4f-571d03f6419e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 78,
+    "track_id": "spotify:3uYm4MtU6jUQft2DtGqEoZ",
+    "canonical_key": "mbid:0ff1d945-6612-4643-afe7-643e48eb5408",
+    "title": "Knock Knock",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2010,
+    "spotify_id": "3uYm4MtU6jUQft2DtGqEoZ",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "0ff1d945-6612-4643-afe7-643e48eb5408",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 79,
+    "track_id": "spotify:3xby7fOyqmeON8jsnom0AT",
+    "canonical_key": "isrc:USSM11506733",
+    "title": "Nightcrawler (feat. Swae Lee & Chief Keef)",
+    "artists": [
+      "Travis Scott",
+      "Swae Lee",
+      "Chief Keef"
+    ],
+    "year": 2015,
+    "spotify_id": "3xby7fOyqmeON8jsnom0AT",
+    "spotify_uri": null,
+    "isrc": "USSM11506733",
+    "musicbrainz_recording_id": "3a662f09-d248-406c-9dce-e1313b009144",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 80,
+    "track_id": "spotify:544S44LQ1kkDoQLoEkxYNx",
+    "canonical_key": "isrc:USA2P1952944",
+    "title": "Bad Name",
+    "artists": [
+      "Gang Starr"
+    ],
+    "year": 2019,
+    "spotify_id": "544S44LQ1kkDoQLoEkxYNx",
+    "spotify_uri": null,
+    "isrc": "USA2P1952944",
+    "musicbrainz_recording_id": "8868768c-7370-45f3-a74b-1336bb53fca1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 81,
+    "track_id": "spotify:58TaFP5j5i9swOf584yon2",
+    "canonical_key": "isrc:USSM11806671",
+    "title": "HOUSTONFORNICATION",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "58TaFP5j5i9swOf584yon2",
+    "spotify_uri": null,
+    "isrc": "USSM11806671",
+    "musicbrainz_recording_id": "407427a6-ecdb-47e5-8e40-6b1536f47593",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 82,
+    "track_id": "spotify:1lSyZ2SjkS9iJyQmUnUbuc",
+    "canonical_key": "isrc:USUYG1366152",
+    "title": "Loose Change (feat. Earl Sweatshirt)",
+    "artists": [
+      "The Alchemist",
+      "Earl Sweatshirt"
+    ],
+    "year": 2021,
+    "spotify_id": "1lSyZ2SjkS9iJyQmUnUbuc",
+    "spotify_uri": null,
+    "isrc": "USUYG1366152",
+    "musicbrainz_recording_id": "583511a0-81cc-440e-83f2-1f12f0a3ba44",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 83,
+    "track_id": "spotify:0jdcdrTpIzIZGBqBvkgEaC",
+    "canonical_key": "mbid:99ada7c0-7579-4258-9da6-1df0a865c859",
+    "title": "Maytag (Tax Free)",
+    "artists": [
+      "Ben Reilly"
+    ],
+    "year": 2021,
+    "spotify_id": "0jdcdrTpIzIZGBqBvkgEaC",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "99ada7c0-7579-4258-9da6-1df0a865c859",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 84,
+    "track_id": "spotify:2BJSMvOGABRxokHKB0OI8i",
+    "canonical_key": "isrc:USUM71804149",
+    "title": "Shoota (feat. Lil Uzi Vert)",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "year": 2018,
+    "spotify_id": "2BJSMvOGABRxokHKB0OI8i",
+    "spotify_uri": null,
+    "isrc": "USUM71804149",
+    "musicbrainz_recording_id": "e60ae295-4d13-4a01-9ae7-37ba5ec160fd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 85,
+    "track_id": "spotify:0RyA3o15NOLJYtm9NlDu5c",
+    "canonical_key": "isrc:USRC11702071",
+    "title": "Frat Rules (feat. A$AP Rocky, Playboi Carti & Big Sean)",
+    "artists": [
+      "A$AP Mob",
+      "A$AP Rocky",
+      "Playboi Carti",
+      "Big Sean"
+    ],
+    "year": 2017,
+    "spotify_id": "0RyA3o15NOLJYtm9NlDu5c",
+    "spotify_uri": null,
+    "isrc": "USRC11702071",
+    "musicbrainz_recording_id": "9f6632f8-89cc-4dc0-a9a1-c7e73d15f7d7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 86,
+    "track_id": "spotify:078C2jXg7XsMgW78Gfx1JA",
+    "canonical_key": "isrc:USQX91500713",
+    "title": "SMUCKERS (feat. Lil Wayne & Kanye West)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lil Wayne",
+      "Kanye West"
+    ],
+    "year": 2015,
+    "spotify_id": "078C2jXg7XsMgW78Gfx1JA",
+    "spotify_uri": null,
+    "isrc": "USQX91500713",
+    "musicbrainz_recording_id": "3a5c7fa9-cfb3-4b02-b759-19b2cd36af0a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 87,
+    "track_id": "spotify:1jzIJcHCXneHw7ojC6LXiF",
+    "canonical_key": "isrc:USQX91802454",
+    "title": "Potato Salad",
+    "artists": [
+      "Tyler, The Creator",
+      "A$AP Rocky"
+    ],
+    "year": 2018,
+    "spotify_id": "1jzIJcHCXneHw7ojC6LXiF",
+    "spotify_uri": null,
+    "isrc": "USQX91802454",
+    "musicbrainz_recording_id": "d1398bbc-fedf-45ea-9a44-3d3fdfaf3afb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 88,
+    "track_id": "spotify:1BpKJw4RZxaFB88NE5uxXf",
+    "canonical_key": "isrc:USUM72024701",
+    "title": "ILoveUIHateU",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "1BpKJw4RZxaFB88NE5uxXf",
+    "spotify_uri": null,
+    "isrc": "USUM72024701",
+    "musicbrainz_recording_id": "154f87ef-ddff-452c-b81c-cbc91cab35da",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 89,
+    "track_id": "spotify:2gAGWaK4wvt2xrFUlR4mK8",
+    "canonical_key": "isrc:USRC11500797",
+    "title": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+    "artists": [
+      "A$AP Rocky",
+      "Joe Fox",
+      "Kanye West"
+    ],
+    "year": 2015,
+    "spotify_id": "2gAGWaK4wvt2xrFUlR4mK8",
+    "spotify_uri": null,
+    "isrc": "USRC11500797",
+    "musicbrainz_recording_id": "a4eda09d-b751-4b5c-ad79-61d1be0bbb0a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 90,
+    "track_id": "spotify:4pNT8XTKWb2vhcsqwzdXCT",
+    "canonical_key": "isrc:USUYG1202487",
+    "title": "Survival Tactics",
+    "artists": [
+      "Joey Bada$$",
+      "Capital Steez"
+    ],
+    "year": 2012,
+    "spotify_id": "4pNT8XTKWb2vhcsqwzdXCT",
+    "spotify_uri": null,
+    "isrc": "USUYG1202487",
+    "musicbrainz_recording_id": "b03bb46c-1e33-4f3d-b56f-2b365426d4cb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 91,
+    "track_id": "spotify:1s9DTymg5UQrdorZf43JQm",
+    "canonical_key": "isrc:USUM71804159",
+    "title": "Fell In Luv (feat. Bryson Tiller)",
+    "artists": [
+      "Playboi Carti",
+      "Bryson Tiller"
+    ],
+    "year": 2018,
+    "spotify_id": "1s9DTymg5UQrdorZf43JQm",
+    "spotify_uri": null,
+    "isrc": "USUM71804159",
+    "musicbrainz_recording_id": "e6fb95e6-6a94-47ad-91fb-ddfd5688867c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 92,
+    "track_id": "spotify:2TyjVO7KBdGHBvQxAnFFsa",
+    "canonical_key": "mbid:afc2d7a2-fb96-4cbe-896d-99cad88748fc",
+    "title": "Kool Aid & Frozen Pizza",
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2010,
+    "spotify_id": "2TyjVO7KBdGHBvQxAnFFsa",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "afc2d7a2-fb96-4cbe-896d-99cad88748fc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 93,
+    "track_id": "spotify:7dFGkZbmm6cVlI28bfMaWE",
+    "canonical_key": "isrc:USUYG1202500",
+    "title": "Righteous Minds",
+    "artists": [
+      "Joey Bada$$"
+    ],
+    "year": 2012,
+    "spotify_id": "7dFGkZbmm6cVlI28bfMaWE",
+    "spotify_uri": null,
+    "isrc": "USUYG1202500",
+    "musicbrainz_recording_id": "61a9d985-8bd4-431a-9f75-7cfc7e2a8f75",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 94,
+    "track_id": "spotify:6GnhWMhgJb7uyiiPEiEkDA",
+    "canonical_key": "isrc:USWB11508643",
+    "title": "Weekend (feat. Miguel)",
+    "artists": [
+      "Mac Miller",
+      "Miguel"
+    ],
+    "year": 2015,
+    "spotify_id": "6GnhWMhgJb7uyiiPEiEkDA",
+    "spotify_uri": null,
+    "isrc": "USWB11508643",
+    "musicbrainz_recording_id": "6215764c-da3c-48be-aca5-309c86caef58",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 95,
+    "track_id": "spotify:4KjnaUNYPwGnJjoeTFlt91",
+    "canonical_key": "isrc:USUM71210775",
+    "title": "Now Or Never - Bonus Track",
+    "artists": [
+      "Kendrick Lamar",
+      "Mary J. Blige"
+    ],
+    "year": 2012,
+    "spotify_id": "4KjnaUNYPwGnJjoeTFlt91",
+    "spotify_uri": null,
+    "isrc": "USUM71210775",
+    "musicbrainz_recording_id": "f0ffd14d-f858-44a4-888a-f245b91b789f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 96,
+    "track_id": "spotify:712uvW1Vezq8WpQi38v2L9",
+    "canonical_key": "isrc:USUM71210774",
+    "title": "Bitch, Don’t Kill My Vibe",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2012,
+    "spotify_id": "712uvW1Vezq8WpQi38v2L9",
+    "spotify_uri": null,
+    "isrc": "USUM71210774",
+    "musicbrainz_recording_id": "54494123-9670-4b2d-83ad-85c46c8f5200",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 97,
+    "track_id": "spotify:0d0jsoba88SpOoFxCxA2rZ",
+    "canonical_key": "isrc:USUM71210778",
+    "title": "The Art of Peer Pressure",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2012,
+    "spotify_id": "0d0jsoba88SpOoFxCxA2rZ",
+    "spotify_uri": null,
+    "isrc": "USUM71210778",
+    "musicbrainz_recording_id": "fd83178d-c064-4689-9c09-bef8f1c4cad9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 98,
+    "track_id": "spotify:5vuJuBqwzHJgCA1ysRfwxZ",
+    "canonical_key": "isrc:USUM71211006",
+    "title": "good kid",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2012,
+    "spotify_id": "5vuJuBqwzHJgCA1ysRfwxZ",
+    "spotify_uri": null,
+    "isrc": "USUM71211006",
+    "musicbrainz_recording_id": "421d5f93-107c-46b3-953e-cad600e1e25c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 99,
+    "track_id": "spotify:3GZD6HmiNUhxXYf8Gch723",
+    "canonical_key": "isrc:USUM71207186",
+    "title": "Lost",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2012,
+    "spotify_id": "3GZD6HmiNUhxXYf8Gch723",
+    "spotify_uri": null,
+    "isrc": "USUM71207186",
+    "musicbrainz_recording_id": "88429f7d-3407-4a8c-8741-e072e03fc71f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 100,
+    "track_id": "spotify:0725YWm6Z0TpZ6wrNk64Eb",
+    "canonical_key": "isrc:USUM71207196",
+    "title": "Super Rich Kids",
+    "artists": [
+      "Frank Ocean",
+      "Earl Sweatshirt"
+    ],
+    "year": 2012,
+    "spotify_id": "0725YWm6Z0TpZ6wrNk64Eb",
+    "spotify_uri": null,
+    "isrc": "USUM71207196",
+    "musicbrainz_recording_id": "b76012a9-8b64-434d-95a4-8cb2550a83fc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 101,
+    "track_id": "spotify:5lcyIeEfwZTs8Ajw3kdF7P",
+    "canonical_key": "isrc:USUM71207184",
+    "title": "Crack Rock",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2012,
+    "spotify_id": "5lcyIeEfwZTs8Ajw3kdF7P",
+    "spotify_uri": null,
+    "isrc": "USUM71207184",
+    "musicbrainz_recording_id": "586ec6b1-0725-4825-84ec-54f0e9dd3855",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 102,
+    "track_id": "spotify:0msrDPXxZpts4FRnoX0bFr",
+    "canonical_key": "isrc:USUM71207188",
+    "title": "Monks",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2012,
+    "spotify_id": "0msrDPXxZpts4FRnoX0bFr",
+    "spotify_uri": null,
+    "isrc": "USUM71207188",
+    "musicbrainz_recording_id": "e53b9c87-fa13-4b9d-b727-85e1b8d01eea",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 103,
+    "track_id": "spotify:3xKsf9qdS1CyvXSMEid6g8",
+    "canonical_key": "isrc:QZ5C81600003",
+    "title": "Pink + White",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "3xKsf9qdS1CyvXSMEid6g8",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600003",
+    "musicbrainz_recording_id": "d90934be-302a-4e0d-a1dd-b94df3421f33",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 104,
+    "track_id": "spotify:5GUYJTQap5F3RDQiCOJhrS",
+    "canonical_key": "isrc:QZ5C81600007",
+    "title": "Self Control",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "5GUYJTQap5F3RDQiCOJhrS",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600007",
+    "musicbrainz_recording_id": "039326dc-e853-4de8-84c5-dd91c31d4256",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 105,
+    "track_id": "spotify:2LMkwUfqC6S6s6qDVlEuzV",
+    "canonical_key": "isrc:QZ5C81600014",
+    "title": "White Ferrari",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "2LMkwUfqC6S6s6qDVlEuzV",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600014",
+    "musicbrainz_recording_id": "a1f25623-f56c-4f36-bcce-67488d04e7cc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 106,
+    "track_id": "spotify:4S7YHmlWwfwArgd8LfSPud",
+    "canonical_key": "isrc:USRC11500789",
+    "title": "L$D",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "year": 2015,
+    "spotify_id": "4S7YHmlWwfwArgd8LfSPud",
+    "spotify_uri": null,
+    "isrc": "USRC11500789",
+    "musicbrainz_recording_id": "931200ce-caeb-401e-a875-c542ef929647",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 107,
+    "track_id": "spotify:7uWVT3UkCAZyANvv0bdyQn",
+    "canonical_key": "isrc:USUM71502496",
+    "title": "These Walls",
+    "artists": [
+      "Kendrick Lamar",
+      "Bilal",
+      "Anna Wise",
+      "Thundercat"
+    ],
+    "year": 2015,
+    "spotify_id": "7uWVT3UkCAZyANvv0bdyQn",
+    "spotify_uri": null,
+    "isrc": "USUM71502496",
+    "musicbrainz_recording_id": "500212ba-0292-435d-96cc-f6aeb4829a58",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 108,
+    "track_id": "spotify:4WEuEfFiczWxblHyuucSBL",
+    "canonical_key": "isrc:USUYG1008115",
+    "title": "HiiiPower",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2011,
+    "spotify_id": "4WEuEfFiczWxblHyuucSBL",
+    "spotify_uri": null,
+    "isrc": "USUYG1008115",
+    "musicbrainz_recording_id": "5339459c-d3b2-44c8-bf30-11feb9d2db87",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 109,
+    "track_id": "spotify:0y9uTzK9cNKSAEHnpeRG8C",
+    "canonical_key": "isrc:USUM71703379",
+    "title": "DUCKWORTH.",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2017,
+    "spotify_id": "0y9uTzK9cNKSAEHnpeRG8C",
+    "spotify_uri": null,
+    "isrc": "USUM71703379",
+    "musicbrainz_recording_id": "9488e575-4c2c-4a30-a064-14b02acbe1ac",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 110,
+    "track_id": "spotify:475jSz0H6U3duJyNiDS0tT",
+    "canonical_key": "isrc:USUM71804157",
+    "title": "Right Now (feat. Pi'erre Bourne)",
+    "artists": [
+      "Playboi Carti",
+      "Pi’erre Bourne"
+    ],
+    "year": 2018,
+    "spotify_id": "475jSz0H6U3duJyNiDS0tT",
+    "spotify_uri": null,
+    "isrc": "USUM71804157",
+    "musicbrainz_recording_id": "16189c0a-bbc0-43ad-9371-b61b4298b4ed",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 111,
+    "track_id": "spotify:4b82tXj35SycILuILcgBQ6",
+    "canonical_key": "isrc:USBWK0700038",
+    "title": "Hoe Cakes",
+    "artists": [
+      "MF DOOM"
+    ],
+    "year": 2004,
+    "spotify_id": "4b82tXj35SycILuILcgBQ6",
+    "spotify_uri": null,
+    "isrc": "USBWK0700038",
+    "musicbrainz_recording_id": "922785c8-2e5f-4a45-b091-40b484a09823",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 112,
+    "track_id": "spotify:4BnrGx9tWNF8aiXl1UhDBa",
+    "canonical_key": "isrc:USBWK0700040",
+    "title": "One Beer",
+    "artists": [
+      "MF DOOM"
+    ],
+    "year": 2004,
+    "spotify_id": "4BnrGx9tWNF8aiXl1UhDBa",
+    "spotify_uri": null,
+    "isrc": "USBWK0700040",
+    "musicbrainz_recording_id": "ba7a807f-a638-4bcf-9333-bf27729739fd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 113,
+    "track_id": "spotify:1FAHFrh5yApXwT66z3JzZy",
+    "canonical_key": "isrc:USBWK0700047",
+    "title": "Guinnessez",
+    "artists": [
+      "MF DOOM",
+      "Stahhr",
+      "4ize"
+    ],
+    "year": 2004,
+    "spotify_id": "1FAHFrh5yApXwT66z3JzZy",
+    "spotify_uri": null,
+    "isrc": "USBWK0700047",
+    "musicbrainz_recording_id": "c74dbea6-1f81-4507-9f32-33c91fa42990",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 114,
+    "track_id": "spotify:0syXbGoFZbTMXm8hGCEvW0",
+    "canonical_key": "isrc:USUM71804169",
+    "title": "Old Money",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "0syXbGoFZbTMXm8hGCEvW0",
+    "spotify_uri": null,
+    "isrc": "USUM71804169",
+    "musicbrainz_recording_id": "090804b7-a061-407a-87c8-44b6468f24ab",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 115,
+    "track_id": "spotify:3K6U7TamNyVSWcFH8pCQHX",
+    "canonical_key": "isrc:USUM71804153",
+    "title": "Love Hurts (feat. Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "3K6U7TamNyVSWcFH8pCQHX",
+    "spotify_uri": null,
+    "isrc": "USUM71804153",
+    "musicbrainz_recording_id": "2c68d898-dbbc-47f3-a3f6-9f5b7a8bd13e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 116,
+    "track_id": "spotify:2rPSFKzGeqUWwfcCFVkkq3",
+    "canonical_key": "isrc:USUM71804173",
+    "title": "Poke It Out (with Nicki Minaj)",
+    "artists": [
+      "Playboi Carti",
+      "Nicki Minaj"
+    ],
+    "year": 2018,
+    "spotify_id": "2rPSFKzGeqUWwfcCFVkkq3",
+    "spotify_uri": null,
+    "isrc": "USUM71804173",
+    "musicbrainz_recording_id": "a54cbb66-4eac-493c-a7d9-32382f3ab5ac",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 117,
+    "track_id": "spotify:5nayhWICkQGMTkisxVMbRw",
+    "canonical_key": "isrc:USUM71806122",
+    "title": "FlatBed Freestyle",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "5nayhWICkQGMTkisxVMbRw",
+    "spotify_uri": null,
+    "isrc": "USUM71806122",
+    "musicbrainz_recording_id": "f242a31e-4c1d-49d5-994f-fd767d4beddd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 118,
+    "track_id": "spotify:45Ln3F9PRPYTXBcMFkZMzS",
+    "canonical_key": "isrc:USUM71804178",
+    "title": "R.I.P. Fredo (feat. Young Nudy) - Notice Me",
+    "artists": [
+      "Playboi Carti",
+      "Young Nudy"
+    ],
+    "year": 2018,
+    "spotify_id": "45Ln3F9PRPYTXBcMFkZMzS",
+    "spotify_uri": null,
+    "isrc": "USUM71804178",
+    "musicbrainz_recording_id": "15b7fdcc-68d8-414c-a484-bb2e7f6e5f22",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 119,
+    "track_id": "spotify:4f8Mh5wuWHOsfXtzjrJB3t",
+    "canonical_key": "isrc:USQX91901112",
+    "title": "I THINK",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "4f8Mh5wuWHOsfXtzjrJB3t",
+    "spotify_uri": null,
+    "isrc": "USQX91901112",
+    "musicbrainz_recording_id": "08937107-2213-4e9f-8077-79542245fe9c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 120,
+    "track_id": "spotify:7p4vHnYXkxlzvfePJVpcTr",
+    "canonical_key": "isrc:USRC11802773",
+    "title": "Feels Like Summer",
+    "artists": [
+      "Childish Gambino"
+    ],
+    "year": 2018,
+    "spotify_id": "7p4vHnYXkxlzvfePJVpcTr",
+    "spotify_uri": null,
+    "isrc": "USRC11802773",
+    "musicbrainz_recording_id": "f363ff62-b887-4f72-9742-e835fb051b8b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 121,
+    "track_id": "spotify:0fv2KH6hac06J86hBUTcSf",
+    "canonical_key": "isrc:USQX91901115",
+    "title": "NEW MAGIC WAND",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "0fv2KH6hac06J86hBUTcSf",
+    "spotify_uri": null,
+    "isrc": "USQX91901115",
+    "musicbrainz_recording_id": "fab6581f-8d58-4c3b-8c29-82b36581ecae",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 122,
+    "track_id": "spotify:5KUNwkaNf8l5A9sXZhiCgI",
+    "canonical_key": "isrc:USBWK0700049",
+    "title": "Rapp Snitch Knishes",
+    "artists": [
+      "MF DOOM",
+      "Mr. Fantastik"
+    ],
+    "year": 2004,
+    "spotify_id": "5KUNwkaNf8l5A9sXZhiCgI",
+    "spotify_uri": null,
+    "isrc": "USBWK0700049",
+    "musicbrainz_recording_id": "534bfb31-9e63-40bc-8e91-5418e95b393c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 123,
+    "track_id": "spotify:0nbXyq5TXYPCO7pr3N8S4I",
+    "canonical_key": "isrc:USAT21906978",
+    "title": "The Box",
+    "artists": [
+      "Roddy Ricch"
+    ],
+    "year": 2019,
+    "spotify_id": "0nbXyq5TXYPCO7pr3N8S4I",
+    "spotify_uri": null,
+    "isrc": "USAT21906978",
+    "musicbrainz_recording_id": "3e0b00ff-275f-4472-91b3-df760c8be195",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 124,
+    "track_id": "spotify:21O0XXPEWPtePt5RMY93Ob",
+    "canonical_key": "isrc:US2S70465020",
+    "title": "All Caps",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "year": 2004,
+    "spotify_id": "21O0XXPEWPtePt5RMY93Ob",
+    "spotify_uri": null,
+    "isrc": "US2S70465020",
+    "musicbrainz_recording_id": "70e4863b-796f-44f2-8dd3-6d835ea3734f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 125,
+    "track_id": "spotify:3KQh7ppbDxVjdJBtjvP5BU",
+    "canonical_key": "isrc:US2S70465005",
+    "title": "Raid (feat. MED)",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM",
+      "MED"
+    ],
+    "year": 2004,
+    "spotify_id": "3KQh7ppbDxVjdJBtjvP5BU",
+    "spotify_uri": null,
+    "isrc": "US2S70465005",
+    "musicbrainz_recording_id": "7e893fdb-f135-4e25-b5e5-63483b60d054",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 126,
+    "track_id": "spotify:6cmt9CRoK0KGcNg9Tpje53",
+    "canonical_key": "isrc:USQX91802522",
+    "title": "Riot!",
+    "artists": [
+      "Earl Sweatshirt"
+    ],
+    "year": 2018,
+    "spotify_id": "6cmt9CRoK0KGcNg9Tpje53",
+    "spotify_uri": null,
+    "isrc": "USQX91802522",
+    "musicbrainz_recording_id": "292e57e5-331b-4d30-8a73-e283083f1727",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 127,
+    "track_id": "spotify:3wGXyJGsCf1myH5MooQIqE",
+    "canonical_key": "isrc:TCADD1793884",
+    "title": "The Race",
+    "artists": [
+      "Tay-K"
+    ],
+    "year": 2017,
+    "spotify_id": "3wGXyJGsCf1myH5MooQIqE",
+    "spotify_uri": null,
+    "isrc": "TCADD1793884",
+    "musicbrainz_recording_id": "4f48c317-00ad-4ba4-93bf-b580d362ed46",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 128,
+    "track_id": "spotify:5wPyd3IQAZft1vmxoIqGrU",
+    "canonical_key": "isrc:USUM71804155",
+    "title": "Home (KOD)",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "5wPyd3IQAZft1vmxoIqGrU",
+    "spotify_uri": null,
+    "isrc": "USUM71804155",
+    "musicbrainz_recording_id": "9099878b-a25e-4623-89fa-c5570189798a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 129,
+    "track_id": "spotify:2lLG56qpLP3UbcLuzMvkWX",
+    "canonical_key": "isrc:USUM72024691",
+    "title": "Stop Breathing",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "2lLG56qpLP3UbcLuzMvkWX",
+    "spotify_uri": null,
+    "isrc": "USUM72024691",
+    "musicbrainz_recording_id": "15f5757a-b34a-430e-a675-845d9d367485",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 130,
+    "track_id": "spotify:0V3nTTKA24XKCayp8igU4l",
+    "canonical_key": "isrc:US2S70465009",
+    "title": "Curls",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "year": 2004,
+    "spotify_id": "0V3nTTKA24XKCayp8igU4l",
+    "spotify_uri": null,
+    "isrc": "US2S70465009",
+    "musicbrainz_recording_id": "da4c6d5a-bc51-42be-9a2c-c0d5d8885120",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 131,
+    "track_id": "spotify:0w6webWdhjRKdqJ3DeGgM1",
+    "canonical_key": "isrc:QM6N21900312",
+    "title": "STATS",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "0w6webWdhjRKdqJ3DeGgM1",
+    "spotify_uri": null,
+    "isrc": "QM6N21900312",
+    "musicbrainz_recording_id": "f403f2f0-5744-4519-8237-8cf18eb0ec25",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 132,
+    "track_id": "spotify:6xxvhqxfBAhAOsf8OJ5shT",
+    "canonical_key": "isrc:QM6MZ1999603",
+    "title": "INVENTED IT",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "6xxvhqxfBAhAOsf8OJ5shT",
+    "spotify_uri": null,
+    "isrc": "QM6MZ1999603",
+    "musicbrainz_recording_id": "3649ab02-c40b-4d71-8791-c8820cfdc6f5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 133,
+    "track_id": "spotify:5Ow3QqHeeA78Q3nSnbUbkL",
+    "canonical_key": "isrc:QM6P41938808",
+    "title": "BULLIES",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "5Ow3QqHeeA78Q3nSnbUbkL",
+    "spotify_uri": null,
+    "isrc": "QM6P41938808",
+    "musicbrainz_recording_id": "65b53c3e-80ff-429a-bfed-338d9571c400",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 134,
+    "track_id": "spotify:0lTH3Dt0GlBQhxFHSnaZ7g",
+    "canonical_key": "isrc:QM6N21900326",
+    "title": "ROCKSTAR P",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "0lTH3Dt0GlBQhxFHSnaZ7g",
+    "spotify_uri": null,
+    "isrc": "QM6N21900326",
+    "musicbrainz_recording_id": "98931955-14dc-48e3-9a47-7ce367d057b2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 135,
+    "track_id": "spotify:7qfO0IGkZ1a2OnUOkMoR4D",
+    "canonical_key": "isrc:QM6P41938802",
+    "title": "BUSS HER UP",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2019,
+    "spotify_id": "7qfO0IGkZ1a2OnUOkMoR4D",
+    "spotify_uri": null,
+    "isrc": "QM6P41938802",
+    "musicbrainz_recording_id": "fc2c643a-df04-49de-9376-70051821f977",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 136,
+    "track_id": "spotify:5Nq6lLSxphlsA6nQB0KtES",
+    "canonical_key": "isrc:USUM71614560",
+    "title": "NO. 9",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "5Nq6lLSxphlsA6nQB0KtES",
+    "spotify_uri": null,
+    "isrc": "USUM71614560",
+    "musicbrainz_recording_id": "9c505383-48ba-46ba-91cb-b3860f3b42ec",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 137,
+    "track_id": "spotify:02rdXe0KhMe8p6ZHzYtuw0",
+    "canonical_key": "spotify:02rdXe0KhMe8p6ZHzYtuw0",
+    "title": "lost souls (with Brent Faiyaz)",
+    "artists": [
+      "Baby Keem",
+      "Brent Faiyaz"
+    ],
+    "year": 2021,
+    "spotify_id": "02rdXe0KhMe8p6ZHzYtuw0",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 138,
+    "track_id": "spotify:0F13K9dwYH2zpTWiR8d628",
+    "canonical_key": "isrc:USUM72024690",
+    "title": "Go2DaMoon (feat. Kanye West)",
+    "artists": [
+      "Playboi Carti",
+      "Kanye West"
+    ],
+    "year": 2020,
+    "spotify_id": "0F13K9dwYH2zpTWiR8d628",
+    "spotify_uri": null,
+    "isrc": "USUM72024690",
+    "musicbrainz_recording_id": "91479503-faaa-4738-aa71-3a2639f5cafb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 139,
+    "track_id": "spotify:4CzhtKifG867Lu5DNQVBSA",
+    "canonical_key": "isrc:USUM72024688",
+    "title": "Vamp Anthem",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "4CzhtKifG867Lu5DNQVBSA",
+    "spotify_uri": null,
+    "isrc": "USUM72024688",
+    "musicbrainz_recording_id": "e50e88ad-9ec1-4af8-84b8-c41c5caa6c0f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 140,
+    "track_id": "spotify:4txKMpsSfZRV6durPuHVq0",
+    "canonical_key": "isrc:USUM72024686",
+    "title": "New Tank",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "4txKMpsSfZRV6durPuHVq0",
+    "spotify_uri": null,
+    "isrc": "USUM72024686",
+    "musicbrainz_recording_id": "ae48043a-3db2-4c79-b441-2ce5a58a7ae9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 141,
+    "track_id": "spotify:08dz3ygXyFur6bL7Au8u8J",
+    "canonical_key": "isrc:USUM72024700",
+    "title": "Over",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "08dz3ygXyFur6bL7Au8u8J",
+    "spotify_uri": null,
+    "isrc": "USUM72024700",
+    "musicbrainz_recording_id": "db045fdf-303e-4185-a7b4-e69f27274614",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 142,
+    "track_id": "spotify:15JRvf02KKGHKgC31jrpuh",
+    "canonical_key": "isrc:USUM72024694",
+    "title": "Meh",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "15JRvf02KKGHKgC31jrpuh",
+    "spotify_uri": null,
+    "isrc": "USUM72024694",
+    "musicbrainz_recording_id": "85c9c6de-aad5-486b-a4dd-6d21497a2116",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 143,
+    "track_id": "spotify:3dl8bSF08LQfCf4T6CCksf",
+    "canonical_key": "isrc:USUM72024695",
+    "title": "On That Time",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "3dl8bSF08LQfCf4T6CCksf",
+    "spotify_uri": null,
+    "isrc": "USUM72024695",
+    "musicbrainz_recording_id": "11f87cf8-50db-47e7-a21f-d770dc8e89d4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 144,
+    "track_id": "spotify:1Bg2CNZw6S4e9cGWPmi0uI",
+    "canonical_key": "isrc:USUM72024698",
+    "title": "Place",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "1Bg2CNZw6S4e9cGWPmi0uI",
+    "spotify_uri": null,
+    "isrc": "USUM72024698",
+    "musicbrainz_recording_id": "05f32ca3-e63c-4037-9b5b-61921421f192",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 145,
+    "track_id": "spotify:03rcC8SVxCa9UdY5qgkITe",
+    "canonical_key": "isrc:USUM72024704",
+    "title": "Not PLaying",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "03rcC8SVxCa9UdY5qgkITe",
+    "spotify_uri": null,
+    "isrc": "USUM72024704",
+    "musicbrainz_recording_id": "0bdfd602-1347-4803-ba5c-f0a5dbd84b36",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 146,
+    "track_id": "spotify:60PTOzcoFycWBICdumIsFQ",
+    "canonical_key": "isrc:USAT22210943",
+    "title": "FOR FUN",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2022,
+    "spotify_id": "60PTOzcoFycWBICdumIsFQ",
+    "spotify_uri": null,
+    "isrc": "USAT22210943",
+    "musicbrainz_recording_id": "c9eec93b-08fd-4336-b007-523994531c44",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 147,
+    "track_id": "spotify:3MDcFMG1AYBPcRpYOdwDYl",
+    "canonical_key": "isrc:USSM11609456",
+    "title": "Conrad Tokyo (feat. Kendrick Lamar & Jack White)",
+    "artists": [
+      "A Tribe Called Quest",
+      "Kendrick Lamar",
+      "Jack White"
+    ],
+    "year": 2016,
+    "spotify_id": "3MDcFMG1AYBPcRpYOdwDYl",
+    "spotify_uri": null,
+    "isrc": "USSM11609456",
+    "musicbrainz_recording_id": "7c028880-85ec-4e43-b5e0-d8fbcb93e5b3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 148,
+    "track_id": "spotify:671sDyeE398eD0sdGuVbZU",
+    "canonical_key": "isrc:USJI10300161",
+    "title": "Steve Biko (Stir It Up)",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1993,
+    "spotify_id": "671sDyeE398eD0sdGuVbZU",
+    "spotify_uri": null,
+    "isrc": "USJI10300161",
+    "musicbrainz_recording_id": "90b81a2f-a0fc-4dba-abb7-98b33165c915",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 149,
+    "track_id": "spotify:5YTM7OgQDt9EJAYcfHLniJ",
+    "canonical_key": "isrc:USJI10300405",
+    "title": "Award Tour (feat. Trugoy The Dove)",
+    "artists": [
+      "A Tribe Called Quest",
+      "Trugoy The Dove"
+    ],
+    "year": 1993,
+    "spotify_id": "5YTM7OgQDt9EJAYcfHLniJ",
+    "spotify_uri": null,
+    "isrc": "USJI10300405",
+    "musicbrainz_recording_id": "99d22a5a-46e3-4aa4-86dd-3490a57a2ee8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 150,
+    "track_id": "spotify:0JL9TZip7mL7iwC5EOkALS",
+    "canonical_key": "isrc:JPH491605044",
+    "title": "Lady Brown (feat. Cise Starr from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr"
+    ],
+    "year": 2003,
+    "spotify_id": "0JL9TZip7mL7iwC5EOkALS",
+    "spotify_uri": null,
+    "isrc": "JPH491605044",
+    "musicbrainz_recording_id": "f71d8647-e338-47e0-860c-920dbbc6a276",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 151,
+    "track_id": "spotify:4xlpJ99yL9xYQtzG6c3hwk",
+    "canonical_key": "isrc:JPH491605003",
+    "title": "Luv(sic.) pt3 (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "year": 2005,
+    "spotify_id": "4xlpJ99yL9xYQtzG6c3hwk",
+    "spotify_uri": null,
+    "isrc": "JPH491605003",
+    "musicbrainz_recording_id": "8b4f3acb-b725-4a18-ba80-349953d95de9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 152,
+    "track_id": "spotify:4MbUcaX58NkUmKXe6FuBaV",
+    "canonical_key": "isrc:JPH491605042",
+    "title": "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez)",
+    "artists": [
+      "Nujabes",
+      "Substantial",
+      "Pase Rock"
+    ],
+    "year": 2003,
+    "spotify_id": "4MbUcaX58NkUmKXe6FuBaV",
+    "spotify_uri": null,
+    "isrc": "JPH491605042",
+    "musicbrainz_recording_id": "c4c13c9f-e8e7-4ea9-956e-488e4fca1e27",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 153,
+    "track_id": "spotify:2rnAYh7REAMGYqJUXJKZZK",
+    "canonical_key": "isrc:JPH491605043",
+    "title": "Horn in the middle",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2003,
+    "spotify_id": "2rnAYh7REAMGYqJUXJKZZK",
+    "spotify_uri": null,
+    "isrc": "JPH491605043",
+    "musicbrainz_recording_id": "9c5aa110-31c2-4f3b-ace6-c3a1285a45cb",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 154,
+    "track_id": "spotify:3yKLskgaU2py5ET4OBDQmg",
+    "canonical_key": "isrc:JPH491605046",
+    "title": "Highs 2 Lows (feat. Cise Starr from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr"
+    ],
+    "year": 2003,
+    "spotify_id": "3yKLskgaU2py5ET4OBDQmg",
+    "spotify_uri": null,
+    "isrc": "JPH491605046",
+    "musicbrainz_recording_id": "8ba6443a-1c99-4c7e-b2a2-e01f15ce5f0f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 155,
+    "track_id": "spotify:5tO3pr49SdxO05TNlYHfHT",
+    "canonical_key": "isrc:JPH491605047",
+    "title": "Beat laments the world",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2003,
+    "spotify_id": "5tO3pr49SdxO05TNlYHfHT",
+    "spotify_uri": null,
+    "isrc": "JPH491605047",
+    "musicbrainz_recording_id": "bf5ca98e-b5d8-4668-ba51-96d98cb7aa89",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 156,
+    "track_id": "spotify:0rKR7VLBxqVQAz2UEe3D8N",
+    "canonical_key": "isrc:JPH491605049",
+    "title": "Think Different (feat. Substantial)",
+    "artists": [
+      "Nujabes",
+      "Substantial"
+    ],
+    "year": 2003,
+    "spotify_id": "0rKR7VLBxqVQAz2UEe3D8N",
+    "spotify_uri": null,
+    "isrc": "JPH491605049",
+    "musicbrainz_recording_id": "4d64f927-1da4-48da-b392-737465f263cb",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 157,
+    "track_id": "spotify:2csdd679hni5tQsW8lkEV1",
+    "canonical_key": "isrc:JPH491605051",
+    "title": "Next view (feat. Uyama Hiroto)",
+    "artists": [
+      "Nujabes",
+      "Uyama Hiroto"
+    ],
+    "year": 2003,
+    "spotify_id": "2csdd679hni5tQsW8lkEV1",
+    "spotify_uri": null,
+    "isrc": "JPH491605051",
+    "musicbrainz_recording_id": "ccd6b437-903c-4151-8656-525b0762e9b1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 158,
+    "track_id": "spotify:65u7IbuZ4viAlVBHxnpos1",
+    "canonical_key": "isrc:JPH491605052",
+    "title": "Latitude -remix (feat. Five Deez)",
+    "artists": [
+      "Nujabes",
+      "Five Deez"
+    ],
+    "year": 2003,
+    "spotify_id": "65u7IbuZ4viAlVBHxnpos1",
+    "spotify_uri": null,
+    "isrc": "JPH491605052",
+    "musicbrainz_recording_id": "f5097a35-a384-4c87-a80a-ceaeb68c0774",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 159,
+    "track_id": "spotify:43pWChQ7AOab9wlSGy0dN6",
+    "canonical_key": "isrc:JPH491605053",
+    "title": "F.I.L.O. (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "year": 2003,
+    "spotify_id": "43pWChQ7AOab9wlSGy0dN6",
+    "spotify_uri": null,
+    "isrc": "JPH491605053",
+    "musicbrainz_recording_id": "851dd490-6291-4063-a364-7bf24fc252de",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 160,
+    "track_id": "spotify:3MZHDutJalh9C4DNLptn2v",
+    "canonical_key": "isrc:JPH491605055",
+    "title": "The Final View",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2003,
+    "spotify_id": "3MZHDutJalh9C4DNLptn2v",
+    "spotify_uri": null,
+    "isrc": "JPH491605055",
+    "musicbrainz_recording_id": "124f1f8e-dd1e-43ed-a699-71a89c83366e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 161,
+    "track_id": "spotify:4pVwc3fU2RqL7l7L0fSwaq",
+    "canonical_key": "isrc:JPH491605056",
+    "title": "Peaceland",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2003,
+    "spotify_id": "4pVwc3fU2RqL7l7L0fSwaq",
+    "spotify_uri": null,
+    "isrc": "JPH491605056",
+    "musicbrainz_recording_id": "e77ab91b-de91-4f95-8932-f866afe6e346",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 162,
+    "track_id": "spotify:6SNGzhVrisdq63Ndz58ovT",
+    "canonical_key": "isrc:JPH491605019",
+    "title": "Luv (sic)",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2015,
+    "spotify_id": "6SNGzhVrisdq63Ndz58ovT",
+    "spotify_uri": null,
+    "isrc": "JPH491605019",
+    "musicbrainz_recording_id": "2380f21b-310b-4e58-991d-f5b18b93f599",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 163,
+    "track_id": "spotify:6gSalwEvVQfSFiqgwfyITp",
+    "canonical_key": "isrc:JPH491605027",
+    "title": "Luv (sic) pt2",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2015,
+    "spotify_id": "6gSalwEvVQfSFiqgwfyITp",
+    "spotify_uri": null,
+    "isrc": "JPH491605027",
+    "musicbrainz_recording_id": "441c2f01-2e06-48de-a231-a435ede95229",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 164,
+    "track_id": "spotify:35cOJUqY0WBzPP7QfKRdTZ",
+    "canonical_key": "isrc:JPH491605003",
+    "title": "Luv (sic.) pt3 (feat. Shing02)",
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "year": 2015,
+    "spotify_id": "35cOJUqY0WBzPP7QfKRdTZ",
+    "spotify_uri": null,
+    "isrc": "JPH491605003",
+    "musicbrainz_recording_id": "8b4f3acb-b725-4a18-ba80-349953d95de9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 165,
+    "track_id": "spotify:1R28m5eWk1EV9FQ3puWrUp",
+    "canonical_key": "isrc:GBCFB0300210",
+    "title": "Fazers",
+    "artists": [
+      "King Geedorah"
+    ],
+    "year": 2003,
+    "spotify_id": "1R28m5eWk1EV9FQ3puWrUp",
+    "spotify_uri": null,
+    "isrc": "GBCFB0300210",
+    "musicbrainz_recording_id": "b58df4ad-8986-439b-af31-4fbf5f65da38",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 166,
+    "track_id": "spotify:500l6Cwe40hkPqS7Sf7ufY",
+    "canonical_key": "isrc:USUM71804152",
+    "title": "Foreign",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "500l6Cwe40hkPqS7Sf7ufY",
+    "spotify_uri": null,
+    "isrc": "USUM71804152",
+    "musicbrainz_recording_id": "146e9ab9-eaf2-474d-8693-61a708b2a948",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 167,
+    "track_id": "spotify:5IVuqXILoxVWvWEPm82Jxr",
+    "canonical_key": "isrc:USSM10305425",
+    "title": "Crazy In Love (feat. JAY-Z)",
+    "artists": [
+      "Beyoncé",
+      "JAŸ-Z"
+    ],
+    "year": 2003,
+    "spotify_id": "5IVuqXILoxVWvWEPm82Jxr",
+    "spotify_uri": null,
+    "isrc": "USSM10305425",
+    "musicbrainz_recording_id": "355997a2-adfd-479f-9a77-5bea04540227",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 168,
+    "track_id": "spotify:67vrmPygrZ9giGqHUSReAT",
+    "canonical_key": "isrc:US2S70465002",
+    "title": "Accordion",
+    "artists": [
+      "Madvillain",
+      "Madlib",
+      "MF DOOM"
+    ],
+    "year": 2004,
+    "spotify_id": "67vrmPygrZ9giGqHUSReAT",
+    "spotify_uri": null,
+    "isrc": "US2S70465002",
+    "musicbrainz_recording_id": "9ef2742a-4210-43d8-8879-7b1b99ba3536",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 169,
+    "track_id": "spotify:0eEXcw3JLVXcRxYrVYMy68",
+    "canonical_key": "isrc:USJI19300020",
+    "title": "Electric Relaxation",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1999,
+    "spotify_id": "0eEXcw3JLVXcRxYrVYMy68",
+    "spotify_uri": null,
+    "isrc": "USJI19300020",
+    "musicbrainz_recording_id": "8868eccc-9d00-4b6e-8a71-826a1503ac7d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 170,
+    "track_id": "spotify:5xJeZ6tLPOXNIrrphEIuay",
+    "canonical_key": "isrc:USQX91801253",
+    "title": "435",
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2018,
+    "spotify_id": "5xJeZ6tLPOXNIrrphEIuay",
+    "spotify_uri": null,
+    "isrc": "USQX91801253",
+    "musicbrainz_recording_id": "6b181b44-cd22-4abf-9720-50bcfefa5be1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 171,
+    "track_id": "spotify:6luBKkFUt5wTwz7hpLhp12",
+    "canonical_key": "isrc:USUG12207176",
+    "title": "drive ME crazy!",
+    "artists": [
+      "Lil Yachty",
+      "Diana Gordon"
+    ],
+    "year": 2023,
+    "spotify_id": "6luBKkFUt5wTwz7hpLhp12",
+    "spotify_uri": null,
+    "isrc": "USUG12207176",
+    "musicbrainz_recording_id": "dc7d1a82-6005-47bf-be2f-38c2f10eeb71",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 172,
+    "track_id": "spotify:4Vir8uv89eNY6hovcNq4w6",
+    "canonical_key": "isrc:QZES61800981",
+    "title": "Gang Activities",
+    "artists": [
+      "Baby Keem"
+    ],
+    "year": 2018,
+    "spotify_id": "4Vir8uv89eNY6hovcNq4w6",
+    "spotify_uri": null,
+    "isrc": "QZES61800981",
+    "musicbrainz_recording_id": "c7a71deb-6bd4-4e6c-82f2-286f68a739d9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 173,
+    "track_id": "spotify:53ku8y52Z5HYhJANXvC7WN",
+    "canonical_key": "isrc:US2Q80800044",
+    "title": "Stay Up! (Viagra)",
+    "artists": [
+      "88-Keys",
+      "Kanye West"
+    ],
+    "year": 2008,
+    "spotify_id": "53ku8y52Z5HYhJANXvC7WN",
+    "spotify_uri": null,
+    "isrc": "US2Q80800044",
+    "musicbrainz_recording_id": "a9bc3a4e-879d-47d7-b311-b482833d361f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 174,
+    "track_id": "spotify:59JWp4PjZ9TRM8cmtaDYB1",
+    "canonical_key": "isrc:USAT22001632",
+    "title": "Yessirskiii",
+    "artists": [
+      "Lil Uzi Vert",
+      "21 Savage"
+    ],
+    "year": 2020,
+    "spotify_id": "59JWp4PjZ9TRM8cmtaDYB1",
+    "spotify_uri": null,
+    "isrc": "USAT22001632",
+    "musicbrainz_recording_id": "ab76b99f-030a-4c70-97e6-04a13ed8a15b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 175,
+    "track_id": "spotify:23QyE9GQpXsX9WgEDADMa6",
+    "canonical_key": "isrc:USUM71703099",
+    "title": "Let It Go",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "23QyE9GQpXsX9WgEDADMa6",
+    "spotify_uri": null,
+    "isrc": "USUM71703099",
+    "musicbrainz_recording_id": "dd04b793-c679-4590-ab31-de0844bdf110",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 176,
+    "track_id": "spotify:5MUxrNd7Gr2HksLcAlB0IO",
+    "canonical_key": "isrc:USUM71703096",
+    "title": "Yah Mean",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "5MUxrNd7Gr2HksLcAlB0IO",
+    "spotify_uri": null,
+    "isrc": "USUM71703096",
+    "musicbrainz_recording_id": "896f4238-02f2-43aa-93af-e06b09053ad7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 177,
+    "track_id": "spotify:6Ec5LeRzkisa5KJtwLfOoW",
+    "canonical_key": "isrc:USUM72308540",
+    "title": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+    "artists": [
+      "Metro Boomin",
+      "A$AP Rocky",
+      "Roisee"
+    ],
+    "year": 2023,
+    "spotify_id": "6Ec5LeRzkisa5KJtwLfOoW",
+    "spotify_uri": null,
+    "isrc": "USUM72308540",
+    "musicbrainz_recording_id": "12f377a0-a2f6-4085-82cd-c7d7cf561a03",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 178,
+    "track_id": "spotify:5rurggqwwudn9clMdcchxT",
+    "canonical_key": "isrc:USUM72308543",
+    "title": "Calling (Spider-Man: Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)",
+    "artists": [
+      "Metro Boomin",
+      "Swae Lee",
+      "NAV",
+      "A Boogie Wit da Hoodie"
+    ],
+    "year": 2023,
+    "spotify_id": "5rurggqwwudn9clMdcchxT",
+    "spotify_uri": null,
+    "isrc": "USUM72308543",
+    "musicbrainz_recording_id": "3fab9ad4-b1d5-41fa-b3de-e881e650048e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 179,
+    "track_id": "spotify:41bmnQZoDMQdDh5zyomtW7",
+    "canonical_key": "isrc:USAT22306857",
+    "title": "Endless Fashion (feat. Nicki Minaj)",
+    "artists": [
+      "Lil Uzi Vert",
+      "Nicki Minaj"
+    ],
+    "year": 2023,
+    "spotify_id": "41bmnQZoDMQdDh5zyomtW7",
+    "spotify_uri": null,
+    "isrc": "USAT22306857",
+    "musicbrainz_recording_id": "61bf4cb3-a9f8-4792-8a15-99fbcb468e01",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 180,
+    "track_id": "spotify:0WCJSIy75ZVxqY51ce0enc",
+    "canonical_key": "isrc:USAT22306864",
+    "title": "Pluto to Mars",
+    "artists": [
+      "Lil Uzi Vert"
+    ],
+    "year": 2023,
+    "spotify_id": "0WCJSIy75ZVxqY51ce0enc",
+    "spotify_uri": null,
+    "isrc": "USAT22306864",
+    "musicbrainz_recording_id": "228ed0c9-6d14-4ac8-9d10-bc3ced262d10",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 181,
+    "track_id": "spotify:5Lv5L45PQmp5CTjs5PlQ6e",
+    "canonical_key": "isrc:USUM72308558",
+    "title": "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix",
+    "artists": [
+      "EI8HT",
+      "Offset"
+    ],
+    "year": 2023,
+    "spotify_id": "5Lv5L45PQmp5CTjs5PlQ6e",
+    "spotify_uri": null,
+    "isrc": "USUM72308558",
+    "musicbrainz_recording_id": "dab4563e-47dd-4d9b-b55f-a378bbd9fdcf",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 182,
+    "track_id": "spotify:57FpaFbaz5ApQ5nFm4NvcS",
+    "canonical_key": "isrc:GX38U2346423",
+    "title": "Aruarian Dance",
+    "artists": [
+      "skoomy"
+    ],
+    "year": 2023,
+    "spotify_id": "57FpaFbaz5ApQ5nFm4NvcS",
+    "spotify_uri": null,
+    "isrc": "GX38U2346423",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 183,
+    "track_id": "spotify:3azJifCSqg9fRij2yKIbWz",
+    "canonical_key": "isrc:QZTGW2100275",
+    "title": "The Color Violet",
+    "artists": [
+      "Tory Lanez"
+    ],
+    "year": 2021,
+    "spotify_id": "3azJifCSqg9fRij2yKIbWz",
+    "spotify_uri": null,
+    "isrc": "QZTGW2100275",
+    "musicbrainz_recording_id": "52a0345e-497d-479e-99ca-f869f45dfefc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 184,
+    "track_id": "spotify:2gdz7TlVOlDemmW2RoI3st",
+    "canonical_key": "isrc:CA5KR2388725",
+    "title": "Poison Ivy",
+    "artists": [
+      "Tory Lanez"
+    ],
+    "year": 2023,
+    "spotify_id": "2gdz7TlVOlDemmW2RoI3st",
+    "spotify_uri": null,
+    "isrc": "CA5KR2388725",
+    "musicbrainz_recording_id": "bde4e433-8c2b-4665-856d-178c91d0f7a5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 185,
+    "track_id": "spotify:4kjI1gwQZRKNDkw1nI475M",
+    "canonical_key": "isrc:USSM12305007",
+    "title": "MY EYES",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2023,
+    "spotify_id": "4kjI1gwQZRKNDkw1nI475M",
+    "spotify_uri": null,
+    "isrc": "USSM12305007",
+    "musicbrainz_recording_id": "10615e42-e1ca-4d54-91ff-e81a50cd6e8d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 186,
+    "track_id": "spotify:0IpnZchq8ek2A6pGEP2Qb1",
+    "canonical_key": "isrc:USAT22001631",
+    "title": "Bean (Kobe) [feat. Chief Keef]",
+    "artists": [
+      "Lil Uzi Vert",
+      "Chief Keef"
+    ],
+    "year": 2020,
+    "spotify_id": "0IpnZchq8ek2A6pGEP2Qb1",
+    "spotify_uri": null,
+    "isrc": "USAT22001631",
+    "musicbrainz_recording_id": "9890fc61-e7c9-4cf1-8c3e-92a88a374c0a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 187,
+    "track_id": "spotify:59J5nzL1KniFHnU120dQzt",
+    "canonical_key": "isrc:USUM71702277",
+    "title": "wokeuplikethis*",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "year": 2017,
+    "spotify_id": "59J5nzL1KniFHnU120dQzt",
+    "spotify_uri": null,
+    "isrc": "USUM71702277",
+    "musicbrainz_recording_id": "8380e1c8-df2f-435b-8d53-d130322b3c02",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 188,
+    "track_id": "spotify:1OubIZ0ARYCUq5kceYUQiO",
+    "canonical_key": "isrc:USWB11601434",
+    "title": "Congratulations (feat. Bilal)",
+    "artists": [
+      "Mac Miller",
+      "Bilal"
+    ],
+    "year": 2016,
+    "spotify_id": "1OubIZ0ARYCUq5kceYUQiO",
+    "spotify_uri": null,
+    "isrc": "USWB11601434",
+    "musicbrainz_recording_id": "9e95430d-6cd9-4566-ace1-f7327c5f19b2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 189,
+    "track_id": "spotify:0AAMnNeIc6CdnfNU85GwCH",
+    "canonical_key": "isrc:USUM72308561",
+    "title": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+    "artists": [
+      "Metro Boomin",
+      "Coi Leray"
+    ],
+    "year": 2023,
+    "spotify_id": "0AAMnNeIc6CdnfNU85GwCH",
+    "spotify_uri": null,
+    "isrc": "USUM72308561",
+    "musicbrainz_recording_id": "9f83401e-ba69-4100-ab3e-3c59a6c5d015",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 190,
+    "track_id": "spotify:2ej1A2Ze6P2EOW7KfIosZR",
+    "canonical_key": "isrc:JPH491605000",
+    "title": "Feather (feat. Cise Starr & Akin from CYNE)",
+    "artists": [
+      "Nujabes",
+      "Cise Starr & Akin from CYNE"
+    ],
+    "year": 2005,
+    "spotify_id": "2ej1A2Ze6P2EOW7KfIosZR",
+    "spotify_uri": null,
+    "isrc": "JPH491605000",
+    "musicbrainz_recording_id": "5fffe791-c8fd-440a-b301-d511d8b9c31f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 191,
+    "track_id": "spotify:4IFd7EVCyJsUHesBMXI8ju",
+    "canonical_key": "isrc:QMRSZ2401183",
+    "title": "Parking Lot",
+    "artists": [
+      "Mustard",
+      "Travis Scott"
+    ],
+    "year": 2024,
+    "spotify_id": "4IFd7EVCyJsUHesBMXI8ju",
+    "spotify_uri": null,
+    "isrc": "QMRSZ2401183",
+    "musicbrainz_recording_id": "9d72e1f8-ab73-4130-9f51-9608c5ec1d36",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 192,
+    "track_id": "spotify:1XBYiRV30ykHw5f4wm6qEn",
+    "canonical_key": "isrc:USSM12308065",
+    "title": "NIGHTS LIKE THIS",
+    "artists": [
+      "The Kid LAROI"
+    ],
+    "year": 2023,
+    "spotify_id": "1XBYiRV30ykHw5f4wm6qEn",
+    "spotify_uri": null,
+    "isrc": "USSM12308065",
+    "musicbrainz_recording_id": "1942ae28-ee62-47ba-b1bd-a98264cbaf9b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 193,
+    "track_id": "spotify:7AtBtwrKhz94hYXgGYyG58",
+    "canonical_key": "isrc:USUM71805946",
+    "title": "Middle Of The Summer (feat. Red Coldhearted)",
+    "artists": [
+      "Playboi Carti",
+      "Red Coldhearted"
+    ],
+    "year": 2018,
+    "spotify_id": "7AtBtwrKhz94hYXgGYyG58",
+    "spotify_uri": null,
+    "isrc": "USUM71805946",
+    "musicbrainz_recording_id": "6a48ed74-70c1-4e87-876b-4066226200d1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 194,
+    "track_id": "spotify:7BBZGDSZbsb4Esi8YB94HT",
+    "canonical_key": "isrc:JPH491605008",
+    "title": "World's end Rhapsody",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2005,
+    "spotify_id": "7BBZGDSZbsb4Esi8YB94HT",
+    "spotify_uri": null,
+    "isrc": "JPH491605008",
+    "musicbrainz_recording_id": "050b6b72-7aa7-4d24-b7dd-d9b4e1fe1a49",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 195,
+    "track_id": "spotify:1JgkiUg9mSXSwcb5Gbi4Ur",
+    "canonical_key": "isrc:USUM71804151",
+    "title": "Lean 4 Real (feat. Skepta)",
+    "artists": [
+      "Playboi Carti",
+      "Skepta"
+    ],
+    "year": 2018,
+    "spotify_id": "1JgkiUg9mSXSwcb5Gbi4Ur",
+    "spotify_uri": null,
+    "isrc": "USUM71804151",
+    "musicbrainz_recording_id": "bcfdf829-9096-4c26-ad95-4fde4dd38fab",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 196,
+    "track_id": "spotify:30sc425JEvj3tgmGAKORea",
+    "canonical_key": "isrc:USUM71702734",
+    "title": "New Choppa",
+    "artists": [
+      "Playboi Carti",
+      "A$AP Rocky"
+    ],
+    "year": 2017,
+    "spotify_id": "30sc425JEvj3tgmGAKORea",
+    "spotify_uri": null,
+    "isrc": "USUM71702734",
+    "musicbrainz_recording_id": "eb25e547-e131-4165-924f-5065127d0332",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 197,
+    "track_id": "spotify:0PV1TFUMTBrDETzW6KQulB",
+    "canonical_key": "isrc:USJI10400408",
+    "title": "93 'Til Infinity",
+    "artists": [
+      "Souls Of Mischief"
+    ],
+    "year": 1993,
+    "spotify_id": "0PV1TFUMTBrDETzW6KQulB",
+    "spotify_uri": null,
+    "isrc": "USJI10400408",
+    "musicbrainz_recording_id": "22976b24-a875-4a34-a7ba-012e89c8a02d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 198,
+    "track_id": "spotify:3JJL91ilRV6fXhKqu0FGXs",
+    "canonical_key": "isrc:USQX92102134",
+    "title": "HOT WIND BLOWS (feat. Lil Wayne)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lil Wayne"
+    ],
+    "year": 2021,
+    "spotify_id": "3JJL91ilRV6fXhKqu0FGXs",
+    "spotify_uri": null,
+    "isrc": "USQX92102134",
+    "musicbrainz_recording_id": "2f3e516d-0ccb-4d53-8330-5297ea7a5b53",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 199,
+    "track_id": "spotify:76gcXhY3Zv6wW0BTe9nHJo",
+    "canonical_key": "isrc:USSM12305020",
+    "title": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+    "artists": [
+      "Travis Scott",
+      "James Blake",
+      "21 Savage"
+    ],
+    "year": 2023,
+    "spotify_id": "76gcXhY3Zv6wW0BTe9nHJo",
+    "spotify_uri": null,
+    "isrc": "USSM12305020",
+    "musicbrainz_recording_id": "b98e7007-db7f-45b1-b4b7-e448ac8600dc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 200,
+    "track_id": "spotify:764QZXmgb5fDwh1NU8pYcd",
+    "canonical_key": "isrc:JPH491605063",
+    "title": "Dawn on the Side",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2011,
+    "spotify_id": "764QZXmgb5fDwh1NU8pYcd",
+    "spotify_uri": null,
+    "isrc": "JPH491605063",
+    "musicbrainz_recording_id": "86c21550-8eae-47b0-844f-5ea0d23e4eb9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 201,
+    "track_id": "spotify:1i9lZvlaDdWDPyXEE95aiq",
+    "canonical_key": "isrc:USSM12305019",
+    "title": "TELEKINESIS (feat. SZA & Future)",
+    "artists": [
+      "Travis Scott",
+      "SZA",
+      "Future"
+    ],
+    "year": 2023,
+    "spotify_id": "1i9lZvlaDdWDPyXEE95aiq",
+    "spotify_uri": null,
+    "isrc": "USSM12305019",
+    "musicbrainz_recording_id": "0df1d027-bec2-40cc-901a-cdbaf66f2239",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 202,
+    "track_id": "spotify:7HsvTUJcXRQVK6QuALkAvW",
+    "canonical_key": "isrc:USUM71804177",
+    "title": "Top (feat. Pi'erre Bourne)",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "7HsvTUJcXRQVK6QuALkAvW",
+    "spotify_uri": null,
+    "isrc": "USUM71804177",
+    "musicbrainz_recording_id": "22c4e124-4dd7-499c-ab50-325295936ed2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 203,
+    "track_id": "spotify:1xUQwXDDKW79z7GRUt2vMW",
+    "canonical_key": "isrc:USUM71703097",
+    "title": "Lame Niggaz",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "1xUQwXDDKW79z7GRUt2vMW",
+    "spotify_uri": null,
+    "isrc": "USUM71703097",
+    "musicbrainz_recording_id": "67016cf0-001d-4603-83d0-38639e3979d8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 204,
+    "track_id": "spotify:1UAmQe8EwpxQ80OfYVD13z",
+    "canonical_key": "isrc:USUM71701966",
+    "title": "Lookin",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "year": 2017,
+    "spotify_id": "1UAmQe8EwpxQ80OfYVD13z",
+    "spotify_uri": null,
+    "isrc": "USUM71701966",
+    "musicbrainz_recording_id": "5479c6ac-69d4-465c-be88-5775be2b5451",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 205,
+    "track_id": "spotify:2Zy7XVdxyZQB8xp5xbpJdl",
+    "canonical_key": "isrc:USSM11607549",
+    "title": "way back",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2016,
+    "spotify_id": "2Zy7XVdxyZQB8xp5xbpJdl",
+    "spotify_uri": null,
+    "isrc": "USSM11607549",
+    "musicbrainz_recording_id": "f3d59336-f486-4a49-86b9-9ce3d27fa984",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 206,
+    "track_id": "spotify:33zbOXJSwW7uf4VXXWow2O",
+    "canonical_key": "isrc:USSM11607548",
+    "title": "the ends",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2016,
+    "spotify_id": "33zbOXJSwW7uf4VXXWow2O",
+    "spotify_uri": null,
+    "isrc": "USSM11607548",
+    "musicbrainz_recording_id": "2ff3e451-0704-4a6e-a6ee-ee511c92812d",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 207,
+    "track_id": "spotify:1KzNsOkpQthVwpCJrADJEQ",
+    "canonical_key": "isrc:USUM71703104",
+    "title": "dothatshit!",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "1KzNsOkpQthVwpCJrADJEQ",
+    "spotify_uri": null,
+    "isrc": "USUM71703104",
+    "musicbrainz_recording_id": "99582092-9c2d-4370-8ee6-58e2afaad2cc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 208,
+    "track_id": "spotify:1QGy4rzK5p8N7OYYn5kWSt",
+    "canonical_key": "isrc:JPVI00441290",
+    "title": "sanctuary ship",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2004,
+    "spotify_id": "1QGy4rzK5p8N7OYYn5kWSt",
+    "spotify_uri": null,
+    "isrc": "JPVI00441290",
+    "musicbrainz_recording_id": "a46d60aa-92f4-4083-91ab-4f3baece52fa",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 209,
+    "track_id": "spotify:2TdZdeKIDMqi1B3139W4Wb",
+    "canonical_key": "isrc:USUM71703101",
+    "title": "Half & Half",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "2TdZdeKIDMqi1B3139W4Wb",
+    "spotify_uri": null,
+    "isrc": "USUM71703101",
+    "musicbrainz_recording_id": "0054deda-fb6f-4172-9670-816f89018cf5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 210,
+    "track_id": "spotify:0uFz9q2SvuKyWB6Ur1YCfI",
+    "canonical_key": "isrc:USSM11408300",
+    "title": "Mamacita (feat. Rich Homie Quan & Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Rich Homie Quan",
+      "Young Thug"
+    ],
+    "year": 2014,
+    "spotify_id": "0uFz9q2SvuKyWB6Ur1YCfI",
+    "spotify_uri": null,
+    "isrc": "USSM11408300",
+    "musicbrainz_recording_id": "d8b92728-13df-49f0-a414-a0c8fddd48ff",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 211,
+    "track_id": "spotify:3KCNiDi9Pza6ZD8FggNoaw",
+    "canonical_key": "isrc:USSM12305006",
+    "title": "MODERN JAM (feat. Teezo Touchdown)",
+    "artists": [
+      "Travis Scott",
+      "Teezo Touchdown"
+    ],
+    "year": 2023,
+    "spotify_id": "3KCNiDi9Pza6ZD8FggNoaw",
+    "spotify_uri": null,
+    "isrc": "USSM12305006",
+    "musicbrainz_recording_id": "50352d66-a80b-41b5-8d32-7b7a3ee9c373",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 212,
+    "track_id": "spotify:6Xw3iWrQKgArwlRhVuU9CK",
+    "canonical_key": "isrc:USQX91500710",
+    "title": "2SEATER (feat. Aaron Shaw, Samantha Nelson & Austin Feinstein)",
+    "artists": [
+      "Tyler, The Creator",
+      "Aaron Shaw",
+      "Samantha Nelson",
+      "Austin Feinstein"
+    ],
+    "year": 2015,
+    "spotify_id": "6Xw3iWrQKgArwlRhVuU9CK",
+    "spotify_uri": null,
+    "isrc": "USQX91500710",
+    "musicbrainz_recording_id": "bd3600d4-20ed-4a62-b93e-2b59a88a2928",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 213,
+    "track_id": "spotify:4b7vk8SRcYgnxpk0JOIS7r",
+    "canonical_key": "isrc:USSM12306316",
+    "title": "Drugs You Should Try It",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2014,
+    "spotify_id": "4b7vk8SRcYgnxpk0JOIS7r",
+    "spotify_uri": null,
+    "isrc": "USSM12306316",
+    "musicbrainz_recording_id": "adcdd81c-8b91-4be5-aa32-060662d5005f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 214,
+    "track_id": "spotify:0a4SMs889NwP8oWI7Vemle",
+    "canonical_key": "isrc:USSM12305018",
+    "title": "LOOOVE (feat. Kid Cudi)",
+    "artists": [
+      "Travis Scott",
+      "Kid Cudi"
+    ],
+    "year": 2023,
+    "spotify_id": "0a4SMs889NwP8oWI7Vemle",
+    "spotify_uri": null,
+    "isrc": "USSM12305018",
+    "musicbrainz_recording_id": "7901af2d-87d5-4387-8135-e15e6408c951",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 215,
+    "track_id": "spotify:0bkV1iQHSxBaksUqgEkcbc",
+    "canonical_key": "isrc:USSM12305016",
+    "title": "SKITZO (feat. Young Thug)",
+    "artists": [
+      "Travis Scott",
+      "Young Thug"
+    ],
+    "year": 2023,
+    "spotify_id": "0bkV1iQHSxBaksUqgEkcbc",
+    "spotify_uri": null,
+    "isrc": "USSM12305016",
+    "musicbrainz_recording_id": "e356a034-f31d-436d-a6f5-fb0a15249add",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 216,
+    "track_id": "spotify:6LyAwkJsHlW7RQ8S1cYAtM",
+    "canonical_key": "isrc:USUG11802479",
+    "title": "Overdue (with Travis Scott)",
+    "artists": [
+      "Metro Boomin",
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "6LyAwkJsHlW7RQ8S1cYAtM",
+    "spotify_uri": null,
+    "isrc": "USUG11802479",
+    "musicbrainz_recording_id": "e7414d01-e00c-41f3-b95e-656cfc64f9b9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 217,
+    "track_id": "spotify:5oady7OSE7dH7LHiqmb3Cr",
+    "canonical_key": "isrc:USRC11902119",
+    "title": "Dreams, Fairytales, Fantasies (feat. Brent Faiyaz & Salaam Remi)",
+    "artists": [
+      "A$AP Ferg",
+      "Brent Faiyaz",
+      "Salaam Remi"
+    ],
+    "year": 2019,
+    "spotify_id": "5oady7OSE7dH7LHiqmb3Cr",
+    "spotify_uri": null,
+    "isrc": "USRC11902119",
+    "musicbrainz_recording_id": "60c3f6dd-4fff-477f-a5d0-1e5ec87bcf82",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 218,
+    "track_id": "spotify:2FoahzOSxJnalPA8aBUme3",
+    "canonical_key": "isrc:USSM12304894",
+    "title": "all of me",
+    "artists": [
+      "21 Savage"
+    ],
+    "year": 2024,
+    "spotify_id": "2FoahzOSxJnalPA8aBUme3",
+    "spotify_uri": null,
+    "isrc": "USSM12304894",
+    "musicbrainz_recording_id": "fe42de51-8344-4262-93a5-a8398180b495",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 219,
+    "track_id": "spotify:5h83TosA9CCakrcgCfB4ZC",
+    "canonical_key": "isrc:QZTGW2100274",
+    "title": "Pink Dolphin Sunset (feat. Tee)",
+    "artists": [
+      "Tory Lanez",
+      "Tee"
+    ],
+    "year": 2023,
+    "spotify_id": "5h83TosA9CCakrcgCfB4ZC",
+    "spotify_uri": null,
+    "isrc": "QZTGW2100274",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 220,
+    "track_id": "spotify:0Q1nTiEPnoQSqM0qrY9TMY",
+    "canonical_key": "isrc:JPH491605018",
+    "title": "Still Talking to You",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2006,
+    "spotify_id": "0Q1nTiEPnoQSqM0qrY9TMY",
+    "spotify_uri": null,
+    "isrc": "JPH491605018",
+    "musicbrainz_recording_id": "dd024d97-07c4-46b3-be2d-63956abae44b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 221,
+    "track_id": "spotify:7eVT1HXfWsa7u7m1VihvWo",
+    "canonical_key": "isrc:JPH491605015",
+    "title": "Don't Even Try It",
+    "artists": [
+      "Funky DL"
+    ],
+    "year": 2006,
+    "spotify_id": "7eVT1HXfWsa7u7m1VihvWo",
+    "spotify_uri": null,
+    "isrc": "JPH491605015",
+    "musicbrainz_recording_id": "23996026-42e9-4b35-ad86-5645ad49d3a7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 222,
+    "track_id": "spotify:0iYFTYlu7aNKUSmD6nfc6d",
+    "canonical_key": "isrc:JPH491605026",
+    "title": "People Don't Stray",
+    "artists": [
+      "Funky DL"
+    ],
+    "year": 2006,
+    "spotify_id": "0iYFTYlu7aNKUSmD6nfc6d",
+    "spotify_uri": null,
+    "isrc": "JPH491605026",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 223,
+    "track_id": "spotify:0UStn3gS3iAhWsjjkzoAnu",
+    "canonical_key": "isrc:JPH491605017",
+    "title": "Home Sweet Home",
+    "artists": [
+      "Substantial"
+    ],
+    "year": 2006,
+    "spotify_id": "0UStn3gS3iAhWsjjkzoAnu",
+    "spotify_uri": null,
+    "isrc": "JPH491605017",
+    "musicbrainz_recording_id": "5009df2a-a087-4e15-bc21-90631e18a93e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 224,
+    "track_id": "spotify:7HVtTrysxfpqyozf4uYUUQ",
+    "canonical_key": "isrc:JPH491605020",
+    "title": "Steadfast",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2006,
+    "spotify_id": "7HVtTrysxfpqyozf4uYUUQ",
+    "spotify_uri": null,
+    "isrc": "JPH491605020",
+    "musicbrainz_recording_id": "e83bb4a3-22c0-4c6a-94c8-e62de973e86d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 225,
+    "track_id": "spotify:3GFiNXCDyjCw14IRQIQszu",
+    "canonical_key": "isrc:JPH491605041",
+    "title": "After Hanabi -Listen To My Beats-",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2007,
+    "spotify_id": "3GFiNXCDyjCw14IRQIQszu",
+    "spotify_uri": null,
+    "isrc": "JPH491605041",
+    "musicbrainz_recording_id": "3b63dbb2-2476-422c-af64-e40d8efb7e92",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 226,
+    "track_id": "spotify:7AgMX97ljLm9BzszyyXEYZ",
+    "canonical_key": "isrc:USJI19100004",
+    "title": "Jazz (We've Got)",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1991,
+    "spotify_id": "7AgMX97ljLm9BzszyyXEYZ",
+    "spotify_uri": null,
+    "isrc": "USJI19100004",
+    "musicbrainz_recording_id": "e1603c1f-c03e-4d5d-9232-f5092a3c9144",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 227,
+    "track_id": "spotify:69jGxyfw3lzGGYf78jdkpF",
+    "canonical_key": "isrc:JPH491605010",
+    "title": "flowers",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2005,
+    "spotify_id": "69jGxyfw3lzGGYf78jdkpF",
+    "spotify_uri": null,
+    "isrc": "JPH491605010",
+    "musicbrainz_recording_id": "b9f695ce-3bf1-46b5-b428-1b87797e0cd1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 228,
+    "track_id": "spotify:28JBD8p18xNuOfyV7Cotdn",
+    "canonical_key": "isrc:USUG12204890",
+    "title": "Massive",
+    "artists": [
+      "Drake"
+    ],
+    "year": 2022,
+    "spotify_id": "28JBD8p18xNuOfyV7Cotdn",
+    "spotify_uri": null,
+    "isrc": "USUG12204890",
+    "musicbrainz_recording_id": "80db43ce-e708-483f-9112-b8ccb6606b43",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 229,
+    "track_id": "spotify:7f1UEGMBMuXfLBP5XANfrW",
+    "canonical_key": "isrc:GBAHK9600111",
+    "title": "The Hop",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1996,
+    "spotify_id": "7f1UEGMBMuXfLBP5XANfrW",
+    "spotify_uri": null,
+    "isrc": "GBAHK9600111",
+    "musicbrainz_recording_id": "2e83c377-32fb-4b6b-941f-3ca7e84130fd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 230,
+    "track_id": "spotify:0MRZ9nMoLc7qQ8Nhovv8C8",
+    "canonical_key": "isrc:USSM11506740",
+    "title": "Ok Alright (feat. ScHoolboy Q)",
+    "artists": [
+      "Travis Scott",
+      "ScHoolboy Q"
+    ],
+    "year": 2015,
+    "spotify_id": "0MRZ9nMoLc7qQ8Nhovv8C8",
+    "spotify_uri": null,
+    "isrc": "USSM11506740",
+    "musicbrainz_recording_id": "f1ad13f1-dff9-4fb2-b423-88327ec5651d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 231,
+    "track_id": "spotify:1RvcbRFBPwe8GdHDT7PkDj",
+    "canonical_key": "isrc:JPH491605078",
+    "title": "Luv (sic) pt5 Jumpster Remix",
+    "artists": [
+      "Nujabes",
+      "Jumpster"
+    ],
+    "year": 2015,
+    "spotify_id": "1RvcbRFBPwe8GdHDT7PkDj",
+    "spotify_uri": null,
+    "isrc": "JPH491605078",
+    "musicbrainz_recording_id": "3ca785b4-04c1-455b-abda-f1cc7ce4ef61",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 232,
+    "track_id": "spotify:5O9zs6G6RcB6yP1OKwnwiM",
+    "canonical_key": "isrc:USUM71804174",
+    "title": "Choppa Won't Miss (feat. Young Thug)",
+    "artists": [
+      "Playboi Carti",
+      "Young Thug"
+    ],
+    "year": 2018,
+    "spotify_id": "5O9zs6G6RcB6yP1OKwnwiM",
+    "spotify_uri": null,
+    "isrc": "USUM71804174",
+    "musicbrainz_recording_id": "7c4b42ed-5bc0-4b01-a747-9f44ec6111c4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 233,
+    "track_id": "spotify:2mkV4angeBLZPTcYOSrjee",
+    "canonical_key": "isrc:USUM71703105",
+    "title": "Had 2",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "2mkV4angeBLZPTcYOSrjee",
+    "spotify_uri": null,
+    "isrc": "USUM71703105",
+    "musicbrainz_recording_id": "711db035-e7e0-47a8-a1be-3b533bf8f6bd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 234,
+    "track_id": "spotify:3hDp5jRxvtD31giFGUaE1x",
+    "canonical_key": "isrc:USUM71703103",
+    "title": "Kelly K",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "3hDp5jRxvtD31giFGUaE1x",
+    "spotify_uri": null,
+    "isrc": "USUM71703103",
+    "musicbrainz_recording_id": "514d0dad-1360-4115-bbad-bff8ebe8711f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 235,
+    "track_id": "spotify:6jbYpRPTEFl1HFKHk1IC0m",
+    "canonical_key": "isrc:USQX92405794",
+    "title": "Like Him (feat. Lola Young)",
+    "artists": [
+      "Tyler, The Creator",
+      "Lola Young"
+    ],
+    "year": 2024,
+    "spotify_id": "6jbYpRPTEFl1HFKHk1IC0m",
+    "spotify_uri": null,
+    "isrc": "USQX92405794",
+    "musicbrainz_recording_id": "5900c293-8d3c-4731-a2da-07069fda0e93",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 7
+  },
+  {
+    "row": 236,
+    "track_id": "spotify:0NUqi0ps17YpLUC3kgsZq0",
+    "canonical_key": "isrc:USLD91772033",
+    "title": "DIE TRYING",
+    "artists": [
+      "PARTYNEXTDOOR",
+      "Drake",
+      "Yebba"
+    ],
+    "year": 2025,
+    "spotify_id": "0NUqi0ps17YpLUC3kgsZq0",
+    "spotify_uri": null,
+    "isrc": "USLD91772033",
+    "musicbrainz_recording_id": "82e1dcb0-7727-4049-8850-43be614561dd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 237,
+    "track_id": "spotify:16wGHOPaWoat5rkAZkixxk",
+    "canonical_key": "isrc:JPH491605079",
+    "title": "Luv (sic) pt6 Uyama Hiroto Remix",
+    "artists": [
+      "Nujabes",
+      "Uyama Hiroto"
+    ],
+    "year": 2015,
+    "spotify_id": "16wGHOPaWoat5rkAZkixxk",
+    "spotify_uri": null,
+    "isrc": "JPH491605079",
+    "musicbrainz_recording_id": "ad912b6e-e39c-4382-a106-d69148b991ac",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 238,
+    "track_id": "spotify:5pHJv0bgNsT9nPoK2BjNBn",
+    "canonical_key": "isrc:USUM71804187",
+    "title": "No Time (feat. Gunna)",
+    "artists": [
+      "Playboi Carti",
+      "Gunna"
+    ],
+    "year": 2018,
+    "spotify_id": "5pHJv0bgNsT9nPoK2BjNBn",
+    "spotify_uri": null,
+    "isrc": "USUM71804187",
+    "musicbrainz_recording_id": "e76f03eb-e9f7-4e1f-bb62-b35946b12acb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 239,
+    "track_id": "spotify:21aDVa64pWR8SYQ7wBRMkd",
+    "canonical_key": "isrc:USUM72414856",
+    "title": "CHARGE DEM HOES A FEE (with Future & Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Future",
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "21aDVa64pWR8SYQ7wBRMkd",
+    "spotify_uri": null,
+    "isrc": "USUM72414856",
+    "musicbrainz_recording_id": "914bda7e-9aa8-4992-bf4d-ae1b530bb1de",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 240,
+    "track_id": "spotify:3VdooJLOy4tLxKpnn46SMP",
+    "canonical_key": "isrc:USUM72414869",
+    "title": "CRUSH (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "3VdooJLOy4tLxKpnn46SMP",
+    "spotify_uri": null,
+    "isrc": "USUM72414869",
+    "musicbrainz_recording_id": "8c98f441-25d3-4ec1-a871-11d39092db5c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 241,
+    "track_id": "spotify:6iycYUk3oB0NPMdaDUrN1w",
+    "canonical_key": "isrc:USUM72414866",
+    "title": "EVIL J0RDAN",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "6iycYUk3oB0NPMdaDUrN1w",
+    "spotify_uri": null,
+    "isrc": "USUM72414866",
+    "musicbrainz_recording_id": "2b07595c-a350-4522-abc8-9a2580778635",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 242,
+    "track_id": "spotify:5SIvP6TdWc9DNvKbENjnYc",
+    "canonical_key": "isrc:USUM72414868",
+    "title": "PHILLY (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "5SIvP6TdWc9DNvKbENjnYc",
+    "spotify_uri": null,
+    "isrc": "USUM72414868",
+    "musicbrainz_recording_id": "f87668c6-2459-4e57-9965-bd8d1dc01f31",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 243,
+    "track_id": "spotify:3lAEHk0eZzMKtCUFLXz8Ln",
+    "canonical_key": "isrc:USUM72414870",
+    "title": "RADAR",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "3lAEHk0eZzMKtCUFLXz8Ln",
+    "spotify_uri": null,
+    "isrc": "USUM72414870",
+    "musicbrainz_recording_id": "741ccd91-3fb3-4524-8c9f-e7f5ec5f93b9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 244,
+    "track_id": "spotify:68qeaZhtMZ6abrJCYt6nQn",
+    "canonical_key": "isrc:USUM72414871",
+    "title": "RATHER LIE (with The Weeknd)",
+    "artists": [
+      "Playboi Carti",
+      "The Weeknd"
+    ],
+    "year": 2025,
+    "spotify_id": "68qeaZhtMZ6abrJCYt6nQn",
+    "spotify_uri": null,
+    "isrc": "USUM72414871",
+    "musicbrainz_recording_id": "30d69496-b52e-4961-b74f-12d53aec2a13",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 245,
+    "track_id": "spotify:1pzN8bCzy017iK3vWzkk6Z",
+    "canonical_key": "isrc:USUM72414859",
+    "title": "WAKE UP F1LTHY (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "1pzN8bCzy017iK3vWzkk6Z",
+    "spotify_uri": null,
+    "isrc": "USUM72414859",
+    "musicbrainz_recording_id": "2a4b653c-8417-4185-87b0-42462c325ec0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 246,
+    "track_id": "spotify:4qvsNsA4gQKC9HLrmPC2Vx",
+    "canonical_key": "isrc:USUM72414861",
+    "title": "TRIM (with Future)",
+    "artists": [
+      "Playboi Carti",
+      "Future"
+    ],
+    "year": 2025,
+    "spotify_id": "4qvsNsA4gQKC9HLrmPC2Vx",
+    "spotify_uri": null,
+    "isrc": "USUM72414861",
+    "musicbrainz_recording_id": "2eea5017-fffd-4a6a-9d66-2f0d538c7474",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 247,
+    "track_id": "spotify:4rXxjHSAglOynjIF8Z34dx",
+    "canonical_key": "isrc:USUM72414863",
+    "title": "COCAINE NOSE",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "4rXxjHSAglOynjIF8Z34dx",
+    "spotify_uri": null,
+    "isrc": "USUM72414863",
+    "musicbrainz_recording_id": "0fa2bb63-900f-42ec-92e5-abaa5637f215",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 248,
+    "track_id": "spotify:4XcZp2xqbiD8YsnPboNUDo",
+    "canonical_key": "isrc:USUM72502293",
+    "title": "WE NEED ALL DA VIBES (with Young Thug & Ty Dolla $ign)",
+    "artists": [
+      "Playboi Carti",
+      "Young Thug",
+      "Ty Dolla $ign"
+    ],
+    "year": 2025,
+    "spotify_id": "4XcZp2xqbiD8YsnPboNUDo",
+    "spotify_uri": null,
+    "isrc": "USUM72502293",
+    "musicbrainz_recording_id": "8e98cb1b-208e-4d1d-bc79-55de285d4575",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 249,
+    "track_id": "spotify:4uoADk7q83CHvXHW3k1etM",
+    "canonical_key": "isrc:USUM72502294",
+    "title": "OLYMPIAN",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "4uoADk7q83CHvXHW3k1etM",
+    "spotify_uri": null,
+    "isrc": "USUM72502294",
+    "musicbrainz_recording_id": "6b3179ee-e3b2-4809-aa8c-2ab0b0a17f57",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 250,
+    "track_id": "spotify:3surY3LebvLLdJezmiKUBO",
+    "canonical_key": "isrc:USUM72502296",
+    "title": "TWIN TRIM (with Lil Uzi Vert)",
+    "artists": [
+      "Playboi Carti",
+      "Lil Uzi Vert"
+    ],
+    "year": 2025,
+    "spotify_id": "3surY3LebvLLdJezmiKUBO",
+    "spotify_uri": null,
+    "isrc": "USUM72502296",
+    "musicbrainz_recording_id": "c330523c-f9bc-4187-8fc6-fca8d46a50c4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 251,
+    "track_id": "spotify:4zK082ykqJzJGzC64NXjp1",
+    "canonical_key": "isrc:USUM72502314",
+    "title": "LIKE WEEZY",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "4zK082ykqJzJGzC64NXjp1",
+    "spotify_uri": null,
+    "isrc": "USUM72502314",
+    "musicbrainz_recording_id": "a4e236ae-bb7b-480b-a96c-342faf9bd675",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 252,
+    "track_id": "spotify:6q2PbvM9UEig4r8xku7VIb",
+    "canonical_key": "isrc:USUM72502319",
+    "title": "HBA",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "6q2PbvM9UEig4r8xku7VIb",
+    "spotify_uri": null,
+    "isrc": "USUM72502319",
+    "musicbrainz_recording_id": "60a7a32b-7458-4bd6-b23f-0969f894124b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 253,
+    "track_id": "spotify:3cWmqvMwVQKDigWLSZ3w9h",
+    "canonical_key": "isrc:USUM72024683",
+    "title": "Rockstar Made",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "3cWmqvMwVQKDigWLSZ3w9h",
+    "spotify_uri": null,
+    "isrc": "USUM72024683",
+    "musicbrainz_recording_id": "4571ed3a-2434-476c-a404-fd783257bdea",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 254,
+    "track_id": "spotify:1bAv1DWUibxCIjAk9SlzRi",
+    "canonical_key": "isrc:USUM72400088",
+    "title": "2024",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "1bAv1DWUibxCIjAk9SlzRi",
+    "spotify_uri": null,
+    "isrc": "USUM72400088",
+    "musicbrainz_recording_id": "5b20177b-2841-479a-a4f3-591179732053",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 255,
+    "track_id": "spotify:2cjhSZd6uZIrp4ddxvvBdn",
+    "canonical_key": "isrc:USUM72400005",
+    "title": "BACKR00MS (with Travis Scott)",
+    "artists": [
+      "Playboi Carti",
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "2cjhSZd6uZIrp4ddxvvBdn",
+    "spotify_uri": null,
+    "isrc": "USUM72400005",
+    "musicbrainz_recording_id": "fc6655cf-bbb8-4bec-b79f-0f7d8ec81626",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 256,
+    "track_id": "spotify:7bO7a1KrtmGNDIOy2u3siZ",
+    "canonical_key": "isrc:USUM72502625",
+    "title": "FOMDJ",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "7bO7a1KrtmGNDIOy2u3siZ",
+    "spotify_uri": null,
+    "isrc": "USUM72502625",
+    "musicbrainz_recording_id": "b989a873-42b2-4b9f-a283-153fcc39f702",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 257,
+    "track_id": "spotify:0dApSLrXvnYWy1wagJOmpp",
+    "canonical_key": "isrc:USUM72502378",
+    "title": "DIFFERENT DAY",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2025,
+    "spotify_id": "0dApSLrXvnYWy1wagJOmpp",
+    "spotify_uri": null,
+    "isrc": "USUM72502378",
+    "musicbrainz_recording_id": "ddb109c0-9dfa-44bf-b724-bdf1929202b5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 258,
+    "track_id": "spotify:2ff0Hy1uymLoiiHD1nmeOB",
+    "canonical_key": "isrc:JPVI00441210",
+    "title": "just forget",
+    "artists": [
+      "Force Of Nature"
+    ],
+    "year": 2004,
+    "spotify_id": "2ff0Hy1uymLoiiHD1nmeOB",
+    "spotify_uri": null,
+    "isrc": "JPVI00441210",
+    "musicbrainz_recording_id": "abbe9286-9f36-4c79-8f4f-ba7f2bfa7bb3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 259,
+    "track_id": "spotify:1r9W6X7XA07X11WbW1TveA",
+    "canonical_key": "isrc:JPVI00441310",
+    "title": "tsurugi no mai",
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2004,
+    "spotify_id": "1r9W6X7XA07X11WbW1TveA",
+    "spotify_uri": null,
+    "isrc": "JPVI00441310",
+    "musicbrainz_recording_id": "eb7c3737-0954-4653-ac14-b6fd7cd59de0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 260,
+    "track_id": "spotify:6bpK8VkbJqd7nzjwy07BVH",
+    "canonical_key": "isrc:JPVI00428840",
+    "title": "Who's Theme",
+    "artists": [
+      "MINMI"
+    ],
+    "year": 2004,
+    "spotify_id": "6bpK8VkbJqd7nzjwy07BVH",
+    "spotify_uri": null,
+    "isrc": "JPVI00428840",
+    "musicbrainz_recording_id": "0f634543-23ec-4a20-a992-7c24b405837b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 261,
+    "track_id": "spotify:2yUzr8Sr6ldG8vmHhZwTnz",
+    "canonical_key": "isrc:USSM12309168",
+    "title": "née-nah",
+    "artists": [
+      "21 Savage",
+      "Travis Scott",
+      "Metro Boomin"
+    ],
+    "year": 2024,
+    "spotify_id": "2yUzr8Sr6ldG8vmHhZwTnz",
+    "spotify_uri": null,
+    "isrc": "USSM12309168",
+    "musicbrainz_recording_id": "0d10a467-935a-4779-be87-ce227b0a1ace",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 262,
+    "track_id": "spotify:0lodMO0qK83vfPiiD7FMEt",
+    "canonical_key": "isrc:USSM12305013",
+    "title": "TOPIA TWINS (feat. Rob49 & 21 Savage)",
+    "artists": [
+      "Travis Scott",
+      "Rob49",
+      "21 Savage"
+    ],
+    "year": 2023,
+    "spotify_id": "0lodMO0qK83vfPiiD7FMEt",
+    "spotify_uri": null,
+    "isrc": "USSM12305013",
+    "musicbrainz_recording_id": "c9e0f136-24aa-48f6-89a4-5e19f13ba2c3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 263,
+    "track_id": "spotify:4MXhiYIRDMGAuvZc5IFTwC",
+    "canonical_key": "isrc:USSM11806668",
+    "title": "ASTROTHUNDER",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2018,
+    "spotify_id": "4MXhiYIRDMGAuvZc5IFTwC",
+    "spotify_uri": null,
+    "isrc": "USSM11806668",
+    "musicbrainz_recording_id": "dd9ba6bc-2c27-4ab0-a64c-7437db304f14",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 264,
+    "track_id": "spotify:7ynGOXn5VTjD3VpbuHcpsf",
+    "canonical_key": "isrc:TCADN1867879",
+    "title": "The Final Samba",
+    "artists": [
+      "Witness"
+    ],
+    "year": 2011,
+    "spotify_id": "7ynGOXn5VTjD3VpbuHcpsf",
+    "spotify_uri": null,
+    "isrc": "TCADN1867879",
+    "musicbrainz_recording_id": "2080208b-1a02-4162-a0c2-3bb43ccd73da",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 265,
+    "track_id": "spotify:69UzDmxpRr3F0xY3NaApm9",
+    "canonical_key": "isrc:JPVI00441230",
+    "title": "HIIZURU STYLE",
+    "artists": [
+      "Force Of Nature",
+      "Suiken",
+      "S-Word"
+    ],
+    "year": 2004,
+    "spotify_id": "69UzDmxpRr3F0xY3NaApm9",
+    "spotify_uri": null,
+    "isrc": "JPVI00441230",
+    "musicbrainz_recording_id": "e12aad40-bd54-46bb-8b3e-8ed3d243d99b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 266,
+    "track_id": "spotify:5wNIHa6wvCCKP6fWgo3UAh",
+    "canonical_key": "isrc:USSM12503071",
+    "title": "CHAMPAIN & VACAY",
+    "artists": [
+      "Travis Scott",
+      "Don Toliver"
+    ],
+    "year": 2025,
+    "spotify_id": "5wNIHa6wvCCKP6fWgo3UAh",
+    "spotify_uri": null,
+    "isrc": "USSM12503071",
+    "musicbrainz_recording_id": "f32247af-799f-4eb1-89e8-ae443f39819b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 267,
+    "track_id": "spotify:5P03xImM2uFukzoty7NDw7",
+    "canonical_key": "isrc:USSM12503073",
+    "title": "KICK OUT",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "5P03xImM2uFukzoty7NDw7",
+    "spotify_uri": null,
+    "isrc": "USSM12503073",
+    "musicbrainz_recording_id": "e8e67e23-37a1-412b-847a-a4d5def681d8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 268,
+    "track_id": "spotify:7ydu79RLStYQTOi1OM6Dvg",
+    "canonical_key": "isrc:USSM12503077",
+    "title": "CONTEST",
+    "artists": [
+      "Travis Scott",
+      "SoFaygo"
+    ],
+    "year": 2025,
+    "spotify_id": "7ydu79RLStYQTOi1OM6Dvg",
+    "spotify_uri": null,
+    "isrc": "USSM12503077",
+    "musicbrainz_recording_id": "64c5d59f-a2c3-452c-912a-f38fbf612ec6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 269,
+    "track_id": "spotify:6350Cp9yZogJcgR7TwDLAQ",
+    "canonical_key": "isrc:QZTB72291763",
+    "title": "Champ Magnétique",
+    "artists": [
+      "Yakkle",
+      "Shing02"
+    ],
+    "year": 2022,
+    "spotify_id": "6350Cp9yZogJcgR7TwDLAQ",
+    "spotify_uri": null,
+    "isrc": "QZTB72291763",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 270,
+    "track_id": "spotify:7ejepEh5DJ79YI6owGRfkk",
+    "canonical_key": "isrc:USUM71910478",
+    "title": "New N3on",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "7ejepEh5DJ79YI6owGRfkk",
+    "spotify_uri": null,
+    "isrc": "USUM71910478",
+    "musicbrainz_recording_id": "69cf5831-fb34-4e83-970c-61d72f13deea",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 271,
+    "track_id": "spotify:5467KZaTToEB680WvOd9w5",
+    "canonical_key": "isrc:USUYG1267295",
+    "title": "Ocean Prime (feat. Boldy James)",
+    "artists": [
+      "The Alchemist",
+      "Boldy James"
+    ],
+    "year": 2019,
+    "spotify_id": "5467KZaTToEB680WvOd9w5",
+    "spotify_uri": null,
+    "isrc": "USUYG1267295",
+    "musicbrainz_recording_id": "53213071-bda3-43a9-a4f0-6c3f5d89ef85",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 272,
+    "track_id": "spotify:6Lph4zADq2K62XAjVaMWxR",
+    "canonical_key": "isrc:QZFZ32076939",
+    "title": "愛密集 - Instrumental",
+    "artists": [
+      "Yakkle",
+      "Shing02"
+    ],
+    "year": 2020,
+    "spotify_id": "6Lph4zADq2K62XAjVaMWxR",
+    "spotify_uri": null,
+    "isrc": "QZFZ32076939",
+    "musicbrainz_recording_id": "07db4f23-3b90-4d90-acb6-ed0325b5b365",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 273,
+    "track_id": "spotify:3wtAUhuNHHhvtdPnI2d5qi",
+    "canonical_key": "isrc:QZK6J2288722",
+    "title": "Wok - Instrumental",
+    "artists": [
+      "void",
+      "LHBeats"
+    ],
+    "year": 2020,
+    "spotify_id": "3wtAUhuNHHhvtdPnI2d5qi",
+    "spotify_uri": null,
+    "isrc": "QZK6J2288722",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 274,
+    "track_id": "spotify:4evMMKc2HD6fV9slMfgkMx",
+    "canonical_key": "isrc:USUM72414854",
+    "title": "TOXIC (with Skepta)",
+    "artists": [
+      "Playboi Carti",
+      "Skepta"
+    ],
+    "year": 2025,
+    "spotify_id": "4evMMKc2HD6fV9slMfgkMx",
+    "spotify_uri": null,
+    "isrc": "USUM72414854",
+    "musicbrainz_recording_id": "dfc5b276-dbd2-4be9-8a9d-989459cb7976",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 275,
+    "track_id": "spotify:78YTl0P96kBCBXUSzKoqAm",
+    "canonical_key": "isrc:USUM72024689",
+    "title": "Control",
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2020,
+    "spotify_id": "78YTl0P96kBCBXUSzKoqAm",
+    "spotify_uri": null,
+    "isrc": "USUM72024689",
+    "musicbrainz_recording_id": "ed3eeaab-083e-479e-a22a-857604809545",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 276,
+    "track_id": "spotify:2XH2U69lwqCUTMxElGqbVY",
+    "canonical_key": "isrc:TCADN1867875",
+    "title": "Mission Statement (feat. Daimyo)",
+    "artists": [
+      "Witness",
+      "Daimyo"
+    ],
+    "year": 2011,
+    "spotify_id": "2XH2U69lwqCUTMxElGqbVY",
+    "spotify_uri": null,
+    "isrc": "TCADN1867875",
+    "musicbrainz_recording_id": "cfd1653a-28db-4ede-95cd-0d1f3f0fa8d9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 277,
+    "track_id": "spotify:09hbZ8vF8YmlVQq55Ai1Ay",
+    "canonical_key": "isrc:USUM72109090",
+    "title": "Switching Lanes (feat. Playboi Carti)",
+    "artists": [
+      "Pi’erre Bourne",
+      "Playboi Carti"
+    ],
+    "year": 2021,
+    "spotify_id": "09hbZ8vF8YmlVQq55Ai1Ay",
+    "spotify_uri": null,
+    "isrc": "USUM72109090",
+    "musicbrainz_recording_id": "200bd762-4b8e-4975-b0ac-090218a7548d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 278,
+    "track_id": "spotify:66w7lK0t98OPgvYjXp39IP",
+    "canonical_key": "isrc:QZJ842000262",
+    "title": "Excitement",
+    "artists": [
+      "Trippie Redd",
+      "PARTYNEXTDOOR"
+    ],
+    "year": 2020,
+    "spotify_id": "66w7lK0t98OPgvYjXp39IP",
+    "spotify_uri": null,
+    "isrc": "QZJ842000262",
+    "musicbrainz_recording_id": "90406cd0-cba3-474a-8a59-dd844859ec52",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 279,
+    "track_id": "spotify:4QhWbupniDd44EDtnh2bFJ",
+    "canonical_key": "isrc:USUM71207185",
+    "title": "Pyramids",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2012,
+    "spotify_id": "4QhWbupniDd44EDtnh2bFJ",
+    "spotify_uri": null,
+    "isrc": "USUM71207185",
+    "musicbrainz_recording_id": "6663470e-57d7-450a-bbf5-be672640d14e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 280,
+    "track_id": "spotify:1b2cEcfy5d7KQ79WvZHLPd",
+    "canonical_key": "isrc:QZMWW2399609",
+    "title": "Dropped Out",
+    "artists": [
+      "pinkpills"
+    ],
+    "year": 2023,
+    "spotify_id": "1b2cEcfy5d7KQ79WvZHLPd",
+    "spotify_uri": null,
+    "isrc": "QZMWW2399609",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 281,
+    "track_id": "spotify:6s8WSX1MxNThrot8ThI6fG",
+    "canonical_key": "isrc:USSM12410202",
+    "title": "4X4",
+    "artists": [
+      "Travis Scott"
+    ],
+    "year": 2025,
+    "spotify_id": "6s8WSX1MxNThrot8ThI6fG",
+    "spotify_uri": null,
+    "isrc": "USSM12410202",
+    "musicbrainz_recording_id": "d1b1a123-9785-4c88-8ec3-bfc0b0954635",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 282,
+    "track_id": "spotify:1AYAq7S27fOqQuZRZ59P2y",
+    "canonical_key": "isrc:TCADN1867876",
+    "title": "Shibuya",
+    "artists": [
+      "Witness"
+    ],
+    "year": 2011,
+    "spotify_id": "1AYAq7S27fOqQuZRZ59P2y",
+    "spotify_uri": null,
+    "isrc": "TCADN1867876",
+    "musicbrainz_recording_id": "9d9a8b76-62f7-4bec-930f-441b08612738",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 283,
+    "track_id": "spotify:787rCZF9i4L1cXGMkdyIk4",
+    "canonical_key": "isrc:USRC11201447",
+    "title": "LVL",
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "year": 2013,
+    "spotify_id": "787rCZF9i4L1cXGMkdyIk4",
+    "spotify_uri": null,
+    "isrc": "USRC11201447",
+    "musicbrainz_recording_id": "65a23443-e846-4a24-9fad-09fe7ccf0c24",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  }
+]

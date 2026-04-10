@@ -1,0 +1,322 @@
+{
+  "input": "ml_pipeline/data/runtime/playlist_2.prepared.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_5/representation_artifacts.npz",
+  "records": 284,
+  "feature_count": 323,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "final_k": 12,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 19,
+    "1": 81,
+    "2": 27,
+    "3": 13,
+    "4": 11,
+    "5": 18,
+    "6": 30,
+    "7": 5,
+    "8": 24,
+    "9": 8,
+    "10": 21,
+    "11": 27
+  },
+  "diagnostics": [
+    {
+      "k": 5,
+      "silhouette": 0.27248647600984816,
+      "adjusted_score": 0.31248647600984814,
+      "cluster_sizes": [
+        116,
+        108,
+        36,
+        24
+      ],
+      "largest_fraction": 0.4084507042253521,
+      "second_fraction": 0.38028169014084506,
+      "meaningful_cluster_count": 4,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.287985745583466,
+      "adjusted_score": 0.347985745583466,
+      "cluster_sizes": [
+        113,
+        101,
+        27,
+        24,
+        19
+      ],
+      "largest_fraction": 0.397887323943662,
+      "second_fraction": 0.35563380281690143,
+      "meaningful_cluster_count": 5,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.3058249761295005,
+      "adjusted_score": 0.3658249761295005,
+      "cluster_sizes": [
+        95,
+        88,
+        44,
+        24,
+        22,
+        11
+      ],
+      "largest_fraction": 0.3345070422535211,
+      "second_fraction": 0.30985915492957744,
+      "meaningful_cluster_count": 6,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.3223043392373057,
+      "adjusted_score": 0.3823043392373057,
+      "cluster_sizes": [
+        81,
+        76,
+        55,
+        24,
+        21,
+        16,
+        11
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.2676056338028169,
+      "meaningful_cluster_count": 7,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 9,
+      "silhouette": 0.3332637932267377,
+      "adjusted_score": 0.3932637932267377,
+      "cluster_sizes": [
+        81,
+        77,
+        52,
+        23,
+        19,
+        16,
+        11,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.2711267605633803,
+      "meaningful_cluster_count": 8,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 10,
+      "silhouette": 0.3479370720355305,
+      "adjusted_score": 0.4079370720355305,
+      "cluster_sizes": [
+        81,
+        48,
+        45,
+        37,
+        22,
+        19,
+        16,
+        11,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.16901408450704225,
+      "meaningful_cluster_count": 9,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 11,
+      "silhouette": 0.34113083653115656,
+      "adjusted_score": 0.40113083653115655,
+      "cluster_sizes": [
+        81,
+        52,
+        47,
+        38,
+        24,
+        19,
+        11,
+        7,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.18309859154929578,
+      "meaningful_cluster_count": 9,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 12,
+      "silhouette": 0.35149108680818086,
+      "adjusted_score": 0.41149108680818086,
+      "cluster_sizes": [
+        81,
+        51,
+        43,
+        38,
+        19,
+        17,
+        12,
+        11,
+        7,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.1795774647887324,
+      "meaningful_cluster_count": 10,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 13,
+      "silhouette": 0.35587822791336937,
+      "adjusted_score": 0.41587822791336937,
+      "cluster_sizes": [
+        81,
+        44,
+        32,
+        31,
+        23,
+        22,
+        19,
+        17,
+        10,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.15492957746478872,
+      "meaningful_cluster_count": 10,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 14,
+      "silhouette": 0.3741143916489435,
+      "adjusted_score": 0.4341143916489435,
+      "cluster_sizes": [
+        81,
+        30,
+        27,
+        27,
+        24,
+        21,
+        19,
+        18,
+        13,
+        11,
+        8,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.1056338028169014,
+      "meaningful_cluster_count": 12,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 15,
+      "silhouette": 0.3629700109417444,
+      "adjusted_score": 0.4229700109417444,
+      "cluster_sizes": [
+        81,
+        36,
+        34,
+        31,
+        22,
+        19,
+        19,
+        18,
+        11,
+        8,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.1267605633802817,
+      "meaningful_cluster_count": 11,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 16,
+      "silhouette": 0.363084639565517,
+      "adjusted_score": 0.423084639565517,
+      "cluster_sizes": [
+        81,
+        40,
+        31,
+        30,
+        21,
+        19,
+        12,
+        12,
+        11,
+        8,
+        7,
+        7,
+        5
+      ],
+      "largest_fraction": 0.2852112676056338,
+      "second_fraction": 0.14084507042253522,
+      "meaningful_cluster_count": 13,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "weights": {
+    "raw_input_weights": {
+      "tag_weight": 1.0,
+      "genre_weight": 0.699999988079071,
+      "acoustic_weight": 1.2000000476837158,
+      "year_weight": 0.25,
+      "popularity_weight": 0.15000000596046448,
+      "binary_weight": 0.10000000149011612
+    },
+    "postscale_block_weights": {
+      "tag_block_weight": 0.699999988079071,
+      "genre_block_weight": 0.5,
+      "acoustic_block_weight": 1.7999999523162842,
+      "meta_block_weight": 1.0
+    },
+    "neutralize_missing_acoustic": true
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/artifacts/playlist_cluster_test_f/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/artifacts/playlist_cluster_test_f/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/artifacts/playlist_cluster_test_f/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/artifacts/playlist_cluster_test_f/playlist_embeddings.npy"
+  }
+}

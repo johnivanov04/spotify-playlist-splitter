@@ -100,6 +100,35 @@ def apply_scaler(X: np.ndarray, mean: np.ndarray, std: np.ndarray) -> np.ndarray
     return (X - mean) / std
 
 
+def build_postscale_weight_vector(
+    feature_names: list[str],
+    *,
+    tag_block_weight: float,
+    genre_block_weight: float,
+    acoustic_block_weight: float,
+    meta_block_weight: float,
+) -> np.ndarray:
+    weights = np.ones(len(feature_names), dtype=np.float64)
+    for idx, name in enumerate(feature_names):
+        if name.startswith("tag__"):
+            weights[idx] = tag_block_weight
+        elif name.startswith("genre__"):
+            weights[idx] = genre_block_weight
+        elif name.startswith("acoustic__"):
+            weights[idx] = acoustic_block_weight
+        elif name.startswith("meta__"):
+            weights[idx] = meta_block_weight
+    return weights
+
+
+def apply_postscale_weights(X_scaled: np.ndarray, postscale_weights: np.ndarray) -> np.ndarray:
+    if X_scaled.shape[1] != postscale_weights.shape[0]:
+        raise ValueError(
+            f"Post-scale weights length mismatch: matrix has {X_scaled.shape[1]} cols, weights has {postscale_weights.shape[0]}"
+        )
+    return X_scaled * postscale_weights
+
+
 def choose_pca_components(
     n_features: int,
     n_samples: int,
@@ -288,6 +317,30 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         default=10,
         help="How many example tracks to report per cluster",
     )
+    parser.add_argument(
+        "--tag-block-weight",
+        type=float,
+        default=1.0,
+        help="Post-scaling multiplier for tag features before PCA/clustering diagnostics",
+    )
+    parser.add_argument(
+        "--genre-block-weight",
+        type=float,
+        default=1.0,
+        help="Post-scaling multiplier for genre features before PCA/clustering diagnostics",
+    )
+    parser.add_argument(
+        "--acoustic-block-weight",
+        type=float,
+        default=1.0,
+        help="Post-scaling multiplier for acoustic features before PCA/clustering diagnostics",
+    )
+    parser.add_argument(
+        "--meta-block-weight",
+        type=float,
+        default=1.0,
+        help="Post-scaling multiplier for meta features before PCA/clustering diagnostics",
+    )
 
     return parser.parse_args(argv)
 
@@ -307,21 +360,29 @@ def main(argv: list[str] | None = None) -> int:
 
     mean, std = compute_scaler(X)
     X_scaled = apply_scaler(X, mean, std)
+    postscale_weights = build_postscale_weight_vector(
+        feature_names,
+        tag_block_weight=args.tag_block_weight,
+        genre_block_weight=args.genre_block_weight,
+        acoustic_block_weight=args.acoustic_block_weight,
+        meta_block_weight=args.meta_block_weight,
+    )
+    X_weighted = apply_postscale_weights(X_scaled, postscale_weights)
 
     actual_pca_components = choose_pca_components(
-        n_features=X_scaled.shape[1],
-        n_samples=X_scaled.shape[0],
+        n_features=X_weighted.shape[1],
+        n_samples=X_weighted.shape[0],
         requested=args.pca_components,
     )
 
     pca: PCA | None = None
-    if actual_pca_components < X_scaled.shape[1]:
-        pca = build_pca(X_scaled, n_components=actual_pca_components, random_state=args.random_state)
-        embeddings = pca.transform(X_scaled)
+    if actual_pca_components < X_weighted.shape[1]:
+        pca = build_pca(X_weighted, n_components=actual_pca_components, random_state=args.random_state)
+        embeddings = pca.transform(X_weighted)
         explained_variance_ratio = pca.explained_variance_ratio_.astype(np.float64)
         explained_variance_cumulative = np.cumsum(explained_variance_ratio)
     else:
-        embeddings = X_scaled.copy()
+        embeddings = X_weighted.copy()
         explained_variance_ratio = np.array([], dtype=np.float64)
         explained_variance_cumulative = np.array([], dtype=np.float64)
 
@@ -341,7 +402,7 @@ def main(argv: list[str] | None = None) -> int:
     final_labels = final_model.fit_predict(embeddings)
 
     cluster_summary = build_cluster_summary(
-        X_scaled=X_scaled,
+        X_scaled=X_weighted,
         embeddings=embeddings,
         labels=final_labels,
         model=final_model,
@@ -368,6 +429,17 @@ def main(argv: list[str] | None = None) -> int:
             pca_mean=pca.mean_.astype(np.float32),
             pca_explained_variance=pca.explained_variance_.astype(np.float32),
             pca_explained_variance_ratio=pca.explained_variance_ratio_.astype(np.float32),
+            postscale_weights=postscale_weights.astype(np.float32),
+            tag_block_weight=np.float32(args.tag_block_weight),
+            genre_block_weight=np.float32(args.genre_block_weight),
+            acoustic_block_weight=np.float32(args.acoustic_block_weight),
+            meta_block_weight=np.float32(args.meta_block_weight),
+            input_tag_weight=np.float32(((featurizer_report.get("weights") or {}).get("tag_weight", 1.0))),
+            input_genre_weight=np.float32(((featurizer_report.get("weights") or {}).get("genre_weight", 0.7))),
+            input_acoustic_weight=np.float32(((featurizer_report.get("weights") or {}).get("acoustic_weight", 0.9))),
+            input_year_weight=np.float32(((featurizer_report.get("weights") or {}).get("year_weight", 0.25))),
+            input_popularity_weight=np.float32(((featurizer_report.get("weights") or {}).get("popularity_weight", 0.15))),
+            input_binary_weight=np.float32(((featurizer_report.get("weights") or {}).get("binary_weight", 0.10))),
             feature_names=np.array(feature_names, dtype=object),
         )
     else:
@@ -379,6 +451,17 @@ def main(argv: list[str] | None = None) -> int:
             pca_mean=np.empty((0,), dtype=np.float32),
             pca_explained_variance=np.empty((0,), dtype=np.float32),
             pca_explained_variance_ratio=np.empty((0,), dtype=np.float32),
+            postscale_weights=postscale_weights.astype(np.float32),
+            tag_block_weight=np.float32(args.tag_block_weight),
+            genre_block_weight=np.float32(args.genre_block_weight),
+            acoustic_block_weight=np.float32(args.acoustic_block_weight),
+            meta_block_weight=np.float32(args.meta_block_weight),
+            input_tag_weight=np.float32(((featurizer_report.get("weights") or {}).get("tag_weight", 1.0))),
+            input_genre_weight=np.float32(((featurizer_report.get("weights") or {}).get("genre_weight", 0.7))),
+            input_acoustic_weight=np.float32(((featurizer_report.get("weights") or {}).get("acoustic_weight", 0.9))),
+            input_year_weight=np.float32(((featurizer_report.get("weights") or {}).get("year_weight", 0.25))),
+            input_popularity_weight=np.float32(((featurizer_report.get("weights") or {}).get("popularity_weight", 0.15))),
+            input_binary_weight=np.float32(((featurizer_report.get("weights") or {}).get("binary_weight", 0.10))),
             feature_names=np.array(feature_names, dtype=object),
         )
 
@@ -422,6 +505,20 @@ def main(argv: list[str] | None = None) -> int:
             "cluster_labels_json": str(cluster_labels_json_path),
             "cluster_diagnostics_json": str(diagnostics_json_path),
             "cluster_summary_json": str(cluster_summary_json_path),
+        },
+        "input_feature_weights": {
+            "tag_weight": float(((featurizer_report.get("weights") or {}).get("tag_weight", 1.0))),
+            "genre_weight": float(((featurizer_report.get("weights") or {}).get("genre_weight", 0.7))),
+            "acoustic_weight": float(((featurizer_report.get("weights") or {}).get("acoustic_weight", 0.9))),
+            "year_weight": float(((featurizer_report.get("weights") or {}).get("year_weight", 0.25))),
+            "popularity_weight": float(((featurizer_report.get("weights") or {}).get("popularity_weight", 0.15))),
+            "binary_weight": float(((featurizer_report.get("weights") or {}).get("binary_weight", 0.10))),
+        },
+        "postscale_block_weights": {
+            "tag_block_weight": float(args.tag_block_weight),
+            "genre_block_weight": float(args.genre_block_weight),
+            "acoustic_block_weight": float(args.acoustic_block_weight),
+            "meta_block_weight": float(args.meta_block_weight),
         },
         "featurizer_report": featurizer_report,
     }
