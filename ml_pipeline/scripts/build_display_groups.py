@@ -12,12 +12,25 @@ def norm(text: str) -> str:
     return (text or "").strip().lower()
 
 
+def dedupe_preserve_order(items: list[str], limit: int | None = None) -> list[str]:
+    seen = set()
+    out: list[str] = []
+    for item in items:
+        if not item or item in seen:
+            continue
+        seen.add(item)
+        out.append(item)
+        if limit is not None and len(out) >= limit:
+            break
+    return out
+
+
 def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) -> str:
     name = norm(cluster_name)
 
     # Primary routing: trust the cluster name first.
     if "mixed vibe cluster" in name:
-        return "More Vibes"
+        return "More Picks"
 
     if "breakbeat" in name or "soundtrack" in name:
         return "Instrumental / Breakbeat"
@@ -77,20 +90,7 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
     ]):
         return "Melodic / Party Rap"
 
-    return "More Vibes"
-
-
-def dedupe_preserve_order(items: list[str], limit: int | None = None) -> list[str]:
-    seen = set()
-    out: list[str] = []
-    for item in items:
-        if item in seen:
-            continue
-        seen.add(item)
-        out.append(item)
-        if limit is not None and len(out) >= limit:
-            break
-    return out
+    return "More Picks"
 
 
 def build_display_groups(clusters: list[dict[str, Any]]) -> list[dict[str, Any]]:
