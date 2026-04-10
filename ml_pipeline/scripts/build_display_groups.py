@@ -14,43 +14,68 @@ def norm(text: str) -> str:
 
 def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) -> str:
     name = norm(cluster_name)
-    feats = " ".join(norm(f.get("pretty_feature", "")) for f in top_features)
-    text = f"{name} {feats}"
 
-    if "mixed vibe cluster" in text:
+    # Primary routing: trust the cluster name first.
+    if "mixed vibe cluster" in name:
         return "More Vibes"
 
-    if any(k in text for k in [
-        "breakbeat", "soundtrack", "trip hop", "downtempo", "instrumentalhiphop"
-    ]):
+    if "breakbeat" in name or "soundtrack" in name:
         return "Instrumental / Breakbeat"
 
-    if any(k in text for k in [
-        "cool jazz", "jazz rap", "jazz", "nujabes"
-    ]):
+    if "cool jazz" in name or name == "jazz / cool jazz" or "jazz /" in name or "/ jazz" in name:
         return "Jazz / Nujabes / Downtempo"
 
-    if any(k in text for k in [
+    if any(k in name for k in [
         "r and b", "soul", "neo soul", "alternative r and b", "contemporary r and b"
     ]):
         return "R&B / Soul"
 
-    if any(k in text for k in [
+    if any(k in name for k in [
         "trap", "thug rap", "southern hip hop"
     ]):
         return "Trap"
 
-    if any(k in text for k in [
-        "mood party", "danceable", "voice instrumental", "timbre / dark",
-        "timbre / bright", "aggressive"
-    ]):
-        return "Melodic / Party Rap"
-
-    if any(k in text for k in [
-        "pop rap", "hip hop", "rap", "conscious hip hop",
+    if any(k in name for k in [
+        "rap", "hip hop", "pop rap", "conscious hip hop",
         "underground hip hop", "west coast hip hop", "hardcore hip hop"
     ]):
         return "Rap / Hip-Hop"
+
+    # Only use top features as fallback when the cluster name is weak/generic.
+    feat_names = [norm(f.get("pretty_feature", "")) for f in top_features]
+    feat_text = " ".join(feat_names)
+
+    if any(k in feat_text for k in [
+        "breakbeat", "soundtrack", "trip hop"
+    ]):
+        return "Instrumental / Breakbeat"
+
+    if any(k in feat_text for k in [
+        "cool jazz", "jazz rap", "jazz", "downtempo"
+    ]):
+        return "Jazz / Nujabes / Downtempo"
+
+    if any(k in feat_text for k in [
+        "r and b", "soul", "neo soul", "alternative r and b", "contemporary r and b"
+    ]):
+        return "R&B / Soul"
+
+    if any(k in feat_text for k in [
+        "trap", "thug rap", "southern hip hop"
+    ]):
+        return "Trap"
+
+    if any(k in feat_text for k in [
+        "rap", "hip hop", "pop rap", "conscious hip hop",
+        "underground hip hop", "west coast hip hop", "hardcore hip hop"
+    ]):
+        return "Rap / Hip-Hop"
+
+    if any(k in feat_text for k in [
+        "mood party", "danceable", "voice instrumental",
+        "timbre / dark", "timbre / bright", "aggressive"
+    ]):
+        return "Melodic / Party Rap"
 
     return "More Vibes"
 
@@ -90,11 +115,11 @@ def build_display_groups(clusters: list[dict[str, Any]]) -> list[dict[str, Any]]
 
         merged_top_features: list[str] = []
         for cluster in members:
-            merged_top_features.extend(
-                f.get("pretty_feature", "")
-                for f in cluster.get("top_features", [])
-                if f.get("pretty_feature")
-            )
+            for f in cluster.get("top_features", []):
+                pretty = f.get("pretty_feature", "")
+                score = float(f.get("score", 0.0) or 0.0)
+                if pretty and score >= 0.15:
+                    merged_top_features.append(pretty)
         merged_top_features = dedupe_preserve_order(merged_top_features, limit=10)
 
         merged.append({
