@@ -163,6 +163,27 @@ def canonical_key(record: dict[str, Any]) -> str:
 _SKIP_TAG_SUBSTRINGS = {
     "billboard",
     "hot_100",
+    "chart",
+    "charts",
+    "offizielle",
+}
+
+_SKIP_TAG_EXACT = {
+    "american",
+    "american_rock",
+    "english",
+    "tempo_change",
+    "vocal",
+    "rap_hip_hop",
+    "hip_hop_rap",
+    "hip_hop_underground_hip_hop",
+    "contemporary_rap_gangsta_rap_hardcore_rap_rap_west_coast_rap",
+}
+
+_TAG_ALIAS_MAP = {
+    "rhythm_and_blues": "r_and_b",
+    "westcoast_rap": "west_coast_hip_hop",
+    "west_coast_rap": "west_coast_hip_hop",
 }
 
 _SKIP_ACOUSTIC_KEYS = {
@@ -178,6 +199,13 @@ _SKIP_ACOUSTIC_KEYS = {
 _SKIP_ACOUSTIC_SUBSTRINGS = {
     "__all__not_",
     "__gender__",
+    "__genre_dortmund__",
+    "__genre_rosamerica__",
+    "__genre_tzanetakis__",
+    "__genre_electronic__",
+    "__ismir04_rhythm__",
+    "__moods_mirex__",
+    "__tonal_atonal__",
 }
 
 _SKIP_ACOUSTIC_SUFFIXES = {
@@ -209,8 +237,19 @@ _GENERIC_CLUSTER_LABELS = {
 }
 
 
-def keep_tag_token(token: str) -> bool:
+def canonicalize_tag_token(token: str) -> str:
+    token = (token or "").strip()
     if not token:
+        return ""
+    return _TAG_ALIAS_MAP.get(token, token)
+
+
+
+def keep_tag_token(token: str) -> bool:
+    token = canonicalize_tag_token(token)
+    if not token:
+        return False
+    if token in _SKIP_TAG_EXACT:
         return False
     for bad in _SKIP_TAG_SUBSTRINGS:
         if bad in token:
@@ -242,7 +281,7 @@ def iter_name_count_items(items: Any) -> Iterable[tuple[str, float]]:
         if not is_nonempty_string(name):
             continue
 
-        token = normalize_token(name)
+        token = canonicalize_tag_token(normalize_token(name))
         if not keep_tag_token(token):
             continue
 
@@ -688,6 +727,9 @@ def apply_subcluster_mapping(
 def recursively_split_oversized_clusters(
     labels: np.ndarray,
     embeddings: np.ndarray,
+    X_scaled: np.ndarray,
+    feature_names: list[str],
+    top_features_per_cluster: int,
     min_cluster_size: int,
     min_k: int,
     max_k: int,
@@ -698,6 +740,10 @@ def recursively_split_oversized_clusters(
     min_adjusted_score: float,
     max_subcluster_fraction: float,
     max_rounds: int,
+    low_signal_min_size: int,
+    low_signal_min_features: int,
+    low_signal_top_score: float,
+    low_signal_child_gain: float,
 ) -> tuple[np.ndarray, list[dict[str, Any]]]:
     labels = relabel_contiguous(labels)
     n_total = int(len(labels))
@@ -707,14 +753,48 @@ def recursively_split_oversized_clusters(
         return labels, diagnostics
 
     split_size_threshold = max(int(min_split_size), int(math.ceil(n_total * max_cluster_fraction)))
+    low_signal_size_threshold = max(int(low_signal_min_size), int(min_cluster_size) * 2)
 
     for round_idx in range(max_rounds):
         counts = Counter(labels.tolist())
-        candidate_labels = [
-            int(lab)
-            for lab, count in sorted(counts.items(), key=lambda item: item[1], reverse=True)
-            if int(count) >= split_size_threshold
-        ]
+        candidate_entries: list[dict[str, Any]] = []
+        for lab, count in sorted(counts.items(), key=lambda item: item[1], reverse=True):
+            parent_label = int(lab)
+            cluster_size = int(count)
+            member_ix = np.where(labels == parent_label)[0]
+            cluster_mean = X_scaled[member_ix].mean(axis=0)
+            parent_top_features = top_cluster_features(
+                cluster_mean_scaled=cluster_mean,
+                feature_names=feature_names,
+                top_n=max(int(top_features_per_cluster), 5),
+                exclude_meta=True,
+            )
+            parent_name = build_cluster_name(parent_top_features)
+            parent_top_score = float(parent_top_features[0]["score"]) if parent_top_features else 0.0
+            parent_low_signal = (
+                cluster_size >= low_signal_size_threshold
+                and (
+                    parent_name == "mixed vibe cluster"
+                    or len(parent_top_features) < int(low_signal_min_features)
+                    or parent_top_score < float(low_signal_top_score)
+                )
+            )
+            if cluster_size >= split_size_threshold or parent_low_signal:
+                trigger_reason = "size" if cluster_size >= split_size_threshold else "low_signal"
+                candidate_entries.append(
+                    {
+                        "cluster_id": parent_label,
+                        "cluster_size": cluster_size,
+                        "member_ix": member_ix,
+                        "parent_name": parent_name,
+                        "parent_top_features": parent_top_features,
+                        "parent_top_score": parent_top_score,
+                        "parent_low_signal": parent_low_signal,
+                        "trigger_reason": trigger_reason,
+                    }
+                )
+
+        candidate_labels = [entry["cluster_id"] for entry in candidate_entries]
 
         if not candidate_labels:
             break
@@ -727,9 +807,10 @@ def recursively_split_oversized_clusters(
         }
         applied = False
 
-        for parent_label in candidate_labels:
-            member_ix = np.where(labels == parent_label)[0]
-            cluster_size = int(member_ix.size)
+        for candidate in candidate_entries:
+            parent_label = int(candidate["cluster_id"])
+            member_ix = candidate["member_ix"]
+            cluster_size = int(candidate["cluster_size"])
             sub_embeddings = embeddings[member_ix]
 
             local_candidate_ks = build_candidate_ks(
@@ -744,6 +825,11 @@ def recursively_split_oversized_clusters(
                 "cluster_size": int(cluster_size),
                 "candidate_ks": local_candidate_ks,
                 "accepted": False,
+                "trigger_reason": str(candidate["trigger_reason"]),
+                "parent_cluster_name": str(candidate["parent_name"]),
+                "parent_top_features": candidate["parent_top_features"],
+                "parent_top_score": float(candidate["parent_top_score"]),
+                "parent_low_signal": bool(candidate["parent_low_signal"]),
             }
 
             if not local_candidate_ks:
@@ -764,6 +850,43 @@ def recursively_split_oversized_clusters(
                 min_cluster_size=min_cluster_size,
             )
 
+            child_summaries = []
+            for child_label in sorted(np.unique(sub_labels).tolist()):
+                child_ix = np.where(sub_labels == child_label)[0]
+                child_mean = X_scaled[member_ix[child_ix]].mean(axis=0)
+                child_top_features = top_cluster_features(
+                    cluster_mean_scaled=child_mean,
+                    feature_names=feature_names,
+                    top_n=max(int(top_features_per_cluster), 5),
+                    exclude_meta=True,
+                )
+                child_top_score = float(child_top_features[0]["score"]) if child_top_features else 0.0
+                child_summaries.append(
+                    {
+                        "cluster_id": int(child_label),
+                        "size": int(child_ix.size),
+                        "cluster_name": build_cluster_name(child_top_features),
+                        "top_features": child_top_features,
+                        "top_score": child_top_score,
+                    }
+                )
+
+            strong_child_threshold = max(
+                float(low_signal_top_score),
+                float(candidate["parent_top_score"]) + float(low_signal_child_gain),
+            )
+            strong_child_count = sum(
+                1
+                for child in child_summaries
+                if child["cluster_name"] != "mixed vibe cluster"
+                and len(child["top_features"]) >= int(low_signal_min_features)
+                and float(child["top_score"]) >= strong_child_threshold
+            )
+            signal_improved = (
+                bool(candidate["parent_low_signal"])
+                and strong_child_count >= 2
+            )
+
             candidate_diag.update(
                 {
                     "sub_final_k": int(sub_final_k),
@@ -773,6 +896,10 @@ def recursively_split_oversized_clusters(
                     "sub_cluster_sizes": sub_details["cluster_sizes"],
                     "sub_largest_fraction": sub_details["largest_fraction"],
                     "sub_meaningful_cluster_count": sub_details["meaningful_cluster_count"],
+                    "sub_cluster_summaries": child_summaries,
+                    "strong_child_count": int(strong_child_count),
+                    "strong_child_threshold": float(strong_child_threshold),
+                    "signal_improved": bool(signal_improved),
                     "diagnostics": sub_diagnostics,
                 }
             )
@@ -780,8 +907,11 @@ def recursively_split_oversized_clusters(
             accept = (
                 int(sub_final_k) >= 2
                 and int(sub_details["meaningful_cluster_count"]) >= 2
-                and float(sub_adjusted) >= float(min_adjusted_score)
                 and float(sub_details["largest_fraction"]) <= float(max_subcluster_fraction)
+                and (
+                    float(sub_adjusted) >= float(min_adjusted_score)
+                    or bool(signal_improved)
+                )
             )
 
             if not accept:
@@ -790,8 +920,10 @@ def recursively_split_oversized_clusters(
                     reasons.append("single_cluster")
                 if int(sub_details["meaningful_cluster_count"]) < 2:
                     reasons.append("not_enough_meaningful_clusters")
-                if float(sub_adjusted) < float(min_adjusted_score):
+                if float(sub_adjusted) < float(min_adjusted_score) and not bool(signal_improved):
                     reasons.append("adjusted_score_too_low")
+                if bool(candidate["parent_low_signal"]) and not bool(signal_improved):
+                    reasons.append("low_signal_not_improved")
                 if float(sub_details["largest_fraction"]) > float(max_subcluster_fraction):
                     reasons.append("largest_subcluster_still_too_large")
                 candidate_diag["reason"] = ",".join(reasons) if reasons else "rejected"
@@ -1064,7 +1196,31 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         "--recursive-split-max-rounds",
         type=int,
         default=2,
-        help="Maximum recursive split rounds to apply after the first clustering pass",
+        help="Maximum number of recursive split rounds to apply",
+    )
+    parser.add_argument(
+        "--recursive-split-low-signal-min-size",
+        type=int,
+        default=18,
+        help="Minimum absolute cluster size required before low-signal recursive splitting is considered",
+    )
+    parser.add_argument(
+        "--recursive-split-low-signal-min-features",
+        type=int,
+        default=2,
+        help="Treat a cluster as low-signal if it has fewer than this many meaningful top features",
+    )
+    parser.add_argument(
+        "--recursive-split-low-signal-top-score",
+        type=float,
+        default=0.35,
+        help="Treat a cluster as low-signal if its strongest top-feature score is below this threshold",
+    )
+    parser.add_argument(
+        "--recursive-split-low-signal-child-gain",
+        type=float,
+        default=0.08,
+        help="Minimum top-feature score gain children should show over a low-signal parent to justify a split",
     )
 
     return parser.parse_args(argv)
@@ -1140,6 +1296,9 @@ def main(argv: list[str] | None = None) -> int:
         labels, recursive_split_diagnostics = recursively_split_oversized_clusters(
             labels=labels,
             embeddings=embeddings,
+            X_scaled=X_scaled,
+            feature_names=feature_names,
+            top_features_per_cluster=args.top_features_per_cluster,
             min_cluster_size=args.min_cluster_size,
             min_k=args.min_k,
             max_k=args.max_k,
@@ -1150,6 +1309,10 @@ def main(argv: list[str] | None = None) -> int:
             min_adjusted_score=args.recursive_split_min_adjusted_score,
             max_subcluster_fraction=args.recursive_split_max_subcluster_fraction,
             max_rounds=args.recursive_split_max_rounds,
+            low_signal_min_size=args.recursive_split_low_signal_min_size,
+            low_signal_min_features=args.recursive_split_low_signal_min_features,
+            low_signal_top_score=args.recursive_split_low_signal_top_score,
+            low_signal_child_gain=args.recursive_split_low_signal_child_gain,
         )
         final_k = int(np.unique(labels).size)
 
@@ -1197,6 +1360,10 @@ def main(argv: list[str] | None = None) -> int:
             "min_adjusted_score": args.recursive_split_min_adjusted_score,
             "max_subcluster_fraction": args.recursive_split_max_subcluster_fraction,
             "max_rounds": args.recursive_split_max_rounds,
+            "low_signal_min_size": args.recursive_split_low_signal_min_size,
+            "low_signal_min_features": args.recursive_split_low_signal_min_features,
+            "low_signal_top_score": args.recursive_split_low_signal_top_score,
+            "low_signal_child_gain": args.recursive_split_low_signal_child_gain,
             "rounds": recursive_split_diagnostics,
         },
         "outputs": {

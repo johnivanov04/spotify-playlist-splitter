@@ -1,0 +1,439 @@
+{
+  "input_artifacts_dir": "ml_pipeline/data/artifacts/features_v1_7",
+  "output_dir": "ml_pipeline/data/artifacts/representation_v1_7",
+  "records": 758,
+  "input_feature_count": 318,
+  "embedding_dim": 32,
+  "used_pca": true,
+  "pca_components_requested": 32,
+  "pca_components_used": 32,
+  "pca_total_explained_variance_ratio": 0.7102541566126748,
+  "pca_explained_variance_ratio_first_10": [
+    0.12176052569317043,
+    0.05751729369708316,
+    0.042525622358095705,
+    0.040144411099357694,
+    0.03737137856804686,
+    0.03490135850446182,
+    0.028262269354834814,
+    0.025192710437299145,
+    0.024600682232648746,
+    0.02179124090722931
+  ],
+  "pca_explained_variance_ratio_cumulative_first_10": [
+    0.12176052569317043,
+    0.17927781939025358,
+    0.2218034417483493,
+    0.261947852847707,
+    0.29931923141575384,
+    0.33422058992021564,
+    0.3624828592750505,
+    0.3876755697123496,
+    0.4122762519449984,
+    0.4340674928522277
+  ],
+  "diagnostic_ks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "best_k": 10,
+  "diagnostics": [
+    {
+      "k": 4,
+      "inertia": 63236.20740139794,
+      "silhouette": 0.345274668699308
+    },
+    {
+      "k": 5,
+      "inertia": 59511.816329122325,
+      "silhouette": 0.3808873666771151
+    },
+    {
+      "k": 6,
+      "inertia": 56256.75378747506,
+      "silhouette": 0.38566865926569205
+    },
+    {
+      "k": 7,
+      "inertia": 53712.198197009544,
+      "silhouette": 0.4090675560037678
+    },
+    {
+      "k": 8,
+      "inertia": 50443.73100330296,
+      "silhouette": 0.4223284410889285
+    },
+    {
+      "k": 9,
+      "inertia": 48482.42256701777,
+      "silhouette": 0.4212273262852851
+    },
+    {
+      "k": 10,
+      "inertia": 46228.139628780205,
+      "silhouette": 0.42706963712662377
+    }
+  ],
+  "cluster_sizes": {
+    "0": 164,
+    "1": 305,
+    "2": 101,
+    "3": 3,
+    "4": 2,
+    "5": 2,
+    "6": 151,
+    "7": 2,
+    "8": 6,
+    "9": 22
+  },
+  "feature_artifacts": {
+    "representation_artifacts_npz": "ml_pipeline/data/artifacts/representation_v1_7/representation_artifacts.npz",
+    "embeddings_npy": "ml_pipeline/data/artifacts/representation_v1_7/embeddings.npy",
+    "cluster_labels_json": "ml_pipeline/data/artifacts/representation_v1_7/cluster_labels_k10.json",
+    "cluster_diagnostics_json": "ml_pipeline/data/artifacts/representation_v1_7/cluster_diagnostics.json",
+    "cluster_summary_json": "ml_pipeline/data/artifacts/representation_v1_7/cluster_summary_k10.json"
+  },
+  "input_feature_weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 1.2,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1
+  },
+  "postscale_block_weights": {
+    "tag_block_weight": 0.7,
+    "genre_block_weight": 0.5,
+    "acoustic_block_weight": 1.8,
+    "meta_block_weight": 1.0
+  },
+  "featurizer_report": {
+    "input": "ml_pipeline/data/processed/song_records.backfilled.json",
+    "records": 758,
+    "feature_count": 318,
+    "vocab": {
+      "tag_vocab_size": 186,
+      "genre_vocab_size": 113,
+      "acoustic_vocab_size": 12,
+      "top_tag_df": [
+        [
+          "hip_hop",
+          104
+        ],
+        [
+          "rock",
+          91
+        ],
+        [
+          "pop",
+          68
+        ],
+        [
+          "indie_rock",
+          64
+        ],
+        [
+          "electronic",
+          58
+        ],
+        [
+          "indie_pop",
+          42
+        ],
+        [
+          "alternative_rock",
+          36
+        ],
+        [
+          "indie",
+          35
+        ],
+        [
+          "pop_rock",
+          33
+        ],
+        [
+          "jazz_rap",
+          32
+        ],
+        [
+          "psychedelic_rock",
+          30
+        ],
+        [
+          "alternative_hip_hop",
+          30
+        ],
+        [
+          "jazz",
+          25
+        ],
+        [
+          "rap",
+          25
+        ],
+        [
+          "downtempo",
+          24
+        ],
+        [
+          "trip_hop",
+          23
+        ],
+        [
+          "instrumental",
+          21
+        ],
+        [
+          "alternative",
+          18
+        ],
+        [
+          "contemporary_r_and_b",
+          18
+        ],
+        [
+          "soul",
+          18
+        ],
+        [
+          "neo_psychedelia",
+          17
+        ],
+        [
+          "conscious_hip_hop",
+          17
+        ],
+        [
+          "west_coast_hip_hop",
+          16
+        ],
+        [
+          "cool_jazz",
+          15
+        ],
+        [
+          "synth_pop",
+          14
+        ]
+      ],
+      "top_genre_df": [
+        [
+          "hip_hop",
+          102
+        ],
+        [
+          "rock",
+          91
+        ],
+        [
+          "pop",
+          68
+        ],
+        [
+          "indie_rock",
+          64
+        ],
+        [
+          "electronic",
+          58
+        ],
+        [
+          "indie_pop",
+          42
+        ],
+        [
+          "alternative_rock",
+          36
+        ],
+        [
+          "jazz_rap",
+          32
+        ],
+        [
+          "psychedelic_rock",
+          30
+        ],
+        [
+          "alternative_hip_hop",
+          29
+        ],
+        [
+          "pop_rock",
+          25
+        ],
+        [
+          "jazz",
+          25
+        ],
+        [
+          "downtempo",
+          24
+        ],
+        [
+          "trip_hop",
+          22
+        ],
+        [
+          "instrumental",
+          21
+        ],
+        [
+          "contemporary_r_and_b",
+          18
+        ],
+        [
+          "soul",
+          18
+        ],
+        [
+          "neo_psychedelia",
+          17
+        ],
+        [
+          "conscious_hip_hop",
+          17
+        ],
+        [
+          "west_coast_hip_hop",
+          16
+        ],
+        [
+          "cool_jazz",
+          15
+        ],
+        [
+          "synth_pop",
+          14
+        ],
+        [
+          "r_and_b",
+          14
+        ],
+        [
+          "underground_hip_hop",
+          14
+        ],
+        [
+          "classic_rock",
+          13
+        ]
+      ],
+      "top_acoustic_df": [
+        [
+          "highlevel__timbre__all__dark",
+          453
+        ],
+        [
+          "highlevel__mood_happy__all__happy",
+          453
+        ],
+        [
+          "highlevel__timbre__all__bright",
+          453
+        ],
+        [
+          "highlevel__mood_acoustic__all__acoustic",
+          453
+        ],
+        [
+          "highlevel__mood_electronic__all__electronic",
+          453
+        ],
+        [
+          "highlevel__voice_instrumental__all__instrumental",
+          453
+        ],
+        [
+          "highlevel__voice_instrumental__all__voice",
+          453
+        ],
+        [
+          "highlevel__danceability__all__danceable",
+          453
+        ],
+        [
+          "highlevel__mood_relaxed__all__relaxed",
+          453
+        ],
+        [
+          "highlevel__mood_sad__all__sad",
+          453
+        ],
+        [
+          "highlevel__mood_party__all__party",
+          453
+        ],
+        [
+          "highlevel__mood_aggressive__all__aggressive",
+          453
+        ]
+      ]
+    },
+    "matrix": {
+      "shape": [
+        758,
+        318
+      ],
+      "dtype": "float32",
+      "nonzero_rows": 758,
+      "nonzero_rows_pct": 100.0,
+      "year_mean": 2015.7704485488127,
+      "year_std": 9.463445715594112
+    },
+    "weights": {
+      "tag_weight": 1.0,
+      "genre_weight": 0.7,
+      "acoustic_weight": 1.2,
+      "year_weight": 0.25,
+      "popularity_weight": 0.15,
+      "binary_weight": 0.1
+    },
+    "thresholds": {
+      "min_tag_df": 2,
+      "min_genre_df": 2,
+      "min_acoustic_df": 5,
+      "max_tags": 500,
+      "max_genres": 300,
+      "max_acoustic": 1000
+    },
+    "filters": {
+      "skip_tag_substrings": [
+        "billboard",
+        "chart",
+        "charts",
+        "hot_100",
+        "offizielle"
+      ],
+      "skip_tag_exact": [
+        "english",
+        "vocal"
+      ],
+      "skip_acoustic_substrings": [
+        "__all__not_",
+        "__gender__",
+        "__genre_dortmund__",
+        "__genre_electronic__",
+        "__genre_rosamerica__",
+        "__genre_tzanetakis__",
+        "__ismir04_rhythm__",
+        "__moods_mirex__",
+        "__tonal_atonal__"
+      ],
+      "skip_acoustic_suffixes": [
+        "__probability"
+      ]
+    },
+    "outputs": {
+      "feature_matrix_npz": "ml_pipeline/data/artifacts/features_v1_7/feature_matrix.npz",
+      "feature_names_json": "ml_pipeline/data/artifacts/features_v1_7/feature_names.json",
+      "row_index_json": "ml_pipeline/data/artifacts/features_v1_7/row_index.json",
+      "featurizer_report_json": "ml_pipeline/data/artifacts/features_v1_7/featurizer_report.json"
+    }
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "input": "ml_pipeline/data/runtime/playlist_2.prepared.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_8/representation_artifacts.npz",
+  "records": 284,
+  "feature_count": 309,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "final_k": 15,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 34,
+    "1": 12,
+    "2": 5,
+    "3": 76,
+    "4": 37,
+    "5": 7,
+    "6": 7,
+    "7": 8,
+    "8": 34,
+    "9": 5,
+    "10": 15,
+    "11": 14,
+    "12": 8,
+    "13": 17,
+    "14": 5
+  },
+  "diagnostics": [
+    {
+      "k": 5,
+      "silhouette": 0.5927974231593632,
+      "adjusted_score": 0.15399460625795464,
+      "cluster_sizes": [
+        209,
+        41,
+        19,
+        10,
+        5
+      ],
+      "largest_fraction": 0.7359154929577465,
+      "second_fraction": 0.1443661971830986,
+      "meaningful_cluster_count": 5,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": false
+    },
+    {
+      "k": 6,
+      "silhouette": 0.585450385984615,
+      "adjusted_score": 0.1797461606325021,
+      "cluster_sizes": [
+        207,
+        43,
+        18,
+        11,
+        5
+      ],
+      "largest_fraction": 0.7288732394366197,
+      "second_fraction": 0.15140845070422534,
+      "meaningful_cluster_count": 5,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.585450385984615,
+      "adjusted_score": 0.1797461606325021,
+      "cluster_sizes": [
+        207,
+        43,
+        18,
+        11,
+        5
+      ],
+      "largest_fraction": 0.7288732394366197,
+      "second_fraction": 0.15140845070422534,
+      "meaningful_cluster_count": 5,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.608570912223004,
+      "adjusted_score": 0.30216246151877885,
+      "cluster_sizes": [
+        201,
+        39,
+        19,
+        11,
+        9,
+        5
+      ],
+      "largest_fraction": 0.7077464788732394,
+      "second_fraction": 0.13732394366197184,
+      "meaningful_cluster_count": 6,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 9,
+      "silhouette": 0.57988621995927,
+      "adjusted_score": 0.31608340305786176,
+      "cluster_sizes": [
+        198,
+        38,
+        18,
+        10,
+        8,
+        7,
+        5
+      ],
+      "largest_fraction": 0.6971830985915493,
+      "second_fraction": 0.13380281690140844,
+      "meaningful_cluster_count": 7,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 10,
+      "silhouette": 0.5757329588384289,
+      "adjusted_score": 0.31967662081026005,
+      "cluster_sizes": [
+        197,
+        38,
+        12,
+        10,
+        8,
+        7,
+        7,
+        5
+      ],
+      "largest_fraction": 0.6936619718309859,
+      "second_fraction": 0.13380281690140844,
+      "meaningful_cluster_count": 8,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 11,
+      "silhouette": 0.45087412832495427,
+      "adjusted_score": 0.37298680438129245,
+      "cluster_sizes": [
+        174,
+        38,
+        31,
+        19,
+        10,
+        7,
+        5
+      ],
+      "largest_fraction": 0.6126760563380281,
+      "second_fraction": 0.13380281690140844,
+      "meaningful_cluster_count": 7,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 12,
+      "silhouette": 0.4681401504913117,
+      "adjusted_score": 0.39025282654764987,
+      "cluster_sizes": [
+        174,
+        37,
+        34,
+        12,
+        8,
+        7,
+        7,
+        5
+      ],
+      "largest_fraction": 0.6126760563380281,
+      "second_fraction": 0.13028169014084506,
+      "meaningful_cluster_count": 8,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 13,
+      "silhouette": 0.2611054607826338,
+      "adjusted_score": 0.3211054607826338,
+      "cluster_sizes": [
+        108,
+        91,
+        45,
+        17,
+        8,
+        8,
+        7
+      ],
+      "largest_fraction": 0.38028169014084506,
+      "second_fraction": 0.3204225352112676,
+      "meaningful_cluster_count": 7,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 14,
+      "silhouette": 0.29029796642821776,
+      "adjusted_score": 0.35029796642821776,
+      "cluster_sizes": [
+        102,
+        75,
+        38,
+        28,
+        17,
+        10,
+        7,
+        7
+      ],
+      "largest_fraction": 0.3591549295774648,
+      "second_fraction": 0.2640845070422535,
+      "meaningful_cluster_count": 8,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 15,
+      "silhouette": 0.3012325167123416,
+      "adjusted_score": 0.3612325167123416,
+      "cluster_sizes": [
+        105,
+        69,
+        31,
+        24,
+        17,
+        14,
+        10,
+        7,
+        7
+      ],
+      "largest_fraction": 0.36971830985915494,
+      "second_fraction": 0.24295774647887325,
+      "meaningful_cluster_count": 9,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 16,
+      "silhouette": 0.28911660659030963,
+      "adjusted_score": 0.34911660659030963,
+      "cluster_sizes": [
+        101,
+        73,
+        38,
+        30,
+        17,
+        10,
+        8,
+        7
+      ],
+      "largest_fraction": 0.35563380281690143,
+      "second_fraction": 0.25704225352112675,
+      "meaningful_cluster_count": 8,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": 0.39025282654764987,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 80,
+        "candidates": [
+          {
+            "cluster_id": 3,
+            "cluster_size": 174,
+            "candidate_ks": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "accepted": true,
+            "sub_final_k": 8,
+            "sub_best_adjusted_score": 0.5704641496696441,
+            "sub_silhouette": 0.5104641496696442,
+            "sub_adjusted_score": 0.5704641496696441,
+            "sub_cluster_sizes": [
+              76,
+              34,
+              17,
+              15,
+              14,
+              8,
+              5,
+              5
+            ],
+            "sub_largest_fraction": 0.4367816091954023,
+            "sub_meaningful_cluster_count": 8,
+            "diagnostics": [
+              {
+                "k": 4,
+                "silhouette": 0.459818889332947,
+                "adjusted_score": 0.499818889332947,
+                "cluster_sizes": [
+                  85,
+                  60,
+                  24,
+                  5
+                ],
+                "largest_fraction": 0.4885057471264368,
+                "second_fraction": 0.3448275862068966,
+                "meaningful_cluster_count": 4,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 5,
+                "silhouette": 0.4812088654403713,
+                "adjusted_score": 0.5412088654403713,
+                "cluster_sizes": [
+                  79,
+                  43,
+                  24,
+                  23,
+                  5
+                ],
+                "largest_fraction": 0.4540229885057471,
+                "second_fraction": 0.2471264367816092,
+                "meaningful_cluster_count": 5,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 6,
+                "silhouette": 0.5008206519402009,
+                "adjusted_score": 0.5608206519402008,
+                "cluster_sizes": [
+                  76,
+                  36,
+                  24,
+                  19,
+                  14,
+                  5
+                ],
+                "largest_fraction": 0.4367816091954023,
+                "second_fraction": 0.20689655172413793,
+                "meaningful_cluster_count": 6,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 7,
+                "silhouette": 0.5046073792482187,
+                "adjusted_score": 0.5646073792482187,
+                "cluster_sizes": [
+                  76,
+                  34,
+                  23,
+                  15,
+                  14,
+                  7,
+                  5
+                ],
+                "largest_fraction": 0.4367816091954023,
+                "second_fraction": 0.19540229885057472,
+                "meaningful_cluster_count": 7,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 8,
+                "silhouette": 0.5104641496696442,
+                "adjusted_score": 0.5704641496696441,
+                "cluster_sizes": [
+                  76,
+                  34,
+                  17,
+                  15,
+                  14,
+                  8,
+                  5,
+                  5
+                ],
+                "largest_fraction": 0.4367816091954023,
+                "second_fraction": 0.19540229885057472,
+                "meaningful_cluster_count": 8,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 9,
+                "silhouette": 0.5085335653415705,
+                "adjusted_score": 0.5685335653415704,
+                "cluster_sizes": [
+                  75,
+                  34,
+                  15,
+                  13,
+                  10,
+                  9,
+                  8,
+                  5,
+                  5
+                ],
+                "largest_fraction": 0.43103448275862066,
+                "second_fraction": 0.19540229885057472,
+                "meaningful_cluster_count": 9,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
+              },
+              {
+                "k": 10,
+                "silhouette": 0.5095187550528015,
+                "adjusted_score": 0.5695187550528016,
+                "cluster_sizes": [
+                  75,
+                  33,
+                  15,
+                  13,
+                  13,
+                  10,
+                  8,
+                  7
+                ],
+                "largest_fraction": 0.43103448275862066,
+                "second_fraction": 0.1896551724137931,
+                "meaningful_cluster_count": 8,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 11,
+                "silhouette": 0.5074174135048236,
+                "adjusted_score": 0.5674174135048236,
+                "cluster_sizes": [
+                  76,
+                  34,
+                  13,
+                  13,
+                  12,
+                  8,
+                  7,
+                  6,
+                  5
+                ],
+                "largest_fraction": 0.4367816091954023,
+                "second_fraction": 0.19540229885057472,
+                "meaningful_cluster_count": 9,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 12,
+                "silhouette": 0.4535671237706394,
+                "adjusted_score": 0.5135671237706394,
+                "cluster_sizes": [
+                  76,
+                  18,
+                  18,
+                  12,
+                  11,
+                  11,
+                  10,
+                  8,
+                  5,
+                  5
+                ],
+                "largest_fraction": 0.4367816091954023,
+                "second_fraction": 0.10344827586206896,
+                "meaningful_cluster_count": 10,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 13,
+                "silhouette": 0.37601190136395113,
+                "adjusted_score": 0.4360119013639511,
+                "cluster_sizes": [
+                  61,
+                  23,
+                  15,
+                  14,
+                  13,
+                  12,
+                  12,
+                  10,
+                  7,
+                  7
+                ],
+                "largest_fraction": 0.3505747126436782,
+                "second_fraction": 0.13218390804597702,
+                "meaningful_cluster_count": 10,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 14,
+                "silhouette": 0.38281226177573435,
+                "adjusted_score": 0.44281226177573435,
+                "cluster_sizes": [
+                  61,
+                  21,
+                  15,
+                  12,
+                  11,
+                  11,
+                  11,
+                  10,
+                  9,
+                  8,
+                  5
+                ],
+                "largest_fraction": 0.3505747126436782,
+                "second_fraction": 0.1206896551724138,
+                "meaningful_cluster_count": 11,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 15,
+                "silhouette": 0.3962393526408681,
+                "adjusted_score": 0.454400272181098,
+                "cluster_sizes": [
+                  62,
+                  17,
+                  14,
+                  13,
+                  13,
+                  11,
+                  10,
+                  10,
+                  9,
+                  5,
+                  5,
+                  5
+                ],
+                "largest_fraction": 0.3563218390804598,
+                "second_fraction": 0.09770114942528736,
+                "meaningful_cluster_count": 12,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 16,
+                "silhouette": 0.3982019911929209,
+                "adjusted_score": 0.4471675084343002,
+                "cluster_sizes": [
+                  62,
+                  15,
+                  14,
+                  11,
+                  11,
+                  10,
+                  9,
+                  9,
+                  9,
+                  7,
+                  7,
+                  5,
+                  5
+                ],
+                "largest_fraction": 0.3563218390804598,
+                "second_fraction": 0.08620689655172414,
+                "meaningful_cluster_count": 13,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "accepted"
+          }
+        ],
+        "accepted": {
+          "cluster_id": 3,
+          "cluster_size": 174,
+          "candidate_ks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "accepted": true,
+          "sub_final_k": 8,
+          "sub_best_adjusted_score": 0.5704641496696441,
+          "sub_silhouette": 0.5104641496696442,
+          "sub_adjusted_score": 0.5704641496696441,
+          "sub_cluster_sizes": [
+            76,
+            34,
+            17,
+            15,
+            14,
+            8,
+            5,
+            5
+          ],
+          "sub_largest_fraction": 0.4367816091954023,
+          "sub_meaningful_cluster_count": 8,
+          "diagnostics": [
+            {
+              "k": 4,
+              "silhouette": 0.459818889332947,
+              "adjusted_score": 0.499818889332947,
+              "cluster_sizes": [
+                85,
+                60,
+                24,
+                5
+              ],
+              "largest_fraction": 0.4885057471264368,
+              "second_fraction": 0.3448275862068966,
+              "meaningful_cluster_count": 4,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 5,
+              "silhouette": 0.4812088654403713,
+              "adjusted_score": 0.5412088654403713,
+              "cluster_sizes": [
+                79,
+                43,
+                24,
+                23,
+                5
+              ],
+              "largest_fraction": 0.4540229885057471,
+              "second_fraction": 0.2471264367816092,
+              "meaningful_cluster_count": 5,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 6,
+              "silhouette": 0.5008206519402009,
+              "adjusted_score": 0.5608206519402008,
+              "cluster_sizes": [
+                76,
+                36,
+                24,
+                19,
+                14,
+                5
+              ],
+              "largest_fraction": 0.4367816091954023,
+              "second_fraction": 0.20689655172413793,
+              "meaningful_cluster_count": 6,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 7,
+              "silhouette": 0.5046073792482187,
+              "adjusted_score": 0.5646073792482187,
+              "cluster_sizes": [
+                76,
+                34,
+                23,
+                15,
+                14,
+                7,
+                5
+              ],
+              "largest_fraction": 0.4367816091954023,
+              "second_fraction": 0.19540229885057472,
+              "meaningful_cluster_count": 7,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 8,
+              "silhouette": 0.5104641496696442,
+              "adjusted_score": 0.5704641496696441,
+              "cluster_sizes": [
+                76,
+                34,
+                17,
+                15,
+                14,
+                8,
+                5,
+                5
+              ],
+              "largest_fraction": 0.4367816091954023,
+              "second_fraction": 0.19540229885057472,
+              "meaningful_cluster_count": 8,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 9,
+              "silhouette": 0.5085335653415705,
+              "adjusted_score": 0.5685335653415704,
+              "cluster_sizes": [
+                75,
+                34,
+                15,
+                13,
+                10,
+                9,
+                8,
+                5,
+                5
+              ],
+              "largest_fraction": 0.43103448275862066,
+              "second_fraction": 0.19540229885057472,
+              "meaningful_cluster_count": 9,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
+            },
+            {
+              "k": 10,
+              "silhouette": 0.5095187550528015,
+              "adjusted_score": 0.5695187550528016,
+              "cluster_sizes": [
+                75,
+                33,
+                15,
+                13,
+                13,
+                10,
+                8,
+                7
+              ],
+              "largest_fraction": 0.43103448275862066,
+              "second_fraction": 0.1896551724137931,
+              "meaningful_cluster_count": 8,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 11,
+              "silhouette": 0.5074174135048236,
+              "adjusted_score": 0.5674174135048236,
+              "cluster_sizes": [
+                76,
+                34,
+                13,
+                13,
+                12,
+                8,
+                7,
+                6,
+                5
+              ],
+              "largest_fraction": 0.4367816091954023,
+              "second_fraction": 0.19540229885057472,
+              "meaningful_cluster_count": 9,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 12,
+              "silhouette": 0.4535671237706394,
+              "adjusted_score": 0.5135671237706394,
+              "cluster_sizes": [
+                76,
+                18,
+                18,
+                12,
+                11,
+                11,
+                10,
+                8,
+                5,
+                5
+              ],
+              "largest_fraction": 0.4367816091954023,
+              "second_fraction": 0.10344827586206896,
+              "meaningful_cluster_count": 10,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 13,
+              "silhouette": 0.37601190136395113,
+              "adjusted_score": 0.4360119013639511,
+              "cluster_sizes": [
+                61,
+                23,
+                15,
+                14,
+                13,
+                12,
+                12,
+                10,
+                7,
+                7
+              ],
+              "largest_fraction": 0.3505747126436782,
+              "second_fraction": 0.13218390804597702,
+              "meaningful_cluster_count": 10,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 14,
+              "silhouette": 0.38281226177573435,
+              "adjusted_score": 0.44281226177573435,
+              "cluster_sizes": [
+                61,
+                21,
+                15,
+                12,
+                11,
+                11,
+                11,
+                10,
+                9,
+                8,
+                5
+              ],
+              "largest_fraction": 0.3505747126436782,
+              "second_fraction": 0.1206896551724138,
+              "meaningful_cluster_count": 11,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 15,
+              "silhouette": 0.3962393526408681,
+              "adjusted_score": 0.454400272181098,
+              "cluster_sizes": [
+                62,
+                17,
+                14,
+                13,
+                13,
+                11,
+                10,
+                10,
+                9,
+                5,
+                5,
+                5
+              ],
+              "largest_fraction": 0.3563218390804598,
+              "second_fraction": 0.09770114942528736,
+              "meaningful_cluster_count": 12,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 16,
+              "silhouette": 0.3982019911929209,
+              "adjusted_score": 0.4471675084343002,
+              "cluster_sizes": [
+                62,
+                15,
+                14,
+                11,
+                11,
+                10,
+                9,
+                9,
+                9,
+                7,
+                7,
+                5,
+                5
+              ],
+              "largest_fraction": 0.3563218390804598,
+              "second_fraction": 0.08620689655172414,
+              "meaningful_cluster_count": 13,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            }
+          ],
+          "reason": "accepted"
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/artifacts/playlist_cluster_test_k/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/artifacts/playlist_cluster_test_k/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/artifacts/playlist_cluster_test_k/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/artifacts/playlist_cluster_test_k/playlist_embeddings.npy"
+  }
+}

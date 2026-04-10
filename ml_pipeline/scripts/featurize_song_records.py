@@ -122,17 +122,30 @@ def canonical_key(record: dict[str, Any]) -> str:
 # feature filtering rules
 # ----------------------------
 
-_SKIP_TAG_EXACT = {
-    "english",
-    "vocal",
-}
-
 _SKIP_TAG_SUBSTRINGS = {
     "billboard",
     "hot_100",
     "chart",
     "charts",
     "offizielle",
+}
+
+_SKIP_TAG_EXACT = {
+    "american",
+    "american_rock",
+    "english",
+    "tempo_change",
+    "vocal",
+    "rap_hip_hop",
+    "hip_hop_rap",
+    "hip_hop_underground_hip_hop",
+    "contemporary_rap_gangsta_rap_hardcore_rap_rap_west_coast_rap",
+}
+
+_TAG_ALIAS_MAP = {
+    "rhythm_and_blues": "r_and_b",
+    "westcoast_rap": "west_coast_hip_hop",
+    "west_coast_rap": "west_coast_hip_hop",
 }
 
 _SKIP_ACOUSTIC_KEYS = {
@@ -148,12 +161,13 @@ _SKIP_ACOUSTIC_KEYS = {
 _SKIP_ACOUSTIC_SUBSTRINGS = {
     "__all__not_",
     "__gender__",
-    "genre_dortmund__",
-    "genre_rosamerica__",
-    "genre_tzanetakis__",
-    "ismir04_rhythm__",
-    "moods_mirex__",
-    "tonal_atonal__",
+    "__genre_dortmund__",
+    "__genre_rosamerica__",
+    "__genre_tzanetakis__",
+    "__genre_electronic__",
+    "__ismir04_rhythm__",
+    "__moods_mirex__",
+    "__tonal_atonal__",
 }
 
 _SKIP_ACOUSTIC_SUFFIXES = {
@@ -161,7 +175,16 @@ _SKIP_ACOUSTIC_SUFFIXES = {
 }
 
 
+def canonicalize_tag_token(token: str) -> str:
+    token = (token or "").strip()
+    if not token:
+        return ""
+    return _TAG_ALIAS_MAP.get(token, token)
+
+
+
 def keep_tag_token(token: str) -> bool:
+    token = canonicalize_tag_token(token)
     if not token:
         return False
     if token in _SKIP_TAG_EXACT:
@@ -203,7 +226,7 @@ def iter_name_count_items(items: Any) -> Iterable[tuple[str, float]]:
         if not is_nonempty_string(name):
             continue
 
-        token = normalize_token(name)
+        token = canonicalize_tag_token(normalize_token(name))
         if not keep_tag_token(token):
             continue
 
@@ -595,8 +618,9 @@ def main(argv: list[str] | None = None) -> int:
             "max_acoustic": args.max_acoustic,
         },
         "filters": {
-            "skip_tag_exact": sorted(_SKIP_TAG_EXACT),
             "skip_tag_substrings": sorted(_SKIP_TAG_SUBSTRINGS),
+            "skip_tag_exact": sorted(_SKIP_TAG_EXACT),
+            "tag_alias_map": dict(sorted(_TAG_ALIAS_MAP.items())),
             "skip_acoustic_substrings": sorted(_SKIP_ACOUSTIC_SUBSTRINGS),
             "skip_acoustic_suffixes": sorted(_SKIP_ACOUSTIC_SUFFIXES),
         },
