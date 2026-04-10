@@ -87,7 +87,7 @@ def save_json(path: Path, payload: Any) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def load_representation(path: Path) -> dict[str, np.ndarray | list[str]]:
+def load_representation(path: Path) -> dict[str, Any]:
     if not path.exists():
         raise FileNotFoundError(f"Representation artifact not found: {path}")
 
@@ -106,6 +106,21 @@ def load_representation(path: Path) -> dict[str, np.ndarray | list[str]]:
 
     feature_names_arr = data["feature_names"]
     feature_names = [str(x) for x in feature_names_arr.tolist()]
+    n_features = len(feature_names)
+
+    postscale_weights = data["postscale_weights"].astype(np.float64) if "postscale_weights" in data else np.ones(n_features, dtype=np.float64)
+    if postscale_weights.shape[0] != n_features:
+        raise ValueError(
+            f"postscale_weights length mismatch: expected {n_features}, got {postscale_weights.shape[0]}"
+        )
+
+    def scalar_or_default(key: str, default: float) -> float:
+        if key not in data:
+            return float(default)
+        value = data[key]
+        if np.isscalar(value):
+            return float(value)
+        return float(np.asarray(value).reshape(-1)[0])
 
     return {
         "scaler_mean": data["scaler_mean"].astype(np.float64),
@@ -113,6 +128,21 @@ def load_representation(path: Path) -> dict[str, np.ndarray | list[str]]:
         "pca_components": data["pca_components"].astype(np.float64),
         "pca_mean": data["pca_mean"].astype(np.float64),
         "feature_names": feature_names,
+        "postscale_weights": postscale_weights,
+        "postscale_block_weights": {
+            "tag_block_weight": scalar_or_default("tag_block_weight", 1.0),
+            "genre_block_weight": scalar_or_default("genre_block_weight", 1.0),
+            "acoustic_block_weight": scalar_or_default("acoustic_block_weight", 1.0),
+            "meta_block_weight": scalar_or_default("meta_block_weight", 1.0),
+        },
+        "input_feature_weights": {
+            "tag_weight": scalar_or_default("input_tag_weight", 1.0),
+            "genre_weight": scalar_or_default("input_genre_weight", 0.7),
+            "acoustic_weight": scalar_or_default("input_acoustic_weight", 0.9),
+            "year_weight": scalar_or_default("input_year_weight", 0.25),
+            "popularity_weight": scalar_or_default("input_popularity_weight", 0.15),
+            "binary_weight": scalar_or_default("input_binary_weight", 0.10),
+        },
     }
 
 
@@ -160,9 +190,17 @@ def canonical_key(record: dict[str, Any]) -> str:
 # featurization rules
 # ----------------------------
 
+_SKIP_TAG_EXACT = {
+    "english",
+    "vocal",
+}
+
 _SKIP_TAG_SUBSTRINGS = {
     "billboard",
     "hot_100",
+    "chart",
+    "charts",
+    "offizielle",
 }
 
 _SKIP_ACOUSTIC_KEYS = {
@@ -178,6 +216,12 @@ _SKIP_ACOUSTIC_KEYS = {
 _SKIP_ACOUSTIC_SUBSTRINGS = {
     "__all__not_",
     "__gender__",
+    "genre_dortmund__",
+    "genre_rosamerica__",
+    "genre_tzanetakis__",
+    "ismir04_rhythm__",
+    "moods_mirex__",
+    "tonal_atonal__",
 }
 
 _SKIP_ACOUSTIC_SUFFIXES = {
@@ -202,6 +246,8 @@ _ACOUSTIC_ABBREV_MAP = {
 
 def keep_tag_token(token: str) -> bool:
     if not token:
+        return False
+    if token in _SKIP_TAG_EXACT:
         return False
     for bad in _SKIP_TAG_SUBSTRINGS:
         if bad in token:
@@ -434,6 +480,14 @@ def featurize_against_frozen_vocab(
     return X, row_meta
 
 
+def apply_postscale_weights(X_scaled: np.ndarray, postscale_weights: np.ndarray) -> np.ndarray:
+    if X_scaled.shape[1] != postscale_weights.shape[0]:
+        raise ValueError(
+            f"Post-scale weights length mismatch: matrix has {X_scaled.shape[1]} cols, weights has {postscale_weights.shape[0]}"
+        )
+    return X_scaled * postscale_weights
+
+
 # ----------------------------
 # representation transform
 # ----------------------------
@@ -442,16 +496,18 @@ def apply_representation(
     X: np.ndarray,
     scaler_mean: np.ndarray,
     scaler_scale: np.ndarray,
+    postscale_weights: np.ndarray,
     pca_components: np.ndarray,
     pca_mean: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray]:
     X_scaled = (X - scaler_mean) / scaler_scale
+    X_weighted = apply_postscale_weights(X_scaled, postscale_weights)
 
     if pca_components.size == 0:
-        return X_scaled, X_scaled
+        return X_weighted, X_weighted
 
-    embeddings = (X_scaled - pca_mean) @ pca_components.T
-    return X_scaled, embeddings
+    embeddings = (X_weighted - pca_mean) @ pca_components.T
+    return X_weighted, embeddings
 
 
 # ----------------------------
@@ -822,12 +878,16 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--random-state", type=int, default=42)
     parser.add_argument("--kmeans-n-init", type=int, default=20)
 
-    parser.add_argument("--tag-weight", type=float, default=1.0)
-    parser.add_argument("--genre-weight", type=float, default=0.7)
-    parser.add_argument("--acoustic-weight", type=float, default=0.9)
-    parser.add_argument("--year-weight", type=float, default=0.25)
-    parser.add_argument("--popularity-weight", type=float, default=0.15)
-    parser.add_argument("--binary-weight", type=float, default=0.10)
+    parser.add_argument("--tag-weight", type=float, default=None, help="Optional override for raw tag feature weight saved in the representation artifact")
+    parser.add_argument("--genre-weight", type=float, default=None, help="Optional override for raw genre feature weight saved in the representation artifact")
+    parser.add_argument("--acoustic-weight", type=float, default=None, help="Optional override for raw acoustic feature weight saved in the representation artifact")
+    parser.add_argument("--year-weight", type=float, default=None, help="Optional override for raw year feature weight saved in the representation artifact")
+    parser.add_argument("--popularity-weight", type=float, default=None, help="Optional override for raw popularity feature weight saved in the representation artifact")
+    parser.add_argument("--binary-weight", type=float, default=None, help="Optional override for raw binary/meta-present feature weight saved in the representation artifact")
+    parser.add_argument("--tag-block-weight", type=float, default=None, help="Optional override for saved post-scale tag block weight")
+    parser.add_argument("--genre-block-weight", type=float, default=None, help="Optional override for saved post-scale genre block weight")
+    parser.add_argument("--acoustic-block-weight", type=float, default=None, help="Optional override for saved post-scale acoustic block weight")
+    parser.add_argument("--meta-block-weight", type=float, default=None, help="Optional override for saved post-scale meta block weight")
 
     parser.add_argument(
         "--disable-neutralize-missing-acoustic",
@@ -868,17 +928,48 @@ def main(argv: list[str] | None = None) -> int:
     scaler_scale = rep["scaler_scale"]
     pca_components = rep["pca_components"]
     pca_mean = rep["pca_mean"]
+    saved_postscale_weights = rep["postscale_weights"]
+    saved_block_weights = rep["postscale_block_weights"]
+    saved_input_weights = rep["input_feature_weights"]
+
+    raw_tag_weight = float(args.tag_weight) if args.tag_weight is not None else float(saved_input_weights["tag_weight"])
+    raw_genre_weight = float(args.genre_weight) if args.genre_weight is not None else float(saved_input_weights["genre_weight"])
+    raw_acoustic_weight = float(args.acoustic_weight) if args.acoustic_weight is not None else float(saved_input_weights["acoustic_weight"])
+    raw_year_weight = float(args.year_weight) if args.year_weight is not None else float(saved_input_weights["year_weight"])
+    raw_popularity_weight = float(args.popularity_weight) if args.popularity_weight is not None else float(saved_input_weights["popularity_weight"])
+    raw_binary_weight = float(args.binary_weight) if args.binary_weight is not None else float(saved_input_weights["binary_weight"])
+
+    if any(v is not None for v in [args.tag_block_weight, args.genre_block_weight, args.acoustic_block_weight, args.meta_block_weight]):
+        postscale_weights = saved_postscale_weights.copy()
+        for idx, name in enumerate(feature_names):
+            if name.startswith("tag__") and args.tag_block_weight is not None:
+                postscale_weights[idx] = float(args.tag_block_weight)
+            elif name.startswith("genre__") and args.genre_block_weight is not None:
+                postscale_weights[idx] = float(args.genre_block_weight)
+            elif name.startswith("acoustic__") and args.acoustic_block_weight is not None:
+                postscale_weights[idx] = float(args.acoustic_block_weight)
+            elif name.startswith("meta__") and args.meta_block_weight is not None:
+                postscale_weights[idx] = float(args.meta_block_weight)
+        active_block_weights = {
+            "tag_block_weight": float(args.tag_block_weight) if args.tag_block_weight is not None else float(saved_block_weights["tag_block_weight"]),
+            "genre_block_weight": float(args.genre_block_weight) if args.genre_block_weight is not None else float(saved_block_weights["genre_block_weight"]),
+            "acoustic_block_weight": float(args.acoustic_block_weight) if args.acoustic_block_weight is not None else float(saved_block_weights["acoustic_block_weight"]),
+            "meta_block_weight": float(args.meta_block_weight) if args.meta_block_weight is not None else float(saved_block_weights["meta_block_weight"]),
+        }
+    else:
+        postscale_weights = saved_postscale_weights
+        active_block_weights = {k: float(v) for k, v in saved_block_weights.items()}
 
     X, row_meta = featurize_against_frozen_vocab(
         records=records,
         feature_names=feature_names,
         scaler_mean=scaler_mean,
-        tag_weight=args.tag_weight,
-        genre_weight=args.genre_weight,
-        acoustic_weight=args.acoustic_weight,
-        year_weight=args.year_weight,
-        popularity_weight=args.popularity_weight,
-        binary_weight=args.binary_weight,
+        tag_weight=raw_tag_weight,
+        genre_weight=raw_genre_weight,
+        acoustic_weight=raw_acoustic_weight,
+        year_weight=raw_year_weight,
+        popularity_weight=raw_popularity_weight,
+        binary_weight=raw_binary_weight,
         neutralize_missing_acoustic=not args.disable_neutralize_missing_acoustic,
     )
 
@@ -886,6 +977,7 @@ def main(argv: list[str] | None = None) -> int:
         X=X,
         scaler_mean=scaler_mean,
         scaler_scale=scaler_scale,
+        postscale_weights=postscale_weights,
         pca_components=pca_components,
         pca_mean=pca_mean,
     )
@@ -933,12 +1025,15 @@ def main(argv: list[str] | None = None) -> int:
         },
         "diagnostics": diagnostics,
         "weights": {
-            "tag_weight": args.tag_weight,
-            "genre_weight": args.genre_weight,
-            "acoustic_weight": args.acoustic_weight,
-            "year_weight": args.year_weight,
-            "popularity_weight": args.popularity_weight,
-            "binary_weight": args.binary_weight,
+            "raw_input_weights": {
+                "tag_weight": raw_tag_weight,
+                "genre_weight": raw_genre_weight,
+                "acoustic_weight": raw_acoustic_weight,
+                "year_weight": raw_year_weight,
+                "popularity_weight": raw_popularity_weight,
+                "binary_weight": raw_binary_weight,
+            },
+            "postscale_block_weights": active_block_weights,
             "neutralize_missing_acoustic": not args.disable_neutralize_missing_acoustic,
         },
         "outputs": {

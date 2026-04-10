@@ -1,0 +1,299 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 725,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "16 Years — The Griswolds",
+      "Pretty Girl — Clairo",
+      "prom dress — mxmtoon",
+      "Chamber Of Reflection — Mac DeMarco",
+      "On the Level — Mac DeMarco",
+      "For the First Time — Mac DeMarco",
+      "One More Love Song — Mac DeMarco",
+      "Moonlight on the River — Mac DeMarco",
+      "Still Beating — Mac DeMarco"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__downtempo",
+        "weight": -0.16764419462760644,
+        "abs_weight": 0.16764419462760644
+      },
+      {
+        "feature": "tag__downtempo",
+        "weight": -0.1676441945567941,
+        "abs_weight": 0.1676441945567941
+      },
+      {
+        "feature": "genre__instrumental",
+        "weight": -0.15352378616704762,
+        "abs_weight": 0.15352378616704762
+      },
+      {
+        "feature": "tag__instrumental",
+        "weight": -0.15352378600572836,
+        "abs_weight": 0.15352378600572836
+      },
+      {
+        "feature": "genre__trip_hop",
+        "weight": -0.1465476482591675,
+        "abs_weight": 0.1465476482591675
+      },
+      {
+        "feature": "tag__trip_hop",
+        "weight": -0.14227564533517828,
+        "abs_weight": 0.14227564533517828
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "weight": -0.14054893092316809,
+        "abs_weight": 0.14054893092316809
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "weight": -0.1405489305953826,
+        "abs_weight": 0.1405489305953826
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "weight": -0.13903074785538944,
+        "abs_weight": 0.13903074785538944
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "weight": -0.1390307478553885,
+        "abs_weight": 0.1390307478553885
+      },
+      {
+        "feature": "genre__jazz",
+        "weight": -0.13783468340181745,
+        "abs_weight": 0.13783468340181745
+      },
+      {
+        "feature": "tag__jazz",
+        "weight": -0.1378346833949898,
+        "abs_weight": 0.1378346833949898
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 28,
+    "sample_tracks": [
+      "Somebody That I Used To Know — Gotye, Kimbra",
+      "Feel Good Inc. — Gorillaz, De La Soul",
+      "Like a Tattoo — Sade",
+      "Kiss of Life — Sade",
+      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Luv(sic.) pt3 (feat. Shing02) — Nujabes, Shing02",
+      "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez) — Nujabes, Substantial",
+      "Horn in the middle — Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Beat laments the world — Nujabes"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__downtempo",
+        "weight": 4.348238098026815,
+        "abs_weight": 4.348238098026815
+      },
+      {
+        "feature": "tag__downtempo",
+        "weight": 4.348238095912909,
+        "abs_weight": 4.348238095912909
+      },
+      {
+        "feature": "genre__instrumental",
+        "weight": 4.0063310817314814,
+        "abs_weight": 4.0063310817314814
+      },
+      {
+        "feature": "tag__instrumental",
+        "weight": 4.006331077507446,
+        "abs_weight": 4.006331077507446
+      },
+      {
+        "feature": "genre__trip_hop",
+        "weight": 3.826128413480998,
+        "abs_weight": 3.826128413480998
+      },
+      {
+        "feature": "tag__trip_hop",
+        "weight": 3.7079615064691276,
+        "abs_weight": 3.7079615064691276
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "weight": 3.671601012494622,
+        "abs_weight": 3.671601012494622
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "weight": 3.671601003901597,
+        "abs_weight": 3.671601003901597
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "weight": 3.6191445414691903,
+        "abs_weight": 3.6191445414691903
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "weight": 3.619144541469175,
+        "abs_weight": 3.619144541469175
+      },
+      {
+        "feature": "genre__jazz",
+        "weight": 3.6116930472267685,
+        "abs_weight": 3.6116930472267685
+      },
+      {
+        "feature": "tag__jazz",
+        "weight": 3.6116930469752195,
+        "abs_weight": 3.6116930469752195
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 3,
+    "sample_tracks": [
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "In My Life - Remastered 2009 — The Beatles",
+      "And I Love Her - Remastered 2009 — The Beatles"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__beat_music",
+        "weight": 15.187763961641362,
+        "abs_weight": 15.187763961641362
+      },
+      {
+        "feature": "tag__beat_music",
+        "weight": 15.187763935446805,
+        "abs_weight": 15.187763935446805
+      },
+      {
+        "feature": "tag__am_pop",
+        "weight": 15.187763935446805,
+        "abs_weight": 15.187763935446805
+      },
+      {
+        "feature": "tag__british_invasion",
+        "weight": 14.855882739631994,
+        "abs_weight": 14.855882739631994
+      },
+      {
+        "feature": "genre__rock_and_roll",
+        "weight": 14.484002335057905,
+        "abs_weight": 14.484002335057905
+      },
+      {
+        "feature": "genre__psychedelic",
+        "weight": 14.072751376642868,
+        "abs_weight": 14.072751376642868
+      },
+      {
+        "feature": "tag__psychedelic",
+        "weight": 14.072751376642554,
+        "abs_weight": 14.072751376642554
+      },
+      {
+        "feature": "tag__rock_and_roll",
+        "weight": 13.487405071609462,
+        "abs_weight": 13.487405071609462
+      },
+      {
+        "feature": "tag__beat",
+        "weight": 12.757148893609013,
+        "abs_weight": 12.757148893609013
+      },
+      {
+        "feature": "tag__remark_well_known",
+        "weight": 12.70456293526532,
+        "abs_weight": 12.70456293526532
+      },
+      {
+        "feature": "tag__melancholy",
+        "weight": 12.650236859741131,
+        "abs_weight": 12.650236859741131
+      },
+      {
+        "feature": "genre__hard_rock",
+        "weight": 12.632774586732673,
+        "abs_weight": 12.632774586732673
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 2,
+    "sample_tracks": [
+      "The Great Gig in the Sky — Pink Floyd",
+      "Us and Them — Pink Floyd"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__space_rock",
+        "weight": 18.25623353513988,
+        "abs_weight": 18.25623353513988
+      },
+      {
+        "feature": "genre__acid_rock",
+        "weight": 18.256233535139543,
+        "abs_weight": 18.256233535139543
+      },
+      {
+        "feature": "genre__space_rock",
+        "weight": 18.256233535139483,
+        "abs_weight": 18.256233535139483
+      },
+      {
+        "feature": "tag__acid_rock",
+        "weight": 18.25623353513945,
+        "abs_weight": 18.25623353513945
+      },
+      {
+        "feature": "tag__trippy",
+        "weight": 18.25623353513945,
+        "abs_weight": 18.25623353513945
+      },
+      {
+        "feature": "tag__box",
+        "weight": 18.25623353513945,
+        "abs_weight": 18.25623353513945
+      },
+      {
+        "feature": "tag__britannique",
+        "weight": 16.550739391523635,
+        "abs_weight": 16.550739391523635
+      },
+      {
+        "feature": "tag__progressive_rock",
+        "weight": 15.749741569178028,
+        "abs_weight": 15.749741569178028
+      },
+      {
+        "feature": "genre__progressive_rock",
+        "weight": 15.749741547339159,
+        "abs_weight": 15.749741547339159
+      },
+      {
+        "feature": "genre__art_rock",
+        "weight": 15.731731293246032,
+        "abs_weight": 15.731731293246032
+      },
+      {
+        "feature": "tag__art_rock",
+        "weight": 15.731731198901018,
+        "abs_weight": 15.731731198901018
+      },
+      {
+        "feature": "tag__cold",
+        "weight": 15.18595835677684,
+        "abs_weight": 15.18595835677684
+      }
+    ]
+  }
+]

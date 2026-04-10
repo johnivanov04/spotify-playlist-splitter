@@ -1,0 +1,343 @@
+{
+  "input": "ml_pipeline/data/processed/song_records.backfilled.json",
+  "records": 758,
+  "feature_count": 323,
+  "vocab": {
+    "tag_vocab_size": 186,
+    "genre_vocab_size": 113,
+    "acoustic_vocab_size": 17,
+    "top_tag_df": [
+      [
+        "hip_hop",
+        104
+      ],
+      [
+        "rock",
+        91
+      ],
+      [
+        "pop",
+        68
+      ],
+      [
+        "indie_rock",
+        64
+      ],
+      [
+        "electronic",
+        58
+      ],
+      [
+        "indie_pop",
+        42
+      ],
+      [
+        "alternative_rock",
+        36
+      ],
+      [
+        "indie",
+        35
+      ],
+      [
+        "pop_rock",
+        33
+      ],
+      [
+        "jazz_rap",
+        32
+      ],
+      [
+        "psychedelic_rock",
+        30
+      ],
+      [
+        "alternative_hip_hop",
+        30
+      ],
+      [
+        "jazz",
+        25
+      ],
+      [
+        "rap",
+        25
+      ],
+      [
+        "downtempo",
+        24
+      ],
+      [
+        "trip_hop",
+        23
+      ],
+      [
+        "instrumental",
+        21
+      ],
+      [
+        "alternative",
+        18
+      ],
+      [
+        "contemporary_r_and_b",
+        18
+      ],
+      [
+        "soul",
+        18
+      ],
+      [
+        "neo_psychedelia",
+        17
+      ],
+      [
+        "conscious_hip_hop",
+        17
+      ],
+      [
+        "west_coast_hip_hop",
+        16
+      ],
+      [
+        "cool_jazz",
+        15
+      ],
+      [
+        "synth_pop",
+        14
+      ]
+    ],
+    "top_genre_df": [
+      [
+        "hip_hop",
+        102
+      ],
+      [
+        "rock",
+        91
+      ],
+      [
+        "pop",
+        68
+      ],
+      [
+        "indie_rock",
+        64
+      ],
+      [
+        "electronic",
+        58
+      ],
+      [
+        "indie_pop",
+        42
+      ],
+      [
+        "alternative_rock",
+        36
+      ],
+      [
+        "jazz_rap",
+        32
+      ],
+      [
+        "psychedelic_rock",
+        30
+      ],
+      [
+        "alternative_hip_hop",
+        29
+      ],
+      [
+        "pop_rock",
+        25
+      ],
+      [
+        "jazz",
+        25
+      ],
+      [
+        "downtempo",
+        24
+      ],
+      [
+        "trip_hop",
+        22
+      ],
+      [
+        "instrumental",
+        21
+      ],
+      [
+        "contemporary_r_and_b",
+        18
+      ],
+      [
+        "soul",
+        18
+      ],
+      [
+        "neo_psychedelia",
+        17
+      ],
+      [
+        "conscious_hip_hop",
+        17
+      ],
+      [
+        "west_coast_hip_hop",
+        16
+      ],
+      [
+        "cool_jazz",
+        15
+      ],
+      [
+        "synth_pop",
+        14
+      ],
+      [
+        "r_and_b",
+        14
+      ],
+      [
+        "underground_hip_hop",
+        14
+      ],
+      [
+        "classic_rock",
+        13
+      ]
+    ],
+    "top_acoustic_df": [
+      [
+        "highlevel__genre_electronic__all__house",
+        453
+      ],
+      [
+        "highlevel__timbre__all__dark",
+        453
+      ],
+      [
+        "highlevel__voice_instrumental__all__voice",
+        453
+      ],
+      [
+        "highlevel__voice_instrumental__all__instrumental",
+        453
+      ],
+      [
+        "highlevel__genre_electronic__all__dnb",
+        453
+      ],
+      [
+        "highlevel__mood_aggressive__all__aggressive",
+        453
+      ],
+      [
+        "highlevel__mood_electronic__all__electronic",
+        453
+      ],
+      [
+        "highlevel__mood_acoustic__all__acoustic",
+        453
+      ],
+      [
+        "highlevel__genre_electronic__all__ambient",
+        453
+      ],
+      [
+        "highlevel__mood_party__all__party",
+        453
+      ],
+      [
+        "highlevel__danceability__all__danceable",
+        453
+      ],
+      [
+        "highlevel__mood_relaxed__all__relaxed",
+        453
+      ],
+      [
+        "highlevel__timbre__all__bright",
+        453
+      ],
+      [
+        "highlevel__genre_electronic__all__techno",
+        453
+      ],
+      [
+        "highlevel__mood_happy__all__happy",
+        453
+      ],
+      [
+        "highlevel__mood_sad__all__sad",
+        453
+      ],
+      [
+        "highlevel__genre_electronic__all__trance",
+        453
+      ]
+    ]
+  },
+  "matrix": {
+    "shape": [
+      758,
+      323
+    ],
+    "dtype": "float32",
+    "nonzero_rows": 758,
+    "nonzero_rows_pct": 100.0,
+    "year_mean": 2015.7704485488127,
+    "year_std": 9.463445715594112
+  },
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 1.2,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1
+  },
+  "thresholds": {
+    "min_tag_df": 2,
+    "min_genre_df": 2,
+    "min_acoustic_df": 5,
+    "max_tags": 500,
+    "max_genres": 300,
+    "max_acoustic": 1000
+  },
+  "filters": {
+    "skip_tag_exact": [
+      "english",
+      "vocal"
+    ],
+    "skip_tag_substrings": [
+      "billboard",
+      "chart",
+      "charts",
+      "hot_100",
+      "offizielle"
+    ],
+    "skip_acoustic_substrings": [
+      "__all__not_",
+      "__gender__",
+      "genre_dortmund__",
+      "genre_rosamerica__",
+      "genre_tzanetakis__",
+      "ismir04_rhythm__",
+      "moods_mirex__",
+      "tonal_atonal__"
+    ],
+    "skip_acoustic_suffixes": [
+      "__probability"
+    ]
+  },
+  "outputs": {
+    "feature_matrix_npz": "ml_pipeline/data/artifacts/features_v1_3/feature_matrix.npz",
+    "feature_names_json": "ml_pipeline/data/artifacts/features_v1_3/feature_names.json",
+    "row_index_json": "ml_pipeline/data/artifacts/features_v1_3/row_index.json",
+    "featurizer_report_json": "ml_pipeline/data/artifacts/features_v1_3/featurizer_report.json"
+  }
+}
