@@ -199,6 +199,15 @@ _ACOUSTIC_ABBREV_MAP = {
     "funksoulrnb": "funk soul rnb",
 }
 
+_MIN_TOP_FEATURE_SCORE = 0.05
+_MIN_STRONG_NAMING_SCORE = 0.20
+_GENERIC_CLUSTER_LABELS = {
+    "tempo change",
+    "danceable",
+    "voice instrumental / voice",
+    "voice instrumental / instrumental",
+}
+
 
 def keep_tag_token(token: str) -> bool:
     if not token:
@@ -859,6 +868,7 @@ def is_good_naming_feature(feature: str) -> bool:
         "ismir04_rhythm",
         "moods_mirex",
         "tonal_atonal",
+        "genre_electronic",
     ]
     return not any(bad in feature for bad in bad_substrings)
 
@@ -868,13 +878,17 @@ def top_cluster_features(
     feature_names: list[str],
     top_n: int,
     exclude_meta: bool = True,
+    min_score: float = _MIN_TOP_FEATURE_SCORE,
 ) -> list[dict[str, Any]]:
     pairs = []
     for idx, value in enumerate(cluster_mean_scaled.tolist()):
         name = feature_names[idx]
         if exclude_meta and name.startswith("meta__"):
             continue
-        pairs.append((name, float(value)))
+        score = float(value)
+        if score <= float(min_score):
+            continue
+        pairs.append((name, score))
 
     pairs.sort(key=lambda x: x[1], reverse=True)
 
@@ -890,7 +904,21 @@ def top_cluster_features(
     return out
 
 
+def _is_generic_cluster_label(label: str) -> bool:
+    if label in _GENERIC_CLUSTER_LABELS:
+        return True
+    if label.startswith("timbre / "):
+        return True
+    if label.startswith("mood "):
+        return True
+    return False
+
+
 def build_cluster_name(top_features: list[dict[str, Any]]) -> str:
+    if not top_features:
+        return "mixed vibe cluster"
+
+    top_score = float(top_features[0].get("score", 0.0))
     tokens = []
     seen = set()
 
@@ -907,7 +935,11 @@ def build_cluster_name(top_features: list[dict[str, Any]]) -> str:
             break
 
     if not tokens:
-        return "mixed cluster"
+        return "mixed vibe cluster"
+
+    if top_score < _MIN_STRONG_NAMING_SCORE and all(_is_generic_cluster_label(token) for token in tokens):
+        return "mixed vibe cluster"
+
     if len(tokens) == 1:
         return tokens[0]
     return f"{tokens[0]} / {tokens[1]}"
