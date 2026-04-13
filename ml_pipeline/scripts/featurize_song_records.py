@@ -128,6 +128,7 @@ _SKIP_TAG_SUBSTRINGS = {
     "chart",
     "charts",
     "offizielle",
+    "ph_",  # personal MusicBrainz tags (e.g. "ph 4 stars", "ph temp checken")
 }
 
 _SKIP_TAG_EXACT = {

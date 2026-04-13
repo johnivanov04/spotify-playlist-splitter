@@ -1,0 +1,6990 @@
+[
+  {
+    "row": 0,
+    "track_id": "spotify:64lsIF5pw0sJY0gV5kz0RN",
+    "canonical_key": "mbid:ff05a095-df0c-4d07-83a0-f73b851375b2",
+    "title": "Can I Call You Tonight?",
+    "artists": [
+      "Dayglow"
+    ],
+    "year": 2019,
+    "spotify_id": "64lsIF5pw0sJY0gV5kz0RN",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "ff05a095-df0c-4d07-83a0-f73b851375b2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 11
+  },
+  {
+    "row": 1,
+    "track_id": "spotify:3BWbj5NXUgr0hK7PmFSI9D",
+    "canonical_key": "isrc:USWU31400038",
+    "title": "16 Years",
+    "artists": [
+      "The Griswolds"
+    ],
+    "year": 2014,
+    "spotify_id": "3BWbj5NXUgr0hK7PmFSI9D",
+    "spotify_uri": null,
+    "isrc": "USWU31400038",
+    "musicbrainz_recording_id": "eb3659b7-4ee1-45fc-acf4-d57e33237a1e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 2,
+    "track_id": "spotify:0KyAGiNGUytG5JLxJu4F6l",
+    "canonical_key": "mbid:5be14eaf-e1f8-4d6f-a9b6-fb95ea68d188",
+    "title": "Pretty Girl",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2017,
+    "spotify_id": "0KyAGiNGUytG5JLxJu4F6l",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "5be14eaf-e1f8-4d6f-a9b6-fb95ea68d188",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 3,
+    "track_id": "spotify:2xCGBWfzTe8l2kvHpgvB6M",
+    "canonical_key": "mbid:36a74ad8-3c0d-4aaa-a4e8-baaff3e17be5",
+    "title": "prom dress",
+    "artists": [
+      "mxmtoon"
+    ],
+    "year": 2019,
+    "spotify_id": "2xCGBWfzTe8l2kvHpgvB6M",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "36a74ad8-3c0d-4aaa-a4e8-baaff3e17be5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 4,
+    "track_id": "spotify:1MJ5f5EYBC92ADD6xcz7nb",
+    "canonical_key": "mbid:d8721fd8-6f1c-4c6e-8b0e-52e9b88169fc",
+    "title": "Chamber Of Reflection",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2014,
+    "spotify_id": "1MJ5f5EYBC92ADD6xcz7nb",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "d8721fd8-6f1c-4c6e-8b0e-52e9b88169fc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 5,
+    "track_id": "spotify:36rqjSUBaArtMBLWrzwInc",
+    "canonical_key": "mbid:36e0d914-8043-4949-91e6-8e87a89234e4",
+    "title": "On the Level",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "36rqjSUBaArtMBLWrzwInc",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "36e0d914-8043-4949-91e6-8e87a89234e4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 6,
+    "track_id": "spotify:4LB5cNN7f18wIJA2RU4iIO",
+    "canonical_key": "mbid:2e89398c-5e44-4058-bbc4-16eaf04c5092",
+    "title": "For the First Time",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "4LB5cNN7f18wIJA2RU4iIO",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "2e89398c-5e44-4058-bbc4-16eaf04c5092",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 7,
+    "track_id": "spotify:6l91G5h57AW47LDPMuJSST",
+    "canonical_key": "mbid:0b32399b-e4d6-4b7b-b13c-78ea375fe0f9",
+    "title": "One More Love Song",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "6l91G5h57AW47LDPMuJSST",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "0b32399b-e4d6-4b7b-b13c-78ea375fe0f9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 8,
+    "track_id": "spotify:1yCJHs8UFfmqMujayg9i5y",
+    "canonical_key": "mbid:8a51c317-e813-4dd5-b16b-1857dcac8347",
+    "title": "Moonlight on the River",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "1yCJHs8UFfmqMujayg9i5y",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "8a51c317-e813-4dd5-b16b-1857dcac8347",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 9,
+    "track_id": "spotify:2N4idqj9TT3HnH2OFT9j0v",
+    "canonical_key": "mbid:cb85b719-144e-4bf8-8bee-c5fa57ee30b1",
+    "title": "Still Beating",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "2N4idqj9TT3HnH2OFT9j0v",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "cb85b719-144e-4bf8-8bee-c5fa57ee30b1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 10,
+    "track_id": "spotify:2tznHmp70DxMyr2XhWLOW0",
+    "canonical_key": "isrc:USRC11301169",
+    "title": "Cigarette Daydreams",
+    "artists": [
+      "Cage The Elephant"
+    ],
+    "year": 2013,
+    "spotify_id": "2tznHmp70DxMyr2XhWLOW0",
+    "spotify_uri": null,
+    "isrc": "USRC11301169",
+    "musicbrainz_recording_id": "34c6765e-a256-4cff-95c7-3150a288f447",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 11,
+    "track_id": "spotify:4wCmqSrbyCgxEXROQE6vtV",
+    "canonical_key": "isrc:AUZS21100040",
+    "title": "Somebody That I Used To Know",
+    "artists": [
+      "Gotye",
+      "Kimbra"
+    ],
+    "year": 2011,
+    "spotify_id": "4wCmqSrbyCgxEXROQE6vtV",
+    "spotify_uri": null,
+    "isrc": "AUZS21100040",
+    "musicbrainz_recording_id": "5b6ad1ba-9e08-4570-bcef-e3343519070a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 12,
+    "track_id": "spotify:1yqn3XYxrZ4I805SuoJSL1",
+    "canonical_key": "mbid:373d8dd9-4b2b-4358-9cdb-20c8e00131e5",
+    "title": "Blinded",
+    "artists": [
+      "The Jungle Giants"
+    ],
+    "year": 2017,
+    "spotify_id": "1yqn3XYxrZ4I805SuoJSL1",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "373d8dd9-4b2b-4358-9cdb-20c8e00131e5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 13,
+    "track_id": "spotify:0baNzeUcPQnQSagpe8T0mD",
+    "canonical_key": "isrc:USUYG1179135",
+    "title": "worldstar money (interlude)",
+    "artists": [
+      "Joji"
+    ],
+    "year": 2018,
+    "spotify_id": "0baNzeUcPQnQSagpe8T0mD",
+    "spotify_uri": null,
+    "isrc": "USUYG1179135",
+    "musicbrainz_recording_id": "4a2c97e7-f149-4016-9ed9-e7f61d514b42",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 14,
+    "track_id": "spotify:6K4t31amVTZDgR3sKmwUJJ",
+    "canonical_key": "isrc:AUUM71500303",
+    "title": "The Less I Know The Better",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "6K4t31amVTZDgR3sKmwUJJ",
+    "spotify_uri": null,
+    "isrc": "AUUM71500303",
+    "musicbrainz_recording_id": "78be434c-0908-458f-9693-f16cdebb68ef",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 15,
+    "track_id": "spotify:4sebUbjqbcgDSwG6PbSGI0",
+    "canonical_key": "isrc:USRC11301144",
+    "title": "Come a Little Closer",
+    "artists": [
+      "Cage The Elephant"
+    ],
+    "year": 2013,
+    "spotify_id": "4sebUbjqbcgDSwG6PbSGI0",
+    "spotify_uri": null,
+    "isrc": "USRC11301144",
+    "musicbrainz_recording_id": "12882098-a4f6-4023-ad7d-32b4524ad4cc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 16,
+    "track_id": "spotify:5n0CTysih20NYdT2S0Wpe8",
+    "canonical_key": "isrc:USRC11502826",
+    "title": "Trouble",
+    "artists": [
+      "Cage The Elephant"
+    ],
+    "year": 2015,
+    "spotify_id": "5n0CTysih20NYdT2S0Wpe8",
+    "spotify_uri": null,
+    "isrc": "USRC11502826",
+    "musicbrainz_recording_id": "1435da5b-a01f-458d-a3e0-5ed7d33ec3d1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 17,
+    "track_id": "spotify:3OP8UeYimRl9HCNxMg7Ihl",
+    "canonical_key": "mbid:4f635d88-0045-4544-81aa-0abc0d6d9e51",
+    "title": "Young",
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2016,
+    "spotify_id": "3OP8UeYimRl9HCNxMg7Ihl",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "4f635d88-0045-4544-81aa-0abc0d6d9e51",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 18,
+    "track_id": "spotify:4EpZ4eYuZOwPSSwyqpdHnJ",
+    "canonical_key": "mbid:4191461c-676d-4e7f-8a1f-44da802cead7",
+    "title": "Sunflower",
+    "artists": [
+      "Rex Orange County"
+    ],
+    "year": 2017,
+    "spotify_id": "4EpZ4eYuZOwPSSwyqpdHnJ",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "4191461c-676d-4e7f-8a1f-44da802cead7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 19,
+    "track_id": "spotify:2RiBogNRfulkNf7fVbPOrJ",
+    "canonical_key": "isrc:USAT21705384",
+    "title": "Saturday Sun",
+    "artists": [
+      "Vance Joy"
+    ],
+    "year": 2018,
+    "spotify_id": "2RiBogNRfulkNf7fVbPOrJ",
+    "spotify_uri": null,
+    "isrc": "USAT21705384",
+    "musicbrainz_recording_id": "7ea92086-ffdd-4d45-b728-afc4e831d7c5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 20,
+    "track_id": "spotify:5mIOsPuQdXchVY0jB5NO9Q",
+    "canonical_key": "mbid:3a8e5ec6-b206-4aa0-90b5-eb7088d48a96",
+    "title": "4EVER",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2018,
+    "spotify_id": "5mIOsPuQdXchVY0jB5NO9Q",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "3a8e5ec6-b206-4aa0-90b5-eb7088d48a96",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 21,
+    "track_id": "spotify:2QjOHCTQ1Jl3zawyYOpxh6",
+    "canonical_key": "isrc:USSM11300080",
+    "title": "Sweater Weather",
+    "artists": [
+      "The Neighbourhood"
+    ],
+    "year": 2013,
+    "spotify_id": "2QjOHCTQ1Jl3zawyYOpxh6",
+    "spotify_uri": null,
+    "isrc": "USSM11300080",
+    "musicbrainz_recording_id": "4e9f954e-df92-40d9-b68d-8abcd4eae4da",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 22,
+    "track_id": "spotify:3YSefJ4OGYCIHNVowuSx7O",
+    "canonical_key": "isrc:SE3OH1624243",
+    "title": "Fat Lady",
+    "artists": [
+      "Sure Sure"
+    ],
+    "year": 2018,
+    "spotify_id": "3YSefJ4OGYCIHNVowuSx7O",
+    "spotify_uri": null,
+    "isrc": "SE3OH1624243",
+    "musicbrainz_recording_id": "039dcd78-bede-4524-abd2-c1c85bb22aba",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 23,
+    "track_id": "spotify:0rKtyWc8bvkriBthvHKY8d",
+    "canonical_key": "mbid:642c3516-7866-447f-8e68-3535fd807fc8",
+    "title": "SLOW DANCING IN THE DARK",
+    "artists": [
+      "Joji"
+    ],
+    "year": 2018,
+    "spotify_id": "0rKtyWc8bvkriBthvHKY8d",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "642c3516-7866-447f-8e68-3535fd807fc8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 24,
+    "track_id": "spotify:2d1VRB0OXkwtMu0OKsxXDW",
+    "canonical_key": "mbid:9a07a448-f258-46c8-8248-82660ac75a4f",
+    "title": "Never Enough",
+    "artists": [
+      "Rex Orange County"
+    ],
+    "year": 2017,
+    "spotify_id": "2d1VRB0OXkwtMu0OKsxXDW",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "9a07a448-f258-46c8-8248-82660ac75a4f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 25,
+    "track_id": "spotify:2OFrAsP5Vrcb0DtsPNsm54",
+    "canonical_key": "mbid:86e88f99-1bbc-4a84-92a5-722e34bfb17f",
+    "title": "My Kind of Woman",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2012,
+    "spotify_id": "2OFrAsP5Vrcb0DtsPNsm54",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "86e88f99-1bbc-4a84-92a5-722e34bfb17f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 26,
+    "track_id": "spotify:6ixkZ2Q9gQeh52C6GxbETg",
+    "canonical_key": "mbid:7af7964a-7625-4300-9e84-d6384537c2a3",
+    "title": "Kids",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2015,
+    "spotify_id": "6ixkZ2Q9gQeh52C6GxbETg",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "7af7964a-7625-4300-9e84-d6384537c2a3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 27,
+    "track_id": "spotify:76tGvMdmFKuiMew33ZNNA9",
+    "canonical_key": "mbid:0758203a-6b6d-490a-afd4-65524f3fde91",
+    "title": "Lover Is a Day",
+    "artists": [
+      "Cuco"
+    ],
+    "year": 2016,
+    "spotify_id": "76tGvMdmFKuiMew33ZNNA9",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "0758203a-6b6d-490a-afd4-65524f3fde91",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 28,
+    "track_id": "spotify:5Ss6DqCldgTmIo6BekVOJT",
+    "canonical_key": "mbid:381218ec-f28e-4d18-a532-97e60b5ce21e",
+    "title": "You Say I'm in Love",
+    "artists": [
+      "Banes World"
+    ],
+    "year": 2017,
+    "spotify_id": "5Ss6DqCldgTmIo6BekVOJT",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "381218ec-f28e-4d18-a532-97e60b5ce21e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 29,
+    "track_id": "spotify:4EWBhKf1fOFnyMtUzACXEc",
+    "canonical_key": "isrc:USRC11902533",
+    "title": "Pluto Projector",
+    "artists": [
+      "Rex Orange County"
+    ],
+    "year": 2019,
+    "spotify_id": "4EWBhKf1fOFnyMtUzACXEc",
+    "spotify_uri": null,
+    "isrc": "USRC11902533",
+    "musicbrainz_recording_id": "c55131fe-0135-4f83-b517-94cd7e91140d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 30,
+    "track_id": "spotify:6MpCaSIOfqBqbMED4kXgNY",
+    "canonical_key": "mbid:87bb3db2-02eb-4d2e-b451-f279b78db358",
+    "title": "Prom Queen",
+    "artists": [
+      "Beach Bunny"
+    ],
+    "year": 2018,
+    "spotify_id": "6MpCaSIOfqBqbMED4kXgNY",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "87bb3db2-02eb-4d2e-b451-f279b78db358",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 31,
+    "track_id": "spotify:4UkCtBCYh6VMsucGMQZyh9",
+    "canonical_key": "mbid:40d75405-0eff-421c-952b-73ed4c99abd8",
+    "title": "Blondie",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": "4UkCtBCYh6VMsucGMQZyh9",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "40d75405-0eff-421c-952b-73ed4c99abd8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 32,
+    "track_id": "spotify:6TEiFwaiHERpdfG6WnGed1",
+    "canonical_key": "mbid:7b3bf753-7ce8-4c30-ab88-8a7cb140a530",
+    "title": "New Flesh",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": "6TEiFwaiHERpdfG6WnGed1",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "7b3bf753-7ce8-4c30-ab88-8a7cb140a530",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 33,
+    "track_id": "spotify:6s3dCTZCtmSxWx23QdJzpG",
+    "canonical_key": "mbid:119bfb4b-a5ae-4bc4-880e-35840c4b691f",
+    "title": "Televisions",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": "6s3dCTZCtmSxWx23QdJzpG",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "119bfb4b-a5ae-4bc4-880e-35840c4b691f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 34,
+    "track_id": "spotify:6J71OtMvdt6rtnh1fFxhr8",
+    "canonical_key": "mbid:a0a88928-e9a6-4d90-9737-a3594a560d58",
+    "title": "I'm Terrified",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": "6J71OtMvdt6rtnh1fFxhr8",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "a0a88928-e9a6-4d90-9737-a3594a560d58",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 35,
+    "track_id": "spotify:6eoUFBlvgNttvpeJc4W9U1",
+    "canonical_key": "mbid:f77cf748-4b65-4e5e-b2a1-b7091746ff69",
+    "title": "Strange Life",
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": "6eoUFBlvgNttvpeJc4W9U1",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f77cf748-4b65-4e5e-b2a1-b7091746ff69",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 36,
+    "track_id": "spotify:6dGnYIeXmHdcikdzNNDMm2",
+    "canonical_key": "isrc:GBAYE0601696",
+    "title": "Here Comes The Sun - Remastered 2009",
+    "artists": [
+      "The Beatles"
+    ],
+    "year": 1969,
+    "spotify_id": "6dGnYIeXmHdcikdzNNDMm2",
+    "spotify_uri": null,
+    "isrc": "GBAYE0601696",
+    "musicbrainz_recording_id": "440f60e8-0b25-4ec4-abb1-c6beec624ab0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 37,
+    "track_id": "spotify:2nr9WZdKntw9a5muEC3gOk",
+    "canonical_key": "mbid:e4aeff51-f505-4989-927a-acf226d6172d",
+    "title": "In My Head",
+    "artists": [
+      "Bedroom"
+    ],
+    "year": 2017,
+    "spotify_id": "2nr9WZdKntw9a5muEC3gOk",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "e4aeff51-f505-4989-927a-acf226d6172d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 38,
+    "track_id": "spotify:5EV4bGHxVN0kHpcAFvgnTt",
+    "canonical_key": "isrc:USQY51745799",
+    "title": "Dance, Baby!",
+    "artists": [
+      "boy pablo"
+    ],
+    "year": 2017,
+    "spotify_id": "5EV4bGHxVN0kHpcAFvgnTt",
+    "spotify_uri": null,
+    "isrc": "USQY51745799",
+    "musicbrainz_recording_id": "dbe815e3-bbaf-46d2-8eb3-ac97645f9961",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 39,
+    "track_id": "spotify:0jA4h2SD50Oak4C3Vn905a",
+    "canonical_key": "mbid:75d28825-110a-46b7-b08b-8001f7aacfd8",
+    "title": "Not Allowed",
+    "artists": [
+      "TV Girl"
+    ],
+    "year": 2016,
+    "spotify_id": "0jA4h2SD50Oak4C3Vn905a",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "75d28825-110a-46b7-b08b-8001f7aacfd8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 40,
+    "track_id": "spotify:1IzqLAnLpITw7SArHU3286",
+    "canonical_key": "spotify:1IzqLAnLpITw7SArHU3286",
+    "title": "School Rooftop - Slowed Down Version",
+    "artists": [
+      "Hisohkah",
+      "WMD"
+    ],
+    "year": 2021,
+    "spotify_id": "1IzqLAnLpITw7SArHU3286",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 41,
+    "track_id": "spotify:3zksbXteOCeSusJ5Xltr3t",
+    "canonical_key": "isrc:QMEZE1907824",
+    "title": "Bubble Gum",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "3zksbXteOCeSusJ5Xltr3t",
+    "spotify_uri": null,
+    "isrc": "QMEZE1907824",
+    "musicbrainz_recording_id": "07dacd71-fb61-47a5-9808-e3f9284762c1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 42,
+    "track_id": "spotify:7H0ya83CMmgFcOhw0UB6ow",
+    "canonical_key": "isrc:USSUB1512203",
+    "title": "Space Song",
+    "artists": [
+      "Beach House"
+    ],
+    "year": 2015,
+    "spotify_id": "7H0ya83CMmgFcOhw0UB6ow",
+    "spotify_uri": null,
+    "isrc": "USSUB1512203",
+    "musicbrainz_recording_id": "5a8f7959-6906-4672-ac64-f994e98976ae",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 43,
+    "track_id": "spotify:0So2sgVa8aJiARPl2P29u2",
+    "canonical_key": "isrc:TCACN1687807",
+    "title": "Pope Is a Rockstar",
+    "artists": [
+      "SALES"
+    ],
+    "year": 2016,
+    "spotify_id": "0So2sgVa8aJiARPl2P29u2",
+    "spotify_uri": null,
+    "isrc": "TCACN1687807",
+    "musicbrainz_recording_id": "cbb1bdb8-3d94-4472-a2e3-d61806815764",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 44,
+    "track_id": "spotify:1BYZxKSf0aTxp8ZFoeyM3d",
+    "canonical_key": "mbid:46bfc9d7-a4d9-4a1b-b1f6-0b23216229f2",
+    "title": "we fell in love in october",
+    "artists": [
+      "girl in red"
+    ],
+    "year": 2018,
+    "spotify_id": "1BYZxKSf0aTxp8ZFoeyM3d",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "46bfc9d7-a4d9-4a1b-b1f6-0b23216229f2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 45,
+    "track_id": "spotify:5ruzrDWcT0vuJIOMW7gMnW",
+    "canonical_key": "isrc:USRC11902726",
+    "title": "The Adults Are Talking",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2020,
+    "spotify_id": "5ruzrDWcT0vuJIOMW7gMnW",
+    "spotify_uri": null,
+    "isrc": "USRC11902726",
+    "musicbrainz_recording_id": "57b269a0-99eb-4b31-a4d4-ff311f965a3e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 46,
+    "track_id": "spotify:77OOBEhQnWEum2pokUnoMU",
+    "canonical_key": "mbid:e8ed686c-7336-4070-9b1c-2d4ce492a4e4",
+    "title": "Prom Night",
+    "artists": [
+      "Riovaz"
+    ],
+    "year": 2020,
+    "spotify_id": "77OOBEhQnWEum2pokUnoMU",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "e8ed686c-7336-4070-9b1c-2d4ce492a4e4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 47,
+    "track_id": "spotify:755inykyaG4w22GWAsA3MX",
+    "canonical_key": "isrc:GBSMU5360586",
+    "title": "Marlboro Nights",
+    "artists": [
+      "Lonely God"
+    ],
+    "year": 2018,
+    "spotify_id": "755inykyaG4w22GWAsA3MX",
+    "spotify_uri": null,
+    "isrc": "GBSMU5360586",
+    "musicbrainz_recording_id": "4c26503e-08f8-4761-9d31-58a24bb145ec",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 48,
+    "track_id": "spotify:0HUTL8i4y4MiGCPId7M7wb",
+    "canonical_key": "mbid:c4980ea0-59c0-4d53-9599-e4cd12114b3b",
+    "title": "Freaks",
+    "artists": [
+      "Surf Curse"
+    ],
+    "year": 2015,
+    "spotify_id": "0HUTL8i4y4MiGCPId7M7wb",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "c4980ea0-59c0-4d53-9599-e4cd12114b3b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 49,
+    "track_id": "spotify:1lpLrlyweOShEKXT1bpcDd",
+    "canonical_key": "mbid:47125aa0-58c2-47d5-a8e9-25d9781b6fac",
+    "title": "Looking Out for You",
+    "artists": [
+      "Joy Again"
+    ],
+    "year": 2015,
+    "spotify_id": "1lpLrlyweOShEKXT1bpcDd",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "47125aa0-58c2-47d5-a8e9-25d9781b6fac",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 50,
+    "track_id": "spotify:5wHzSefbjbsi1xczlfIA8N",
+    "canonical_key": "mbid:9d888673-4a5e-429e-a3f1-910568ab9d9a",
+    "title": "Not Always Happy",
+    "artists": [
+      "Petite League"
+    ],
+    "year": 2015,
+    "spotify_id": "5wHzSefbjbsi1xczlfIA8N",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "9d888673-4a5e-429e-a3f1-910568ab9d9a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 51,
+    "track_id": "spotify:45BBlVHECwB0uNt7BsJ97r",
+    "canonical_key": "mbid:7ea4728a-3cfb-4546-a651-7b27eaea9c48",
+    "title": "Mrs Magic",
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2019,
+    "spotify_id": "45BBlVHECwB0uNt7BsJ97r",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "7ea4728a-3cfb-4546-a651-7b27eaea9c48",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 52,
+    "track_id": "spotify:0LtOwyZoSNZKJWHqjzADpW",
+    "canonical_key": "isrc:AUUM71200493",
+    "title": "Feels Like We Only Go Backwards",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2012,
+    "spotify_id": "0LtOwyZoSNZKJWHqjzADpW",
+    "spotify_uri": null,
+    "isrc": "AUUM71200493",
+    "musicbrainz_recording_id": "74bbaf1e-220c-4329-b494-bcfd7da17ec0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 53,
+    "track_id": "spotify:0aVM2DspPoHNTDBm7ehySx",
+    "canonical_key": "isrc:USCGH1723894",
+    "title": "Necromancer",
+    "artists": [
+      "Joy Again"
+    ],
+    "year": 2017,
+    "spotify_id": "0aVM2DspPoHNTDBm7ehySx",
+    "spotify_uri": null,
+    "isrc": "USCGH1723894",
+    "musicbrainz_recording_id": "ae5d1547-b7bb-466b-8e8c-39a395424ba9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 54,
+    "track_id": "spotify:5F3DM6Iz4axGiLUhxvQLs1",
+    "canonical_key": "mbid:22507385-e68c-4885-a906-d8559795ead3",
+    "title": "welcome and goodbye",
+    "artists": [
+      "Dream, Ivory"
+    ],
+    "year": 2018,
+    "spotify_id": "5F3DM6Iz4axGiLUhxvQLs1",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "22507385-e68c-4885-a906-d8559795ead3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 55,
+    "track_id": "spotify:3KfbEIOC7YIv90FIfNSZpo",
+    "canonical_key": "isrc:GBAYE0601489",
+    "title": "In My Life - Remastered 2009",
+    "artists": [
+      "The Beatles"
+    ],
+    "year": 1965,
+    "spotify_id": "3KfbEIOC7YIv90FIfNSZpo",
+    "spotify_uri": null,
+    "isrc": "GBAYE0601489",
+    "musicbrainz_recording_id": "5e7a3a47-3df6-4ae7-a60d-fb212758ad81",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 56,
+    "track_id": "spotify:5yaO6I0gPMq6OgkroE7Pfd",
+    "canonical_key": "mbid:f7794bb8-57f0-41a7-b912-a0eb0097e852",
+    "title": "May 1st",
+    "artists": [
+      "Beach Fossils"
+    ],
+    "year": 2017,
+    "spotify_id": "5yaO6I0gPMq6OgkroE7Pfd",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f7794bb8-57f0-41a7-b912-a0eb0097e852",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 57,
+    "track_id": "spotify:25SJaCCPiosugnlY53VhRG",
+    "canonical_key": "mbid:64336aed-6199-4940-ac0e-b2a731086d44",
+    "title": "Freaking Out the Neighborhood",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2012,
+    "spotify_id": "25SJaCCPiosugnlY53VhRG",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "64336aed-6199-4940-ac0e-b2a731086d44",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 58,
+    "track_id": "spotify:7pegxVesMmE2qK0o58xoFG",
+    "canonical_key": "mbid:b716a023-260e-435e-9283-af655a059fbf",
+    "title": "Homage",
+    "artists": [
+      "Mild High Club"
+    ],
+    "year": 2016,
+    "spotify_id": "7pegxVesMmE2qK0o58xoFG",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "b716a023-260e-435e-9283-af655a059fbf",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 59,
+    "track_id": "spotify:4JE6agBLHGA5TaF6FlqfBD",
+    "canonical_key": "isrc:GBAHS1700229",
+    "title": "As the World Caves In",
+    "artists": [
+      "Matt Maltese"
+    ],
+    "year": 2017,
+    "spotify_id": "4JE6agBLHGA5TaF6FlqfBD",
+    "spotify_uri": null,
+    "isrc": "GBAHS1700229",
+    "musicbrainz_recording_id": "d02fd6c8-ee4c-4b24-b8f8-df65eaf0d8cd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 60,
+    "track_id": "spotify:4keAoywVf4jxRvXU7ON0hV",
+    "canonical_key": "mbid:6652eb25-f4e8-4b1d-a80a-23db13aa0538",
+    "title": "Salad Days",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2014,
+    "spotify_id": "4keAoywVf4jxRvXU7ON0hV",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "6652eb25-f4e8-4b1d-a80a-23db13aa0538",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 61,
+    "track_id": "spotify:79RsQCxirSGkCO2CMDXwOJ",
+    "canonical_key": "isrc:QM24S1926398",
+    "title": "In a Dream",
+    "artists": [
+      "Hether"
+    ],
+    "year": 2019,
+    "spotify_id": "79RsQCxirSGkCO2CMDXwOJ",
+    "spotify_uri": null,
+    "isrc": "QM24S1926398",
+    "musicbrainz_recording_id": "762cee10-bbc6-43fa-9f4f-1cce0ea3c30e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 62,
+    "track_id": "spotify:5PSplhA4PEZHqw0bOfelEp",
+    "canonical_key": "isrc:QM6MZ1553510",
+    "title": "Parking Lots",
+    "artists": [
+      "Plums"
+    ],
+    "year": 2015,
+    "spotify_id": "5PSplhA4PEZHqw0bOfelEp",
+    "spotify_uri": null,
+    "isrc": "QM6MZ1553510",
+    "musicbrainz_recording_id": "2a33ee51-8104-4cdd-8fde-98a82cb965a0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 63,
+    "track_id": "spotify:0SIAFU49FFHwR3QnT5Jx0k",
+    "canonical_key": "isrc:TCABX1485212",
+    "title": "Chinese New Year",
+    "artists": [
+      "SALES"
+    ],
+    "year": 2014,
+    "spotify_id": "0SIAFU49FFHwR3QnT5Jx0k",
+    "spotify_uri": null,
+    "isrc": "TCABX1485212",
+    "musicbrainz_recording_id": "40463171-06cc-42ef-bdb9-3b5ef3e3cd79",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 64,
+    "track_id": "spotify:7CIERzyqIwLVKGp00YbHRO",
+    "canonical_key": "isrc:QZFZ52145391",
+    "title": "Pain",
+    "artists": [
+      "PinkPantheress"
+    ],
+    "year": 2021,
+    "spotify_id": "7CIERzyqIwLVKGp00YbHRO",
+    "spotify_uri": null,
+    "isrc": "QZFZ52145391",
+    "musicbrainz_recording_id": "cdfe8a75-28c0-4029-831b-e61257519f4a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 65,
+    "track_id": "spotify:1FWoak0OgTq1jrYfRKfXsj",
+    "canonical_key": "mbid:71fa6830-379f-44a1-a646-6d6530d1b8aa",
+    "title": "Loverboy",
+    "artists": [
+      "A-Wall"
+    ],
+    "year": 2019,
+    "spotify_id": "1FWoak0OgTq1jrYfRKfXsj",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "71fa6830-379f-44a1-a646-6d6530d1b8aa",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 66,
+    "track_id": "spotify:0d28khcov6AiegSCpG5TuT",
+    "canonical_key": "isrc:GBAYE0500172",
+    "title": "Feel Good Inc.",
+    "artists": [
+      "Gorillaz",
+      "De La Soul"
+    ],
+    "year": 2005,
+    "spotify_id": "0d28khcov6AiegSCpG5TuT",
+    "spotify_uri": null,
+    "isrc": "GBAYE0500172",
+    "musicbrainz_recording_id": "5004ea88-6c7e-4096-a89f-b24e358408ee",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 67,
+    "track_id": "spotify:77G0k1La0c5Dw8bAFANcyp",
+    "canonical_key": "mbid:7757e65b-b9da-4ded-944e-302ddd46add9",
+    "title": "Sports",
+    "artists": [
+      "Beach Bunny"
+    ],
+    "year": 2018,
+    "spotify_id": "77G0k1La0c5Dw8bAFANcyp",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "7757e65b-b9da-4ded-944e-302ddd46add9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 68,
+    "track_id": "spotify:3Fzlg5r1IjhLk2qRw667od",
+    "canonical_key": "isrc:GBBBL9902165",
+    "title": "Dancing in the Moonlight",
+    "artists": [
+      "Toploader"
+    ],
+    "year": 2000,
+    "spotify_id": "3Fzlg5r1IjhLk2qRw667od",
+    "spotify_uri": null,
+    "isrc": "GBBBL9902165",
+    "musicbrainz_recording_id": "0463dbee-a2bd-4de2-b219-9f96f41fff88",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 69,
+    "track_id": "spotify:37y7iDayfwm3WXn5BiAoRk",
+    "canonical_key": "mbid:132cc877-2da2-442f-b141-ddfb63e06820",
+    "title": "Dark Red",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2017,
+    "spotify_id": "37y7iDayfwm3WXn5BiAoRk",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "132cc877-2da2-442f-b141-ddfb63e06820",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 70,
+    "track_id": "spotify:3Z6cltU0OfbUdSZtZlzKPL",
+    "canonical_key": "isrc:QZDA71930214",
+    "title": "Dream Girl",
+    "artists": [
+      "Crisaunt"
+    ],
+    "year": 2019,
+    "spotify_id": "3Z6cltU0OfbUdSZtZlzKPL",
+    "spotify_uri": null,
+    "isrc": "QZDA71930214",
+    "musicbrainz_recording_id": "6279aef8-8a9f-40cc-bf06-d4850e7d16af",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 71,
+    "track_id": "spotify:1Go9q6KaCpAsQ0wkZFGzY2",
+    "canonical_key": "spotify:1Go9q6KaCpAsQ0wkZFGzY2",
+    "title": "Chandelier",
+    "artists": [
+      "Will Paquin"
+    ],
+    "year": 2020,
+    "spotify_id": "1Go9q6KaCpAsQ0wkZFGzY2",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 72,
+    "track_id": "spotify:05MBWUZ248dwoQXIUFm42Q",
+    "canonical_key": "mbid:b3399d61-1c8a-471d-abd7-9d15ded69067",
+    "title": "What Would I Do?",
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2019,
+    "spotify_id": "05MBWUZ248dwoQXIUFm42Q",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "b3399d61-1c8a-471d-abd7-9d15ded69067",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 73,
+    "track_id": "spotify:3pXAa69soxZ98bQ1gr18HO",
+    "canonical_key": "mbid:75f3c785-2fd8-4bce-9a2a-2224739a867c",
+    "title": "Another One",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2015,
+    "spotify_id": "3pXAa69soxZ98bQ1gr18HO",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "75f3c785-2fd8-4bce-9a2a-2224739a867c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 74,
+    "track_id": "spotify:4SpObLNxf6euNYhqMzgloB",
+    "canonical_key": "mbid:dcd8b0d4-c25e-40b7-96d2-9e399cf50a74",
+    "title": "Without Me",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2015,
+    "spotify_id": "4SpObLNxf6euNYhqMzgloB",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "dcd8b0d4-c25e-40b7-96d2-9e399cf50a74",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 75,
+    "track_id": "spotify:0kFFvTvmSgJeNkVKPFaplu",
+    "canonical_key": "mbid:9e955a13-f0d3-47e7-b601-4dca9fce42ca",
+    "title": "Something About You",
+    "artists": [
+      "Eyedress",
+      "Dent May"
+    ],
+    "year": 2021,
+    "spotify_id": "0kFFvTvmSgJeNkVKPFaplu",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "9e955a13-f0d3-47e7-b601-4dca9fce42ca",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 11
+  },
+  {
+    "row": 76,
+    "track_id": "spotify:0LpUWqGABmjdgHDPrk8vDT",
+    "canonical_key": "mbid:32b9ac98-4026-4f4f-a22f-dcc1c5cc9b93",
+    "title": "Bug Eyes",
+    "artists": [
+      "The Rare Occasions"
+    ],
+    "year": 2016,
+    "spotify_id": "0LpUWqGABmjdgHDPrk8vDT",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "32b9ac98-4026-4f4f-a22f-dcc1c5cc9b93",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 77,
+    "track_id": "spotify:1Ijh9lrbGPUj1tui7OGpnB",
+    "canonical_key": "isrc:QMMZN1300876",
+    "title": "A Heart Like Hers",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2015,
+    "spotify_id": "1Ijh9lrbGPUj1tui7OGpnB",
+    "spotify_uri": null,
+    "isrc": "QMMZN1300876",
+    "musicbrainz_recording_id": "bc250b9d-a363-4ae0-a14a-e4e749ef5a3d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 78,
+    "track_id": "spotify:4cHKd6qPMR1TMx55KHlida",
+    "canonical_key": "mbid:3e585c4e-8175-4ae3-a226-959fe816fefc",
+    "title": "Notion",
+    "artists": [
+      "The Rare Occasions"
+    ],
+    "year": 2016,
+    "spotify_id": "4cHKd6qPMR1TMx55KHlida",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "3e585c4e-8175-4ae3-a226-959fe816fefc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 79,
+    "track_id": "spotify:1H7zdcRD0gLGQY0w5ejGgX",
+    "canonical_key": "mbid:697eea7f-0067-496c-bc50-2921538e2cc4",
+    "title": "Lovers Rock",
+    "artists": [
+      "TV Girl"
+    ],
+    "year": 2014,
+    "spotify_id": "1H7zdcRD0gLGQY0w5ejGgX",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "697eea7f-0067-496c-bc50-2921538e2cc4",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 80,
+    "track_id": "spotify:2Foc5Q5nqNiosCNqttzHof",
+    "canonical_key": "isrc:USQX91300809",
+    "title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+    "artists": [
+      "Daft Punk",
+      "Pharrell Williams",
+      "Nile Rodgers"
+    ],
+    "year": 2013,
+    "spotify_id": "2Foc5Q5nqNiosCNqttzHof",
+    "spotify_uri": null,
+    "isrc": "USQX91300809",
+    "musicbrainz_recording_id": "744787e9-444c-4494-a544-7640dafc0e9d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 81,
+    "track_id": "spotify:1FvDJ9KGxcqwv1utyPL3JZ",
+    "canonical_key": "isrc:GBCRL1100240",
+    "title": "This Charming Man - 2011 Remaster",
+    "artists": [
+      "The Smiths"
+    ],
+    "year": 1984,
+    "spotify_id": "1FvDJ9KGxcqwv1utyPL3JZ",
+    "spotify_uri": null,
+    "isrc": "GBCRL1100240",
+    "musicbrainz_recording_id": "da0e7052-0c6c-4b1e-b936-b3c0d6ad4f74",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 82,
+    "track_id": "spotify:7B3z0ySL9Rr0XvZEAjWZzM",
+    "canonical_key": "mbid:5860a83e-3655-41eb-a5af-10abf2f7bb7d",
+    "title": "Sofia",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "7B3z0ySL9Rr0XvZEAjWZzM",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "5860a83e-3655-41eb-a5af-10abf2f7bb7d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 83,
+    "track_id": "spotify:79EkGysjP2dL5GdpeQjRxT",
+    "canonical_key": "isrc:QMW9F1100003",
+    "title": "This Side of Paradise",
+    "artists": [
+      "Coyote Theory"
+    ],
+    "year": 2011,
+    "spotify_id": "79EkGysjP2dL5GdpeQjRxT",
+    "spotify_uri": null,
+    "isrc": "QMW9F1100003",
+    "musicbrainz_recording_id": "52f2b74f-27cb-47fb-89ce-6de40f3acfef",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 84,
+    "track_id": "spotify:0Xu6ZcuiQNRqtvvwOxm8y8",
+    "canonical_key": "mbid:edbe9533-a061-49be-b948-2591e17233ae",
+    "title": "6 Weeks",
+    "artists": [
+      "Beach Bunny"
+    ],
+    "year": 2018,
+    "spotify_id": "0Xu6ZcuiQNRqtvvwOxm8y8",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "edbe9533-a061-49be-b948-2591e17233ae",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 85,
+    "track_id": "spotify:68HocO7fx9z0MgDU0ZPHro",
+    "canonical_key": "isrc:USUM72114018",
+    "title": "Every Summertime",
+    "artists": [
+      "NIKI"
+    ],
+    "year": 2021,
+    "spotify_id": "68HocO7fx9z0MgDU0ZPHro",
+    "spotify_uri": null,
+    "isrc": "USUM72114018",
+    "musicbrainz_recording_id": "6af22228-ed15-4603-b093-2acbb6c4bc73",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 12
+  },
+  {
+    "row": 86,
+    "track_id": "spotify:1OOtq8tRnDM8kG2gqUPjAj",
+    "canonical_key": "isrc:USSM19902990",
+    "title": "Beat It",
+    "artists": [
+      "Michael Jackson"
+    ],
+    "year": 2008,
+    "spotify_id": "1OOtq8tRnDM8kG2gqUPjAj",
+    "spotify_uri": null,
+    "isrc": "USSM19902990",
+    "musicbrainz_recording_id": "de798de6-70fc-49f6-b580-339cd2e62052",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 87,
+    "track_id": "spotify:75JFxkI2RXiU7L9VXzMkle",
+    "canonical_key": "isrc:GBAYE0200772",
+    "title": "The Scientist",
+    "artists": [
+      "Coldplay"
+    ],
+    "year": 2002,
+    "spotify_id": "75JFxkI2RXiU7L9VXzMkle",
+    "spotify_uri": null,
+    "isrc": "GBAYE0200772",
+    "musicbrainz_recording_id": "a478f801-521b-40e7-8bb4-5faeffb1f3e4",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 88,
+    "track_id": "spotify:5TuTHrKzN6NweeQaKkBNb7",
+    "canonical_key": "isrc:SEYOK1669273",
+    "title": "Relax",
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2016,
+    "spotify_id": "5TuTHrKzN6NweeQaKkBNb7",
+    "spotify_uri": null,
+    "isrc": "SEYOK1669273",
+    "musicbrainz_recording_id": "2d0ad22d-b1b0-4bc3-b084-fb657f74d238",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 6
+  },
+  {
+    "row": 89,
+    "track_id": "spotify:2EQWbkcNoKPOXQtJM7nqRV",
+    "canonical_key": "isrc:GB01A0600033",
+    "title": "My Song",
+    "artists": [
+      "Labi Siffre"
+    ],
+    "year": 1972,
+    "spotify_id": "2EQWbkcNoKPOXQtJM7nqRV",
+    "spotify_uri": null,
+    "isrc": "GB01A0600033",
+    "musicbrainz_recording_id": "3ec819b7-533e-4da8-9355-05078bd1dd68",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 90,
+    "track_id": "spotify:2QzKAF0y1BQhxwg8N05Uog",
+    "canonical_key": "isrc:QMMZN1701310",
+    "title": "Watching Him Fade Away",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "2QzKAF0y1BQhxwg8N05Uog",
+    "spotify_uri": null,
+    "isrc": "QMMZN1701310",
+    "musicbrainz_recording_id": "e1908849-7f73-41b5-bbd3-da97f611dcdd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 91,
+    "track_id": "spotify:2MLHyLy5z5l5YRp7momlgw",
+    "canonical_key": "isrc:USIR10110358",
+    "title": "Island In The Sun",
+    "artists": [
+      "Weezer"
+    ],
+    "year": 2001,
+    "spotify_id": "2MLHyLy5z5l5YRp7momlgw",
+    "spotify_uri": null,
+    "isrc": "USIR10110358",
+    "musicbrainz_recording_id": "58044028-9a7e-4da6-9ca8-e5322a25d9a2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 92,
+    "track_id": "spotify:5M4yti0QxgqJieUYaEXcpw",
+    "canonical_key": "isrc:AUUM71500296",
+    "title": "Eventually",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "5M4yti0QxgqJieUYaEXcpw",
+    "spotify_uri": null,
+    "isrc": "AUUM71500296",
+    "musicbrainz_recording_id": "9db8c054-4379-4f1a-8b5e-5d6b1c2b0f3a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 93,
+    "track_id": "spotify:78j9wYboWAkB0UxVVq0X0H",
+    "canonical_key": "mbid:84cdff5c-2527-4719-b67b-c75b3ae29910",
+    "title": "Painkiller",
+    "artists": [
+      "Beach Bunny"
+    ],
+    "year": 2018,
+    "spotify_id": "78j9wYboWAkB0UxVVq0X0H",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "84cdff5c-2527-4719-b67b-c75b3ae29910",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 94,
+    "track_id": "spotify:1XrSjpNe49IiygZfzb74pk",
+    "canonical_key": "isrc:GBYEJ1100223",
+    "title": "What Once Was",
+    "artists": [
+      "Her's"
+    ],
+    "year": 2017,
+    "spotify_id": "1XrSjpNe49IiygZfzb74pk",
+    "spotify_uri": null,
+    "isrc": "GBYEJ1100223",
+    "musicbrainz_recording_id": "3605eba7-c5f4-4965-8378-042fdcce807b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 95,
+    "track_id": "spotify:2aaCNg42RA74s0EmHTBqS7",
+    "canonical_key": "isrc:QMMZN1300874",
+    "title": "No Other Heart",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2015,
+    "spotify_id": "2aaCNg42RA74s0EmHTBqS7",
+    "spotify_uri": null,
+    "isrc": "QMMZN1300874",
+    "musicbrainz_recording_id": "076116f8-833e-4e7f-b026-5e2f94044c46",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 96,
+    "track_id": "spotify:71WT6kvVYlGba71B65JrH4",
+    "canonical_key": "mbid:d067d585-b7c3-4da5-9724-75f5b6932c49",
+    "title": "Impossible",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "71WT6kvVYlGba71B65JrH4",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "d067d585-b7c3-4da5-9724-75f5b6932c49",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 97,
+    "track_id": "spotify:4BWJGWmzbjsnA94Weyi5j4",
+    "canonical_key": "mbid:2e787e38-7124-4ea4-b168-abecaccbe9de",
+    "title": "4am",
+    "artists": [
+      "girl in red"
+    ],
+    "year": 2018,
+    "spotify_id": "4BWJGWmzbjsnA94Weyi5j4",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "2e787e38-7124-4ea4-b168-abecaccbe9de",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 98,
+    "track_id": "spotify:3r2TFFPynN97CgmzXKal5X",
+    "canonical_key": "mbid:d1d0f07f-4acc-4573-99b7-30858b0947ec",
+    "title": "Closer To You",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "3r2TFFPynN97CgmzXKal5X",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "d1d0f07f-4acc-4573-99b7-30858b0947ec",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 99,
+    "track_id": "spotify:6UFivO2zqqPFPoQYsEMuCc",
+    "canonical_key": "mbid:df6a9c97-d226-404e-acf6-f2e074129134",
+    "title": "Bags",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "6UFivO2zqqPFPoQYsEMuCc",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "df6a9c97-d226-404e-acf6-f2e074129134",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 100,
+    "track_id": "spotify:27vN7hM1uXKgkjtSCwKkkb",
+    "canonical_key": "mbid:1508f10a-c099-428e-82c8-b8a7b22e5c9b",
+    "title": "Feel Something",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "27vN7hM1uXKgkjtSCwKkkb",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "1508f10a-c099-428e-82c8-b8a7b22e5c9b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 101,
+    "track_id": "spotify:6YTUGuz1IzqKFpNm0yGQws",
+    "canonical_key": "mbid:8b4cd3b7-ae53-43b4-8d6c-bc45efdb09ad",
+    "title": "I Wouldn't Ask You",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "6YTUGuz1IzqKFpNm0yGQws",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "8b4cd3b7-ae53-43b4-8d6c-bc45efdb09ad",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 102,
+    "track_id": "spotify:6wQXjA6KWbwPT3ydQCsJ4P",
+    "canonical_key": "isrc:USUG12101890",
+    "title": "Bambi",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2021,
+    "spotify_id": "6wQXjA6KWbwPT3ydQCsJ4P",
+    "spotify_uri": null,
+    "isrc": "USUG12101890",
+    "musicbrainz_recording_id": "cd514f3c-27b7-4176-9bbe-f563a382fdfa",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 103,
+    "track_id": "spotify:0HAqq2GcQKyi3s87GuN7jU",
+    "canonical_key": "isrc:USUG12101891",
+    "title": "Amoeba",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2021,
+    "spotify_id": "0HAqq2GcQKyi3s87GuN7jU",
+    "spotify_uri": null,
+    "isrc": "USUG12101891",
+    "musicbrainz_recording_id": "3438bc61-52ec-4a3b-b113-210f68e8205e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 104,
+    "track_id": "spotify:7brBeAX3RT0CMh3qbTBrIP",
+    "canonical_key": "isrc:USUG12101894",
+    "title": "Blouse",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2021,
+    "spotify_id": "7brBeAX3RT0CMh3qbTBrIP",
+    "spotify_uri": null,
+    "isrc": "USUG12101894",
+    "musicbrainz_recording_id": "8151e187-0308-4a03-8c3c-04e548d4d5e8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 105,
+    "track_id": "spotify:6VyCMQf7wZyZF4j9368HGK",
+    "canonical_key": "isrc:USUG12101895",
+    "title": "Wade",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2021,
+    "spotify_id": "6VyCMQf7wZyZF4j9368HGK",
+    "spotify_uri": null,
+    "isrc": "USUG12101895",
+    "musicbrainz_recording_id": "73203c72-47b0-4e3c-9f0d-8325c53f3827",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 106,
+    "track_id": "spotify:57VAuR1WgKFzcpO3ujQx9A",
+    "canonical_key": "isrc:USUG12101896",
+    "title": "Harbor",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2021,
+    "spotify_id": "57VAuR1WgKFzcpO3ujQx9A",
+    "spotify_uri": null,
+    "isrc": "USUG12101896",
+    "musicbrainz_recording_id": "cd092139-8985-435f-8bc6-810e074dc78e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 107,
+    "track_id": "spotify:6Qoz4HdYCIzQCmEd8ARYWP",
+    "canonical_key": "isrc:QMEZE1907827",
+    "title": "Sis",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "6Qoz4HdYCIzQCmEd8ARYWP",
+    "spotify_uri": null,
+    "isrc": "QMEZE1907827",
+    "musicbrainz_recording_id": "38276c91-b4ea-48d3-8a35-e59c0dac5a91",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 108,
+    "track_id": "spotify:2lO8mP1QvI7RizGcBYQ7Mx",
+    "canonical_key": "spotify:2lO8mP1QvI7RizGcBYQ7Mx",
+    "title": "How - demo",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2018,
+    "spotify_id": "2lO8mP1QvI7RizGcBYQ7Mx",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 109,
+    "track_id": "spotify:1F6IbA7di42uPc3cff8PXV",
+    "canonical_key": "mbid:72bfbde1-251d-4acb-9a1a-46a4ef584fa2",
+    "title": "Flaming Hot Cheetos",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2017,
+    "spotify_id": "1F6IbA7di42uPc3cff8PXV",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "72bfbde1-251d-4acb-9a1a-46a4ef584fa2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 110,
+    "track_id": "spotify:751srcHf5tUqcEa9pRCQwP",
+    "canonical_key": "isrc:QM24S1926168",
+    "title": "Tek It",
+    "artists": [
+      "Cafuné"
+    ],
+    "year": 2021,
+    "spotify_id": "751srcHf5tUqcEa9pRCQwP",
+    "spotify_uri": null,
+    "isrc": "QM24S1926168",
+    "musicbrainz_recording_id": "5b12e50e-d64f-4d69-8521-fdfdee2cb7fb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 111,
+    "track_id": "spotify:7qwt4xUIqQWCu1DJf96g2k",
+    "canonical_key": "mbid:b812e9d2-c346-4fb3-a405-aea4d76f9186",
+    "title": "Hello?",
+    "artists": [
+      "Clairo",
+      "Rejjie Snow"
+    ],
+    "year": 2018,
+    "spotify_id": "7qwt4xUIqQWCu1DJf96g2k",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "b812e9d2-c346-4fb3-a405-aea4d76f9186",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 112,
+    "track_id": "spotify:7l94AyvXRwnQgKccUU3PRN",
+    "canonical_key": "mbid:4bee644f-b4cf-4b01-b1cb-32a4a0b73620",
+    "title": "April",
+    "artists": [
+      "Beach Bunny"
+    ],
+    "year": 2020,
+    "spotify_id": "7l94AyvXRwnQgKccUU3PRN",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "4bee644f-b4cf-4b01-b1cb-32a4a0b73620",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 113,
+    "track_id": "spotify:56KPaXhRx8U6YB2stCJEgY",
+    "canonical_key": "isrc:QMMZN1200052",
+    "title": "The Stars Keep On Calling My Name",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2012,
+    "spotify_id": "56KPaXhRx8U6YB2stCJEgY",
+    "spotify_uri": null,
+    "isrc": "QMMZN1200052",
+    "musicbrainz_recording_id": "ab27559d-f24d-4d3e-8a01-b6189024731f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 114,
+    "track_id": "spotify:4RvWPyQ5RL0ao9LPZeSouE",
+    "canonical_key": "isrc:GBF088590110",
+    "title": "Everybody Wants To Rule The World",
+    "artists": [
+      "Tears For Fears"
+    ],
+    "year": 1985,
+    "spotify_id": "4RvWPyQ5RL0ao9LPZeSouE",
+    "spotify_uri": null,
+    "isrc": "GBF088590110",
+    "musicbrainz_recording_id": "e4b347be-ecb2-44ff-aaa8-3d4c517d7ea5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 115,
+    "track_id": "spotify:4aR9bPMAOFySBuQSbVWF3d",
+    "canonical_key": "isrc:GBAYE0600634",
+    "title": "Smile",
+    "artists": [
+      "Lily Allen"
+    ],
+    "year": 2006,
+    "spotify_id": "4aR9bPMAOFySBuQSbVWF3d",
+    "spotify_uri": null,
+    "isrc": "GBAYE0600634",
+    "musicbrainz_recording_id": "10cfdacf-53c3-4662-b216-62046e318f6e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 116,
+    "track_id": "spotify:2IwL0fwckPbO9sau1EHslH",
+    "canonical_key": "isrc:USA4D0922204",
+    "title": "Acting",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "2IwL0fwckPbO9sau1EHslH",
+    "spotify_uri": null,
+    "isrc": "USA4D0922204",
+    "musicbrainz_recording_id": "10cbef83-c00a-46a8-8a1a-b79dee49d912",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 117,
+    "track_id": "spotify:4sNG6zQBmtq7M8aeeKJRMQ",
+    "canonical_key": "isrc:GBARL1500856",
+    "title": "Brazil",
+    "artists": [
+      "Declan McKenna"
+    ],
+    "year": 2017,
+    "spotify_id": "4sNG6zQBmtq7M8aeeKJRMQ",
+    "spotify_uri": null,
+    "isrc": "GBARL1500856",
+    "musicbrainz_recording_id": "cf1a1949-9c4c-4500-9958-4d7589cf2827",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 118,
+    "track_id": "spotify:5CM4UuQ9Gnd6K2YyKGPMoK",
+    "canonical_key": "isrc:USRC12201440",
+    "title": "Bad Habit",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2022,
+    "spotify_id": "5CM4UuQ9Gnd6K2YyKGPMoK",
+    "spotify_uri": null,
+    "isrc": "USRC12201440",
+    "musicbrainz_recording_id": "1abdf128-2f80-457c-8da0-e554e8e3b534",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 6
+  },
+  {
+    "row": 119,
+    "track_id": "spotify:4OmfWzukSVD140NiAIEjem",
+    "canonical_key": "isrc:USRC12202285",
+    "title": "Static",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2022,
+    "spotify_id": "4OmfWzukSVD140NiAIEjem",
+    "spotify_uri": null,
+    "isrc": "USRC12202285",
+    "musicbrainz_recording_id": "4f59eb16-913b-4659-b509-0c3cf9e518bb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 120,
+    "track_id": "spotify:6uVZddXkgQIArp8myEHs4x",
+    "canonical_key": "isrc:USRC12201526",
+    "title": "Mercury",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2022,
+    "spotify_id": "6uVZddXkgQIArp8myEHs4x",
+    "spotify_uri": null,
+    "isrc": "USRC12201526",
+    "musicbrainz_recording_id": "a6369ecb-d0fa-456d-aa47-2fa50af70a9c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 121,
+    "track_id": "spotify:2kk2trjT2JXhEHtCnz9FWA",
+    "canonical_key": "isrc:USRC12202289",
+    "title": "Cody Freestyle",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2022,
+    "spotify_id": "2kk2trjT2JXhEHtCnz9FWA",
+    "spotify_uri": null,
+    "isrc": "USRC12202289",
+    "musicbrainz_recording_id": "2393327c-92f0-475a-a047-0589cd2e8523",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 122,
+    "track_id": "spotify:2RwOqicYzwMSuzKzHx78jm",
+    "canonical_key": "isrc:QMMZN1701299",
+    "title": "This Old Dog",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "2RwOqicYzwMSuzKzHx78jm",
+    "spotify_uri": null,
+    "isrc": "QMMZN1701299",
+    "musicbrainz_recording_id": "679912fd-7b4f-4f23-a888-f073f53262b8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 123,
+    "track_id": "spotify:6IvKEu4YwRYba9ZG6H7MIL",
+    "canonical_key": "isrc:QMMZN1701300",
+    "title": "Baby You're Out",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "6IvKEu4YwRYba9ZG6H7MIL",
+    "spotify_uri": null,
+    "isrc": "QMMZN1701300",
+    "musicbrainz_recording_id": "abad6ba8-c0f7-43a5-9086-73986f54a6b5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 124,
+    "track_id": "spotify:5gC8P6NwgqxcTYnwml5q5j",
+    "canonical_key": "isrc:QMMZN1701302",
+    "title": "One Another",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "5gC8P6NwgqxcTYnwml5q5j",
+    "spotify_uri": null,
+    "isrc": "QMMZN1701302",
+    "musicbrainz_recording_id": "f36d8c66-b2e5-4b89-8282-f2ccde62c85b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 125,
+    "track_id": "spotify:5Bc2A2xlkRhe3POKAFo1Rg",
+    "canonical_key": "isrc:QMMZN1701306",
+    "title": "A Wolf Who Wears Sheeps Clothes",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": "5Bc2A2xlkRhe3POKAFo1Rg",
+    "spotify_uri": null,
+    "isrc": "QMMZN1701306",
+    "musicbrainz_recording_id": "8d68716c-261c-4445-9646-1f3b0320c90e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 126,
+    "track_id": "spotify:7KtxHirt0UpK7NQE0aG8L6",
+    "canonical_key": "mbid:f3e6ed34-7af7-45fe-b337-7573a7b2452f",
+    "title": "Bowlly Goes Dancing Drunk into the Future",
+    "artists": [
+      "Loving"
+    ],
+    "year": 2016,
+    "spotify_id": "7KtxHirt0UpK7NQE0aG8L6",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f3e6ed34-7af7-45fe-b337-7573a7b2452f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 127,
+    "track_id": "spotify:61hJR9hOxwSsHroSPfQ0bo",
+    "canonical_key": "mbid:e2b7c7fa-83b6-44a4-892a-15829ad9a3a9",
+    "title": "Sh-Boom (Life Could Be A Dream)",
+    "artists": [
+      "The Chords"
+    ],
+    "year": 2010,
+    "spotify_id": "61hJR9hOxwSsHroSPfQ0bo",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "e2b7c7fa-83b6-44a4-892a-15829ad9a3a9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 128,
+    "track_id": "spotify:01TyFEZu6mHbffsVfxgrFn",
+    "canonical_key": "mbid:fc9e7e92-b582-431a-a20d-dc4bcfd156b2",
+    "title": "Show Me How",
+    "artists": [
+      "Men I Trust"
+    ],
+    "year": 2018,
+    "spotify_id": "01TyFEZu6mHbffsVfxgrFn",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "fc9e7e92-b582-431a-a20d-dc4bcfd156b2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 129,
+    "track_id": "spotify:4riDfclV7kPDT9D58FpmHd",
+    "canonical_key": "isrc:TCACT1617859",
+    "title": "Some",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2016,
+    "spotify_id": "4riDfclV7kPDT9D58FpmHd",
+    "spotify_uri": null,
+    "isrc": "TCACT1617859",
+    "musicbrainz_recording_id": "d3d1a743-a512-49c7-b38d-0610c3433a39",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 130,
+    "track_id": "spotify:4jDmJ51x1o9NZB5Nxxc7gY",
+    "canonical_key": "mbid:a189f10c-87de-4fab-bae5-d39ba37176c9",
+    "title": "Careless Whisper",
+    "artists": [
+      "George Michael"
+    ],
+    "year": 1998,
+    "spotify_id": "4jDmJ51x1o9NZB5Nxxc7gY",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "a189f10c-87de-4fab-bae5-d39ba37176c9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 131,
+    "track_id": "spotify:16GUMo6u3D2qo9a19AkYct",
+    "canonical_key": "isrc:USSM17700369",
+    "title": "Movin' Out (Anthony's Song)",
+    "artists": [
+      "Billy Joel"
+    ],
+    "year": 1977,
+    "spotify_id": "16GUMo6u3D2qo9a19AkYct",
+    "spotify_uri": null,
+    "isrc": "USSM17700369",
+    "musicbrainz_recording_id": "2e31e4c7-8670-4470-b667-a27f78229126",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 132,
+    "track_id": "spotify:40riOy7x9W7GXjyGp4pjAv",
+    "canonical_key": "isrc:USEE11300353",
+    "title": "Hotel California - 2013 Remaster",
+    "artists": [
+      "Eagles"
+    ],
+    "year": 1976,
+    "spotify_id": "40riOy7x9W7GXjyGp4pjAv",
+    "spotify_uri": null,
+    "isrc": "USEE11300353",
+    "musicbrainz_recording_id": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 133,
+    "track_id": "spotify:2AYEOC02WLhUiOoaig2SEH",
+    "canonical_key": "isrc:USAT21300149",
+    "title": "Out of My League",
+    "artists": [
+      "Fitz and The Tantrums"
+    ],
+    "year": 2013,
+    "spotify_id": "2AYEOC02WLhUiOoaig2SEH",
+    "spotify_uri": null,
+    "isrc": "USAT21300149",
+    "musicbrainz_recording_id": "a4fd6c50-4b1e-48e5-8139-9da17b20fa18",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 134,
+    "track_id": "spotify:42qNWdLKCI41S4uzfamhFM",
+    "canonical_key": "isrc:USCGJ0659337",
+    "title": "Duvet",
+    "artists": [
+      "bôa"
+    ],
+    "year": 2001,
+    "spotify_id": "42qNWdLKCI41S4uzfamhFM",
+    "spotify_uri": null,
+    "isrc": "USCGJ0659337",
+    "musicbrainz_recording_id": "f4d36326-da1b-4b43-af19-7113c2adb92d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 135,
+    "track_id": "spotify:1OKkG3vxEuBBwLw1gCqdNW",
+    "canonical_key": "isrc:USA4D0313602",
+    "title": "Dsco",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2003,
+    "spotify_id": "1OKkG3vxEuBBwLw1gCqdNW",
+    "spotify_uri": null,
+    "isrc": "USA4D0313602",
+    "musicbrainz_recording_id": "8ef5deae-63c6-487f-bca9-ba3e34d4dded",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 136,
+    "track_id": "spotify:4U5TPHqsmvVzc8CCZPLfzg",
+    "canonical_key": "mbid:380f29ee-3df8-4fc9-9cd7-b2688f118261",
+    "title": "Soulless Friends",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "4U5TPHqsmvVzc8CCZPLfzg",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "380f29ee-3df8-4fc9-9cd7-b2688f118261",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 137,
+    "track_id": "spotify:024nqC9O76nvAuIWtQGdQy",
+    "canonical_key": "mbid:b7b3dde7-c246-4add-9300-f6e25b1365cf",
+    "title": "Memory Box",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "024nqC9O76nvAuIWtQGdQy",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "b7b3dde7-c246-4add-9300-f6e25b1365cf",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 138,
+    "track_id": "spotify:3koAwrM1RO0TGMeQJ3qt9J",
+    "canonical_key": "isrc:AUDJ01801775",
+    "title": "$10",
+    "artists": [
+      "Good Morning"
+    ],
+    "year": 2018,
+    "spotify_id": "3koAwrM1RO0TGMeQJ3qt9J",
+    "spotify_uri": null,
+    "isrc": "AUDJ01801775",
+    "musicbrainz_recording_id": "e5aedf96-0e6c-4e86-917a-b10cc008adb2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 139,
+    "track_id": "spotify:09RamrocZneYcLYLRIxYha",
+    "canonical_key": "isrc:TCAFE2075120",
+    "title": "Steeeam",
+    "artists": [
+      "Shelly"
+    ],
+    "year": 2020,
+    "spotify_id": "09RamrocZneYcLYLRIxYha",
+    "spotify_uri": null,
+    "isrc": "TCAFE2075120",
+    "musicbrainz_recording_id": "b052da4b-23a7-4515-b5c2-9782624ea8b5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 140,
+    "track_id": "spotify:4z9KVNX4hmk672SJfhtQNz",
+    "canonical_key": "isrc:TCADT1853143",
+    "title": "F Song",
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2018,
+    "spotify_id": "4z9KVNX4hmk672SJfhtQNz",
+    "spotify_uri": null,
+    "isrc": "TCADT1853143",
+    "musicbrainz_recording_id": "cb83e163-b8e3-4de7-bce5-4dc8290a24da",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 141,
+    "track_id": "spotify:6s1HDGKsQJUi1kelHkXkXr",
+    "canonical_key": "isrc:TCADF1755213",
+    "title": "Shin Bruise",
+    "artists": [
+      "Petite League"
+    ],
+    "year": 2017,
+    "spotify_id": "6s1HDGKsQJUi1kelHkXkXr",
+    "spotify_uri": null,
+    "isrc": "TCADF1755213",
+    "musicbrainz_recording_id": "a2f90321-1347-4cdc-b938-91ef06b51042",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 142,
+    "track_id": "spotify:2TeYAizye4GlmzQq5zyf91",
+    "canonical_key": "isrc:USDY41739832",
+    "title": "The Physical Attractions",
+    "artists": [
+      "The Symposium"
+    ],
+    "year": 2017,
+    "spotify_id": "2TeYAizye4GlmzQq5zyf91",
+    "spotify_uri": null,
+    "isrc": "USDY41739832",
+    "musicbrainz_recording_id": "a030a5f8-b065-4aae-a4b0-e0eb6213f4a6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 143,
+    "track_id": "spotify:0tMMPZEt6Gyrl9FI8zSicm",
+    "canonical_key": "isrc:GBK3W2302605",
+    "title": "Glue Song (feat. Clairo)",
+    "artists": [
+      "beabadoobee",
+      "Clairo"
+    ],
+    "year": 2023,
+    "spotify_id": "0tMMPZEt6Gyrl9FI8zSicm",
+    "spotify_uri": null,
+    "isrc": "GBK3W2302605",
+    "musicbrainz_recording_id": "42cd7ca9-ee58-42cb-aa53-570afd2a83fb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 144,
+    "track_id": "spotify:3wgx6kB0t5yTPcB7UP3p9b",
+    "canonical_key": "mbid:c62eb2c3-2e76-44be-8214-322e5c792b23",
+    "title": "Love Demons",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2018,
+    "spotify_id": "3wgx6kB0t5yTPcB7UP3p9b",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "c62eb2c3-2e76-44be-8214-322e5c792b23",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 145,
+    "track_id": "spotify:0tpaTQ94O5G2lEhv9CuEFb",
+    "canonical_key": "mbid:6e9f2583-558e-4c92-80c1-df369a15b4cc",
+    "title": "Portrait of a Time",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2018,
+    "spotify_id": "0tpaTQ94O5G2lEhv9CuEFb",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "6e9f2583-558e-4c92-80c1-df369a15b4cc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 146,
+    "track_id": "spotify:1S6KJTy3m5AstQXJSdGsLT",
+    "canonical_key": "mbid:aa8ec299-4953-4bb4-a6f9-1f29c165f1bd",
+    "title": "Happiness",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2018,
+    "spotify_id": "1S6KJTy3m5AstQXJSdGsLT",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "aa8ec299-4953-4bb4-a6f9-1f29c165f1bd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 147,
+    "track_id": "spotify:556jf0hyPQuLNHuNWo12I5",
+    "canonical_key": "mbid:f6785460-0b6c-48da-95c6-d4b9f2a74db4",
+    "title": "Floated By",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "556jf0hyPQuLNHuNWo12I5",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f6785460-0b6c-48da-95c6-d4b9f2a74db4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 148,
+    "track_id": "spotify:76H0NUgrzR4h2R6wMT2LyI",
+    "canonical_key": "mbid:09425f33-5824-4aed-bea8-f3c84bd4ed31",
+    "title": "Freezing",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "76H0NUgrzR4h2R6wMT2LyI",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "09425f33-5824-4aed-bea8-f3c84bd4ed31",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 149,
+    "track_id": "spotify:35592qATAP1u72mO9oelLc",
+    "canonical_key": "mbid:01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4",
+    "title": "Where the Money Flows",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "35592qATAP1u72mO9oelLc",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 150,
+    "track_id": "spotify:5VgoYN2PNwcRIbxCzmeri0",
+    "canonical_key": "mbid:58c11557-89f5-4c12-b13f-9f9c4d37f309",
+    "title": "Heera",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "5VgoYN2PNwcRIbxCzmeri0",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "58c11557-89f5-4c12-b13f-9f9c4d37f309",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 151,
+    "track_id": "spotify:3FG44adkUaqTJr8N8ObzxV",
+    "canonical_key": "mbid:9235495c-bd82-4d2a-ae59-2921ec0d35b4",
+    "title": "Vishnu <3",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "3FG44adkUaqTJr8N8ObzxV",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "9235495c-bd82-4d2a-ae59-2921ec0d35b4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 152,
+    "track_id": "spotify:3gZDr9N1bjaHcflabeR7J8",
+    "canonical_key": "mbid:4526a024-0c89-48bd-a9ba-220239be77f4",
+    "title": "I'm This",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "3gZDr9N1bjaHcflabeR7J8",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "4526a024-0c89-48bd-a9ba-220239be77f4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 153,
+    "track_id": "spotify:3TsnTyxNFVGg6NSBQE5ZkX",
+    "canonical_key": "mbid:ee9d2cc0-0079-45b6-b9f3-51f9c9165103",
+    "title": "Flies",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2018,
+    "spotify_id": "3TsnTyxNFVGg6NSBQE5ZkX",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "ee9d2cc0-0079-45b6-b9f3-51f9c9165103",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 154,
+    "track_id": "spotify:29KwH2LEjfWEtiC2jCrLVw",
+    "canonical_key": "isrc:ITF730701379",
+    "title": "Amore mio aiutami - Main Theme",
+    "artists": [
+      "Piero Piccioni"
+    ],
+    "year": 1969,
+    "spotify_id": "29KwH2LEjfWEtiC2jCrLVw",
+    "spotify_uri": null,
+    "isrc": "ITF730701379",
+    "musicbrainz_recording_id": "d57cd3d3-832c-42de-9d8b-410e58ceb04a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 155,
+    "track_id": "spotify:08vlprFBmwh9TQnjXUtZDG",
+    "canonical_key": "isrc:USUM72300085",
+    "title": "FAMJAM4000",
+    "artists": [
+      "Jordan Ward"
+    ],
+    "year": 2023,
+    "spotify_id": "08vlprFBmwh9TQnjXUtZDG",
+    "spotify_uri": null,
+    "isrc": "USUM72300085",
+    "musicbrainz_recording_id": "636247ca-0043-4608-9708-07abbe9057dc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 156,
+    "track_id": "spotify:3kQfBtkQqgN1fAMfhks8TU",
+    "canonical_key": "mbid:94773b1a-a57c-4a15-b30c-f809c8f3602e",
+    "title": "Need 2",
+    "artists": [
+      "Pinegrove"
+    ],
+    "year": 2015,
+    "spotify_id": "3kQfBtkQqgN1fAMfhks8TU",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "94773b1a-a57c-4a15-b30c-f809c8f3602e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 157,
+    "track_id": "spotify:753iehfOnYSmjVfjx20znR",
+    "canonical_key": "isrc:QMDA62312088",
+    "title": "While You Were Sleeping",
+    "artists": [
+      "Laufey"
+    ],
+    "year": 2023,
+    "spotify_id": "753iehfOnYSmjVfjx20znR",
+    "spotify_uri": null,
+    "isrc": "QMDA62312088",
+    "musicbrainz_recording_id": "8abe1e2a-7467-4dc2-9c2c-dfd6c7dc9b42",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 158,
+    "track_id": "spotify:754kgU5rWscRTfvlsuEwFp",
+    "canonical_key": "isrc:USEE19900312",
+    "title": "Kiss Me",
+    "artists": [
+      "Sixpence None The Richer"
+    ],
+    "year": 1997,
+    "spotify_id": "754kgU5rWscRTfvlsuEwFp",
+    "spotify_uri": null,
+    "isrc": "USEE19900312",
+    "musicbrainz_recording_id": "c4cb7174-97d0-4fae-8ee8-8486b4a5c930",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 159,
+    "track_id": "spotify:5WbfFTuIldjL9x7W6y5l7R",
+    "canonical_key": "isrc:US38W1837601",
+    "title": "Kingston",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2019,
+    "spotify_id": "5WbfFTuIldjL9x7W6y5l7R",
+    "spotify_uri": null,
+    "isrc": "US38W1837601",
+    "musicbrainz_recording_id": "2c5148ad-02ce-45a1-85fd-ebd5271f9c52",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 160,
+    "track_id": "spotify:3vkCueOmm7xQDoJ17W1Pm3",
+    "canonical_key": "isrc:USJ5G2335007",
+    "title": "My Love Mine All Mine",
+    "artists": [
+      "Mitski"
+    ],
+    "year": 2023,
+    "spotify_id": "3vkCueOmm7xQDoJ17W1Pm3",
+    "spotify_uri": null,
+    "isrc": "USJ5G2335007",
+    "musicbrainz_recording_id": "8f667b90-a2a4-46ea-8806-e957ea78c7bd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 161,
+    "track_id": "spotify:1zFbBrZmJr1Z49HYe84dBg",
+    "canonical_key": "isrc:GBYEJ1800003",
+    "title": "Harvey",
+    "artists": [
+      "Her's"
+    ],
+    "year": 2018,
+    "spotify_id": "1zFbBrZmJr1Z49HYe84dBg",
+    "spotify_uri": null,
+    "isrc": "GBYEJ1800003",
+    "musicbrainz_recording_id": "e2628bf0-da68-48c3-b289-22ed474a08ba",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 162,
+    "track_id": "spotify:1TQuqiFxqnVeez9OMq3emB",
+    "canonical_key": "isrc:SEYOK1669271",
+    "title": "Home",
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2016,
+    "spotify_id": "1TQuqiFxqnVeez9OMq3emB",
+    "spotify_uri": null,
+    "isrc": "SEYOK1669271",
+    "musicbrainz_recording_id": "276dd589-30af-44ed-b508-206bd3c11a51",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 163,
+    "track_id": "spotify:0qOCy2LqvdkMora7eZsJhQ",
+    "canonical_key": "isrc:QZCE61802033",
+    "title": "From the Subway Train",
+    "artists": [
+      "Vansire"
+    ],
+    "year": 2018,
+    "spotify_id": "0qOCy2LqvdkMora7eZsJhQ",
+    "spotify_uri": null,
+    "isrc": "QZCE61802033",
+    "musicbrainz_recording_id": "d6396aee-0081-4008-9d85-1026537b2e9f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 164,
+    "track_id": "spotify:5u9cuDcYdOpSRB7fAYXXdp",
+    "canonical_key": "isrc:GBYEJ1100253",
+    "title": "Marcel",
+    "artists": [
+      "Her's"
+    ],
+    "year": 2017,
+    "spotify_id": "5u9cuDcYdOpSRB7fAYXXdp",
+    "spotify_uri": null,
+    "isrc": "GBYEJ1100253",
+    "musicbrainz_recording_id": "53e7860c-04ab-4e8c-830d-520a1981e5fe",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 165,
+    "track_id": "spotify:5hS8s1Vf4CeSRBT1bTWa39",
+    "canonical_key": "isrc:GBKPL1959394",
+    "title": "Roddy",
+    "artists": [
+      "Djo"
+    ],
+    "year": 2019,
+    "spotify_id": "5hS8s1Vf4CeSRBT1bTWa39",
+    "spotify_uri": null,
+    "isrc": "GBKPL1959394",
+    "musicbrainz_recording_id": "d22dd184-3f74-4b77-931a-caf19b042a1d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 166,
+    "track_id": "spotify:3VIJBrMpvimHEw5wtPh2wB",
+    "canonical_key": "isrc:GBUM71105426",
+    "title": "Money",
+    "artists": [
+      "The Drums"
+    ],
+    "year": 2011,
+    "spotify_id": "3VIJBrMpvimHEw5wtPh2wB",
+    "spotify_uri": null,
+    "isrc": "GBUM71105426",
+    "musicbrainz_recording_id": "a4fc3d78-6520-4663-82bd-10393bb0af2b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 167,
+    "track_id": "spotify:16gJmoOqRt2lKmlXtDpWgH",
+    "canonical_key": "isrc:QZDA71858168",
+    "title": "Cariño",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2018,
+    "spotify_id": "16gJmoOqRt2lKmlXtDpWgH",
+    "spotify_uri": null,
+    "isrc": "QZDA71858168",
+    "musicbrainz_recording_id": "c55840a9-cb74-440c-b5b3-ca801b166528",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 168,
+    "track_id": "spotify:3cxZT78mZDyLsLPJKcTu3U",
+    "canonical_key": "isrc:US38W1937602",
+    "title": "Right Side of My Neck",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2019,
+    "spotify_id": "3cxZT78mZDyLsLPJKcTu3U",
+    "spotify_uri": null,
+    "isrc": "US38W1937602",
+    "musicbrainz_recording_id": "c17c99b4-8773-4d6b-9360-d9cfb7a133d4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 169,
+    "track_id": "spotify:2P5yIMu2DNeMXTyOANKS6k",
+    "canonical_key": "isrc:USJ5G1815009",
+    "title": "Nobody",
+    "artists": [
+      "Mitski"
+    ],
+    "year": 2018,
+    "spotify_id": "2P5yIMu2DNeMXTyOANKS6k",
+    "spotify_uri": null,
+    "isrc": "USJ5G1815009",
+    "musicbrainz_recording_id": "e77b161d-664d-413e-bd04-f0a8ac205735",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 170,
+    "track_id": "spotify:5euumi7eqEgmxvCIJw2pSp",
+    "canonical_key": "isrc:TCADU1861897",
+    "title": "Hot Rod",
+    "artists": [
+      "Dayglow"
+    ],
+    "year": 2019,
+    "spotify_id": "5euumi7eqEgmxvCIJw2pSp",
+    "spotify_uri": null,
+    "isrc": "TCADU1861897",
+    "musicbrainz_recording_id": "542ab58b-1053-4d9e-944e-20bf63d39481",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 171,
+    "track_id": "spotify:3vjs2MDHoF9xhylNg6Y9un",
+    "canonical_key": "isrc:GBKPL1959342",
+    "title": "Chateau (Feel Alright)",
+    "artists": [
+      "Djo"
+    ],
+    "year": 2019,
+    "spotify_id": "3vjs2MDHoF9xhylNg6Y9un",
+    "spotify_uri": null,
+    "isrc": "GBKPL1959342",
+    "musicbrainz_recording_id": "00debd1b-c1e9-4d7f-8219-df83e2868231",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 172,
+    "track_id": "spotify:2X485T9Z5Ly0xyaghN73ed",
+    "canonical_key": "isrc:AUUM71500292",
+    "title": "Let It Happen",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "2X485T9Z5Ly0xyaghN73ed",
+    "spotify_uri": null,
+    "isrc": "AUUM71500292",
+    "musicbrainz_recording_id": "b85f7f6d-813a-4ebc-8a1d-5998ab02be9a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 173,
+    "track_id": "spotify:5xA5MggKc3aQxuOzNzPUWB",
+    "canonical_key": "isrc:GBK3W1901010",
+    "title": "Apple Cider",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2019,
+    "spotify_id": "5xA5MggKc3aQxuOzNzPUWB",
+    "spotify_uri": null,
+    "isrc": "GBK3W1901010",
+    "musicbrainz_recording_id": "d0e81ecb-eb4e-4b4f-b20e-d1f7c3bf330f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 174,
+    "track_id": "spotify:180AbZduI6bYQIzwCHRwu9",
+    "canonical_key": "isrc:GBK3W2302799",
+    "title": "A Night To Remember",
+    "artists": [
+      "beabadoobee",
+      "Laufey"
+    ],
+    "year": 2023,
+    "spotify_id": "180AbZduI6bYQIzwCHRwu9",
+    "spotify_uri": null,
+    "isrc": "GBK3W2302799",
+    "musicbrainz_recording_id": "0ce783dd-9777-4f1d-a8c8-3782737ef4fa",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 175,
+    "track_id": "spotify:6QeYSvYqYUsfBzsApbjDHO",
+    "canonical_key": "isrc:USCGH1682129",
+    "title": "Cigarettes out the Window",
+    "artists": [
+      "TV Girl"
+    ],
+    "year": 2016,
+    "spotify_id": "6QeYSvYqYUsfBzsApbjDHO",
+    "spotify_uri": null,
+    "isrc": "USCGH1682129",
+    "musicbrainz_recording_id": "b589b70d-e156-4276-9c15-55b9398d4a0f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 11
+  },
+  {
+    "row": 176,
+    "track_id": "spotify:41P6Tnd8KIHqON0QIydx6a",
+    "canonical_key": "isrc:GBK3W2202093",
+    "title": "the perfect pair",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "41P6Tnd8KIHqON0QIydx6a",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202093",
+    "musicbrainz_recording_id": "b503cb6f-ef3b-4e5e-8237-37f22810f484",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 177,
+    "track_id": "spotify:0gEyKnHvgkrkBM6fbeHdwK",
+    "canonical_key": "isrc:USIR29300085",
+    "title": "Linger",
+    "artists": [
+      "The Cranberries"
+    ],
+    "year": 1993,
+    "spotify_id": "0gEyKnHvgkrkBM6fbeHdwK",
+    "spotify_uri": null,
+    "isrc": "USIR29300085",
+    "musicbrainz_recording_id": "0fc49846-ef9f-4ecc-a5b6-f8cabb9e992a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 178,
+    "track_id": "spotify:12UQIJePnGeLmpVReYpG2w",
+    "canonical_key": "isrc:GBK3W2202090",
+    "title": "Sunny day",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "12UQIJePnGeLmpVReYpG2w",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202090",
+    "musicbrainz_recording_id": "669eb7e5-69df-4d76-8fc0-306bb1e4d6d4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 179,
+    "track_id": "spotify:7aX39T4YHNZ03NAmjc3DLr",
+    "canonical_key": "isrc:US38W2349104",
+    "title": "Thinking About You",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2024,
+    "spotify_id": "7aX39T4YHNZ03NAmjc3DLr",
+    "spotify_uri": null,
+    "isrc": "US38W2349104",
+    "musicbrainz_recording_id": "e6613a11-58b4-44ba-941c-6a0e9e8f6e1f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 180,
+    "track_id": "spotify:78nMVqRwap5hysPgnziW4u",
+    "canonical_key": "isrc:US38W2349101",
+    "title": "But Not Kiss",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2024,
+    "spotify_id": "78nMVqRwap5hysPgnziW4u",
+    "spotify_uri": null,
+    "isrc": "US38W2349101",
+    "musicbrainz_recording_id": "4dfca251-8d87-44c5-b4f1-2902f1a3654b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 181,
+    "track_id": "spotify:2WjEUnzuDhwlFpp9epgtrW",
+    "canonical_key": "isrc:US38W2349110",
+    "title": "Underdressed at the Symphony",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2024,
+    "spotify_id": "2WjEUnzuDhwlFpp9epgtrW",
+    "spotify_uri": null,
+    "isrc": "US38W2349110",
+    "musicbrainz_recording_id": "57dc019a-b8fd-4f2a-9903-3a42c85f5925",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 182,
+    "track_id": "spotify:6TPTnROcnJQXuAyRDw2qfu",
+    "canonical_key": "isrc:US38W1937601",
+    "title": "Room Temperature",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2019,
+    "spotify_id": "6TPTnROcnJQXuAyRDw2qfu",
+    "spotify_uri": null,
+    "isrc": "US38W1937601",
+    "musicbrainz_recording_id": "2814d685-99ce-450d-974f-0b4a250702f1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 183,
+    "track_id": "spotify:0uphGVj1uIticJK6gb2WnO",
+    "canonical_key": "isrc:US38W1937603",
+    "title": "Hurts Me Too",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2019,
+    "spotify_id": "0uphGVj1uIticJK6gb2WnO",
+    "spotify_uri": null,
+    "isrc": "US38W1937603",
+    "musicbrainz_recording_id": "8b28c85a-c013-4f07-b30a-10381623da74",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 184,
+    "track_id": "spotify:7ddVpLW467CLYffbPRQNmH",
+    "canonical_key": "mbid:6f38f11f-244c-47f6-bfae-2f1b878059c6",
+    "title": "Take A Bite",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "7ddVpLW467CLYffbPRQNmH",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "6f38f11f-244c-47f6-bfae-2f1b878059c6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 185,
+    "track_id": "spotify:0H4pujSjMdyZzOLljAH1CC",
+    "canonical_key": "spotify:0H4pujSjMdyZzOLljAH1CC",
+    "title": "spin u round (slowed)",
+    "artists": [
+      "Nafeesisboujee",
+      "kkanji"
+    ],
+    "year": 2024,
+    "spotify_id": "0H4pujSjMdyZzOLljAH1CC",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 186,
+    "track_id": "spotify:2Nq4SFbvYYZa8AF7lD7CWU",
+    "canonical_key": "isrc:USA2P2416224",
+    "title": "Sexy to Someone",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "2Nq4SFbvYYZa8AF7lD7CWU",
+    "spotify_uri": null,
+    "isrc": "USA2P2416224",
+    "musicbrainz_recording_id": "4b4e3304-8655-4e2e-a91c-192a0f486134",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 187,
+    "track_id": "spotify:7qGnlI5MrFAs3OHU1E7Wpa",
+    "canonical_key": "mbid:f0b167f5-1456-4d8f-8216-532e30617c37",
+    "title": "Coming Home",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "7qGnlI5MrFAs3OHU1E7Wpa",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f0b167f5-1456-4d8f-8216-532e30617c37",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 188,
+    "track_id": "spotify:71BWZa1liIRyUiuJ3MB66o",
+    "canonical_key": "isrc:QZ5VZ1600004",
+    "title": "I Know You",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2017,
+    "spotify_id": "71BWZa1liIRyUiuJ3MB66o",
+    "spotify_uri": null,
+    "isrc": "QZ5VZ1600004",
+    "musicbrainz_recording_id": "4492acaf-d7ea-4eb1-8a0d-5b9262444c9a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 189,
+    "track_id": "spotify:0P4OHmZ7t092na79ElH7F5",
+    "canonical_key": "isrc:GBK3W2202089",
+    "title": "10:36",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "0P4OHmZ7t092na79ElH7F5",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202089",
+    "musicbrainz_recording_id": "48ce8aef-86ce-4b69-a77b-5552c8841d3f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 190,
+    "track_id": "spotify:4tf04WrZTy60CawyvueIdK",
+    "canonical_key": "isrc:GBK3W2202095",
+    "title": "Talk",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "4tf04WrZTy60CawyvueIdK",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202095",
+    "musicbrainz_recording_id": "a81dfe54-1ff4-4862-bb96-034843b58da2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 191,
+    "track_id": "spotify:3SeDS5sSoWnwAZvVgkdKzf",
+    "canonical_key": "isrc:QM5BK1900509",
+    "title": "Better in the Dark",
+    "artists": [
+      "Jordana",
+      "TV Girl"
+    ],
+    "year": 2021,
+    "spotify_id": "3SeDS5sSoWnwAZvVgkdKzf",
+    "spotify_uri": null,
+    "isrc": "QM5BK1900509",
+    "musicbrainz_recording_id": "8830029e-c795-4cc7-928f-8b4c0b225115",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 192,
+    "track_id": "spotify:3SAga35lAPYdjj3qyfEsCF",
+    "canonical_key": "isrc:USUM72401132",
+    "title": "Feel It (From “Invincible”)",
+    "artists": [
+      "d4vd"
+    ],
+    "year": 2024,
+    "spotify_id": "3SAga35lAPYdjj3qyfEsCF",
+    "spotify_uri": null,
+    "isrc": "USUM72401132",
+    "musicbrainz_recording_id": "eee69716-0661-4351-ad2e-7a953a804d2b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 193,
+    "track_id": "spotify:4KGGeE7RJsgLNZmnxGFlOj",
+    "canonical_key": "isrc:GBKPL2298396",
+    "title": "Falling Behind",
+    "artists": [
+      "Laufey"
+    ],
+    "year": 2022,
+    "spotify_id": "4KGGeE7RJsgLNZmnxGFlOj",
+    "spotify_uri": null,
+    "isrc": "GBKPL2298396",
+    "musicbrainz_recording_id": "6587f3e0-2eaa-4b9e-bf49-948cc323029a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 194,
+    "track_id": "spotify:7zgEoBci3rKmEkLdsZ8ZKJ",
+    "canonical_key": "mbid:1b350112-6d02-4afe-8dac-aaf8880d1833",
+    "title": "Intergalactic Janet",
+    "artists": [
+      "Ley Soul"
+    ],
+    "year": 2023,
+    "spotify_id": "7zgEoBci3rKmEkLdsZ8ZKJ",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "1b350112-6d02-4afe-8dac-aaf8880d1833",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 195,
+    "track_id": "spotify:5sA3i6SGkILMiZW6Fhx4wv",
+    "canonical_key": "isrc:GBK3W2302683",
+    "title": "the way things go",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2023,
+    "spotify_id": "5sA3i6SGkILMiZW6Fhx4wv",
+    "spotify_uri": null,
+    "isrc": "GBK3W2302683",
+    "musicbrainz_recording_id": "0e011401-8380-48f3-b4bf-ad89e5e8e6ae",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 196,
+    "track_id": "spotify:7pMEJEVSjQBuUAqWOupJk6",
+    "canonical_key": "mbid:f7f83d0a-ca54-4c4b-a61f-4c7d11c68d76",
+    "title": "Ever Seen",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "7pMEJEVSjQBuUAqWOupJk6",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "f7f83d0a-ca54-4c4b-a61f-4c7d11c68d76",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 197,
+    "track_id": "spotify:5NR7XN88d1NhOXKR0vD5XK",
+    "canonical_key": "isrc:USA2P2416223",
+    "title": "Nomad",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "5NR7XN88d1NhOXKR0vD5XK",
+    "spotify_uri": null,
+    "isrc": "USA2P2416223",
+    "musicbrainz_recording_id": "0a90854e-6735-4242-89d7-5c33cf36cb01",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 198,
+    "track_id": "spotify:5BeHDeGz9sTRNu5kOZRmHh",
+    "canonical_key": "isrc:QZNWV2426953",
+    "title": "tiptoe",
+    "artists": [
+      "Rin"
+    ],
+    "year": 2024,
+    "spotify_id": "5BeHDeGz9sTRNu5kOZRmHh",
+    "spotify_uri": null,
+    "isrc": "QZNWV2426953",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 199,
+    "track_id": "spotify:7zLyWCEGgfdtUq6vC4saTi",
+    "canonical_key": "isrc:QZTAT2388822",
+    "title": "just me (demo)",
+    "artists": [
+      "Rin"
+    ],
+    "year": 2023,
+    "spotify_id": "7zLyWCEGgfdtUq6vC4saTi",
+    "spotify_uri": null,
+    "isrc": "QZTAT2388822",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 200,
+    "track_id": "spotify:5GMQdzgtI7vtpmtps2YiYx",
+    "canonical_key": "isrc:USTO11000021",
+    "title": "Beautiful Boy (Darling Boy) - 2010 Remastered",
+    "artists": [
+      "John Lennon"
+    ],
+    "year": 2018,
+    "spotify_id": "5GMQdzgtI7vtpmtps2YiYx",
+    "spotify_uri": null,
+    "isrc": "USTO11000021",
+    "musicbrainz_recording_id": "257afb49-e911-4e7e-908a-46a7d7f853dd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 201,
+    "track_id": "spotify:2dono2Koz7DEvGwxUsmMLq",
+    "canonical_key": "isrc:FRX872443806",
+    "title": "Linger - SiriusXM Session",
+    "artists": [
+      "Royel Otis"
+    ],
+    "year": 2024,
+    "spotify_id": "2dono2Koz7DEvGwxUsmMLq",
+    "spotify_uri": null,
+    "isrc": "FRX872443806",
+    "musicbrainz_recording_id": "02cba491-0cef-431f-8369-a4e916f194b0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 202,
+    "track_id": "spotify:7IBzp33O4Hjr92wXtH3yQJ",
+    "canonical_key": "isrc:SEYOK1814660",
+    "title": "Honey",
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2018,
+    "spotify_id": "7IBzp33O4Hjr92wXtH3yQJ",
+    "spotify_uri": null,
+    "isrc": "SEYOK1814660",
+    "musicbrainz_recording_id": "3230ad51-5898-4971-9049-861b3374dc5f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 203,
+    "track_id": "spotify:429NtPmr12aypzFH3FkN9l",
+    "canonical_key": "isrc:GBK3W1800819",
+    "title": "Coffee",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2017,
+    "spotify_id": "429NtPmr12aypzFH3FkN9l",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800819",
+    "musicbrainz_recording_id": "c6cdaca3-37a1-47f3-a5e3-e9c012a6c0f1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 204,
+    "track_id": "spotify:6WZjjf4mKurHPC5BhdGwet",
+    "canonical_key": "isrc:QMMZN1200050",
+    "title": "Ode to Viceroy",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2012,
+    "spotify_id": "6WZjjf4mKurHPC5BhdGwet",
+    "spotify_uri": null,
+    "isrc": "QMMZN1200050",
+    "musicbrainz_recording_id": "8b395199-4145-4b37-b648-92160f4a973e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 205,
+    "track_id": "spotify:7cFwopK7QTOgaEwF9JgipA",
+    "canonical_key": "isrc:USA2P2416225",
+    "title": "Second Nature",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "7cFwopK7QTOgaEwF9JgipA",
+    "spotify_uri": null,
+    "isrc": "USA2P2416225",
+    "musicbrainz_recording_id": "0280ccfd-b3a7-46b1-a4a6-18aa1d340c51",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 206,
+    "track_id": "spotify:2qmmnbJ9JR3f7vofbyje5r",
+    "canonical_key": "isrc:USA2P2416226",
+    "title": "Slow Dance",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "2qmmnbJ9JR3f7vofbyje5r",
+    "spotify_uri": null,
+    "isrc": "USA2P2416226",
+    "musicbrainz_recording_id": "b073c842-791f-4a8b-8073-2ab3d58dc770",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 207,
+    "track_id": "spotify:0mMlo76aVZHpuvoR6fjBSK",
+    "canonical_key": "isrc:USA2P2416227",
+    "title": "Thank You",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "0mMlo76aVZHpuvoR6fjBSK",
+    "spotify_uri": null,
+    "isrc": "USA2P2416227",
+    "musicbrainz_recording_id": "1fdb1f10-6047-4464-a5af-3e109c4e91f7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 208,
+    "track_id": "spotify:32fwe7MW5koort1Ua3YFx6",
+    "canonical_key": "isrc:USA2P2416228",
+    "title": "Terrapin",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "32fwe7MW5koort1Ua3YFx6",
+    "spotify_uri": null,
+    "isrc": "USA2P2416228",
+    "musicbrainz_recording_id": "4be2aed9-3719-4655-951c-51f7e488a569",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 209,
+    "track_id": "spotify:2mWfVxEo4xZYDaz0v7hYrN",
+    "canonical_key": "isrc:USA2P2416229",
+    "title": "Juna",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "2mWfVxEo4xZYDaz0v7hYrN",
+    "spotify_uri": null,
+    "isrc": "USA2P2416229",
+    "musicbrainz_recording_id": "016d187f-0e11-4171-82e9-15f04fafa097",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 210,
+    "track_id": "spotify:6FcDxtnGfsYHOcGkXN2OIG",
+    "canonical_key": "isrc:USA2P2416230",
+    "title": "Add Up My Love",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "6FcDxtnGfsYHOcGkXN2OIG",
+    "spotify_uri": null,
+    "isrc": "USA2P2416230",
+    "musicbrainz_recording_id": "1c6e21a9-f90b-4bd8-8b75-a397e05f347b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 211,
+    "track_id": "spotify:6QlSPjiXHc1XwGKeEls6Gh",
+    "canonical_key": "isrc:USA2P2416231",
+    "title": "Echo",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "6QlSPjiXHc1XwGKeEls6Gh",
+    "spotify_uri": null,
+    "isrc": "USA2P2416231",
+    "musicbrainz_recording_id": "f2f031af-8b44-4572-b141-c281c4f5bf0f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 212,
+    "track_id": "spotify:4JLBaHFkjxnbf9X0D8G3zQ",
+    "canonical_key": "isrc:USA2P2416232",
+    "title": "Glory of the Snow",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "4JLBaHFkjxnbf9X0D8G3zQ",
+    "spotify_uri": null,
+    "isrc": "USA2P2416232",
+    "musicbrainz_recording_id": "75f78724-93ec-44e4-be66-896d3008ce33",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 213,
+    "track_id": "spotify:3lnEcmIHlkeqcgDiZ5cgN3",
+    "canonical_key": "isrc:USA2P2416233",
+    "title": "Pier 4",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "3lnEcmIHlkeqcgDiZ5cgN3",
+    "spotify_uri": null,
+    "isrc": "USA2P2416233",
+    "musicbrainz_recording_id": "b092f031-e8f9-4a6c-a991-0a051b9b0665",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 214,
+    "track_id": "spotify:6drC7tBnx8AiYfTfBmDPVO",
+    "canonical_key": "isrc:QMMZN1300561",
+    "title": "Blue Boy",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2014,
+    "spotify_id": "6drC7tBnx8AiYfTfBmDPVO",
+    "spotify_uri": null,
+    "isrc": "QMMZN1300561",
+    "musicbrainz_recording_id": "371a649d-dd4e-4d15-bdf3-6aeb62926d33",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 215,
+    "track_id": "spotify:1lDS95xiG8ln73gdOlNjfU",
+    "canonical_key": "isrc:QMB622400008",
+    "title": "Suddenly",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2024,
+    "spotify_id": "1lDS95xiG8ln73gdOlNjfU",
+    "spotify_uri": null,
+    "isrc": "QMB622400008",
+    "musicbrainz_recording_id": "a5f52020-6de4-456a-b479-67d272820894",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 216,
+    "track_id": "spotify:4JHCLFKkuvNMb67DYuAjUU",
+    "canonical_key": "isrc:TCADG1703072",
+    "title": "Get With U",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2017,
+    "spotify_id": "4JHCLFKkuvNMb67DYuAjUU",
+    "spotify_uri": null,
+    "isrc": "TCADG1703072",
+    "musicbrainz_recording_id": "69f4b9e5-3151-421f-b80e-7285dc82dd10",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 217,
+    "track_id": "spotify:0zzz9l8ZX5vDBJmNHnWOom",
+    "canonical_key": "mbid:06ba4492-9969-4e36-8b0c-04d82e309425",
+    "title": "North",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": "0zzz9l8ZX5vDBJmNHnWOom",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "06ba4492-9969-4e36-8b0c-04d82e309425",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 10
+  },
+  {
+    "row": 218,
+    "track_id": "spotify:07bnTdZ6iroLCm4vDZVyb9",
+    "canonical_key": "mbid:033e3a2c-db55-45dc-9fc7-f16ef643fa83",
+    "title": "Unlucky",
+    "artists": [
+      "Lunar Vacation"
+    ],
+    "year": 2020,
+    "spotify_id": "07bnTdZ6iroLCm4vDZVyb9",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "033e3a2c-db55-45dc-9fc7-f16ef643fa83",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 219,
+    "track_id": "spotify:3s9eWdn8IymCPvVLcKpjww",
+    "canonical_key": "isrc:GBK3W1900970",
+    "title": "The Moon Song",
+    "artists": [
+      "beabadoobee",
+      "Oscar Lang"
+    ],
+    "year": 2017,
+    "spotify_id": "3s9eWdn8IymCPvVLcKpjww",
+    "spotify_uri": null,
+    "isrc": "GBK3W1900970",
+    "musicbrainz_recording_id": "cb4d7ba1-dc6e-4e50-b78a-2057ad757f51",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 220,
+    "track_id": "spotify:5R4u3LgAC2BNkxo0bKQmS5",
+    "canonical_key": "isrc:GBK3W1800912",
+    "title": "Art Class",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "5R4u3LgAC2BNkxo0bKQmS5",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800912",
+    "musicbrainz_recording_id": "0054f087-73e4-4f34-a171-184a3f5c77f8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 221,
+    "track_id": "spotify:0lko8s8up1bZSqctfuoPKj",
+    "canonical_key": "mbid:e74ae77d-1aca-4598-b418-2b247ea6dd7e",
+    "title": "Beaches",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "0lko8s8up1bZSqctfuoPKj",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "e74ae77d-1aca-4598-b418-2b247ea6dd7e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 222,
+    "track_id": "spotify:51Grh1RyUDcMBbpuyUIUHI",
+    "canonical_key": "isrc:QZDA61986777",
+    "title": "rises the moon",
+    "artists": [
+      "Liana Flores"
+    ],
+    "year": 2019,
+    "spotify_id": "51Grh1RyUDcMBbpuyUIUHI",
+    "spotify_uri": null,
+    "isrc": "QZDA61986777",
+    "musicbrainz_recording_id": "9fb62336-68b7-43fa-a220-e7f3637c7cc5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 223,
+    "track_id": "spotify:6wpcfnVXNj4705DPx2aqvs",
+    "canonical_key": "isrc:GBK3W2402970",
+    "title": "Post",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "6wpcfnVXNj4705DPx2aqvs",
+    "spotify_uri": null,
+    "isrc": "GBK3W2402970",
+    "musicbrainz_recording_id": "01c7faf5-15a0-41c6-8d61-cdacad22ebbf",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 224,
+    "track_id": "spotify:09qNOVfxhuBsZC6XVreQ49",
+    "canonical_key": "isrc:GBK3W2402974",
+    "title": "This Is How It Went",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "09qNOVfxhuBsZC6XVreQ49",
+    "spotify_uri": null,
+    "isrc": "GBK3W2402974",
+    "musicbrainz_recording_id": "ac12715d-eb53-4aa7-9a60-f96e05e67ffd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 225,
+    "track_id": "spotify:6GDd1lZ0zp5pB6JleN5Xzx",
+    "canonical_key": "isrc:GBK3W2402962",
+    "title": "California",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "6GDd1lZ0zp5pB6JleN5Xzx",
+    "spotify_uri": null,
+    "isrc": "GBK3W2402962",
+    "musicbrainz_recording_id": "c5083ea6-0ca4-4e73-b9e1-8e8dbfeddd5b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 226,
+    "track_id": "spotify:3w3seawXfQGat9yH2B8Tge",
+    "canonical_key": "isrc:US38W2349105",
+    "title": "Wanna Quit All the Time",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2024,
+    "spotify_id": "3w3seawXfQGat9yH2B8Tge",
+    "spotify_uri": null,
+    "isrc": "US38W2349105",
+    "musicbrainz_recording_id": "85923a00-1d26-46b8-a01e-bfa0ad10f996",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 227,
+    "track_id": "spotify:22lMC9sDCLMGXRsxJ0Qj1F",
+    "canonical_key": "isrc:QMB622400010",
+    "title": "21c",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2024,
+    "spotify_id": "22lMC9sDCLMGXRsxJ0Qj1F",
+    "spotify_uri": null,
+    "isrc": "QMB622400010",
+    "musicbrainz_recording_id": "ec115504-35d7-425e-ae66-8ed1b2882e23",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 228,
+    "track_id": "spotify:2VYnlKxB8jpbCeLUjQsebc",
+    "canonical_key": "isrc:US38W2040401",
+    "title": "In A Good Way",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2021,
+    "spotify_id": "2VYnlKxB8jpbCeLUjQsebc",
+    "spotify_uri": null,
+    "isrc": "US38W2040401",
+    "musicbrainz_recording_id": "e2334adb-fbc0-4642-8e1b-b9267ccad5c6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 229,
+    "track_id": "spotify:3TFNxpIwIzMi3jsMRy9GVZ",
+    "canonical_key": "isrc:QM24S1926314",
+    "title": "Shy",
+    "artists": [
+      "Hether"
+    ],
+    "year": 2019,
+    "spotify_id": "3TFNxpIwIzMi3jsMRy9GVZ",
+    "spotify_uri": null,
+    "isrc": "QM24S1926314",
+    "musicbrainz_recording_id": "a8a5f170-04a3-400d-b66e-4d3d2e74ce94",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 230,
+    "track_id": "spotify:68SSN8C0cJmUEXJkGyNYqe",
+    "canonical_key": "isrc:GBK3W2202101",
+    "title": "You’re here that’s the thing",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "68SSN8C0cJmUEXJkGyNYqe",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202101",
+    "musicbrainz_recording_id": "c5a7b549-6778-48ec-a54e-5adba67e0de8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 231,
+    "track_id": "spotify:5QvditjxADt1HMKPgaMjJm",
+    "canonical_key": "isrc:TCADT1887356",
+    "title": "Seven",
+    "artists": [
+      "Men I Trust"
+    ],
+    "year": 2018,
+    "spotify_id": "5QvditjxADt1HMKPgaMjJm",
+    "spotify_uri": null,
+    "isrc": "TCADT1887356",
+    "musicbrainz_recording_id": "5232159f-ded9-48cb-8ddc-093cfde4c20a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 232,
+    "track_id": "spotify:7xLfmCx9jcZNgzlIK7NupN",
+    "canonical_key": "isrc:QZMEP2194356",
+    "title": "Stress Relief",
+    "artists": [
+      "late night drive home"
+    ],
+    "year": 2021,
+    "spotify_id": "7xLfmCx9jcZNgzlIK7NupN",
+    "spotify_uri": null,
+    "isrc": "QZMEP2194356",
+    "musicbrainz_recording_id": "754a49d4-e41e-4849-9b1c-23f501792787",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 233,
+    "track_id": "spotify:0SpkyS1Q4MD8GaVcP5YjT4",
+    "canonical_key": "mbid:ad97c14b-59b7-4545-9b27-d858394e5dd0",
+    "title": "Sunsetz",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": "0SpkyS1Q4MD8GaVcP5YjT4",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "ad97c14b-59b7-4545-9b27-d858394e5dd0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 234,
+    "track_id": "spotify:1NaDK3atogQEn9glK5fYuy",
+    "canonical_key": "isrc:GBK3W2101743",
+    "title": "Cologne",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2021,
+    "spotify_id": "1NaDK3atogQEn9glK5fYuy",
+    "spotify_uri": null,
+    "isrc": "GBK3W2101743",
+    "musicbrainz_recording_id": "aba89a10-fd4c-4d8b-b643-6744d85cf4e3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 235,
+    "track_id": "spotify:6ilc4vQcwMPlvAHFfsTGng",
+    "canonical_key": "mbid:9361a21e-c304-402d-9383-b114a538fc4f",
+    "title": "Sweet",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": "6ilc4vQcwMPlvAHFfsTGng",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "9361a21e-c304-402d-9383-b114a538fc4f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 236,
+    "track_id": "spotify:0OpC8hRrbsh24taKOsQBEX",
+    "canonical_key": "isrc:GBK3W2402964",
+    "title": "Real Man",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2024,
+    "spotify_id": "0OpC8hRrbsh24taKOsQBEX",
+    "spotify_uri": null,
+    "isrc": "GBK3W2402964",
+    "musicbrainz_recording_id": "49ead472-78fa-4c0a-bfca-6aaec23acc7c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 237,
+    "track_id": "spotify:5sGGlfbqdGlJr3ZMMjODoy",
+    "canonical_key": "isrc:QZ5VZ1600001",
+    "title": "She Won't Go Away",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2017,
+    "spotify_id": "5sGGlfbqdGlJr3ZMMjODoy",
+    "spotify_uri": null,
+    "isrc": "QZ5VZ1600001",
+    "musicbrainz_recording_id": "06b517b2-183f-4d43-a4e1-8ea978275e7f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 238,
+    "track_id": "spotify:1FWsomP9StpCcXNWmJk8Cl",
+    "canonical_key": "mbid:b35f707a-f06d-47a1-bf34-51f60cbac473",
+    "title": "K.",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": "1FWsomP9StpCcXNWmJk8Cl",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "b35f707a-f06d-47a1-bf34-51f60cbac473",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 239,
+    "track_id": "spotify:0dcsuO7AQ06VS9uWfA6m1C",
+    "canonical_key": "isrc:TCADG1703082",
+    "title": "2 Hold U",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2017,
+    "spotify_id": "0dcsuO7AQ06VS9uWfA6m1C",
+    "spotify_uri": null,
+    "isrc": "TCADG1703082",
+    "musicbrainz_recording_id": "cee8886c-192b-47c3-b69d-c13d0d28cf00",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 240,
+    "track_id": "spotify:0tZ9JXJ5Yi1dvEKwK3FYma",
+    "canonical_key": "isrc:GBJGV2100404",
+    "title": "I'll Be There",
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2021,
+    "spotify_id": "0tZ9JXJ5Yi1dvEKwK3FYma",
+    "spotify_uri": null,
+    "isrc": "GBJGV2100404",
+    "musicbrainz_recording_id": "de4301cb-9f17-4a2d-9d1e-dccc6ddcf535",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 241,
+    "track_id": "spotify:7I1kle4TNmkfednJDKo8GR",
+    "canonical_key": "isrc:GBK3W1800913",
+    "title": "If You Want To",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "7I1kle4TNmkfednJDKo8GR",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800913",
+    "musicbrainz_recording_id": "2c12b59e-656d-4e75-8a0d-25e210e42b95",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 242,
+    "track_id": "spotify:7hm4HTk9encxT0LYC0J6oI",
+    "canonical_key": "isrc:USRC10100769",
+    "title": "Someday",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "7hm4HTk9encxT0LYC0J6oI",
+    "spotify_uri": null,
+    "isrc": "USRC10100769",
+    "musicbrainz_recording_id": "e8d5c3f6-494f-439a-8f6c-889df2b7a4b8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 243,
+    "track_id": "spotify:7hNPcyHhNYLCtTFa5bxvX1",
+    "canonical_key": "isrc:US38W2140109",
+    "title": "A Dream With a Baseball Player",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2021,
+    "spotify_id": "7hNPcyHhNYLCtTFa5bxvX1",
+    "spotify_uri": null,
+    "isrc": "US38W2140109",
+    "musicbrainz_recording_id": "7e644146-7b26-4d50-9dfb-193b6e2db902",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 244,
+    "track_id": "spotify:47Crl3BP6YFeC4Y3EjpUYi",
+    "canonical_key": "mbid:d4baf01d-8cb7-4e8a-9c8a-f075e5b75fc5",
+    "title": "The Not Real Lake",
+    "artists": [
+      "Loving"
+    ],
+    "year": 2016,
+    "spotify_id": "47Crl3BP6YFeC4Y3EjpUYi",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "d4baf01d-8cb7-4e8a-9c8a-f075e5b75fc5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 245,
+    "track_id": "spotify:3p4hRhMcb6ch8OLtATMaLw",
+    "canonical_key": "mbid:470c0abc-b276-4a01-95b6-79326e0a4e7f",
+    "title": "Cry",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2019,
+    "spotify_id": "3p4hRhMcb6ch8OLtATMaLw",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "470c0abc-b276-4a01-95b6-79326e0a4e7f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 246,
+    "track_id": "spotify:6SmV1Oo24nCZBPzIYkL4HZ",
+    "canonical_key": "isrc:AUUM71000133",
+    "title": "Alter Ego",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2010,
+    "spotify_id": "6SmV1Oo24nCZBPzIYkL4HZ",
+    "spotify_uri": null,
+    "isrc": "AUUM71000133",
+    "musicbrainz_recording_id": "7a7f8825-532a-4586-93e4-8edfe3c958de",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 247,
+    "track_id": "spotify:2yNfAd72XQBpDYEncn387J",
+    "canonical_key": "isrc:QZTB42450555",
+    "title": "homesick",
+    "artists": [
+      "Rin"
+    ],
+    "year": 2024,
+    "spotify_id": "2yNfAd72XQBpDYEncn387J",
+    "spotify_uri": null,
+    "isrc": "QZTB42450555",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 248,
+    "track_id": "spotify:52zzYSu7RUsSFn8cZlVjWp",
+    "canonical_key": "isrc:GBK3W1901098",
+    "title": "She Plays Bass",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2019,
+    "spotify_id": "52zzYSu7RUsSFn8cZlVjWp",
+    "spotify_uri": null,
+    "isrc": "GBK3W1901098",
+    "musicbrainz_recording_id": "297dd100-3148-49f7-841d-c44ce59f34bd",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 249,
+    "track_id": "spotify:70YTBH8vOGJNMhy6186yFm",
+    "canonical_key": "mbid:53daeb29-a4e4-4da7-8d9b-3066c67b5a0b",
+    "title": "Heavenly",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2019,
+    "spotify_id": "70YTBH8vOGJNMhy6186yFm",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "53daeb29-a4e4-4da7-8d9b-3066c67b5a0b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 250,
+    "track_id": "spotify:1l4pW7Tklvcc3k38rDFMkk",
+    "canonical_key": "mbid:7d511839-beaf-42b4-8b36-e674ddc90cc3",
+    "title": "Touch",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2019,
+    "spotify_id": "1l4pW7Tklvcc3k38rDFMkk",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "7d511839-beaf-42b4-8b36-e674ddc90cc3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 251,
+    "track_id": "spotify:0zzePeqwaCTJxqgkIVcivx",
+    "canonical_key": "isrc:US38W2140110",
+    "title": "Overslept (feat. mei ehara)",
+    "artists": [
+      "Faye Webster",
+      "mei ehara"
+    ],
+    "year": 2021,
+    "spotify_id": "0zzePeqwaCTJxqgkIVcivx",
+    "spotify_uri": null,
+    "isrc": "US38W2140110",
+    "musicbrainz_recording_id": "3e99b655-1cf2-45a8-8f68-bac70ef67f6b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 252,
+    "track_id": "spotify:2UkoyDNn9bJbGl6sH87xXc",
+    "canonical_key": "isrc:QZ5VZ1600003",
+    "title": "Is It Too Much To Ask",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2017,
+    "spotify_id": "2UkoyDNn9bJbGl6sH87xXc",
+    "spotify_uri": null,
+    "isrc": "QZ5VZ1600003",
+    "musicbrainz_recording_id": "1eecd49c-7233-4835-a662-98a411fb0c93",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 253,
+    "track_id": "spotify:3siwsiaEoU4Kuuc9WKMUy5",
+    "canonical_key": "isrc:USAT22307579",
+    "title": "No One Noticed",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "3siwsiaEoU4Kuuc9WKMUy5",
+    "spotify_uri": null,
+    "isrc": "USAT22307579",
+    "musicbrainz_recording_id": "d13a634b-9f69-4256-9415-b7e95aac101d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 254,
+    "track_id": "spotify:0InIeZW4P6VO7dUGRM4AKH",
+    "canonical_key": "isrc:USAT22400849",
+    "title": "Sienna",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "0InIeZW4P6VO7dUGRM4AKH",
+    "spotify_uri": null,
+    "isrc": "USAT22400849",
+    "musicbrainz_recording_id": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+    "has_tags": true,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 255,
+    "track_id": "spotify:466C6kwoJHLUJ8VHG98hCY",
+    "canonical_key": "isrc:USRH12302535",
+    "title": "Roundabout - 2024 Remaster",
+    "artists": [
+      "Yes"
+    ],
+    "year": 1971,
+    "spotify_id": "466C6kwoJHLUJ8VHG98hCY",
+    "spotify_uri": null,
+    "isrc": "USRH12302535",
+    "musicbrainz_recording_id": "6ba2685d-2d73-462c-90f9-5fd87862a7b6",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 256,
+    "track_id": "spotify:1ShRHPAiiIrh0arZbSFmx1",
+    "canonical_key": "isrc:USAT22100694",
+    "title": "Heavy",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2021,
+    "spotify_id": "1ShRHPAiiIrh0arZbSFmx1",
+    "spotify_uri": null,
+    "isrc": "USAT22100694",
+    "musicbrainz_recording_id": "c09e14e5-97ee-4c52-ae4a-a28d0084e44c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 257,
+    "track_id": "spotify:7eQ0SV1eQXSZHBA1x4mcYu",
+    "canonical_key": "isrc:USAT22400848",
+    "title": "If Only",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "7eQ0SV1eQXSZHBA1x4mcYu",
+    "spotify_uri": null,
+    "isrc": "USAT22400848",
+    "musicbrainz_recording_id": "84cfc393-1fcf-4397-bfcd-ea85a816d24d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 258,
+    "track_id": "spotify:3L0JDlycMhSA7R0M0OfNIY",
+    "canonical_key": "isrc:USAT22400846",
+    "title": "Ay No Puedo",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "3L0JDlycMhSA7R0M0OfNIY",
+    "spotify_uri": null,
+    "isrc": "USAT22400846",
+    "musicbrainz_recording_id": "f876c94e-9815-4470-a065-6f5d227c2f83",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 259,
+    "track_id": "spotify:6kp9czhrGZrP0hr9Y6opEr",
+    "canonical_key": "isrc:GBK3W1901014",
+    "title": "Soren",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2019,
+    "spotify_id": "6kp9czhrGZrP0hr9Y6opEr",
+    "spotify_uri": null,
+    "isrc": "GBK3W1901014",
+    "musicbrainz_recording_id": "74224dbd-acb4-4765-a4e3-ff7a02f2f1e6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 260,
+    "track_id": "spotify:0jBE7Fn78EAvmIs3dCd6GO",
+    "canonical_key": "isrc:USRC10100762",
+    "title": "Is This It",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "0jBE7Fn78EAvmIs3dCd6GO",
+    "spotify_uri": null,
+    "isrc": "USRC10100762",
+    "musicbrainz_recording_id": "824ec953-d221-4488-8c11-aff83ee7646e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 261,
+    "track_id": "spotify:2plbrEY59IikOBgBGLjaoe",
+    "canonical_key": "isrc:USUM72409273",
+    "title": "Die With A Smile",
+    "artists": [
+      "Lady Gaga",
+      "Bruno Mars"
+    ],
+    "year": 2024,
+    "spotify_id": "2plbrEY59IikOBgBGLjaoe",
+    "spotify_uri": null,
+    "isrc": "USUM72409273",
+    "musicbrainz_recording_id": "098ed81a-fa33-4212-ac6d-2cc19dde5fef",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 262,
+    "track_id": "spotify:2qkb3hhx8iCBvYzX9SvVxj",
+    "canonical_key": "isrc:GBK3W2202096",
+    "title": "Lovesong",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "2qkb3hhx8iCBvYzX9SvVxj",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202096",
+    "musicbrainz_recording_id": "1e68edf1-d4ad-46ed-9de0-0bd9a34c15ea",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 263,
+    "track_id": "spotify:4D7pqnF6VzLbwF96Ywe8H5",
+    "canonical_key": "isrc:QZDA52423551",
+    "title": "Sometimes",
+    "artists": [
+      "Blue Imagined"
+    ],
+    "year": 2024,
+    "spotify_id": "4D7pqnF6VzLbwF96Ywe8H5",
+    "spotify_uri": null,
+    "isrc": "QZDA52423551",
+    "musicbrainz_recording_id": "3c1b544c-b732-40e1-851b-9e9bb02510ab",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 264,
+    "track_id": "spotify:4XYo3W8U6IY42EbB01rnR4",
+    "canonical_key": "isrc:USUG11801803",
+    "title": "Heaven",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2018,
+    "spotify_id": "4XYo3W8U6IY42EbB01rnR4",
+    "spotify_uri": null,
+    "isrc": "USUG11801803",
+    "musicbrainz_recording_id": "766f9fb8-2f2a-46a0-9423-7be14a452b77",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 265,
+    "track_id": "spotify:5e0b9LgOfi3aJSKXFcOWRe",
+    "canonical_key": "isrc:QZWFH2353145",
+    "title": "Beanie",
+    "artists": [
+      "Chezile"
+    ],
+    "year": 2023,
+    "spotify_id": "5e0b9LgOfi3aJSKXFcOWRe",
+    "spotify_uri": null,
+    "isrc": "QZWFH2353145",
+    "musicbrainz_recording_id": "bdcf8037-9584-4c0a-9782-141478385bbb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 266,
+    "track_id": "spotify:4fPjI40ElIwJQ4DJJxSCOe",
+    "canonical_key": "isrc:QZFZ52144176",
+    "title": "Attracted to You",
+    "artists": [
+      "PinkPantheress"
+    ],
+    "year": 2021,
+    "spotify_id": "4fPjI40ElIwJQ4DJJxSCOe",
+    "spotify_uri": null,
+    "isrc": "QZFZ52144176",
+    "musicbrainz_recording_id": "54100470-534b-48ec-a7a7-ea46f20abadc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 267,
+    "track_id": "spotify:0jx2hPIzs7bNveWHU2Ohzu",
+    "canonical_key": "isrc:QZ4JJ1752726",
+    "title": "Eleven Weeks",
+    "artists": [
+      "Vansire"
+    ],
+    "year": 2017,
+    "spotify_id": "0jx2hPIzs7bNveWHU2Ohzu",
+    "spotify_uri": null,
+    "isrc": "QZ4JJ1752726",
+    "musicbrainz_recording_id": "8771a072-447d-469e-b5d4-13ec1a4ae81a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 268,
+    "track_id": "spotify:6oP8iOWmJkwsm4yjDpSbhv",
+    "canonical_key": "isrc:US38W2140105",
+    "title": "Kind Of",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2021,
+    "spotify_id": "6oP8iOWmJkwsm4yjDpSbhv",
+    "spotify_uri": null,
+    "isrc": "US38W2140105",
+    "musicbrainz_recording_id": "27c64703-a0a5-498d-a277-e81db3f65cb6",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 269,
+    "track_id": "spotify:6F5mZpEEjhsAW8UEqbIpz1",
+    "canonical_key": "isrc:GBK3W1800910",
+    "title": "Tired",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "6F5mZpEEjhsAW8UEqbIpz1",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800910",
+    "musicbrainz_recording_id": "de83443a-003c-4bfb-9f15-7725f8313d92",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 270,
+    "track_id": "spotify:3CmcswzHOACDjooV1KLULN",
+    "canonical_key": "isrc:US38W2042601",
+    "title": "Better Distractions",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2021,
+    "spotify_id": "3CmcswzHOACDjooV1KLULN",
+    "spotify_uri": null,
+    "isrc": "US38W2042601",
+    "musicbrainz_recording_id": "8669864b-17b0-4103-b993-7d8331edd6d4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 9
+  },
+  {
+    "row": 271,
+    "track_id": "spotify:4gtIYSYu8u2ItBqrhCaChL",
+    "canonical_key": "isrc:USAT22400843",
+    "title": "Paranoia",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "4gtIYSYu8u2ItBqrhCaChL",
+    "spotify_uri": null,
+    "isrc": "USAT22400843",
+    "musicbrainz_recording_id": "5cc4b58a-e222-46e1-9f62-6c1d7e6b6065",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 272,
+    "track_id": "spotify:6pTSHhupVbWJmO5hGymxkL",
+    "canonical_key": "isrc:CAL451959501",
+    "title": "Only She Knows",
+    "artists": [
+      "Loving"
+    ],
+    "year": 2020,
+    "spotify_id": "6pTSHhupVbWJmO5hGymxkL",
+    "spotify_uri": null,
+    "isrc": "CAL451959501",
+    "musicbrainz_recording_id": "eb5d8dc5-236e-4dd1-9d49-8b5902309cbb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 273,
+    "track_id": "spotify:3SUusuA9jH1v6PVwtYMbdv",
+    "canonical_key": "isrc:USRC10100765",
+    "title": "Last Nite",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "3SUusuA9jH1v6PVwtYMbdv",
+    "spotify_uri": null,
+    "isrc": "USRC10100765",
+    "musicbrainz_recording_id": "c988fa34-8382-43f3-87af-49dc94018c1e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 274,
+    "track_id": "spotify:1FnaRNR5YLddYYd6xwJ3DX",
+    "canonical_key": "isrc:GBK3W2001454",
+    "title": "How Was Your Day?",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2020,
+    "spotify_id": "1FnaRNR5YLddYYd6xwJ3DX",
+    "spotify_uri": null,
+    "isrc": "GBK3W2001454",
+    "musicbrainz_recording_id": "a719c4d3-c3f1-48ae-87ee-b307ed8dcf77",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 275,
+    "track_id": "spotify:6N4WUdbz6HVKy6u6JX1KqK",
+    "canonical_key": "isrc:QZG4T1900005",
+    "title": "Preoccupied",
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2019,
+    "spotify_id": "6N4WUdbz6HVKy6u6JX1KqK",
+    "spotify_uri": null,
+    "isrc": "QZG4T1900005",
+    "musicbrainz_recording_id": "710142a0-16ff-433f-b937-6b3241d57d28",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 276,
+    "track_id": "spotify:0phzfJn8NeT1LkbqfV2peI",
+    "canonical_key": "isrc:USAT22400844",
+    "title": "Lejos de Ti",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "0phzfJn8NeT1LkbqfV2peI",
+    "spotify_uri": null,
+    "isrc": "USAT22400844",
+    "musicbrainz_recording_id": "372716a2-0fd5-4a64-970f-4bd9ead6be43",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 277,
+    "track_id": "spotify:6hj8HbgTMVMvcA8a9fKAhr",
+    "canonical_key": "isrc:GBJGV2100407",
+    "title": "Sun Outside My Window",
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2021,
+    "spotify_id": "6hj8HbgTMVMvcA8a9fKAhr",
+    "spotify_uri": null,
+    "isrc": "GBJGV2100407",
+    "musicbrainz_recording_id": "97720c8e-22b6-44e3-ae02-628bcaa4c4b1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 278,
+    "track_id": "spotify:2rrq3SGYxk90xLx5fMmPhZ",
+    "canonical_key": "isrc:GBAYE2101300",
+    "title": "I Must Apologise",
+    "artists": [
+      "PinkPantheress"
+    ],
+    "year": 2021,
+    "spotify_id": "2rrq3SGYxk90xLx5fMmPhZ",
+    "spotify_uri": null,
+    "isrc": "GBAYE2101300",
+    "musicbrainz_recording_id": "5fd04647-4a8b-436b-8ba7-ebe31046b69d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 279,
+    "track_id": "spotify:2lTm559tuIvatlT1u0JYG2",
+    "canonical_key": "isrc:QMFMF2447057",
+    "title": "BAILE INoLVIDABLE",
+    "artists": [
+      "Bad Bunny"
+    ],
+    "year": 2025,
+    "spotify_id": "2lTm559tuIvatlT1u0JYG2",
+    "spotify_uri": null,
+    "isrc": "QMFMF2447057",
+    "musicbrainz_recording_id": "587289b2-90f4-4aea-b3c4-8a0aee6bf661",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 280,
+    "track_id": "spotify:7wei8Hb9DxoVKUOIIAhDEQ",
+    "canonical_key": "isrc:USSUB2464403",
+    "title": "Love Songs",
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2024,
+    "spotify_id": "7wei8Hb9DxoVKUOIIAhDEQ",
+    "spotify_uri": null,
+    "isrc": "USSUB2464403",
+    "musicbrainz_recording_id": "d1299f85-a5d7-4f9b-a5d7-86a76de7095d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 281,
+    "track_id": "spotify:0oS6978exXanyIZJD4cdgV",
+    "canonical_key": "isrc:GBK3W1901009",
+    "title": "1999",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2019,
+    "spotify_id": "0oS6978exXanyIZJD4cdgV",
+    "spotify_uri": null,
+    "isrc": "GBK3W1901009",
+    "musicbrainz_recording_id": "e55d6e74-ef32-4630-b7cd-764c5c726660",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 282,
+    "track_id": "spotify:4Gy8ZglxsvsIX04R5PWY7U",
+    "canonical_key": "isrc:GBK3W2202091",
+    "title": "See you Soon",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2022,
+    "spotify_id": "4Gy8ZglxsvsIX04R5PWY7U",
+    "spotify_uri": null,
+    "isrc": "GBK3W2202091",
+    "musicbrainz_recording_id": "8bb62e4a-5ae3-449e-9c7d-5d1c0e59a0b4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 283,
+    "track_id": "spotify:0JIMT9gzLIIz0esKLyjbKf",
+    "canonical_key": "isrc:SEYOK1814657",
+    "title": "Telephones",
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2018,
+    "spotify_id": "0JIMT9gzLIIz0esKLyjbKf",
+    "spotify_uri": null,
+    "isrc": "SEYOK1814657",
+    "musicbrainz_recording_id": "a63b1608-2ff9-4aa3-9947-2997fa45545c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 284,
+    "track_id": "spotify:1gNPP8TazAPuvq6R8oxxnU",
+    "canonical_key": "mbid:078af7df-cea9-4720-8a06-46d908a3b50b",
+    "title": "Shit I'm Dreaming",
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": "1gNPP8TazAPuvq6R8oxxnU",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "078af7df-cea9-4720-8a06-46d908a3b50b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 285,
+    "track_id": "spotify:67CeBSTKTSfzOlyLOfMxwF",
+    "canonical_key": "isrc:QZ5VZ1600005",
+    "title": "Alone Again",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2017,
+    "spotify_id": "67CeBSTKTSfzOlyLOfMxwF",
+    "spotify_uri": null,
+    "isrc": "QZ5VZ1600005",
+    "musicbrainz_recording_id": "5b3c3e10-7281-4015-9ab5-4a915f349731",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 286,
+    "track_id": "spotify:3Y4rUyw7XBCK6hGHCOt6rp",
+    "canonical_key": "isrc:USRC11300085",
+    "title": "Call It Fate, Call It Karma",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2013,
+    "spotify_id": "3Y4rUyw7XBCK6hGHCOt6rp",
+    "spotify_uri": null,
+    "isrc": "USRC11300085",
+    "musicbrainz_recording_id": "f77547b6-b113-485b-a327-1ecb3325c47a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 287,
+    "track_id": "spotify:08BgHsJg8f3Z8QJDAqabIA",
+    "canonical_key": "isrc:CAL451960801",
+    "title": "Visions",
+    "artists": [
+      "Loving"
+    ],
+    "year": 2020,
+    "spotify_id": "08BgHsJg8f3Z8QJDAqabIA",
+    "spotify_uri": null,
+    "isrc": "CAL451960801",
+    "musicbrainz_recording_id": "af1aaee1-7943-48a4-9f04-ab1758e712af",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 288,
+    "track_id": "spotify:13GNwY7azIE7J0VJUaz18S",
+    "canonical_key": "isrc:GBK3W1800909",
+    "title": "Everest",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "13GNwY7azIE7J0VJUaz18S",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800909",
+    "musicbrainz_recording_id": "399b7fe2-7858-4a14-b005-70be69efcf35",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 289,
+    "track_id": "spotify:4TXkzFABQIgKrTC9tcVlgR",
+    "canonical_key": "isrc:QZ5VZ1600006",
+    "title": "Remember When",
+    "artists": [
+      "Faye Webster"
+    ],
+    "year": 2017,
+    "spotify_id": "4TXkzFABQIgKrTC9tcVlgR",
+    "spotify_uri": null,
+    "isrc": "QZ5VZ1600006",
+    "musicbrainz_recording_id": "898d78de-9ce2-41f2-999c-6e046a1a7005",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 290,
+    "track_id": "spotify:4esUVfYnFcCCVHntx9FQCb",
+    "canonical_key": "isrc:FR31Q0900001",
+    "title": "Lisztomania",
+    "artists": [
+      "Phoenix"
+    ],
+    "year": 2009,
+    "spotify_id": "4esUVfYnFcCCVHntx9FQCb",
+    "spotify_uri": null,
+    "isrc": "FR31Q0900001",
+    "musicbrainz_recording_id": "21664467-2453-4867-8a0e-fca8826cd054",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 291,
+    "track_id": "spotify:21Ay8Y9Pr91nSauPGtK6MW",
+    "canonical_key": "isrc:USRC10100764",
+    "title": "Barely Legal",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "21Ay8Y9Pr91nSauPGtK6MW",
+    "spotify_uri": null,
+    "isrc": "USRC10100764",
+    "musicbrainz_recording_id": "f4e25493-e6c0-457c-85cf-144035ddeec2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 292,
+    "track_id": "spotify:5QLHGv0DfpeXLNFo7SFEy1",
+    "canonical_key": "isrc:USVI21200910",
+    "title": "1979 - Remastered 2012",
+    "artists": [
+      "The Smashing Pumpkins"
+    ],
+    "year": 1995,
+    "spotify_id": "5QLHGv0DfpeXLNFo7SFEy1",
+    "spotify_uri": null,
+    "isrc": "USVI21200910",
+    "musicbrainz_recording_id": "d4261bc4-a684-40d1-9f40-a4c394bfacb8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 293,
+    "track_id": "spotify:7eqoqGkKwgOaWNNHx90uEZ",
+    "canonical_key": "isrc:QZ5C81600009",
+    "title": "Nights",
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "7eqoqGkKwgOaWNNHx90uEZ",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600009",
+    "musicbrainz_recording_id": "3e341bc1-16e2-43e3-adf5-d7a8c2059b0d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 294,
+    "track_id": "spotify:0OM9ri37LIbPc9hffwsyb1",
+    "canonical_key": "isrc:USRC10100768",
+    "title": "Hard To Explain",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "0OM9ri37LIbPc9hffwsyb1",
+    "spotify_uri": null,
+    "isrc": "USRC10100768",
+    "musicbrainz_recording_id": "5105e2ef-4f42-44c5-967d-b1343d4b5827",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 295,
+    "track_id": "spotify:3iBgrkexCzVuPy4O9vx7Mf",
+    "canonical_key": "isrc:GBK3W2302568",
+    "title": "Glue Song",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2023,
+    "spotify_id": "3iBgrkexCzVuPy4O9vx7Mf",
+    "spotify_uri": null,
+    "isrc": "GBK3W2302568",
+    "musicbrainz_recording_id": "f220ba2e-0d12-41a2-b9ef-5a5119b967b8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 296,
+    "track_id": "spotify:2IvnDjlgH8yy70Nz99UdcJ",
+    "canonical_key": "isrc:USLS51832403",
+    "title": "Agape",
+    "artists": [
+      "Nicholas Britell"
+    ],
+    "year": 2018,
+    "spotify_id": "2IvnDjlgH8yy70Nz99UdcJ",
+    "spotify_uri": null,
+    "isrc": "USLS51832403",
+    "musicbrainz_recording_id": "4c4c3c7d-5407-4558-a0f5-2074e78f0f9a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 297,
+    "track_id": "spotify:2eRYuzlSOBk3HlMsCSOLPJ",
+    "canonical_key": "isrc:NLF050190048",
+    "title": "Baby Come Back",
+    "artists": [
+      "Player"
+    ],
+    "year": 1980,
+    "spotify_id": "2eRYuzlSOBk3HlMsCSOLPJ",
+    "spotify_uri": null,
+    "isrc": "NLF050190048",
+    "musicbrainz_recording_id": "a280eff0-ad06-486d-8636-066e5a826822",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 298,
+    "track_id": "spotify:2FPmvXIMpjgzJQbUeJo8Iv",
+    "canonical_key": "isrc:USRC12202291",
+    "title": "Sunshine (feat. Fousheé)",
+    "artists": [
+      "Steve Lacy",
+      "Fousheé"
+    ],
+    "year": 2022,
+    "spotify_id": "2FPmvXIMpjgzJQbUeJo8Iv",
+    "spotify_uri": null,
+    "isrc": "USRC12202291",
+    "musicbrainz_recording_id": "1725091c-4c28-45ae-8abf-7f4308bd66cc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 299,
+    "track_id": "spotify:2QdcmNlQdW8iA4JEg29cgx",
+    "canonical_key": "mbid:058cdb33-5ada-4b0b-bb97-291db9fb4449",
+    "title": "strangers",
+    "artists": [
+      "proderics",
+      "melodybloom"
+    ],
+    "year": 2024,
+    "spotify_id": "2QdcmNlQdW8iA4JEg29cgx",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "058cdb33-5ada-4b0b-bb97-291db9fb4449",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 300,
+    "track_id": "spotify:4pwJ6OujVQL3IpCr8KeXIg",
+    "canonical_key": "isrc:USAT22501642",
+    "title": "Nobody New",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2025,
+    "spotify_id": "4pwJ6OujVQL3IpCr8KeXIg",
+    "spotify_uri": null,
+    "isrc": "USAT22501642",
+    "musicbrainz_recording_id": "11bb6328-85a5-425c-8db3-bffe469ae057",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 301,
+    "track_id": "spotify:3G9tyuUoBVNTDXY0icrUVf",
+    "canonical_key": "isrc:TCAFF2074443",
+    "title": "Out of Me Head",
+    "artists": [
+      "Steve Lacy"
+    ],
+    "year": 2020,
+    "spotify_id": "3G9tyuUoBVNTDXY0icrUVf",
+    "spotify_uri": null,
+    "isrc": "TCAFF2074443",
+    "musicbrainz_recording_id": "0457c61e-4034-44bf-b140-10dc5264fd85",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 302,
+    "track_id": "spotify:1oAwsWBovWRIp7qLMGPIet",
+    "canonical_key": "isrc:USBQU1700034",
+    "title": "Apocalypse",
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": "1oAwsWBovWRIp7qLMGPIet",
+    "spotify_uri": null,
+    "isrc": "USBQU1700034",
+    "musicbrainz_recording_id": "a847bc14-7d8e-4009-ae3c-e7b60ecc71d3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 303,
+    "track_id": "spotify:0u2CGItUO2jYEiFaXD7n5S",
+    "canonical_key": "isrc:USWB10903804",
+    "title": "Wishing on a Star",
+    "artists": [
+      "Rose Royce"
+    ],
+    "year": 1977,
+    "spotify_id": "0u2CGItUO2jYEiFaXD7n5S",
+    "spotify_uri": null,
+    "isrc": "USWB10903804",
+    "musicbrainz_recording_id": "ff462c68-7bcf-49c0-a96e-9c379c71eb6e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 12
+  },
+  {
+    "row": 304,
+    "track_id": "spotify:6CcJMwBtXByIz4zQLzFkKc",
+    "canonical_key": "isrc:USUM71900773",
+    "title": "i love you",
+    "artists": [
+      "Billie Eilish"
+    ],
+    "year": 2019,
+    "spotify_id": "6CcJMwBtXByIz4zQLzFkKc",
+    "spotify_uri": null,
+    "isrc": "USUM71900773",
+    "musicbrainz_recording_id": "853e1775-727f-4b7f-b91d-09be9bb55ef8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 305,
+    "track_id": "spotify:4R5GN0mBvb6jkRj3Zvyhkl",
+    "canonical_key": "isrc:USA2B2059944",
+    "title": "Will I See You Again?",
+    "artists": [
+      "Thee Sacred Souls"
+    ],
+    "year": 2020,
+    "spotify_id": "4R5GN0mBvb6jkRj3Zvyhkl",
+    "spotify_uri": null,
+    "isrc": "USA2B2059944",
+    "musicbrainz_recording_id": "ad113b40-7ec8-4bda-a11c-0db0c9db0c5e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 306,
+    "track_id": "spotify:1aTf6n7MSd9z1LQYJEcmqF",
+    "canonical_key": "isrc:GBK3W2001414",
+    "title": "Care",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2020,
+    "spotify_id": "1aTf6n7MSd9z1LQYJEcmqF",
+    "spotify_uri": null,
+    "isrc": "GBK3W2001414",
+    "musicbrainz_recording_id": "167cc877-14c7-4be8-bd17-921a8dbf92e7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 307,
+    "track_id": "spotify:6Jmr2w49vC2cj4fPgmkjfH",
+    "canonical_key": "isrc:GBK3W1800822",
+    "title": "Spacing Out",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "6Jmr2w49vC2cj4fPgmkjfH",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800822",
+    "musicbrainz_recording_id": "2426e5cc-192f-4c8c-8355-8c64dbf404e8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 308,
+    "track_id": "spotify:1TUff6XKeK8DoVxdPIJnT3",
+    "canonical_key": "isrc:GBK3W1800820",
+    "title": "Home Alone",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "1TUff6XKeK8DoVxdPIJnT3",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800820",
+    "musicbrainz_recording_id": "0cde9ac4-28d0-4587-8a78-2ed319434916",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 309,
+    "track_id": "spotify:4yc69QtlnLzjcYSMPOtrEo",
+    "canonical_key": "isrc:GBK3W2101665",
+    "title": "Last Day On Earth",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2021,
+    "spotify_id": "4yc69QtlnLzjcYSMPOtrEo",
+    "spotify_uri": null,
+    "isrc": "GBK3W2101665",
+    "musicbrainz_recording_id": "7e7f47c2-6af9-4759-b637-8571700ca22e",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 310,
+    "track_id": "spotify:0mW58kig39aueBh99f6yGz",
+    "canonical_key": "isrc:GBK3W1800821",
+    "title": "Bobby",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "0mW58kig39aueBh99f6yGz",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800821",
+    "musicbrainz_recording_id": "eacfb73d-1f51-4f2c-b48f-433901eb6b07",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 311,
+    "track_id": "spotify:2sBKLT7bFa38yVAYxYltUX",
+    "canonical_key": "isrc:GBK3W1800911",
+    "title": "Dance with Me",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2018,
+    "spotify_id": "2sBKLT7bFa38yVAYxYltUX",
+    "spotify_uri": null,
+    "isrc": "GBK3W1800911",
+    "musicbrainz_recording_id": "1ab54563-dbd0-4097-9d35-d223bf628ff5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 312,
+    "track_id": "spotify:6PvxbkegGnVGxd1NDYS6fZ",
+    "canonical_key": "isrc:GBK3W2101745",
+    "title": "He Gets Me So High",
+    "artists": [
+      "beabadoobee"
+    ],
+    "year": 2021,
+    "spotify_id": "6PvxbkegGnVGxd1NDYS6fZ",
+    "spotify_uri": null,
+    "isrc": "GBK3W2101745",
+    "musicbrainz_recording_id": "e9d6be3c-6130-4e40-95de-b38ad242e02a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 313,
+    "track_id": "spotify:4rYUOu5vQ8pjBCYZL24Gfx",
+    "canonical_key": "spotify:4rYUOu5vQ8pjBCYZL24Gfx",
+    "title": "still love you (todavía)",
+    "artists": [
+      "The Two Lips"
+    ],
+    "year": 2024,
+    "spotify_id": "4rYUOu5vQ8pjBCYZL24Gfx",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 314,
+    "track_id": "spotify:5Hg1m5uhSPL75ejQgPOmyc",
+    "canonical_key": "isrc:QZK6N2400242",
+    "title": "Heaven Knows",
+    "artists": [
+      "54 Ultra"
+    ],
+    "year": 2024,
+    "spotify_id": "5Hg1m5uhSPL75ejQgPOmyc",
+    "spotify_uri": null,
+    "isrc": "QZK6N2400242",
+    "musicbrainz_recording_id": "ef23317d-ef87-4571-bb0d-a6b7bb20b6d7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 315,
+    "track_id": "spotify:1uehfWs4shogYWuboAFkme",
+    "canonical_key": "isrc:QZMER2383531",
+    "title": "Where Are You",
+    "artists": [
+      "54 Ultra"
+    ],
+    "year": 2023,
+    "spotify_id": "1uehfWs4shogYWuboAFkme",
+    "spotify_uri": null,
+    "isrc": "QZMER2383531",
+    "musicbrainz_recording_id": "ec9ca1ae-3af4-4869-9739-169bb7f76d12",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 316,
+    "track_id": "spotify:1XttACqLBTsxeyegtr1VbV",
+    "canonical_key": "spotify:1XttACqLBTsxeyegtr1VbV",
+    "title": "blossom",
+    "artists": [
+      "The Two Lips"
+    ],
+    "year": 2024,
+    "spotify_id": "1XttACqLBTsxeyegtr1VbV",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 317,
+    "track_id": "spotify:2t0wwvR15fc3K1ey8OiOaN",
+    "canonical_key": "isrc:USRC11902727",
+    "title": "Selfless",
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2020,
+    "spotify_id": "2t0wwvR15fc3K1ey8OiOaN",
+    "spotify_uri": null,
+    "isrc": "USRC11902727",
+    "musicbrainz_recording_id": "489416b0-7fce-4261-908b-b8b16b2a9f12",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 318,
+    "track_id": "spotify:3a3zDlE4bgI6ZvU00m6o84",
+    "canonical_key": "isrc:QZTAY2562283",
+    "title": "Cross Your Mind",
+    "artists": [
+      "Shelly"
+    ],
+    "year": 2025,
+    "spotify_id": "3a3zDlE4bgI6ZvU00m6o84",
+    "spotify_uri": null,
+    "isrc": "QZTAY2562283",
+    "musicbrainz_recording_id": "2bbc2827-5924-435c-95a9-62c3e22d3050",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 319,
+    "track_id": "spotify:4TLXwgCmciX8sYIVj1b7Xg",
+    "canonical_key": "isrc:QZTAY2562284",
+    "title": "Hartwell",
+    "artists": [
+      "Shelly"
+    ],
+    "year": 2025,
+    "spotify_id": "4TLXwgCmciX8sYIVj1b7Xg",
+    "spotify_uri": null,
+    "isrc": "QZTAY2562284",
+    "musicbrainz_recording_id": "f36f2dfb-917e-4af0-8782-f358f384f908",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 320,
+    "track_id": "spotify:1RXzYAbCsqYP6CcAkmPDM1",
+    "canonical_key": "isrc:SEYOK1837592",
+    "title": "The Basement",
+    "artists": [
+      "Lunar Vacation"
+    ],
+    "year": 2018,
+    "spotify_id": "1RXzYAbCsqYP6CcAkmPDM1",
+    "spotify_uri": null,
+    "isrc": "SEYOK1837592",
+    "musicbrainz_recording_id": "314e2332-a06b-4d1e-be94-f1dcf9e73813",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 321,
+    "track_id": "spotify:5Dp7CfpvcRYCamP1MTXxN1",
+    "canonical_key": "isrc:QZNWR2435830",
+    "title": "What More Can I Do",
+    "artists": [
+      "54 Ultra"
+    ],
+    "year": 2024,
+    "spotify_id": "5Dp7CfpvcRYCamP1MTXxN1",
+    "spotify_uri": null,
+    "isrc": "QZNWR2435830",
+    "musicbrainz_recording_id": "e79b129b-3654-41fd-b2a9-a29e07b09707",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 322,
+    "track_id": "spotify:19fKJrO9XdOf6Xla2QHecO",
+    "canonical_key": "isrc:USAT22400351",
+    "title": "Run Your Mouth",
+    "artists": [
+      "The Marías"
+    ],
+    "year": 2024,
+    "spotify_id": "19fKJrO9XdOf6Xla2QHecO",
+    "spotify_uri": null,
+    "isrc": "USAT22400351",
+    "musicbrainz_recording_id": "b0cdf3d5-8f3b-4d47-981b-a5937cebe454",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 323,
+    "track_id": "spotify:1PHPODXYdkxmU9nkrqLd8y",
+    "canonical_key": "isrc:USCW61403206",
+    "title": "What More Can I Say",
+    "artists": [
+      "The Notations"
+    ],
+    "year": 2015,
+    "spotify_id": "1PHPODXYdkxmU9nkrqLd8y",
+    "spotify_uri": null,
+    "isrc": "USCW61403206",
+    "musicbrainz_recording_id": "8ca55217-09e5-4bdd-a3eb-2f47b113cb8c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 324,
+    "track_id": "spotify:3ou9rSNUQnE7XYmJkUUIOc",
+    "canonical_key": "isrc:GBAYE0200774",
+    "title": "Green Eyes",
+    "artists": [
+      "Coldplay"
+    ],
+    "year": 2002,
+    "spotify_id": "3ou9rSNUQnE7XYmJkUUIOc",
+    "spotify_uri": null,
+    "isrc": "GBAYE0200774",
+    "musicbrainz_recording_id": "522da5b6-9ce1-4fbb-9262-4914b91fb532",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 325,
+    "track_id": "spotify:2fuYa3Lx06QQJAm0MjztKr",
+    "canonical_key": "isrc:GBAYE9701374",
+    "title": "Let Down",
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1997,
+    "spotify_id": "2fuYa3Lx06QQJAm0MjztKr",
+    "spotify_uri": null,
+    "isrc": "GBAYE9701374",
+    "musicbrainz_recording_id": "47b02a82-c3bf-4647-b894-dd1c8f608e7f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 326,
+    "track_id": "spotify:0cM751o5JLWKvlskFhAlo2",
+    "canonical_key": "isrc:USEZ61716902",
+    "title": "Yam Yam",
+    "artists": [
+      "No Vacation"
+    ],
+    "year": 2017,
+    "spotify_id": "0cM751o5JLWKvlskFhAlo2",
+    "spotify_uri": null,
+    "isrc": "USEZ61716902",
+    "musicbrainz_recording_id": "b6080590-2e5f-4ea3-b411-55d4aed67462",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 327,
+    "track_id": "spotify:6klFWv2xDGeTDoiKTtx4hg",
+    "canonical_key": "isrc:CAN112100381",
+    "title": "Everyone Adores You (at least I do)",
+    "artists": [
+      "Matt Maltese"
+    ],
+    "year": 2021,
+    "spotify_id": "6klFWv2xDGeTDoiKTtx4hg",
+    "spotify_uri": null,
+    "isrc": "CAN112100381",
+    "musicbrainz_recording_id": "71cf610c-1948-4a2d-8e94-87212d85c09f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 328,
+    "track_id": "spotify:5Qv2Nby1xTr9pQyjkrc94J",
+    "canonical_key": "isrc:GBSTK0700005",
+    "title": "All I Need",
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 2007,
+    "spotify_id": "5Qv2Nby1xTr9pQyjkrc94J",
+    "spotify_uri": null,
+    "isrc": "GBSTK0700005",
+    "musicbrainz_recording_id": "72c6b4d3-71a8-4c70-bf50-da11c0149089",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 329,
+    "track_id": "spotify:3RmFPuTTAjSQ2pbEd2j9oA",
+    "canonical_key": "isrc:USQX92504224",
+    "title": "Loser",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "3RmFPuTTAjSQ2pbEd2j9oA",
+    "spotify_uri": null,
+    "isrc": "USQX92504224",
+    "musicbrainz_recording_id": "ec87b2e6-3d7e-4121-96a3-051fe779de6f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 330,
+    "track_id": "spotify:2G2YzndIA6jeWFPBXhUjh5",
+    "canonical_key": "isrc:USQX91100088",
+    "title": "Be My Baby",
+    "artists": [
+      "The Ronettes"
+    ],
+    "year": 2011,
+    "spotify_id": "2G2YzndIA6jeWFPBXhUjh5",
+    "spotify_uri": null,
+    "isrc": "USQX91100088",
+    "musicbrainz_recording_id": "f3bac840-b32d-4a4d-90e1-19c17a9f3ec6",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 331,
+    "track_id": "spotify:0bfvHnWWOeU1U5XeKyVLbW",
+    "canonical_key": "isrc:USRH11000238",
+    "title": "Can't Take My Eyes off You",
+    "artists": [
+      "Frankie Valli"
+    ],
+    "year": 1967,
+    "spotify_id": "0bfvHnWWOeU1U5XeKyVLbW",
+    "spotify_uri": null,
+    "isrc": "USRH11000238",
+    "musicbrainz_recording_id": "e00ce662-d559-4901-a64f-25219a02c07a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 332,
+    "track_id": "spotify:65vdMBskhx3akkG9vQlSH1",
+    "canonical_key": "isrc:GBAYE0601442",
+    "title": "And I Love Her - Remastered 2009",
+    "artists": [
+      "The Beatles"
+    ],
+    "year": 1964,
+    "spotify_id": "65vdMBskhx3akkG9vQlSH1",
+    "spotify_uri": null,
+    "isrc": "GBAYE0601442",
+    "musicbrainz_recording_id": "917f2be3-065e-4d1e-8a76-1b50abd1ad95",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 333,
+    "track_id": "spotify:709ZIqPHyFOpx2QdjmeWAM",
+    "canonical_key": "isrc:USQX92504223",
+    "title": "Dracula",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "709ZIqPHyFOpx2QdjmeWAM",
+    "spotify_uri": null,
+    "isrc": "USQX92504223",
+    "musicbrainz_recording_id": "5b1c893a-16da-4e3d-b9b7-6cc57afc360c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 334,
+    "track_id": "spotify:09DR0sHnQUhHOiSNttc1mv",
+    "canonical_key": "isrc:USUG12209242",
+    "title": "Not Strong Enough",
+    "artists": [
+      "boygenius",
+      "Julien Baker",
+      "Phoebe Bridgers",
+      "Lucy Dacus"
+    ],
+    "year": 2023,
+    "spotify_id": "09DR0sHnQUhHOiSNttc1mv",
+    "spotify_uri": null,
+    "isrc": "USUG12209242",
+    "musicbrainz_recording_id": "58389d98-bfc9-4956-9dc2-4a692525958b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 6
+  },
+  {
+    "row": 335,
+    "track_id": "spotify:0cqrg8N4D0260NkHGUoS0z",
+    "canonical_key": "isrc:USAT22504787",
+    "title": "Puddles",
+    "artists": [
+      "Not for Radio"
+    ],
+    "year": 2025,
+    "spotify_id": "0cqrg8N4D0260NkHGUoS0z",
+    "spotify_uri": null,
+    "isrc": "USAT22504787",
+    "musicbrainz_recording_id": "df5e310a-6345-452a-b927-0f94b9fc3b8d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 336,
+    "track_id": "spotify:2AkJfhzKOTqgb3RxqyPMeU",
+    "canonical_key": "isrc:USAT22504789",
+    "title": "Moment",
+    "artists": [
+      "Not for Radio"
+    ],
+    "year": 2025,
+    "spotify_id": "2AkJfhzKOTqgb3RxqyPMeU",
+    "spotify_uri": null,
+    "isrc": "USAT22504789",
+    "musicbrainz_recording_id": "906e3b30-5850-49ca-8ef9-f2ee449d600d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 337,
+    "track_id": "spotify:47rCs1JJXC6AG20WKbyOUR",
+    "canonical_key": "isrc:USAT22504790",
+    "title": "Back To You",
+    "artists": [
+      "Not for Radio"
+    ],
+    "year": 2025,
+    "spotify_id": "47rCs1JJXC6AG20WKbyOUR",
+    "spotify_uri": null,
+    "isrc": "USAT22504790",
+    "musicbrainz_recording_id": "de8c5d5d-8520-4e1a-94b3-49130d4b0bb9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 338,
+    "track_id": "spotify:2fgawGARU29VQIf8jb26fl",
+    "canonical_key": "isrc:USAT22504793",
+    "title": "Magnet",
+    "artists": [
+      "Not for Radio"
+    ],
+    "year": 2025,
+    "spotify_id": "2fgawGARU29VQIf8jb26fl",
+    "spotify_uri": null,
+    "isrc": "USAT22504793",
+    "musicbrainz_recording_id": "60e88da5-cbb1-4964-a1f9-ba14c9491baf",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 339,
+    "track_id": "spotify:4LqkSEGv7SpGzruiSTkfL5",
+    "canonical_key": "isrc:USQX92504230",
+    "title": "Afterthought",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "4LqkSEGv7SpGzruiSTkfL5",
+    "spotify_uri": null,
+    "isrc": "USQX92504230",
+    "musicbrainz_recording_id": "571cf5ba-695a-4b9d-a22b-b2361603faee",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 340,
+    "track_id": "spotify:4whkhyXTrTgHKZzkUvdwoq",
+    "canonical_key": "isrc:USQX92504221",
+    "title": "My Old Ways",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "4whkhyXTrTgHKZzkUvdwoq",
+    "spotify_uri": null,
+    "isrc": "USQX92504221",
+    "musicbrainz_recording_id": "f2581fbc-ab90-4a48-a131-130b6cbb7cf3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 341,
+    "track_id": "spotify:5x0zW1JcdON7Zli2umGEJg",
+    "canonical_key": "isrc:USQX92504222",
+    "title": "No Reply",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "5x0zW1JcdON7Zli2umGEJg",
+    "spotify_uri": null,
+    "isrc": "USQX92504222",
+    "musicbrainz_recording_id": "b0dee447-bdfe-4b46-8c0e-84689b94a853",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 342,
+    "track_id": "spotify:0gwCQvjDPCTFEq9790FGdC",
+    "canonical_key": "isrc:USQX92504227",
+    "title": "Piece Of Heaven",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "0gwCQvjDPCTFEq9790FGdC",
+    "spotify_uri": null,
+    "isrc": "USQX92504227",
+    "musicbrainz_recording_id": "ad79b526-8df8-4e79-8756-0607df153e59",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 343,
+    "track_id": "spotify:0On1SxfkvTOfzvjVgFLK7V",
+    "canonical_key": "isrc:USQX92504228",
+    "title": "Obsolete",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2025,
+    "spotify_id": "0On1SxfkvTOfzvjVgFLK7V",
+    "spotify_uri": null,
+    "isrc": "USQX92504228",
+    "musicbrainz_recording_id": "6da0b598-d9cf-4f62-8376-bc3181e509af",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 344,
+    "track_id": "spotify:4zEvxRDaKDoFlHxK7Hy0wg",
+    "canonical_key": "isrc:USIR29300081",
+    "title": "Sunday",
+    "artists": [
+      "The Cranberries"
+    ],
+    "year": 1993,
+    "spotify_id": "4zEvxRDaKDoFlHxK7Hy0wg",
+    "spotify_uri": null,
+    "isrc": "USIR29300081",
+    "musicbrainz_recording_id": "706afb2e-9e9e-4844-bca6-00536f12f20c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 345,
+    "track_id": "spotify:0ccoGCaOFCxI6pHixrQpKj",
+    "canonical_key": "isrc:FR8EU2300010",
+    "title": "Neverender",
+    "artists": [
+      "Justice",
+      "Tame Impala"
+    ],
+    "year": 2024,
+    "spotify_id": "0ccoGCaOFCxI6pHixrQpKj",
+    "spotify_uri": null,
+    "isrc": "FR8EU2300010",
+    "musicbrainz_recording_id": "aadeced3-ae64-4ef7-afce-2d72cfddfd80",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 346,
+    "track_id": "spotify:0pJW1Xw3aY4Eh6k5iuBkfI",
+    "canonical_key": "isrc:USJ5G2020011",
+    "title": "I Know The End",
+    "artists": [
+      "Phoebe Bridgers"
+    ],
+    "year": 2020,
+    "spotify_id": "0pJW1Xw3aY4Eh6k5iuBkfI",
+    "spotify_uri": null,
+    "isrc": "USJ5G2020011",
+    "musicbrainz_recording_id": "8846d338-a4c5-4e2c-b48b-babba2958d6c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 347,
+    "track_id": "spotify:4PEGwWH4tL6H7dGl4uVSPg",
+    "canonical_key": "isrc:GBBBM9202008",
+    "title": "Like a Tattoo",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1992,
+    "spotify_id": "4PEGwWH4tL6H7dGl4uVSPg",
+    "spotify_uri": null,
+    "isrc": "GBBBM9202008",
+    "musicbrainz_recording_id": "c16dcdcd-e24b-445d-b02b-89d9e0269a27",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 348,
+    "track_id": "spotify:1JmRbZclLHgneDrpyA9e3X",
+    "canonical_key": "isrc:FRU700900115",
+    "title": "Undercover Martyn",
+    "artists": [
+      "Two Door Cinema Club"
+    ],
+    "year": 2010,
+    "spotify_id": "1JmRbZclLHgneDrpyA9e3X",
+    "spotify_uri": null,
+    "isrc": "FRU700900115",
+    "musicbrainz_recording_id": "64bca479-8a95-4ebd-a1db-bff355892b62",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 349,
+    "track_id": "spotify:0xtIp0lgccN85GfGOekS5L",
+    "canonical_key": "isrc:AUUM71500295",
+    "title": "Yes I'm Changing",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "0xtIp0lgccN85GfGOekS5L",
+    "spotify_uri": null,
+    "isrc": "AUUM71500295",
+    "musicbrainz_recording_id": "173324ec-808e-467a-bab8-0fa3a78bf90d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 350,
+    "track_id": "spotify:65krtHkaYLPr0mEbjL61UP",
+    "canonical_key": "isrc:GBBBM9200026",
+    "title": "Kiss of Life",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1994,
+    "spotify_id": "65krtHkaYLPr0mEbjL61UP",
+    "spotify_uri": null,
+    "isrc": "GBBBM9200026",
+    "musicbrainz_recording_id": "603dce52-0704-4851-8c63-835e4b0a14f7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 351,
+    "track_id": "spotify:6qZjm61s6u8Ead9sWxCDro",
+    "canonical_key": "isrc:AUUM71200495",
+    "title": "Elephant",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2012,
+    "spotify_id": "6qZjm61s6u8Ead9sWxCDro",
+    "spotify_uri": null,
+    "isrc": "AUUM71200495",
+    "musicbrainz_recording_id": "920be16d-e040-433d-b941-39bef05543b0",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 352,
+    "track_id": "spotify:1cCbsojaA6GIT7Y3zuMJ1q",
+    "canonical_key": "isrc:AUUM71500293",
+    "title": "Nangs",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "1cCbsojaA6GIT7Y3zuMJ1q",
+    "spotify_uri": null,
+    "isrc": "AUUM71500293",
+    "musicbrainz_recording_id": "c9f0e0e0-3789-4a78-a91e-03bc0c3ea998",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 353,
+    "track_id": "spotify:2cGxRwrMyEAp8dEbuZaVv6",
+    "canonical_key": "isrc:USQX91300105",
+    "title": "Instant Crush (feat. Julian Casablancas)",
+    "artists": [
+      "Daft Punk",
+      "Julian Casablancas"
+    ],
+    "year": 2013,
+    "spotify_id": "2cGxRwrMyEAp8dEbuZaVv6",
+    "spotify_uri": null,
+    "isrc": "USQX91300105",
+    "musicbrainz_recording_id": "fbcbe400-5d8e-467b-851c-0385a39c190d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 354,
+    "track_id": "spotify:2LD2gT7gwAurzdQDQtILds",
+    "canonical_key": "isrc:GBDUW0000066",
+    "title": "Veridis Quo",
+    "artists": [
+      "Daft Punk"
+    ],
+    "year": 2001,
+    "spotify_id": "2LD2gT7gwAurzdQDQtILds",
+    "spotify_uri": null,
+    "isrc": "GBDUW0000066",
+    "musicbrainz_recording_id": "2a220770-1150-4190-b0e0-57d89a0a7469",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 355,
+    "track_id": "spotify:3TO7bbrUKrOSPGRTB5MeCz",
+    "canonical_key": "isrc:GBN9Y1100079",
+    "title": "Time",
+    "artists": [
+      "Pink Floyd"
+    ],
+    "year": 1973,
+    "spotify_id": "3TO7bbrUKrOSPGRTB5MeCz",
+    "spotify_uri": null,
+    "isrc": "GBN9Y1100079",
+    "musicbrainz_recording_id": "41959321-f2bb-4580-aa19-16248fe665d3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 356,
+    "track_id": "spotify:2TjdnqlpwOjhijHCwHCP2d",
+    "canonical_key": "isrc:GBN9Y1100080",
+    "title": "The Great Gig in the Sky",
+    "artists": [
+      "Pink Floyd"
+    ],
+    "year": 1973,
+    "spotify_id": "2TjdnqlpwOjhijHCwHCP2d",
+    "spotify_uri": null,
+    "isrc": "GBN9Y1100080",
+    "musicbrainz_recording_id": "73b01cea-2dad-4fc2-9e61-02a31477c1b1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 357,
+    "track_id": "spotify:1TKTiKp3zbNgrBH2IwSwIx",
+    "canonical_key": "isrc:GBN9Y1100082",
+    "title": "Us and Them",
+    "artists": [
+      "Pink Floyd"
+    ],
+    "year": 1973,
+    "spotify_id": "1TKTiKp3zbNgrBH2IwSwIx",
+    "spotify_uri": null,
+    "isrc": "GBN9Y1100082",
+    "musicbrainz_recording_id": "2d1201cf-59bb-4ffa-9f52-f5b3afa13346",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 358,
+    "track_id": "spotify:4SgcE7RxpK3ydWrjoAQH1K",
+    "canonical_key": "isrc:AUUM71000135",
+    "title": "Why Won't You Make Up Your Mind?",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2010,
+    "spotify_id": "4SgcE7RxpK3ydWrjoAQH1K",
+    "spotify_uri": null,
+    "isrc": "AUUM71000135",
+    "musicbrainz_recording_id": "db644461-3d63-4b80-9a95-435ccef31243",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 359,
+    "track_id": "spotify:3iohh4bLsUKefmjHw5jhbq",
+    "canonical_key": "isrc:AUUM71000141",
+    "title": "Runway Houses City Clouds",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2010,
+    "spotify_id": "3iohh4bLsUKefmjHw5jhbq",
+    "spotify_uri": null,
+    "isrc": "AUUM71000141",
+    "musicbrainz_recording_id": "041ee6fd-12c0-4f34-a4a0-77425410bdc5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 360,
+    "track_id": "spotify:7qU7vhCPKhkDiJYGoboISc",
+    "canonical_key": "isrc:AUUM71200489",
+    "title": "Apocalypse Dreams",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2012,
+    "spotify_id": "7qU7vhCPKhkDiJYGoboISc",
+    "spotify_uri": null,
+    "isrc": "AUUM71200489",
+    "musicbrainz_recording_id": "5b83bc77-5bf8-4abc-a5bb-9a3421b60b27",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 361,
+    "track_id": "spotify:3LbZIhU0smEU5SUnxod4j4",
+    "canonical_key": "isrc:AUUM71900929",
+    "title": "Breathe Deeper",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2020,
+    "spotify_id": "3LbZIhU0smEU5SUnxod4j4",
+    "spotify_uri": null,
+    "isrc": "AUUM71900929",
+    "musicbrainz_recording_id": "e99935b9-9939-43bf-ae9a-cc954689463e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 362,
+    "track_id": "spotify:20I8RduZC2PWMWTDCZuuAN",
+    "canonical_key": "isrc:GBCEL0300192",
+    "title": "Take Me Out",
+    "artists": [
+      "Franz Ferdinand"
+    ],
+    "year": 2004,
+    "spotify_id": "20I8RduZC2PWMWTDCZuuAN",
+    "spotify_uri": null,
+    "isrc": "GBCEL0300192",
+    "musicbrainz_recording_id": "a1818245-54db-4881-86be-7ff3180c3e06",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 363,
+    "track_id": "spotify:62ocXa3rr5qUWI3GAhWnaH",
+    "canonical_key": "isrc:USA4D0922205",
+    "title": "Milk",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "62ocXa3rr5qUWI3GAhWnaH",
+    "spotify_uri": null,
+    "isrc": "USA4D0922205",
+    "musicbrainz_recording_id": "76fca1bb-849b-4a4c-9677-31a10f3f67ba",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 364,
+    "track_id": "spotify:3I7Uqll4wyJmfBSDQWiLWh",
+    "canonical_key": "isrc:USA4D0922202",
+    "title": "Air Supply",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "3I7Uqll4wyJmfBSDQWiLWh",
+    "spotify_uri": null,
+    "isrc": "USA4D0922202",
+    "musicbrainz_recording_id": "483a44e1-c3f3-41d5-94f1-22831d0282ca",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 365,
+    "track_id": "spotify:330R1oj7yJCoFU3BL6jWas",
+    "canonical_key": "isrc:USA4D0922207",
+    "title": "To the Moon",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "330R1oj7yJCoFU3BL6jWas",
+    "spotify_uri": null,
+    "isrc": "USA4D0922207",
+    "musicbrainz_recording_id": "fda88ae1-9fc6-4f02-81ad-3c0aed0f248a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 366,
+    "track_id": "spotify:3GTxASUt4xxZsvxDxyvJFi",
+    "canonical_key": "isrc:USA4D0922211",
+    "title": "Pretending",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "3GTxASUt4xxZsvxDxyvJFi",
+    "spotify_uri": null,
+    "isrc": "USA4D0922211",
+    "musicbrainz_recording_id": "02f04536-6fb7-41a2-b379-e63e82f7aaa2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 367,
+    "track_id": "spotify:7zKoboLWr4yfJhBtjrLYb5",
+    "canonical_key": "isrc:USA4D0922213",
+    "title": "Your World is Eternally Complete",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "7zKoboLWr4yfJhBtjrLYb5",
+    "spotify_uri": null,
+    "isrc": "USA4D0922213",
+    "musicbrainz_recording_id": "49aa06f1-f5cf-44a4-b4eb-d22b38db0521",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 368,
+    "track_id": "spotify:1yV3yP5zCoDu6V1MkFzudx",
+    "canonical_key": "isrc:QZTAU2217247",
+    "title": "absence",
+    "artists": [
+      "blushʕ ꈍᴥꈍʔ"
+    ],
+    "year": 2022,
+    "spotify_id": "1yV3yP5zCoDu6V1MkFzudx",
+    "spotify_uri": null,
+    "isrc": "QZTAU2217247",
+    "musicbrainz_recording_id": "ba12ebe8-da95-4371-aac4-7612ad7c9f7c",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 369,
+    "track_id": "spotify:5QZaScL5GyxA3e2MQ61TYj",
+    "canonical_key": "isrc:QZTAU2217248",
+    "title": "glimpse",
+    "artists": [
+      "blushʕ ꈍᴥꈍʔ"
+    ],
+    "year": 2022,
+    "spotify_id": "5QZaScL5GyxA3e2MQ61TYj",
+    "spotify_uri": null,
+    "isrc": "QZTAU2217248",
+    "musicbrainz_recording_id": "350db4fa-5d5e-4607-a541-ecd983746400",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 370,
+    "track_id": "spotify:0QzRVIKjGxKNPzBkX1rZJn",
+    "canonical_key": "isrc:QZFYY2473143",
+    "title": "breaking down",
+    "artists": [
+      "ERRx"
+    ],
+    "year": 2024,
+    "spotify_id": "0QzRVIKjGxKNPzBkX1rZJn",
+    "spotify_uri": null,
+    "isrc": "QZFYY2473143",
+    "musicbrainz_recording_id": "2e23d699-1b0a-458d-a79d-e89b4d76dcea",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 371,
+    "track_id": "spotify:5ibvAGEIPKfrK4WKGg9Iuy",
+    "canonical_key": "isrc:USA4D2136201",
+    "title": "Tiny Houses",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "5ibvAGEIPKfrK4WKGg9Iuy",
+    "spotify_uri": null,
+    "isrc": "USA4D2136201",
+    "musicbrainz_recording_id": "b20873ff-9a7f-4f76-a8aa-780e8473d00d",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 372,
+    "track_id": "spotify:4f1QecfPOW4F8auLfkRFrn",
+    "canonical_key": "isrc:USA4D2136204",
+    "title": "In Sound, We Found Each Other",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "4f1QecfPOW4F8auLfkRFrn",
+    "spotify_uri": null,
+    "isrc": "USA4D2136204",
+    "musicbrainz_recording_id": "52b0e436-a422-4266-b06f-e58133a5b4b4",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 7
+  },
+  {
+    "row": 373,
+    "track_id": "spotify:3xsIMaBaqCFmUE0wxwedhd",
+    "canonical_key": "isrc:USA4D2136205",
+    "title": "Chapters",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "3xsIMaBaqCFmUE0wxwedhd",
+    "spotify_uri": null,
+    "isrc": "USA4D2136205",
+    "musicbrainz_recording_id": "4d5f791b-e5db-41c3-a53c-097ed839cc00",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 11
+  },
+  {
+    "row": 374,
+    "track_id": "spotify:0M654gJiZE24jGSAurvvd0",
+    "canonical_key": "isrc:USA4D2136206",
+    "title": "Eave Foolery Mill Five",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "0M654gJiZE24jGSAurvvd0",
+    "spotify_uri": null,
+    "isrc": "USA4D2136206",
+    "musicbrainz_recording_id": "611e1669-9c10-42bf-aa90-099b221ad8c3",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 8
+  },
+  {
+    "row": 375,
+    "track_id": "spotify:3g8vzv61JHmJ2edNcmF7lf",
+    "canonical_key": "isrc:USA4D2136211",
+    "title": "Walkers Beware! We Drive into the Sun",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "3g8vzv61JHmJ2edNcmF7lf",
+    "spotify_uri": null,
+    "isrc": "USA4D2136211",
+    "musicbrainz_recording_id": "6b8bcd72-241f-414c-91f4-22e6d04285a2",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 11
+  },
+  {
+    "row": 376,
+    "track_id": "spotify:0dWxlbq9Dvj7VvACr1UiHt",
+    "canonical_key": "isrc:USA4D2136216",
+    "title": "Here Comes the Sea",
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2021,
+    "spotify_id": "0dWxlbq9Dvj7VvACr1UiHt",
+    "spotify_uri": null,
+    "isrc": "USA4D2136216",
+    "musicbrainz_recording_id": "0909249f-f1b9-4a39-aa4a-4631827f4b78",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 10
+  },
+  {
+    "row": 377,
+    "track_id": "spotify:4iZxeyibg6w4EFCOoAQ6Eh",
+    "canonical_key": "isrc:FRU700900116",
+    "title": "What You Know",
+    "artists": [
+      "Two Door Cinema Club"
+    ],
+    "year": 2010,
+    "spotify_id": "4iZxeyibg6w4EFCOoAQ6Eh",
+    "spotify_uri": null,
+    "isrc": "FRU700900116",
+    "musicbrainz_recording_id": "cadde50b-8c42-4a16-af00-185fcc3827f4",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 378,
+    "track_id": "spotify:0zo5H2QWXCkarmPSK2KJvH",
+    "canonical_key": "isrc:FRU700900101",
+    "title": "Something Good Can Work",
+    "artists": [
+      "Two Door Cinema Club"
+    ],
+    "year": 2010,
+    "spotify_id": "0zo5H2QWXCkarmPSK2KJvH",
+    "spotify_uri": null,
+    "isrc": "FRU700900101",
+    "musicbrainz_recording_id": "4c9f771c-289c-47a6-b58d-1cd302b47b3f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 379,
+    "track_id": "spotify:0tkBOcK7oRVXQJY97zzSvr",
+    "canonical_key": "isrc:USRC11301162",
+    "title": "Telescope",
+    "artists": [
+      "Cage The Elephant"
+    ],
+    "year": 2013,
+    "spotify_id": "0tkBOcK7oRVXQJY97zzSvr",
+    "spotify_uri": null,
+    "isrc": "USRC11301162",
+    "musicbrainz_recording_id": "f6cfcf2c-0b87-408b-be0f-6bf060e7b7fa",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 380,
+    "track_id": "spotify:6VLjdregMReJhKp2r32IWo",
+    "canonical_key": "isrc:TCAFE2075141",
+    "title": "Natural",
+    "artists": [
+      "Shelly"
+    ],
+    "year": 2020,
+    "spotify_id": "6VLjdregMReJhKp2r32IWo",
+    "spotify_uri": null,
+    "isrc": "TCAFE2075141",
+    "musicbrainz_recording_id": "a86f4df6-1810-4072-8476-e6f2f85587f5",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 381,
+    "track_id": "spotify:3F9ByoUqu31xU0I3G5xfVg",
+    "canonical_key": "mbid:29d3fe05-2c57-488c-b4dc-818ddd314ca7",
+    "title": "Meet Me Halfway",
+    "artists": [
+      "Black Eyed Peas"
+    ],
+    "year": 2009,
+    "spotify_id": "3F9ByoUqu31xU0I3G5xfVg",
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": "29d3fe05-2c57-488c-b4dc-818ddd314ca7",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 382,
+    "track_id": "spotify:2drEUEg0TYQR6dDEHkpuPE",
+    "canonical_key": "isrc:AUUM71900284",
+    "title": "Patience",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2019,
+    "spotify_id": "2drEUEg0TYQR6dDEHkpuPE",
+    "spotify_uri": null,
+    "isrc": "AUUM71900284",
+    "musicbrainz_recording_id": "bba0e134-26c5-4546-9cca-5e0ccea9cdfc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 383,
+    "track_id": "spotify:0qhVpwKivK3u4OMLb7Z9Ah",
+    "canonical_key": "isrc:SGW502501648",
+    "title": "tower of memories",
+    "artists": [
+      "ivri"
+    ],
+    "year": 2025,
+    "spotify_id": "0qhVpwKivK3u4OMLb7Z9Ah",
+    "spotify_uri": null,
+    "isrc": "SGW502501648",
+    "musicbrainz_recording_id": "b84e37ea-ea52-4ce7-8fdd-b1155dd207f9",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 384,
+    "track_id": "spotify:0qWoOHqTirzo59FQ9eoECH",
+    "canonical_key": "isrc:USA2P2532105",
+    "title": "All I Did Was Dream of You (feat. The Marías)",
+    "artists": [
+      "beabadoobee",
+      "The Marías"
+    ],
+    "year": 2026,
+    "spotify_id": "0qWoOHqTirzo59FQ9eoECH",
+    "spotify_uri": null,
+    "isrc": "USA2P2532105",
+    "musicbrainz_recording_id": "bd3cbfe4-f240-47b6-8095-99278d4ed979",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 385,
+    "track_id": "spotify:5JWPUEov2wlX7c0jhYZpeB",
+    "canonical_key": "isrc:AUUM71900932",
+    "title": "Lost In Yesterday",
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2020,
+    "spotify_id": "5JWPUEov2wlX7c0jhYZpeB",
+    "spotify_uri": null,
+    "isrc": "AUUM71900932",
+    "musicbrainz_recording_id": "4c4cba2e-a6a2-44ca-beac-560d33c923ed",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 386,
+    "track_id": "spotify:4wG1OI56aIbNlvQcI2P8VA",
+    "canonical_key": "isrc:TCADN1867874",
+    "title": "Letters to Jun(E)",
+    "artists": [
+      "Witness"
+    ],
+    "year": 2011,
+    "spotify_id": "4wG1OI56aIbNlvQcI2P8VA",
+    "spotify_uri": null,
+    "isrc": "TCADN1867874",
+    "musicbrainz_recording_id": "e00f83b5-92e4-4001-88ba-2577264f3372",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "tech house / dance",
+    "size": 51,
+    "sample_tracks": [
+      "Where You Are — John Summit, HAYLA",
+      "Shiver — John Summit, HAYLA",
+      "Soul Searcher — Wh0, Kideko",
+      "(It Goes Like) Nanana - Edit — Peggy Gou",
+      "Losing Control — Odd Mob, OMNOM",
+      "Stop It — FISHER",
+      "Turn off the Lights — Chris Lake, Alexis Roberts",
+      "Miracle Maker — Dom Dolla, Clementine Douglas",
+      "Boom Shakalaka — Moksi, Emy Perez, Digitzz",
+      "Atmosphere — FISHER, Kita Alexander"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__tech_house",
+        "pretty_feature": "tech house",
+        "score": 0.6953937608056251
+      },
+      {
+        "feature": "genre__tech_house",
+        "pretty_feature": "tech house",
+        "score": 0.695393731509132
+      },
+      {
+        "feature": "tag__dance",
+        "pretty_feature": "dance",
+        "score": 0.6883446392124274
+      },
+      {
+        "feature": "genre__dance",
+        "pretty_feature": "dance",
+        "score": 0.688344618437484
+      },
+      {
+        "feature": "tag__house",
+        "pretty_feature": "house",
+        "score": 0.6675956937464064
+      },
+      {
+        "feature": "genre__house",
+        "pretty_feature": "house",
+        "score": 0.6675956555509646
+      },
+      {
+        "feature": "genre__euro_house",
+        "pretty_feature": "euro house",
+        "score": 0.46882840001053905
+      },
+      {
+        "feature": "tag__euro_house",
+        "pretty_feature": "euro house",
+        "score": 0.46882837559679547
+      },
+      {
+        "feature": "tag__electronica",
+        "pretty_feature": "electronica",
+        "score": 0.4069731208571018
+      },
+      {
+        "feature": "tag__french_house",
+        "pretty_feature": "french house",
+        "score": 0.4069731208571018
+      }
+    ]
+  }
+]
