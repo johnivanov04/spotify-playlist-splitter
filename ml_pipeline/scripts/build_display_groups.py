@@ -38,8 +38,17 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
     if "cool jazz" in name or name == "jazz / cool jazz" or "jazz /" in name or "/ jazz" in name:
         return "Jazz / Nujabes / Downtempo"
 
+    if any(k in name for k in ["singer songwriter", "acoustic"]):
+        return "Acoustic / Chill"
+
     if any(k in name for k in [
-        "r and b", "soul", "neo soul", "alternative r and b", "contemporary r and b"
+        "rock", "indie", "alternative", "punk", "grunge", "emo"
+    ]):
+        return "Rock / Indie"
+
+    if any(k in name for k in [
+        "r and b", "r b", "soul", "neo soul", "alternative r and b", "contemporary r and b",
+        "psychedelic soul",
     ]):
         return "R&B / Soul"
 
@@ -69,7 +78,18 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
         return "Jazz / Nujabes / Downtempo"
 
     if any(k in feat_text for k in [
-        "r and b", "soul", "neo soul", "alternative r and b", "contemporary r and b"
+        "singer songwriter", "folk", "acoustic guitar"
+    ]):
+        return "Acoustic / Chill"
+
+    if any(k in feat_text for k in [
+        "rock", "indie", "alternative", "punk", "grunge", "britpop", "post punk"
+    ]):
+        return "Rock / Indie"
+
+    if any(k in feat_text for k in [
+        "r and b", "soul", "neo soul", "alternative r and b", "contemporary r and b",
+        "psychedelic soul",
     ]):
         return "R&B / Soul"
 

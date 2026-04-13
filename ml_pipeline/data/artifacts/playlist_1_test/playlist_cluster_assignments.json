@@ -15,7 +15,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 11
+    "cluster": 6
   },
   {
     "row": 1,
@@ -33,7 +33,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 4
   },
   {
     "row": 2,
@@ -51,7 +51,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 3,
@@ -69,7 +69,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 4,
@@ -87,7 +87,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 5,
@@ -105,7 +105,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 6,
@@ -123,7 +123,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 7,
@@ -141,7 +141,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 8,
@@ -159,7 +159,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 9,
@@ -177,7 +177,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 10,
@@ -195,7 +195,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 11,
@@ -214,7 +214,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 12,
@@ -232,7 +232,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 13,
@@ -250,7 +250,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 14,
@@ -268,7 +268,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 15,
@@ -286,7 +286,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 16,
@@ -304,7 +304,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 0
   },
   {
     "row": 17,
@@ -322,7 +322,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 18,
@@ -340,7 +340,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 19,
@@ -358,7 +358,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 20,
@@ -376,7 +376,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 21,
@@ -394,7 +394,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 22,
@@ -412,7 +412,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 5
   },
   {
     "row": 23,
@@ -430,7 +430,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 24,
@@ -448,7 +448,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 25,
@@ -466,7 +466,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 26,
@@ -484,7 +484,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 27,
@@ -502,7 +502,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 28,
@@ -520,7 +520,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 29,
@@ -538,7 +538,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 30,
@@ -556,7 +556,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 31,
@@ -574,7 +574,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 32,
@@ -592,7 +592,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 33,
@@ -610,7 +610,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 34,
@@ -628,7 +628,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 35,
@@ -646,7 +646,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 36,
@@ -664,7 +664,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 37,
@@ -682,7 +682,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 38,
@@ -700,7 +700,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 39,
@@ -718,7 +718,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 40,
@@ -737,7 +737,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 41,
@@ -755,7 +755,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 42,
@@ -773,7 +773,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 43,
@@ -791,7 +791,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 44,
@@ -809,7 +809,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 45,
@@ -827,7 +827,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 46,
@@ -845,7 +845,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 47,
@@ -863,7 +863,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 48,
@@ -881,7 +881,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 49,
@@ -899,7 +899,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 50,
@@ -917,7 +917,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 51,
@@ -935,7 +935,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 52,
@@ -953,7 +953,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 53,
@@ -971,7 +971,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 54,
@@ -989,7 +989,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 55,
@@ -1007,7 +1007,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 56,
@@ -1025,7 +1025,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 57,
@@ -1043,7 +1043,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 58,
@@ -1061,7 +1061,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 59,
@@ -1079,7 +1079,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 60,
@@ -1097,7 +1097,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 61,
@@ -1115,7 +1115,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 62,
@@ -1133,7 +1133,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 63,
@@ -1151,7 +1151,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 64,
@@ -1169,7 +1169,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 65,
@@ -1187,7 +1187,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 66,
@@ -1206,7 +1206,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 67,
@@ -1224,7 +1224,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 68,
@@ -1242,7 +1242,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 69,
@@ -1260,7 +1260,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 70,
@@ -1278,7 +1278,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 71,
@@ -1296,7 +1296,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 72,
@@ -1314,7 +1314,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 73,
@@ -1332,7 +1332,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 74,
@@ -1350,7 +1350,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 75,
@@ -1369,7 +1369,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 11
+    "cluster": 10
   },
   {
     "row": 76,
@@ -1387,7 +1387,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 77,
@@ -1405,7 +1405,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 78,
@@ -1423,7 +1423,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 79,
@@ -1441,7 +1441,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 80,
@@ -1461,7 +1461,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 81,
@@ -1479,7 +1479,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 82,
@@ -1497,7 +1497,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 5
   },
   {
     "row": 83,
@@ -1515,7 +1515,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 84,
@@ -1533,7 +1533,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 85,
@@ -1551,7 +1551,7 @@
     "has_tags": true,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 86,
@@ -1569,7 +1569,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 87,
@@ -1587,7 +1587,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 88,
@@ -1605,7 +1605,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 89,
@@ -1623,7 +1623,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 90,
@@ -1641,7 +1641,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 91,
@@ -1659,7 +1659,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 92,
@@ -1677,7 +1677,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 93,
@@ -1695,7 +1695,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 94,
@@ -1713,7 +1713,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 95,
@@ -1731,7 +1731,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 96,
@@ -1749,7 +1749,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 97,
@@ -1767,7 +1767,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 98,
@@ -1785,7 +1785,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 99,
@@ -1803,7 +1803,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 100,
@@ -1821,7 +1821,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 101,
@@ -1839,7 +1839,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 102,
@@ -1857,7 +1857,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 103,
@@ -1875,7 +1875,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 104,
@@ -1893,7 +1893,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 105,
@@ -1911,7 +1911,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 106,
@@ -1929,7 +1929,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 107,
@@ -1947,7 +1947,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 108,
@@ -1965,7 +1965,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 109,
@@ -1983,7 +1983,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 110,
@@ -2001,7 +2001,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 111,
@@ -2020,7 +2020,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 112,
@@ -2038,7 +2038,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 113,
@@ -2056,7 +2056,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 114,
@@ -2074,7 +2074,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 115,
@@ -2092,7 +2092,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 116,
@@ -2110,7 +2110,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 117,
@@ -2128,7 +2128,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 118,
@@ -2146,7 +2146,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 119,
@@ -2164,7 +2164,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 120,
@@ -2182,7 +2182,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 121,
@@ -2200,7 +2200,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 122,
@@ -2218,7 +2218,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 123,
@@ -2236,7 +2236,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 124,
@@ -2254,7 +2254,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 125,
@@ -2272,7 +2272,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 4
+    "cluster": 2
   },
   {
     "row": 126,
@@ -2290,7 +2290,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 127,
@@ -2308,7 +2308,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 128,
@@ -2326,7 +2326,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 129,
@@ -2344,7 +2344,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 130,
@@ -2362,7 +2362,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 131,
@@ -2380,7 +2380,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 132,
@@ -2398,7 +2398,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 133,
@@ -2416,7 +2416,7 @@
     "has_tags": true,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 134,
@@ -2434,7 +2434,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 135,
@@ -2452,7 +2452,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 136,
@@ -2470,7 +2470,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 137,
@@ -2488,7 +2488,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 138,
@@ -2506,7 +2506,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 139,
@@ -2524,7 +2524,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 140,
@@ -2542,7 +2542,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 141,
@@ -2560,7 +2560,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 142,
@@ -2578,7 +2578,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 143,
@@ -2597,7 +2597,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 144,
@@ -2615,7 +2615,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 145,
@@ -2633,7 +2633,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 146,
@@ -2651,7 +2651,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 147,
@@ -2669,7 +2669,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 148,
@@ -2687,7 +2687,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 149,
@@ -2705,7 +2705,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 150,
@@ -2723,7 +2723,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 151,
@@ -2741,7 +2741,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 152,
@@ -2759,7 +2759,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 153,
@@ -2777,7 +2777,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 154,
@@ -2795,7 +2795,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 155,
@@ -2813,7 +2813,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 156,
@@ -2831,7 +2831,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 157,
@@ -2849,7 +2849,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 158,
@@ -2867,7 +2867,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 159,
@@ -2885,7 +2885,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 160,
@@ -2903,7 +2903,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 161,
@@ -2921,7 +2921,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 162,
@@ -2939,7 +2939,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 163,
@@ -2957,7 +2957,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 164,
@@ -2975,7 +2975,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 165,
@@ -2993,7 +2993,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 166,
@@ -3011,7 +3011,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 167,
@@ -3029,7 +3029,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 168,
@@ -3047,7 +3047,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 169,
@@ -3065,7 +3065,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 170,
@@ -3083,7 +3083,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 171,
@@ -3101,7 +3101,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 172,
@@ -3119,7 +3119,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 173,
@@ -3137,7 +3137,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 174,
@@ -3156,7 +3156,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 175,
@@ -3174,7 +3174,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 11
+    "cluster": 10
   },
   {
     "row": 176,
@@ -3192,7 +3192,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 177,
@@ -3210,7 +3210,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 178,
@@ -3228,7 +3228,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 179,
@@ -3246,7 +3246,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 180,
@@ -3264,7 +3264,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 181,
@@ -3282,7 +3282,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 182,
@@ -3300,7 +3300,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 183,
@@ -3318,7 +3318,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 184,
@@ -3336,7 +3336,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 185,
@@ -3355,7 +3355,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 186,
@@ -3373,7 +3373,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 187,
@@ -3391,7 +3391,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 188,
@@ -3409,7 +3409,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 189,
@@ -3427,7 +3427,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 190,
@@ -3445,7 +3445,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 191,
@@ -3464,7 +3464,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 192,
@@ -3482,7 +3482,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 193,
@@ -3500,7 +3500,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 194,
@@ -3518,7 +3518,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 195,
@@ -3536,7 +3536,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 196,
@@ -3554,7 +3554,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 197,
@@ -3572,7 +3572,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 198,
@@ -3590,7 +3590,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 199,
@@ -3608,7 +3608,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 200,
@@ -3626,7 +3626,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 201,
@@ -3644,7 +3644,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 202,
@@ -3662,7 +3662,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 203,
@@ -3680,7 +3680,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 204,
@@ -3698,7 +3698,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 205,
@@ -3716,7 +3716,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 206,
@@ -3734,7 +3734,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 207,
@@ -3752,7 +3752,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 208,
@@ -3770,7 +3770,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 209,
@@ -3788,7 +3788,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 210,
@@ -3806,7 +3806,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 211,
@@ -3824,7 +3824,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 212,
@@ -3842,7 +3842,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 213,
@@ -3860,7 +3860,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 214,
@@ -3878,7 +3878,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 215,
@@ -3896,7 +3896,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 216,
@@ -3914,7 +3914,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 217,
@@ -3932,7 +3932,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 218,
@@ -3950,7 +3950,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 219,
@@ -3969,7 +3969,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 220,
@@ -3987,7 +3987,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 221,
@@ -4005,7 +4005,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 222,
@@ -4023,7 +4023,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 223,
@@ -4041,7 +4041,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 224,
@@ -4059,7 +4059,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 225,
@@ -4077,7 +4077,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 226,
@@ -4095,7 +4095,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 227,
@@ -4113,7 +4113,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 228,
@@ -4131,7 +4131,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 229,
@@ -4149,7 +4149,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 5
   },
   {
     "row": 230,
@@ -4167,7 +4167,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 231,
@@ -4185,7 +4185,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 232,
@@ -4203,7 +4203,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 233,
@@ -4221,7 +4221,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 234,
@@ -4239,7 +4239,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 235,
@@ -4257,7 +4257,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 236,
@@ -4275,7 +4275,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 237,
@@ -4293,7 +4293,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 238,
@@ -4311,7 +4311,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 239,
@@ -4329,7 +4329,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 240,
@@ -4347,7 +4347,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 241,
@@ -4365,7 +4365,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 242,
@@ -4383,7 +4383,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 243,
@@ -4401,7 +4401,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 244,
@@ -4419,7 +4419,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 245,
@@ -4437,7 +4437,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 246,
@@ -4455,7 +4455,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 247,
@@ -4473,7 +4473,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 248,
@@ -4491,7 +4491,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 249,
@@ -4509,7 +4509,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 250,
@@ -4527,7 +4527,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 251,
@@ -4546,7 +4546,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 252,
@@ -4564,7 +4564,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 3
   },
   {
     "row": 253,
@@ -4582,7 +4582,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 254,
@@ -4600,7 +4600,7 @@
     "has_tags": true,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 255,
@@ -4618,7 +4618,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 0
   },
   {
     "row": 256,
@@ -4636,7 +4636,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 257,
@@ -4654,7 +4654,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 258,
@@ -4672,7 +4672,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 259,
@@ -4708,7 +4708,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 261,
@@ -4727,7 +4727,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 262,
@@ -4745,7 +4745,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 263,
@@ -4763,7 +4763,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 264,
@@ -4781,7 +4781,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 265,
@@ -4799,7 +4799,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 266,
@@ -4817,7 +4817,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 267,
@@ -4835,7 +4835,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 268,
@@ -4853,7 +4853,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 269,
@@ -4871,7 +4871,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 270,
@@ -4889,7 +4889,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 9
+    "cluster": 10
   },
   {
     "row": 271,
@@ -4907,7 +4907,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 272,
@@ -4925,7 +4925,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 273,
@@ -4943,7 +4943,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 274,
@@ -4961,7 +4961,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 3
   },
   {
     "row": 275,
@@ -4979,7 +4979,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 276,
@@ -4997,7 +4997,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 277,
@@ -5015,7 +5015,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 278,
@@ -5033,7 +5033,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 279,
@@ -5051,7 +5051,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 4
   },
   {
     "row": 280,
@@ -5069,7 +5069,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 281,
@@ -5087,7 +5087,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 282,
@@ -5105,7 +5105,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 283,
@@ -5123,7 +5123,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 284,
@@ -5141,7 +5141,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 285,
@@ -5159,7 +5159,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 286,
@@ -5177,7 +5177,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 287,
@@ -5195,7 +5195,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 288,
@@ -5213,7 +5213,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 289,
@@ -5231,7 +5231,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 3
   },
   {
     "row": 290,
@@ -5249,7 +5249,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 291,
@@ -5267,7 +5267,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 292,
@@ -5285,7 +5285,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 293,
@@ -5303,7 +5303,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 294,
@@ -5321,7 +5321,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 295,
@@ -5339,7 +5339,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 296,
@@ -5357,7 +5357,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 297,
@@ -5375,7 +5375,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 298,
@@ -5394,7 +5394,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 299,
@@ -5413,7 +5413,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 300,
@@ -5431,7 +5431,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 301,
@@ -5449,7 +5449,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 302,
@@ -5467,7 +5467,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 7
   },
   {
     "row": 303,
@@ -5485,7 +5485,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 12
+    "cluster": 11
   },
   {
     "row": 304,
@@ -5503,7 +5503,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 305,
@@ -5521,7 +5521,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 306,
@@ -5539,7 +5539,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 307,
@@ -5557,7 +5557,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 308,
@@ -5575,7 +5575,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 309,
@@ -5593,7 +5593,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 8
   },
   {
     "row": 310,
@@ -5611,7 +5611,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 311,
@@ -5629,7 +5629,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 312,
@@ -5647,7 +5647,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 313,
@@ -5665,7 +5665,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 314,
@@ -5683,7 +5683,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 315,
@@ -5701,7 +5701,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 316,
@@ -5719,7 +5719,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 317,
@@ -5737,7 +5737,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 318,
@@ -5755,7 +5755,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 319,
@@ -5773,7 +5773,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 320,
@@ -5791,7 +5791,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 10
   },
   {
     "row": 321,
@@ -5809,7 +5809,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 322,
@@ -5827,7 +5827,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 323,
@@ -5845,7 +5845,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 3
+    "cluster": 5
   },
   {
     "row": 324,
@@ -5863,7 +5863,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 325,
@@ -5881,7 +5881,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 326,
@@ -5899,7 +5899,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 327,
@@ -5917,7 +5917,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 328,
@@ -5935,7 +5935,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 329,
@@ -5953,7 +5953,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 330,
@@ -5971,7 +5971,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 4
   },
   {
     "row": 331,
@@ -5989,7 +5989,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 332,
@@ -6007,7 +6007,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 333,
@@ -6025,7 +6025,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 334,
@@ -6046,7 +6046,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 335,
@@ -6064,7 +6064,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 336,
@@ -6082,7 +6082,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 337,
@@ -6100,7 +6100,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 338,
@@ -6118,7 +6118,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 339,
@@ -6136,7 +6136,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 340,
@@ -6154,7 +6154,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 341,
@@ -6172,7 +6172,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 342,
@@ -6190,7 +6190,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 343,
@@ -6208,7 +6208,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 344,
@@ -6226,7 +6226,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 345,
@@ -6245,7 +6245,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 346,
@@ -6263,7 +6263,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 347,
@@ -6281,7 +6281,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 348,
@@ -6299,7 +6299,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 349,
@@ -6317,7 +6317,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 350,
@@ -6335,7 +6335,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 6
+    "cluster": 4
   },
   {
     "row": 351,
@@ -6353,7 +6353,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 352,
@@ -6371,7 +6371,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 353,
@@ -6390,7 +6390,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 354,
@@ -6408,7 +6408,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 355,
@@ -6426,7 +6426,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 356,
@@ -6444,7 +6444,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 357,
@@ -6462,7 +6462,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 358,
@@ -6480,7 +6480,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 359,
@@ -6498,7 +6498,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 360,
@@ -6516,7 +6516,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 361,
@@ -6534,7 +6534,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 362,
@@ -6552,7 +6552,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 363,
@@ -6570,7 +6570,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 364,
@@ -6588,7 +6588,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 365,
@@ -6606,7 +6606,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 366,
@@ -6624,7 +6624,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 367,
@@ -6642,7 +6642,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 368,
@@ -6660,7 +6660,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 369,
@@ -6678,7 +6678,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 370,
@@ -6696,7 +6696,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 371,
@@ -6714,7 +6714,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 5
+    "cluster": 6
   },
   {
     "row": 372,
@@ -6732,7 +6732,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 7
+    "cluster": 3
   },
   {
     "row": 373,
@@ -6750,7 +6750,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 11
+    "cluster": 10
   },
   {
     "row": 374,
@@ -6768,7 +6768,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 8
+    "cluster": 6
   },
   {
     "row": 375,
@@ -6786,7 +6786,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": true,
-    "cluster": 11
+    "cluster": 10
   },
   {
     "row": 376,
@@ -6804,7 +6804,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 10
+    "cluster": 9
   },
   {
     "row": 377,
@@ -6822,7 +6822,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 378,
@@ -6840,7 +6840,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 379,
@@ -6858,7 +6858,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 380,
@@ -6876,7 +6876,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 381,
@@ -6894,7 +6894,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 382,
@@ -6912,7 +6912,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 383,
@@ -6930,7 +6930,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 384,
@@ -6949,7 +6949,7 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 385,
@@ -6967,7 +6967,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 1
+    "cluster": 0
   },
   {
     "row": 386,
@@ -6985,6 +6985,6 @@
     "has_tags": false,
     "has_genres": false,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   }
 ]

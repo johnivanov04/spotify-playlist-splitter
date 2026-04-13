@@ -1,0 +1,229 @@
+[
+  {
+    "display_group": "Melodic / Party Rap",
+    "size": 113,
+    "member_cluster_ids": [
+      2,
+      9,
+      8,
+      10
+    ],
+    "member_cluster_names": [
+      "mood party / party / danceable",
+      "voice instrumental / instrumental / mood electronic / electronic",
+      "timbre / bright / voice instrumental / voice",
+      "voice instrumental / voice / mood relaxed / relaxed"
+    ],
+    "top_descriptors": [
+      "mood party / party",
+      "danceable",
+      "timbre / dark",
+      "mood electronic / electronic",
+      "voice instrumental / voice",
+      "aggressive",
+      "mood happy / happy",
+      "voice instrumental / instrumental",
+      "timbre / bright",
+      "mood sad / sad"
+    ],
+    "sample_tracks": [
+      "Location \u2014 Playboi Carti",
+      "Do What I Want \u2014 Lil Uzi Vert",
+      "Magnolia \u2014 Playboi Carti",
+      "beibs in the trap \u2014 Travis Scott",
+      "NO BYSTANDERS \u2014 Travis Scott",
+      "Best Day Ever \u2014 Mac Miller",
+      "CAN'T SAY \u2014 Travis Scott",
+      "5% TINT \u2014 Travis Scott",
+      "Change \u2014 J. Cole",
+      "Sky \u2014 Playboi Carti",
+      "Redbone \u2014 Childish Gambino",
+      "No Role Modelz \u2014 J. Cole"
+    ]
+  },
+  {
+    "display_group": "Rap / Hip-Hop",
+    "size": 67,
+    "member_cluster_ids": [
+      0,
+      7
+    ],
+    "member_cluster_names": [
+      "rap / hip hop",
+      "hip hop / pop rap"
+    ],
+    "top_descriptors": [
+      "rap",
+      "hip hop",
+      "conscious hip hop",
+      "west coast hip hop",
+      "underground hip hop",
+      "jazz rap",
+      "pop rap",
+      "contemporary r and b",
+      "alternative hip hop",
+      "pop"
+    ],
+    "sample_tracks": [
+      "Work Out \u2014 J. Cole",
+      "Money Trees \u2014 Kendrick Lamar, Jay Rock",
+      "Alright \u2014 Kendrick Lamar",
+      "m.A.A.d city \u2014 Kendrick Lamar, MC Eiht",
+      "It Was A Good Day \u2014 Ice Cube",
+      "Enough!! \u2014 A Tribe Called Quest",
+      "King Kunta \u2014 Kendrick Lamar",
+      "Doomsday \u2014 MF DOOM, Pebbles The Invisible Girl",
+      "PRIDE. \u2014 Kendrick Lamar",
+      "She \u2014 Tyler, The Creator, Frank Ocean",
+      "Passionfruit \u2014 Drake",
+      "One Dance \u2014 Drake, Wizkid, Kyla"
+    ]
+  },
+  {
+    "display_group": "More Picks",
+    "size": 61,
+    "member_cluster_ids": [
+      5,
+      11,
+      13,
+      12
+    ],
+    "member_cluster_names": [
+      "mixed vibe cluster",
+      "mixed vibe cluster",
+      "mixed vibe cluster",
+      "mixed vibe cluster"
+    ],
+    "top_descriptors": [],
+    "sample_tracks": [
+      "Pluto to Mars \u2014 Lil Uzi Vert",
+      "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix \u2014 EI8HT, Offset",
+      "Parking Lot \u2014 Mustard, Travis Scott",
+      "MODERN JAM (feat. Teezo Touchdown) \u2014 Travis Scott, Teezo Touchdown",
+      "LOOOVE (feat. Kid Cudi) \u2014 Travis Scott, Kid Cudi",
+      "SKITZO (feat. Young Thug) \u2014 Travis Scott, Young Thug",
+      "all of me \u2014 21 Savage",
+      "CHARGE DEM HOES A FEE (with Future & Travis Scott) \u2014 Playboi Carti, Future, Travis Scott",
+      "CRUSH (with Travis Scott) \u2014 Playboi Carti, Travis Scott",
+      "PHILLY (with Travis Scott) \u2014 Playboi Carti, Travis Scott",
+      "drive ME crazy! \u2014 Lil Yachty, Diana Gordon",
+      "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee) \u2014 Metro Boomin, A$AP Rocky, Roisee"
+    ]
+  },
+  {
+    "display_group": "Jazz / Nujabes / Downtempo",
+    "size": 12,
+    "member_cluster_ids": [
+      1
+    ],
+    "member_cluster_names": [
+      "cool jazz / jazz"
+    ],
+    "top_descriptors": [
+      "cool jazz",
+      "jazz",
+      "instrumental",
+      "downtempo",
+      "alternative hip hop"
+    ],
+    "sample_tracks": [
+      "Lady Brown (feat. Cise Starr from CYNE) \u2014 Nujabes, Cise Starr",
+      "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez) \u2014 Nujabes, Substantial, Pase Rock",
+      "Horn in the middle \u2014 Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) \u2014 Nujabes, Cise Starr",
+      "Beat laments the world \u2014 Nujabes",
+      "Think Different (feat. Substantial) \u2014 Nujabes, Substantial",
+      "Next view (feat. Uyama Hiroto) \u2014 Nujabes, Uyama Hiroto",
+      "Latitude -remix (feat. Five Deez) \u2014 Nujabes, Five Deez",
+      "F.I.L.O. (feat. Shing02) \u2014 Nujabes, Shing02",
+      "The Final View \u2014 Nujabes"
+    ]
+  },
+  {
+    "display_group": "Instrumental / Breakbeat",
+    "size": 12,
+    "member_cluster_ids": [
+      6
+    ],
+    "member_cluster_names": [
+      "breakbeat / instrumental"
+    ],
+    "top_descriptors": [
+      "breakbeat",
+      "instrumental",
+      "jazz rap",
+      "hip hop instrumental hip hop",
+      "instrumentalhiphop",
+      "downtempo"
+    ],
+    "sample_tracks": [
+      "Luv(sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02",
+      "Luv (sic.) pt3 (feat. Shing02) \u2014 Nujabes, Shing02",
+      "Feather (feat. Cise Starr & Akin from CYNE) \u2014 Nujabes, Cise Starr & Akin from CYNE",
+      "Dawn on the Side \u2014 Nujabes",
+      "sanctuary ship \u2014 Nujabes",
+      "Still Talking to You \u2014 Nujabes",
+      "Steadfast \u2014 Nujabes",
+      "flowers \u2014 Nujabes",
+      "just forget \u2014 Force Of Nature",
+      "tsurugi no mai \u2014 Nujabes"
+    ]
+  },
+  {
+    "display_group": "R&B / Soul",
+    "size": 11,
+    "member_cluster_ids": [
+      3
+    ],
+    "member_cluster_names": [
+      "soul / r and b"
+    ],
+    "top_descriptors": [
+      "soul",
+      "r and b",
+      "neo soul",
+      "contemporary r and b",
+      "alternative r and b"
+    ],
+    "sample_tracks": [
+      "Hold On, We're Going Home \u2014 Drake, Majid Jordan",
+      "Ivy \u2014 Frank Ocean",
+      "Lost \u2014 Frank Ocean",
+      "Super Rich Kids \u2014 Frank Ocean, Earl Sweatshirt",
+      "Crack Rock \u2014 Frank Ocean",
+      "Monks \u2014 Frank Ocean",
+      "Pink + White \u2014 Frank Ocean",
+      "Self Control \u2014 Frank Ocean",
+      "White Ferrari \u2014 Frank Ocean",
+      "Like Him (feat. Lola Young) \u2014 Tyler, The Creator, Lola Young"
+    ]
+  },
+  {
+    "display_group": "Trap",
+    "size": 8,
+    "member_cluster_ids": [
+      4
+    ],
+    "member_cluster_names": [
+      "trap / thug rap"
+    ],
+    "top_descriptors": [
+      "trap",
+      "thug rap",
+      "southern hip hop",
+      "hip hop",
+      "east coast hip hop",
+      "pop rap"
+    ],
+    "sample_tracks": [
+      "90210 (feat. Kacy Hill) \u2014 Travis Scott, Kacy Hill",
+      "You Was Right \u2014 Lil Uzi Vert",
+      "Maria I'm Drunk (feat. Justin Bieber & Young Thug) \u2014 Travis Scott, Justin Bieber, Young Thug",
+      "Up Up And Away \u2014 Juice WRLD",
+      "Apple Pie \u2014 Travis Scott",
+      "Nightcrawler (feat. Swae Lee & Chief Keef) \u2014 Travis Scott, Swae Lee, Chief Keef",
+      "Ok Alright (feat. ScHoolboy Q) \u2014 Travis Scott, ScHoolboy Q",
+      "LVL \u2014 A$AP Rocky"
+    ]
+  }
+]
