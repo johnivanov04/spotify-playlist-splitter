@@ -1,0 +1,431 @@
+{
+  "input": "ml_pipeline/data/runtime/playlist_4.prepared.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_8/representation_artifacts.npz",
+  "records": 51,
+  "feature_count": 309,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "final_k": 1,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 51
+  },
+  "diagnostics": [
+    {
+      "k": 3,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 4,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 5,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 9,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 10,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        51
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": -3.4200000000000004,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "low_signal_min_size": 18,
+    "low_signal_min_features": 2,
+    "low_signal_top_score": 0.35,
+    "low_signal_child_gain": 0.08,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 24,
+        "candidates": [
+          {
+            "cluster_id": 0,
+            "cluster_size": 51,
+            "candidate_ks": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "accepted": false,
+            "trigger_reason": "size",
+            "parent_cluster_name": "tech house / dance",
+            "parent_top_features": [
+              {
+                "feature": "tag__tech_house",
+                "pretty_feature": "tech house",
+                "score": 0.6953937608056251
+              },
+              {
+                "feature": "genre__tech_house",
+                "pretty_feature": "tech house",
+                "score": 0.695393731509132
+              },
+              {
+                "feature": "tag__dance",
+                "pretty_feature": "dance",
+                "score": 0.6883446392124274
+              },
+              {
+                "feature": "genre__dance",
+                "pretty_feature": "dance",
+                "score": 0.688344618437484
+              },
+              {
+                "feature": "tag__house",
+                "pretty_feature": "house",
+                "score": 0.6675956937464064
+              },
+              {
+                "feature": "genre__house",
+                "pretty_feature": "house",
+                "score": 0.6675956555509646
+              },
+              {
+                "feature": "genre__euro_house",
+                "pretty_feature": "euro house",
+                "score": 0.46882840001053905
+              },
+              {
+                "feature": "tag__euro_house",
+                "pretty_feature": "euro house",
+                "score": 0.46882837559679547
+              },
+              {
+                "feature": "tag__electronica",
+                "pretty_feature": "electronica",
+                "score": 0.4069731208571018
+              },
+              {
+                "feature": "tag__french_house",
+                "pretty_feature": "french house",
+                "score": 0.4069731208571018
+              }
+            ],
+            "parent_top_score": 0.6953937608056251,
+            "parent_low_signal": false,
+            "sub_final_k": 1,
+            "sub_best_adjusted_score": -3.4200000000000004,
+            "sub_silhouette": null,
+            "sub_adjusted_score": -3.4200000000000004,
+            "sub_cluster_sizes": [
+              51
+            ],
+            "sub_largest_fraction": 1.0,
+            "sub_meaningful_cluster_count": 1,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 51,
+                "cluster_name": "tech house / dance",
+                "top_features": [
+                  {
+                    "feature": "tag__tech_house",
+                    "pretty_feature": "tech house",
+                    "score": 0.6953937608056251
+                  },
+                  {
+                    "feature": "genre__tech_house",
+                    "pretty_feature": "tech house",
+                    "score": 0.695393731509132
+                  },
+                  {
+                    "feature": "tag__dance",
+                    "pretty_feature": "dance",
+                    "score": 0.6883446392124274
+                  },
+                  {
+                    "feature": "genre__dance",
+                    "pretty_feature": "dance",
+                    "score": 0.688344618437484
+                  },
+                  {
+                    "feature": "tag__house",
+                    "pretty_feature": "house",
+                    "score": 0.6675956937464064
+                  },
+                  {
+                    "feature": "genre__house",
+                    "pretty_feature": "house",
+                    "score": 0.6675956555509646
+                  },
+                  {
+                    "feature": "genre__euro_house",
+                    "pretty_feature": "euro house",
+                    "score": 0.46882840001053905
+                  },
+                  {
+                    "feature": "tag__euro_house",
+                    "pretty_feature": "euro house",
+                    "score": 0.46882837559679547
+                  },
+                  {
+                    "feature": "tag__electronica",
+                    "pretty_feature": "electronica",
+                    "score": 0.4069731208571018
+                  },
+                  {
+                    "feature": "tag__french_house",
+                    "pretty_feature": "french house",
+                    "score": 0.4069731208571018
+                  }
+                ],
+                "top_score": 0.6953937608056251
+              }
+            ],
+            "strong_child_count": 0,
+            "strong_child_threshold": 0.775393760805625,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 3,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 4,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 5,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 8,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 9,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 10,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  51
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "single_cluster,not_enough_meaningful_clusters,adjusted_score_too_low,largest_subcluster_still_too_large"
+          }
+        ],
+        "accepted": null
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/artifacts/playlist_4_test/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/artifacts/playlist_4_test/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/artifacts/playlist_4_test/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/artifacts/playlist_4_test/playlist_embeddings.npy"
+  }
+}

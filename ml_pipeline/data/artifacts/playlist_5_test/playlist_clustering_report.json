@@ -1,0 +1,666 @@
+{
+  "input": "ml_pipeline/data/runtime/playlist_5.prepared.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_8/representation_artifacts.npz",
+  "records": 97,
+  "feature_count": 309,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "final_k": 4,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 70,
+    "1": 7,
+    "2": 15,
+    "3": 5
+  },
+  "diagnostics": [
+    {
+      "k": 3,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 5,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.5710004759268931,
+      "adjusted_score": -1.163432513763829,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 9,
+      "silhouette": null,
+      "adjusted_score": -3.4200000000000004,
+      "cluster_sizes": [
+        97
+      ],
+      "largest_fraction": 1.0,
+      "second_fraction": 0.0,
+      "meaningful_cluster_count": 1,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 10,
+      "silhouette": 0.2512473518393985,
+      "adjusted_score": -1.4831856378513237,
+      "cluster_sizes": [
+        90,
+        7
+      ],
+      "largest_fraction": 0.9278350515463918,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 11,
+      "silhouette": 0.3255756398961068,
+      "adjusted_score": -0.4738058034028624,
+      "cluster_sizes": [
+        78,
+        12,
+        7
+      ],
+      "largest_fraction": 0.8041237113402062,
+      "second_fraction": 0.12371134020618557,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 12,
+      "silhouette": 0.35285865623897844,
+      "adjusted_score": -0.30116196231772274,
+      "cluster_sizes": [
+        75,
+        15,
+        7
+      ],
+      "largest_fraction": 0.7731958762886598,
+      "second_fraction": 0.15463917525773196,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 13,
+      "silhouette": 0.35285865623897844,
+      "adjusted_score": -0.30116196231772274,
+      "cluster_sizes": [
+        75,
+        15,
+        7
+      ],
+      "largest_fraction": 0.7731958762886598,
+      "second_fraction": 0.15463917525773196,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 14,
+      "silhouette": 0.26828507653863704,
+      "adjusted_score": -0.9080035832551778,
+      "cluster_sizes": [
+        84,
+        7,
+        6
+      ],
+      "largest_fraction": 0.865979381443299,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 15,
+      "silhouette": 0.26828507653863704,
+      "adjusted_score": -0.9080035832551778,
+      "cluster_sizes": [
+        84,
+        7,
+        6
+      ],
+      "largest_fraction": 0.865979381443299,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 16,
+      "silhouette": 0.1971210776545446,
+      "adjusted_score": -0.194631499665043,
+      "cluster_sizes": [
+        70,
+        15,
+        7,
+        5
+      ],
+      "largest_fraction": 0.7216494845360825,
+      "second_fraction": 0.15463917525773196,
+      "meaningful_cluster_count": 4,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": -0.194631499665043,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "low_signal_min_size": 18,
+    "low_signal_min_features": 2,
+    "low_signal_top_score": 0.35,
+    "low_signal_child_gain": 0.08,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 28,
+        "candidates": [
+          {
+            "cluster_id": 0,
+            "cluster_size": 70,
+            "candidate_ks": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "accepted": false,
+            "trigger_reason": "size",
+            "parent_cluster_name": "fun / retro",
+            "parent_top_features": [
+              {
+                "feature": "tag__fun",
+                "pretty_feature": "fun",
+                "score": 0.5555083503181137
+              },
+              {
+                "feature": "tag__retro",
+                "pretty_feature": "retro",
+                "score": 0.5186942684866362
+              },
+              {
+                "feature": "tag__contemporary_folk",
+                "pretty_feature": "contemporary folk",
+                "score": 0.5055271777498419
+              },
+              {
+                "feature": "tag__punk_rock",
+                "pretty_feature": "punk rock",
+                "score": 0.5055271777498411
+              },
+              {
+                "feature": "genre__contemporary_folk",
+                "pretty_feature": "contemporary folk",
+                "score": 0.5055271621498457
+              },
+              {
+                "feature": "genre__punk_rock",
+                "pretty_feature": "punk rock",
+                "score": 0.5055271621498457
+              },
+              {
+                "feature": "tag__cool",
+                "pretty_feature": "cool",
+                "score": 0.4479448299119495
+              },
+              {
+                "feature": "tag__indie",
+                "pretty_feature": "indie",
+                "score": 0.43439647143300747
+              },
+              {
+                "feature": "tag__alternative",
+                "pretty_feature": "alternative",
+                "score": 0.406988043025772
+              },
+              {
+                "feature": "genre__garage_rock_revival",
+                "pretty_feature": "garage rock revival",
+                "score": 0.363026382185985
+              }
+            ],
+            "parent_top_score": 0.5555083503181137,
+            "parent_low_signal": false,
+            "sub_final_k": 2,
+            "sub_best_adjusted_score": -0.03373647138853764,
+            "sub_silhouette": 0.2962635286114622,
+            "sub_adjusted_score": -0.03373647138853764,
+            "sub_cluster_sizes": [
+              49,
+              21
+            ],
+            "sub_largest_fraction": 0.7,
+            "sub_meaningful_cluster_count": 2,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 21,
+                "cluster_name": "fun / retro",
+                "top_features": [
+                  {
+                    "feature": "tag__fun",
+                    "pretty_feature": "fun",
+                    "score": 2.0601164720257255
+                  },
+                  {
+                    "feature": "tag__retro",
+                    "pretty_feature": "retro",
+                    "score": 1.8989308699690781
+                  },
+                  {
+                    "feature": "tag__contemporary_folk",
+                    "pretty_feature": "contemporary folk",
+                    "score": 1.8051043102326367
+                  },
+                  {
+                    "feature": "tag__punk_rock",
+                    "pretty_feature": "punk rock",
+                    "score": 1.805104310232636
+                  },
+                  {
+                    "feature": "genre__contemporary_folk",
+                    "pretty_feature": "contemporary folk",
+                    "score": 1.8051042557315315
+                  },
+                  {
+                    "feature": "genre__punk_rock",
+                    "pretty_feature": "punk rock",
+                    "score": 1.8051042557315315
+                  },
+                  {
+                    "feature": "tag__alternative",
+                    "pretty_feature": "alternative",
+                    "score": 1.7205394516770145
+                  },
+                  {
+                    "feature": "tag__cool",
+                    "pretty_feature": "cool",
+                    "score": 1.68328539963785
+                  },
+                  {
+                    "feature": "tag__indie",
+                    "pretty_feature": "indie",
+                    "score": 1.5154545273569373
+                  },
+                  {
+                    "feature": "genre__indie_rock",
+                    "pretty_feature": "indie rock",
+                    "score": 1.4616814525528061
+                  }
+                ],
+                "top_score": 2.0601164720257255
+              },
+              {
+                "cluster_id": 1,
+                "size": 49,
+                "cluster_name": "ambient / lo fi",
+                "top_features": [
+                  {
+                    "feature": "tag__ambient",
+                    "pretty_feature": "ambient",
+                    "score": 0.49052617457883113
+                  },
+                  {
+                    "feature": "genre__ambient",
+                    "pretty_feature": "ambient",
+                    "score": 0.4905261739165079
+                  },
+                  {
+                    "feature": "tag__lo_fi",
+                    "pretty_feature": "lo fi",
+                    "score": 0.35861941045696427
+                  },
+                  {
+                    "feature": "genre__lo_fi",
+                    "pretty_feature": "lo fi",
+                    "score": 0.3586194034693461
+                  },
+                  {
+                    "feature": "tag__blues",
+                    "pretty_feature": "blues",
+                    "score": 0.3498896914509138
+                  },
+                  {
+                    "feature": "genre__blues",
+                    "pretty_feature": "blues",
+                    "score": 0.3498896835344654
+                  },
+                  {
+                    "feature": "tag__musical",
+                    "pretty_feature": "musical",
+                    "score": 0.34639528397643865
+                  },
+                  {
+                    "feature": "tag__melodic_house",
+                    "pretty_feature": "melodic house",
+                    "score": 0.34639528397643854
+                  },
+                  {
+                    "feature": "tag__adult_contemporary",
+                    "pretty_feature": "adult contemporary",
+                    "score": 0.34639528397643793
+                  },
+                  {
+                    "feature": "genre__melodic_house",
+                    "pretty_feature": "melodic house",
+                    "score": 0.34639527313984336
+                  }
+                ],
+                "top_score": 0.49052617457883113
+              }
+            ],
+            "strong_child_count": 1,
+            "strong_child_threshold": 0.6355083503181137,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 3,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 4,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 5,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 8,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 9,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 10,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 11,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  70
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 12,
+                "silhouette": 0.35391585238471895,
+                "adjusted_score": -0.04322700475813829,
+                "cluster_sizes": [
+                  50,
+                  20
+                ],
+                "largest_fraction": 0.7142857142857143,
+                "second_fraction": 0.2857142857142857,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 13,
+                "silhouette": 0.2962635286114622,
+                "adjusted_score": -0.03373647138853764,
+                "cluster_sizes": [
+                  49,
+                  21
+                ],
+                "largest_fraction": 0.7,
+                "second_fraction": 0.3,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 14,
+                "silhouette": 0.35893730078435265,
+                "adjusted_score": -0.10534841350136154,
+                "cluster_sizes": [
+                  51,
+                  19
+                ],
+                "largest_fraction": 0.7285714285714285,
+                "second_fraction": 0.2714285714285714,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "adjusted_score_too_low"
+          }
+        ],
+        "accepted": null
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/artifacts/playlist_5_test/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/artifacts/playlist_5_test/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/artifacts/playlist_5_test/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/artifacts/playlist_5_test/playlist_embeddings.npy"
+  }
+}

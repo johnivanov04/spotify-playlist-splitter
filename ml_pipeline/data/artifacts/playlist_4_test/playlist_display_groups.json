@@ -1,0 +1,32 @@
+[
+  {
+    "display_group": "More Picks",
+    "size": 51,
+    "member_cluster_ids": [
+      0
+    ],
+    "member_cluster_names": [
+      "tech house / dance"
+    ],
+    "top_descriptors": [
+      "tech house",
+      "dance",
+      "house",
+      "euro house",
+      "electronica",
+      "french house"
+    ],
+    "sample_tracks": [
+      "Where You Are \u2014 John Summit, HAYLA",
+      "Shiver \u2014 John Summit, HAYLA",
+      "Soul Searcher \u2014 Wh0, Kideko",
+      "(It Goes Like) Nanana - Edit \u2014 Peggy Gou",
+      "Losing Control \u2014 Odd Mob, OMNOM",
+      "Stop It \u2014 FISHER",
+      "Turn off the Lights \u2014 Chris Lake, Alexis Roberts",
+      "Miracle Maker \u2014 Dom Dolla, Clementine Douglas",
+      "Boom Shakalaka \u2014 Moksi, Emy Perez, Digitzz",
+      "Atmosphere \u2014 FISHER, Kita Alexander"
+    ]
+  }
+]

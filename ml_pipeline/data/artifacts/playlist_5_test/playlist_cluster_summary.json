@@ -1,0 +1,270 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "fun / retro",
+    "size": 70,
+    "sample_tracks": [
+      "Someday — The Strokes",
+      "K. — Cigarettes After Sex",
+      "Sweet — Cigarettes After Sex",
+      "Sunsetz — Cigarettes After Sex",
+      "The Beginning — Flawed Mangoes",
+      "spin u round (slowed) — Nafeesisboujee, kkanji",
+      "Cigarettes out the Window — TV Girl",
+      "From the Subway Train — Vansire",
+      "Guilty Conscience - Tame Impala Remix — 070 Shake, Tame Impala",
+      "Amore mio aiutami - Main Theme — Piero Piccioni"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__fun",
+        "pretty_feature": "fun",
+        "score": 0.5555083503181137
+      },
+      {
+        "feature": "tag__retro",
+        "pretty_feature": "retro",
+        "score": 0.5186942684866362
+      },
+      {
+        "feature": "tag__contemporary_folk",
+        "pretty_feature": "contemporary folk",
+        "score": 0.5055271777498419
+      },
+      {
+        "feature": "tag__punk_rock",
+        "pretty_feature": "punk rock",
+        "score": 0.5055271777498411
+      },
+      {
+        "feature": "genre__contemporary_folk",
+        "pretty_feature": "contemporary folk",
+        "score": 0.5055271621498457
+      },
+      {
+        "feature": "genre__punk_rock",
+        "pretty_feature": "punk rock",
+        "score": 0.5055271621498457
+      },
+      {
+        "feature": "tag__cool",
+        "pretty_feature": "cool",
+        "score": 0.4479448299119495
+      },
+      {
+        "feature": "tag__indie",
+        "pretty_feature": "indie",
+        "score": 0.43439647143300747
+      },
+      {
+        "feature": "tag__alternative",
+        "pretty_feature": "alternative",
+        "score": 0.406988043025772
+      },
+      {
+        "feature": "genre__garage_rock_revival",
+        "pretty_feature": "garage rock revival",
+        "score": 0.363026382185985
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "alternative pop rock / alternative rock",
+    "size": 15,
+    "sample_tracks": [
+      "Acting — Sweet Trip",
+      "Weird Fishes / Arpeggi — Radiohead",
+      "Lisztomania — Phoenix",
+      "Nude — Radiohead",
+      "No Surprises — Radiohead",
+      "Fake Plastic Trees — Radiohead",
+      "Let Down — Radiohead",
+      "High and Dry — Radiohead",
+      "Sparks — Coldplay",
+      "Just — Radiohead"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__alternative_pop_rock",
+        "pretty_feature": "alternative pop rock",
+        "score": 4.202229603554758
+      },
+      {
+        "feature": "genre__alternative_rock",
+        "pretty_feature": "alternative rock",
+        "score": 3.8400505120139954
+      },
+      {
+        "feature": "tag__post_britpop",
+        "pretty_feature": "post britpop",
+        "score": 3.7795751621286513
+      },
+      {
+        "feature": "genre__post_britpop",
+        "pretty_feature": "post britpop",
+        "score": 3.7795751230887924
+      },
+      {
+        "feature": "tag__alternative_rock",
+        "pretty_feature": "alternative rock",
+        "score": 3.7646940601630865
+      },
+      {
+        "feature": "genre__britpop",
+        "pretty_feature": "britpop",
+        "score": 3.7496775459925336
+      },
+      {
+        "feature": "tag__britpop",
+        "pretty_feature": "britpop",
+        "score": 3.7496775447227892
+      },
+      {
+        "feature": "tag__alternative_indie_rock",
+        "pretty_feature": "alternative indie rock",
+        "score": 3.1884205223008664
+      },
+      {
+        "feature": "tag__punk",
+        "pretty_feature": "punk",
+        "score": 2.9677955311778175
+      },
+      {
+        "feature": "genre__punk",
+        "pretty_feature": "punk",
+        "score": 2.967795397869283
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "jazz / instrumental",
+    "size": 7,
+    "sample_tracks": [
+      "Still Talking to You — Nujabes",
+      "Feather (feat. Cise Starr & Akin from CYNE) — Nujabes, Cise Starr & Akin from CYNE",
+      "Luv (sic.) pt3 (feat. Shing02) — Nujabes, Shing02",
+      "Peaceland — Nujabes",
+      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Steadfast — Nujabes",
+      "just forget — Force Of Nature"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__jazz",
+        "pretty_feature": "jazz",
+        "score": 4.348929259592123
+      },
+      {
+        "feature": "tag__jazz",
+        "pretty_feature": "jazz",
+        "score": 4.3489290579111675
+      },
+      {
+        "feature": "tag__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 4.240426393027468
+      },
+      {
+        "feature": "genre__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 4.2404262534277075
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "pretty_feature": "cool jazz",
+        "score": 3.960815865843972
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "pretty_feature": "cool jazz",
+        "score": 3.9608157265657273
+      },
+      {
+        "feature": "genre__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 3.7761282194608334
+      },
+      {
+        "feature": "tag__downtempo",
+        "pretty_feature": "downtempo",
+        "score": 3.776128099516018
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 3.716584523278485
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 3.716584434573105
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "psychedelic soul / contemporary r and b",
+    "size": 5,
+    "sample_tracks": [
+      "Self Control — Frank Ocean",
+      "White Ferrari — Frank Ocean",
+      "Hand Me Downs — Mac Miller",
+      "Nights — Frank Ocean",
+      "Surf — Mac Miller"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__psychedelic_soul",
+        "pretty_feature": "psychedelic soul",
+        "score": 7.746028344439698
+      },
+      {
+        "feature": "genre__psychedelic_soul",
+        "pretty_feature": "psychedelic soul",
+        "score": 7.746028112104952
+      },
+      {
+        "feature": "genre__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 4.278344246317365
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 4.278344122217556
+      },
+      {
+        "feature": "genre__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 3.2234695926584203
+      },
+      {
+        "feature": "genre__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 3.0397907756643527
+      },
+      {
+        "feature": "tag__r_and_b",
+        "pretty_feature": "r and b",
+        "score": 2.9253538772456786
+      },
+      {
+        "feature": "tag__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 2.8461613037579303
+      },
+      {
+        "feature": "tag__alternative_r_and_b",
+        "pretty_feature": "alternative r and b",
+        "score": 2.5357071387470986
+      },
+      {
+        "feature": "genre__alternative_r_and_b",
+        "pretty_feature": "alternative r and b",
+        "score": 2.535707066642199
+      }
+    ]
+  }
+]
