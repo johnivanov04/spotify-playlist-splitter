@@ -1,31 +1,16 @@
 [
   {
     "display_group": "More Picks",
-    "size": 240,
+    "size": 149,
     "member_cluster_ids": [
-      0,
       1,
-      10,
-      2
+      9
     ],
     "member_cluster_names": [
-      "ph 4 stars / ph temp checken",
-      "rock / indie rock",
       "mixed vibe cluster",
-      "indie pop / alternative"
+      "mixed vibe cluster"
     ],
-    "top_descriptors": [
-      "rock",
-      "indie rock",
-      "psychedelic rock",
-      "indie",
-      "pop rock",
-      "pop",
-      "indie pop",
-      "alternative",
-      "jangle pop",
-      "alternative pop"
-    ],
+    "top_descriptors": [],
     "sample_tracks": [
       "Marlboro Nights \u2014 Lonely God",
       "Necromancer \u2014 Joy Again",
@@ -37,63 +22,132 @@
       "Mercury \u2014 Steve Lacy",
       "Cody Freestyle \u2014 Steve Lacy",
       "Some \u2014 Steve Lacy",
-      "Chamber Of Reflection \u2014 Mac DeMarco",
-      "Cigarette Daydreams \u2014 Cage The Elephant"
+      "Pretty Girl \u2014 Clairo",
+      "prom dress \u2014 mxmtoon"
     ]
   },
   {
-    "display_group": "Melodic / Party Rap",
-    "size": 119,
+    "display_group": "Rock / Indie",
+    "size": 100,
     "member_cluster_ids": [
-      3,
-      7,
+      0,
       8,
+      7
+    ],
+    "member_cluster_names": [
+      "rock / indie rock",
+      "aggressive / mood party / party",
+      "indie pop / alternative"
+    ],
+    "top_descriptors": [
+      "rock",
+      "indie rock",
+      "psychedelic rock",
+      "indie",
+      "pop rock",
+      "pop",
+      "aggressive",
+      "mood party / party",
+      "voice instrumental / voice",
+      "danceable"
+    ],
+    "sample_tracks": [
+      "Chamber Of Reflection \u2014 Mac DeMarco",
+      "Cigarette Daydreams \u2014 Cage The Elephant",
+      "Somebody That I Used To Know \u2014 Gotye, Kimbra",
+      "The Less I Know The Better \u2014 Tame Impala",
+      "Come a Little Closer \u2014 Cage The Elephant",
+      "Trouble \u2014 Cage The Elephant",
+      "Sweater Weather \u2014 The Neighbourhood",
+      "Here Comes The Sun - Remastered 2009 \u2014 The Beatles",
+      "Feels Like We Only Go Backwards \u2014 Tame Impala",
+      "In My Life - Remastered 2009 \u2014 The Beatles",
+      "My Kind of Woman \u2014 Mac DeMarco",
+      "Blondie \u2014 Current Joys"
+    ]
+  },
+  {
+    "display_group": "Acoustic / Chill",
+    "size": 77,
+    "member_cluster_ids": [
       5,
-      4,
-      9,
-      11
+      3,
+      2
     ],
     "member_cluster_names": [
       "acoustic / mood sad / sad",
       "voice instrumental / instrumental / acoustic",
-      "timbre / bright / mood happy / happy",
-      "aggressive / mood party / party",
-      "singer songwriter / indie pop",
-      "timbre / dark / mood relaxed / relaxed",
-      "voice instrumental / instrumental / mood party / party"
+      "singer songwriter / indie pop"
     ],
     "top_descriptors": [
       "acoustic",
       "mood sad / sad",
       "voice instrumental / voice",
-      "mood relaxed / relaxed",
       "timbre / bright",
+      "mood relaxed / relaxed",
       "voice instrumental / instrumental",
-      "mood happy / happy",
-      "mood party / party",
-      "aggressive",
-      "danceable"
+      "singer songwriter",
+      "indie pop",
+      "folk"
     ],
     "sample_tracks": [
       "Sunflower \u2014 Rex Orange County",
+      "Fat Lady \u2014 Sure Sure",
       "Pluto Projector \u2014 Rex Orange County",
       "Bubble Gum \u2014 Clairo",
       "Pope Is a Rockstar \u2014 SALES",
       "Mrs Magic \u2014 Strawberry Guy",
       "As the World Caves In \u2014 Matt Maltese",
+      "Sofia \u2014 Clairo",
       "This Side of Paradise \u2014 Coyote Theory",
       "Impossible \u2014 Clairo",
-      "4am \u2014 girl in red",
-      "Closer To You \u2014 Clairo",
       "worldstar money (interlude) \u2014 Joji",
       "Lover Is a Day \u2014 Cuco"
     ]
   },
   {
-    "display_group": "Jazz / Nujabes / Downtempo",
+    "display_group": "Melodic / Party Rap",
+    "size": 33,
+    "member_cluster_ids": [
+      6,
+      10
+    ],
+    "member_cluster_names": [
+      "timbre / bright / mood happy / happy",
+      "voice instrumental / instrumental / timbre / dark"
+    ],
+    "top_descriptors": [
+      "timbre / bright",
+      "mood happy / happy",
+      "mood party / party",
+      "aggressive",
+      "voice instrumental / instrumental",
+      "voice instrumental / voice",
+      "timbre / dark",
+      "danceable",
+      "mood electronic / electronic",
+      "mood relaxed / relaxed"
+    ],
+    "sample_tracks": [
+      "Can I Call You Tonight? \u2014 Dayglow",
+      "Blinded \u2014 The Jungle Giants",
+      "Young \u2014 Vacations",
+      "4EVER \u2014 Clairo",
+      "Kids \u2014 Current Joys",
+      "Dance, Baby! \u2014 boy pablo",
+      "Looking Out for You \u2014 Joy Again",
+      "Parking Lots \u2014 Plums",
+      "Sports \u2014 Beach Bunny",
+      "6 Weeks \u2014 Beach Bunny",
+      "SLOW DANCING IN THE DARK \u2014 Joji",
+      "Not Allowed \u2014 TV Girl"
+    ]
+  },
+  {
+    "display_group": "R&B / Soul",
     "size": 20,
     "member_cluster_ids": [
-      6
+      4
     ],
     "member_cluster_names": [
       "jazz pop / r b"
@@ -107,7 +161,7 @@
       "contemporary r and b"
     ],
     "sample_tracks": [
-      "Trouble \u2014 Cage The Elephant",
+      "16 Years \u2014 The Griswolds",
       "The Adults Are Talking \u2014 The Strokes",
       "Homage \u2014 Mild High Club",
       "Another One \u2014 Mac DeMarco",
@@ -123,7 +177,7 @@
     "display_group": "Instrumental / Breakbeat",
     "size": 8,
     "member_cluster_ids": [
-      12
+      11
     ],
     "member_cluster_names": [
       "alternative / soundtrack"

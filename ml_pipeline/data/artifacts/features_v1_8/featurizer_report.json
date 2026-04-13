@@ -1,9 +1,9 @@
 {
   "input": "ml_pipeline/data/processed/song_records.backfilled.json",
   "records": 758,
-  "feature_count": 309,
+  "feature_count": 307,
   "vocab": {
-    "tag_vocab_size": 177,
+    "tag_vocab_size": 175,
     "genre_vocab_size": 113,
     "acoustic_vocab_size": 12,
     "top_tag_df": [
@@ -212,11 +212,15 @@
     ],
     "top_acoustic_df": [
       [
-        "highlevel__danceability__all__danceable",
+        "highlevel__mood_sad__all__sad",
         453
       ],
       [
-        "highlevel__mood_party__all__party",
+        "highlevel__mood_relaxed__all__relaxed",
+        453
+      ],
+      [
+        "highlevel__mood_acoustic__all__acoustic",
         453
       ],
       [
@@ -228,7 +232,23 @@
         453
       ],
       [
+        "highlevel__mood_aggressive__all__aggressive",
+        453
+      ],
+      [
         "highlevel__voice_instrumental__all__instrumental",
+        453
+      ],
+      [
+        "highlevel__danceability__all__danceable",
+        453
+      ],
+      [
+        "highlevel__mood_party__all__party",
+        453
+      ],
+      [
+        "highlevel__mood_electronic__all__electronic",
         453
       ],
       [
@@ -236,27 +256,7 @@
         453
       ],
       [
-        "highlevel__mood_relaxed__all__relaxed",
-        453
-      ],
-      [
-        "highlevel__mood_sad__all__sad",
-        453
-      ],
-      [
-        "highlevel__mood_acoustic__all__acoustic",
-        453
-      ],
-      [
         "highlevel__mood_happy__all__happy",
-        453
-      ],
-      [
-        "highlevel__mood_aggressive__all__aggressive",
-        453
-      ],
-      [
-        "highlevel__mood_electronic__all__electronic",
         453
       ]
     ]
@@ -264,7 +264,7 @@
   "matrix": {
     "shape": [
       758,
-      309
+      307
     ],
     "dtype": "float32",
     "nonzero_rows": 758,
@@ -294,7 +294,8 @@
       "chart",
       "charts",
       "hot_100",
-      "offizielle"
+      "offizielle",
+      "ph_"
     ],
     "skip_tag_exact": [
       "american",

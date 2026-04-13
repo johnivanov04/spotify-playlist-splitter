@@ -1,14 +1,12 @@
 [
   {
-    "display_group": "More Picks",
-    "size": 85,
+    "display_group": "Acoustic / Chill",
+    "size": 70,
     "member_cluster_ids": [
-      0,
-      2
+      0
     ],
     "member_cluster_names": [
-      "fun / retro",
-      "alternative pop rock / alternative rock"
+      "fun / retro"
     ],
     "top_descriptors": [
       "fun",
@@ -18,9 +16,7 @@
       "cool",
       "indie",
       "alternative",
-      "garage rock revival",
-      "alternative pop rock",
-      "alternative rock"
+      "garage rock revival"
     ],
     "sample_tracks": [
       "Someday \u2014 The Strokes",
@@ -32,9 +28,37 @@
       "Cigarettes out the Window \u2014 TV Girl",
       "From the Subway Train \u2014 Vansire",
       "Guilty Conscience - Tame Impala Remix \u2014 070 Shake, Tame Impala",
-      "Amore mio aiutami - Main Theme \u2014 Piero Piccioni",
+      "Amore mio aiutami - Main Theme \u2014 Piero Piccioni"
+    ]
+  },
+  {
+    "display_group": "Rock / Indie",
+    "size": 15,
+    "member_cluster_ids": [
+      2
+    ],
+    "member_cluster_names": [
+      "alternative pop rock / alternative rock"
+    ],
+    "top_descriptors": [
+      "alternative pop rock",
+      "alternative rock",
+      "post britpop",
+      "britpop",
+      "alternative indie rock",
+      "punk"
+    ],
+    "sample_tracks": [
       "Acting \u2014 Sweet Trip",
-      "Weird Fishes / Arpeggi \u2014 Radiohead"
+      "Weird Fishes / Arpeggi \u2014 Radiohead",
+      "Lisztomania \u2014 Phoenix",
+      "Nude \u2014 Radiohead",
+      "No Surprises \u2014 Radiohead",
+      "Fake Plastic Trees \u2014 Radiohead",
+      "Let Down \u2014 Radiohead",
+      "High and Dry \u2014 Radiohead",
+      "Sparks \u2014 Coldplay",
+      "Just \u2014 Radiohead"
     ]
   },
   {

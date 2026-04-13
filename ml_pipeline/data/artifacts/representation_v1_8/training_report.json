@@ -2,35 +2,35 @@
   "input_artifacts_dir": "ml_pipeline/data/artifacts/features_v1_8",
   "output_dir": "ml_pipeline/data/artifacts/representation_v1_8",
   "records": 758,
-  "input_feature_count": 309,
+  "input_feature_count": 307,
   "embedding_dim": 32,
   "used_pca": true,
   "pca_components_requested": 32,
   "pca_components_used": 32,
-  "pca_total_explained_variance_ratio": 0.7266775234767344,
+  "pca_total_explained_variance_ratio": 0.728777310244282,
   "pca_explained_variance_ratio_first_10": [
-    0.1250136085370677,
-    0.05910311431598024,
-    0.04367453487025727,
-    0.0409944101433222,
-    0.038336221932491185,
-    0.03593555313011609,
-    0.02903338086071406,
-    0.025662178644842996,
-    0.02516771299089261,
-    0.022337284308870567
+    0.1257810672796356,
+    0.0594603707409612,
+    0.0439455774102164,
+    0.04124736971412052,
+    0.03857336980822309,
+    0.03612879422216647,
+    0.029003321242103086,
+    0.025819399657504485,
+    0.025261342123146735,
+    0.02240763829449666
   ],
   "pca_explained_variance_ratio_cumulative_first_10": [
-    0.1250136085370677,
-    0.18411672285304792,
-    0.2277912577233052,
-    0.2687856678666274,
-    0.3071218897991186,
-    0.3430574429292347,
-    0.37209082378994873,
-    0.3977530024347917,
-    0.4229207154256843,
-    0.4452579997345549
+    0.1257810672796356,
+    0.18524143802059678,
+    0.22918701543081318,
+    0.2704343851449337,
+    0.30900775495315674,
+    0.3451365491753232,
+    0.3741398704174263,
+    0.39995927007493076,
+    0.4252206121980775,
+    0.44762825049257415
   ],
   "diagnostic_ks": [
     4,
@@ -45,51 +45,51 @@
   "diagnostics": [
     {
       "k": 4,
-      "inertia": 63819.57351757339,
-      "silhouette": 0.37511333675669195
+      "inertia": 62558.43668344265,
+      "silhouette": 0.3464226303130072
     },
     {
       "k": 5,
-      "inertia": 59099.320930990565,
-      "silhouette": 0.3775571496445538
+      "inertia": 59375.85102310213,
+      "silhouette": 0.3740833833306751
     },
     {
       "k": 6,
-      "inertia": 56175.70900890304,
-      "silhouette": 0.40226062359186143
+      "inertia": 55784.85867074047,
+      "silhouette": 0.4059983774704383
     },
     {
       "k": 7,
-      "inertia": 53561.40130777981,
-      "silhouette": 0.4061251446332914
+      "inertia": 52707.46464273674,
+      "silhouette": 0.4058461813236903
     },
     {
       "k": 8,
-      "inertia": 51137.91036232193,
-      "silhouette": 0.4120735979242302
+      "inertia": 50352.26704909271,
+      "silhouette": 0.4108230063247458
     },
     {
       "k": 9,
-      "inertia": 48022.89064631965,
-      "silhouette": 0.4270982257743809
+      "inertia": 48188.30774526312,
+      "silhouette": 0.41333709766895904
     },
     {
       "k": 10,
-      "inertia": 45698.425198798745,
-      "silhouette": 0.43299478815379033
+      "inertia": 46037.83718985109,
+      "silhouette": 0.42039461439865533
     }
   ],
   "cluster_sizes": {
-    "0": 305,
-    "1": 150,
-    "2": 3,
-    "3": 86,
-    "4": 24,
-    "5": 178,
-    "6": 6,
-    "7": 2,
-    "8": 2,
-    "9": 2
+    "0": 194,
+    "1": 305,
+    "2": 140,
+    "3": 24,
+    "4": 2,
+    "5": 74,
+    "6": 2,
+    "7": 8,
+    "8": 3,
+    "9": 6
   },
   "feature_artifacts": {
     "representation_artifacts_npz": "ml_pipeline/data/artifacts/representation_v1_8/representation_artifacts.npz",
@@ -115,9 +115,9 @@
   "featurizer_report": {
     "input": "ml_pipeline/data/processed/song_records.backfilled.json",
     "records": 758,
-    "feature_count": 309,
+    "feature_count": 307,
     "vocab": {
-      "tag_vocab_size": 177,
+      "tag_vocab_size": 175,
       "genre_vocab_size": 113,
       "acoustic_vocab_size": 12,
       "top_tag_df": [
@@ -326,11 +326,15 @@
       ],
       "top_acoustic_df": [
         [
-          "highlevel__danceability__all__danceable",
+          "highlevel__mood_sad__all__sad",
           453
         ],
         [
-          "highlevel__mood_party__all__party",
+          "highlevel__mood_relaxed__all__relaxed",
+          453
+        ],
+        [
+          "highlevel__mood_acoustic__all__acoustic",
           453
         ],
         [
@@ -342,7 +346,23 @@
           453
         ],
         [
+          "highlevel__mood_aggressive__all__aggressive",
+          453
+        ],
+        [
           "highlevel__voice_instrumental__all__instrumental",
+          453
+        ],
+        [
+          "highlevel__danceability__all__danceable",
+          453
+        ],
+        [
+          "highlevel__mood_party__all__party",
+          453
+        ],
+        [
+          "highlevel__mood_electronic__all__electronic",
           453
         ],
         [
@@ -350,27 +370,7 @@
           453
         ],
         [
-          "highlevel__mood_relaxed__all__relaxed",
-          453
-        ],
-        [
-          "highlevel__mood_sad__all__sad",
-          453
-        ],
-        [
-          "highlevel__mood_acoustic__all__acoustic",
-          453
-        ],
-        [
           "highlevel__mood_happy__all__happy",
-          453
-        ],
-        [
-          "highlevel__mood_aggressive__all__aggressive",
-          453
-        ],
-        [
-          "highlevel__mood_electronic__all__electronic",
           453
         ]
       ]
@@ -378,7 +378,7 @@
     "matrix": {
       "shape": [
         758,
-        309
+        307
       ],
       "dtype": "float32",
       "nonzero_rows": 758,
@@ -408,7 +408,8 @@
         "chart",
         "charts",
         "hot_100",
-        "offizielle"
+        "offizielle",
+        "ph_"
       ],
       "skip_tag_exact": [
         "american",

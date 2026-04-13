@@ -1,8 +1,8 @@
 [
   {
-    "cluster_id": 0,
-    "cluster_name": "ph 4 stars / ph temp checken",
-    "size": 99,
+    "cluster_id": 1,
+    "cluster_name": "mixed vibe cluster",
+    "size": 97,
     "sample_tracks": [
       "Marlboro Nights — Lonely God",
       "Necromancer — Joy Again",
@@ -15,95 +15,79 @@
       "Cody Freestyle — Steve Lacy",
       "Some — Steve Lacy"
     ],
-    "top_features": [
-      {
-        "feature": "tag__ph_4_stars",
-        "pretty_feature": "ph 4 stars",
-        "score": 0.14547117567668594
-      },
-      {
-        "feature": "tag__ph_temp_checken",
-        "pretty_feature": "ph temp checken",
-        "score": 0.09784341718228319
-      },
-      {
-        "feature": "tag__5_wochen",
-        "pretty_feature": "5 wochen",
-        "score": 0.06658213495631231
-      }
-    ]
+    "top_features": []
   },
   {
-    "cluster_id": 1,
+    "cluster_id": 0,
     "cluster_name": "rock / indie rock",
-    "size": 79,
+    "size": 80,
     "sample_tracks": [
       "Chamber Of Reflection — Mac DeMarco",
       "Cigarette Daydreams — Cage The Elephant",
       "Somebody That I Used To Know — Gotye, Kimbra",
       "The Less I Know The Better — Tame Impala",
       "Come a Little Closer — Cage The Elephant",
+      "Trouble — Cage The Elephant",
       "Sweater Weather — The Neighbourhood",
       "Here Comes The Sun - Remastered 2009 — The Beatles",
       "Feels Like We Only Go Backwards — Tame Impala",
-      "In My Life - Remastered 2009 — The Beatles",
-      "Feel Good Inc. — Gorillaz, De La Soul"
+      "In My Life - Remastered 2009 — The Beatles"
     ],
     "top_features": [
       {
         "feature": "tag__rock",
         "pretty_feature": "rock",
-        "score": 1.9313352260523007
+        "score": 1.943571318983249
       },
       {
         "feature": "genre__rock",
         "pretty_feature": "rock",
-        "score": 1.931335196838485
+        "score": 1.9435712896474882
       },
       {
         "feature": "genre__indie_rock",
         "pretty_feature": "indie rock",
-        "score": 1.6103350134634444
+        "score": 1.6445074526950034
       },
       {
         "feature": "tag__indie_rock",
         "pretty_feature": "indie rock",
-        "score": 1.6103350099138838
+        "score": 1.6445074491454428
       },
       {
         "feature": "tag__psychedelic_rock",
         "pretty_feature": "psychedelic rock",
-        "score": 1.588025019511971
+        "score": 1.5658651711033287
       },
       {
         "feature": "genre__psychedelic_rock",
         "pretty_feature": "psychedelic rock",
-        "score": 1.588025019511971
+        "score": 1.5658651711033287
       },
       {
         "feature": "tag__indie",
         "pretty_feature": "indie",
-        "score": 1.4121789948937415
+        "score": 1.391890645941483
       },
       {
         "feature": "tag__pop_rock",
         "pretty_feature": "pop rock",
-        "score": 1.2220055846430318
+        "score": 1.2044104354724376
+      },
+      {
+        "feature": "genre__pop_rock",
+        "pretty_feature": "pop rock",
+        "score": 1.1944877556083455
       },
       {
         "feature": "tag__pop",
         "pretty_feature": "pop",
-        "score": 1.2214383390831733
-      },
-      {
-        "feature": "genre__pop",
-        "pretty_feature": "pop",
-        "score": 1.2214383286293975
+        "score": 1.1860314232100815
       }
     ]
   },
   {
-    "cluster_id": 10,
+    "cluster_id": 9,
     "cluster_name": "mixed vibe cluster",
     "size": 52,
     "sample_tracks": [
@@ -121,58 +105,58 @@
     "top_features": []
   },
   {
-    "cluster_id": 3,
+    "cluster_id": 5,
     "cluster_name": "acoustic / mood sad / sad",
-    "size": 34,
+    "size": 36,
     "sample_tracks": [
       "Sunflower — Rex Orange County",
+      "Fat Lady — Sure Sure",
       "Pluto Projector — Rex Orange County",
       "Bubble Gum — Clairo",
       "Pope Is a Rockstar — SALES",
       "Mrs Magic — Strawberry Guy",
       "As the World Caves In — Matt Maltese",
+      "Sofia — Clairo",
       "This Side of Paradise — Coyote Theory",
-      "Impossible — Clairo",
-      "4am — girl in red",
-      "Closer To You — Clairo"
+      "Impossible — Clairo"
     ],
     "top_features": [
       {
         "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
         "pretty_feature": "acoustic",
-        "score": 1.3874676321819717
+        "score": 1.3600395181146347
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
         "pretty_feature": "mood sad / sad",
-        "score": 1.1322009291446242
+        "score": 1.0610612136157773
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
         "pretty_feature": "voice instrumental / voice",
-        "score": 0.6903801935298998
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.6536239977258004
+        "score": 0.6762278001186176
       },
       {
         "feature": "acoustic__highlevel__timbre__all__bright",
         "pretty_feature": "timbre / bright",
-        "score": 0.6393580046852896
+        "score": 0.6708920284419331
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.648460639123382
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
         "pretty_feature": "mood happy / happy",
-        "score": 0.07017605163231255
+        "score": 0.13755917234615778
       }
     ]
   },
   {
-    "cluster_id": 7,
+    "cluster_id": 3,
     "cluster_name": "voice instrumental / instrumental / acoustic",
-    "size": 29,
+    "size": 33,
     "sample_tracks": [
       "worldstar money (interlude) — Joji",
       "Lover Is a Day — Cuco",
@@ -189,100 +173,90 @@
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
         "pretty_feature": "voice instrumental / instrumental",
-        "score": 1.054509124522806
+        "score": 1.043243084988772
       },
       {
         "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
         "pretty_feature": "acoustic",
-        "score": 0.9631836462561971
+        "score": 0.9902452115549459
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
         "pretty_feature": "mood sad / sad",
-        "score": 0.8125198586827077
+        "score": 0.8169191058287304
       },
       {
         "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
         "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.6154729905728061
+        "score": 0.6131417477955042
       },
       {
         "feature": "acoustic__highlevel__timbre__all__bright",
         "pretty_feature": "timbre / bright",
-        "score": 0.41421556874511506
-      },
-      {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "pretty_feature": "mood electronic / electronic",
-        "score": 0.0533640542670028
-      }
-    ]
-  },
-  {
-    "cluster_id": 8,
-    "cluster_name": "timbre / bright / mood happy / happy",
-    "size": 25,
-    "sample_tracks": [
-      "Blinded — The Jungle Giants",
-      "Young — Vacations",
-      "4EVER — Clairo",
-      "Fat Lady — Sure Sure",
-      "Kids — Current Joys",
-      "Dance, Baby! — boy pablo",
-      "Looking Out for You — Joy Again",
-      "Parking Lots — Plums",
-      "Sports — Beach Bunny",
-      "Sofia — Clairo"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "pretty_feature": "timbre / bright",
-        "score": 1.1107212432350093
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "pretty_feature": "mood happy / happy",
-        "score": 0.9801679973682894
-      },
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "pretty_feature": "mood party / party",
-        "score": 0.44195504140031006
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "pretty_feature": "voice instrumental / instrumental",
-        "score": 0.26303688294343675
-      },
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "pretty_feature": "aggressive",
-        "score": 0.21011009124332683
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "pretty_feature": "danceable",
-        "score": 0.16960111479152956
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "pretty_feature": "voice instrumental / voice",
-        "score": 0.14244870577351182
-      },
-      {
-        "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "pretty_feature": "mood sad / sad",
-        "score": 0.1077765613401944
+        "score": 0.47543786221880424
       }
     ]
   },
   {
     "cluster_id": 6,
+    "cluster_name": "timbre / bright / mood happy / happy",
+    "size": 22,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "Blinded — The Jungle Giants",
+      "Young — Vacations",
+      "4EVER — Clairo",
+      "Kids — Current Joys",
+      "Dance, Baby! — boy pablo",
+      "Looking Out for You — Joy Again",
+      "Parking Lots — Plums",
+      "Sports — Beach Bunny",
+      "6 Weeks — Beach Bunny"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 1.0926377800106124
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "pretty_feature": "mood happy / happy",
+        "score": 0.8442337208967241
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.6568662725604137
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "pretty_feature": "aggressive",
+        "score": 0.40885781737188914
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "pretty_feature": "voice instrumental / instrumental",
+        "score": 0.2119802504101936
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.18924788761539998
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.12427006854396341
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
     "cluster_name": "jazz pop / r b",
     "size": 20,
     "sample_tracks": [
-      "Trouble — Cage The Elephant",
+      "16 Years — The Griswolds",
       "The Adults Are Talking — The Strokes",
       "Homage — Mild High Club",
       "Another One — Mac DeMarco",
@@ -347,9 +321,9 @@
     ]
   },
   {
-    "cluster_id": 5,
+    "cluster_id": 8,
     "cluster_name": "aggressive / mood party / party",
-    "size": 12,
+    "size": 11,
     "sample_tracks": [
       "My Kind of Woman — Mac DeMarco",
       "Blondie — Current Joys",
@@ -366,51 +340,104 @@
       {
         "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
         "pretty_feature": "aggressive",
-        "score": 2.666994184261796
+        "score": 2.7733547896305404
       },
       {
         "feature": "acoustic__highlevel__mood_party__all__party",
         "pretty_feature": "mood party / party",
-        "score": 1.3045752335323766
+        "score": 1.2998643306810087
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
         "pretty_feature": "voice instrumental / voice",
-        "score": 0.6135066788513927
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "pretty_feature": "timbre / bright",
-        "score": 0.4065187812574956
+        "score": 0.6458833604626253
       },
       {
         "feature": "acoustic__highlevel__danceability__all__danceable",
         "pretty_feature": "danceable",
-        "score": 0.3833905210502655
+        "score": 0.43911491026774585
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 0.34207142187204165
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
         "pretty_feature": "mood happy / happy",
-        "score": 0.22445952768638225
+        "score": 0.24788092728564096
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
         "pretty_feature": "mood electronic / electronic",
-        "score": 0.16339557306399652
+        "score": 0.1455789758918731
       },
       {
         "feature": "tag__indie",
         "pretty_feature": "indie",
-        "score": 0.07656737857514861
+        "score": 0.10269976947170106
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.06530446071627755
       }
     ]
   },
   {
-    "cluster_id": 2,
-    "cluster_name": "indie pop / alternative",
-    "size": 10,
+    "cluster_id": 10,
+    "cluster_name": "voice instrumental / instrumental / timbre / dark",
+    "size": 11,
     "sample_tracks": [
-      "16 Years — The Griswolds",
+      "SLOW DANCING IN THE DARK — Joji",
+      "Not Allowed — TV Girl",
+      "What Would I Do? — Strawberry Guy",
+      "Something About You — Eyedress, Dent May",
+      "Feel Something — Clairo",
+      "Hello? — Clairo, Rejjie Snow",
+      "Cigarettes out the Window — TV Girl",
+      "Better Distractions — Faye Webster",
+      "The Basement — Lunar Vacation",
+      "Chapters — Sweet Trip"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "pretty_feature": "voice instrumental / instrumental",
+        "score": 0.7075089110072554
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.4861145414915777
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.4173150899872866
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "pretty_feature": "mood electronic / electronic",
+        "score": 0.3841095683572497
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.2627591005430946
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.12022782829539795
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "cluster_name": "indie pop / alternative",
+    "size": 9,
+    "sample_tracks": [
       "Space Song — Beach House",
       "we fell in love in october — girl in red",
       "Pain — PinkPantheress",
@@ -425,57 +452,57 @@
       {
         "feature": "tag__indie_pop",
         "pretty_feature": "indie pop",
-        "score": 2.668683887694718
+        "score": 2.9906264002122627
       },
       {
         "feature": "genre__indie_pop",
         "pretty_feature": "indie pop",
-        "score": 2.668683844106643
+        "score": 2.990626353043176
       },
       {
         "feature": "tag__alternative",
         "pretty_feature": "alternative",
-        "score": 1.8143645522949605
+        "score": 2.0332897870701676
       },
       {
         "feature": "genre__jangle_pop",
         "pretty_feature": "jangle pop",
-        "score": 0.8359839033738083
+        "score": 0.9383217258536791
       },
       {
         "feature": "tag__jangle_pop",
         "pretty_feature": "jangle pop",
-        "score": 0.8359838744232929
+        "score": 0.9383216940084113
       },
       {
         "feature": "genre__alternative_pop",
         "pretty_feature": "alternative pop",
-        "score": 0.7956546037573019
+        "score": 0.8953522329704504
       },
       {
         "feature": "tag__alternative_pop",
         "pretty_feature": "alternative pop",
-        "score": 0.7956545766650095
+        "score": 0.895352203130841
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 0.5269670695487678
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
         "pretty_feature": "mood happy / happy",
-        "score": 0.5674759144813284
+        "score": 0.46666447468925576
       },
       {
-        "feature": "genre__indie_rock",
-        "pretty_feature": "indie rock",
-        "score": 0.5496702470808792
-      },
-      {
-        "feature": "tag__indie_rock",
-        "pretty_feature": "indie rock",
-        "score": 0.5496702435313182
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.3909416936062451
       }
     ]
   },
   {
-    "cluster_id": 4,
+    "cluster_id": 2,
     "cluster_name": "singer songwriter / indie pop",
     "size": 8,
     "sample_tracks": [
@@ -542,7 +569,7 @@
     ]
   },
   {
-    "cluster_id": 12,
+    "cluster_id": 11,
     "cluster_name": "alternative / soundtrack",
     "size": 8,
     "sample_tracks": [
@@ -590,100 +617,6 @@
         "feature": "acoustic__highlevel__mood_party__all__party",
         "pretty_feature": "mood party / party",
         "score": 0.06749570061796098
-      }
-    ]
-  },
-  {
-    "cluster_id": 9,
-    "cluster_name": "timbre / dark / mood relaxed / relaxed",
-    "size": 6,
-    "sample_tracks": [
-      "SLOW DANCING IN THE DARK — Joji",
-      "Not Allowed — TV Girl",
-      "What Would I Do? — Strawberry Guy",
-      "Feel Something — Clairo",
-      "Hello? — Clairo, Rejjie Snow",
-      "Better Distractions — Faye Webster"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__timbre__all__dark",
-        "pretty_feature": "timbre / dark",
-        "score": 0.7258025731347987
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.6283604447599767
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "pretty_feature": "voice instrumental / instrumental",
-        "score": 0.5148245639042579
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "pretty_feature": "danceable",
-        "score": 0.4849374039573715
-      },
-      {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "pretty_feature": "mood electronic / electronic",
-        "score": 0.478445469879901
-      }
-    ]
-  },
-  {
-    "cluster_id": 11,
-    "cluster_name": "voice instrumental / instrumental / mood party / party",
-    "size": 5,
-    "sample_tracks": [
-      "Can I Call You Tonight? — Dayglow",
-      "Something About You — Eyedress, Dent May",
-      "Cigarettes out the Window — TV Girl",
-      "Chapters — Sweet Trip",
-      "Walkers Beware! We Drive into the Sun — Sweet Trip"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "pretty_feature": "voice instrumental / instrumental",
-        "score": 0.8109640030414994
-      },
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "pretty_feature": "mood party / party",
-        "score": 0.8047795917332824
-      },
-      {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "pretty_feature": "mood electronic / electronic",
-        "score": 0.5000560417092946
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "pretty_feature": "danceable",
-        "score": 0.45821506367244763
-      },
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "pretty_feature": "aggressive",
-        "score": 0.3013827662118949
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "pretty_feature": "timbre / bright",
-        "score": 0.21040847957175918
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__dark",
-        "pretty_feature": "timbre / dark",
-        "score": 0.18717704468077795
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "pretty_feature": "mood happy / happy",
-        "score": 0.09831826957814668
       }
     ]
   }
