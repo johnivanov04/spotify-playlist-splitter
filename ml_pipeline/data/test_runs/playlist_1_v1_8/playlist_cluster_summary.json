@@ -1,0 +1,228 @@
+[
+  {
+    "cluster_id": 1,
+    "cluster_name": "aggressive / timbre / bright",
+    "size": 237,
+    "sample_tracks": [
+      "None — Dayglow",
+      "None — Clairo",
+      "None — mxmtoon",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — The Jungle Giants"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "pretty_feature": "aggressive",
+        "score": 0.08556762007389435
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 0.0854210990709803
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.0686050122718403
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "cluster_name": "rock / indie rock",
+    "size": 75,
+    "sample_tracks": [
+      "None — Cage The Elephant",
+      "None — Gotye, Kimbra",
+      "None — Tame Impala",
+      "None — Cage The Elephant",
+      "None — Cage The Elephant",
+      "None — The Neighbourhood",
+      "None — The Beatles",
+      "None — Tame Impala",
+      "None — The Beatles",
+      "None — Gorillaz, De La Soul"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__rock",
+        "pretty_feature": "rock",
+        "score": 1.9982906355638825
+      },
+      {
+        "feature": "genre__rock",
+        "pretty_feature": "rock",
+        "score": 1.9982906056827863
+      },
+      {
+        "feature": "genre__indie_rock",
+        "pretty_feature": "indie rock",
+        "score": 1.6134003819021663
+      },
+      {
+        "feature": "tag__indie_rock",
+        "pretty_feature": "indie rock",
+        "score": 1.6134003783526056
+      },
+      {
+        "feature": "tag__psychedelic_rock",
+        "pretty_feature": "psychedelic rock",
+        "score": 1.5978499080050126
+      },
+      {
+        "feature": "genre__psychedelic_rock",
+        "pretty_feature": "psychedelic rock",
+        "score": 1.5978499080050124
+      },
+      {
+        "feature": "tag__pop",
+        "pretty_feature": "pop",
+        "score": 1.3622250465620087
+      },
+      {
+        "feature": "genre__pop",
+        "pretty_feature": "pop",
+        "score": 1.3622250361082324
+      },
+      {
+        "feature": "tag__indie",
+        "pretty_feature": "indie",
+        "score": 1.3338594081937865
+      },
+      {
+        "feature": "tag__pop_rock",
+        "pretty_feature": "pop rock",
+        "score": 1.3143425221100806
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "acoustic / mood sad / sad",
+    "size": 48,
+    "sample_tracks": [
+      "None — Joji",
+      "None — Sure Sure",
+      "None — Rex Orange County",
+      "None — Clairo",
+      "None — SALES",
+      "None — Matt Maltese",
+      "None — Coyote Theory",
+      "None — Labi Siffre",
+      "None — Clairo",
+      "None — Clairo"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "pretty_feature": "acoustic",
+        "score": 1.3213729615052663
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "pretty_feature": "mood sad / sad",
+        "score": 1.0124173851472087
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 0.6657223206179984
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.6593762788265395
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "pretty_feature": "voice instrumental / instrumental",
+        "score": 0.2500206749050288
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.15437954413957042
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "pretty_feature": "mood happy / happy",
+        "score": 0.11653172826019165
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "jazz pop / r b",
+    "size": 27,
+    "sample_tracks": [
+      "None — The Griswolds",
+      "None — Vance Joy",
+      "None — Beach House",
+      "None — The Strokes",
+      "None — PinkPantheress",
+      "None — Mac DeMarco",
+      "None — Vacations",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Declan McKenna"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__jazz_pop",
+        "pretty_feature": "jazz pop",
+        "score": 1.392540141190479
+      },
+      {
+        "feature": "tag__r_b",
+        "pretty_feature": "r b",
+        "score": 1.392540141190479
+      },
+      {
+        "feature": "tag__smooth_soul",
+        "pretty_feature": "smooth soul",
+        "score": 1.3925401196104512
+      },
+      {
+        "feature": "tag__sophisti_pop",
+        "pretty_feature": "sophisti pop",
+        "score": 1.3925401196104512
+      },
+      {
+        "feature": "genre__jazz_pop",
+        "pretty_feature": "jazz pop",
+        "score": 1.392540099038933
+      },
+      {
+        "feature": "genre__smooth_soul",
+        "pretty_feature": "smooth soul",
+        "score": 1.392540077800341
+      },
+      {
+        "feature": "genre__sophisti_pop",
+        "pretty_feature": "sophisti pop",
+        "score": 1.392540077800341
+      },
+      {
+        "feature": "genre__singer_songwriter",
+        "pretty_feature": "singer songwriter",
+        "score": 1.331869467419968
+      },
+      {
+        "feature": "genre__smooth_jazz",
+        "pretty_feature": "smooth jazz",
+        "score": 1.2576397012605396
+      },
+      {
+        "feature": "tag__smooth_jazz",
+        "pretty_feature": "smooth jazz",
+        "score": 1.2576396763209468
+      }
+    ]
+  }
+]

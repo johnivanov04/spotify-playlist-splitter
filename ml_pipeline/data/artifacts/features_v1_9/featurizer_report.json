@@ -1,0 +1,337 @@
+{
+  "input": "ml_pipeline/data/processed/song_records.backfilled.json",
+  "records": 3883,
+  "feature_count": 802,
+  "vocab": {
+    "tag_vocab_size": 500,
+    "genre_vocab_size": 283,
+    "acoustic_vocab_size": 12,
+    "top_tag_df": [
+      [
+        "rock",
+        955
+      ],
+      [
+        "pop",
+        717
+      ],
+      [
+        "pop_rock",
+        667
+      ],
+      [
+        "hard_rock",
+        438
+      ],
+      [
+        "classic_rock",
+        371
+      ],
+      [
+        "heavy_metal",
+        347
+      ],
+      [
+        "hip_hop",
+        337
+      ],
+      [
+        "electronic",
+        299
+      ],
+      [
+        "metal",
+        280
+      ],
+      [
+        "alternative_rock",
+        251
+      ],
+      [
+        "album_rock",
+        249
+      ],
+      [
+        "r_and_b",
+        189
+      ],
+      [
+        "dance_pop",
+        165
+      ],
+      [
+        "soul",
+        161
+      ],
+      [
+        "contemporary_r_and_b",
+        143
+      ],
+      [
+        "arena_rock",
+        138
+      ],
+      [
+        "dance",
+        132
+      ],
+      [
+        "house",
+        125
+      ],
+      [
+        "contemporary_pop_rock",
+        124
+      ],
+      [
+        "soft_rock",
+        111
+      ],
+      [
+        "blues_rock",
+        110
+      ],
+      [
+        "pop_rap",
+        106
+      ],
+      [
+        "synth_pop",
+        101
+      ],
+      [
+        "indie_rock",
+        96
+      ],
+      [
+        "alternative",
+        92
+      ]
+    ],
+    "top_genre_df": [
+      [
+        "rock",
+        955
+      ],
+      [
+        "pop",
+        717
+      ],
+      [
+        "hard_rock",
+        438
+      ],
+      [
+        "pop_rock",
+        398
+      ],
+      [
+        "classic_rock",
+        371
+      ],
+      [
+        "heavy_metal",
+        347
+      ],
+      [
+        "hip_hop",
+        330
+      ],
+      [
+        "electronic",
+        299
+      ],
+      [
+        "metal",
+        280
+      ],
+      [
+        "alternative_rock",
+        251
+      ],
+      [
+        "r_and_b",
+        170
+      ],
+      [
+        "soul",
+        161
+      ],
+      [
+        "dance_pop",
+        160
+      ],
+      [
+        "contemporary_r_and_b",
+        143
+      ],
+      [
+        "arena_rock",
+        138
+      ],
+      [
+        "dance",
+        132
+      ],
+      [
+        "house",
+        125
+      ],
+      [
+        "soft_rock",
+        111
+      ],
+      [
+        "blues_rock",
+        107
+      ],
+      [
+        "synth_pop",
+        101
+      ],
+      [
+        "pop_rap",
+        97
+      ],
+      [
+        "indie_rock",
+        96
+      ],
+      [
+        "electro",
+        90
+      ],
+      [
+        "blues",
+        87
+      ],
+      [
+        "latin",
+        86
+      ]
+    ],
+    "top_acoustic_df": [
+      [
+        "highlevel__mood_aggressive__all__aggressive",
+        1865
+      ],
+      [
+        "highlevel__timbre__all__dark",
+        1865
+      ],
+      [
+        "highlevel__danceability__all__danceable",
+        1865
+      ],
+      [
+        "highlevel__mood_party__all__party",
+        1865
+      ],
+      [
+        "highlevel__mood_sad__all__sad",
+        1865
+      ],
+      [
+        "highlevel__voice_instrumental__all__voice",
+        1865
+      ],
+      [
+        "highlevel__mood_acoustic__all__acoustic",
+        1865
+      ],
+      [
+        "highlevel__mood_electronic__all__electronic",
+        1865
+      ],
+      [
+        "highlevel__timbre__all__bright",
+        1865
+      ],
+      [
+        "highlevel__mood_relaxed__all__relaxed",
+        1865
+      ],
+      [
+        "highlevel__voice_instrumental__all__instrumental",
+        1865
+      ],
+      [
+        "highlevel__mood_happy__all__happy",
+        1865
+      ]
+    ]
+  },
+  "matrix": {
+    "shape": [
+      3883,
+      802
+    ],
+    "dtype": "float32",
+    "nonzero_rows": 3883,
+    "nonzero_rows_pct": 100.0,
+    "year_mean": 2009.8591295390163,
+    "year_std": 15.692577968941766
+  },
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 1.2,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1
+  },
+  "thresholds": {
+    "min_tag_df": 2,
+    "min_genre_df": 2,
+    "min_acoustic_df": 5,
+    "max_tags": 500,
+    "max_genres": 300,
+    "max_acoustic": 1000
+  },
+  "filters": {
+    "skip_tag_substrings": [
+      "billboard",
+      "chart",
+      "charts",
+      "hot_100",
+      "offizielle",
+      "ph_"
+    ],
+    "skip_tag_exact": [
+      "american",
+      "american_rock",
+      "contemporary_rap_gangsta_rap_hardcore_rap_rap_west_coast_rap",
+      "english",
+      "hip_hop_rap",
+      "hip_hop_underground_hip_hop",
+      "rap_hip_hop",
+      "tempo_change",
+      "vocal"
+    ],
+    "tag_alias_map": {
+      "rhythm_and_blues": "r_and_b",
+      "west_coast_rap": "west_coast_hip_hop",
+      "westcoast_rap": "west_coast_hip_hop"
+    },
+    "skip_acoustic_substrings": [
+      "__all__not_",
+      "__gender__",
+      "__genre_dortmund__",
+      "__genre_electronic__",
+      "__genre_rosamerica__",
+      "__genre_tzanetakis__",
+      "__ismir04_rhythm__",
+      "__moods_mirex__",
+      "__tonal_atonal__"
+    ],
+    "skip_acoustic_suffixes": [
+      "__probability"
+    ]
+  },
+  "outputs": {
+    "feature_matrix_npz": "ml_pipeline/data/artifacts/features_v1_9/feature_matrix.npz",
+    "feature_names_json": "ml_pipeline/data/artifacts/features_v1_9/feature_names.json",
+    "row_index_json": "ml_pipeline/data/artifacts/features_v1_9/row_index.json",
+    "featurizer_report_json": "ml_pipeline/data/artifacts/features_v1_9/featurizer_report.json"
+  }
+}

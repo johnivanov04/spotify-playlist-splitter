@@ -1,0 +1,42 @@
+[
+  {
+    "display_group": "Rock / Indie",
+    "size": 387,
+    "member_cluster_ids": [
+      0,
+      2,
+      1
+    ],
+    "member_cluster_names": [
+      "acoustic / indie rock",
+      "retro / cold",
+      "shoegaze / math pop"
+    ],
+    "top_descriptors": [
+      "acoustic",
+      "indie rock",
+      "indie pop",
+      "mood sad / sad",
+      "neo psychedelia",
+      "psychedelic rock indie rock shoegaze",
+      "mood relaxed / relaxed",
+      "retro",
+      "cold",
+      "mellow"
+    ],
+    "sample_tracks": [
+      "None \u2014 Dayglow",
+      "None \u2014 The Griswolds",
+      "None \u2014 Clairo",
+      "None \u2014 mxmtoon",
+      "None \u2014 Mac DeMarco",
+      "None \u2014 Gotye, Kimbra",
+      "None \u2014 The Beatles",
+      "None \u2014 Gorillaz, De La Soul",
+      "None \u2014 Daft Punk, Pharrell Williams, Nile Rodgers",
+      "None \u2014 Weezer",
+      "None \u2014 The Strokes",
+      "None \u2014 Phoenix"
+    ]
+  }
+]

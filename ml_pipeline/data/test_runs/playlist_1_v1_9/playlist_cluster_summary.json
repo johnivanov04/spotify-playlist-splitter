@@ -1,0 +1,206 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "acoustic / indie rock",
+    "size": 364,
+    "sample_tracks": [
+      "None — Dayglow",
+      "None — The Griswolds",
+      "None — Clairo",
+      "None — mxmtoon",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco",
+      "None — Mac DeMarco"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "pretty_feature": "acoustic",
+        "score": 0.4858971722090594
+      },
+      {
+        "feature": "tag__indie_rock",
+        "pretty_feature": "indie rock",
+        "score": 0.42041532950855426
+      },
+      {
+        "feature": "genre__indie_rock",
+        "pretty_feature": "indie rock",
+        "score": 0.4204153152369382
+      },
+      {
+        "feature": "tag__indie_pop",
+        "pretty_feature": "indie pop",
+        "score": 0.4203577756709159
+      },
+      {
+        "feature": "genre__indie_pop",
+        "pretty_feature": "indie pop",
+        "score": 0.42035777084811726
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "pretty_feature": "mood sad / sad",
+        "score": 0.4196251651768204
+      },
+      {
+        "feature": "tag__neo_psychedelia",
+        "pretty_feature": "neo psychedelia",
+        "score": 0.4043969608178421
+      },
+      {
+        "feature": "genre__neo_psychedelia",
+        "pretty_feature": "neo psychedelia",
+        "score": 0.40439694768751505
+      },
+      {
+        "feature": "tag__psychedelic_rock_indie_rock_shoegaze",
+        "pretty_feature": "psychedelic rock indie rock shoegaze",
+        "score": 0.3786776425188897
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.29889977673801144
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "retro / cold",
+    "size": 16,
+    "sample_tracks": [
+      "None — Gotye, Kimbra",
+      "None — The Beatles",
+      "None — The Beatles",
+      "None — Gorillaz, De La Soul",
+      "None — Daft Punk, Pharrell Williams, Nile Rodgers",
+      "None — Weezer",
+      "None — The Strokes",
+      "None — The Strokes",
+      "None — Phoenix",
+      "None — The Strokes"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__retro",
+        "pretty_feature": "retro",
+        "score": 6.720459017802227
+      },
+      {
+        "feature": "tag__cold",
+        "pretty_feature": "cold",
+        "score": 6.720459017802226
+      },
+      {
+        "feature": "tag__mellow",
+        "pretty_feature": "mellow",
+        "score": 6.627781038742082
+      },
+      {
+        "feature": "tag__cool",
+        "pretty_feature": "cool",
+        "score": 5.850910887928948
+      },
+      {
+        "feature": "tag__dreamy",
+        "pretty_feature": "dreamy",
+        "score": 5.850910887928947
+      },
+      {
+        "feature": "tag__background",
+        "pretty_feature": "background",
+        "score": 5.81281066401007
+      },
+      {
+        "feature": "tag__indie",
+        "pretty_feature": "indie",
+        "score": 5.688231651642286
+      },
+      {
+        "feature": "tag__box",
+        "pretty_feature": "box",
+        "score": 5.486525334947757
+      },
+      {
+        "feature": "tag__happy",
+        "pretty_feature": "happy",
+        "score": 5.102431406772469
+      },
+      {
+        "feature": "tag__beat_music",
+        "pretty_feature": "beat music",
+        "score": 5.059306243082494
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "shoegaze / math pop",
+    "size": 7,
+    "sample_tracks": [
+      "None — Tame Impala",
+      "None — Sweet Trip",
+      "None — Sweet Trip",
+      "None — Sweet Trip",
+      "None — Sweet Trip",
+      "None — Sweet Trip",
+      "None — Sweet Trip"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__shoegaze",
+        "pretty_feature": "shoegaze",
+        "score": 17.361706069026585
+      },
+      {
+        "feature": "genre__shoegaze",
+        "pretty_feature": "shoegaze",
+        "score": 17.36170589299693
+      },
+      {
+        "feature": "genre__math_pop",
+        "pretty_feature": "math pop",
+        "score": 15.396801114770414
+      },
+      {
+        "feature": "tag__math_pop",
+        "pretty_feature": "math pop",
+        "score": 15.396800266010674
+      },
+      {
+        "feature": "genre__dream_pop",
+        "pretty_feature": "dream pop",
+        "score": 14.497281887552077
+      },
+      {
+        "feature": "tag__dream_pop",
+        "pretty_feature": "dream pop",
+        "score": 14.497281701836954
+      },
+      {
+        "feature": "tag__indietronica",
+        "pretty_feature": "indietronica",
+        "score": 13.743517743436206
+      },
+      {
+        "feature": "genre__indietronica",
+        "pretty_feature": "indietronica",
+        "score": 13.7435173794204
+      },
+      {
+        "feature": "tag__space_rock_revival",
+        "pretty_feature": "space rock revival",
+        "score": 8.874436927802623
+      },
+      {
+        "feature": "tag__post_rock",
+        "pretty_feature": "post rock",
+        "score": 8.874436927802622
+      }
+    ]
+  }
+]

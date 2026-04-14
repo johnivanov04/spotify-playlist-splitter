@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
   "dataset_version": "0.1.0",
-  "generated_at_utc": "2026-03-26T01:27:09+00:00",
+  "generated_at_utc": "2026-04-14T03:50:03+00:00",
   "counts": {
-    "files_seen": 4,
-    "raw_tracks_seen": 819,
-    "normalized_records_written": 758,
-    "duplicate_records_skipped": 61,
+    "files_seen": 11,
+    "raw_tracks_seen": 4101,
+    "normalized_records_written": 3883,
+    "duplicate_records_skipped": 218,
     "missing_isrc": 122,
-    "missing_mbid": 643,
-    "with_brainz_tags": 47,
-    "with_brainz_genres": 45,
-    "with_acoustic_high_level": 76,
+    "missing_mbid": 3773,
+    "with_brainz_tags": 43,
+    "with_brainz_genres": 41,
+    "with_acoustic_high_level": 72,
     "with_acoustic_low_level": 0
   },
   "vocabulary": {
-    "unique_tags": 179,
-    "unique_genres": 83,
+    "unique_tags": 148,
+    "unique_genres": 76,
     "top_tags": [
       [
         "rock",
-        25
-      ],
-      [
-        "pop",
-        18
+        21
       ],
       [
         "indie rock",
         18
+      ],
+      [
+        "pop",
+        15
       ],
       [
         "indie pop",
@@ -36,11 +36,7 @@
       ],
       [
         "alternative rock",
-        11
-      ],
-      [
-        "pop rock",
-        11
+        10
       ],
       [
         "indie",
@@ -48,19 +44,15 @@
       ],
       [
         "electronic",
-        9
+        8
       ],
       [
         "psychedelic rock",
-        9
+        8
       ],
       [
-        "classic rock",
-        6
-      ],
-      [
-        "pop/rock",
-        6
+        "pop rock",
+        8
       ],
       [
         "singer-songwriter",
@@ -68,10 +60,6 @@
       ],
       [
         "mellow",
-        5
-      ],
-      [
-        "art pop",
         4
       ],
       [
@@ -79,15 +67,15 @@
         4
       ],
       [
-        "synth-pop",
-        4
-      ],
-      [
         "psychedelic pop",
         4
       ],
       [
-        "soundtrack",
+        "classic rock",
+        4
+      ],
+      [
+        "pop/rock",
         4
       ],
       [
@@ -95,42 +83,54 @@
         3
       ],
       [
+        "synth-pop",
+        3
+      ],
+      [
         "disco",
         3
       ],
       [
-        "chill",
+        "alternative",
         3
       ],
       [
-        "album rock",
+        "psychedelic rock / indie rock / shoegaze",
         3
       ],
       [
-        "britpop",
+        "jangle pop",
         3
       ],
       [
-        "contemporary pop/rock",
+        "soundtrack",
         3
       ],
       [
-        "happy",
+        "indietronica",
         3
+      ],
+      [
+        "blues rock",
+        2
+      ],
+      [
+        "garage rock",
+        2
       ]
     ],
     "top_genres": [
       [
         "rock",
-        25
-      ],
-      [
-        "pop",
-        18
+        21
       ],
       [
         "indie rock",
         18
+      ],
+      [
+        "pop",
+        15
       ],
       [
         "indie pop",
@@ -138,38 +138,26 @@
       ],
       [
         "alternative rock",
-        11
-      ],
-      [
-        "pop rock",
-        11
+        10
       ],
       [
         "electronic",
-        9
+        8
       ],
       [
         "psychedelic rock",
-        9
+        8
       ],
       [
-        "classic rock",
-        6
+        "pop rock",
+        8
       ],
       [
         "singer-songwriter",
         6
       ],
       [
-        "art pop",
-        4
-      ],
-      [
         "neo-psychedelia",
-        4
-      ],
-      [
-        "synth-pop",
         4
       ],
       [
@@ -177,23 +165,19 @@
         4
       ],
       [
+        "classic rock",
+        4
+      ],
+      [
         "alternative pop",
         3
       ],
       [
+        "synth-pop",
+        3
+      ],
+      [
         "disco",
-        3
-      ],
-      [
-        "britpop",
-        3
-      ],
-      [
-        "rock and roll",
-        3
-      ],
-      [
-        "funk",
         3
       ],
       [
@@ -202,10 +186,6 @@
       ],
       [
         "indietronica",
-        3
-      ],
-      [
-        "soft rock",
         3
       ],
       [
@@ -218,6 +198,26 @@
       ],
       [
         "surf punk",
+        2
+      ],
+      [
+        "art pop",
+        2
+      ],
+      [
+        "rock and roll",
+        2
+      ],
+      [
+        "britpop",
+        2
+      ],
+      [
+        "funk",
+        2
+      ],
+      [
+        "contemporary r&b",
         2
       ]
     ]
