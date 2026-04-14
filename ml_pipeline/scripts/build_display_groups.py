@@ -38,12 +38,12 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
     if "cool jazz" in name or name == "jazz / cool jazz" or "jazz /" in name or "/ jazz" in name:
         return "Jazz / Nujabes / Downtempo"
 
-    if any(k in name for k in ["singer songwriter", "acoustic"]):
+    if any(k in name for k in ["singer songwriter"]):
         return "Acoustic / Chill"
 
     if any(k in name for k in [
         "rock", "indie", "alternative", "punk", "grunge", "emo"
-    ]):
+    ]) and "hip hop" not in name and "r and b" not in name:
         return "Rock / Indie"
 
     if any(k in name for k in [

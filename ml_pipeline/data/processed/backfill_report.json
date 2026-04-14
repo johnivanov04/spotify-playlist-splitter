@@ -3,31 +3,31 @@
   "output": "ml_pipeline/data/processed/song_records.backfilled.json",
   "processed_range": {
     "offset": 0,
-    "end_exclusive": 758
+    "end_exclusive": 3883
   },
   "stats": {
-    "records_seen": 758,
-    "records_changed": 624,
-    "records_unchanged": 134,
+    "records_seen": 3883,
+    "records_changed": 2946,
+    "records_unchanged": 937,
     "skipped_no_lookup_key": 0,
-    "mbid_resolved_isrc": 481,
-    "mbid_resolved_search": 143,
-    "mbid_already_present": 115,
-    "mbid_lookup_failed": 19,
-    "recording_payload_fetched": 694,
-    "tags_filled": 250,
-    "genres_filled": 214,
-    "acoustic_high_filled": 377,
+    "mbid_resolved_isrc": 2401,
+    "mbid_resolved_search": 545,
+    "mbid_already_present": 110,
+    "mbid_lookup_failed": 827,
+    "recording_payload_fetched": 3015,
+    "tags_filled": 1708,
+    "genres_filled": 1640,
+    "acoustic_high_filled": 1793,
     "acoustic_low_filled": 0,
     "api_errors": 0,
-    "cache_hits": 90
+    "cache_hits": 1594
   },
   "summary_after_backfill": {
-    "with_mbid": 739,
-    "with_acoustic_high_level": 453,
-    "with_isrc": 636,
-    "with_tags": 297,
-    "with_genres": 259,
-    "records": 758
+    "with_mbid": 3056,
+    "with_isrc": 3761,
+    "with_tags": 1751,
+    "with_genres": 1681,
+    "with_acoustic_high_level": 1865,
+    "records": 3883
   }
 }

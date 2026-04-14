@@ -1,0 +1,6047 @@
+[
+  {
+    "id": "2pxAohyJptQWTQ5ZRWYijN",
+    "name": "The Trooper - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Piece Of Mind (1998 Remastered Edition)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2pxAohyJptQWTQ5ZRWYijN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a492203c6bb696640e89665b",
+    "popularity": 4,
+    "previewUrl": null,
+    "durationMs": 250973,
+    "isrc": "GBAYE9801390",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "33c2SurTuBpaWAW9YKlvqC",
+    "name": "Master Of Puppets",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Master Of Puppets",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/33c2SurTuBpaWAW9YKlvqC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731bfd51b2bc7d3c1a0ed13b4d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 515240,
+    "isrc": "GBAMC8600001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1jzDzZWeSDBg5fhNc3tczV",
+    "name": "Paranoid",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Paranoid (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/1jzDzZWeSDBg5fhNc3tczV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739683e5d7361bb80bfb00f46d",
+    "popularity": 12,
+    "previewUrl": null,
+    "durationMs": 168440,
+    "isrc": "GBAJE7000057",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5NIPsWpDjJTFBoPxCUUeXp",
+    "name": "Welcome To The Jungle",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Appetite For Destruction",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/5NIPsWpDjJTFBoPxCUUeXp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8e5391a619e9e8ea2162073",
+    "popularity": 6,
+    "previewUrl": null,
+    "durationMs": 273600,
+    "isrc": "USGF18714801",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1RQwcsdHIW5p86cx8zuf1I",
+    "name": "Kickstart My Heart",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Dr Feelgood",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/1RQwcsdHIW5p86cx8zuf1I",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273087534d16c142fb39bc291ce",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 282708,
+    "isrc": "USBY29900215",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "61dTqhd46yMkSWmC5LAh5F",
+    "name": "Angel Of Death",
+    "artists": [
+      "Slayer"
+    ],
+    "album": "Reign In Blood",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/61dTqhd46yMkSWmC5LAh5F",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fd833375c806981a61bb82ec",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 291440,
+    "isrc": "USSM18600233",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4wBxOGbbVIVkCJGCM5zwVo",
+    "name": "Holy Diver",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Holy Diver",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/4wBxOGbbVIVkCJGCM5zwVo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e6b970b0e3fa87677446d43e",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 350600,
+    "isrc": "NLF050390016",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3HzWxmvpQU3QHQ59zw1X4V",
+    "name": "Heaven and Hell - 2009 Remaster",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Heaven & Hell",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/3HzWxmvpQU3QHQ59zw1X4V",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731714d5e8b43f9e63572d550d",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 417840,
+    "isrc": "GBUM70900392",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "47vDLYqhLl0CaAiqBfvtZE",
+    "name": "You Could Be Mine",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Use Your Illusion II",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/47vDLYqhLl0CaAiqBfvtZE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731fd3e100e6a1f02caa229fe4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 343640,
+    "isrc": "USGF19142012",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1R3Y3bGE77KfOKLT4bN4mi",
+    "name": "Everlong",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/1R3Y3bGE77KfOKLT4bN4mi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 149526,
+    "isrc": "US38Y2506916",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1Ug98CRiQYu7wiSym4uLY4",
+    "name": "Sad But True",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/1Ug98CRiQYu7wiSym4uLY4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af07dc851962508661bbcfce",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 324560,
+    "isrc": "USEE10001993",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1hqrYSqvNc9x3BETX1cZhk",
+    "name": "Shout At The Devil",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Shout At The Devil",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/1hqrYSqvNc9x3BETX1cZhk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273564f5c31c0934c883838ee77",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 195853,
+    "isrc": "USBY29900159",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2oMA9NjGM0Fe3i9AZdmvpl",
+    "name": "Go Rebel",
+    "artists": [
+      "WICKED"
+    ],
+    "album": "Go Rebel",
+    "year": 2026,
+    "spotifyUrl": "https://open.spotify.com/track/2oMA9NjGM0Fe3i9AZdmvpl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d242181d8d18470112e307ed",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 216877,
+    "isrc": "QZU7K2500007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7bRAfjkvqFw2koYKswugoA",
+    "name": "Rock You Like a Hurricane",
+    "artists": [
+      "Scorpions"
+    ],
+    "album": "Rockline - Best of 80's, Vol. 2",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/7bRAfjkvqFw2koYKswugoA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734a102f85eb17aabe3e1a3c95",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 252693,
+    "isrc": "DEUE11748788",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0TI8TP4FitVPoEHPTySx48",
+    "name": "Iron Man",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Paranoid (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/0TI8TP4FitVPoEHPTySx48",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739683e5d7361bb80bfb00f46d",
+    "popularity": 4,
+    "previewUrl": null,
+    "durationMs": 354773,
+    "isrc": "GBAJE7000085",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4JVgIFgTrlQ2XMWasExsLj",
+    "name": "Creep",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4JVgIFgTrlQ2XMWasExsLj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 151250,
+    "isrc": "US38Y2506917",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Q41NLTmGbVPozwHKK7bk2",
+    "name": "Paradise City",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Appetite For Destruction",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/5Q41NLTmGbVPozwHKK7bk2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8e5391a619e9e8ea2162073",
+    "popularity": 5,
+    "previewUrl": null,
+    "durationMs": 406306,
+    "isrc": "USGF18714806",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2dXsILW8gzkosqleHAvl0v",
+    "name": "For Whom The Bell Tolls - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Ride The Lightning (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/2dXsILW8gzkosqleHAvl0v",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739ad3e9959f48d513886b8933",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 309973,
+    "isrc": "QMKHM1600096",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0liEj59qMGNoVrgWlf0wPh",
+    "name": "Hurt Me",
+    "artists": [
+      "Velvet Chains"
+    ],
+    "album": "Hurt Me",
+    "year": 2026,
+    "spotifyUrl": "https://open.spotify.com/track/0liEj59qMGNoVrgWlf0wPh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dfb21ef84d3aeb71b3a612b1",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 197004,
+    "isrc": "QZTLA2604952",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7txxAtOMwLLnQTpKeBL6bp",
+    "name": "Mother",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/7txxAtOMwLLnQTpKeBL6bp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc8d8db760af7b9d0c91747f",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 204866,
+    "isrc": "USSM18800169",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "01Mpj13vURSO3cCLprPt5T",
+    "name": "Raining Blood",
+    "artists": [
+      "Slayer"
+    ],
+    "album": "Reign In Blood",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/01Mpj13vURSO3cCLprPt5T",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fd833375c806981a61bb82ec",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 254400,
+    "isrc": "USSM18600241",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5tW1JZ407OjbATSTBHOowg",
+    "name": "Use Somebody",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5tW1JZ407OjbATSTBHOowg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 128000,
+    "isrc": "US38Y2506921",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2jz6rWGqVCYsymwxGoaON4",
+    "name": "Detroit Rock City",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Double Platinum",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/2jz6rWGqVCYsymwxGoaON4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731b98f867b665dc53ff6ea224",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 215933,
+    "isrc": "USPR37707201",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0W35nxtHtFlseSojmygEsf",
+    "name": "War Pigs",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Paranoid (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/0W35nxtHtFlseSojmygEsf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739683e5d7361bb80bfb00f46d",
+    "popularity": 3,
+    "previewUrl": null,
+    "durationMs": 474400,
+    "isrc": "GBAJE7000063",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4vsIozhbhbdM5r8E2UTGOR",
+    "name": "BOOTS ON BROADWAY - Rock Version",
+    "artists": [
+      "Joe Hermes"
+    ],
+    "album": "BOOTS ON BROADWAY (Rock Version)",
+    "year": 2026,
+    "spotifyUrl": "https://open.spotify.com/track/4vsIozhbhbdM5r8E2UTGOR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cf9cc2f44e7bd35a1a01511",
+    "popularity": 27,
+    "previewUrl": null,
+    "durationMs": 156624,
+    "isrc": "QZSYP2635351",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5nekfiTN45vlxG0eNJQQye",
+    "name": "Fade To Black - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Ride The Lightning (Deluxe / Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5nekfiTN45vlxG0eNJQQye",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27396a926d07aea417327ea024a",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 417226,
+    "isrc": "QMKHM1600097",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "77aoiMh0N8Wgb42RuU14CW",
+    "name": "No One Like You",
+    "artists": [
+      "Scorpions"
+    ],
+    "album": "Rockline - Best of 80's, Vol. 8",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/77aoiMh0N8Wgb42RuU14CW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c23fdf53d9ef40157a07fcf0",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 237626,
+    "isrc": "DEUE21769889",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "12WB7akcDKYVvwQZGGMLRX",
+    "name": "Every Breath You Take",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/12WB7akcDKYVvwQZGGMLRX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 168998,
+    "isrc": "US38Y2506919",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5X0bLSho0KTiSQYCI0IOcl",
+    "name": "Dr. Feelgood",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Dr. Feelgood 20th Anniversary (Expanded Version)",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/5X0bLSho0KTiSQYCI0IOcl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27360c0be57d9b28540c456bff4",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 290186,
+    "isrc": "USBY29900212",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3ZuVfQriS93y6ofwbIf7lp",
+    "name": "Children of the Grave",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Master of Reality (2009 Remastered Version)",
+    "year": 1971,
+    "spotifyUrl": "https://open.spotify.com/track/3ZuVfQriS93y6ofwbIf7lp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b7ec2b4b9c76b3b737990a42",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 314720,
+    "isrc": "GBAJE7100085",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4MhTFsyqIJnjsOweVcU8ug",
+    "name": "Sweet Child O' Mine",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Appetite For Destruction",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/4MhTFsyqIJnjsOweVcU8ug",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8e5391a619e9e8ea2162073",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 356400,
+    "isrc": "USGF18714809",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4dlupPB3jYjgTuow5ayOkM",
+    "name": "Perfect Strangers",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Perfect Strangers",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/4dlupPB3jYjgTuow5ayOkM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735329407687746e73637fc4cf",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 328426,
+    "isrc": "USPR39401582",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7KcYTtKsLs1JnNYYohHNv0",
+    "name": "Moth Into Flame",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Hardwired…To Self-Destruct (Deluxe)",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/7KcYTtKsLs1JnNYYohHNv0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730db34fd6dace00aabb8c1929",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 350644,
+    "isrc": "QMKHM1600380",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4mADzNmBzforQSqotyVni5",
+    "name": "Don't Speak",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4mADzNmBzforQSqotyVni5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 146864,
+    "isrc": "US38Y2507042",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "41wWrTueWew7qUU0Ru87Mp",
+    "name": "Wild Side",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Girls, Girls, Girls",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/41wWrTueWew7qUU0Ru87Mp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a226e31b10f88c83e00e828a",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 281960,
+    "isrc": "USBY29900189",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5qo8HipgkkuQ9tItiBiTaO",
+    "name": "We Rock",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Diamonds - The Best Of Dio",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/5qo8HipgkkuQ9tItiBiTaO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730105170ff1f7fac70581473f",
+    "popularity": 36,
+    "previewUrl": null,
+    "durationMs": 275160,
+    "isrc": "GBF088490135",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3cXiUuiGpFmZ8OdAWKk8Ck",
+    "name": "Lick It Up",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Lick It Up",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/3cXiUuiGpFmZ8OdAWKk8Ck",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e5089214df66e4c6324861f7",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 236640,
+    "isrc": "USMR18382039",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1udmPvJoBnqitbeYKKc9mc",
+    "name": "Black Sabbath",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Black Sabbath (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/1udmPvJoBnqitbeYKKc9mc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731311a92b0ca83a5154c5a5e7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 377280,
+    "isrc": "GBAJE7000076",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5uRN4EmPA7BWs5f4xsIl0Z",
+    "name": "Looks That Kill",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Shout At The Devil",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/5uRN4EmPA7BWs5f4xsIl0Z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273564f5c31c0934c883838ee77",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 249013,
+    "isrc": "USBY29900160",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4FfziCuXiK1MyOCY5zbS3E",
+    "name": "Under The Bridge",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4FfziCuXiK1MyOCY5zbS3E",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 273672,
+    "isrc": "US38Y2506920",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7vAwjvJs8YSlHcykJu7nc0",
+    "name": "Future World",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Keeper of the Seven Keys, Pt. I (Expanded Edition)",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/7vAwjvJs8YSlHcykJu7nc0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738130045e019aa2b2ed897e85",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 243613,
+    "isrc": "GBAJE0200143",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4ggy61YkrNendRHDi8fmNF",
+    "name": "Rainbow In The Dark",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Holy Diver",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/4ggy61YkrNendRHDi8fmNF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e6b970b0e3fa87677446d43e",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 254000,
+    "isrc": "GBF080300553",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4aYLAF6ckQ5ooGGGM7sWAa",
+    "name": "The Unforgiven",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/4aYLAF6ckQ5ooGGGM7sWAa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cf84c5b276431b473e924802",
+    "popularity": 9,
+    "previewUrl": null,
+    "durationMs": 386493,
+    "isrc": "GBF089190016",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2CzKVfVA9U7OKbIpAVPZOk",
+    "name": "Sabbath Bloody Sabbath",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Sabbath Bloody Sabbath (2009 Remastered Version)",
+    "year": 1973,
+    "spotifyUrl": "https://open.spotify.com/track/2CzKVfVA9U7OKbIpAVPZOk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273876dd2bbe17e15208b25779b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 347626,
+    "isrc": "GBAJE7300022",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0gGJO7JM51uAUu7EE2lxx6",
+    "name": "I Surrender",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Difficult To Cure",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/0gGJO7JM51uAUu7EE2lxx6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27374c80fa16bf4945b19e04d88",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 241893,
+    "isrc": "USF068100010",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6uTNaZG0i5VRdckzFr1M9u",
+    "name": "505",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6uTNaZG0i5VRdckzFr1M9u",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 155142,
+    "isrc": "US38Y2506923",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3dcvwpAqj1kNOiXzbloC1n",
+    "name": "Atlas, Rise!",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Hardwired…To Self-Destruct (Deluxe)",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/3dcvwpAqj1kNOiXzbloC1n",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730db34fd6dace00aabb8c1929",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 388624,
+    "isrc": "QMKHM1600378",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7vE1qmmpaWt6Z5caFGBObe",
+    "name": "Symptom of the Universe",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Sabotage (2009 Remastered Version)",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/7vE1qmmpaWt6Z5caFGBObe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733c5d0c9655047523aeb56af9",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 388400,
+    "isrc": "GBAJE7500018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3xqzMciySK1wh8oUFbmtPO",
+    "name": "Too Fast For Love",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Too Fast For Love (International Version)",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/3xqzMciySK1wh8oUFbmtPO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739d357f99ecdd5cada43dd749",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 201213,
+    "isrc": "GBFWU0300140",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5IX4TbIR5mMHGE4wiWwKW0",
+    "name": "One",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "...And Justice For All",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/5IX4TbIR5mMHGE4wiWwKW0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737c05e69390ab7c628a83cee7",
+    "popularity": 7,
+    "previewUrl": null,
+    "durationMs": 447440,
+    "isrc": "GBAMC9400003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7fSOpoZTwCmS8FON3g5M4O",
+    "name": "War Ensemble",
+    "artists": [
+      "Slayer"
+    ],
+    "album": "Seasons In The Abyss",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/7fSOpoZTwCmS8FON3g5M4O",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731a6dd75dbe003a00b7d580f5",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 291533,
+    "isrc": "USSM19000321",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2exZDvIQ0f6jxiazDRjK1u",
+    "name": "Zombie",
+    "artists": [
+      "Last Call"
+    ],
+    "album": "On Tap",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2exZDvIQ0f6jxiazDRjK1u",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c314134d9ce195d43b59bbf",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 151021,
+    "isrc": "US38Y2507043",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0mfbspA6GdxREXA2rCvoyp",
+    "name": "The Number Of The Beast - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "The Number of the Beast (1998 Remastered Version)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/0mfbspA6GdxREXA2rCvoyp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27397b46b6a3d9e9e6ee57d95cd",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 291546,
+    "isrc": "GBAYE9801381",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0nLiqZ6A27jJri2VCalIUs",
+    "name": "Nothing Else Matters",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/0nLiqZ6A27jJri2VCalIUs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cf84c5b276431b473e924802",
+    "popularity": 13,
+    "previewUrl": null,
+    "durationMs": 388266,
+    "isrc": "GBF089190020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Dof5rSpsVieJ4i3Cb7EbG",
+    "name": "Stargazer",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Rising",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/5Dof5rSpsVieJ4i3Cb7EbG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273316b6e3bb1bc2ea005763a23",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 510733,
+    "isrc": "USPR37680077",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Kfyg9nl3TWbtrUFEF4yr5",
+    "name": "Fairies Wear Boots",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Paranoid (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/6Kfyg9nl3TWbtrUFEF4yr5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739683e5d7361bb80bfb00f46d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 373192,
+    "isrc": "GBAJE7000089",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "06aiqCgLiZm5CXcttPz1oU",
+    "name": "Battery",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Master Of Puppets",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/06aiqCgLiZm5CXcttPz1oU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731bfd51b2bc7d3c1a0ed13b4d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 312586,
+    "isrc": "GBAMC9900024",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6vTtJrzzjg8Ike4M2Y4yIE",
+    "name": "Mr. Brightside",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6vTtJrzzjg8Ike4M2Y4yIE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 156486,
+    "isrc": "US38Y2507070",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3JvMig6Sc8XRLqHseNsccM",
+    "name": "The Wizard",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Black Sabbath (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/3JvMig6Sc8XRLqHseNsccM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731311a92b0ca83a5154c5a5e7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 260640,
+    "isrc": "GBAJE7000077",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "15uss75SOwMaCQyBma5UlD",
+    "name": "Iron Fist",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Iron Fist (Expanded Edition)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/15uss75SOwMaCQyBma5UlD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b2b21888e817ea9419c7bac0",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 173560,
+    "isrc": "GBAJE8200018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0yni4GUDXNDFdHlnOrDWsn",
+    "name": "Wrathchild - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Killers (1998 Remastered Edition)",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/0yni4GUDXNDFdHlnOrDWsn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273febeaee306193aea730de0b7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 175200,
+    "isrc": "GBAYE9801368",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2q6w0QZb17OCWWw2daMiPQ",
+    "name": "Saints of Los Angeles - Gang Vocal",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Saints of Los Angeles",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/2q6w0QZb17OCWWw2daMiPQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fe1e905d8188929858a5b539",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 220400,
+    "isrc": "USDPK0824003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4VBHrrMdxotiYlhJKJXnUI",
+    "name": "Still Loving You",
+    "artists": [
+      "Scorpions"
+    ],
+    "album": "Rockline - The Greatest Rock Ballads, Vol. 1",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/4VBHrrMdxotiYlhJKJXnUI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27388ebf303fe17d4b66c453368",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 387106,
+    "isrc": "DEUE21703778",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2WsKgIkI5NHAKvIltXnu3p",
+    "name": "Semi-Charmed Life",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2WsKgIkI5NHAKvIltXnu3p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 140294,
+    "isrc": "US38Y2507066",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "01QNJZhCL2mqc1425ecT0C",
+    "name": "Killers - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Killers (1998 Remastered Edition)",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/01QNJZhCL2mqc1425ecT0C",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273febeaee306193aea730de0b7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 301893,
+    "isrc": "GBAYE9801373",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Bt7cSAgiPWpM2dOU6VAg1",
+    "name": "Am I Demon",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/2Bt7cSAgiPWpM2dOU6VAg1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27316e44ccd21a6ff5e5b32b26b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 297293,
+    "isrc": "USSM18800168",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2MvlkJjcQL7Q5dmpRia5lE",
+    "name": "Stone Cold Crazy",
+    "artists": [
+      "Queen"
+    ],
+    "album": "Sheer Heart Attack",
+    "year": 1974,
+    "spotifyUrl": "https://open.spotify.com/track/2MvlkJjcQL7Q5dmpRia5lE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732d5fece44454a7ea344022ef",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 134093,
+    "isrc": "GBCEE9300040",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4gVTozEmzwAUXpwj3jEetX",
+    "name": "Highway Star",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Machine Head",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/4gVTozEmzwAUXpwj3jEetX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc9b44e950d5440ff65ea926",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 368506,
+    "isrc": "USWB19901165",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2hQTu9qTfqXAh5PtSbEm18",
+    "name": "Rusty Cage",
+    "artists": [
+      "Soundgarden"
+    ],
+    "album": "Badmotorfinger (25th Anniversary Remaster)",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/2hQTu9qTfqXAh5PtSbEm18",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d7eda30d08163455829ae63",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 266200,
+    "isrc": "USAM19104305",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "05TeoYmF2bJ5IyxskDro2e",
+    "name": "Sex On Fire",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/05TeoYmF2bJ5IyxskDro2e",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 140176,
+    "isrc": "US38Y2507069",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4aU82r5G2KTUh3HmPHCbM1",
+    "name": "Hush",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Shades of Deep Purple",
+    "year": 1968,
+    "spotifyUrl": "https://open.spotify.com/track/4aU82r5G2KTUh3HmPHCbM1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737f42bf4082dd9d4a77bfa130",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 264973,
+    "isrc": "GBCBR1100170",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7foXypuH2NcLbKv1ZetzsX",
+    "name": "Smoke on the Water - 1997 Remaster",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Deep Purple: Deepest Purple (30th Anniversary Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/7foXypuH2NcLbKv1ZetzsX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b554d2aee5ccb4bc8c00dc00",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 227853,
+    "isrc": "GBDXG0600241",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6pdaPkHBST8erdveAMg07B",
+    "name": "Stillborn",
+    "artists": [
+      "Black Label Society"
+    ],
+    "album": "The Blessed Hellride",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/6pdaPkHBST8erdveAMg07B",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27317cf0225280c08e5de0c1203",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 195546,
+    "isrc": "GBCBR0300034",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5tU9JM1v72X7oM808Am6Fq",
+    "name": "Radar Love",
+    "artists": [
+      "Golden Earring"
+    ],
+    "album": "Moontan",
+    "year": 1973,
+    "spotifyUrl": "https://open.spotify.com/track/5tU9JM1v72X7oM808Am6Fq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27334b4d0f8dfbb35906eefba3f",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 386706,
+    "isrc": "NLC287300054",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2AFN49ptbSNP7JJr6XkLXV",
+    "name": "Devil's Plaything",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig II: Lucifuge",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/2AFN49ptbSNP7JJr6XkLXV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f7a90f998d2d262b0621703c",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 253693,
+    "isrc": "USSM19000276",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5hZCpzrhFgtIbnqV4FkDX9",
+    "name": "Smells Like Teen Spirit",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5hZCpzrhFgtIbnqV4FkDX9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 152020,
+    "isrc": "US38Y2507068",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7h23UGMLtdtfgBd6wgmBFU",
+    "name": "Cum on Feel the Noize",
+    "artists": [
+      "Quiet Riot"
+    ],
+    "album": "Metal Health",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/7h23UGMLtdtfgBd6wgmBFU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733bccb5c42588b77a54b88113",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 290250,
+    "isrc": "USSM18300031",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "28WmNsclKsrVmdv3tDmoYU",
+    "name": "Seek & Destroy - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Kill 'Em All (Remastered)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/28WmNsclKsrVmdv3tDmoYU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d30fcf6340831edbafb45e38",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 414720,
+    "isrc": "QMKHM1600034",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0j7hyKTaetFpKsCgOyGPAI",
+    "name": "Stand Up and Shout",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Holy Diver",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/0j7hyKTaetFpKsCgOyGPAI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732457ab409ae106f8ae1dff89",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 198173,
+    "isrc": "USWB19903252",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ilsr4UkwAL10MspiJtKA3",
+    "name": "Long Live Rock N Roll",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Long Live Rock 'n' Roll",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/2ilsr4UkwAL10MspiJtKA3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bd88cb75225dfd3c4d7721c2",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 264960,
+    "isrc": "USPR37880079",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6ckozbGmOusAnLT2LEbERy",
+    "name": "Fight Fire With Fire - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Ride The Lightning (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/6ckozbGmOusAnLT2LEbERy",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739ad3e9959f48d513886b8933",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 284506,
+    "isrc": "QMKHM1600094",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0SXGlYE6wEiXGU55y8d1kZ",
+    "name": "Island In The Sun",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0SXGlYE6wEiXGU55y8d1kZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 131066,
+    "isrc": "US38Y2507071",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "39eKdJcCdYYRdKEZRfKJDJ",
+    "name": "Electric Funeral",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Paranoid (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/39eKdJcCdYYRdKEZRfKJDJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739683e5d7361bb80bfb00f46d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 289799,
+    "isrc": "GBAJE7000086",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3bBY5eExARCbvNAWzNv0sR",
+    "name": "Kill The King",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Long Live Rock 'n' Roll",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/3bBY5eExARCbvNAWzNv0sR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bd88cb75225dfd3c4d7721c2",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 270506,
+    "isrc": "USPR37880078",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2hSmv6Dx5L55TwddgzdLBu",
+    "name": "Through The Fire And Flames",
+    "artists": [
+      "DragonForce"
+    ],
+    "album": "Killer Elite",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/2hSmv6Dx5L55TwddgzdLBu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733c48334b3acf6e12702f3207",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 439213,
+    "isrc": "GBAJE0508258",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0c6p9QomOhNU9uzujLjtsD",
+    "name": "Caught In A Mosh",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "Among The Living (Deluxe Edition)",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/0c6p9QomOhNU9uzujLjtsD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27319e348ae09151d6eb2df9d6f",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 300093,
+    "isrc": "USIR28600018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6DRvu6LgU0wRF6Yr7WHRji",
+    "name": "Madhouse",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "Spreading The Disease",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/6DRvu6LgU0wRF6Yr7WHRji",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e9820d9824c4a3b2ffc941bd",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 259933,
+    "isrc": "USIR20000364",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2coosic6cLInk3yyNJ5ynC",
+    "name": "How You Remind Me",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2coosic6cLInk3yyNJ5ynC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 139285,
+    "isrc": "US38Y2507074",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "11fqGB9nwJYuWkSEfKH2dk",
+    "name": "Bring The Noise",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "Attack Of The Killer B's",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/11fqGB9nwJYuWkSEfKH2dk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273993a3a25463c63fb793f2ea8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 211786,
+    "isrc": "USIR29100046",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "51TG9W3y9qyO8BY5RXKgnZ",
+    "name": "Symphony Of Destruction",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Countdown To Extinction (Expanded Edition - Remastered)",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/51TG9W3y9qyO8BY5RXKgnZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737b178f928742be1492c6fba2",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 246733,
+    "isrc": "USCA20400616",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4E5xVW505akJX0wcKj8Mpd",
+    "name": "Tornado Of Souls - 2004 Remix",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Rust In Peace (2004 Remix / Expanded Edition)",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/4E5xVW505akJX0wcKj8Mpd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273be9fa5a89479b6af481938a0",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 319266,
+    "isrc": "USCA20400653",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5emb8RDOZtpXlw6D0eEQbz",
+    "name": "Trust - Remastered 2004 / Remixed",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Cryptic Writings (Expanded Edition - Remastered)",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/5emb8RDOZtpXlw6D0eEQbz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27376eff96fd2e3f9df3e71b276",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 311533,
+    "isrc": "USCA20400552",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6b6uLZsoGhObYexIxnRbIb",
+    "name": "Hangar 18 - 2004 Remix",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Rust In Peace (2004 Remix / Expanded Edition)",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/6b6uLZsoGhObYexIxnRbIb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273be9fa5a89479b6af481938a0",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 311200,
+    "isrc": "USCA20400648",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3hYdFeTvqn6FwU7QSpgQHJ",
+    "name": "Mississippi Queen",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3hYdFeTvqn6FwU7QSpgQHJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 142377,
+    "isrc": "US38Y2507072",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5LO0sJCkNMZYLYeGOvblLu",
+    "name": "In My Darkest Hour - Remastered 2004",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "So Far, So Good...So What! (Expanded Edition - Remastered)",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/5LO0sJCkNMZYLYeGOvblLu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e949e0e6c9eac438a68f5b37",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 386600,
+    "isrc": "USCA20400607",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2RaA6kIcvomt77qlIgGhCT",
+    "name": "Breaking the Law",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "British Steel",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/2RaA6kIcvomt77qlIgGhCT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273be0e5ebab8c61469b1ff9f62",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 153840,
+    "isrc": "GBBBN8000007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4f3RDq9nYPBeR1yMSgnmBm",
+    "name": "You've Got Another Thing Comin'",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Screaming For Vengeance (Expanded Edition)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/4f3RDq9nYPBeR1yMSgnmBm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273475bd4fb40ba687fbf002c82",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 310080,
+    "isrc": "GBBBN8202007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0IXpUl1fn2QZcBavfuq0H4",
+    "name": "Living After Midnight",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "British Steel",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/0IXpUl1fn2QZcBavfuq0H4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273be0e5ebab8c61469b1ff9f62",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 210133,
+    "isrc": "GBBBN8000005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3w9zHVKI28aUPZTxq8oDC6",
+    "name": "Electric Eye",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Screaming For Vengeance (Expanded Edition)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/3w9zHVKI28aUPZTxq8oDC6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273475bd4fb40ba687fbf002c82",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 222440,
+    "isrc": "GBBBN8200028",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0qZGM10IvZc3W0oPYaoehG",
+    "name": "Sweet Disposition",
+    "artists": [
+      "October Surprise"
+    ],
+    "album": "Legends, Revisted",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0qZGM10IvZc3W0oPYaoehG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736afaffafa9f28d83795a590b",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 128044,
+    "isrc": "US38Y2507073",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3Rtv6zRNKpeSygXoaF9kCm",
+    "name": "Beyond the Realms of Death",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Stained Class",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/3Rtv6zRNKpeSygXoaF9kCm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a4c79ec8f98d1866d266f5af",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 409800,
+    "isrc": "GBBBN0102358",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3x639plCXGLyZoMcyR2IgJ",
+    "name": "Dissident Aggressor",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Sin After Sin",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/3x639plCXGLyZoMcyR2IgJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d05908f25aa68cae852a54f2",
+    "popularity": 40,
+    "previewUrl": null,
+    "durationMs": 186093,
+    "isrc": "GBBBN0102350",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6U63nKrxHvM76KOa6kpyfq",
+    "name": "The Green Manalishi (With the Two Pronged Crown)",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Killing Machine",
+    "year": 1979,
+    "spotifyUrl": "https://open.spotify.com/track/6U63nKrxHvM76KOa6kpyfq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738192db1694959d5c711d39b3",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 202626,
+    "isrc": "GBBBN0102338",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Z17Q91PB11tzkDh0QQtd6",
+    "name": "Diamonds and Rust",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Sin After Sin",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/2Z17Q91PB11tzkDh0QQtd6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d05908f25aa68cae852a54f2",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 203533,
+    "isrc": "GBBBN0102344",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4M4eKhgPtfzUWUSeCOObPL",
+    "name": "Running Wild",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Killing Machine",
+    "year": 1979,
+    "spotifyUrl": "https://open.spotify.com/track/4M4eKhgPtfzUWUSeCOObPL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738192db1694959d5c711d39b3",
+    "popularity": 36,
+    "previewUrl": null,
+    "durationMs": 177800,
+    "isrc": "GBBBN0102367",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4HSUv1HWFxniJhEQWywyfo",
+    "name": "Breakeven",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/4HSUv1HWFxniJhEQWywyfo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 158936,
+    "isrc": "US38Y2537882",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7sicPw7V9SYJl3Zjme9i4p",
+    "name": "Heading Out to the Highway",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Point Of Entry",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/7sicPw7V9SYJl3Zjme9i4p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273397a50d3dede88554925c717",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 225533,
+    "isrc": "GBBBN8100009",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5xmmAlr7JqT53WqacPRhLA",
+    "name": "Screaming for Vengeance",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Screaming For Vengeance (Expanded Edition)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/5xmmAlr7JqT53WqacPRhLA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273475bd4fb40ba687fbf002c82",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 283120,
+    "isrc": "GBBBN8202006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5KQY3KDpQ3tO29W7iJNfFq",
+    "name": "Rock Hard Ride Free",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Defenders Of The Faith",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5KQY3KDpQ3tO29W7iJNfFq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc22adfbb796489be45491d2",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 333533,
+    "isrc": "GBBBN8402035",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4dB5JlDpDT4WLUvX5xIXON",
+    "name": "Eat Me Alive",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Defenders Of The Faith",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/4dB5JlDpDT4WLUvX5xIXON",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc22adfbb796489be45491d2",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 215560,
+    "isrc": "GBBBN8402037",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "36IWziKKiPQ65IU4cBQ5l2",
+    "name": "Love Bites",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Defenders Of The Faith",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/36IWziKKiPQ65IU4cBQ5l2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc22adfbb796489be45491d2",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 287733,
+    "isrc": "GBBBN8402033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1iSDn0mTpb0ZLZcbZgYkef",
+    "name": "Fly Away",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/1iSDn0mTpb0ZLZcbZgYkef",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 144750,
+    "isrc": "US38Y2537883",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Ip7WDoKDeVGnWsnOCzinV",
+    "name": "All Guns Blazing",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Painkiller",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/2Ip7WDoKDeVGnWsnOCzinV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27360db4ca924d17bc6754e89aa",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 237266,
+    "isrc": "GBBBN0102559",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3DfE7Ysl7H40yDbGFSuzPU",
+    "name": "Between the Hammer & the Anvil",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Painkiller",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/3DfE7Ysl7H40yDbGFSuzPU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27360db4ca924d17bc6754e89aa",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 289040,
+    "isrc": "GBBBN0102563",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "15k8Ch1mlwfxCZ009LslvR",
+    "name": "A Touch of Evil",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Living After Midnight",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/15k8Ch1mlwfxCZ009LslvR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27384e8e28e6f93cdc0e584860d",
+    "popularity": 28,
+    "previewUrl": null,
+    "durationMs": 342253,
+    "isrc": "GBBBN9000036",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6EPRKhUOdiFSQwGBRBbvsZ",
+    "name": "Ace of Spades",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Ace of Spades (Expanded Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/6EPRKhUOdiFSQwGBRBbvsZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732051e219a4af7648223953c1",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 166360,
+    "isrc": "GBAJE8000033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2zSpaFB7e0Yo1QKsDQ22Ol",
+    "name": "The Game (Triple H)",
+    "artists": [
+      "WWE",
+      "Motörhead"
+    ],
+    "album": "WWE: The Music, Vol. 5",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/2zSpaFB7e0Yo1QKsDQ22Ol",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bd6fce122bf2dde1983911a2",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 209906,
+    "isrc": "USBAC1201500",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ePfIBIm49pka6bJXFTCFD",
+    "name": "3AM",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2ePfIBIm49pka6bJXFTCFD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 151666,
+    "isrc": "US38Y2537884",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0BbaTGZi6vR4eUeuessTa6",
+    "name": "Heroes",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Heroes",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/0BbaTGZi6vR4eUeuessTa6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b3232d4ffac02019042392fe",
+    "popularity": 33,
+    "previewUrl": null,
+    "durationMs": 260720,
+    "isrc": "DENV61700018",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4W2CRPuOl8wN3aR7QmOmQE",
+    "name": "Killed by Death",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "No Remorse (Deluxe Edition)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/4W2CRPuOl8wN3aR7QmOmQE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730605dd82180c70bcfd7f7af4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 278306,
+    "isrc": "GBAJE8400023",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1CRNyZ974VYrvOg2kvG5PH",
+    "name": "Motörhead",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Motorhead",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/1CRNyZ974VYrvOg2kvG5PH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b08d4ca6b173806453d62de7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 190173,
+    "isrc": "GBBHN0100112",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "43UUkrrS5Dw4ltbgrvudi8",
+    "name": "Whiplash",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Under Cöver",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/43UUkrrS5Dw4ltbgrvudi8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273528e23a931e46c0cfa235a12",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 229499,
+    "isrc": "DENV61700026",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3iC3Numiy9P3AkF7iioKmx",
+    "name": "Wild Child",
+    "artists": [
+      "W.A.S.P."
+    ],
+    "album": "The Last Command",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/3iC3Numiy9P3AkF7iioKmx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d027ffc471c7d5de1bec827",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 312400,
+    "isrc": "GBCQV8400020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5XndLFmeEcjlqU4jbqJwVf",
+    "name": "Pumped Up Kicks",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5XndLFmeEcjlqU4jbqJwVf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 155465,
+    "isrc": "US38Y2537885",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0qgrrDnUUhyxpxbBznUnzg",
+    "name": "18 and Life",
+    "artists": [
+      "Skid Row"
+    ],
+    "album": "Skid Row",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/0qgrrDnUUhyxpxbBznUnzg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ae63b58e90bef8888658ae21",
+    "popularity": 4,
+    "previewUrl": null,
+    "durationMs": 229960,
+    "isrc": "USAT20901906",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4ZpXHlV2vQVfPXUvbDSZ92",
+    "name": "I Remember You",
+    "artists": [
+      "Skid Row"
+    ],
+    "album": "Skid Row",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/4ZpXHlV2vQVfPXUvbDSZ92",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ae63b58e90bef8888658ae21",
+    "popularity": 4,
+    "previewUrl": null,
+    "durationMs": 313693,
+    "isrc": "USAT20901911",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1jF5Id0OPFU1Mae8BEUF5u",
+    "name": "Youth Gone Wild",
+    "artists": [
+      "Skid Row"
+    ],
+    "album": "Skid Row",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/1jF5Id0OPFU1Mae8BEUF5u",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ae63b58e90bef8888658ae21",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 198906,
+    "isrc": "USAT20901908",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "06EC9TibZK2mACTZ2usK1h",
+    "name": "Live Wire",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Too Fast For Love",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/06EC9TibZK2mACTZ2usK1h",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dec0c1dbc765351cf6b05391",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 194586,
+    "isrc": "USBY29900144",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4zXvB4MoQD8onk0NCZbeHG",
+    "name": "Home Sweet Home",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Theatre of Pain",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/4zXvB4MoQD8onk0NCZbeHG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27391f5ee49ad8fa5da6f4bcfcf",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 240933,
+    "isrc": "USBY29900177",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0l0uoVw0nvr94Kx5dO7XRs",
+    "name": "Kryptonite",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0l0uoVw0nvr94Kx5dO7XRs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 145714,
+    "isrc": "US38Y2537886",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3KhF2YiNpJvGpfiCW45R6D",
+    "name": "Runnin' with the Devil - 2015 Remaster",
+    "artists": [
+      "Van Halen"
+    ],
+    "album": "Van Halen (Remastered)",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 214960,
+    "isrc": "USWB11403668",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "05RgAMGypEvqhNs5hPCbMS",
+    "name": "Panama - 2015 Remaster",
+    "artists": [
+      "Van Halen"
+    ],
+    "album": "1984 (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/05RgAMGypEvqhNs5hPCbMS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b414c63fb435b622238c15ed",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 210226,
+    "isrc": "USWB11403681",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0upLyFR8Rr52ZpMp5esQoq",
+    "name": "You Really Got Me - 2015 Remaster",
+    "artists": [
+      "Van Halen"
+    ],
+    "album": "Van Halen (Remastered)",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/0upLyFR8Rr52ZpMp5esQoq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 156146,
+    "isrc": "USWB11403670",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2tAeN2TKlQLOoSPXtARzBV",
+    "name": "Eruption - 2015 Remaster",
+    "artists": [
+      "Van Halen"
+    ],
+    "album": "Van Halen (Remastered)",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/2tAeN2TKlQLOoSPXtARzBV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 102080,
+    "isrc": "USWB11403669",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6fybp4N6eW3bsFAvARxyVe",
+    "name": "Ain't Talkin' 'Bout Love - 2015 Remaster",
+    "artists": [
+      "Van Halen"
+    ],
+    "album": "Van Halen (Remastered)",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/6fybp4N6eW3bsFAvARxyVe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27317dd812df38fed44d6d2036e",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 227800,
+    "isrc": "USWB11403671",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5lAGJpMOz2TL8ABx99yV5i",
+    "name": "The Reason",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5lAGJpMOz2TL8ABx99yV5i",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 133734,
+    "isrc": "US38Y2537887",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0pLIxj7aJm1fyC2dFFs8mJ",
+    "name": "Creatures Of The Night",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Creatures Of The Night (Remastered Version)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/0pLIxj7aJm1fyC2dFFs8mJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bb4e6bd7befcd39a88532dc5",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 243400,
+    "isrc": "USMR18210009",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "79Nr2Z6rz9lfNpubIY0bkq",
+    "name": "I Love It Loud",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Creatures Of The Night (Remastered Version)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/79Nr2Z6rz9lfNpubIY0bkq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bb4e6bd7befcd39a88532dc5",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 255426,
+    "isrc": "USMR18210014",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5XcZRgJv3zMhTqCyESjQrF",
+    "name": "Poison",
+    "artists": [
+      "Alice Cooper"
+    ],
+    "album": "Trash",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 269712,
+    "isrc": "USSM18900004",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5XeT9fYCeg1jYithrEni7v",
+    "name": "Bed of Nails",
+    "artists": [
+      "Alice Cooper"
+    ],
+    "album": "Trash",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/5XeT9fYCeg1jYithrEni7v",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27334b292a289c635532da02671",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 260549,
+    "isrc": "USSM10107986",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Z8EDau8uNcP1E8JvmfkZe",
+    "name": "School's Out",
+    "artists": [
+      "Alice Cooper"
+    ],
+    "album": "School's Out",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/5Z8EDau8uNcP1E8JvmfkZe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738bd7862946837e32f4a992db",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 210106,
+    "isrc": "USWB19900782",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2BKxtCqb5WVd9CjjMMZr7e",
+    "name": "Since U Been Gone",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2BKxtCqb5WVd9CjjMMZr7e",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 190541,
+    "isrc": "US38Y2537888",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "61nSbxyL6VRPp32AMscxiF",
+    "name": "Crazy Train - 2002 Version",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "The Ozzman Cometh",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/61nSbxyL6VRPp32AMscxiF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b7455050287d805f17dad811",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 289466,
+    "isrc": "USSM10204723",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1cDu1ZVtBExJYohWBellWs",
+    "name": "I Don't Know",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Blizzard of Ozz (Expanded Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/1cDu1ZVtBExJYohWBellWs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735776e18c520194c48d92815b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 317173,
+    "isrc": "USSM11002844",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3VPcxdwwo9TcjAOYZa5ZrP",
+    "name": "Flying High Again",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Diary Of A Madman",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/3VPcxdwwo9TcjAOYZa5ZrP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273074a1951cb329bb8afb63142",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 284106,
+    "isrc": "USSM11002857",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4nvYDy427VvA1TcEkdgZII",
+    "name": "Hellraiser",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "No More Tears (Expanded Edition)",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/4nvYDy427VvA1TcEkdgZII",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+    "popularity": 67,
+    "previewUrl": null,
+    "durationMs": 292848,
+    "isrc": "USSM19100020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7w6PJe5KBPyvuRYxFkPssC",
+    "name": "No More Tears",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "No More Tears (Expanded Edition)",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 444983,
+    "isrc": "USSM19100025",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3UQVNbsFpR84qYP29qYja2",
+    "name": "The Middle",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3UQVNbsFpR84qYP29qYja2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 142926,
+    "isrc": "US38Y2537889",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5pXN87F2P9CpWXcCQgC2H0",
+    "name": "Desire - Live at Orlando Arena, Orlando, FL - August 1992",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "LIVE & LOUD",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/5pXN87F2P9CpWXcCQgC2H0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d0c71235675c9baee14b9d33",
+    "popularity": 32,
+    "previewUrl": null,
+    "durationMs": 360706,
+    "isrc": "USSM19300045",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5yckiSASyeQLPgpBZkXIbu",
+    "name": "Perry Mason",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Ozzmosis (Expanded Edition)",
+    "year": 1995,
+    "spotifyUrl": "https://open.spotify.com/track/5yckiSASyeQLPgpBZkXIbu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27320904d686b3d8d433834e079",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 353802,
+    "isrc": "USSM19501359",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5fIZDuxfuM4tANRHZ8Btju",
+    "name": "The Last In Line",
+    "artists": [
+      "Dio"
+    ],
+    "album": "The Last In Line (Deluxe Edition)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5fIZDuxfuM4tANRHZ8Btju",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27320656ec399a0b212afc31d30",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 343173,
+    "isrc": "GBF080400101",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2QCk8lF2jzZmC28zxq6bgo",
+    "name": "Shame On The Night",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Holy Diver",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2QCk8lF2jzZmC28zxq6bgo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27315350aa1c89e23a5fa6c0de1",
+    "popularity": 37,
+    "previewUrl": null,
+    "durationMs": 319280,
+    "isrc": "NLF050590032",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5ZOEJTjmy2im3xtDdCOHi8",
+    "name": "Starlight",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Walls of Jericho (Bonus Tracks Edition)",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/5ZOEJTjmy2im3xtDdCOHi8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a3552d6c4a16b7e1f549d3f7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 318453,
+    "isrc": "GBAJE0509109",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7iVLTtvOyiX8Fp25ib15Hk",
+    "name": "One Last Breathe",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/7iVLTtvOyiX8Fp25ib15Hk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 144480,
+    "isrc": "US38Y2537890",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2hzqrlFtVKknnHJXkWTZPH",
+    "name": "How Many Tears",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Walls of Jericho (Bonus Tracks Edition)",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/2hzqrlFtVKknnHJXkWTZPH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a3552d6c4a16b7e1f549d3f7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 435733,
+    "isrc": "GBAJE0509121",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5VZwMq6yaFb04PCTfdNY3K",
+    "name": "I Want Out",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Keeper of the Seven Keys, Pt. II (Expanded Edition)",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/5VZwMq6yaFb04PCTfdNY3K",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733ab4dc4b31ad6870b455ac80",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 280213,
+    "isrc": "GBAJE0200152",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7990Xs9HQx7FXVIDVPEwj9",
+    "name": "Rock And Roll All Nite",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Dressed To Kill (Remastered Version)",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/7990Xs9HQx7FXVIDVPEwj9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f33dfb2da14d313d36ecdaa5",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 168733,
+    "isrc": "USPR37509157",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4UfJdZChQRj1rF7pEr5Ml9",
+    "name": "Big City Nights",
+    "artists": [
+      "Scorpions"
+    ],
+    "album": "Rockline - Best of 80's, Vol. 5",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/4UfJdZChQRj1rF7pEr5Ml9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273773c87decbe0be9adc6e8ef2",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 250400,
+    "isrc": "DEUE21703745",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0qGkuH9Ad7ttDIjgr3atv5",
+    "name": "Welcome Home (Sanitarium)",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Master Of Puppets",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/0qGkuH9Ad7ttDIjgr3atv5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731bfd51b2bc7d3c1a0ed13b4d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 387040,
+    "isrc": "GBAMC8600002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6qZEZsiXSF5SDcItfLWHaF",
+    "name": "Take Me To Church",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/6qZEZsiXSF5SDcItfLWHaF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 153360,
+    "isrc": "US38Y2537892",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "21cp8L9Pei4AgysZVihjSv",
+    "name": "Child in Time",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Deepest Purple: The Very Best of Deep Purple",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/21cp8L9Pei4AgysZVihjSv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27325b36a6170824fefd38d337e",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 619266,
+    "isrc": "GBDXG0600057",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1Krtfh550kyhfWPcRp6SnD",
+    "name": "Overkill",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Overkill (Deluxe Edition)",
+    "year": 1979,
+    "spotifyUrl": "https://open.spotify.com/track/1Krtfh550kyhfWPcRp6SnD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27358a67ffd3a28d3fd4445546c",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 313520,
+    "isrc": "GBAJE7900077",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3HkWMoqEaGgjiPvcYh8A3U",
+    "name": "Rock Out",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Motörizer",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/3HkWMoqEaGgjiPvcYh8A3U",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ffebd5b00d50926dd761ef0a",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 127960,
+    "isrc": "DEA450812860",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7Ei4LhQ8BeTfjsPY7FINZS",
+    "name": "Born To Raise Hell",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Bastards",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/7Ei4LhQ8BeTfjsPY7FINZS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273423b9ff8a5ada676df54d251",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 299786,
+    "isrc": "DEA310700005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6lxKwPbeMRjpqd33ubyyJ6",
+    "name": "Devil I Know",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Kiss of Death",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/6lxKwPbeMRjpqd33ubyyJ6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304689e9ae32a5f42d012c64c",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 180986,
+    "isrc": "GBAJE0605124",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "43LuU4aE5tuwxsugSU0Nn9",
+    "name": "Wonderwall",
+    "artists": [
+      "League Minimum"
+    ],
+    "album": "4th Liners",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/43LuU4aE5tuwxsugSU0Nn9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737d3c54d0732c51364c5c848b",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 138361,
+    "isrc": "US38Y2537891",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2SU0jZxdeuUhNa2Q4QZEmh",
+    "name": "Life's A Bitch",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Inferno",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/2SU0jZxdeuUhNa2Q4QZEmh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731d3a8ec08896d00d1418aba9",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 253453,
+    "isrc": "DEA450522580",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3R5KuPCUiv1MAs5yPEA2z6",
+    "name": "Shut Your Mouth",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Hammered",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/3R5KuPCUiv1MAs5yPEA2z6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273457357cc2a61eaf4dd067141",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 246160,
+    "isrc": "DEA450526540",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2O7UGwJPVlix15Wn4sa5vw",
+    "name": "Ride The Lightning - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Ride The Lightning (Deluxe / Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/2O7UGwJPVlix15Wn4sa5vw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27396a926d07aea417327ea024a",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 396986,
+    "isrc": "QMKHM1600095",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0QV3swr7L8MZr72lL2izV1",
+    "name": "Hardwired",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Hardwired…To Self-Destruct (Deluxe)",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/0QV3swr7L8MZr72lL2izV1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ee498e8074b8df8e375abe04",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 189347,
+    "isrc": "QMKHM1600377",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7c20afNGzcRFwKHn52Uqvw",
+    "name": "Steel Tormentor",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "The Time of the Oath",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/7c20afNGzcRFwKHn52Uqvw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733f76bb87b836986c30f14ff4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 340160,
+    "isrc": "GBCYG0500181",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5zCSOKPWHWWXS43JPmeFOm",
+    "name": "Bittersweet Symphony",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5zCSOKPWHWWXS43JPmeFOm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 143971,
+    "isrc": "US38Y2551442",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2ZM2s2GFvcUYSZBIFIKrKw",
+    "name": "Wake Up the Mountain",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "The Time of the Oath",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/2ZM2s2GFvcUYSZBIFIKrKw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733f76bb87b836986c30f14ff4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 302066,
+    "isrc": "GBCYG0500182",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2SgbR6ttzoNlCRGQOKjrop",
+    "name": "Cowboys from Hell",
+    "artists": [
+      "Pantera"
+    ],
+    "album": "Cowboys from Hell",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/2SgbR6ttzoNlCRGQOKjrop",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 243533,
+    "isrc": "USEE10170414",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "57bgtoPSgt236HzfBOd8kj",
+    "name": "Thunderstruck",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "The Razors Edge",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739a9b1cc067e4460da04adce2",
+    "popularity": 89,
+    "previewUrl": null,
+    "durationMs": 292333,
+    "isrc": "AUAP09000014",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7fcfNW0XxTWlwVlftzfDOR",
+    "name": "Walk",
+    "artists": [
+      "Pantera"
+    ],
+    "album": "Vulgar Display of Power",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/7fcfNW0XxTWlwVlftzfDOR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273347c0a40c1e3f0c890a6d9d6",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 315120,
+    "isrc": "USEE10170088",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5a2hIQWInPjqkkFiUEgxoX",
+    "name": "Peace Sells - Remastered",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Peace Sells...But Who's Buying (Deluxe Edition - Remastered)",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/5a2hIQWInPjqkkFiUEgxoX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730f783e735d0f43f071109a90",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 244160,
+    "isrc": "USCA21101251",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0QhChaPJy7oOjmSw1G1fkT",
+    "name": "All The Small Things",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/0QhChaPJy7oOjmSw1G1fkT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 152628,
+    "isrc": "US38Y2551443",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0P4JuEXYJmu2Q7BTtQW5nR",
+    "name": "Fear Of The Dark - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Fear Of The Dark (1998 Remastered Edition)",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/0P4JuEXYJmu2Q7BTtQW5nR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738784fc3a907ccfc1974d51bf",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 436826,
+    "isrc": "GBCHB9810022",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "08mG3Y1vljYA6bvDt4Wqkj",
+    "name": "Back In Black",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Back In Black",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+    "popularity": 88,
+    "previewUrl": null,
+    "durationMs": 256000,
+    "isrc": "AUAP08000046",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6ursmCnbc9oDRGa2yHKkoZ",
+    "name": "Roots Bloody Roots",
+    "artists": [
+      "Sepultura"
+    ],
+    "album": "Roots",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/6ursmCnbc9oDRGa2yHKkoZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730bd5e7cce9765c2ef519424e",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 212253,
+    "isrc": "NLA329513650",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1iGXvUsVVkYBas0Cniw6NB",
+    "name": "Hallowed Be Thy Name - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "The Number Of The Beast (1998 Remastered Edition)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/1iGXvUsVVkYBas0Cniw6NB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a633718a1d28f157193bd865",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 432800,
+    "isrc": "GBAYE9801385",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "62rSF7anVnDAmc9Vnmb7cH",
+    "name": "Got The Time",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "Persistence Of Time",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/62rSF7anVnDAmc9Vnmb7cH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cca735f96af51c5d3e27d5e7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 164400,
+    "isrc": "USIR29000064",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2LJXA1QwyOIFQFdNbHflpS",
+    "name": "Even Flow",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2LJXA1QwyOIFQFdNbHflpS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 162857,
+    "isrc": "US38Y2551444",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5lSbdSQAWAMjAcJDJPFGQr",
+    "name": "Aces High - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Powerslave (1998 Remastered Edition)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5lSbdSQAWAMjAcJDJPFGQr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732dfddae87fa3a8a09bc5b666",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 269466,
+    "isrc": "GBAYE9801451",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2dbOYFfS7r7NAzquRvji9A",
+    "name": "Balls to the Wall",
+    "artists": [
+      "Accept"
+    ],
+    "album": "Balls To The Wall",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2dbOYFfS7r7NAzquRvji9A",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27374a7bd17c802c562274d3b32",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 342600,
+    "isrc": "USSM18400165",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "62oNfnQqObaqARM0DTibAL",
+    "name": "N.I.B.",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Black Sabbath (2009 Remastered Version)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/62oNfnQqObaqARM0DTibAL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731311a92b0ca83a5154c5a5e7",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 364493,
+    "isrc": "GBAJE7000079",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2zYzyRzz6pRmhPzyfMEC8s",
+    "name": "Highway to Hell",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Highway to Hell",
+    "year": 1979,
+    "spotifyUrl": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
+    "popularity": 89,
+    "previewUrl": null,
+    "durationMs": 208110,
+    "isrc": "AUAP07900028",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5BIMPccDwShpXq784RJlJp",
+    "name": "Enter Sandman",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/5BIMPccDwShpXq784RJlJp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af07dc851962508661bbcfce",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 331573,
+    "isrc": "USEE10001992",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5KvwjihiyMW1Zd0y7v8XoV",
+    "name": "Go Your Own Way",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5KvwjihiyMW1Zd0y7v8XoV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 133870,
+    "isrc": "US38Y2551445",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1f2nJKg780VxYIveVq6Xej",
+    "name": "South Of Heaven",
+    "artists": [
+      "Slayer"
+    ],
+    "album": "South Of Heaven",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/1f2nJKg780VxYIveVq6Xej",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273247bba379dd1511a5e934ed8",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 298533,
+    "isrc": "USSM18800154",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7lVHF6SvOqlCCAVCxeQ3kh",
+    "name": "Run to the Hills - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "The Number of the Beast (1998 Remastered Version)",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/7lVHF6SvOqlCCAVCxeQ3kh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27397b46b6a3d9e9e6ee57d95cd",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 233946,
+    "isrc": "GBAYE9801382",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4vJr55lngvhSM8WIh9CjQc",
+    "name": "Cemetery Gates",
+    "artists": [
+      "Pantera"
+    ],
+    "album": "Cowboys from Hell",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/4vJr55lngvhSM8WIh9CjQc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 422933,
+    "isrc": "USEE10170410",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "01MqEw2Y7knaImpcrTqlBH",
+    "name": "2 Minutes to Midnight - 1998 Remaster",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Powerslave (1998 Remastered Version)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/01MqEw2Y7knaImpcrTqlBH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739cf3b3157b397c1023d02508",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 359786,
+    "isrc": "GBAYE9801452",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7LRMbd3LEoV5wZJvXT1Lwb",
+    "name": "T.N.T.",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "High Voltage",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+    "popularity": 83,
+    "previewUrl": null,
+    "durationMs": 215096,
+    "isrc": "AUAP07600012",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1sl4TuNpHRd4E0HKk1wUEu",
+    "name": "Kiss Me",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/1sl4TuNpHRd4E0HKk1wUEu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 133496,
+    "isrc": "US38Y2551446",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4q9QVIaLqjbcoqeCfM2zan",
+    "name": "Creeping Death (Remastered)",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Ride The Lightning (Deluxe Remaster)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/4q9QVIaLqjbcoqeCfM2zan",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273533fd0b248052d04e6b732c0",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 395706,
+    "isrc": "USEE10170113",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "69QHm3pustz01CJRwdo20z",
+    "name": "Hells Bells",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Back In Black",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 312815,
+    "isrc": "AUAP08000041",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2d4e45fmUnguxh6yqC7gNT",
+    "name": "Dirty Deeds Done Dirt Cheap",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Dirty Deeds Done Dirt Cheap",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 232265,
+    "isrc": "AUAP07600046",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2SiXAy7TuUkycRVbbWDEpo",
+    "name": "You Shook Me All Night Long",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Back In Black",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/2SiXAy7TuUkycRVbbWDEpo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 210328,
+    "isrc": "AUAP08000047",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0C80GCp0mMuBzLf3EAXqxv",
+    "name": "Shoot to Thrill",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Back In Black",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff191d7fbdb5a13eaf84132b",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 318231,
+    "isrc": "AUAP08000042",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "36oGKKVJfHUAY9dkUsnK7z",
+    "name": "Like A Stone",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/36oGKKVJfHUAY9dkUsnK7z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 152291,
+    "isrc": "US38Y2551447",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0hCB0YR03f6AmQaHbwWDe8",
+    "name": "Whole Lotta Love - 1990 Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin II (1994 Remaster)",
+    "year": 1969,
+    "spotifyUrl": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 333893,
+    "isrc": "USAT29900471",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1hlveB9M6ijHZRbzZ2teyh",
+    "name": "We're Not Gonna Take It",
+    "artists": [
+      "Twisted Sister"
+    ],
+    "album": "Stay Hungry",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/1hlveB9M6ijHZRbzZ2teyh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733469ef94acfa666fde83dec5",
+    "popularity": 10,
+    "previewUrl": null,
+    "durationMs": 219666,
+    "isrc": "USAT20000548",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "78lgmZwycJ3nzsdgmPPGNx",
+    "name": "Immigrant Song - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin III (Remaster)",
+    "year": 1970,
+    "spotifyUrl": "https://open.spotify.com/track/78lgmZwycJ3nzsdgmPPGNx",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27390a50cfe99a4c19ff3cbfbdb",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 146250,
+    "isrc": "USAT21300934",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3qT4bUD1MaWpGrTwcvguhb",
+    "name": "Black Dog - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin IV (Deluxe Edition)",
+    "year": 1971,
+    "spotifyUrl": "https://open.spotify.com/track/3qT4bUD1MaWpGrTwcvguhb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 295386,
+    "isrc": "USAT21300956",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2f0P7iELCvAlV8j6Z3rGDE",
+    "name": "Stranglehold",
+    "artists": [
+      "Ted Nugent"
+    ],
+    "album": "Ted Nugent",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/2f0P7iELCvAlV8j6Z3rGDE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273de2a7bf50b6f6c7a1e7e0dee",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 503066,
+    "isrc": "USSM19804011",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7nCsgsc8GcTZG05Hp3tUG4",
+    "name": "Listen To The Music",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/7nCsgsc8GcTZG05Hp3tUG4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 150836,
+    "isrc": "US38Y2551448",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1iW2ktyrQHNKZwFTvgP0Ta",
+    "name": "Burn - Remastered 2004",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Burn (30th Anniversary Edition)",
+    "year": 1974,
+    "spotifyUrl": "https://open.spotify.com/track/1iW2ktyrQHNKZwFTvgP0Ta",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273189077bdd7db03dfa349afee",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 364933,
+    "isrc": "GBDXG0400001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "70Z9t1qhytWtG4cCmmi7mU",
+    "name": "I Wanna Rock",
+    "artists": [
+      "Twisted Sister"
+    ],
+    "album": "Stay Hungry",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/70Z9t1qhytWtG4cCmmi7mU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733469ef94acfa666fde83dec5",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 179760,
+    "isrc": "USAT20000551",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4PRGxHpCpF2yoOHYKQIEwD",
+    "name": "Rock and Roll - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin IV (Deluxe Edition)",
+    "year": 1971,
+    "spotifyUrl": "https://open.spotify.com/track/4PRGxHpCpF2yoOHYKQIEwD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 220560,
+    "isrc": "USAT21300957",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5CQ30WqJwcep0pYcV4AMNc",
+    "name": "Stairway to Heaven - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin IV (Deluxe Edition)",
+    "year": 1971,
+    "spotifyUrl": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
+    "popularity": 82,
+    "previewUrl": null,
+    "durationMs": 482830,
+    "isrc": "USAT21300959",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3MODES4TNtygekLl146Dxd",
+    "name": "Ramble On - 1990 Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin II (1994 Remaster)",
+    "year": 1969,
+    "spotifyUrl": "https://open.spotify.com/track/3MODES4TNtygekLl146Dxd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 263333,
+    "isrc": "USAT29900477",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3NVPQraWqz97L8At64mdSh",
+    "name": "Losing My Religion",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/3NVPQraWqz97L8At64mdSh",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 148524,
+    "isrc": "US38Y2551451",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6WE7jSshLCuVKoCmobVKVf",
+    "name": "Heartbreaker - 1990 Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin II (1994 Remaster)",
+    "year": 1969,
+    "spotifyUrl": "https://open.spotify.com/track/6WE7jSshLCuVKoCmobVKVf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 254133,
+    "isrc": "USAT29900475",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5MxNLUsfh7uzROypsoO5qe",
+    "name": "Dream On",
+    "artists": [
+      "Aerosmith"
+    ],
+    "album": "Aerosmith",
+    "year": 1973,
+    "spotifyUrl": "https://open.spotify.com/track/5MxNLUsfh7uzROypsoO5qe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b11078ee23dcd99e085ac33e",
+    "popularity": 8,
+    "previewUrl": null,
+    "durationMs": 266960,
+    "isrc": "USSM10011897",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6nxlHmpBJYicXHC0mvcKOm",
+    "name": "Cat Scratch Fever",
+    "artists": [
+      "Ted Nugent"
+    ],
+    "album": "Cat Scratch Fever",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/6nxlHmpBJYicXHC0mvcKOm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fbddf0944c41f58a5589eb92",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 219400,
+    "isrc": "USSM19804006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7nemcVsXVFZF01iqpIIo2Y",
+    "name": "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "High Voltage",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/7nemcVsXVFZF01iqpIIo2Y",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 302430,
+    "isrc": "USEW17500002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0QwZfbw26QeUoIy82Z2jYp",
+    "name": "Good Times Bad Times - 1993 Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin",
+    "year": 1969,
+    "spotifyUrl": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 166266,
+    "isrc": "USAT29900534",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5xxjdsp9WdPHG8OaGVhITn",
+    "name": "Lovefool",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5xxjdsp9WdPHG8OaGVhITn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 39,
+    "previewUrl": null,
+    "durationMs": 154760,
+    "isrc": "US38Y2551449",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3lN8PP6R2IxbLP05QpYXng",
+    "name": "Born To Be Wild - Single Version",
+    "artists": [
+      "Steppenwolf"
+    ],
+    "album": "Steppenwolf",
+    "year": 1968,
+    "spotifyUrl": "https://open.spotify.com/track/3lN8PP6R2IxbLP05QpYXng",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e2aacda30b100cc33d523be0",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 212893,
+    "isrc": "USMC16846563",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "199XYtPsVdthxoxZzqIoND",
+    "name": "Black Star",
+    "artists": [
+      "Yngwie Malmsteen"
+    ],
+    "album": "The Yngwie Malmsteen Collection",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/199XYtPsVdthxoxZzqIoND",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d9845c3638629755bc596602",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 291133,
+    "isrc": "JPA018400010",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "358ZhCh3kObw8FVlTzjkJO",
+    "name": "Rising Force",
+    "artists": [
+      "Yngwie Malmsteen"
+    ],
+    "album": "Odyssey",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/358ZhCh3kObw8FVlTzjkJO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304a92c835aaeca7f8a80fc60",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 264066,
+    "isrc": "USF068825490",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6XX9WLJfelrfwZJEIdInmK",
+    "name": "You Don't Remember, I'll Never Forget",
+    "artists": [
+      "Yngwie Malmsteen"
+    ],
+    "album": "Trilogy",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/6XX9WLJfelrfwZJEIdInmK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af6a4cfd02257ba636db80e8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 270600,
+    "isrc": "USF068625040",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4NeTpSbaUoYfaflADXm7ge",
+    "name": "Twist Of Cain",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/4NeTpSbaUoYfaflADXm7ge",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27316e44ccd21a6ff5e5b32b26b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 258360,
+    "isrc": "USSM18800164",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5FwyfnWFTx95FQczecZfmt",
+    "name": "Old Time Rock & Roll",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/5FwyfnWFTx95FQczecZfmt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 41,
+    "previewUrl": null,
+    "durationMs": 159450,
+    "isrc": "US38Y2551450",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0oSmlFYyaS5dsa4TUzRJU8",
+    "name": "It's Coming Down",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Thrall-Demonsweatlive",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/0oSmlFYyaS5dsa4TUzRJU8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733b3ae76617496dbfe7ebcdd8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 215720,
+    "isrc": "USSM19200273",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4YPgTCGJWAlHQ5g6eWoM8r",
+    "name": "The Four Horsemen (Remastered)",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Kill 'Em All (Remastered)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/4YPgTCGJWAlHQ5g6eWoM8r",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 432546,
+    "isrc": "USEE19900912",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2FkxsINVws3o8Ox4fSvc3N",
+    "name": "The Evil That Men Do - 1998 Remaster",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Seventh Son Of A Seventh Son (1998 Remastered Edition)",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/2FkxsINVws3o8Ox4fSvc3N",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d3027d264591eaea9526ac48",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 273973,
+    "isrc": "GBAYE9801423",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3UPNqj12I2gMRpOvyDeVtK",
+    "name": "Blackened (Remastered)",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "...And Justice For All",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/3UPNqj12I2gMRpOvyDeVtK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27341eaec65ddc6e4c777cbc04e",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 401093,
+    "isrc": "USEE10170099",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3yNoEJifUJdly8ucYoWRwl",
+    "name": "Black Metal",
+    "artists": [
+      "Venom"
+    ],
+    "album": "Black Metal",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/3yNoEJifUJdly8ucYoWRwl",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27361383fe42756b74fb81ed769",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 221693,
+    "isrc": "GBAJE8200082",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2pxSI9zzJfCfXnwVz1vHBd",
+    "name": "Sweet Home Alabama",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/2pxSI9zzJfCfXnwVz1vHBd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 170204,
+    "isrc": "US38Y2551452",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "27WqFiOFm2u1hax2ksdyqK",
+    "name": "Lazy - Remastered 2012",
+    "artists": [
+      "Deep Purple"
+    ],
+    "album": "Machine Head (Remastered)",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/27WqFiOFm2u1hax2ksdyqK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a729c9c3dec04b99d889c66f",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 442840,
+    "isrc": "GBDXG1200007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "570k0iNqjdLlBjkVBPajWy",
+    "name": "Animal (Fuck Like a Beast)",
+    "artists": [
+      "W.A.S.P."
+    ],
+    "album": "W.A.S.P.",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/570k0iNqjdLlBjkVBPajWy",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273430d5c85bf43ba0197492de1",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 187800,
+    "isrc": "GBCQV8400007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5zOAxLFUrHkLuVsF29Hn1z",
+    "name": "Running Free - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Iron Maiden (1998 Remastered Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/5zOAxLFUrHkLuVsF29Hn1z",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e91c81a99ca80d2c1a490b1d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 197226,
+    "isrc": "GBAYE9801438",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0X2cnFp4dJEl2TNDmy7bml",
+    "name": "Transylvania - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Iron Maiden (1998 Remastered Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/0X2cnFp4dJEl2TNDmy7bml",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e91c81a99ca80d2c1a490b1d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 259293,
+    "isrc": "GBAYE9801363",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5RS9QZRfr7vqQRT6G9e9SD",
+    "name": "Phantom Of The Opera - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Iron Maiden (1998 Remastered Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/5RS9QZRfr7vqQRT6G9e9SD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e91c81a99ca80d2c1a490b1d",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 427973,
+    "isrc": "GBAYE9801362",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7azbHsVD5dU3GV56l9WOhy",
+    "name": "Don't Stop Believin'",
+    "artists": [
+      "Cover Charge"
+    ],
+    "album": "Yearning",
+    "year": 2025,
+    "spotifyUrl": "https://open.spotify.com/track/7azbHsVD5dU3GV56l9WOhy",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c2ae818306007ed79a6fb7d7",
+    "popularity": 42,
+    "previewUrl": null,
+    "durationMs": 198047,
+    "isrc": "US38Y2551453",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1b1BxkyPd5NMbmPdpVzdzu",
+    "name": "Hit The Lights - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Kill 'Em All (Deluxe / Remastered)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/1b1BxkyPd5NMbmPdpVzdzu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c56820bd4dd7504efe48783f",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 255866,
+    "isrc": "QMKHM1600026",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "769cLRTw2y6KRdkFWFkxtu",
+    "name": "Domination",
+    "artists": [
+      "Pantera"
+    ],
+    "album": "Cowboys from Hell",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/769cLRTw2y6KRdkFWFkxtu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 305293,
+    "isrc": "USEE10170415",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5xXeIlEiWIA8xnPa8BkJyj",
+    "name": "Over the Wall",
+    "artists": [
+      "Testament"
+    ],
+    "album": "The Legacy",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/5xXeIlEiWIA8xnPa8BkJyj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e9bb3d1035071708db60c2d4",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 246066,
+    "isrc": "USAT29900641",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "28clONjZmul6FjfO6tZQDE",
+    "name": "Metal Health (Bang Your Head)",
+    "artists": [
+      "Quiet Riot"
+    ],
+    "album": "Metal Health",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/28clONjZmul6FjfO6tZQDE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27321fbdd09672c5f8bcfd66165",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 316866,
+    "isrc": "USSM18200465",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5pLgH1bCkBV3bbmvm0qvom",
+    "name": "High Voltage",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "High Voltage",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/5pLgH1bCkBV3bbmvm0qvom",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738c7f355d649e0a3cfcf6fc39",
+    "popularity": 63,
+    "previewUrl": null,
+    "durationMs": 244959,
+    "isrc": "AUAP07600013",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4cKoFvIkCA88axbQ6hfbRC",
+    "name": "Problem Child",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Dirty Deeds Done Dirt Cheap",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/4cKoFvIkCA88axbQ6hfbRC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 347260,
+    "isrc": "AUAP07600049",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7zscdQe9CjzXnqT3P1Ey7K",
+    "name": "If You Want Blood (You've Got It)",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Highway to Hell",
+    "year": 1979,
+    "spotifyUrl": "https://open.spotify.com/track/7zscdQe9CjzXnqT3P1Ey7K",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 277078,
+    "isrc": "AUAP07900029",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4wYq5wugZDzQiMZQYG4wVB",
+    "name": "Whole Lotta Rosie",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Let There Be Rock",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/4wYq5wugZDzQiMZQYG4wVB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff9064748ad3e70d76a55c66",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 324584,
+    "isrc": "AUAP07700011",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "753KutoAy00apPsplMRetG",
+    "name": "Let There Be Rock",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Let There Be Rock",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/753KutoAy00apPsplMRetG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff9064748ad3e70d76a55c66",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 366990,
+    "isrc": "AUAP07700006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6rvldt6EoZwzogApECUCwd",
+    "name": "Who Made Who",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Who Made Who",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/6rvldt6EoZwzogApECUCwd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734338785835437128f20a57fb",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 207085,
+    "isrc": "AUAP08600001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5u5F7qLDvZjBSktaDp4HxB",
+    "name": "Moneytalks",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "The Razors Edge",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/5u5F7qLDvZjBSktaDp4HxB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739a9b1cc067e4460da04adce2",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 225957,
+    "isrc": "AUAP09000016",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "16ran5yZDoDZIzvVqgSXyW",
+    "name": "Bad Obsession",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Use Your Illusion I",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/16ran5yZDoDZIzvVqgSXyW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5803d7a2712cc6beee72281",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 328240,
+    "isrc": "USGF19141507",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0qkm99RLAyoLBqWDc4fCF1",
+    "name": "Supernaut",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Vol. 4 (2009 Remastered Version)",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/0qkm99RLAyoLBqWDc4fCF1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d198e0a1a43c010afb480b3b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 271120,
+    "isrc": "GBAJE7200132",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0ye6hMXikst1lBKp9xVuvg",
+    "name": "Tomorrow's Dream",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Vol. 4 (2009 Remastered Version)",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/0ye6hMXikst1lBKp9xVuvg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d198e0a1a43c010afb480b3b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 188773,
+    "isrc": "GBAJE7200129",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5asbJnP2OL9tPGGXX1efu7",
+    "name": "Snowblind",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Vol. 4 (2009 Remastered Version)",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/5asbJnP2OL9tPGGXX1efu7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d198e0a1a43c010afb480b3b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 326333,
+    "isrc": "GBAJE7200133",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6ZF80y1S2RBycHkhY1gzcf",
+    "name": "Sabbra Cadabra",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "album": "Sabbath Bloody Sabbath (2009 Remastered Version)",
+    "year": 1973,
+    "spotifyUrl": "https://open.spotify.com/track/6ZF80y1S2RBycHkhY1gzcf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273876dd2bbe17e15208b25779b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 357093,
+    "isrc": "GBAJE7300025",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2E64SWjM9rQmAshItmdbcw",
+    "name": "Communication Breakdown - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Led Zeppelin (Remaster)",
+    "year": 1969,
+    "spotifyUrl": "https://open.spotify.com/track/2E64SWjM9rQmAshItmdbcw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c77c73285cc5cb64d97e1b0f",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 150200,
+    "isrc": "USAT21300922",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1ibHApXtb0pgplmNDRLHrJ",
+    "name": "Achilles Last Stand - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Presence (Remaster)",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/1ibHApXtb0pgplmNDRLHrJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27327f6c518a8e36d45b5e7d95e",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 631720,
+    "isrc": "USAT21500135",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5AQhw6cV5w1NipoBJbOb3f",
+    "name": "Out In The Fields - Remastered 2002",
+    "artists": [
+      "Gary Moore",
+      "Phil Lynott"
+    ],
+    "album": "The Platinum Collection",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/5AQhw6cV5w1NipoBJbOb3f",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734baf224ced02d3ef9c90547e",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 258279,
+    "isrc": "GBAAA0200769",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6olS0TmHmsGr0hXtcBsiVM",
+    "name": "A Tout Le Monde - Remastered 2004",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Youthanasia (Expanded Edition - Remastered)",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/6olS0TmHmsGr0hXtcBsiVM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733171798d5cfc745f0ba24c84",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 262133,
+    "isrc": "USCA20400543",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2nLj38A7KPJ3GhiVO6zCsJ",
+    "name": "Whiskey In The Jar",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Garage Inc.",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/2nLj38A7KPJ3GhiVO6zCsJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732873f7b94ddd51a1f206ba65",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 304693,
+    "isrc": "GBAMC9800041",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6wgZspzGPlGRgXvv7lhprq",
+    "name": "Indians",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "Among The Living",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/6wgZspzGPlGRgXvv7lhprq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738f31cb755f156a4460613e19",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 341333,
+    "isrc": "USIR28600022",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6uOnSrDg5Rfgil2zUGdyV0",
+    "name": "Strutter",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Kiss (Remastered Version)",
+    "year": 1974,
+    "spotifyUrl": "https://open.spotify.com/track/6uOnSrDg5Rfgil2zUGdyV0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cde5d6c03bff6cf351543529",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 192333,
+    "isrc": "USPR37409126",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6rkeaQRCWZxwkjhyqgxjXi",
+    "name": "Mouth for War",
+    "artists": [
+      "Pantera"
+    ],
+    "album": "Vulgar Display of Power",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/6rkeaQRCWZxwkjhyqgxjXi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273347c0a40c1e3f0c890a6d9d6",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 237346,
+    "isrc": "USEE10170086",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5pEdaQSuxgifkk9syZvA6k",
+    "name": "Man On The Silver Mountain",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Ritchie Blackmore's Rainbow (Remastered)",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/5pEdaQSuxgifkk9syZvA6k",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cef7c35ca8b1c90cd8d010c8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 277226,
+    "isrc": "USPR37580075",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2W7CvGjipq3EmHqNGN7lN9",
+    "name": "Breaking the Chains",
+    "artists": [
+      "Dokken"
+    ],
+    "album": "Breaking the Chains",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2W7CvGjipq3EmHqNGN7lN9",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273744a3fdf071b8c53cf3981b4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 231693,
+    "isrc": "USEE10100795",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5MhNgheI9IjDxQS5XQ3Ojo",
+    "name": "She-Wolf - Remastered 2004 / Remixed",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Cryptic Writings (Expanded Edition - Remastered)",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/5MhNgheI9IjDxQS5XQ3Ojo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27376eff96fd2e3f9df3e71b276",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 217800,
+    "isrc": "USCA20400587",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2MmacUcqYxwdq8JrBIAPXD",
+    "name": "FFF - Remastered 2004 / Remixed",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Cryptic Writings (Expanded Edition - Remastered)",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/2MmacUcqYxwdq8JrBIAPXD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27376eff96fd2e3f9df3e71b276",
+    "popularity": 40,
+    "previewUrl": null,
+    "durationMs": 167240,
+    "isrc": "USCA20400589",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7JlRGrhF7XXIYSV4GSyDx4",
+    "name": "Disconnect",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "The World Needs a Hero",
+    "year": 2001,
+    "spotifyUrl": "https://open.spotify.com/track/7JlRGrhF7XXIYSV4GSyDx4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735545e351774a756c377ea0ee",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 320344,
+    "isrc": "GBAJE0100015",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4Bfxp472zIwiSYjZsK76EN",
+    "name": "Dread and the Fugitive Mind",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "The World Needs a Hero",
+    "year": 2001,
+    "spotifyUrl": "https://open.spotify.com/track/4Bfxp472zIwiSYjZsK76EN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735545e351774a756c377ea0ee",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 265133,
+    "isrc": "GBAJE0100024",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5ZpiBt0UnGmGT5sF0LjF7G",
+    "name": "Return to Hangar",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "The World Needs a Hero",
+    "year": 2001,
+    "spotifyUrl": "https://open.spotify.com/track/5ZpiBt0UnGmGT5sF0LjF7G",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735545e351774a756c377ea0ee",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 239413,
+    "isrc": "GBAJE0100026",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7zQujFmhSNniiymfiybEak",
+    "name": "Sleepwalker",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "United Abominations",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/7zQujFmhSNniiymfiybEak",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f8d2a46132326995fa82d8ca",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 353213,
+    "isrc": "NLA320784168",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1XJKZ4BbSAWYcPclVLjSQd",
+    "name": "À Tout Le Monde [Set Me Free]",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "United Abominations",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/1XJKZ4BbSAWYcPclVLjSQd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f8d2a46132326995fa82d8ca",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 249013,
+    "isrc": "NLA320784157",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5LyRtsQLhcXmy50VXhQXXS",
+    "name": "Holy Wars...The Punishment Due - 2004 Remix",
+    "artists": [
+      "Megadeth"
+    ],
+    "album": "Rust In Peace (2004 Remix / Expanded Edition)",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/5LyRtsQLhcXmy50VXhQXXS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273be9fa5a89479b6af481938a0",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 392600,
+    "isrc": "USCA20400647",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "72q6fJBnJfrNv2sZZulajk",
+    "name": "Dr. Stein",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Keeper of the Seven Keys, Pt. II (Expanded Edition)",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/72q6fJBnJfrNv2sZZulajk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733ab4dc4b31ad6870b455ac80",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 303946,
+    "isrc": "GBAJE0201638",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0ea07dMcwdEZLcGCQZytA8",
+    "name": "Heavy Metal (Is the Law)",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Walls of Jericho (Bonus Tracks Edition)",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/0ea07dMcwdEZLcGCQZytA8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a3552d6c4a16b7e1f549d3f7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 240920,
+    "isrc": "GBAJE0509120",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7gzOdsRPD7z9blkrvlLKbX",
+    "name": "The Wicker Man",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Brave New World",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/7gzOdsRPD7z9blkrvlLKbX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27347b90497be345b114d740ecd",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 276613,
+    "isrc": "GBCHB0010080",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6RqEJvpEzzlwj8g0wKG1ln",
+    "name": "Motorbreath - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Kill 'Em All (Remastered)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/6RqEJvpEzzlwj8g0wKG1ln",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d30fcf6340831edbafb45e38",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 187840,
+    "isrc": "QMKHM1600028",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3u63uszxopzY7zQD2zou1r",
+    "name": "Chemical Warfare",
+    "artists": [
+      "Slayer"
+    ],
+    "album": "Live Undead / Haunting the Chapel",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/3u63uszxopzY7zQD2zou1r",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273161b33586d9e8611bed4877d",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 361960,
+    "isrc": "USMBR0704841",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Hy27APwGt3lMfpZ0Bzf13",
+    "name": "Antisocial",
+    "artists": [
+      "Anthrax"
+    ],
+    "album": "State Of Euphoria",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/2Hy27APwGt3lMfpZ0Bzf13",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273608c1de2a4ba09416247c479",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 264666,
+    "isrc": "USIR28800029",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7451itnvBEOvdT5pW257xg",
+    "name": "A Little Time",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Keeper of the Seven Keys, Pt. I (Expanded Edition)",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/7451itnvBEOvdT5pW257xg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738130045e019aa2b2ed897e85",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 240586,
+    "isrc": "GBAJE0509129",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6vyAn1J5bjXiRbCNyDSwmy",
+    "name": "In the Middle of a Heartbeat",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Master of the Rings (Expanded Edition)",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/6vyAn1J5bjXiRbCNyDSwmy",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734c9b03b9a21080e042d0b374",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 270293,
+    "isrc": "GBAJE9400223",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2rl61dFTIVAiqa57zr2Ed3",
+    "name": "Rock 'n' Roll",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Rock N' Roll (Expanded Edition)",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/2rl61dFTIVAiqa57zr2Ed3",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27308d19ed3b3876adeff6df0c2",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 227746,
+    "isrc": "GBAJE8700058",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "34JAHTaDP2UiZzbWjKMIjr",
+    "name": "Orgasmatron",
+    "artists": [
+      "Motörhead"
+    ],
+    "album": "Orgasmatron (Deluxe Edition)",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/34JAHTaDP2UiZzbWjKMIjr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731de239b771e217da6876b0df",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 326920,
+    "isrc": "GBAJE0418070",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5UKeFkVeUfvP6S43I8s9mt",
+    "name": "Jailbreak",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "'74 Jailbreak",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5UKeFkVeUfvP6S43I8s9mt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b3e1f355a5c8a2ad3b1aae48",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 281046,
+    "isrc": "AUAP07600031",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4eutZb21bHZerJnxqW5lB0",
+    "name": "Rocker",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Dirty Deeds Done Dirt Cheap",
+    "year": 1976,
+    "spotifyUrl": "https://open.spotify.com/track/4eutZb21bHZerJnxqW5lB0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dfce70698f4d925525383c7c",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 172539,
+    "isrc": "USSM10412807",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7zjzu90Q4mtNNaE9Ol9Zbv",
+    "name": "Big Gun",
+    "artists": [
+      "AC/DC"
+    ],
+    "album": "Backtracks",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/7zjzu90Q4mtNNaE9Ol9Zbv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27303cd96fc884699f0170bc384",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 263008,
+    "isrc": "USSM10904984",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "52KvuGmgcgRdrLMXOtda0E",
+    "name": "The Stroke - Remastered 2010",
+    "artists": [
+      "Billy Squier"
+    ],
+    "album": "Don't Say No (Remastered 2010)",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/52KvuGmgcgRdrLMXOtda0E",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f4822f8034e697410a14a297",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 217613,
+    "isrc": "USCA21001203",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6MVBXTAioGnP57AcGYaQNw",
+    "name": "Shake Your Blood (feat. Lemmy Kilmister)",
+    "artists": [
+      "Probot",
+      "Lemmy"
+    ],
+    "album": "Probot",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/6MVBXTAioGnP57AcGYaQNw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736fc4c5ab07bf18082e44832a",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 179832,
+    "isrc": "TCACH1523151",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3aJymuSkVjznisc20MND55",
+    "name": "Eagle Fly Free",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Keeper of the Seven Keys, Pt. II (Expanded Edition)",
+    "year": 1988,
+    "spotifyUrl": "https://open.spotify.com/track/3aJymuSkVjznisc20MND55",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733ab4dc4b31ad6870b455ac80",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 308786,
+    "isrc": "GBAJE0509134",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5B6Z7NwVqA7W3UFiqBdEJC",
+    "name": "Round and Round",
+    "artists": [
+      "Ratt"
+    ],
+    "album": "Out of the Cellar",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5B6Z7NwVqA7W3UFiqBdEJC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731eee199add98ba258d18fea4",
+    "popularity": 3,
+    "previewUrl": null,
+    "durationMs": 265893,
+    "isrc": "USAT29900560",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "07thLbY0eGli2xWWIPdrN2",
+    "name": "Watching over Me - Remixed & Remastered",
+    "artists": [
+      "Iced Earth"
+    ],
+    "album": "Something Wicked This Way Comes",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/07thLbY0eGli2xWWIPdrN2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739a503aa4501112959d3a5e15",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 268906,
+    "isrc": "US4E40491404",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3OzSf123Xs7pAfHeV6DvDR",
+    "name": "Walls of Jericho/Ride the Sky",
+    "artists": [
+      "Helloween"
+    ],
+    "album": "Walls of Jericho (Bonus Tracks Edition)",
+    "year": 1985,
+    "spotifyUrl": "https://open.spotify.com/track/3OzSf123Xs7pAfHeV6DvDR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a3552d6c4a16b7e1f549d3f7",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 404853,
+    "isrc": "USUM70809002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "39hfj6Tnqgsxn7jGTfWl18",
+    "name": "Shock Me",
+    "artists": [
+      "KISS"
+    ],
+    "album": "Love Gun",
+    "year": 1977,
+    "spotifyUrl": "https://open.spotify.com/track/39hfj6Tnqgsxn7jGTfWl18",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734c03f567f05a884f4382392a",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 226773,
+    "isrc": "USPR37730030",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0lY61TGzUxPtkIlbPlCcTb",
+    "name": "Turbo Lover",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Living After Midnight",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/0lY61TGzUxPtkIlbPlCcTb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27384e8e28e6f93cdc0e584860d",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 329746,
+    "isrc": "GBBBN8600013",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1MqGKtY9L5qjPi8s7gX645",
+    "name": "I Can't Drive 55",
+    "artists": [
+      "Sammy Hagar"
+    ],
+    "album": "Voa",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/1MqGKtY9L5qjPi8s7gX645",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273809c7421a6dca71502f871df",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 254466,
+    "isrc": "USGF18404301",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5ZIU2kT1wNjQNclQeVCz5O",
+    "name": "Modern Day Cowboy",
+    "artists": [
+      "Tesla"
+    ],
+    "album": "Mechanical Resonance",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/5ZIU2kT1wNjQNclQeVCz5O",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d532619e6308295abdc804b0",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 318226,
+    "isrc": "USGF18612007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4Myj2cmlFC8tsq9cqj082O",
+    "name": "Riding on the Wind",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Screaming For Vengeance",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/4Myj2cmlFC8tsq9cqj082O",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a79a10cea4a05ade064a397b",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 189733,
+    "isrc": "GBBBN8202002",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4jLTF119PfzzJoaNuj3d2p",
+    "name": "Take Me To The Top",
+    "artists": [
+      "Mötley Crüe"
+    ],
+    "album": "Too Fast For Love",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/4jLTF119PfzzJoaNuj3d2p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dec0c1dbc765351cf6b05391",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 223533,
+    "isrc": "USBY29900148",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3YRCqOhFifThpSRFJ1VWFM",
+    "name": "November Rain",
+    "artists": [
+      "Guns N' Roses"
+    ],
+    "album": "Use Your Illusion I",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/3YRCqOhFifThpSRFJ1VWFM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e44963b8bb127552ac761873",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 536066,
+    "isrc": "USGF19141510",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7kMZGMJlckd50Mhfaq7gVD",
+    "name": "Be Quick Or Be Dead - 1998 Remastered Version",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "album": "Fear Of The Dark (1998 Remastered Edition)",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/7kMZGMJlckd50Mhfaq7gVD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738784fc3a907ccfc1974d51bf",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 204360,
+    "isrc": "GBCHB9810011",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0S3gpZzlT9Hb7CCSV2owX7",
+    "name": "Mama, I'm Coming Home",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "No More Tears (Expanded Edition)",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273509342e69eb341df70e5c2e3",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 251869,
+    "isrc": "USSM19100017",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7dOUBannsprgW5AZJwzbIn",
+    "name": "The Rover - Remaster",
+    "artists": [
+      "Led Zeppelin"
+    ],
+    "album": "Physical Graffiti (Remaster)",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/7dOUBannsprgW5AZJwzbIn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735273ac7ada6725bc36a2bcd0",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 339474,
+    "isrc": "USAT21300965",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5Okf7KBikV8we3uqCMFjiL",
+    "name": "Doctor Doctor - 2007 Remaster",
+    "artists": [
+      "UFO"
+    ],
+    "album": "Phenomenon (2007 Remaster)",
+    "year": 1974,
+    "spotifyUrl": "https://open.spotify.com/track/5Okf7KBikV8we3uqCMFjiL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737dd63c9cad5acc0104ee9b78",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 252453,
+    "isrc": "GBAYK0700203",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6ppPNxdwG8A5Ed8DlNLV6I",
+    "name": "Don't Talk To Strangers",
+    "artists": [
+      "Dio"
+    ],
+    "album": "Holy Diver",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/6ppPNxdwG8A5Ed8DlNLV6I",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27315350aa1c89e23a5fa6c0de1",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 291093,
+    "isrc": "GBF080300552",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0gaMmmhGi5buPXpquSAfxg",
+    "name": "The Temple Of The King",
+    "artists": [
+      "Rainbow"
+    ],
+    "album": "Ritchie Blackmore's Rainbow",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/0gaMmmhGi5buPXpquSAfxg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733626f32e555553b537a6493f",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 282013,
+    "isrc": "USPR37587054",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2J420Sc7XqgKoEXPKl751p",
+    "name": "Bark at the Moon",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Bark At the Moon",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2J420Sc7XqgKoEXPKl751p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bd43d0ba8cb7863da40cba8b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 255293,
+    "isrc": "USSM18300021",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "31dqpLUModJWNbxrXu6TWd",
+    "name": "Shot in the Dark",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "The Ultimate Sin",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/31dqpLUModJWNbxrXu6TWd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ca110425c6233c263beb0a4f",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 256275,
+    "isrc": "USSM18600039",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6noDJ06v7z8bCsBitjxFG2",
+    "name": "The Sentinel",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Defenders Of The Faith",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/6noDJ06v7z8bCsBitjxFG2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc22adfbb796489be45491d2",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 302066,
+    "isrc": "GBBBN8402036",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1wXE6zvNWRz8GuMfEUgETz",
+    "name": "Hair Of The Dog",
+    "artists": [
+      "Nazareth"
+    ],
+    "album": "Hair Of The Dog",
+    "year": 1975,
+    "spotifyUrl": "https://open.spotify.com/track/1wXE6zvNWRz8GuMfEUgETz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27385bc3b24dd834a6dfbb876da",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 249240,
+    "isrc": "USAM17502187",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3uDNzcGyRINKSFedKCvEwB",
+    "name": "Firepower",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Firepower",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3uDNzcGyRINKSFedKCvEwB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737ca75d243242bd697841b84b",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 207432,
+    "isrc": "GBARL1702141",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6qopop1Rc9r1RjEIBQhc8d",
+    "name": "Lightning Strike",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Firepower",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/6qopop1Rc9r1RjEIBQhc8d",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737ca75d243242bd697841b84b",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 209453,
+    "isrc": "GBARL1702142",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "38fIaph07Kd8ZIN6l17ZJs",
+    "name": "Whiplash - Remastered",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Kill 'Em All (Remastered)",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/38fIaph07Kd8ZIN6l17ZJs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d30fcf6340831edbafb45e38",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 248546,
+    "isrc": "QMKHM1600031",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "49rcSzMayJhIwGf0CJCaxJ",
+    "name": "Wherever I May Roam",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/49rcSzMayJhIwGf0CJCaxJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af07dc851962508661bbcfce",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 404240,
+    "isrc": "USEE10001996",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1cojSYj0ugS7tmcwKIxMX4",
+    "name": "Of Wolf And Man",
+    "artists": [
+      "Metallica"
+    ],
+    "album": "Metallica",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/1cojSYj0ugS7tmcwKIxMX4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af07dc851962508661bbcfce",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 256600,
+    "isrc": "USEE10002000",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0L7zm6afBEtrNKo6C6Gj08",
+    "name": "Painkiller",
+    "artists": [
+      "Judas Priest"
+    ],
+    "album": "Painkiller",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/0L7zm6afBEtrNKo6C6Gj08",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27360db4ca924d17bc6754e89aa",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 365826,
+    "isrc": "GBBBN0102557",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5XfWzGa5zuz88IOYbWNTMa",
+    "name": "Mr. Crowley",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Blizzard of Ozz (Expanded Edition)",
+    "year": 1980,
+    "spotifyUrl": "https://open.spotify.com/track/5XfWzGa5zuz88IOYbWNTMa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735776e18c520194c48d92815b",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 302640,
+    "isrc": "USSM11002849",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0i1RTnH2Lj5gTDRU5wtyT2",
+    "name": "Over the Mountain",
+    "artists": [
+      "Ozzy Osbourne"
+    ],
+    "album": "Diary Of A Madman",
+    "year": 1981,
+    "spotifyUrl": "https://open.spotify.com/track/0i1RTnH2Lj5gTDRU5wtyT2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273074a1951cb329bb8afb63142",
+    "popularity": 60,
+    "previewUrl": null,
+    "durationMs": 271520,
+    "isrc": "USSM11002856",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6O6g0jSdMlIc74eXQS3M3b",
+    "name": "Dirty Black Summer",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig III: How The Gods Kill",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/6O6g0jSdMlIc74eXQS3M3b",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f0182f67c19e00cfbebb0dc9",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 312640,
+    "isrc": "USSM19200281",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6sD2mCUjmi0S3PTKxdW1Lc",
+    "name": "Long Way Back From Hell",
+    "artists": [
+      "Danzig"
+    ],
+    "album": "Danzig II: Lucifuge",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/6sD2mCUjmi0S3PTKxdW1Lc",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f7a90f998d2d262b0621703c",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 263400,
+    "isrc": "USSM19000270",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  }
+]

@@ -128,6 +128,7 @@ _SKIP_TAG_SUBSTRINGS = {
     "chart",
     "charts",
     "offizielle",
+    "wochen",  # German chart tags (e.g. "1 4 wochen")
     "ph_",  # personal MusicBrainz tags (e.g. "ph 4 stars", "ph temp checken")
 }
 

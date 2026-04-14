@@ -1,0 +1,437 @@
+{
+  "input": "ml_pipeline/data/test_runs/playlist_1_v1_9/playlist_1_backfilled.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_9/representation_artifacts.npz",
+  "records": 387,
+  "feature_count": 802,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "final_k": 3,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 364,
+    "1": 7,
+    "2": 16
+  },
+  "diagnostics": [
+    {
+      "k": 5,
+      "silhouette": 0.7956778836539419,
+      "adjusted_score": -1.4524874910230607,
+      "cluster_sizes": [
+        380,
+        7
+      ],
+      "largest_fraction": 0.9819121447028424,
+      "second_fraction": 0.01808785529715762,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.7956778836539419,
+      "adjusted_score": -1.4524874910230607,
+      "cluster_sizes": [
+        380,
+        7
+      ],
+      "largest_fraction": 0.9819121447028424,
+      "second_fraction": 0.01808785529715762,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.7956778836539419,
+      "adjusted_score": -1.4524874910230607,
+      "cluster_sizes": [
+        380,
+        7
+      ],
+      "largest_fraction": 0.9819121447028424,
+      "second_fraction": 0.01808785529715762,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.8140126841265402,
+      "adjusted_score": -1.0358581169070515,
+      "cluster_sizes": [
+        364,
+        16,
+        7
+      ],
+      "largest_fraction": 0.9405684754521964,
+      "second_fraction": 0.041343669250646,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": -1.0358581169070515,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "low_signal_min_size": 18,
+    "low_signal_min_features": 2,
+    "low_signal_top_score": 0.35,
+    "low_signal_child_gain": 0.08,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 109,
+        "candidates": [
+          {
+            "cluster_id": 0,
+            "cluster_size": 364,
+            "candidate_ks": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "accepted": false,
+            "trigger_reason": "size",
+            "parent_cluster_name": "acoustic / indie rock",
+            "parent_top_features": [
+              {
+                "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                "pretty_feature": "acoustic",
+                "score": 0.4858971722090594
+              },
+              {
+                "feature": "tag__indie_rock",
+                "pretty_feature": "indie rock",
+                "score": 0.42041532950855426
+              },
+              {
+                "feature": "genre__indie_rock",
+                "pretty_feature": "indie rock",
+                "score": 0.4204153152369382
+              },
+              {
+                "feature": "tag__indie_pop",
+                "pretty_feature": "indie pop",
+                "score": 0.4203577756709159
+              },
+              {
+                "feature": "genre__indie_pop",
+                "pretty_feature": "indie pop",
+                "score": 0.42035777084811726
+              },
+              {
+                "feature": "acoustic__highlevel__mood_sad__all__sad",
+                "pretty_feature": "mood sad / sad",
+                "score": 0.4196251651768204
+              },
+              {
+                "feature": "tag__neo_psychedelia",
+                "pretty_feature": "neo psychedelia",
+                "score": 0.4043969608178421
+              },
+              {
+                "feature": "genre__neo_psychedelia",
+                "pretty_feature": "neo psychedelia",
+                "score": 0.40439694768751505
+              },
+              {
+                "feature": "tag__psychedelic_rock_indie_rock_shoegaze",
+                "pretty_feature": "psychedelic rock indie rock shoegaze",
+                "score": 0.3786776425188897
+              },
+              {
+                "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                "pretty_feature": "mood relaxed / relaxed",
+                "score": 0.29889977673801144
+              }
+            ],
+            "parent_top_score": 0.4858971722090594,
+            "parent_low_signal": false,
+            "sub_final_k": 3,
+            "sub_best_adjusted_score": -0.14298314021838657,
+            "sub_silhouette": 0.6602586180233718,
+            "sub_adjusted_score": -0.14298314021838657,
+            "sub_cluster_sizes": [
+              293,
+              56,
+              15
+            ],
+            "sub_largest_fraction": 0.804945054945055,
+            "sub_meaningful_cluster_count": 3,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 56,
+                "cluster_name": "indie pop / indie rock",
+                "top_features": [
+                  {
+                    "feature": "tag__indie_pop",
+                    "pretty_feature": "indie pop",
+                    "score": 2.7750867973323947
+                  },
+                  {
+                    "feature": "genre__indie_pop",
+                    "pretty_feature": "indie pop",
+                    "score": 2.7750867654936
+                  },
+                  {
+                    "feature": "tag__indie_rock",
+                    "pretty_feature": "indie rock",
+                    "score": 2.6568237350138633
+                  },
+                  {
+                    "feature": "genre__indie_rock",
+                    "pretty_feature": "indie rock",
+                    "score": 2.6568236622232564
+                  },
+                  {
+                    "feature": "genre__surf_punk",
+                    "pretty_feature": "surf punk",
+                    "score": 1.9002695383255388
+                  },
+                  {
+                    "feature": "tag__surf_punk",
+                    "pretty_feature": "surf punk",
+                    "score": 1.9002694354641998
+                  },
+                  {
+                    "feature": "genre__smooth_jazz",
+                    "pretty_feature": "smooth jazz",
+                    "score": 1.7202929269276503
+                  },
+                  {
+                    "feature": "tag__smooth_jazz",
+                    "pretty_feature": "smooth jazz",
+                    "score": 1.7202928501000405
+                  },
+                  {
+                    "feature": "genre__jazz_pop",
+                    "pretty_feature": "jazz pop",
+                    "score": 1.5513636815182539
+                  },
+                  {
+                    "feature": "tag__jangle_pop",
+                    "pretty_feature": "jangle pop",
+                    "score": 1.3426907217085569
+                  }
+                ],
+                "top_score": 2.7750867973323947
+              },
+              {
+                "cluster_id": 1,
+                "size": 293,
+                "cluster_name": "acoustic / mood sad / sad",
+                "top_features": [
+                  {
+                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                    "pretty_feature": "acoustic",
+                    "score": 0.4054389288352035
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 0.3517138598091232
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                    "pretty_feature": "mood relaxed / relaxed",
+                    "score": 0.233623077451255
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__bright",
+                    "pretty_feature": "timbre / bright",
+                    "score": 0.20914121011593523
+                  },
+                  {
+                    "feature": "genre__salsa_rom_ntica",
+                    "pretty_feature": "salsa rom ntica",
+                    "score": 0.1277216489048932
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+                    "pretty_feature": "voice instrumental / instrumental",
+                    "score": 0.10845325708813056
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                    "pretty_feature": "voice instrumental / voice",
+                    "score": 0.10189753769022644
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 0.05679956881719528
+                  }
+                ],
+                "top_score": 0.4054389288352035
+              },
+              {
+                "cluster_id": 2,
+                "size": 15,
+                "cluster_name": "psychedelic rock indie rock shoegaze / neo psychedelia",
+                "top_features": [
+                  {
+                    "feature": "tag__psychedelic_rock_indie_rock_shoegaze",
+                    "pretty_feature": "psychedelic rock indie rock shoegaze",
+                    "score": 10.246410426873418
+                  },
+                  {
+                    "feature": "tag__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 9.472696083126046
+                  },
+                  {
+                    "feature": "genre__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 9.472695796678703
+                  },
+                  {
+                    "feature": "tag__psychedelic_pop",
+                    "pretty_feature": "psychedelic pop",
+                    "score": 6.58227638229604
+                  },
+                  {
+                    "feature": "genre__psychedelic_pop",
+                    "pretty_feature": "psychedelic pop",
+                    "score": 6.582275925509508
+                  },
+                  {
+                    "feature": "tag__psychedelic_rock",
+                    "pretty_feature": "psychedelic rock",
+                    "score": 5.605550715364414
+                  },
+                  {
+                    "feature": "genre__psychedelic_rock",
+                    "pretty_feature": "psychedelic rock",
+                    "score": 5.605550472607461
+                  },
+                  {
+                    "feature": "tag__indie",
+                    "pretty_feature": "indie",
+                    "score": 2.998565935151092
+                  },
+                  {
+                    "feature": "genre__celtic",
+                    "pretty_feature": "celtic",
+                    "score": 2.915552990253926
+                  },
+                  {
+                    "feature": "genre__twee_pop",
+                    "pretty_feature": "twee pop",
+                    "score": 2.371576990201396
+                  }
+                ],
+                "top_score": 10.246410426873418
+              }
+            ],
+            "strong_child_count": 2,
+            "strong_child_threshold": 0.5658971722090594,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 5,
+                "silhouette": 0.6602586180233718,
+                "adjusted_score": -0.14298314021838657,
+                "cluster_sizes": [
+                  293,
+                  56,
+                  15
+                ],
+                "largest_fraction": 0.804945054945055,
+                "second_fraction": 0.15384615384615385,
+                "meaningful_cluster_count": 3,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": 0.6755414174333091,
+                "adjusted_score": -0.315447593555702,
+                "cluster_sizes": [
+                  308,
+                  30,
+                  14,
+                  12
+                ],
+                "largest_fraction": 0.8461538461538461,
+                "second_fraction": 0.08241758241758242,
+                "meaningful_cluster_count": 4,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": 0.6803933948787726,
+                "adjusted_score": -0.2998813303959528,
+                "cluster_sizes": [
+                  307,
+                  29,
+                  15,
+                  13
+                ],
+                "largest_fraction": 0.8434065934065934,
+                "second_fraction": 0.07967032967032966,
+                "meaningful_cluster_count": 4,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 8,
+                "silhouette": 0.6722980011842598,
+                "adjusted_score": -0.3338008999146414,
+                "cluster_sizes": [
+                  309,
+                  29,
+                  16,
+                  10
+                ],
+                "largest_fraction": 0.8489010989010989,
+                "second_fraction": 0.07967032967032966,
+                "meaningful_cluster_count": 4,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "adjusted_score_too_low,largest_subcluster_still_too_large"
+          }
+        ],
+        "accepted": null
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/test_runs/playlist_1_v1_9/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/test_runs/playlist_1_v1_9/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/test_runs/playlist_1_v1_9/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/test_runs/playlist_1_v1_9/playlist_embeddings.npy"
+  }
+}
