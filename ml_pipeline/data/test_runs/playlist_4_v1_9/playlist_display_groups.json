@@ -1,12 +1,16 @@
 [
   {
-    "display_group": "Melodic / Party Rap",
-    "size": 26,
+    "display_group": "Electronic / Dance",
+    "size": 51,
     "member_cluster_ids": [
       1,
+      3,
+      2,
       0
     ],
     "member_cluster_names": [
+      "tech house / house",
+      "bass house / tech house",
       "tech house / house",
       "bassline / uk garage"
     ],
@@ -19,8 +23,8 @@
       "bassline",
       "funky house",
       "electro house",
-      "uk garage",
-      "drum and bass"
+      "dance electro pop",
+      "french house"
     ],
     "sample_tracks": [
       "None \u2014 John Summit, HAYLA",
@@ -31,45 +35,10 @@
       "None \u2014 Dominica",
       "None \u2014 Chris Lake, Aatig",
       "None \u2014 Disclosure",
-      "None \u2014 piri, Tommy Villiers, piri & tommy",
-      "None \u2014 Jhelisa, Sunship",
-      "None \u2014 James Hype, Ayak, Dots Per Inch, TS7",
-      "None \u2014 NOTION"
-    ]
-  },
-  {
-    "display_group": "More Picks",
-    "size": 25,
-    "member_cluster_ids": [
-      3,
-      2
-    ],
-    "member_cluster_names": [
-      "bass house / tech house",
-      "tech house / house"
-    ],
-    "top_descriptors": [
-      "bass house",
-      "tech house",
-      "house",
-      "dance electro pop",
-      "french house",
-      "club dance",
-      "bassline"
-    ],
-    "sample_tracks": [
       "None \u2014 Odd Mob, OMNOM",
       "None \u2014 FISHER",
       "None \u2014 Chris Lake, Alexis Roberts",
-      "None \u2014 Moksi, Emy Perez, Digitzz",
-      "None \u2014 FISHER, Kita Alexander",
-      "None \u2014 Sunday Scaries, Kaleena Zanders",
-      "None \u2014 X Eliot",
-      "None \u2014 Jengi",
-      "None \u2014 ACRAZE, Cherish",
-      "None \u2014 All Cane",
-      "None \u2014 Peggy Gou",
-      "None \u2014 Jauz, Habstrakt"
+      "None \u2014 Moksi, Emy Perez, Digitzz"
     ]
   }
 ]

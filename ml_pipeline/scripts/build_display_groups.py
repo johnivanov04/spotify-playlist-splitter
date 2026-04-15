@@ -35,16 +35,35 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
     if "breakbeat" in name or "soundtrack" in name:
         return "Instrumental / Breakbeat"
 
-    if "cool jazz" in name or name == "jazz / cool jazz" or "jazz /" in name or "/ jazz" in name:
+    # Jazz before rap keywords — catches jazz rap, boom bap, nu jazz.
+    if any(k in name for k in [
+        "cool jazz", "jazz rap", "boom bap", "nu jazz",
+    ]) or "jazz /" in name or "/ jazz" in name:
         return "Jazz / Nujabes / Downtempo"
 
     if any(k in name for k in ["singer songwriter"]):
         return "Acoustic / Chill"
 
+    # Electronic before rock/indie to avoid "garage rock" → Electronic collision.
     if any(k in name for k in [
-        "rock", "indie", "alternative", "punk", "grunge", "emo"
-    ]) and "hip hop" not in name and "r and b" not in name:
+        "tech house", "bass house", "uk garage", "bassline",
+        "drum and bass", "dnb", "dubstep", "techno", "trance",
+        "electro house", "big beat",
+    ]) or ("house" in name and "rock" not in name):
+        return "Electronic / Dance"
+
+    # Rock/Indie: guard rap to prevent "emo rap" / "alternative hip hop" routing here.
+    if any(k in name for k in [
+        "rock", "indie", "alternative", "punk", "grunge", "emo",
+        "shoegaze", "slowcore", "indietronica",
+    ]) and "hip hop" not in name and "r and b" not in name and "rap" not in name:
         return "Rock / Indie"
+
+    # Trap (incl. trap soul) before R&B/Soul so "trap soul" → Trap, not R&B.
+    if any(k in name for k in [
+        "trap", "thug rap", "southern hip hop"
+    ]):
+        return "Trap"
 
     if any(k in name for k in [
         "r and b", "r b", "soul", "neo soul", "alternative r and b", "contemporary r and b",
@@ -52,10 +71,11 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
     ]):
         return "R&B / Soul"
 
+    # Melodic/rage rap variants.
     if any(k in name for k in [
-        "trap", "thug rap", "southern hip hop"
+        "rage rap", "melodic rap", "emo rap", "pluggnb", "plugg",
     ]):
-        return "Trap"
+        return "Melodic / Party Rap"
 
     if any(k in name for k in [
         "rap", "hip hop", "pop rap", "conscious hip hop",
@@ -73,7 +93,7 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
         return "Instrumental / Breakbeat"
 
     if any(k in feat_text for k in [
-        "cool jazz", "jazz rap", "jazz", "downtempo"
+        "cool jazz", "jazz rap", "boom bap", "nu jazz", "jazz", "downtempo"
     ]):
         return "Jazz / Nujabes / Downtempo"
 
@@ -83,7 +103,14 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
         return "Acoustic / Chill"
 
     if any(k in feat_text for k in [
-        "rock", "indie", "alternative", "punk", "grunge", "britpop", "post punk"
+        "tech house", "bass house", "house", "techno", "dubstep",
+        "drum and bass", "dnb", "uk garage", "trance", "electro",
+    ]):
+        return "Electronic / Dance"
+
+    if any(k in feat_text for k in [
+        "rock", "indie", "alternative", "punk", "grunge", "britpop", "post punk",
+        "shoegaze", "slowcore",
     ]):
         return "Rock / Indie"
 
@@ -97,6 +124,11 @@ def pick_display_group(cluster_name: str, top_features: list[dict[str, Any]]) ->
         "trap", "thug rap", "southern hip hop"
     ]):
         return "Trap"
+
+    if any(k in feat_text for k in [
+        "rage rap", "melodic rap", "emo rap", "pluggnb",
+    ]):
+        return "Melodic / Party Rap"
 
     if any(k in feat_text for k in [
         "rap", "hip hop", "pop rap", "conscious hip hop",
