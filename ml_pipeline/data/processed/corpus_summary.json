@@ -1,74 +1,62 @@
 {
   "schema_version": 1,
   "dataset_version": "0.1.0",
-  "generated_at_utc": "2026-04-14T03:50:03+00:00",
+  "generated_at_utc": "2026-04-14T18:16:55+00:00",
   "counts": {
-    "files_seen": 11,
-    "raw_tracks_seen": 4101,
-    "normalized_records_written": 3883,
-    "duplicate_records_skipped": 218,
+    "files_seen": 14,
+    "raw_tracks_seen": 4468,
+    "normalized_records_written": 4202,
+    "duplicate_records_skipped": 266,
     "missing_isrc": 122,
-    "missing_mbid": 3773,
-    "with_brainz_tags": 43,
-    "with_brainz_genres": 41,
-    "with_acoustic_high_level": 72,
+    "missing_mbid": 4112,
+    "with_brainz_tags": 35,
+    "with_brainz_genres": 34,
+    "with_acoustic_high_level": 59,
     "with_acoustic_low_level": 0
   },
   "vocabulary": {
-    "unique_tags": 148,
-    "unique_genres": 76,
+    "unique_tags": 129,
+    "unique_genres": 70,
     "top_tags": [
       [
         "rock",
-        21
-      ],
-      [
-        "indie rock",
-        18
+        17
       ],
       [
         "pop",
-        15
-      ],
-      [
-        "indie pop",
         14
       ],
       [
-        "alternative rock",
-        10
+        "indie rock",
+        13
       ],
       [
-        "indie",
-        10
-      ],
-      [
-        "electronic",
-        8
-      ],
-      [
-        "psychedelic rock",
-        8
+        "indie pop",
+        11
       ],
       [
         "pop rock",
         8
       ],
       [
+        "electronic",
+        6
+      ],
+      [
+        "alternative rock",
+        6
+      ],
+      [
+        "indie",
+        6
+      ],
+      [
         "singer-songwriter",
         6
       ],
       [
-        "mellow",
-        4
-      ],
-      [
-        "neo-psychedelia",
-        4
-      ],
-      [
-        "psychedelic pop",
-        4
+        "psychedelic rock",
+        5
       ],
       [
         "classic rock",
@@ -79,23 +67,7 @@
         4
       ],
       [
-        "alternative pop",
-        3
-      ],
-      [
-        "synth-pop",
-        3
-      ],
-      [
-        "disco",
-        3
-      ],
-      [
-        "alternative",
-        3
-      ],
-      [
-        "psychedelic rock / indie rock / shoegaze",
+        "mellow",
         3
       ],
       [
@@ -111,74 +83,82 @@
         3
       ],
       [
-        "blues rock",
+        "rock and roll",
         2
       ],
       [
-        "garage rock",
+        "britpop",
+        2
+      ],
+      [
+        "contemporary pop/rock",
+        2
+      ],
+      [
+        "happy",
+        2
+      ],
+      [
+        "melancholy",
+        2
+      ],
+      [
+        "pop music",
+        2
+      ],
+      [
+        "rock & roll",
+        2
+      ],
+      [
+        "alternative pop",
+        2
+      ],
+      [
+        "disco",
         2
       ]
     ],
     "top_genres": [
       [
         "rock",
-        21
-      ],
-      [
-        "indie rock",
-        18
+        17
       ],
       [
         "pop",
-        15
-      ],
-      [
-        "indie pop",
         14
       ],
       [
-        "alternative rock",
-        10
+        "indie rock",
+        13
       ],
       [
-        "electronic",
-        8
-      ],
-      [
-        "psychedelic rock",
-        8
+        "indie pop",
+        11
       ],
       [
         "pop rock",
         8
       ],
       [
+        "electronic",
+        6
+      ],
+      [
+        "alternative rock",
+        6
+      ],
+      [
         "singer-songwriter",
         6
       ],
       [
-        "neo-psychedelia",
-        4
-      ],
-      [
-        "psychedelic pop",
-        4
+        "psychedelic rock",
+        5
       ],
       [
         "classic rock",
         4
-      ],
-      [
-        "alternative pop",
-        3
-      ],
-      [
-        "synth-pop",
-        3
-      ],
-      [
-        "disco",
-        3
       ],
       [
         "jangle pop",
@@ -189,22 +169,6 @@
         3
       ],
       [
-        "blues rock",
-        2
-      ],
-      [
-        "garage rock",
-        2
-      ],
-      [
-        "surf punk",
-        2
-      ],
-      [
-        "art pop",
-        2
-      ],
-      [
         "rock and roll",
         2
       ],
@@ -213,11 +177,47 @@
         2
       ],
       [
+        "alternative pop",
+        2
+      ],
+      [
+        "disco",
+        2
+      ],
+      [
         "funk",
         2
       ],
       [
         "contemporary r&b",
+        2
+      ],
+      [
+        "synth-pop",
+        2
+      ],
+      [
+        "jazz",
+        2
+      ],
+      [
+        "piano rock",
+        2
+      ],
+      [
+        "neo-psychedelia",
+        2
+      ],
+      [
+        "psychedelic pop",
+        2
+      ],
+      [
+        "easy listening",
+        2
+      ],
+      [
+        "dream pop",
         2
       ]
     ]

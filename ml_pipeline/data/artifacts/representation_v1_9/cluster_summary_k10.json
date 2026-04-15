@@ -1,403 +1,325 @@
 [
   {
-    "cluster_id": 2,
-    "size": 2011,
+    "cluster_id": 1,
+    "size": 2117,
     "sample_tracks": [
-      "Don't Stop Believin' — Journey",
-      "More Than a Feeling — Boston",
-      "Gimme Shelter — The Rolling Stones",
-      "Kickstart My Heart — Mötley Crüe",
-      "Losing My Religion — R.E.M.",
-      "Tears Don't Fall — Bullet For My Valentine",
-      "My Curse — Killswitch Engage",
-      "We're Not Gonna Take It — Twisted Sister",
-      "Sweet Home Alabama — Lynyrd Skynyrd",
-      "Rebel Yell — Billy Idol"
+      "Lover Is a Day — Cuco",
+      "Dream Girl — Crisaunt",
+      "Cariño — The Marías",
+      "Someone To Spend Time With — Los Retros",
+      "You Might Be Sleeping — Jakob, Clairo",
+      "What Once Was — Her's",
+      "Marcel — Her's",
+      "F Song — Strawberry Guy",
+      "I Hope to Be Around — Men I Trust",
+      "Cool with You — Her's"
     ],
     "top_features": [
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "weight": -1.4297297867044239,
-        "abs_weight": 1.4297297867044239
+        "weight": -1.466008967356869,
+        "abs_weight": 1.466008967356869
       },
       {
         "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "weight": -1.3878527970848489,
-        "abs_weight": 1.3878527970848489
+        "weight": -1.4310080539561365,
+        "abs_weight": 1.4310080539561365
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "weight": -1.2550122114947142,
-        "abs_weight": 1.2550122114947142
+        "weight": -1.2895140961954878,
+        "abs_weight": 1.2895140961954878
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "weight": -1.2515127032074846,
-        "abs_weight": 1.2515127032074846
+        "weight": -1.2781543227513719,
+        "abs_weight": 1.2781543227513719
       },
       {
         "feature": "acoustic__highlevel__danceability__all__danceable",
-        "weight": -1.1850248539821469,
-        "abs_weight": 1.1850248539821469
+        "weight": -1.2162241267934315,
+        "abs_weight": 1.2162241267934315
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "weight": -1.1806457234395233,
-        "abs_weight": 1.1806457234395233
+        "weight": -1.2020664897559599,
+        "abs_weight": 1.2020664897559599
       },
       {
         "feature": "acoustic__highlevel__timbre__all__dark",
-        "weight": -1.1613306409757274,
-        "abs_weight": 1.1613306409757274
+        "weight": -1.1785568479722006,
+        "abs_weight": 1.1785568479722006
       },
       {
         "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": -1.105628588775954,
-        "abs_weight": 1.105628588775954
+        "weight": -1.1390453070706958,
+        "abs_weight": 1.1390453070706958
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "weight": -1.0869757773885058,
-        "abs_weight": 1.0869757773885058
+        "weight": -1.118933344181558,
+        "abs_weight": 1.118933344181558
       },
       {
         "feature": "acoustic__highlevel__mood_party__all__party",
-        "weight": -1.0733073095741514,
-        "abs_weight": 1.0733073095741514
+        "weight": -1.0853524428237735,
+        "abs_weight": 1.0853524428237735
       },
       {
         "feature": "meta__has_acoustic_high_level",
-        "weight": -0.940319105669407,
-        "abs_weight": 0.940319105669407
+        "weight": -0.9670422500537792,
+        "abs_weight": 0.9670422500537792
       },
       {
         "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-        "weight": -0.8325985982500481,
-        "abs_weight": 0.8325985982500481
+        "weight": -0.864007594724245,
+        "abs_weight": 0.864007594724245
       }
     ]
   },
   {
-    "cluster_id": 8,
-    "size": 493,
+    "cluster_id": 3,
+    "size": 770,
     "sample_tracks": [
-      "Another Brick in the Wall, Pt. 2 — Pink Floyd",
-      "Rocket Man (I Think It's Going To Be A Long, Long Time) — Elton John",
-      "The Joker — Steve Miller Band",
-      "Walk On the Wild Side — Lou Reed",
-      "Imagine - Remastered 2010 — John Lennon",
-      "In The Air Tonight - 2015 Remastered — Phil Collins",
-      "Three Little Birds — Bob Marley & The Wailers",
-      "Cold — Crossfade",
-      "Lips Of An Angel — Hinder",
-      "Your Song — Elton John"
+      "Pretty Girl — Clairo",
+      "Flaming Hot Cheetos — Clairo",
+      "4EVER — Clairo",
+      "Mrs Magic — Strawberry Guy",
+      "Show Me How — Men I Trust",
+      "From the Subway Train — Vansire",
+      "Young — Vacations",
+      "Harvey — Her's",
+      "She Needs Him — Her's",
+      "I Don't Know You — The Marías"
     ],
     "top_features": [
       {
-        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-        "weight": 3.4357136935741606,
-        "abs_weight": 3.4357136935741606
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": 2.9166917549618163,
+        "abs_weight": 2.9166917549618163
       },
       {
-        "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "weight": 3.3883035640726686,
-        "abs_weight": 3.3883035640726686
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": 2.829799869183192,
+        "abs_weight": 2.829799869183192
       },
       {
         "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": 2.570600239022697,
-        "abs_weight": 2.570600239022697
+        "weight": 2.206586618398709,
+        "abs_weight": 2.206586618398709
       },
       {
         "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "weight": 2.2987992734344997,
-        "abs_weight": 2.2987992734344997
+        "weight": 2.1062684434004058,
+        "abs_weight": 2.1062684434004058
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "weight": 1.9351205399523022,
-        "abs_weight": 1.9351205399523022
+        "weight": 1.78356373149379,
+        "abs_weight": 1.78356373149379
       },
       {
         "feature": "acoustic__highlevel__danceability__all__danceable",
-        "weight": 1.5475240801236005,
-        "abs_weight": 1.5475240801236005
+        "weight": 1.5741246101733735,
+        "abs_weight": 1.5741246101733735
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "weight": 1.2656289647804575,
-        "abs_weight": 1.2656289647804575
+        "weight": 1.1741714088557669,
+        "abs_weight": 1.1741714088557669
       },
       {
         "feature": "meta__has_acoustic_high_level",
-        "weight": 1.0308842164182628,
-        "abs_weight": 1.0308842164182628
+        "weight": 1.0059431038630529,
+        "abs_weight": 1.0059431038630529
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "weight": 0.64833933477397,
-        "abs_weight": 0.64833933477397
-      },
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "weight": -0.5148810545429229,
-        "abs_weight": 0.5148810545429229
+        "weight": 0.8476670021745973,
+        "abs_weight": 0.8476670021745973
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "weight": 0.5036249211555826,
-        "abs_weight": 0.5036249211555826
+        "weight": 0.595679957629644,
+        "abs_weight": 0.595679957629644
       },
       {
-        "feature": "meta__popularity_scaled",
-        "weight": 0.37606979036539334,
-        "abs_weight": 0.37606979036539334
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 0.5391475113849262,
+        "abs_weight": 0.5391475113849262
+      },
+      {
+        "feature": "meta__has_tags",
+        "weight": 0.29775039475856924,
+        "abs_weight": 0.29775039475856924
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 596,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "Dance, Baby! — boy pablo",
+      "I'll Try — Her's",
+      "We Had to End It — Cuco",
+      "If You Know What's Right — Her's",
+      "Highway to Hell — AC/DC",
+      "Livin' On A Prayer — Bon Jovi",
+      "Smells Like Teen Spirit — Nirvana",
+      "Kryptonite — 3 Doors Down",
+      "Welcome To The Jungle — Guns N' Roses"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "weight": 3.1024078442744103,
+        "abs_weight": 3.1024078442744103
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 2.964007813724385,
+        "abs_weight": 2.964007813724385
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 2.3204169393609013,
+        "abs_weight": 2.3204169393609013
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 1.905259658680723,
+        "abs_weight": 1.905259658680723
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 1.720736451774477,
+        "abs_weight": 1.720736451774477
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 1.3369718740683565,
+        "abs_weight": 1.3369718740683565
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 1.0591619703371637,
+        "abs_weight": 1.0591619703371637
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 1.0027085923779806,
+        "abs_weight": 1.0027085923779806
+      },
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": 0.9749881457951084,
+        "abs_weight": 0.9749881457951084
+      },
+      {
+        "feature": "meta__year_z",
+        "weight": -0.9248016784858487,
+        "abs_weight": 0.9248016784858487
+      },
+      {
+        "feature": "meta__has_tags",
+        "weight": 0.8512599108718666,
+        "abs_weight": 0.8512599108718666
+      },
+      {
+        "feature": "tag__rock",
+        "weight": 0.7357598252834072,
+        "abs_weight": 0.7357598252834072
       }
     ]
   },
   {
     "cluster_id": 5,
-    "size": 456,
+    "size": 431,
     "sample_tracks": [
-      "Smells Like Teen Spirit — Nirvana",
-      "Kryptonite — 3 Doors Down",
-      "You've Got Another Thing Comin' — Judas Priest",
-      "In the End — Linkin Park",
-      "Mr. Brightside — The Killers",
-      "Black Hole Sun — Soundgarden",
-      "Wrong Side of Heaven — Five Finger Death Punch",
-      "Seven Nation Army — The White Stripes",
-      "Fly To The Angels — Slaughter",
-      "Savior — Rise Against"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "weight": 2.7605521079267796,
-        "abs_weight": 2.7605521079267796
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "weight": 2.487659430797192,
-        "abs_weight": 2.487659430797192
-      },
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "weight": 2.2211020750539285,
-        "abs_weight": 2.2211020750539285
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "weight": 2.1674925024833414,
-        "abs_weight": 2.1674925024833414
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__dark",
-        "weight": 1.9085652960521005,
-        "abs_weight": 1.9085652960521005
-      },
-      {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "weight": 1.9030847155951984,
-        "abs_weight": 1.9030847155951984
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "weight": 1.0498479359927317,
-        "abs_weight": 1.0498479359927317
-      },
-      {
-        "feature": "meta__has_acoustic_high_level",
-        "weight": 1.0371758323420746,
-        "abs_weight": 1.0371758323420746
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "weight": 0.7316301759350732,
-        "abs_weight": 0.7316301759350732
-      },
-      {
-        "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "weight": 0.693303236158418,
-        "abs_weight": 0.693303236158418
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": 0.5739441006970007,
-        "abs_weight": 0.5739441006970007
-      },
-      {
-        "feature": "meta__has_tags",
-        "weight": 0.534251076412275,
-        "abs_weight": 0.534251076412275
-      }
-    ]
-  },
-  {
-    "cluster_id": 0,
-    "size": 394,
-    "sample_tracks": [
+      "Hello? — Clairo, Rejjie Snow",
+      "Stay Away from My Baby — Banes World",
+      "Intermission — Strawberry Guy",
+      "One and Only — Cuco",
       "Pour Some Sugar On Me - Remastered 2017 — Def Leppard",
       "Carry on Wayward Son — Kansas",
       "Renegade — Styx",
       "Crazy Train — Ozzy Osbourne",
       "Paranoid - 2012 - Remaster — Black Sabbath",
-      "Jessie's Girl — Rick Springfield",
-      "Zombie — The Cranberries",
-      "Barracuda — Heart",
-      "Eye of the Tiger — Survivor",
-      "All The Small Things — blink-182"
+      "Jessie's Girl — Rick Springfield"
     ],
     "top_features": [
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-        "weight": 3.709459912278727,
-        "abs_weight": 3.709459912278727
+        "weight": 3.6232237228678428,
+        "abs_weight": 3.6232237228678428
       },
       {
         "feature": "acoustic__highlevel__timbre__all__dark",
-        "weight": 3.3403246909535835,
-        "abs_weight": 3.3403246909535835
+        "weight": 3.2296997254330857,
+        "abs_weight": 3.2296997254330857
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "weight": 2.878626375589977,
-        "abs_weight": 2.878626375589977
+        "weight": 2.849744649484982,
+        "abs_weight": 2.849744649484982
       },
       {
         "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "weight": 2.568668290030965,
-        "abs_weight": 2.568668290030965
+        "weight": 2.4464118867048774,
+        "abs_weight": 2.4464118867048774
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "weight": -1.1841978846241679,
-        "abs_weight": 1.1841978846241679
-      },
-      {
-        "feature": "meta__has_genres",
-        "weight": 1.0599008147392313,
-        "abs_weight": 1.0599008147392313
+        "weight": -1.1981323244017843,
+        "abs_weight": 1.1981323244017843
       },
       {
         "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": -1.0544788604346558,
-        "abs_weight": 1.0544788604346558
+        "weight": -0.9982568006126671,
+        "abs_weight": 0.9982568006126671
       },
       {
         "feature": "meta__has_tags",
-        "weight": 1.0476492818436172,
-        "abs_weight": 1.0476492818436172
+        "weight": 0.9646802460169679,
+        "abs_weight": 0.9646802460169679
       },
       {
         "feature": "meta__has_acoustic_high_level",
-        "weight": 0.9735249808738199,
-        "abs_weight": 0.9735249808738199
+        "weight": 0.9452742662834596,
+        "abs_weight": 0.9452742662834596
       },
       {
         "feature": "meta__year_z",
-        "weight": -0.9602619629250535,
-        "abs_weight": 0.9602619629250535
-      },
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "weight": -0.9052679973296712,
-        "abs_weight": 0.9052679973296712
+        "weight": -0.891701308998093,
+        "abs_weight": 0.891701308998093
       },
       {
         "feature": "tag__heavy_metal",
-        "weight": 0.7806397416244222,
-        "abs_weight": 0.7806397416244222
-      }
-    ]
-  },
-  {
-    "cluster_id": 7,
-    "size": 304,
-    "sample_tracks": [
-      "Highway to Hell — AC/DC",
-      "Livin' On A Prayer — Bon Jovi",
-      "Welcome To The Jungle — Guns N' Roses",
-      "I Was Made For Lovin' You — KISS",
-      "Tom Sawyer — Rush",
-      "Free Fallin' — Tom Petty",
-      "Jump - 2015 Remaster — Van Halen",
-      "Everlong — Foo Fighters",
-      "Hotel California - 2013 Remaster — Eagles",
-      "All Along the Watchtower — Jimi Hendrix"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "weight": 2.747920049606677,
-        "abs_weight": 2.747920049606677
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "weight": 2.69907119249667,
-        "abs_weight": 2.69907119249667
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": 2.392227241541645,
-        "abs_weight": 2.392227241541645
+        "weight": 0.7276924485917432,
+        "abs_weight": 0.7276924485917432
       },
       {
         "feature": "acoustic__highlevel__mood_party__all__party",
-        "weight": 2.3721126370553924,
-        "abs_weight": 2.3721126370553924
+        "weight": -0.7029237041794691,
+        "abs_weight": 0.7029237041794691
       },
       {
-        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "weight": 2.2048345011520505,
-        "abs_weight": 2.2048345011520505
-      },
-      {
-        "feature": "meta__year_z",
-        "weight": -1.6504012468207439,
-        "abs_weight": 1.6504012468207439
-      },
-      {
-        "feature": "tag__rock",
-        "weight": 1.420381274383287,
-        "abs_weight": 1.420381274383287
-      },
-      {
-        "feature": "tag__classic_rock",
-        "weight": 1.3127204019147085,
-        "abs_weight": 1.3127204019147085
-      },
-      {
-        "feature": "meta__has_genres",
-        "weight": 1.1813622212077626,
-        "abs_weight": 1.1813622212077626
-      },
-      {
-        "feature": "meta__has_tags",
-        "weight": 1.1769199254099294,
-        "abs_weight": 1.1769199254099294
-      },
-      {
-        "feature": "tag__album_rock",
-        "weight": 1.1242969947723445,
-        "abs_weight": 1.1242969947723445
-      },
-      {
-        "feature": "tag__hard_rock",
-        "weight": 1.1019971056176647,
-        "abs_weight": 1.1019971056176647
+        "feature": "tag__metal",
+        "weight": 0.6857140898685536,
+        "abs_weight": 0.6857140898685536
       }
     ]
   },
   {
-    "cluster_id": 4,
-    "size": 168,
+    "cluster_id": 0,
+    "size": 205,
     "sample_tracks": [
       "Purple Rain — Prince",
+      "Feel Good Inc. — Gorillaz, De La Soul",
       "Billie Jean — Michael Jackson",
-      "Careless Whisper — George Michael",
+      "Friday I'm in Love — The Cure",
       "Dancing Queen — ABBA",
-      "When Doves Cry — Prince",
       "Super Freak — Rick James",
       "Faith - Remastered — George Michael",
       "I'll Be There — The Jackson 5",
@@ -407,147 +329,225 @@
     "top_features": [
       {
         "feature": "acoustic__highlevel__danceability__all__danceable",
-        "weight": 2.6635534367425864,
-        "abs_weight": 2.6635534367425864
+        "weight": 2.7113299761988245,
+        "abs_weight": 2.7113299761988245
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "weight": 2.0842056155754394,
-        "abs_weight": 2.0842056155754394
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "weight": 1.9498540788018093,
-        "abs_weight": 1.9498540788018093
-      },
-      {
-        "feature": "tag__electronic",
-        "weight": 1.9256114257784183,
-        "abs_weight": 1.9256114257784183
-      },
-      {
-        "feature": "tag__dance",
-        "weight": 1.791049700304916,
-        "abs_weight": 1.791049700304916
-      },
-      {
-        "feature": "tag__house",
-        "weight": 1.7896423223432294,
-        "abs_weight": 1.7896423223432294
+        "weight": 2.1593350715795085,
+        "abs_weight": 2.1593350715795085
       },
       {
         "feature": "acoustic__highlevel__mood_party__all__party",
-        "weight": 1.7614887358643356,
-        "abs_weight": 1.7614887358643356
+        "weight": 1.898535355807304,
+        "abs_weight": 1.898535355807304
       },
       {
-        "feature": "tag__dance_pop",
-        "weight": 1.6578801020726992,
-        "abs_weight": 1.6578801020726992
+        "feature": "tag__electronic",
+        "weight": 1.7417956242566972,
+        "abs_weight": 1.7417956242566972
+      },
+      {
+        "feature": "tag__dance",
+        "weight": 1.6981885112778308,
+        "abs_weight": 1.6981885112778308
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 1.690470369062744,
+        "abs_weight": 1.690470369062744
+      },
+      {
+        "feature": "tag__house",
+        "weight": 1.672652219510711,
+        "abs_weight": 1.672652219510711
       },
       {
         "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "weight": 1.5650816434969574,
-        "abs_weight": 1.5650816434969574
+        "weight": 1.4951734618414116,
+        "abs_weight": 1.4951734618414116
+      },
+      {
+        "feature": "tag__dance_pop",
+        "weight": 1.4947459165351844,
+        "abs_weight": 1.4947459165351844
       },
       {
         "feature": "tag__electro",
-        "weight": 1.5116556087154929,
-        "abs_weight": 1.5116556087154929
+        "weight": 1.3862147605089405,
+        "abs_weight": 1.3862147605089405
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 1.350271998086037,
+        "abs_weight": 1.350271998086037
       },
       {
         "feature": "tag__pop",
-        "weight": 1.4593477553581606,
-        "abs_weight": 1.4593477553581606
-      },
-      {
-        "feature": "tag__electropop",
-        "weight": 1.3852320985323097,
-        "abs_weight": 1.3852320985323097
+        "weight": 1.287484462637773,
+        "abs_weight": 1.287484462637773
       }
     ]
   },
   {
-    "cluster_id": 3,
-    "size": 25,
+    "cluster_id": 8,
+    "size": 26,
     "sample_tracks": [
-      "Feel Good Inc. — Gorillaz, De La Soul",
-      "Somebody That I Used To Know — Gotye, Kimbra",
-      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
-      "Horn in the middle — Nujabes",
-      "Highs 2 Lows (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
-      "Beat laments the world — Nujabes",
-      "Think Different (feat. Substantial) — Nujabes, Substantial",
-      "Next view (feat. Uyama Hiroto) — Nujabes, Uyama Hiroto",
-      "Latitude -remix (feat. Five Deez) — Nujabes, Five Deez",
-      "F.I.L.O. (feat. Shing02) — Nujabes, Shing02"
+      "In the End — Linkin Park",
+      "Bring Me To Life — Evanescence",
+      "Drive — Incubus",
+      "Duality — Slipknot",
+      "Bodies — Drowning Pool",
+      "Numb — Linkin Park",
+      "Smooth Criminal — Alien Ant Farm",
+      "The Beautiful People — Marilyn Manson",
+      "Dragula — Rob Zombie",
+      "Freak On a Leash — Korn"
     ],
     "top_features": [
       {
-        "feature": "tag__instrumental",
-        "weight": 6.406067754539326,
-        "abs_weight": 6.406067754539326
+        "feature": "tag__alternative_metal",
+        "weight": 5.874672359947998,
+        "abs_weight": 5.874672359947998
       },
       {
-        "feature": "tag__jazz_rap",
-        "weight": 6.283988215818191,
-        "abs_weight": 6.283988215818191
+        "feature": "tag__nu_metal",
+        "weight": 5.396852008291224,
+        "abs_weight": 5.396852008291224
       },
       {
-        "feature": "tag__trip_hop",
-        "weight": 5.919476417722369,
-        "abs_weight": 5.919476417722369
+        "feature": "tag__rap_metal",
+        "weight": 4.868635235460971,
+        "abs_weight": 4.868635235460971
       },
       {
-        "feature": "tag__cool_jazz",
-        "weight": 5.778353219662747,
-        "abs_weight": 5.778353219662747
+        "feature": "genre__alternative_metal",
+        "weight": 4.410596626443941,
+        "abs_weight": 4.410596626443941
       },
       {
-        "feature": "tag__downtempo",
-        "weight": 5.182300362551223,
-        "abs_weight": 5.182300362551223
+        "feature": "genre__nu_metal",
+        "weight": 4.277604379537047,
+        "abs_weight": 4.277604379537047
       },
       {
-        "feature": "genre__instrumental",
-        "weight": 4.5757626855941025,
-        "abs_weight": 4.5757626855941025
+        "feature": "tag__industrial_metal",
+        "weight": 4.039943365581158,
+        "abs_weight": 4.039943365581158
       },
       {
-        "feature": "genre__jazz_rap",
-        "weight": 4.488563001238395,
-        "abs_weight": 4.488563001238395
+        "feature": "tag__funk_metal",
+        "weight": 3.8184121057262703,
+        "abs_weight": 3.8184121057262703
       },
       {
-        "feature": "genre__trip_hop",
-        "weight": 4.319574327333008,
-        "abs_weight": 4.319574327333008
+        "feature": "genre__rap_metal",
+        "weight": 3.8079972234857764,
+        "abs_weight": 3.8079972234857764
       },
       {
-        "feature": "genre__cool_jazz",
-        "weight": 4.127395156902064,
-        "abs_weight": 4.127395156902064
+        "feature": "tag__rapcore",
+        "weight": 3.584440911597057,
+        "abs_weight": 3.584440911597057
       },
       {
-        "feature": "tag__alternative_hip_hop",
-        "weight": 3.8938125881280996,
-        "abs_weight": 3.8938125881280996
+        "feature": "tag__industrial",
+        "weight": 3.548270048588879,
+        "abs_weight": 3.548270048588879
       },
       {
-        "feature": "tag__instrumentalhiphop",
-        "weight": 3.8222969427982534,
-        "abs_weight": 3.8222969427982534
+        "feature": "tag__rap_rock",
+        "weight": 3.5194886839466566,
+        "abs_weight": 3.5194886839466566
       },
       {
-        "feature": "tag__hip_hop_instrumental_hip_hop",
-        "weight": 3.8222969427982534,
-        "abs_weight": 3.8222969427982534
+        "feature": "tag__gothic_metal",
+        "weight": 3.5118617107079455,
+        "abs_weight": 3.5118617107079455
       }
     ]
   },
   {
-    "cluster_id": 1,
-    "size": 21,
+    "cluster_id": 4,
+    "size": 25,
+    "sample_tracks": [
+      "All The Small Things — blink-182",
+      "You're Gonna Go Far, Kid — The Offspring",
+      "Blitzkrieg Bop - 2016 Remaster — Ramones",
+      "American Idiot — Green Day",
+      "In Too Deep — Sum 41",
+      "The Kids Aren't Alright — The Offspring",
+      "Boulevard of Broken Dreams — Green Day",
+      "I Miss You — blink-182",
+      "What's My Age Again? — blink-182",
+      "Wake Me up When September Ends — Green Day"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__punk_rock",
+        "weight": 6.192445583260572,
+        "abs_weight": 6.192445583260572
+      },
+      {
+        "feature": "tag__alternative_punk",
+        "weight": 6.110691189547491,
+        "abs_weight": 6.110691189547491
+      },
+      {
+        "feature": "tag__punk",
+        "weight": 5.8001574626091115,
+        "abs_weight": 5.8001574626091115
+      },
+      {
+        "feature": "tag__pop_punk",
+        "weight": 5.73303030527694,
+        "abs_weight": 5.73303030527694
+      },
+      {
+        "feature": "tag__classic_pop_punk",
+        "weight": 5.374090114407782,
+        "abs_weight": 5.374090114407782
+      },
+      {
+        "feature": "tag__punk_revival",
+        "weight": 5.087624740789346,
+        "abs_weight": 5.087624740789346
+      },
+      {
+        "feature": "genre__punk_rock",
+        "weight": 4.423175412787597,
+        "abs_weight": 4.423175412787597
+      },
+      {
+        "feature": "genre__alternative_punk",
+        "weight": 4.364779414768666,
+        "abs_weight": 4.364779414768666
+      },
+      {
+        "feature": "genre__punk",
+        "weight": 4.353804973232524,
+        "abs_weight": 4.353804973232524
+      },
+      {
+        "feature": "genre__pop_punk",
+        "weight": 4.290800969862618,
+        "abs_weight": 4.290800969862618
+      },
+      {
+        "feature": "tag__punk_pop",
+        "weight": 3.9981387503657015,
+        "abs_weight": 3.9981387503657015
+      },
+      {
+        "feature": "tag__alternative_and_punk",
+        "weight": 3.761668016728078,
+        "abs_weight": 3.761668016728078
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 20,
     "sample_tracks": [
       "Under the Bridge — Red Hot Chili Peppers",
       "Enter Sandman — Metallica",
@@ -557,80 +557,81 @@
       "Do I Wanna Know? — Arctic Monkeys",
       "Nothing Else Matters — Metallica",
       "Scar Tissue — Red Hot Chili Peppers",
-      "The Great Gig In The Sky - 2011 Remastered Version — Pink Floyd",
-      "Can't Stop — Red Hot Chili Peppers"
+      "Can't Stop — Red Hot Chili Peppers",
+      "Stop Crying Your Heart Out — Oasis"
     ],
     "top_features": [
       {
         "feature": "tag__melodic",
-        "weight": 6.469776101152696,
-        "abs_weight": 6.469776101152696
+        "weight": 7.169265177638685,
+        "abs_weight": 7.169265177638685
       },
       {
         "feature": "tag__introspective",
-        "weight": 5.7813267954503935,
-        "abs_weight": 5.7813267954503935
+        "weight": 6.339056034020245,
+        "abs_weight": 6.339056034020245
       },
       {
         "feature": "tag__melancholic",
-        "weight": 5.641001221496096,
-        "abs_weight": 5.641001221496096
-      },
-      {
-        "feature": "tag__passionate",
-        "weight": 5.13002448432225,
-        "abs_weight": 5.13002448432225
-      },
-      {
-        "feature": "tag__rhythmic",
-        "weight": 4.992953737897539,
-        "abs_weight": 4.992953737897539
+        "weight": 6.110453164096254,
+        "abs_weight": 6.110453164096254
       },
       {
         "feature": "tag__serious",
-        "weight": 4.9836146773609675,
-        "abs_weight": 4.9836146773609675
+        "weight": 5.403008210096539,
+        "abs_weight": 5.403008210096539
+      },
+      {
+        "feature": "tag__rhythmic",
+        "weight": 5.398844640582888,
+        "abs_weight": 5.398844640582888
       },
       {
         "feature": "tag__anthemic",
-        "weight": 4.662811649175745,
-        "abs_weight": 4.662811649175745
+        "weight": 5.211343585519617,
+        "abs_weight": 5.211343585519617
+      },
+      {
+        "feature": "tag__passionate",
+        "weight": 5.06575764727879,
+        "abs_weight": 5.06575764727879
       },
       {
         "feature": "tag__love",
-        "weight": 4.39631067818469,
-        "abs_weight": 4.39631067818469
+        "weight": 4.98241701853794,
+        "abs_weight": 4.98241701853794
       },
       {
         "feature": "tag__bittersweet",
-        "weight": 4.386912888793547,
-        "abs_weight": 4.386912888793547
+        "weight": 4.5558276521252745,
+        "abs_weight": 4.5558276521252745
       },
       {
         "feature": "tag__sentimental",
-        "weight": 3.9291666159041467,
-        "abs_weight": 3.9291666159041467
-      },
-      {
-        "feature": "tag__energetic",
-        "weight": 3.6058658533549592,
-        "abs_weight": 3.6058658533549592
+        "weight": 4.4882187258228585,
+        "abs_weight": 4.4882187258228585
       },
       {
         "feature": "tag__anxious",
-        "weight": 3.480463547611488,
-        "abs_weight": 3.480463547611488
+        "weight": 3.8193675571729098,
+        "abs_weight": 3.8193675571729098
+      },
+      {
+        "feature": "tag__energetic",
+        "weight": 3.7683641794813783,
+        "abs_weight": 3.7683641794813783
       }
     ]
   },
   {
     "cluster_id": 9,
-    "size": 7,
+    "size": 8,
     "sample_tracks": [
       "Twist And Shout - Remastered 2009 — The Beatles",
       "Come Together - Remastered 2009 — The Beatles",
       "I Want To Hold Your Hand - Remastered 2009 — The Beatles",
       "Hey Jude - Remastered 2009 — The Beatles",
+      "Bridge Over Troubled Water — Simon & Garfunkel",
       "Yesterday - Remastered 2009 — The Beatles",
       "In My Life - Remastered 2009 — The Beatles",
       "And I Love Her - Remastered 2009 — The Beatles"
@@ -638,63 +639,63 @@
     "top_features": [
       {
         "feature": "tag__beat",
-        "weight": 12.614284667334791,
-        "abs_weight": 12.614284667334791
+        "weight": 12.063899814532492,
+        "abs_weight": 12.063899814532492
       },
       {
         "feature": "tag__british_invasion",
-        "weight": 12.248500078848423,
-        "abs_weight": 12.248500078848423
+        "weight": 11.724739083487469,
+        "abs_weight": 11.724739083487469
       },
       {
         "feature": "tag__merseybeat",
-        "weight": 12.110854737470998,
-        "abs_weight": 12.110854737470998
+        "weight": 11.424958403618874,
+        "abs_weight": 11.424958403618874
       },
       {
         "feature": "tag__british_invasion_rock",
-        "weight": 11.90207548187563,
-        "abs_weight": 11.90207548187563
+        "weight": 11.249377892112788,
+        "abs_weight": 11.249377892112788
       },
       {
         "feature": "tag__psychedelic",
-        "weight": 11.115188099731993,
-        "abs_weight": 11.115188099731993
+        "weight": 10.49849106261931,
+        "abs_weight": 10.49849106261931
       },
       {
         "feature": "tag__beat_music",
-        "weight": 10.439172816540838,
-        "abs_weight": 10.439172816540838
+        "weight": 10.057895625961232,
+        "abs_weight": 10.057895625961232
       },
       {
         "feature": "tag__british_psychedelia",
-        "weight": 9.896301932648432,
-        "abs_weight": 9.896301932648432
+        "weight": 9.429604087102785,
+        "abs_weight": 9.429604087102785
       },
       {
         "feature": "tag__am_pop",
-        "weight": 9.323900104987134,
-        "abs_weight": 9.323900104987134
+        "weight": 9.312465547026536,
+        "abs_weight": 9.312465547026536
       },
       {
         "feature": "tag__early_pop_rock",
-        "weight": 9.191232254160376,
-        "abs_weight": 9.191232254160376
+        "weight": 8.739583490637123,
+        "abs_weight": 8.739583490637123
       },
       {
         "feature": "genre__merseybeat",
-        "weight": 8.650610518521072,
-        "abs_weight": 8.650610518521072
-      },
-      {
-        "feature": "tag__unknown",
-        "weight": 8.207557714307216,
-        "abs_weight": 8.207557714307216
+        "weight": 8.160684566721269,
+        "abs_weight": 8.160684566721269
       },
       {
         "feature": "genre__psychedelic",
-        "weight": 7.939420060719396,
-        "abs_weight": 7.939420060719396
+        "weight": 7.498922176813255,
+        "abs_weight": 7.498922176813255
+      },
+      {
+        "feature": "genre__beat_music",
+        "weight": 7.184211170261601,
+        "abs_weight": 7.184211170261601
       }
     ]
   },
@@ -710,63 +711,63 @@
     "top_features": [
       {
         "feature": "tag__sing_along",
-        "weight": 19.551523017523174,
-        "abs_weight": 19.551523017523174
+        "weight": 20.224940533270782,
+        "abs_weight": 20.224940533270782
       },
       {
         "feature": "tag__rain",
-        "weight": 19.551523017523174,
-        "abs_weight": 19.551523017523174
+        "weight": 20.224940533270782,
+        "abs_weight": 20.224940533270782
       },
       {
         "feature": "tag__hanging_out",
-        "weight": 19.09478447570541,
-        "abs_weight": 19.09478447570541
+        "weight": 19.71927563381321,
+        "abs_weight": 19.71927563381321
       },
       {
         "feature": "tag__wake_up",
-        "weight": 17.820072930983354,
-        "abs_weight": 17.820072930983354
+        "weight": 18.51544587617705,
+        "abs_weight": 18.51544587617705
       },
       {
         "feature": "tag__road",
-        "weight": 16.810004283167114,
-        "abs_weight": 16.810004283167114
+        "weight": 17.331396479205612,
+        "abs_weight": 17.331396479205612
       },
       {
         "feature": "tag__vibin",
-        "weight": 14.369844751773615,
-        "abs_weight": 14.369844751773615
+        "weight": 14.979900279827957,
+        "abs_weight": 14.979900279827957
       },
       {
         "feature": "tag__emotional",
-        "weight": 14.284733467905767,
-        "abs_weight": 14.284733467905767
+        "weight": 14.878314898640525,
+        "abs_weight": 14.878314898640525
       },
       {
         "feature": "tag__late_night",
-        "weight": 14.128494397876967,
-        "abs_weight": 14.128494397876967
+        "weight": 14.596316889536514,
+        "abs_weight": 14.596316889536514
       },
       {
         "feature": "tag__soothing",
-        "weight": 13.456056875901842,
-        "abs_weight": 13.456056875901842
+        "weight": 14.07956456401138,
+        "abs_weight": 14.07956456401138
       },
       {
         "feature": "tag__party",
-        "weight": 12.80482717791264,
-        "abs_weight": 12.80482717791264
+        "weight": 13.235088230239386,
+        "abs_weight": 13.235088230239386
       },
       {
         "feature": "tag__dreamy",
-        "weight": 12.453075300565693,
-        "abs_weight": 12.453075300565693
+        "weight": 11.800138097348945,
+        "abs_weight": 11.800138097348945
       },
       {
-        "feature": "tag__summer",
-        "weight": 10.854200882402681,
-        "abs_weight": 10.854200882402681
+        "feature": "tag__background",
+        "weight": 11.592901099485776,
+        "abs_weight": 11.592901099485776
       }
     ]
   }

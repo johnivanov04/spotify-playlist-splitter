@@ -475,7 +475,17 @@
       "spotify_uri": null,
       "isrc": "USAT21703429",
       "musicbrainz_recording_id": "17bbadda-6ba1-4c48-b9c2-f760bbe2a86c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2wAJTrFhCnQyNSD3oUgTZO",
@@ -532,7 +542,13 @@
       "spotify_uri": null,
       "isrc": "USQX91100801",
       "musicbrainz_recording_id": "de6f80b9-f935-4f37-8354-45cb24bb00ca"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4uhvMW7ly7tJil31YYscAN",
@@ -962,7 +978,17 @@
       "spotify_uri": null,
       "isrc": "USAT21602379",
       "musicbrainz_recording_id": "85be392a-fef4-4a42-9e7c-9d242979a28d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0uxSUdBrJy9Un0EYoBowng",
@@ -1463,7 +1489,17 @@
       "spotify_uri": null,
       "isrc": "USAT21704166",
       "musicbrainz_recording_id": "f59bc7f4-bfd1-4b14-acb0-b8b6c58786c5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5mCPDVBb16L4XQwDdbRUpz",
@@ -1971,7 +2007,13 @@
       "spotify_uri": null,
       "isrc": "USCM51700072",
       "musicbrainz_recording_id": "8eccc484-bba1-4ca0-8600-41c8be9976a9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2xyBvir9n474qfsOkxXMgx",
@@ -2468,7 +2510,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703106",
       "musicbrainz_recording_id": "142643f8-8b31-42bb-9080-9046e78d589d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3yk7PJnryiJ8mAPqsrujzf",
@@ -2964,7 +3012,13 @@
       "spotify_uri": null,
       "isrc": "USUM71616271",
       "musicbrainz_recording_id": "96475c55-ae4b-4889-b9f6-d516c4a7c517"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0wXuerDYiBnERgIpbb3JBR",
@@ -3513,7 +3567,41 @@
       "spotify_uri": null,
       "isrc": "USCM51600028",
       "musicbrainz_recording_id": "be9e4a6b-3f56-468a-aa61-b1bcb6fc277f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "afrobeats",
+        "count": 1
+      },
+      {
+        "name": "afrobeat",
+        "count": 1
+      },
+      {
+        "name": "afropop",
+        "count": 1
+      },
+      {
+        "name": "azonto",
+        "count": 1
+      },
+      {
+        "name": "afroswing",
+        "count": 1
+      },
+      {
+        "name": "afro r&b",
+        "count": 1
+      },
+      {
+        "name": "afropiano",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "51EC3I1nQXpec4gDk0mQyP",
@@ -4020,7 +4108,13 @@
       "spotify_uri": null,
       "isrc": "USSM11506731",
       "musicbrainz_recording_id": "92155ba2-b134-4f38-b964-1d80eb1bd75e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4IWGnyOHDrVZEtPWfs4s7q",
@@ -4455,7 +4549,17 @@
       "spotify_uri": null,
       "isrc": "USAT21602372",
       "musicbrainz_recording_id": "79a1ff0f-53c1-4a14-a889-6035c964e0d5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2HbKqm4o0w5wEeEFXm2sD4",
@@ -5011,7 +5115,17 @@
       "spotify_uri": null,
       "isrc": "USUM71210785",
       "musicbrainz_recording_id": "c294757b-0430-4eb4-ae7a-6abcffb87405"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1e1JKLEDKP7hEQzJfNAgPl",
@@ -5507,7 +5621,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703095",
       "musicbrainz_recording_id": "75a38235-5db3-4545-bd4c-e4de9baee068"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2aSC2xhRxOLiiZZVjhbylH",
@@ -5589,7 +5709,13 @@
       "spotify_uri": null,
       "isrc": "USCM51300762",
       "musicbrainz_recording_id": "8e22b46f-fb2d-420a-876a-e7bb60aa840f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2aPTvyE09vUCRwVvj0I8WK",
@@ -6085,7 +6211,13 @@
       "spotify_uri": null,
       "isrc": "USRC11803252",
       "musicbrainz_recording_id": "2310544e-003a-4d85-aa96-634a55023954"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "62vpWI1CHwFy7tMIcSStl8",
@@ -6583,7 +6715,17 @@
       "spotify_uri": null,
       "isrc": "USAT21601721",
       "musicbrainz_recording_id": "d5fd5bca-505a-4329-aa9f-8eb5cb951bc0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6PGoSes0D9eUDeeAafB2As",
@@ -7079,7 +7221,17 @@
       "spotify_uri": null,
       "isrc": "USUM71703088",
       "musicbrainz_recording_id": "7766ea21-d94e-4f7b-966d-2d2e2b1f137f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4IO2X2YoXoUMv0M2rwomLC",
@@ -7560,7 +7712,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804186",
       "musicbrainz_recording_id": "d8f1e3f6-c2b9-460d-8282-8874bb59d6ba"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6gBFPUFcJLzWGx4lenP6h2",
@@ -7999,7 +8157,13 @@
       "spotify_uri": null,
       "isrc": "USSM11607555",
       "musicbrainz_recording_id": "05b394e8-3b2c-4cc4-9a2c-cbe2814d362c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4gh0ZnHzaTMT1sDga7Ek0N",
@@ -8444,7 +8608,13 @@
       "spotify_uri": null,
       "isrc": "USSM11607552",
       "musicbrainz_recording_id": "f2c1ef66-a862-4570-87c5-c9110beb51bb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0ESJlaM8CE1jRWaNtwSNj8",
@@ -8891,7 +9061,13 @@
       "spotify_uri": null,
       "isrc": "USSM11607551",
       "musicbrainz_recording_id": "d7121a8c-9b79-4b4e-aa8b-e89cacf41e8f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6OaVWaGfhXn70ZJfdVcabn",
@@ -9393,7 +9569,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806663",
       "musicbrainz_recording_id": "dbc22816-428e-4194-9b53-d2a5cdc1b983"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "46mT9NR7N9Zf5MolcrBgE3",
@@ -9889,7 +10071,17 @@
       "spotify_uri": null,
       "isrc": "USAT22001363",
       "musicbrainz_recording_id": "4f416f00-6824-446c-bb6d-963fa6c3ef63"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Yqmv7XJLCrQEauMbPGZSw",
@@ -10397,7 +10589,21 @@
       "spotify_uri": null,
       "isrc": "USSM11506736",
       "musicbrainz_recording_id": "f3f44d7c-0a28-4fcd-9eb7-0837acdb702a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1MJErNPIQUoEMu4YUUmecm",
@@ -10895,7 +11101,17 @@
       "spotify_uri": null,
       "isrc": "USAT21703432",
       "musicbrainz_recording_id": "8dd39f7b-be6e-4b0a-87c9-c02ddf5dccd4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3iVcZ5G6tvkXZkZKlMpIUs",
@@ -11429,7 +11645,17 @@
       "spotify_uri": null,
       "isrc": "USUM71502498",
       "musicbrainz_recording_id": "b5e1e12f-8832-4ba4-b772-de15e2db2009"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2N3U8uTYhjX2KwGT0pf5x0",
@@ -11946,7 +12172,21 @@
       "spotify_uri": null,
       "isrc": "USRC11500811",
       "musicbrainz_recording_id": "77a89ec3-8958-4365-85c1-c1b945217462"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "soft rock",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2cYqizR4lgvp4Qu6IQ3qGN",
@@ -12404,7 +12644,13 @@
       "spotify_uri": null,
       "isrc": "USSM11704799",
       "musicbrainz_recording_id": "303107f3-8bf0-4850-a0db-6b906954475f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "51pshtuYkgUQnt5huMPbKL",
@@ -12473,7 +12719,17 @@
       "spotify_uri": null,
       "isrc": "USUM72107053",
       "musicbrainz_recording_id": "709e504c-bdf3-47b1-ab97-711ca1e74a88"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2cDCojn6uIBM6A5xTAbl3H",
@@ -13029,7 +13285,25 @@
       "spotify_uri": null,
       "isrc": "USUM71210784",
       "musicbrainz_recording_id": "d142987d-69a5-426c-8d41-20ce2cc1534b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "g-funk",
+        "count": 1
+      },
+      {
+        "name": "gangster rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "27a1mYSG5tYg7dmEjWBcmL",
@@ -13531,7 +13805,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806670",
       "musicbrainz_recording_id": "cb958c46-7d58-4982-8a5a-d53dac13dee9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7pbg3ABlAZv2NiIdKbBBFm",
@@ -14049,7 +14329,17 @@
       "spotify_uri": null,
       "isrc": "USUG12001906",
       "musicbrainz_recording_id": "35066bc7-f980-42a3-96f1-900c0184be7f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "emo rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3GXSywNvYLAVUCtjMHkKDh",
@@ -14525,7 +14815,25 @@
       "spotify_uri": null,
       "isrc": "USUYG1228093",
       "musicbrainz_recording_id": "29445eb1-c975-4fb4-bd07-688cb1a57b3f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2qOm7ukLyHUXWyR4ZWLwxA",
@@ -15072,7 +15380,29 @@
       "spotify_uri": null,
       "isrc": "USPO19250006",
       "musicbrainz_recording_id": "8eb77eca-2524-41e1-9282-a8615cd6ced5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "gangster rap",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "g-funk",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "11kDth1aKUEUMq9r1pqyds",
@@ -15574,7 +15904,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806666",
       "musicbrainz_recording_id": "346c5920-4b36-4472-9447-139d2c9e4560"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6NMtzpDQBTOfJwMzgMX0zl",
@@ -16076,7 +16412,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806664",
       "musicbrainz_recording_id": "69ebbc04-b1d5-4829-b836-850ae4614c71"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "393MDhe62s8hbH8ETrlxe5",
@@ -16639,7 +16981,8 @@
       "spotify_uri": null,
       "isrc": "USUM71025042",
       "musicbrainz_recording_id": "858ebfac-1ae5-4f12-b55d-87e7a6c55b35"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5bJ1DrEM4hNCafcDd1oxHx",
@@ -17122,7 +17465,8 @@
       "spotify_uri": null,
       "isrc": "USWB11801215",
       "musicbrainz_recording_id": "03c4adcf-2f31-42d7-bcd5-056d68066f90"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1WvGWCDuj0dfRpuBuYecXp",
@@ -17642,7 +17986,25 @@
       "spotify_uri": null,
       "isrc": "USSM11609286",
       "musicbrainz_recording_id": "764a9064-5a35-48e9-949a-b8e1076cd420"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4s7QLoImIwmPi9L6dq1nVW",
@@ -18170,7 +18532,13 @@
       "spotify_uri": null,
       "isrc": "USUG12104404",
       "musicbrainz_recording_id": "ff5ccba1-b83b-4a7d-b676-1f717c2467e3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "11pEKMLmavDu8fxOB5QjbQ",
@@ -18701,7 +19069,13 @@
       "spotify_uri": null,
       "isrc": "USUG12104406",
       "musicbrainz_recording_id": "77f956a4-3947-4ad2-902e-445230dc6de4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3rpspE93T6g8IDWPsbskxs",
@@ -18734,7 +19108,21 @@
       "spotify_uri": null,
       "isrc": "USUM71502567",
       "musicbrainz_recording_id": "1150b931-f7bc-455d-b733-3df1d3f781ea"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "funk",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3pjUyVbFmM96tYhSaKJwTt",
@@ -19170,7 +19558,13 @@
       "spotify_uri": null,
       "isrc": "QMJMT1601086",
       "musicbrainz_recording_id": "17ab3870-aab3-4a94-877f-4f4fc5459147"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0N3W5peJUQtI4eyR6GJT5O",
@@ -19712,7 +20106,17 @@
       "spotify_uri": null,
       "isrc": "USUM71502494",
       "musicbrainz_recording_id": "2d584d3c-d6ce-40ec-b23a-7b29c687ac07"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7lT1dCz96jANsLAAADlfIg",
@@ -20222,7 +20626,17 @@
       "spotify_uri": null,
       "isrc": "USUM71703084",
       "musicbrainz_recording_id": "11ed671b-b2ec-4756-932c-a205e38147f0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "29TPjc8wxfz4XMn21O7VsZ",
@@ -20709,7 +21123,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024699",
       "musicbrainz_recording_id": "509d7ad8-eb0e-47c4-a42a-2b93d54257e6"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5B0kgjHULYJhAQkK5XsMoC",
@@ -21200,7 +21620,13 @@
       "spotify_uri": null,
       "isrc": "USQX92102132",
       "musicbrainz_recording_id": "17d17b76-0436-4755-8c12-840bc02eb90d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "trap soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1hz7SRTGUNAtIQ46qiNv2p",
@@ -21696,7 +22122,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901118",
       "musicbrainz_recording_id": "fb010874-ff33-45c9-b2f6-4afe146096b0"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5TxRUOsGeWeRl3xOML59Ai",
@@ -22192,7 +22619,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901168",
       "musicbrainz_recording_id": "ed2214b2-f04f-4eec-b41e-ea0ae0d5cae0"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7umZiitjVsEjMQ6HNddpUI",
@@ -22223,7 +22651,21 @@
       "spotify_uri": null,
       "isrc": "QMKSC1700112",
       "musicbrainz_recording_id": "a014b4ce-a94b-4542-b865-445674f3cd92"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1Is8hGpkGMiePASAxBluxM",
@@ -22731,7 +23173,8 @@
       "spotify_uri": null,
       "isrc": "USSM12106871",
       "musicbrainz_recording_id": "98b74bca-c8e4-4ab2-af68-9ccbb77fd6f4"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "29GefKRTSVW3ag4Xegm8jP",
@@ -23256,7 +23699,8 @@
       "spotify_uri": null,
       "isrc": "QZ45A1700093",
       "musicbrainz_recording_id": "1f1eebb7-e61a-4b54-aa92-3046ee133e16"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0SA0mMXWh23raZ6xzOCU2V",
@@ -23806,7 +24250,8 @@
       "spotify_uri": null,
       "isrc": "GBBKS1100033",
       "musicbrainz_recording_id": "d4d9c3ba-7155-41a9-a4e5-aa69a515a405"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3diZz7nVRbyuvAXSW7hzI7",
@@ -24402,7 +24847,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901111",
       "musicbrainz_recording_id": "b9648e9e-e8b9-4db1-943e-eb1f6db72257"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5QvBXUm5MglLJ3iBfTX2Wo",
@@ -24917,7 +25363,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901114",
       "musicbrainz_recording_id": "ed1638ba-a3ab-4bd1-a37b-7ff1c1e52ac7"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0wEC0GNF74lAqrEFZJMl1m",
@@ -25413,7 +25860,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901117",
       "musicbrainz_recording_id": "68e5354e-ea11-4ae9-8af4-b3efbc4a2713"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7KA4W4McWYRpgf0fWsJZWB",
@@ -25857,7 +26305,8 @@
       "spotify_uri": null,
       "isrc": "USQX91701275",
       "musicbrainz_recording_id": "e232b26b-2100-4269-9f96-3f3f49c57c2d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "58k32my5lKofeZRtIvBDg9",
@@ -26365,7 +26814,8 @@
       "spotify_uri": null,
       "isrc": "QM6N21900313",
       "musicbrainz_recording_id": "d262a298-7c01-468e-a6ea-d7c31a40031b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7pudclCl5P99Me3P5F9hPC",
@@ -26858,7 +27308,17 @@
       "spotify_uri": null,
       "isrc": "USAT21504173",
       "musicbrainz_recording_id": "b4257309-9965-4b0b-91c0-cd7e38c9e3c3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2ZWlPOoWh0626oTaHrnl2a",
@@ -27387,7 +27847,8 @@
       "spotify_uri": null,
       "isrc": "QZ5C81600002",
       "musicbrainz_recording_id": "fe8b367d-78ef-4ec3-9c9a-ff3435a65d5b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3ruoIF2UnoXdzK8mR61ebq",
@@ -27892,7 +28353,21 @@
       "spotify_uri": null,
       "isrc": "USSM12005348",
       "musicbrainz_recording_id": "1d151fc0-219d-42c2-996b-cfa705b4ccef"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0qtK3XwbuG153dmwB8iepL",
@@ -28322,7 +28797,8 @@
       "spotify_uri": null,
       "isrc": "USQX91701285",
       "musicbrainz_recording_id": "083310d0-fd25-465f-b1b3-06978e618b0b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5FkoSXiJPKTNyYgALRJFhD",
@@ -28807,7 +29283,8 @@
       "spotify_uri": null,
       "isrc": "QM6N21900076",
       "musicbrainz_recording_id": "08c80e89-2914-4c7a-afaf-83f50bfafa4b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3QFInJAm9eyaho5vBzxInN",
@@ -29305,7 +29782,17 @@
       "spotify_uri": null,
       "isrc": "USSM12105949",
       "musicbrainz_recording_id": "d1253e07-ecc6-4136-9fda-a9a089d5cb59"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3KkXRkHbMCARz0aVfEt68P",
@@ -29837,7 +30324,8 @@
       "spotify_uri": null,
       "isrc": "USUM71814888",
       "musicbrainz_recording_id": "b6df9d04-2303-4ec7-a416-367b06a026cb"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3L0IKstjUgDFVQAbQIRZRv",
@@ -30318,7 +30806,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804150",
       "musicbrainz_recording_id": "f802669f-45aa-4ec6-8221-26a73739e440"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4S4Mfvv03M1cHgIOJcbUCL",
@@ -30805,7 +31299,8 @@
       "spotify_uri": null,
       "isrc": "QM24S1926435",
       "musicbrainz_recording_id": "d6f4dcac-8b4e-41c4-a69d-ae654b4659bd"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6scpNkWEmUxmKY7nYjVLsX",
@@ -31319,7 +31814,13 @@
       "spotify_uri": null,
       "isrc": "USSM11506739",
       "musicbrainz_recording_id": "976064bd-953f-4b6e-976e-7dad5b362d4e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6bOkaEXc5CopinGazSLokx",
@@ -31824,7 +32325,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901167",
       "musicbrainz_recording_id": "70aacf61-07f9-4f59-aa4f-571d03f6419e"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3uYm4MtU6jUQft2DtGqEoZ",
@@ -32351,7 +32853,21 @@
       "spotify_uri": null,
       "isrc": "USSM11506733",
       "musicbrainz_recording_id": "3a662f09-d248-406c-9dce-e1313b009144"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "chicago drill",
+        "count": 1
+      },
+      {
+        "name": "drill",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "544S44LQ1kkDoQLoEkxYNx",
@@ -32835,7 +33351,25 @@
       "spotify_uri": null,
       "isrc": "USA2P1952944",
       "musicbrainz_recording_id": "8868768c-7370-45f3-a74b-1336bb53fca1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "58TaFP5j5i9swOf584yon2",
@@ -33337,7 +33871,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806671",
       "musicbrainz_recording_id": "407427a6-ecdb-47e5-8e40-6b1536f47593"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1lSyZ2SjkS9iJyQmUnUbuc",
@@ -33369,7 +33909,25 @@
       "spotify_uri": null,
       "isrc": "USUYG1366152",
       "musicbrainz_recording_id": "583511a0-81cc-440e-83f2-1f12f0a3ba44"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0jdcdrTpIzIZGBqBvkgEaC",
@@ -33870,7 +34428,17 @@
       "spotify_uri": null,
       "isrc": "USUM71804149",
       "musicbrainz_recording_id": "e60ae295-4d13-4a01-9ae7-37ba5ec160fd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0RyA3o15NOLJYtm9NlDu5c",
@@ -34357,7 +34925,17 @@
       "spotify_uri": null,
       "isrc": "USRC11702071",
       "musicbrainz_recording_id": "9f6632f8-89cc-4dc0-a9a1-c7e73d15f7d7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "078C2jXg7XsMgW78Gfx1JA",
@@ -34878,7 +35456,17 @@
       "spotify_uri": null,
       "isrc": "USQX91500713",
       "musicbrainz_recording_id": "3a5c7fa9-cfb3-4b02-b759-19b2cd36af0a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1jzIJcHCXneHw7ojC6LXiF",
@@ -35361,7 +35949,13 @@
       "spotify_uri": null,
       "isrc": "USQX91802454",
       "musicbrainz_recording_id": "d1398bbc-fedf-45ea-9a44-3d3fdfaf3afb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1BpKJw4RZxaFB88NE5uxXf",
@@ -35392,7 +35986,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024701",
       "musicbrainz_recording_id": "154f87ef-ddff-452c-b81c-cbc91cab35da"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2gAGWaK4wvt2xrFUlR4mK8",
@@ -35903,7 +36503,13 @@
       "spotify_uri": null,
       "isrc": "USRC11500797",
       "musicbrainz_recording_id": "a4eda09d-b751-4b5c-ad79-61d1be0bbb0a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4pNT8XTKWb2vhcsqwzdXCT",
@@ -36340,7 +36946,21 @@
       "spotify_uri": null,
       "isrc": "USUYG1202487",
       "musicbrainz_recording_id": "b03bb46c-1e33-4f3d-b56f-2b365426d4cb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1s9DTymg5UQrdorZf43JQm",
@@ -36822,7 +37442,21 @@
       "spotify_uri": null,
       "isrc": "USUM71804159",
       "musicbrainz_recording_id": "e6fb95e6-6a94-47ad-91fb-ddfd5688867c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "trap soul",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2TyjVO7KBdGHBvQxAnFFsa",
@@ -37277,7 +37911,21 @@
       "spotify_uri": null,
       "isrc": "USUYG1202500",
       "musicbrainz_recording_id": "61a9d985-8bd4-431a-9f75-7cfc7e2a8f75"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6GnhWMhgJb7uyiiPEiEkDA",
@@ -37748,7 +38396,13 @@
       "spotify_uri": null,
       "isrc": "USWB11508643",
       "musicbrainz_recording_id": "6215764c-da3c-48be-aca5-309c86caef58"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4KjnaUNYPwGnJjoeTFlt91",
@@ -38292,7 +38946,21 @@
       "spotify_uri": null,
       "isrc": "USUM71210775",
       "musicbrainz_recording_id": "f0ffd14d-f858-44a4-888a-f245b91b789f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "712uvW1Vezq8WpQi38v2L9",
@@ -38851,7 +39519,17 @@
       "spotify_uri": null,
       "isrc": "USUM71210774",
       "musicbrainz_recording_id": "54494123-9670-4b2d-83ad-85c46c8f5200"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0d0jsoba88SpOoFxCxA2rZ",
@@ -39402,7 +40080,17 @@
       "spotify_uri": null,
       "isrc": "USUM71210778",
       "musicbrainz_recording_id": "fd83178d-c064-4689-9c09-bef8f1c4cad9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5vuJuBqwzHJgCA1ysRfwxZ",
@@ -39953,7 +40641,17 @@
       "spotify_uri": null,
       "isrc": "USUM71211006",
       "musicbrainz_recording_id": "421d5f93-107c-46b3-953e-cad600e1e25c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3GZD6HmiNUhxXYf8Gch723",
@@ -40541,7 +41239,8 @@
       "spotify_uri": null,
       "isrc": "USUM71207186",
       "musicbrainz_recording_id": "88429f7d-3407-4a8c-8741-e072e03fc71f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0725YWm6Z0TpZ6wrNk64Eb",
@@ -41095,7 +41794,17 @@
       "spotify_uri": null,
       "isrc": "USUM71207196",
       "musicbrainz_recording_id": "b76012a9-8b64-434d-95a4-8cb2550a83fc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5lcyIeEfwZTs8Ajw3kdF7P",
@@ -41648,7 +42357,8 @@
       "spotify_uri": null,
       "isrc": "USUM71207184",
       "musicbrainz_recording_id": "586ec6b1-0725-4825-84ec-54f0e9dd3855"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0msrDPXxZpts4FRnoX0bFr",
@@ -42201,7 +42911,8 @@
       "spotify_uri": null,
       "isrc": "USUM71207188",
       "musicbrainz_recording_id": "e53b9c87-fa13-4b9d-b727-85e1b8d01eea"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3xKsf9qdS1CyvXSMEid6g8",
@@ -42738,7 +43449,8 @@
       "spotify_uri": null,
       "isrc": "QZ5C81600003",
       "musicbrainz_recording_id": "d90934be-302a-4e0d-a1dd-b94df3421f33"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5GUYJTQap5F3RDQiCOJhrS",
@@ -43267,7 +43979,8 @@
       "spotify_uri": null,
       "isrc": "QZ5C81600007",
       "musicbrainz_recording_id": "039326dc-e853-4de8-84c5-dd91c31d4256"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2LMkwUfqC6S6s6qDVlEuzV",
@@ -43796,7 +44509,8 @@
       "spotify_uri": null,
       "isrc": "QZ5C81600014",
       "musicbrainz_recording_id": "a1f25623-f56c-4f36-bcce-67488d04e7cc"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4S7YHmlWwfwArgd8LfSPud",
@@ -44346,7 +45060,13 @@
       "spotify_uri": null,
       "isrc": "USRC11500789",
       "musicbrainz_recording_id": "931200ce-caeb-401e-a875-c542ef929647"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7uWVT3UkCAZyANvv0bdyQn",
@@ -44882,7 +45602,25 @@
       "spotify_uri": null,
       "isrc": "USUM71502496",
       "musicbrainz_recording_id": "500212ba-0292-435d-96cc-f6aeb4829a58"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "neo soul",
+        "count": 1
+      },
+      {
+        "name": "alternative r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4WEuEfFiczWxblHyuucSBL",
@@ -45400,7 +46138,17 @@
       "spotify_uri": null,
       "isrc": "USUYG1008115",
       "musicbrainz_recording_id": "5339459c-d3b2-44c8-bf30-11feb9d2db87"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0y9uTzK9cNKSAEHnpeRG8C",
@@ -45882,7 +46630,17 @@
       "spotify_uri": null,
       "isrc": "USUM71703379",
       "musicbrainz_recording_id": "9488e575-4c2c-4a30-a064-14b02acbe1ac"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "475jSz0H6U3duJyNiDS0tT",
@@ -46364,7 +47122,17 @@
       "spotify_uri": null,
       "isrc": "USUM71804157",
       "musicbrainz_recording_id": "16189c0a-bbc0-43ad-9371-b61b4298b4ed"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4b82tXj35SycILuILcgBQ6",
@@ -46902,7 +47670,25 @@
       "spotify_uri": null,
       "isrc": "USBWK0700038",
       "musicbrainz_recording_id": "922785c8-2e5f-4a45-b091-40b484a09823"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4BnrGx9tWNF8aiXl1UhDBa",
@@ -47424,7 +48210,25 @@
       "spotify_uri": null,
       "isrc": "USBWK0700040",
       "musicbrainz_recording_id": "ba7a807f-a638-4bcf-9333-bf27729739fd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1FAHFrh5yApXwT66z3JzZy",
@@ -47976,7 +48780,33 @@
       "spotify_uri": null,
       "isrc": "USBWK0700047",
       "musicbrainz_recording_id": "c74dbea6-1f81-4507-9f32-33c91fa42990"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative r&b",
+        "count": 1
+      },
+      {
+        "name": "underground hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0syXbGoFZbTMXm8hGCEvW0",
@@ -48457,7 +49287,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804169",
       "musicbrainz_recording_id": "090804b7-a061-407a-87c8-44b6468f24ab"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3K6U7TamNyVSWcFH8pCQHX",
@@ -48945,7 +49781,17 @@
       "spotify_uri": null,
       "isrc": "USUM71804153",
       "musicbrainz_recording_id": "2c68d898-dbbc-47f3-a3f6-9f5b7a8bd13e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2rPSFKzGeqUWwfcCFVkkq3",
@@ -49427,7 +50273,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804173",
       "musicbrainz_recording_id": "a54cbb66-4eac-493c-a7d9-32382f3ab5ac"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5nayhWICkQGMTkisxVMbRw",
@@ -49908,7 +50760,13 @@
       "spotify_uri": null,
       "isrc": "USUM71806122",
       "musicbrainz_recording_id": "f242a31e-4c1d-49d5-994f-fd767d4beddd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "45Ln3F9PRPYTXBcMFkZMzS",
@@ -50405,7 +51263,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804178",
       "musicbrainz_recording_id": "15b7fdcc-68d8-414c-a484-bb2e7f6e5f22"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4f8Mh5wuWHOsfXtzjrJB3t",
@@ -50901,7 +51765,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901112",
       "musicbrainz_recording_id": "08937107-2213-4e9f-8077-79542245fe9c"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7p4vHnYXkxlzvfePJVpcTr",
@@ -51394,7 +52259,8 @@
       "spotify_uri": null,
       "isrc": "USRC11802773",
       "musicbrainz_recording_id": "f363ff62-b887-4f72-9742-e835fb051b8b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0fv2KH6hac06J86hBUTcSf",
@@ -51893,7 +52759,8 @@
       "spotify_uri": null,
       "isrc": "USQX91901115",
       "musicbrainz_recording_id": "fab6581f-8d58-4c3b-8c29-82b36581ecae"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5KUNwkaNf8l5A9sXZhiCgI",
@@ -52424,7 +53291,25 @@
       "spotify_uri": null,
       "isrc": "USBWK0700049",
       "musicbrainz_recording_id": "534bfb31-9e63-40bc-8e91-5418e95b393c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0nbXyq5TXYPCO7pr3N8S4I",
@@ -52927,7 +53812,13 @@
       "spotify_uri": null,
       "isrc": "USAT21906978",
       "musicbrainz_recording_id": "3e0b00ff-275f-4472-91b3-df760c8be195"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "21O0XXPEWPtePt5RMY93Ob",
@@ -53436,7 +54327,29 @@
       "spotify_uri": null,
       "isrc": "US2S70465020",
       "musicbrainz_recording_id": "70e4863b-796f-44f2-8dd3-6d835ea3734f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "plunderphonics",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3KQh7ppbDxVjdJBtjvP5BU",
@@ -53946,7 +54859,29 @@
       "spotify_uri": null,
       "isrc": "US2S70465005",
       "musicbrainz_recording_id": "7e893fdb-f135-4e25-b5e5-63483b60d054"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "plunderphonics",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6cmt9CRoK0KGcNg9Tpje53",
@@ -53977,7 +54912,17 @@
       "spotify_uri": null,
       "isrc": "USQX91802522",
       "musicbrainz_recording_id": "292e57e5-331b-4d30-8a73-e283083f1727"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3wGXyJGsCf1myH5MooQIqE",
@@ -54416,7 +55361,8 @@
       "spotify_uri": null,
       "isrc": "TCADD1793884",
       "musicbrainz_recording_id": "4f48c317-00ad-4ba4-93bf-b580d362ed46"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5wPyd3IQAZft1vmxoIqGrU",
@@ -54897,7 +55843,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804155",
       "musicbrainz_recording_id": "9099878b-a25e-4623-89fa-c5570189798a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2lLG56qpLP3UbcLuzMvkWX",
@@ -55333,7 +56285,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024691",
       "musicbrainz_recording_id": "15f5757a-b34a-430e-a675-845d9d367485"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0V3nTTKA24XKCayp8igU4l",
@@ -55846,7 +56804,29 @@
       "spotify_uri": null,
       "isrc": "US2S70465009",
       "musicbrainz_recording_id": "da4c6d5a-bc51-42be-9a2c-c0d5d8885120"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "plunderphonics",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0w6webWdhjRKdqJ3DeGgM1",
@@ -56354,7 +57334,8 @@
       "spotify_uri": null,
       "isrc": "QM6N21900312",
       "musicbrainz_recording_id": "f403f2f0-5744-4519-8237-8cf18eb0ec25"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6xxvhqxfBAhAOsf8OJ5shT",
@@ -56862,7 +57843,8 @@
       "spotify_uri": null,
       "isrc": "QM6MZ1999603",
       "musicbrainz_recording_id": "3649ab02-c40b-4d71-8791-c8820cfdc6f5"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5Ow3QqHeeA78Q3nSnbUbkL",
@@ -57370,7 +58352,8 @@
       "spotify_uri": null,
       "isrc": "QM6P41938808",
       "musicbrainz_recording_id": "65b53c3e-80ff-429a-bfed-338d9571c400"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0lTH3Dt0GlBQhxFHSnaZ7g",
@@ -57878,7 +58861,8 @@
       "spotify_uri": null,
       "isrc": "QM6N21900326",
       "musicbrainz_recording_id": "98931955-14dc-48e3-9a47-7ce367d057b2"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7qfO0IGkZ1a2OnUOkMoR4D",
@@ -58332,7 +59316,8 @@
       "spotify_uri": null,
       "isrc": "QM6P41938802",
       "musicbrainz_recording_id": "fc2c643a-df04-49de-9376-70051821f977"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5Nq6lLSxphlsA6nQB0KtES",
@@ -58828,7 +59813,13 @@
       "spotify_uri": null,
       "isrc": "USUM71614560",
       "musicbrainz_recording_id": "9c505383-48ba-46ba-91cb-b3860f3b42ec"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "02rdXe0KhMe8p6ZHzYtuw0",
@@ -58880,7 +59871,17 @@
       "spotify_uri": null,
       "isrc": "USUM72024690",
       "musicbrainz_recording_id": "91479503-faaa-4738-aa71-3a2639f5cafb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4CzhtKifG867Lu5DNQVBSA",
@@ -58911,7 +59912,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024688",
       "musicbrainz_recording_id": "e50e88ad-9ec1-4af8-84b8-c41c5caa6c0f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4txKMpsSfZRV6durPuHVq0",
@@ -59347,7 +60354,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024686",
       "musicbrainz_recording_id": "ae48043a-3db2-4c79-b441-2ce5a58a7ae9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "08dz3ygXyFur6bL7Au8u8J",
@@ -59378,7 +60391,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024700",
       "musicbrainz_recording_id": "db045fdf-303e-4185-a7b4-e69f27274614"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "15JRvf02KKGHKgC31jrpuh",
@@ -59409,7 +60428,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024694",
       "musicbrainz_recording_id": "85c9c6de-aad5-486b-a4dd-6d21497a2116"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3dl8bSF08LQfCf4T6CCksf",
@@ -59845,7 +60870,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024695",
       "musicbrainz_recording_id": "11f87cf8-50db-47e7-a21f-d770dc8e89d4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1Bg2CNZw6S4e9cGWPmi0uI",
@@ -59876,7 +60907,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024698",
       "musicbrainz_recording_id": "05f32ca3-e63c-4037-9b5b-61921421f192"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "03rcC8SVxCa9UdY5qgkITe",
@@ -59907,7 +60944,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024704",
       "musicbrainz_recording_id": "0bdfd602-1347-4803-ba5c-f0a5dbd84b36"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "60PTOzcoFycWBICdumIsFQ",
@@ -59938,7 +60981,17 @@
       "spotify_uri": null,
       "isrc": "USAT22210943",
       "musicbrainz_recording_id": "c9eec93b-08fd-4336-b007-523994531c44"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3MDcFMG1AYBPcRpYOdwDYl",
@@ -60464,7 +61517,37 @@
       "spotify_uri": null,
       "isrc": "USSM11609456",
       "musicbrainz_recording_id": "7c028880-85ec-4e43-b5e0-d8fbcb93e5b3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "blues rock",
+        "count": 1
+      },
+      {
+        "name": "garage rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "671sDyeE398eD0sdGuVbZU",
@@ -60955,7 +62038,25 @@
       "spotify_uri": null,
       "isrc": "USJI10300161",
       "musicbrainz_recording_id": "90b81a2f-a0fc-4dba-abb7-98b33165c915"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5YTM7OgQDt9EJAYcfHLniJ",
@@ -61455,7 +62556,25 @@
       "spotify_uri": null,
       "isrc": "USJI10300405",
       "musicbrainz_recording_id": "99d22a5a-46e3-4aa4-86dd-3490a57a2ee8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0JL9TZip7mL7iwC5EOkALS",
@@ -62024,7 +63143,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605044",
       "musicbrainz_recording_id": "f71d8647-e338-47e0-860c-920dbbc6a276"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4xlpJ99yL9xYQtzG6c3hwk",
@@ -62461,7 +63586,17 @@
       "spotify_uri": null,
       "isrc": "JPH491605003",
       "musicbrainz_recording_id": "abb499e1-6da9-468a-8599-c1a16364450f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "j-rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4MbUcaX58NkUmKXe6FuBaV",
@@ -62494,7 +63629,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605042",
       "musicbrainz_recording_id": "2ac43c3e-3641-4942-b878-0c097ce8f1bb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2rnAYh7REAMGYqJUXJKZZK",
@@ -63068,7 +64209,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605043",
       "musicbrainz_recording_id": "9c5aa110-31c2-4f3b-ace6-c3a1285a45cb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3yKLskgaU2py5ET4OBDQmg",
@@ -63637,7 +64784,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605046",
       "musicbrainz_recording_id": "8ba6443a-1c99-4c7e-b2a2-e01f15ce5f0f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5tO3pr49SdxO05TNlYHfHT",
@@ -64207,7 +65360,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605047",
       "musicbrainz_recording_id": "bf5ca98e-b5d8-4668-ba51-96d98cb7aa89"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0rKR7VLBxqVQAz2UEe3D8N",
@@ -64776,7 +65935,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605049",
       "musicbrainz_recording_id": "4d64f927-1da4-48da-b392-737465f263cb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2csdd679hni5tQsW8lkEV1",
@@ -65336,7 +66501,17 @@
       "spotify_uri": null,
       "isrc": "JPH491605051",
       "musicbrainz_recording_id": "ccd6b437-903c-4151-8656-525b0762e9b1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "nu jazz",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "65u7IbuZ4viAlVBHxnpos1",
@@ -65907,7 +67082,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605052",
       "musicbrainz_recording_id": "f5097a35-a384-4c87-a80a-ceaeb68c0774"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "43pWChQ7AOab9wlSGy0dN6",
@@ -66476,7 +67657,17 @@
       "spotify_uri": null,
       "isrc": "JPH491605053",
       "musicbrainz_recording_id": "851dd490-6291-4063-a364-7bf24fc252de"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "j-rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3MZHDutJalh9C4DNLptn2v",
@@ -67034,7 +68225,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605055",
       "musicbrainz_recording_id": "124f1f8e-dd1e-43ed-a699-71a89c83366e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4pVwc3fU2RqL7l7L0fSwaq",
@@ -67596,7 +68793,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605056",
       "musicbrainz_recording_id": "e77ab91b-de91-4f95-8932-f866afe6e346"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6SNGzhVrisdq63Ndz58ovT",
@@ -68119,7 +69322,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605019",
       "musicbrainz_recording_id": "2380f21b-310b-4e58-991d-f5b18b93f599"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6gSalwEvVQfSFiqgwfyITp",
@@ -68642,7 +69851,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605027",
       "musicbrainz_recording_id": "441c2f01-2e06-48de-a231-a435ede95229"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "35cOJUqY0WBzPP7QfKRdTZ",
@@ -69079,7 +70294,17 @@
       "spotify_uri": null,
       "isrc": "JPH491605003",
       "musicbrainz_recording_id": "abb499e1-6da9-468a-8599-c1a16364450f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "j-rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1R28m5eWk1EV9FQ3puWrUp",
@@ -69582,7 +70807,21 @@
       "spotify_uri": null,
       "isrc": "GBCFB0300210",
       "musicbrainz_recording_id": "b58df4ad-8986-439b-af31-4fbf5f65da38"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "500l6Cwe40hkPqS7Sf7ufY",
@@ -70063,7 +71302,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804152",
       "musicbrainz_recording_id": "146e9ab9-eaf2-474d-8693-61a708b2a948"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5IVuqXILoxVWvWEPm82Jxr",
@@ -70095,7 +71340,21 @@
       "spotify_uri": null,
       "isrc": "USSM10305425",
       "musicbrainz_recording_id": "355997a2-adfd-479f-9a77-5bea04540227"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "67vrmPygrZ9giGqHUSReAT",
@@ -70608,7 +71867,29 @@
       "spotify_uri": null,
       "isrc": "US2S70465002",
       "musicbrainz_recording_id": "9ef2742a-4210-43d8-8879-7b1b99ba3536"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "plunderphonics",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0eEXcw3JLVXcRxYrVYMy68",
@@ -71142,7 +72423,25 @@
       "spotify_uri": null,
       "isrc": "USJI19300020",
       "musicbrainz_recording_id": "8868eccc-9d00-4b6e-8a71-826a1503ac7d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5xJeZ6tLPOXNIrrphEIuay",
@@ -71569,7 +72868,8 @@
       "spotify_uri": null,
       "isrc": "USQX91801253",
       "musicbrainz_recording_id": "6b181b44-cd22-4abf-9720-50bcfefa5be1"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6luBKkFUt5wTwz7hpLhp12",
@@ -71601,7 +72901,8 @@
       "spotify_uri": null,
       "isrc": "USUG12207176",
       "musicbrainz_recording_id": "dc7d1a82-6005-47bf-be2f-38c2f10eeb71"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4Vir8uv89eNY6hovcNq4w6",
@@ -72106,7 +73407,8 @@
       "spotify_uri": null,
       "isrc": "QZES61800981",
       "musicbrainz_recording_id": "c7a71deb-6bd4-4e6c-82f2-286f68a739d9"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "53ku8y52Z5HYhJANXvC7WN",
@@ -72612,7 +73914,17 @@
       "spotify_uri": null,
       "isrc": "US2Q80800044",
       "musicbrainz_recording_id": "a9bc3a4e-879d-47d7-b311-b482833d361f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "59JWp4PjZ9TRM8cmtaDYB1",
@@ -73109,7 +74421,17 @@
       "spotify_uri": null,
       "isrc": "USAT22001632",
       "musicbrainz_recording_id": "ab76b99f-030a-4c70-97e6-04a13ed8a15b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "23QyE9GQpXsX9WgEDADMa6",
@@ -73605,7 +74927,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703099",
       "musicbrainz_recording_id": "dd04b793-c679-4590-ab31-de0844bdf110"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5MUxrNd7Gr2HksLcAlB0IO",
@@ -74101,7 +75429,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703096",
       "musicbrainz_recording_id": "896f4238-02f2-43aa-93af-e06b09053ad7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Ec5LeRzkisa5KJtwLfOoW",
@@ -74134,7 +75468,13 @@
       "spotify_uri": null,
       "isrc": "USUM72308540",
       "musicbrainz_recording_id": "12f377a0-a2f6-4085-82cd-c7d7cf561a03"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5rurggqwwudn9clMdcchxT",
@@ -74168,7 +75508,13 @@
       "spotify_uri": null,
       "isrc": "USUM72308543",
       "musicbrainz_recording_id": "3fab9ad4-b1d5-41fa-b3de-e881e650048e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "41bmnQZoDMQdDh5zyomtW7",
@@ -74210,7 +75556,17 @@
       "spotify_uri": null,
       "isrc": "USAT22306857",
       "musicbrainz_recording_id": "61bf4cb3-a9f8-4792-8a15-99fbcb468e01"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0WCJSIy75ZVxqY51ce0enc",
@@ -74241,7 +75597,17 @@
       "spotify_uri": null,
       "isrc": "USAT22306864",
       "musicbrainz_recording_id": "228ed0c9-6d14-4ac8-9d10-bc3ced262d10"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5Lv5L45PQmp5CTjs5PlQ6e",
@@ -74273,7 +75639,8 @@
       "spotify_uri": null,
       "isrc": "USUM72308558",
       "musicbrainz_recording_id": "dab4563e-47dd-4d9b-b55f-a378bbd9fdcf"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "57FpaFbaz5ApQ5nFm4NvcS",
@@ -74304,7 +75671,8 @@
       "spotify_uri": null,
       "isrc": "GX38U2346423",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3azJifCSqg9fRij2yKIbWz",
@@ -74335,7 +75703,8 @@
       "spotify_uri": null,
       "isrc": "QZTGW2100275",
       "musicbrainz_recording_id": "52a0345e-497d-479e-99ca-f869f45dfefc"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2gdz7TlVOlDemmW2RoI3st",
@@ -74366,7 +75735,8 @@
       "spotify_uri": null,
       "isrc": "CA5KR2388725",
       "musicbrainz_recording_id": "03ea084f-267f-406e-9363-156a85a2639d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4kjI1gwQZRKNDkw1nI475M",
@@ -74411,7 +75781,13 @@
       "spotify_uri": null,
       "isrc": "USSM12305007",
       "musicbrainz_recording_id": "10615e42-e1ca-4d54-91ff-e81a50cd6e8d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0IpnZchq8ek2A6pGEP2Qb1",
@@ -74908,7 +76284,25 @@
       "spotify_uri": null,
       "isrc": "USAT22001631",
       "musicbrainz_recording_id": "9890fc61-e7c9-4cf1-8c3e-92a88a374c0a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "chicago drill",
+        "count": 1
+      },
+      {
+        "name": "drill",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "59J5nzL1KniFHnU120dQzt",
@@ -75410,7 +76804,17 @@
       "spotify_uri": null,
       "isrc": "USUM71702277",
       "musicbrainz_recording_id": "8380e1c8-df2f-435b-8d53-d130322b3c02"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1OubIZ0ARYCUq5kceYUQiO",
@@ -75452,7 +76856,13 @@
       "spotify_uri": null,
       "isrc": "USWB11601434",
       "musicbrainz_recording_id": "9e95430d-6cd9-4566-ace1-f7327c5f19b2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0AAMnNeIc6CdnfNU85GwCH",
@@ -75484,7 +76894,8 @@
       "spotify_uri": null,
       "isrc": "USUM72308561",
       "musicbrainz_recording_id": "9f83401e-ba69-4100-ab3e-3c59a6c5d015"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2ej1A2Ze6P2EOW7KfIosZR",
@@ -76043,7 +77454,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605000",
       "musicbrainz_recording_id": "5fffe791-c8fd-440a-b301-d511d8b9c31f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4IFd7EVCyJsUHesBMXI8ju",
@@ -76075,7 +77492,13 @@
       "spotify_uri": null,
       "isrc": "QMRSZ2401183",
       "musicbrainz_recording_id": "9d72e1f8-ab73-4130-9f51-9608c5ec1d36"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1XBYiRV30ykHw5f4wm6qEn",
@@ -76111,7 +77534,8 @@
       "spotify_uri": null,
       "isrc": "USSM12308065",
       "musicbrainz_recording_id": "1942ae28-ee62-47ba-b1bd-a98264cbaf9b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7AtBtwrKhz94hYXgGYyG58",
@@ -76593,7 +78017,13 @@
       "spotify_uri": null,
       "isrc": "USUM71805946",
       "musicbrainz_recording_id": "6a48ed74-70c1-4e87-876b-4066226200d1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7BBZGDSZbsb4Esi8YB94HT",
@@ -77143,7 +78573,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605008",
       "musicbrainz_recording_id": "050b6b72-7aa7-4d24-b7dd-d9b4e1fe1a49"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1JgkiUg9mSXSwcb5Gbi4Ur",
@@ -77625,7 +79061,21 @@
       "spotify_uri": null,
       "isrc": "USUM71804151",
       "musicbrainz_recording_id": "bcfdf829-9096-4c26-ad95-4fde4dd38fab"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "grime",
+        "count": 1
+      },
+      {
+        "name": "uk grime",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "30sc425JEvj3tgmGAKORea",
@@ -78122,7 +79572,17 @@
       "spotify_uri": null,
       "isrc": "USUM71702734",
       "musicbrainz_recording_id": "eb25e547-e131-4165-924f-5065127d0332"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0PV1TFUMTBrDETzW6KQulB",
@@ -78611,7 +80071,17 @@
       "spotify_uri": null,
       "isrc": "USJI10400408",
       "musicbrainz_recording_id": "22976b24-a875-4a34-a7ba-012e89c8a02d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3JJL91ilRV6fXhKqu0FGXs",
@@ -79100,7 +80570,17 @@
       "spotify_uri": null,
       "isrc": "USQX92102134",
       "musicbrainz_recording_id": "2f3e516d-0ccb-4d53-8330-5297ea7a5b53"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "76gcXhY3Zv6wW0BTe9nHJo",
@@ -79133,7 +80613,13 @@
       "spotify_uri": null,
       "isrc": "USSM12305020",
       "musicbrainz_recording_id": "b98e7007-db7f-45b1-b4b7-e448ac8600dc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "764QZXmgb5fDwh1NU8pYcd",
@@ -79675,7 +81161,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605063",
       "musicbrainz_recording_id": "86c21550-8eae-47b0-844f-5ea0d23e4eb9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1i9lZvlaDdWDPyXEE95aiq",
@@ -79708,7 +81200,17 @@
       "spotify_uri": null,
       "isrc": "USSM12305019",
       "musicbrainz_recording_id": "0df1d027-bec2-40cc-901a-cdbaf66f2239"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7HsvTUJcXRQVK6QuALkAvW",
@@ -80189,7 +81691,13 @@
       "spotify_uri": null,
       "isrc": "USUM71804177",
       "musicbrainz_recording_id": "22c4e124-4dd7-499c-ab50-325295936ed2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1xUQwXDDKW79z7GRUt2vMW",
@@ -80685,7 +82193,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703097",
       "musicbrainz_recording_id": "67016cf0-001d-4603-83d0-38639e3979d8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1UAmQe8EwpxQ80OfYVD13z",
@@ -81182,7 +82696,17 @@
       "spotify_uri": null,
       "isrc": "USUM71701966",
       "musicbrainz_recording_id": "5479c6ac-69d4-465c-be88-5775be2b5451"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2Zy7XVdxyZQB8xp5xbpJdl",
@@ -81614,7 +83138,13 @@
       "spotify_uri": null,
       "isrc": "USSM11607549",
       "musicbrainz_recording_id": "f3d59336-f486-4a49-86b9-9ce3d27fa984"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "33zbOXJSwW7uf4VXXWow2O",
@@ -82055,7 +83585,13 @@
       "spotify_uri": null,
       "isrc": "USSM11607548",
       "musicbrainz_recording_id": "2ff3e451-0704-4a6e-a6ee-ee511c92812d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1KzNsOkpQthVwpCJrADJEQ",
@@ -82551,7 +84087,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703104",
       "musicbrainz_recording_id": "99582092-9c2d-4370-8ee6-58e2afaad2cc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1QGy4rzK5p8N7OYYn5kWSt",
@@ -83077,7 +84619,13 @@
       "spotify_uri": null,
       "isrc": "JPVI00441290",
       "musicbrainz_recording_id": "a46d60aa-92f4-4083-91ab-4f3baece52fa"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2TdZdeKIDMqi1B3139W4Wb",
@@ -83573,7 +85121,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703101",
       "musicbrainz_recording_id": "0054deda-fb6f-4172-9670-816f89018cf5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0uFz9q2SvuKyWB6Ur1YCfI",
@@ -84065,7 +85619,25 @@
       "spotify_uri": null,
       "isrc": "USSM11408300",
       "musicbrainz_recording_id": "d8b92728-13df-49f0-a414-a0c8fddd48ff"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "southern hip hop",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3KCNiDi9Pza6ZD8FggNoaw",
@@ -84097,7 +85669,13 @@
       "spotify_uri": null,
       "isrc": "USSM12305006",
       "musicbrainz_recording_id": "50352d66-a80b-41b5-8d32-7b7a3ee9c373"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Xw3iWrQKgArwlRhVuU9CK",
@@ -84617,7 +86195,8 @@
       "spotify_uri": null,
       "isrc": "USQX91500710",
       "musicbrainz_recording_id": "bd3600d4-20ed-4a62-b93e-2b59a88a2928"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4b7vk8SRcYgnxpk0JOIS7r",
@@ -85107,7 +86686,13 @@
       "spotify_uri": null,
       "isrc": "USSM12306316",
       "musicbrainz_recording_id": "adcdd81c-8b91-4be5-aa32-060662d5005f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0a4SMs889NwP8oWI7Vemle",
@@ -85139,7 +86724,13 @@
       "spotify_uri": null,
       "isrc": "USSM12305018",
       "musicbrainz_recording_id": "7901af2d-87d5-4387-8135-e15e6408c951"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0bkV1iQHSxBaksUqgEkcbc",
@@ -85176,7 +86767,21 @@
       "spotify_uri": null,
       "isrc": "USSM12305016",
       "musicbrainz_recording_id": "e356a034-f31d-436d-a6f5-fb0a15249add"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6LyAwkJsHlW7RQ8S1cYAtM",
@@ -85683,7 +87288,13 @@
       "spotify_uri": null,
       "isrc": "USUG11802479",
       "musicbrainz_recording_id": "e7414d01-e00c-41f3-b95e-656cfc64f9b9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5oady7OSE7dH7LHiqmb3Cr",
@@ -86178,7 +87789,17 @@
       "spotify_uri": null,
       "isrc": "USRC11902119",
       "musicbrainz_recording_id": "60c3f6dd-4fff-477f-a5d0-1e5ec87bcf82"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2FoahzOSxJnalPA8aBUme3",
@@ -86209,7 +87830,8 @@
       "spotify_uri": null,
       "isrc": "USSM12304894",
       "musicbrainz_recording_id": "fe42de51-8344-4262-93a5-a8398180b495"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5h83TosA9CCakrcgCfB4ZC",
@@ -86241,7 +87863,8 @@
       "spotify_uri": null,
       "isrc": "QZTGW2100274",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0Q1nTiEPnoQSqM0qrY9TMY",
@@ -86773,7 +88396,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605018",
       "musicbrainz_recording_id": "dd024d97-07c4-46b3-be2d-63956abae44b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7eVT1HXfWsa7u7m1VihvWo",
@@ -87297,7 +88926,25 @@
       "spotify_uri": null,
       "isrc": "JPH491605015",
       "musicbrainz_recording_id": "23996026-42e9-4b35-ad86-5645ad49d3a7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "jazz beats",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "nu jazz",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0iYFTYlu7aNKUSmD6nfc6d",
@@ -87328,7 +88975,25 @@
       "spotify_uri": null,
       "isrc": "JPH491605026",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "jazz beats",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "nu jazz",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0UStn3gS3iAhWsjjkzoAnu",
@@ -87796,7 +89461,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605017",
       "musicbrainz_recording_id": "454ee0c9-cd86-48cd-877f-109ffb959a7d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7HVtTrysxfpqyozf4uYUUQ",
@@ -88344,7 +90015,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605020",
       "musicbrainz_recording_id": "e83bb4a3-22c0-4c6a-94c8-e62de973e86d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3GFiNXCDyjCw14IRQIQszu",
@@ -88849,7 +90526,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605041",
       "musicbrainz_recording_id": "3b63dbb2-2476-422c-af64-e40d8efb7e92"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7AgMX97ljLm9BzszyyXEYZ",
@@ -89362,7 +91045,25 @@
       "spotify_uri": null,
       "isrc": "USJI19100004",
       "musicbrainz_recording_id": "e1603c1f-c03e-4d5d-9232-f5092a3c9144"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "69jGxyfw3lzGGYf78jdkpF",
@@ -89892,7 +91593,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605010",
       "musicbrainz_recording_id": "b9f695ce-3bf1-46b5-b428-1b87797e0cd1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "28JBD8p18xNuOfyV7Cotdn",
@@ -89923,7 +91630,13 @@
       "spotify_uri": null,
       "isrc": "USUG12204890",
       "musicbrainz_recording_id": "80db43ce-e708-483f-9112-b8ccb6606b43"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7f1UEGMBMuXfLBP5XANfrW",
@@ -90454,7 +92167,25 @@
       "spotify_uri": null,
       "isrc": "GBAHK9600111",
       "musicbrainz_recording_id": "2e83c377-32fb-4b6b-941f-3ca7e84130fd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      },
+      {
+        "name": "old school hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0MRZ9nMoLc7qQ8Nhovv8C8",
@@ -90969,7 +92700,13 @@
       "spotify_uri": null,
       "isrc": "USSM11506740",
       "musicbrainz_recording_id": "f1ad13f1-dff9-4fb2-b423-88327ec5651d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1RvcbRFBPwe8GdHDT7PkDj",
@@ -91475,7 +93212,13 @@
       "spotify_uri": null,
       "isrc": "JPH491605078",
       "musicbrainz_recording_id": "3ca785b4-04c1-455b-abda-f1cc7ce4ef61"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5O9zs6G6RcB6yP1OKwnwiM",
@@ -91972,7 +93715,25 @@
       "spotify_uri": null,
       "isrc": "USUM71804174",
       "musicbrainz_recording_id": "7c4b42ed-5bc0-4b01-a747-9f44ec6111c4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2mkV4angeBLZPTcYOSrjee",
@@ -92468,7 +94229,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703105",
       "musicbrainz_recording_id": "711db035-e7e0-47a8-a1be-3b533bf8f6bd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3hDp5jRxvtD31giFGUaE1x",
@@ -92964,7 +94731,13 @@
       "spotify_uri": null,
       "isrc": "USUM71703103",
       "musicbrainz_recording_id": "514d0dad-1360-4115-bbad-bff8ebe8711f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6jbYpRPTEFl1HFKHk1IC0m",
@@ -93070,7 +94843,8 @@
       "spotify_uri": null,
       "isrc": "USQX92405794",
       "musicbrainz_recording_id": "5900c293-8d3c-4731-a2da-07069fda0e93"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0NUqi0ps17YpLUC3kgsZq0",
@@ -93112,7 +94886,25 @@
       "spotify_uri": null,
       "isrc": "USLD91772033",
       "musicbrainz_recording_id": "82e1dcb0-7727-4049-8850-43be614561dd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "dark r&b",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      },
+      {
+        "name": "trap soul",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "16wGHOPaWoat5rkAZkixxk",
@@ -93618,7 +95410,17 @@
       "spotify_uri": null,
       "isrc": "JPH491605079",
       "musicbrainz_recording_id": "ad912b6e-e39c-4382-a106-d69148b991ac"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "nu jazz",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5pHJv0bgNsT9nPoK2BjNBn",
@@ -94100,7 +95902,17 @@
       "spotify_uri": null,
       "isrc": "USUM71804187",
       "musicbrainz_recording_id": "e76f03eb-e9f7-4e1f-bb62-b35946b12acb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "21aDVa64pWR8SYQ7wBRMkd",
@@ -94142,7 +95954,17 @@
       "spotify_uri": null,
       "isrc": "USUM72414856",
       "musicbrainz_recording_id": "914bda7e-9aa8-4992-bf4d-ae1b530bb1de"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3VdooJLOy4tLxKpnn46SMP",
@@ -94183,7 +96005,17 @@
       "spotify_uri": null,
       "isrc": "USUM72414869",
       "musicbrainz_recording_id": "8c98f441-25d3-4ec1-a871-11d39092db5c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6iycYUk3oB0NPMdaDUrN1w",
@@ -94223,7 +96055,13 @@
       "spotify_uri": null,
       "isrc": "USUM72414866",
       "musicbrainz_recording_id": "2b07595c-a350-4522-abc8-9a2580778635"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5SIvP6TdWc9DNvKbENjnYc",
@@ -94264,7 +96102,17 @@
       "spotify_uri": null,
       "isrc": "USUM72414868",
       "musicbrainz_recording_id": "f87668c6-2459-4e57-9965-bd8d1dc01f31"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3lAEHk0eZzMKtCUFLXz8Ln",
@@ -94304,7 +96152,13 @@
       "spotify_uri": null,
       "isrc": "USUM72414870",
       "musicbrainz_recording_id": "741ccd91-3fb3-4524-8c9f-e7f5ec5f93b9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "68qeaZhtMZ6abrJCYt6nQn",
@@ -94345,7 +96199,13 @@
       "spotify_uri": null,
       "isrc": "USUM72414871",
       "musicbrainz_recording_id": "30d69496-b52e-4961-b74f-12d53aec2a13"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1pzN8bCzy017iK3vWzkk6Z",
@@ -94386,7 +96246,17 @@
       "spotify_uri": null,
       "isrc": "USUM72414859",
       "musicbrainz_recording_id": "2a4b653c-8417-4185-87b0-42462c325ec0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4qvsNsA4gQKC9HLrmPC2Vx",
@@ -94427,7 +96297,17 @@
       "spotify_uri": null,
       "isrc": "USUM72414861",
       "musicbrainz_recording_id": "2eea5017-fffd-4a6a-9d66-2f0d538c7474"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4rXxjHSAglOynjIF8Z34dx",
@@ -94467,7 +96347,13 @@
       "spotify_uri": null,
       "isrc": "USUM72414863",
       "musicbrainz_recording_id": "0fa2bb63-900f-42ec-92e5-abaa5637f215"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4XcZp2xqbiD8YsnPboNUDo",
@@ -94509,7 +96395,29 @@
       "spotify_uri": null,
       "isrc": "USUM72502293",
       "musicbrainz_recording_id": "8e98cb1b-208e-4d1d-bc79-55de285d4575"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      },
+      {
+        "name": "trap soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4uoADk7q83CHvXHW3k1etM",
@@ -94549,7 +96457,13 @@
       "spotify_uri": null,
       "isrc": "USUM72502294",
       "musicbrainz_recording_id": "6b3179ee-e3b2-4809-aa8c-2ab0b0a17f57"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3surY3LebvLLdJezmiKUBO",
@@ -94590,7 +96504,17 @@
       "spotify_uri": null,
       "isrc": "USUM72502296",
       "musicbrainz_recording_id": "c330523c-f9bc-4187-8fc6-fca8d46a50c4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "melodic rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4zK082ykqJzJGzC64NXjp1",
@@ -94630,7 +96554,13 @@
       "spotify_uri": null,
       "isrc": "USUM72502314",
       "musicbrainz_recording_id": "a4e236ae-bb7b-480b-a96c-342faf9bd675"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6q2PbvM9UEig4r8xku7VIb",
@@ -94670,7 +96600,13 @@
       "spotify_uri": null,
       "isrc": "USUM72502319",
       "musicbrainz_recording_id": "60a7a32b-7458-4bd6-b23f-0969f894124b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3cWmqvMwVQKDigWLSZ3w9h",
@@ -95106,7 +97042,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024683",
       "musicbrainz_recording_id": "4571ed3a-2434-476c-a404-fd783257bdea"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1bAv1DWUibxCIjAk9SlzRi",
@@ -95137,7 +97079,13 @@
       "spotify_uri": null,
       "isrc": "USUM72400088",
       "musicbrainz_recording_id": "5b20177b-2841-479a-a4f3-591179732053"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2cjhSZd6uZIrp4ddxvvBdn",
@@ -95169,7 +97117,17 @@
       "spotify_uri": null,
       "isrc": "USUM72400005",
       "musicbrainz_recording_id": "fc6655cf-bbb8-4bec-b79f-0f7d8ec81626"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7bO7a1KrtmGNDIOy2u3siZ",
@@ -95200,7 +97158,13 @@
       "spotify_uri": null,
       "isrc": "USUM72502625",
       "musicbrainz_recording_id": "b989a873-42b2-4b9f-a283-153fcc39f702"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0dApSLrXvnYWy1wagJOmpp",
@@ -95231,7 +97195,13 @@
       "spotify_uri": null,
       "isrc": "USUM72502378",
       "musicbrainz_recording_id": "ddb109c0-9dfa-44bf-b724-bdf1929202b5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2ff0Hy1uymLoiiHD1nmeOB",
@@ -95773,7 +97743,8 @@
       "spotify_uri": null,
       "isrc": "JPVI00441210",
       "musicbrainz_recording_id": "abbe9286-9f36-4c79-8f4f-ba7f2bfa7bb3"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1r9W6X7XA07X11WbW1TveA",
@@ -96299,7 +98270,13 @@
       "spotify_uri": null,
       "isrc": "JPVI00441310",
       "musicbrainz_recording_id": "eb7c3737-0954-4653-ac14-b6fd7cd59de0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6bpK8VkbJqd7nzjwy07BVH",
@@ -96825,7 +98802,13 @@
       "spotify_uri": null,
       "isrc": "JPVI00428840",
       "musicbrainz_recording_id": "0f634543-23ec-4a20-a992-7c24b405837b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "j-r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2yUzr8Sr6ldG8vmHhZwTnz",
@@ -96858,7 +98841,13 @@
       "spotify_uri": null,
       "isrc": "USSM12309168",
       "musicbrainz_recording_id": "0d10a467-935a-4779-be87-ce227b0a1ace"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0lodMO0qK83vfPiiD7FMEt",
@@ -96891,7 +98880,13 @@
       "spotify_uri": null,
       "isrc": "USSM12305013",
       "musicbrainz_recording_id": "c9e0f136-24aa-48f6-89a4-5e19f13ba2c3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4MXhiYIRDMGAuvZc5IFTwC",
@@ -97393,7 +99388,13 @@
       "spotify_uri": null,
       "isrc": "USSM11806668",
       "musicbrainz_recording_id": "dd9ba6bc-2c27-4ab0-a64c-7437db304f14"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7ynGOXn5VTjD3VpbuHcpsf",
@@ -97424,7 +99425,13 @@
       "spotify_uri": null,
       "isrc": "TCADN1867879",
       "musicbrainz_recording_id": "2080208b-1a02-4162-a0c2-3bb43ccd73da"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "69UzDmxpRr3F0xY3NaApm9",
@@ -97955,7 +99962,8 @@
       "spotify_uri": null,
       "isrc": "JPVI00441230",
       "musicbrainz_recording_id": "e12aad40-bd54-46bb-8b3e-8ed3d243d99b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5wNIHa6wvCCKP6fWgo3UAh",
@@ -97996,7 +100004,13 @@
       "spotify_uri": null,
       "isrc": "USSM12503071",
       "musicbrainz_recording_id": "f32247af-799f-4eb1-89e8-ae443f39819b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5P03xImM2uFukzoty7NDw7",
@@ -98036,7 +100050,13 @@
       "spotify_uri": null,
       "isrc": "USSM12503073",
       "musicbrainz_recording_id": "e8e67e23-37a1-412b-847a-a4d5def681d8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7ydu79RLStYQTOi1OM6Dvg",
@@ -98068,7 +100088,17 @@
       "spotify_uri": null,
       "isrc": "USSM12503077",
       "musicbrainz_recording_id": "64c5d59f-a2c3-452c-912a-f38fbf612ec6"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6350Cp9yZogJcgR7TwDLAQ",
@@ -98100,7 +100130,17 @@
       "spotify_uri": null,
       "isrc": "QZTB72291763",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "j-rap",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7ejepEh5DJ79YI6owGRfkk",
@@ -98131,7 +100171,13 @@
       "spotify_uri": null,
       "isrc": "USUM71910478",
       "musicbrainz_recording_id": "69cf5831-fb34-4e83-970c-61d72f13deea"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5467KZaTToEB680WvOd9w5",
@@ -98559,7 +100605,25 @@
       "spotify_uri": null,
       "isrc": "USUYG1267295",
       "musicbrainz_recording_id": "53213071-bda3-43a9-a4f0-6c3f5d89ef85"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Lph4zADq2K62XAjVaMWxR",
@@ -98591,7 +100655,17 @@
       "spotify_uri": null,
       "isrc": "QZFZ32076939",
       "musicbrainz_recording_id": "07db4f23-3b90-4d90-acb6-ed0325b5b365"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "j-rap",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3wtAUhuNHHhvtdPnI2d5qi",
@@ -98623,7 +100697,8 @@
       "spotify_uri": null,
       "isrc": "QZK6J2288722",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4evMMKc2HD6fV9slMfgkMx",
@@ -98664,7 +100739,21 @@
       "spotify_uri": null,
       "isrc": "USUM72414854",
       "musicbrainz_recording_id": "dfc5b276-dbd2-4be9-8a9d-989459cb7976"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      },
+      {
+        "name": "grime",
+        "count": 1
+      },
+      {
+        "name": "uk grime",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "78YTl0P96kBCBXUSzKoqAm",
@@ -99100,7 +101189,13 @@
       "spotify_uri": null,
       "isrc": "USUM72024689",
       "musicbrainz_recording_id": "ed3eeaab-083e-479e-a22a-857604809545"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2XH2U69lwqCUTMxElGqbVY",
@@ -99132,7 +101227,13 @@
       "spotify_uri": null,
       "isrc": "TCADN1867875",
       "musicbrainz_recording_id": "cfd1653a-28db-4ede-95cd-0d1f3f0fa8d9"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "09hbZ8vF8YmlVQq55Ai1Ay",
@@ -99164,7 +101265,17 @@
       "spotify_uri": null,
       "isrc": "USUM72109090",
       "musicbrainz_recording_id": "200bd762-4b8e-4975-b0ac-090218a7548d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "rage rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "66w7lK0t98OPgvYjXp39IP",
@@ -99661,7 +101772,25 @@
       "spotify_uri": null,
       "isrc": "QZJ842000262",
       "musicbrainz_recording_id": "90406cd0-cba3-474a-8a59-dd844859ec52"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "melodic rap",
+        "count": 1
+      },
+      {
+        "name": "dark r&b",
+        "count": 1
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      },
+      {
+        "name": "trap soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4QhWbupniDd44EDtnh2bFJ",
@@ -100214,7 +102343,8 @@
       "spotify_uri": null,
       "isrc": "USUM71207185",
       "musicbrainz_recording_id": "6663470e-57d7-450a-bbf5-be672640d14e"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1b2cEcfy5d7KQ79WvZHLPd",
@@ -100245,7 +102375,8 @@
       "spotify_uri": null,
       "isrc": "QZMWW2399609",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6s8WSX1MxNThrot8ThI6fG",
@@ -100310,7 +102441,13 @@
       "spotify_uri": null,
       "isrc": "USSM12410202",
       "musicbrainz_recording_id": "d1b1a123-9785-4c88-8ec3-bfc0b0954635"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1AYAq7S27fOqQuZRZ59P2y",
@@ -100341,7 +102478,13 @@
       "spotify_uri": null,
       "isrc": "TCADN1867876",
       "musicbrainz_recording_id": "9d9a8b76-62f7-4bec-930f-441b08612738"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "787rCZF9i4L1cXGMkdyIk4",
@@ -100898,6 +103041,12 @@
       "spotify_uri": null,
       "isrc": "USRC11201447",
       "musicbrainz_recording_id": "65a23443-e846-4a24-9fad-09fe7ccf0c24"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
   }
 ]

@@ -214,7 +214,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 12,
@@ -268,7 +268,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 15,
@@ -536,7 +536,7 @@
     "isrc": "USRC11902533",
     "musicbrainz_recording_id": "c55131fe-0135-4f83-b517-94cd7e91140d",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -664,7 +664,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 37,
@@ -698,7 +698,7 @@
     "isrc": "USQY51745799",
     "musicbrainz_recording_id": "dbe815e3-bbaf-46d2-8eb3-ac97645f9961",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -753,7 +753,7 @@
     "isrc": "QMEZE1907824",
     "musicbrainz_recording_id": "07dacd71-fb61-47a5-9808-e3f9284762c1",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -766,7 +766,7 @@
       "Beach House"
     ],
     "year": 2015,
-    "spotify_id": "7H0ya83CMmgFcOhw0UB6ow",
+    "spotify_id": "1ZgMsA55GIY7ICkQh5MILA",
     "spotify_uri": null,
     "isrc": "USSUB1512203",
     "musicbrainz_recording_id": "5a8f7959-6906-4672-ac64-f994e98976ae",
@@ -789,7 +789,7 @@
     "isrc": "TCACN1687807",
     "musicbrainz_recording_id": "cbb1bdb8-3d94-4472-a2e3-d61806815764",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1007,7 +1007,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 56,
@@ -1113,7 +1113,7 @@
     "isrc": "QM24S1926398",
     "musicbrainz_recording_id": "762cee10-bbc6-43fa-9f4f-1cce0ea3c30e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -1149,7 +1149,7 @@
     "isrc": "TCABX1485212",
     "musicbrainz_recording_id": "40463171-06cc-42ef-bdb9-3b5ef3e3cd79",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -1206,7 +1206,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 67,
@@ -1276,7 +1276,7 @@
     "isrc": "QZDA71930214",
     "musicbrainz_recording_id": "6279aef8-8a9f-40cc-bf06-d4850e7d16af",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -1461,7 +1461,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 81,
@@ -1549,7 +1549,7 @@
     "isrc": "USUM72114018",
     "musicbrainz_recording_id": "6af22228-ed15-4603-b093-2acbb6c4bc73",
     "has_tags": true,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1659,7 +1659,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 92,
@@ -1677,7 +1677,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 93,
@@ -1711,7 +1711,7 @@
     "isrc": "GBYEJ1100223",
     "musicbrainz_recording_id": "3605eba7-c5f4-4965-8378-042fdcce807b",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -1855,7 +1855,7 @@
     "isrc": "USUG12101890",
     "musicbrainz_recording_id": "cd514f3c-27b7-4176-9bbe-f563a382fdfa",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1873,7 +1873,7 @@
     "isrc": "USUG12101891",
     "musicbrainz_recording_id": "3438bc61-52ec-4a3b-b113-210f68e8205e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1891,7 +1891,7 @@
     "isrc": "USUG12101894",
     "musicbrainz_recording_id": "8151e187-0308-4a03-8c3c-04e548d4d5e8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1909,7 +1909,7 @@
     "isrc": "USUG12101895",
     "musicbrainz_recording_id": "73203c72-47b0-4e3c-9f0d-8325c53f3827",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1927,7 +1927,7 @@
     "isrc": "USUG12101896",
     "musicbrainz_recording_id": "cd092139-8985-435f-8bc6-810e074dc78e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -1945,7 +1945,7 @@
     "isrc": "QMEZE1907827",
     "musicbrainz_recording_id": "38276c91-b4ea-48d3-8a35-e59c0dac5a91",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2054,7 +2054,7 @@
     "isrc": "QMMZN1200052",
     "musicbrainz_recording_id": "ab27559d-f24d-4d3e-8a01-b6189024731f",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -2504,7 +2504,7 @@
     "isrc": "AUDJ01801775",
     "musicbrainz_recording_id": "e5aedf96-0e6c-4e86-917a-b10cc008adb2",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -2522,7 +2522,7 @@
     "isrc": "TCAFE2075120",
     "musicbrainz_recording_id": "b052da4b-23a7-4515-b5c2-9782624ea8b5",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2540,7 +2540,7 @@
     "isrc": "TCADT1853143",
     "musicbrainz_recording_id": "cb83e163-b8e3-4de7-bce5-4dc8290a24da",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2558,7 +2558,7 @@
     "isrc": "TCADF1755213",
     "musicbrainz_recording_id": "a2f90321-1347-4cdc-b938-91ef06b51042",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2595,7 +2595,7 @@
     "isrc": "GBK3W2302605",
     "musicbrainz_recording_id": "42cd7ca9-ee58-42cb-aa53-570afd2a83fb",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2811,7 +2811,7 @@
     "isrc": "USUM72300085",
     "musicbrainz_recording_id": "636247ca-0043-4608-9708-07abbe9057dc",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -2919,7 +2919,7 @@
     "isrc": "GBYEJ1800003",
     "musicbrainz_recording_id": "e2628bf0-da68-48c3-b289-22ed474a08ba",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -2955,7 +2955,7 @@
     "isrc": "QZCE61802033",
     "musicbrainz_recording_id": "d6396aee-0081-4008-9d85-1026537b2e9f",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -2973,7 +2973,7 @@
     "isrc": "GBYEJ1100253",
     "musicbrainz_recording_id": "53e7860c-04ab-4e8c-830d-520a1981e5fe",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3027,8 +3027,8 @@
     "isrc": "QZDA71858168",
     "musicbrainz_recording_id": "c55840a9-cb74-440c-b5b3-ca801b166528",
     "has_tags": false,
-    "has_genres": false,
-    "has_acoustic_high_level": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
     "cluster": 0
   },
   {
@@ -3081,7 +3081,7 @@
     "isrc": "TCADU1861897",
     "musicbrainz_recording_id": "542ab58b-1053-4d9e-944e-20bf63d39481",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -3119,7 +3119,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 173,
@@ -3135,7 +3135,7 @@
     "isrc": "GBK3W1901010",
     "musicbrainz_recording_id": "d0e81ecb-eb4e-4b4f-b20e-d1f7c3bf330f",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -3154,7 +3154,7 @@
     "isrc": "GBK3W2302799",
     "musicbrainz_recording_id": "0ce783dd-9777-4f1d-a8c8-3782737ef4fa",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3190,7 +3190,7 @@
     "isrc": "GBK3W2202093",
     "musicbrainz_recording_id": "b503cb6f-ef3b-4e5e-8237-37f22810f484",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3226,7 +3226,7 @@
     "isrc": "GBK3W2202090",
     "musicbrainz_recording_id": "669eb7e5-69df-4d76-8fc0-306bb1e4d6d4",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3371,7 +3371,7 @@
     "isrc": "USA2P2416224",
     "musicbrainz_recording_id": "4b4e3304-8655-4e2e-a91c-192a0f486134",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3425,7 +3425,7 @@
     "isrc": "GBK3W2202089",
     "musicbrainz_recording_id": "48ce8aef-86ce-4b69-a77b-5552c8841d3f",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3443,7 +3443,7 @@
     "isrc": "GBK3W2202095",
     "musicbrainz_recording_id": "a81dfe54-1ff4-4862-bb96-034843b58da2",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3534,7 +3534,7 @@
     "isrc": "GBK3W2302683",
     "musicbrainz_recording_id": "0e011401-8380-48f3-b4bf-ad89e5e8e6ae",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3570,7 +3570,7 @@
     "isrc": "USA2P2416223",
     "musicbrainz_recording_id": "0a90854e-6735-4242-89d7-5c33cf36cb01",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3642,7 +3642,7 @@
     "isrc": "FRX872443806",
     "musicbrainz_recording_id": "02cba491-0cef-431f-8369-a4e916f194b0",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3678,7 +3678,7 @@
     "isrc": "GBK3W1800819",
     "musicbrainz_recording_id": "c6cdaca3-37a1-47f3-a5e3-e9c012a6c0f1",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -3714,7 +3714,7 @@
     "isrc": "USA2P2416225",
     "musicbrainz_recording_id": "0280ccfd-b3a7-46b1-a4a6-18aa1d340c51",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3732,7 +3732,7 @@
     "isrc": "USA2P2416226",
     "musicbrainz_recording_id": "b073c842-791f-4a8b-8073-2ab3d58dc770",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3750,7 +3750,7 @@
     "isrc": "USA2P2416227",
     "musicbrainz_recording_id": "1fdb1f10-6047-4464-a5af-3e109c4e91f7",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3768,7 +3768,7 @@
     "isrc": "USA2P2416228",
     "musicbrainz_recording_id": "4be2aed9-3719-4655-951c-51f7e488a569",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3786,7 +3786,7 @@
     "isrc": "USA2P2416229",
     "musicbrainz_recording_id": "016d187f-0e11-4171-82e9-15f04fafa097",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3804,7 +3804,7 @@
     "isrc": "USA2P2416230",
     "musicbrainz_recording_id": "1c6e21a9-f90b-4bd8-8b75-a397e05f347b",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3822,7 +3822,7 @@
     "isrc": "USA2P2416231",
     "musicbrainz_recording_id": "f2f031af-8b44-4572-b141-c281c4f5bf0f",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3840,7 +3840,7 @@
     "isrc": "USA2P2416232",
     "musicbrainz_recording_id": "75f78724-93ec-44e4-be66-896d3008ce33",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3858,7 +3858,7 @@
     "isrc": "USA2P2416233",
     "musicbrainz_recording_id": "b092f031-e8f9-4a6c-a991-0a051b9b0665",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3894,7 +3894,7 @@
     "isrc": "QMB622400008",
     "musicbrainz_recording_id": "866934f3-f9e4-4938-b999-84d42cc6e5be",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3912,7 +3912,7 @@
     "isrc": "TCADG1703072",
     "musicbrainz_recording_id": "69f4b9e5-3151-421f-b80e-7285dc82dd10",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -3967,7 +3967,7 @@
     "isrc": "GBK3W1900970",
     "musicbrainz_recording_id": "cb4d7ba1-dc6e-4e50-b78a-2057ad757f51",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -3985,7 +3985,7 @@
     "isrc": "GBK3W1800912",
     "musicbrainz_recording_id": "0054f087-73e4-4f34-a171-184a3f5c77f8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4039,7 +4039,7 @@
     "isrc": "GBK3W2402970",
     "musicbrainz_recording_id": "01c7faf5-15a0-41c6-8d61-cdacad22ebbf",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4057,7 +4057,7 @@
     "isrc": "GBK3W2402974",
     "musicbrainz_recording_id": "ac12715d-eb53-4aa7-9a60-f96e05e67ffd",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4075,7 +4075,7 @@
     "isrc": "GBK3W2402962",
     "musicbrainz_recording_id": "c5083ea6-0ca4-4e73-b9e1-8e8dbfeddd5b",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4111,7 +4111,7 @@
     "isrc": "QMB622400010",
     "musicbrainz_recording_id": "ec115504-35d7-425e-ae66-8ed1b2882e23",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4147,7 +4147,7 @@
     "isrc": "QM24S1926314",
     "musicbrainz_recording_id": "a8a5f170-04a3-400d-b66e-4d3d2e74ce94",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4165,7 +4165,7 @@
     "isrc": "GBK3W2202101",
     "musicbrainz_recording_id": "c5a7b549-6778-48ec-a54e-5adba67e0de8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4183,7 +4183,7 @@
     "isrc": "TCADT1887356",
     "musicbrainz_recording_id": "5232159f-ded9-48cb-8ddc-093cfde4c20a",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4201,7 +4201,7 @@
     "isrc": "QZMEP2194356",
     "musicbrainz_recording_id": "754a49d4-e41e-4849-9b1c-23f501792787",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4237,7 +4237,7 @@
     "isrc": "GBK3W2101743",
     "musicbrainz_recording_id": "aba89a10-fd4c-4d8b-b643-6744d85cf4e3",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4273,7 +4273,7 @@
     "isrc": "GBK3W2402964",
     "musicbrainz_recording_id": "49ead472-78fa-4c0a-bfca-6aaec23acc7c",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4327,7 +4327,7 @@
     "isrc": "TCADG1703082",
     "musicbrainz_recording_id": "cee8886c-192b-47c3-b69d-c13d0d28cf00",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4345,7 +4345,7 @@
     "isrc": "GBJGV2100404",
     "musicbrainz_recording_id": "de4301cb-9f17-4a2d-9d1e-dccc6ddcf535",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4363,7 +4363,7 @@
     "isrc": "GBK3W1800913",
     "musicbrainz_recording_id": "2c12b59e-656d-4e75-8a0d-25e210e42b95",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4383,7 +4383,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 243,
@@ -4489,7 +4489,7 @@
     "isrc": "GBK3W1901098",
     "musicbrainz_recording_id": "297dd100-3148-49f7-841d-c44ce59f34bd",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4544,7 +4544,7 @@
     "isrc": "US38W2140110",
     "musicbrainz_recording_id": "3e99b655-1cf2-45a8-8f68-bac70ef67f6b",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4598,7 +4598,7 @@
     "isrc": "USAT22400849",
     "musicbrainz_recording_id": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
     "has_tags": true,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4634,7 +4634,7 @@
     "isrc": "USAT22100694",
     "musicbrainz_recording_id": "c09e14e5-97ee-4c52-ae4a-a28d0084e44c",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4652,7 +4652,7 @@
     "isrc": "USAT22400848",
     "musicbrainz_recording_id": "84cfc393-1fcf-4397-bfcd-ea85a816d24d",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4670,7 +4670,7 @@
     "isrc": "USAT22400846",
     "musicbrainz_recording_id": "f876c94e-9815-4470-a065-6f5d227c2f83",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4688,7 +4688,7 @@
     "isrc": "GBK3W1901014",
     "musicbrainz_recording_id": "74224dbd-acb4-4765-a4e3-ff7a02f2f1e6",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4708,7 +4708,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 261,
@@ -4743,7 +4743,7 @@
     "isrc": "GBK3W2202096",
     "musicbrainz_recording_id": "1e68edf1-d4ad-46ed-9de0-0bd9a34c15ea",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4779,7 +4779,7 @@
     "isrc": "USUG11801803",
     "musicbrainz_recording_id": "766f9fb8-2f2a-46a0-9423-7be14a452b77",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4815,7 +4815,7 @@
     "isrc": "QZFZ52144176",
     "musicbrainz_recording_id": "54100470-534b-48ec-a7a7-ea46f20abadc",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4833,7 +4833,7 @@
     "isrc": "QZ4JJ1752726",
     "musicbrainz_recording_id": "8771a072-447d-469e-b5d4-13ec1a4ae81a",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4869,7 +4869,7 @@
     "isrc": "GBK3W1800910",
     "musicbrainz_recording_id": "de83443a-003c-4bfb-9f15-7725f8313d92",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4905,7 +4905,7 @@
     "isrc": "USAT22400843",
     "musicbrainz_recording_id": "5cc4b58a-e222-46e1-9f62-6c1d7e6b6065",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4941,7 +4941,7 @@
     "isrc": "USRC10100765",
     "musicbrainz_recording_id": "a51c7e7d-938b-4485-b5f0-5649e0bc09b0",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -4977,7 +4977,7 @@
     "isrc": "QZG4T1900005",
     "musicbrainz_recording_id": "710142a0-16ff-433f-b937-6b3241d57d28",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -4995,7 +4995,7 @@
     "isrc": "USAT22400844",
     "musicbrainz_recording_id": "372716a2-0fd5-4a64-970f-4bd9ead6be43",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5013,7 +5013,7 @@
     "isrc": "GBJGV2100407",
     "musicbrainz_recording_id": "97720c8e-22b6-44e3-ae02-628bcaa4c4b1",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5067,7 +5067,7 @@
     "isrc": "USSUB2464403",
     "musicbrainz_recording_id": "d1299f85-a5d7-4f9b-a5d7-86a76de7095d",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5085,7 +5085,7 @@
     "isrc": "GBK3W1901009",
     "musicbrainz_recording_id": "e55d6e74-ef32-4630-b7cd-764c5c726660",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5103,7 +5103,7 @@
     "isrc": "GBK3W2202091",
     "musicbrainz_recording_id": "8bb62e4a-5ae3-449e-9c7d-5d1c0e59a0b4",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5211,7 +5211,7 @@
     "isrc": "GBK3W1800909",
     "musicbrainz_recording_id": "399b7fe2-7858-4a14-b005-70be69efcf35",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5242,14 +5242,14 @@
       "Phoenix"
     ],
     "year": 2009,
-    "spotify_id": "4esUVfYnFcCCVHntx9FQCb",
+    "spotify_id": "6ZrlXT6mUMEgomN128iekU",
     "spotify_uri": null,
     "isrc": "FR31Q0900001",
     "musicbrainz_recording_id": "21664467-2453-4867-8a0e-fca8826cd054",
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 291,
@@ -5267,7 +5267,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 292,
@@ -5283,7 +5283,7 @@
     "isrc": "USVI21200910",
     "musicbrainz_recording_id": "d4261bc4-a684-40d1-9f40-a4c394bfacb8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5321,7 +5321,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 295,
@@ -5337,7 +5337,7 @@
     "isrc": "GBK3W2302568",
     "musicbrainz_recording_id": "f220ba2e-0d12-41a2-b9ef-5a5119b967b8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5355,7 +5355,7 @@
     "isrc": "USLS51832403",
     "musicbrainz_recording_id": "4c4c3c7d-5407-4558-a0f5-2074e78f0f9a",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5373,7 +5373,7 @@
     "isrc": "NLF050190048",
     "musicbrainz_recording_id": "988f3d0f-82bf-4aef-9b1f-491977413a83",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5392,7 +5392,7 @@
     "isrc": "USRC12202291",
     "musicbrainz_recording_id": "1725091c-4c28-45ae-8abf-7f4308bd66cc",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5429,7 +5429,7 @@
     "isrc": "USAT22501642",
     "musicbrainz_recording_id": "11bb6328-85a5-425c-8db3-bffe469ae057",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5483,7 +5483,7 @@
     "isrc": "USWB10903804",
     "musicbrainz_recording_id": "ff462c68-7bcf-49c0-a96e-9c379c71eb6e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5519,7 +5519,7 @@
     "isrc": "USA2B2059944",
     "musicbrainz_recording_id": "ad113b40-7ec8-4bda-a11c-0db0c9db0c5e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5555,7 +5555,7 @@
     "isrc": "GBK3W1800822",
     "musicbrainz_recording_id": "2426e5cc-192f-4c8c-8355-8c64dbf404e8",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5573,7 +5573,7 @@
     "isrc": "GBK3W1800820",
     "musicbrainz_recording_id": "0cde9ac4-28d0-4587-8a78-2ed319434916",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5591,7 +5591,7 @@
     "isrc": "GBK3W2101665",
     "musicbrainz_recording_id": "7e7f47c2-6af9-4759-b637-8571700ca22e",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5609,7 +5609,7 @@
     "isrc": "GBK3W1800821",
     "musicbrainz_recording_id": "eacfb73d-1f51-4f2c-b48f-433901eb6b07",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5627,7 +5627,7 @@
     "isrc": "GBK3W1800911",
     "musicbrainz_recording_id": "1ab54563-dbd0-4097-9d35-d223bf628ff5",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5645,7 +5645,7 @@
     "isrc": "GBK3W2101745",
     "musicbrainz_recording_id": "e9d6be3c-6130-4e40-95de-b38ad242e02a",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5681,7 +5681,7 @@
     "isrc": "QZK6N2400242",
     "musicbrainz_recording_id": "ef23317d-ef87-4571-bb0d-a6b7bb20b6d7",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5699,7 +5699,7 @@
     "isrc": "QZMER2383531",
     "musicbrainz_recording_id": "ec9ca1ae-3af4-4869-9739-169bb7f76d12",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5735,7 +5735,7 @@
     "isrc": "USRC11902727",
     "musicbrainz_recording_id": "489416b0-7fce-4261-908b-b8b16b2a9f12",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5753,7 +5753,7 @@
     "isrc": "QZTAY2562283",
     "musicbrainz_recording_id": "2bbc2827-5924-435c-95a9-62c3e22d3050",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5771,7 +5771,7 @@
     "isrc": "QZTAY2562284",
     "musicbrainz_recording_id": "f36f2dfb-917e-4af0-8782-f358f384f908",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5807,7 +5807,7 @@
     "isrc": "QZNWR2435830",
     "musicbrainz_recording_id": "e79b129b-3654-41fd-b2a9-a29e07b09707",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5825,7 +5825,7 @@
     "isrc": "USAT22400351",
     "musicbrainz_recording_id": "b0cdf3d5-8f3b-4d47-981b-a5937cebe454",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -5897,7 +5897,7 @@
     "isrc": "USEZ61716902",
     "musicbrainz_recording_id": "b6080590-2e5f-4ea3-b411-55d4aed67462",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -5953,7 +5953,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": false,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 330,
@@ -6007,7 +6007,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 333,
@@ -6292,7 +6292,7 @@
       "Two Door Cinema Club"
     ],
     "year": 2010,
-    "spotify_id": "1JmRbZclLHgneDrpyA9e3X",
+    "spotify_id": "2jnvdMCTvtdVCci3YLqxGY",
     "spotify_uri": null,
     "isrc": "FRU700900115",
     "musicbrainz_recording_id": "64bca479-8a95-4ebd-a1db-bff355892b62",
@@ -6317,7 +6317,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 350,
@@ -6353,7 +6353,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 352,
@@ -6371,7 +6371,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 353,
@@ -6390,7 +6390,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 0
   },
   {
     "row": 354,
@@ -6444,7 +6444,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 357,
@@ -6462,7 +6462,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 358,
@@ -6480,7 +6480,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 359,
@@ -6498,7 +6498,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 360,
@@ -6516,7 +6516,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 361,
@@ -6552,7 +6552,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 2
+    "cluster": 1
   },
   {
     "row": 363,
@@ -6624,7 +6624,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 367,
@@ -6658,7 +6658,7 @@
     "isrc": "QZTAU2217247",
     "musicbrainz_recording_id": "ba12ebe8-da95-4371-aac4-7612ad7c9f7c",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6676,7 +6676,7 @@
     "isrc": "QZTAU2217248",
     "musicbrainz_recording_id": "350db4fa-5d5e-4607-a541-ecd983746400",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6694,7 +6694,7 @@
     "isrc": "QZFYY2473143",
     "musicbrainz_recording_id": "2e23d699-1b0a-458d-a79d-e89b4d76dcea",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6712,7 +6712,7 @@
     "isrc": "USA4D2136201",
     "musicbrainz_recording_id": "b20873ff-9a7f-4f76-a8aa-780e8473d00d",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6730,7 +6730,7 @@
     "isrc": "USA4D2136204",
     "musicbrainz_recording_id": "52b0e436-a422-4266-b06f-e58133a5b4b4",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6748,7 +6748,7 @@
     "isrc": "USA4D2136205",
     "musicbrainz_recording_id": "4d5f791b-e5db-41c3-a53c-097ed839cc00",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6766,7 +6766,7 @@
     "isrc": "USA4D2136206",
     "musicbrainz_recording_id": "611e1669-9c10-42bf-aa90-099b221ad8c3",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6784,7 +6784,7 @@
     "isrc": "USA4D2136211",
     "musicbrainz_recording_id": "6b8bcd72-241f-414c-91f4-22e6d04285a2",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6802,7 +6802,7 @@
     "isrc": "USA4D2136216",
     "musicbrainz_recording_id": "0909249f-f1b9-4a39-aa4a-4631827f4b78",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6815,7 +6815,7 @@
       "Two Door Cinema Club"
     ],
     "year": 2010,
-    "spotify_id": "4iZxeyibg6w4EFCOoAQ6Eh",
+    "spotify_id": "6jrMVRReY24qzCfe1BRrww",
     "spotify_uri": null,
     "isrc": "FRU700900116",
     "musicbrainz_recording_id": "cadde50b-8c42-4a16-af00-185fcc3827f4",
@@ -6833,12 +6833,12 @@
       "Two Door Cinema Club"
     ],
     "year": 2010,
-    "spotify_id": "0zo5H2QWXCkarmPSK2KJvH",
+    "spotify_id": "1aGvLFHJ2shKqO9uycaUcW",
     "spotify_uri": null,
     "isrc": "FRU700900101",
     "musicbrainz_recording_id": "c9ea9f98-f40b-4067-9f86-16a4c3bf4b45",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": true,
     "cluster": 0
   },
@@ -6874,7 +6874,7 @@
     "isrc": "TCAFE2075141",
     "musicbrainz_recording_id": "a86f4df6-1810-4072-8476-e6f2f85587f5",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6947,7 +6947,7 @@
     "isrc": "USA2P2532105",
     "musicbrainz_recording_id": "bd3cbfe4-f240-47b6-8095-99278d4ed979",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   },
@@ -6967,7 +6967,7 @@
     "has_tags": true,
     "has_genres": true,
     "has_acoustic_high_level": true,
-    "cluster": 0
+    "cluster": 1
   },
   {
     "row": 386,
@@ -6983,7 +6983,7 @@
     "isrc": "TCADN1867874",
     "musicbrainz_recording_id": "e00f83b5-92e4-4001-88ba-2577264f3372",
     "has_tags": false,
-    "has_genres": false,
+    "has_genres": true,
     "has_acoustic_high_level": false,
     "cluster": 0
   }

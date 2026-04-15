@@ -1,36 +1,36 @@
 {
   "input_artifacts_dir": "ml_pipeline/data/artifacts/features_v1_9",
   "output_dir": "ml_pipeline/data/artifacts/representation_v1_9",
-  "records": 3883,
-  "input_feature_count": 802,
+  "records": 4202,
+  "input_feature_count": 819,
   "embedding_dim": 32,
   "used_pca": true,
   "pca_components_requested": 32,
   "pca_components_used": 32,
-  "pca_total_explained_variance_ratio": 0.33739337503521905,
+  "pca_total_explained_variance_ratio": 0.32626797772087895,
   "pca_explained_variance_ratio_first_10": [
-    0.06289599315973318,
-    0.021956727566954402,
-    0.019242351698997746,
-    0.017979044501459658,
-    0.01490074476334882,
-    0.0121351696075241,
-    0.011644547122323825,
-    0.010803217498188291,
-    0.010567566382643596,
-    0.009760838761656487
+    0.0606013158314854,
+    0.021574109211285285,
+    0.019265951095862363,
+    0.017257099679802067,
+    0.014588263031474355,
+    0.011633935435807331,
+    0.011209921139738803,
+    0.010529523778722294,
+    0.010147601363446534,
+    0.009583984411764402
   ],
   "pca_explained_variance_ratio_cumulative_first_10": [
-    0.06289599315973318,
-    0.08485272072668759,
-    0.10409507242568533,
-    0.12207411692714498,
-    0.1369748616904938,
-    0.1491100312980179,
-    0.16075457842034171,
-    0.17155779591853001,
-    0.1821253623011736,
-    0.19188620106283008
+    0.0606013158314854,
+    0.08217542504277069,
+    0.10144137613863305,
+    0.11869847581843512,
+    0.1332867388499095,
+    0.1449206742857168,
+    0.15613059542545563,
+    0.16666011920417792,
+    0.17680772056762445,
+    0.18639170497938884
   ],
   "diagnostic_ks": [
     4,
@@ -45,51 +45,51 @@
   "diagnostics": [
     {
       "k": 4,
-      "inertia": 346192.92942079925,
-      "silhouette": 0.47708697113883347
+      "inertia": 365621.91537991056,
+      "silhouette": 0.4252525696422927
     },
     {
       "k": 5,
-      "inertia": 330952.61848565657,
-      "silhouette": 0.4819615383402163
+      "inertia": 347592.4633455784,
+      "silhouette": 0.43044072983719167
     },
     {
       "k": 6,
-      "inertia": 316336.05154459836,
-      "silhouette": 0.49667385657885976
+      "inertia": 335184.91405963025,
+      "silhouette": 0.44068096061077633
     },
     {
       "k": 7,
-      "inertia": 306500.88191693614,
-      "silhouette": 0.4872986219228504
+      "inertia": 322905.8315114017,
+      "silhouette": 0.43632707383666774
     },
     {
       "k": 8,
-      "inertia": 294519.0046796345,
-      "silhouette": 0.504953238818729
+      "inertia": 310864.23054332094,
+      "silhouette": 0.45402968004744293
     },
     {
       "k": 9,
-      "inertia": 282094.3426528093,
-      "silhouette": 0.5051613549434039
+      "inertia": 300757.8295276915,
+      "silhouette": 0.4558023593350057
     },
     {
       "k": 10,
-      "inertia": 274813.5300826852,
-      "silhouette": 0.5099346817529864
+      "inertia": 290561.8840397588,
+      "silhouette": 0.45899677382106385
     }
   ],
   "cluster_sizes": {
-    "0": 394,
-    "1": 21,
-    "2": 2011,
-    "3": 25,
-    "4": 168,
-    "5": 456,
+    "0": 205,
+    "1": 2117,
+    "2": 596,
+    "3": 770,
+    "4": 25,
+    "5": 431,
     "6": 4,
-    "7": 304,
-    "8": 493,
-    "9": 7
+    "7": 20,
+    "8": 26,
+    "9": 8
   },
   "feature_artifacts": {
     "representation_artifacts_npz": "ml_pipeline/data/artifacts/representation_v1_9/representation_artifacts.npz",
@@ -113,29 +113,29 @@
     "meta_block_weight": 1.0
   },
   "featurizer_report": {
-    "input": "ml_pipeline/data/processed/song_records.backfilled.json",
-    "records": 3883,
-    "feature_count": 802,
+    "input": "ml_pipeline/data/processed/song_records.backfilled.ndjson",
+    "records": 4202,
+    "feature_count": 819,
     "vocab": {
       "tag_vocab_size": 500,
-      "genre_vocab_size": 283,
+      "genre_vocab_size": 300,
       "acoustic_vocab_size": 12,
       "top_tag_df": [
         [
           "rock",
-          955
+          1056
         ],
         [
           "pop",
-          717
+          775
         ],
         [
           "pop_rock",
-          667
+          686
         ],
         [
           "hard_rock",
-          438
+          439
         ],
         [
           "classic_rock",
@@ -147,19 +147,19 @@
         ],
         [
           "hip_hop",
-          337
+          339
         ],
         [
           "electronic",
-          299
+          337
+        ],
+        [
+          "alternative_rock",
+          301
         ],
         [
           "metal",
           280
-        ],
-        [
-          "alternative_rock",
-          251
         ],
         [
           "album_rock",
@@ -170,101 +170,11 @@
           189
         ],
         [
-          "dance_pop",
-          165
-        ],
-        [
-          "soul",
-          161
-        ],
-        [
-          "contemporary_r_and_b",
-          143
-        ],
-        [
-          "arena_rock",
-          138
-        ],
-        [
-          "dance",
-          132
-        ],
-        [
-          "house",
-          125
-        ],
-        [
-          "contemporary_pop_rock",
-          124
-        ],
-        [
-          "soft_rock",
-          111
-        ],
-        [
-          "blues_rock",
-          110
-        ],
-        [
-          "pop_rap",
-          106
-        ],
-        [
-          "synth_pop",
-          101
-        ],
-        [
           "indie_rock",
-          96
+          173
         ],
         [
-          "alternative",
-          92
-        ]
-      ],
-      "top_genre_df": [
-        [
-          "rock",
-          955
-        ],
-        [
-          "pop",
-          717
-        ],
-        [
-          "hard_rock",
-          438
-        ],
-        [
-          "pop_rock",
-          398
-        ],
-        [
-          "classic_rock",
-          371
-        ],
-        [
-          "heavy_metal",
-          347
-        ],
-        [
-          "hip_hop",
-          330
-        ],
-        [
-          "electronic",
-          299
-        ],
-        [
-          "metal",
-          280
-        ],
-        [
-          "alternative_rock",
-          251
-        ],
-        [
-          "r_and_b",
+          "dance_pop",
           170
         ],
         [
@@ -272,119 +182,209 @@
           161
         ],
         [
-          "dance_pop",
-          160
-        ],
-        [
           "contemporary_r_and_b",
-          143
+          145
         ],
         [
           "arena_rock",
-          138
+          139
         ],
         [
           "dance",
+          136
+        ],
+        [
+          "indie",
           132
         ],
         [
           "house",
-          125
-        ],
-        [
-          "soft_rock",
-          111
-        ],
-        [
-          "blues_rock",
-          107
+          128
         ],
         [
           "synth_pop",
-          101
+          125
         ],
         [
-          "pop_rap",
-          97
+          "contemporary_pop_rock",
+          124
         ],
         [
-          "indie_rock",
-          96
+          "blues_rock",
+          115
         ],
         [
-          "electro",
-          90
+          "alternative",
+          114
         ],
         [
-          "blues",
-          87
+          "soft_rock",
+          113
+        ]
+      ],
+      "top_genre_df": [
+        [
+          "rock",
+          1093
+        ],
+        [
+          "pop",
+          779
+        ],
+        [
+          "corrido",
+          694
+        ],
+        [
+          "m_sica_mexicana",
+          602
+        ],
+        [
+          "sierre_o",
+          597
+        ],
+        [
+          "banda",
+          559
+        ],
+        [
+          "corridos_tumbados",
+          555
+        ],
+        [
+          "sad_sierre_o",
+          510
+        ],
+        [
+          "corridos_b_licos",
+          509
+        ],
+        [
+          "hard_rock",
+          498
+        ],
+        [
+          "classical",
+          494
+        ],
+        [
+          "classic_rock",
+          434
+        ],
+        [
+          "pop_rock",
+          413
+        ],
+        [
+          "norte_o",
+          370
+        ],
+        [
+          "heavy_metal",
+          369
+        ],
+        [
+          "hip_hop",
+          352
+        ],
+        [
+          "electronic",
+          339
+        ],
+        [
+          "alternative_rock",
+          313
+        ],
+        [
+          "metal",
+          308
+        ],
+        [
+          "electro_corridos",
+          281
         ],
         [
           "latin",
-          86
+          245
+        ],
+        [
+          "bedroom_pop",
+          235
+        ],
+        [
+          "r_and_b",
+          211
+        ],
+        [
+          "reggaeton",
+          204
+        ],
+        [
+          "orchestral",
+          189
         ]
       ],
       "top_acoustic_df": [
         [
-          "highlevel__mood_aggressive__all__aggressive",
-          1865
-        ],
-        [
-          "highlevel__timbre__all__dark",
-          1865
-        ],
-        [
-          "highlevel__danceability__all__danceable",
-          1865
-        ],
-        [
-          "highlevel__mood_party__all__party",
-          1865
-        ],
-        [
-          "highlevel__mood_sad__all__sad",
-          1865
-        ],
-        [
-          "highlevel__voice_instrumental__all__voice",
-          1865
-        ],
-        [
-          "highlevel__mood_acoustic__all__acoustic",
-          1865
-        ],
-        [
-          "highlevel__mood_electronic__all__electronic",
-          1865
+          "highlevel__mood_happy__all__happy",
+          2079
         ],
         [
           "highlevel__timbre__all__bright",
-          1865
+          2079
+        ],
+        [
+          "highlevel__mood_party__all__party",
+          2079
+        ],
+        [
+          "highlevel__mood_acoustic__all__acoustic",
+          2079
+        ],
+        [
+          "highlevel__timbre__all__dark",
+          2079
+        ],
+        [
+          "highlevel__danceability__all__danceable",
+          2079
+        ],
+        [
+          "highlevel__voice_instrumental__all__voice",
+          2079
         ],
         [
           "highlevel__mood_relaxed__all__relaxed",
-          1865
+          2079
+        ],
+        [
+          "highlevel__mood_electronic__all__electronic",
+          2079
+        ],
+        [
+          "highlevel__mood_aggressive__all__aggressive",
+          2079
+        ],
+        [
+          "highlevel__mood_sad__all__sad",
+          2079
         ],
         [
           "highlevel__voice_instrumental__all__instrumental",
-          1865
-        ],
-        [
-          "highlevel__mood_happy__all__happy",
-          1865
+          2079
         ]
       ]
     },
     "matrix": {
       "shape": [
-        3883,
-        802
+        4202,
+        819
       ],
       "dtype": "float32",
-      "nonzero_rows": 3883,
+      "nonzero_rows": 4202,
       "nonzero_rows_pct": 100.0,
-      "year_mean": 2009.8591295390163,
-      "year_std": 15.692577968941766
+      "year_mean": 2010.055211803903,
+      "year_std": 15.296538844895192
     },
     "weights": {
       "tag_weight": 1.0,
@@ -409,7 +409,8 @@
         "charts",
         "hot_100",
         "offizielle",
-        "ph_"
+        "ph_",
+        "wochen"
       ],
       "skip_tag_exact": [
         "american",

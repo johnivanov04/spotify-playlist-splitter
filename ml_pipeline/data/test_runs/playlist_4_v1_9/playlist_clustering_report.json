@@ -1,0 +1,646 @@
+{
+  "input": "ml_pipeline/data/test_runs/playlist_4_v1_9/playlist_4_backfilled.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_9/representation_artifacts.npz",
+  "records": 51,
+  "feature_count": 819,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "final_k": 4,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 5,
+    "1": 21,
+    "2": 11,
+    "3": 14
+  },
+  "diagnostics": [
+    {
+      "k": 3,
+      "silhouette": 0.5068998200986466,
+      "adjusted_score": -0.03506096421507898,
+      "cluster_sizes": [
+        38,
+        13
+      ],
+      "largest_fraction": 0.7450980392156863,
+      "second_fraction": 0.2549019607843137,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5068998200986466,
+      "adjusted_score": -0.03506096421507898,
+      "cluster_sizes": [
+        38,
+        13
+      ],
+      "largest_fraction": 0.7450980392156863,
+      "second_fraction": 0.2549019607843137,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 5,
+      "silhouette": 0.37865367168422776,
+      "adjusted_score": 0.09884975011560036,
+      "cluster_sizes": [
+        35,
+        11,
+        5
+      ],
+      "largest_fraction": 0.6862745098039216,
+      "second_fraction": 0.21568627450980393,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.5553755326612911,
+      "adjusted_score": -0.2630558398877286,
+      "cluster_sizes": [
+        41,
+        10
+      ],
+      "largest_fraction": 0.803921568627451,
+      "second_fraction": 0.19607843137254902,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.5921899213027247,
+      "adjusted_score": -0.31839831399139273,
+      "cluster_sizes": [
+        42,
+        9
+      ],
+      "largest_fraction": 0.8235294117647058,
+      "second_fraction": 0.17647058823529413,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.6050419061050276,
+      "adjusted_score": -0.3977031919341882,
+      "cluster_sizes": [
+        43,
+        8
+      ],
+      "largest_fraction": 0.8431372549019608,
+      "second_fraction": 0.1568627450980392,
+      "meaningful_cluster_count": 2,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": 0.09884975011560036,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "low_signal_min_size": 18,
+    "low_signal_min_features": 2,
+    "low_signal_top_score": 0.35,
+    "low_signal_child_gain": 0.08,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 24,
+        "candidates": [
+          {
+            "cluster_id": 1,
+            "cluster_size": 35,
+            "candidate_ks": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "accepted": true,
+            "trigger_reason": "size",
+            "parent_cluster_name": "tech house / bass house",
+            "parent_top_features": [
+              {
+                "feature": "genre__tech_house",
+                "pretty_feature": "tech house",
+                "score": 3.709914786744158
+              },
+              {
+                "feature": "genre__bass_house",
+                "pretty_feature": "bass house",
+                "score": 2.493731552426458
+              },
+              {
+                "feature": "genre__house",
+                "pretty_feature": "house",
+                "score": 1.8923219254467227
+              },
+              {
+                "feature": "genre__stutter_house",
+                "pretty_feature": "stutter house",
+                "score": 1.475484108172429
+              },
+              {
+                "feature": "genre__afro_house",
+                "pretty_feature": "afro house",
+                "score": 0.8956135380957403
+              },
+              {
+                "feature": "genre__bassline",
+                "pretty_feature": "bassline",
+                "score": 0.7942534332906762
+              },
+              {
+                "feature": "genre__funky_house",
+                "pretty_feature": "funky house",
+                "score": 0.7942534332906758
+              },
+              {
+                "feature": "genre__electro_house",
+                "pretty_feature": "electro house",
+                "score": 0.06377613837739989
+              },
+              {
+                "feature": "acoustic__highlevel__mood_party__all__party",
+                "pretty_feature": "mood party / party",
+                "score": 0.05591329713950279
+              }
+            ],
+            "parent_top_score": 3.709914786744158,
+            "parent_low_signal": false,
+            "sub_final_k": 2,
+            "sub_best_adjusted_score": 0.39524990330572896,
+            "sub_silhouette": 0.5052499033057288,
+            "sub_adjusted_score": 0.39524990330572896,
+            "sub_cluster_sizes": [
+              21,
+              14
+            ],
+            "sub_largest_fraction": 0.6,
+            "sub_meaningful_cluster_count": 2,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 21,
+                "cluster_name": "tech house / house",
+                "top_features": [
+                  {
+                    "feature": "genre__tech_house",
+                    "pretty_feature": "tech house",
+                    "score": 5.454028778355583
+                  },
+                  {
+                    "feature": "genre__house",
+                    "pretty_feature": "house",
+                    "score": 3.2777103085637456
+                  },
+                  {
+                    "feature": "genre__bass_house",
+                    "pretty_feature": "bass house",
+                    "score": 2.777509971006391
+                  },
+                  {
+                    "feature": "genre__stutter_house",
+                    "pretty_feature": "stutter house",
+                    "score": 2.4843498183997452
+                  },
+                  {
+                    "feature": "genre__afro_house",
+                    "pretty_feature": "afro house",
+                    "score": 1.5132679093541601
+                  },
+                  {
+                    "feature": "genre__bassline",
+                    "pretty_feature": "bassline",
+                    "score": 1.3467661261976052
+                  },
+                  {
+                    "feature": "genre__funky_house",
+                    "pretty_feature": "funky house",
+                    "score": 1.346766126197605
+                  },
+                  {
+                    "feature": "genre__electro_house",
+                    "pretty_feature": "electro house",
+                    "score": 0.18113959975111765
+                  },
+                  {
+                    "feature": "genre__edm",
+                    "pretty_feature": "edm",
+                    "score": 0.1314329160809784
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_party__all__party",
+                    "pretty_feature": "mood party / party",
+                    "score": 0.09318882856583799
+                  }
+                ],
+                "top_score": 5.454028778355583
+              },
+              {
+                "cluster_id": 1,
+                "size": 14,
+                "cluster_name": "bass house / tech house",
+                "top_features": [
+                  {
+                    "feature": "genre__bass_house",
+                    "pretty_feature": "bass house",
+                    "score": 2.06806392455656
+                  },
+                  {
+                    "feature": "genre__tech_house",
+                    "pretty_feature": "tech house",
+                    "score": 1.0937437993270211
+                  }
+                ],
+                "top_score": 2.06806392455656
+              }
+            ],
+            "strong_child_count": 1,
+            "strong_child_threshold": 3.7899147867441583,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 2,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  35
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 3,
+                "silhouette": 0.5052499033057288,
+                "adjusted_score": 0.39524990330572896,
+                "cluster_sizes": [
+                  21,
+                  14
+                ],
+                "largest_fraction": 0.6,
+                "second_fraction": 0.4,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 4,
+                "silhouette": 0.5052499033057288,
+                "adjusted_score": 0.39524990330572896,
+                "cluster_sizes": [
+                  21,
+                  14
+                ],
+                "largest_fraction": 0.6,
+                "second_fraction": 0.4,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 5,
+                "silhouette": 0.5052499033057288,
+                "adjusted_score": 0.39524990330572896,
+                "cluster_sizes": [
+                  21,
+                  14
+                ],
+                "largest_fraction": 0.6,
+                "second_fraction": 0.4,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": 0.5052499033057288,
+                "adjusted_score": 0.39524990330572896,
+                "cluster_sizes": [
+                  21,
+                  14
+                ],
+                "largest_fraction": 0.6,
+                "second_fraction": 0.4,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": 0.5052499033057288,
+                "adjusted_score": 0.39524990330572896,
+                "cluster_sizes": [
+                  21,
+                  14
+                ],
+                "largest_fraction": 0.6,
+                "second_fraction": 0.4,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "accepted"
+          }
+        ],
+        "accepted": {
+          "cluster_id": 1,
+          "cluster_size": 35,
+          "candidate_ks": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "accepted": true,
+          "trigger_reason": "size",
+          "parent_cluster_name": "tech house / bass house",
+          "parent_top_features": [
+            {
+              "feature": "genre__tech_house",
+              "pretty_feature": "tech house",
+              "score": 3.709914786744158
+            },
+            {
+              "feature": "genre__bass_house",
+              "pretty_feature": "bass house",
+              "score": 2.493731552426458
+            },
+            {
+              "feature": "genre__house",
+              "pretty_feature": "house",
+              "score": 1.8923219254467227
+            },
+            {
+              "feature": "genre__stutter_house",
+              "pretty_feature": "stutter house",
+              "score": 1.475484108172429
+            },
+            {
+              "feature": "genre__afro_house",
+              "pretty_feature": "afro house",
+              "score": 0.8956135380957403
+            },
+            {
+              "feature": "genre__bassline",
+              "pretty_feature": "bassline",
+              "score": 0.7942534332906762
+            },
+            {
+              "feature": "genre__funky_house",
+              "pretty_feature": "funky house",
+              "score": 0.7942534332906758
+            },
+            {
+              "feature": "genre__electro_house",
+              "pretty_feature": "electro house",
+              "score": 0.06377613837739989
+            },
+            {
+              "feature": "acoustic__highlevel__mood_party__all__party",
+              "pretty_feature": "mood party / party",
+              "score": 0.05591329713950279
+            }
+          ],
+          "parent_top_score": 3.709914786744158,
+          "parent_low_signal": false,
+          "sub_final_k": 2,
+          "sub_best_adjusted_score": 0.39524990330572896,
+          "sub_silhouette": 0.5052499033057288,
+          "sub_adjusted_score": 0.39524990330572896,
+          "sub_cluster_sizes": [
+            21,
+            14
+          ],
+          "sub_largest_fraction": 0.6,
+          "sub_meaningful_cluster_count": 2,
+          "sub_cluster_summaries": [
+            {
+              "cluster_id": 0,
+              "size": 21,
+              "cluster_name": "tech house / house",
+              "top_features": [
+                {
+                  "feature": "genre__tech_house",
+                  "pretty_feature": "tech house",
+                  "score": 5.454028778355583
+                },
+                {
+                  "feature": "genre__house",
+                  "pretty_feature": "house",
+                  "score": 3.2777103085637456
+                },
+                {
+                  "feature": "genre__bass_house",
+                  "pretty_feature": "bass house",
+                  "score": 2.777509971006391
+                },
+                {
+                  "feature": "genre__stutter_house",
+                  "pretty_feature": "stutter house",
+                  "score": 2.4843498183997452
+                },
+                {
+                  "feature": "genre__afro_house",
+                  "pretty_feature": "afro house",
+                  "score": 1.5132679093541601
+                },
+                {
+                  "feature": "genre__bassline",
+                  "pretty_feature": "bassline",
+                  "score": 1.3467661261976052
+                },
+                {
+                  "feature": "genre__funky_house",
+                  "pretty_feature": "funky house",
+                  "score": 1.346766126197605
+                },
+                {
+                  "feature": "genre__electro_house",
+                  "pretty_feature": "electro house",
+                  "score": 0.18113959975111765
+                },
+                {
+                  "feature": "genre__edm",
+                  "pretty_feature": "edm",
+                  "score": 0.1314329160809784
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_party__all__party",
+                  "pretty_feature": "mood party / party",
+                  "score": 0.09318882856583799
+                }
+              ],
+              "top_score": 5.454028778355583
+            },
+            {
+              "cluster_id": 1,
+              "size": 14,
+              "cluster_name": "bass house / tech house",
+              "top_features": [
+                {
+                  "feature": "genre__bass_house",
+                  "pretty_feature": "bass house",
+                  "score": 2.06806392455656
+                },
+                {
+                  "feature": "genre__tech_house",
+                  "pretty_feature": "tech house",
+                  "score": 1.0937437993270211
+                }
+              ],
+              "top_score": 2.06806392455656
+            }
+          ],
+          "strong_child_count": 1,
+          "strong_child_threshold": 3.7899147867441583,
+          "signal_improved": false,
+          "diagnostics": [
+            {
+              "k": 2,
+              "silhouette": null,
+              "adjusted_score": -3.4200000000000004,
+              "cluster_sizes": [
+                35
+              ],
+              "largest_fraction": 1.0,
+              "second_fraction": 0.0,
+              "meaningful_cluster_count": 1,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 3,
+              "silhouette": 0.5052499033057288,
+              "adjusted_score": 0.39524990330572896,
+              "cluster_sizes": [
+                21,
+                14
+              ],
+              "largest_fraction": 0.6,
+              "second_fraction": 0.4,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 4,
+              "silhouette": 0.5052499033057288,
+              "adjusted_score": 0.39524990330572896,
+              "cluster_sizes": [
+                21,
+                14
+              ],
+              "largest_fraction": 0.6,
+              "second_fraction": 0.4,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 5,
+              "silhouette": 0.5052499033057288,
+              "adjusted_score": 0.39524990330572896,
+              "cluster_sizes": [
+                21,
+                14
+              ],
+              "largest_fraction": 0.6,
+              "second_fraction": 0.4,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 6,
+              "silhouette": 0.5052499033057288,
+              "adjusted_score": 0.39524990330572896,
+              "cluster_sizes": [
+                21,
+                14
+              ],
+              "largest_fraction": 0.6,
+              "second_fraction": 0.4,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 7,
+              "silhouette": 0.5052499033057288,
+              "adjusted_score": 0.39524990330572896,
+              "cluster_sizes": [
+                21,
+                14
+              ],
+              "largest_fraction": 0.6,
+              "second_fraction": 0.4,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            }
+          ],
+          "reason": "accepted"
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/test_runs/playlist_4_v1_9/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/test_runs/playlist_4_v1_9/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/test_runs/playlist_4_v1_9/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/test_runs/playlist_4_v1_9/playlist_embeddings.npy"
+  }
+}

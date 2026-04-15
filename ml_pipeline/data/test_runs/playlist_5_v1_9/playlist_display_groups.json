@@ -1,0 +1,91 @@
+[
+  {
+    "display_group": "Rock / Indie",
+    "size": 86,
+    "member_cluster_ids": [
+      0,
+      6,
+      4,
+      2,
+      3
+    ],
+    "member_cluster_names": [
+      "slowcore / stutter house",
+      "experimental rock / acoustic",
+      "indietronica / psychedelic rock indie rock shoegaze",
+      "post britpop / britpop",
+      "retro / cool"
+    ],
+    "top_descriptors": [
+      "slowcore",
+      "stutter house",
+      "neo psychedelic",
+      "neo psychedelia",
+      "deep house",
+      "shoegaze",
+      "indie",
+      "experimental rock",
+      "acoustic",
+      "alt rock"
+    ],
+    "sample_tracks": [
+      "None \u2014 Cigarettes After Sex",
+      "None \u2014 Flawed Mangoes",
+      "None \u2014 Nafeesisboujee, kkanji",
+      "None \u2014 TV Girl",
+      "None \u2014 070 Shake, Tame Impala",
+      "None \u2014 Piero Piccioni",
+      "None \u2014 Peter Cat Recording Co.",
+      "None \u2014 Vansire",
+      "None \u2014 Nujabes, Shing02",
+      "None \u2014 Playboi Carti",
+      "None \u2014 Playboi Carti, Leven Kali",
+      "None \u2014 Radiohead"
+    ]
+  },
+  {
+    "display_group": "Jazz / Nujabes / Downtempo",
+    "size": 6,
+    "member_cluster_ids": [
+      1
+    ],
+    "member_cluster_names": [
+      "instrumental / jazz rap"
+    ],
+    "top_descriptors": [
+      "instrumental",
+      "jazz rap",
+      "cool jazz",
+      "trip hop",
+      "alternative hip hop",
+      "jazz"
+    ],
+    "sample_tracks": [
+      "None \u2014 Nujabes",
+      "None \u2014 Nujabes, Cise Starr & Akin from CYNE",
+      "None \u2014 Nujabes, Cise Starr",
+      "None \u2014 Force Of Nature"
+    ]
+  },
+  {
+    "display_group": "R&B / Soul",
+    "size": 5,
+    "member_cluster_ids": [
+      5
+    ],
+    "member_cluster_names": [
+      "psychedelic soul / alternative r and b"
+    ],
+    "top_descriptors": [
+      "psychedelic soul",
+      "alternative r and b",
+      "contemporary r and b",
+      "neo soul",
+      "soul"
+    ],
+    "sample_tracks": [
+      "None \u2014 Frank Ocean",
+      "None \u2014 Mac Miller"
+    ]
+  }
+]

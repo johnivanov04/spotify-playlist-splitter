@@ -1,136 +1,82 @@
 [
   {
-    "display_group": "Melodic / Party Rap",
-    "size": 101,
+    "display_group": "Rap / Hip-Hop",
+    "size": 213,
     "member_cluster_ids": [
-      7,
+      6,
+      3,
+      5,
       8,
-      9,
-      11
+      4,
+      11,
+      7,
+      15,
+      13,
+      12
     ],
     "member_cluster_names": [
-      "danceable / timbre / dark",
-      "acoustic / mood sad / sad",
-      "danceable / voice instrumental / instrumental",
-      "danceable / voice instrumental / voice"
+      "rage rap / melodic rap",
+      "west coast hip hop / hip hop",
+      "rage rap / rap",
+      "rage rap / melodic rap",
+      "underground hip hop / conscious hip hop",
+      "rap / melodic rap",
+      "rage rap / melodic rap",
+      "rage rap / melodic rap",
+      "jazz rap / experimental hip hop",
+      "rap / hip hop"
     ],
     "top_descriptors": [
+      "rage rap",
+      "melodic rap",
       "danceable",
       "timbre / dark",
       "mood party / party",
       "voice instrumental / voice",
       "mood electronic / electronic",
-      "mood sad / sad",
-      "mood relaxed / relaxed",
-      "acoustic",
-      "voice instrumental / instrumental",
-      "timbre / bright"
+      "rap",
+      "boom bap",
+      "mood sad / sad"
     ],
     "sample_tracks": [
       "None \u2014 Playboi Carti",
       "None \u2014 Travis Scott",
       "None \u2014 Tyler, The Creator",
-      "None \u2014 Lil Uzi Vert",
-      "None \u2014 Baby Keem, Kendrick Lamar",
-      "None \u2014 Lil Uzi Vert, Oh Wonder",
-      "None \u2014 Playboi Carti, Leven Kali",
-      "None \u2014 The Alchemist, Earl Sweatshirt",
-      "None \u2014 Joey Bada$$, Capital Steez",
-      "None \u2014 Joey Bada$$",
-      "None \u2014 Mac Miller, Miguel",
-      "None \u2014 Lil Uzi Vert, Pharrell Williams"
-    ]
-  },
-  {
-    "display_group": "More Picks",
-    "size": 86,
-    "member_cluster_ids": [
-      0,
-      15,
-      12,
-      13,
-      14
-    ],
-    "member_cluster_names": [
-      "mixed vibe cluster",
-      "mixed vibe cluster",
-      "mixed vibe cluster",
-      "mixed vibe cluster",
-      "mixed vibe cluster"
-    ],
-    "top_descriptors": [],
-    "sample_tracks": [
-      "None \u2014 Mustard, Travis Scott",
       "None \u2014 21 Savage",
-      "None \u2014 PARTYNEXTDOOR, Drake, Yebba",
-      "None \u2014 Playboi Carti, Future, Travis Scott",
-      "None \u2014 Playboi Carti, Travis Scott",
-      "None \u2014 Playboi Carti",
-      "None \u2014 Playboi Carti, The Weeknd",
-      "None \u2014 Lil Uzi Vert",
-      "None \u2014 Lil Yachty, Diana Gordon",
-      "None \u2014 Metro Boomin, A$AP Rocky, Roisee",
-      "None \u2014 Metro Boomin, Swae Lee, NAV, A Boogie Wit da Hoodie",
-      "None \u2014 EI8HT, Offset"
-    ]
-  },
-  {
-    "display_group": "Rap / Hip-Hop",
-    "size": 61,
-    "member_cluster_ids": [
-      4,
-      10,
-      2,
-      3
-    ],
-    "member_cluster_names": [
-      "hip hop / west coast hip hop",
-      "1 4 wochen / hip hop",
-      "conscious hip hop / g funk",
-      "underground hip hop / alternative hip hop"
-    ],
-    "top_descriptors": [
-      "hip hop",
-      "west coast hip hop",
-      "underground hip hop",
-      "conscious hip hop",
-      "rap",
-      "jazz rap",
-      "1 4 wochen",
-      "ambient",
-      "danceable",
-      "timbre / dark"
-    ],
-    "sample_tracks": [
       "None \u2014 J. Cole",
+      "None \u2014 Travis Scott, Kacy Hill",
       "None \u2014 Kendrick Lamar, Jay Rock",
+      "None \u2014 Lil Uzi Vert",
+      "None \u2014 Kendrick Lamar, Zacari",
+      "None \u2014 Travis Scott, Justin Bieber, Young Thug",
       "None \u2014 A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
-      "None \u2014 Kendrick Lamar, MC Eiht",
-      "None \u2014 Kid Cudi",
-      "None \u2014 A Tribe Called Quest",
-      "None \u2014 Kendrick Lamar",
-      "None \u2014 Tyler, The Creator, Lil Wayne, Kanye West",
-      "None \u2014 A$AP Rocky, Joe Fox, Kanye West",
-      "None \u2014 Kendrick Lamar, Mary J. Blige",
-      "None \u2014 Drake",
-      "None \u2014 A$AP Rocky"
+      "None \u2014 Kendrick Lamar, MC Eiht"
     ]
   },
   {
     "display_group": "Jazz / Nujabes / Downtempo",
-    "size": 17,
+    "size": 28,
     "member_cluster_ids": [
-      1
+      1,
+      2,
+      10
     ],
     "member_cluster_names": [
-      "instrumental / cool jazz"
+      "cool jazz / instrumental",
+      "instrumental / jazz rap",
+      "boom bap / nu jazz"
     ],
     "top_descriptors": [
-      "instrumental",
       "cool jazz",
+      "instrumental",
       "jazz rap",
-      "trip hop",
-      "downtempo"
+      "downtempo",
+      "hip hop instrumental hip hop",
+      "instrumentalhiphop",
+      "boom bap",
+      "alternative hip hop",
+      "nu jazz",
+      "experimental hip hop"
     ],
     "sample_tracks": [
       "None \u2014 Nujabes, Cise Starr",
@@ -138,58 +84,70 @@
       "None \u2014 Nujabes, Substantial",
       "None \u2014 Nujabes, Uyama Hiroto",
       "None \u2014 Nujabes, Five Deez",
-      "None \u2014 Nujabes, Shing02"
+      "None \u2014 Nujabes, Shing02",
+      "None \u2014 Nujabes, Cise Starr & Akin from CYNE",
+      "None \u2014 Funky DL",
+      "None \u2014 Force Of Nature, Suiken, S-Word",
+      "None \u2014 A$AP Rocky",
+      "None \u2014 The Alchemist, Earl Sweatshirt",
+      "None \u2014 The Alchemist, Boldy James"
+    ]
+  },
+  {
+    "display_group": "More Picks",
+    "size": 25,
+    "member_cluster_ids": [
+      14
+    ],
+    "member_cluster_names": [
+      "mixed vibe cluster"
+    ],
+    "top_descriptors": [],
+    "sample_tracks": [
+      "None \u2014 Childish Gambino",
+      "None \u2014 J. Cole",
+      "None \u2014 Mac Miller",
+      "None \u2014 MF DOOM, Pebbles The Invisible Girl",
+      "None \u2014 Baby Keem",
+      "None \u2014 MF DOOM, DJ Cucumber Slice",
+      "None \u2014 Baby Keem, Kendrick Lamar"
     ]
   },
   {
     "display_group": "R&B / Soul",
-    "size": 11,
+    "size": 18,
     "member_cluster_ids": [
-      6
+      0,
+      9
     ],
     "member_cluster_names": [
-      "neo soul / soul"
+      "soul / afrobeats",
+      "trap soul / melodic rap"
     ],
     "top_descriptors": [
-      "neo soul",
       "soul",
       "afrobeats",
       "alternative r and b",
-      "r and b"
+      "neo soul",
+      "r and b",
+      "contemporary r and b",
+      "trap soul",
+      "melodic rap",
+      "trap",
+      "rap"
     ],
     "sample_tracks": [
       "None \u2014 Drake, Wizkid, Kyla",
       "None \u2014 Drake, Majid Jordan",
       "None \u2014 Frank Ocean",
-      "None \u2014 Frank Ocean, Earl Sweatshirt"
-    ]
-  },
-  {
-    "display_group": "Trap",
-    "size": 8,
-    "member_cluster_ids": [
-      5
-    ],
-    "member_cluster_names": [
-      "trap / thug rap"
-    ],
-    "top_descriptors": [
-      "trap",
-      "thug rap",
-      "trap soul",
-      "southern hip hop",
-      "hip hop",
-      "west coast hip hop"
-    ],
-    "sample_tracks": [
-      "None \u2014 Travis Scott, Kacy Hill",
-      "None \u2014 Lil Uzi Vert",
-      "None \u2014 Kendrick Lamar, Zacari",
-      "None \u2014 Travis Scott, Justin Bieber, Young Thug",
-      "None \u2014 Juice WRLD",
-      "None \u2014 Travis Scott",
-      "None \u2014 Travis Scott, Swae Lee, Chief Keef",
-      "None \u2014 Travis Scott, ScHoolboy Q"
+      "None \u2014 Frank Ocean, Earl Sweatshirt",
+      "None \u2014 21 Savage, Metro Boomin, Young Thug",
+      "None \u2014 Playboi Carti, Bryson Tiller",
+      "None \u2014 Travis Scott, Rich Homie Quan, Young Thug",
+      "None \u2014 Travis Scott, Young Thug",
+      "None \u2014 Playboi Carti, Young Thug",
+      "None \u2014 Playboi Carti, Young Thug, Ty Dolla $ign",
+      "None \u2014 Trippie Redd, PARTYNEXTDOOR"
     ]
   }
 ]

@@ -1,0 +1,1168 @@
+{
+  "input": "ml_pipeline/data/test_runs/playlist_5_v1_9/playlist_5_backfilled.json",
+  "representation": "ml_pipeline/data/artifacts/representation_v1_9/representation_artifacts.npz",
+  "records": 97,
+  "feature_count": 819,
+  "embedding_dim": 32,
+  "candidate_ks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "final_k": 7,
+  "min_cluster_size": 5,
+  "cluster_sizes": {
+    "0": 42,
+    "1": 6,
+    "2": 7,
+    "3": 5,
+    "4": 8,
+    "5": 5,
+    "6": 24
+  },
+  "diagnostics": [
+    {
+      "k": 3,
+      "silhouette": 0.5753725883808541,
+      "adjusted_score": 0.01825918631899846,
+      "cluster_sizes": [
+        73,
+        18,
+        6
+      ],
+      "largest_fraction": 0.7525773195876289,
+      "second_fraction": 0.18556701030927836,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": false
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5994354266692657,
+      "adjusted_score": 0.06232202460741006,
+      "cluster_sizes": [
+        73,
+        11,
+        7,
+        6
+      ],
+      "largest_fraction": 0.7525773195876289,
+      "second_fraction": 0.1134020618556701,
+      "meaningful_cluster_count": 4,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": false
+    },
+    {
+      "k": 5,
+      "silhouette": 0.6035835169539906,
+      "adjusted_score": -0.24651957582951453,
+      "cluster_sizes": [
+        79,
+        7,
+        6,
+        5
+      ],
+      "largest_fraction": 0.8144329896907216,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 4,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.6155624464300679,
+      "adjusted_score": 0.1813356423063567,
+      "cluster_sizes": [
+        71,
+        8,
+        7,
+        6,
+        5
+      ],
+      "largest_fraction": 0.7319587628865979,
+      "second_fraction": 0.08247422680412371,
+      "meaningful_cluster_count": 5,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 7,
+      "silhouette": 0.6035835169539906,
+      "adjusted_score": -0.24651957582951453,
+      "cluster_sizes": [
+        79,
+        7,
+        6,
+        5
+      ],
+      "largest_fraction": 0.8144329896907216,
+      "second_fraction": 0.07216494845360824,
+      "meaningful_cluster_count": 4,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.5487858949716556,
+      "adjusted_score": -0.81513163080154,
+      "cluster_sizes": [
+        86,
+        6,
+        5
+      ],
+      "largest_fraction": 0.8865979381443299,
+      "second_fraction": 0.061855670103092786,
+      "meaningful_cluster_count": 3,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    }
+  ],
+  "best_adjusted_score": 0.1813356423063567,
+  "weights": {
+    "tag_weight": 1.0,
+    "genre_weight": 0.7,
+    "acoustic_weight": 0.9,
+    "year_weight": 0.25,
+    "popularity_weight": 0.15,
+    "binary_weight": 0.1,
+    "neutralize_missing_acoustic": true
+  },
+  "recursive_splitting": {
+    "enabled": true,
+    "max_fraction": 0.28,
+    "min_size": 24,
+    "min_adjusted_score": 0.02,
+    "max_subcluster_fraction": 0.78,
+    "max_rounds": 2,
+    "low_signal_min_size": 18,
+    "low_signal_min_features": 2,
+    "low_signal_top_score": 0.35,
+    "low_signal_child_gain": 0.08,
+    "rounds": [
+      {
+        "round": 1,
+        "split_size_threshold": 28,
+        "candidates": [
+          {
+            "cluster_id": 0,
+            "cluster_size": 71,
+            "candidate_ks": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "accepted": true,
+            "trigger_reason": "size",
+            "parent_cluster_name": "acoustic / experimental rock",
+            "parent_top_features": [
+              {
+                "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                "pretty_feature": "acoustic",
+                "score": 0.623235899576167
+              },
+              {
+                "feature": "tag__experimental_rock",
+                "pretty_feature": "experimental rock",
+                "score": 0.5629883759378869
+              },
+              {
+                "feature": "genre__experimental_rock",
+                "pretty_feature": "experimental rock",
+                "score": 0.5629883629550252
+              },
+              {
+                "feature": "genre__psychedelic_soul",
+                "pretty_feature": "psychedelic soul",
+                "score": 0.5496199676117769
+              },
+              {
+                "feature": "tag__psychedelic_soul",
+                "pretty_feature": "psychedelic soul",
+                "score": 0.5496199577247984
+              },
+              {
+                "feature": "acoustic__highlevel__mood_sad__all__sad",
+                "pretty_feature": "mood sad / sad",
+                "score": 0.5420492023871348
+              },
+              {
+                "feature": "genre__slowcore",
+                "pretty_feature": "slowcore",
+                "score": 0.5091427987108195
+              },
+              {
+                "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                "pretty_feature": "mood relaxed / relaxed",
+                "score": 0.447362781839995
+              },
+              {
+                "feature": "tag__alt_rock",
+                "pretty_feature": "alt rock",
+                "score": 0.3962387059537923
+              },
+              {
+                "feature": "genre__easy_listening",
+                "pretty_feature": "easy listening",
+                "score": 0.37880484730400515
+              }
+            ],
+            "parent_top_score": 0.623235899576167,
+            "parent_low_signal": false,
+            "sub_final_k": 3,
+            "sub_best_adjusted_score": 0.2771119725762853,
+            "sub_silhouette": 0.3485204232805105,
+            "sub_adjusted_score": 0.2771119725762853,
+            "sub_cluster_sizes": [
+              42,
+              24,
+              5
+            ],
+            "sub_largest_fraction": 0.5915492957746479,
+            "sub_meaningful_cluster_count": 3,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 5,
+                "cluster_name": "psychedelic soul / alternative r and b",
+                "top_features": [
+                  {
+                    "feature": "genre__psychedelic_soul",
+                    "pretty_feature": "psychedelic soul",
+                    "score": 8.371947888646062
+                  },
+                  {
+                    "feature": "tag__psychedelic_soul",
+                    "pretty_feature": "psychedelic soul",
+                    "score": 8.371947752412627
+                  },
+                  {
+                    "feature": "tag__alternative_r_and_b",
+                    "pretty_feature": "alternative r and b",
+                    "score": 3.6973203524880383
+                  },
+                  {
+                    "feature": "tag__contemporary_r_and_b",
+                    "pretty_feature": "contemporary r and b",
+                    "score": 3.1977307060054696
+                  },
+                  {
+                    "feature": "genre__contemporary_r_and_b",
+                    "pretty_feature": "contemporary r and b",
+                    "score": 3.1593132684299325
+                  },
+                  {
+                    "feature": "genre__neo_soul",
+                    "pretty_feature": "neo soul",
+                    "score": 3.1107320174657787
+                  },
+                  {
+                    "feature": "genre__alternative_r_and_b",
+                    "pretty_feature": "alternative r and b",
+                    "score": 2.917038263962053
+                  },
+                  {
+                    "feature": "tag__neo_soul",
+                    "pretty_feature": "neo soul",
+                    "score": 2.6393839488200252
+                  },
+                  {
+                    "feature": "tag__soul",
+                    "pretty_feature": "soul",
+                    "score": 1.9583027112078537
+                  },
+                  {
+                    "feature": "genre__soul",
+                    "pretty_feature": "soul",
+                    "score": 1.9583025818688469
+                  }
+                ],
+                "top_score": 8.371947888646062
+              },
+              {
+                "cluster_id": 1,
+                "size": 42,
+                "cluster_name": "slowcore / stutter house",
+                "top_features": [
+                  {
+                    "feature": "genre__slowcore",
+                    "pretty_feature": "slowcore",
+                    "score": 0.8896237323286782
+                  },
+                  {
+                    "feature": "genre__stutter_house",
+                    "pretty_feature": "stutter house",
+                    "score": 0.592726611723526
+                  },
+                  {
+                    "feature": "genre__neo_psychedelic",
+                    "pretty_feature": "neo psychedelic",
+                    "score": 0.5561062569014394
+                  },
+                  {
+                    "feature": "genre__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 0.36345676245126946
+                  },
+                  {
+                    "feature": "tag__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 0.363456749481293
+                  },
+                  {
+                    "feature": "genre__deep_house",
+                    "pretty_feature": "deep house",
+                    "score": 0.31550614608943917
+                  },
+                  {
+                    "feature": "tag__deep_house",
+                    "pretty_feature": "deep house",
+                    "score": 0.31550613254709253
+                  },
+                  {
+                    "feature": "genre__shoegaze",
+                    "pretty_feature": "shoegaze",
+                    "score": 0.24873957784889053
+                  },
+                  {
+                    "feature": "genre__indie",
+                    "pretty_feature": "indie",
+                    "score": 0.16337895767398372
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 0.12672623058647506
+                  }
+                ],
+                "top_score": 0.8896237323286782
+              },
+              {
+                "cluster_id": 2,
+                "size": 24,
+                "cluster_name": "experimental rock / acoustic",
+                "top_features": [
+                  {
+                    "feature": "tag__experimental_rock",
+                    "pretty_feature": "experimental rock",
+                    "score": 1.7562361339652115
+                  },
+                  {
+                    "feature": "genre__experimental_rock",
+                    "pretty_feature": "experimental rock",
+                    "score": 1.7562361011652723
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                    "pretty_feature": "acoustic",
+                    "score": 1.574888129272457
+                  },
+                  {
+                    "feature": "tag__alt_rock",
+                    "pretty_feature": "alt rock",
+                    "score": 1.2797269526705561
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 1.2748882712500704
+                  },
+                  {
+                    "feature": "genre__easy_listening",
+                    "pretty_feature": "easy listening",
+                    "score": 1.2149879930978276
+                  },
+                  {
+                    "feature": "tag__easy_listening",
+                    "pretty_feature": "easy listening",
+                    "score": 1.2149879757139626
+                  },
+                  {
+                    "feature": "genre__lo_fi_indie",
+                    "pretty_feature": "lo fi indie",
+                    "score": 1.110378687090895
+                  },
+                  {
+                    "feature": "genre__nu_jazz",
+                    "pretty_feature": "nu jazz",
+                    "score": 1.0656324133925807
+                  },
+                  {
+                    "feature": "tag__musical",
+                    "pretty_feature": "musical",
+                    "score": 1.0252373859533626
+                  }
+                ],
+                "top_score": 1.7562361339652115
+              }
+            ],
+            "strong_child_count": 3,
+            "strong_child_threshold": 0.703235899576167,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 3,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  71
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 4,
+                "silhouette": 0.5127400795273165,
+                "adjusted_score": -0.8469782303318389,
+                "cluster_sizes": [
+                  63,
+                  8
+                ],
+                "largest_fraction": 0.8873239436619719,
+                "second_fraction": 0.11267605633802817,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 5,
+                "silhouette": 0.5127400795273165,
+                "adjusted_score": -0.8469782303318389,
+                "cluster_sizes": [
+                  63,
+                  8
+                ],
+                "largest_fraction": 0.8873239436619719,
+                "second_fraction": 0.11267605633802817,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": 0.4419938446887859,
+                "adjusted_score": 0.15368398553385645,
+                "cluster_sizes": [
+                  49,
+                  17,
+                  5
+                ],
+                "largest_fraction": 0.6901408450704225,
+                "second_fraction": 0.23943661971830985,
+                "meaningful_cluster_count": 3,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": 0.3485204232805105,
+                "adjusted_score": 0.2771119725762853,
+                "cluster_sizes": [
+                  42,
+                  24,
+                  5
+                ],
+                "largest_fraction": 0.5915492957746479,
+                "second_fraction": 0.3380281690140845,
+                "meaningful_cluster_count": 3,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 8,
+                "silhouette": 0.307105980575979,
+                "adjusted_score": 0.060767952406964976,
+                "cluster_sizes": [
+                  47,
+                  24
+                ],
+                "largest_fraction": 0.6619718309859155,
+                "second_fraction": 0.3380281690140845,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "accepted"
+          }
+        ],
+        "accepted": {
+          "cluster_id": 0,
+          "cluster_size": 71,
+          "candidate_ks": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "accepted": true,
+          "trigger_reason": "size",
+          "parent_cluster_name": "acoustic / experimental rock",
+          "parent_top_features": [
+            {
+              "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+              "pretty_feature": "acoustic",
+              "score": 0.623235899576167
+            },
+            {
+              "feature": "tag__experimental_rock",
+              "pretty_feature": "experimental rock",
+              "score": 0.5629883759378869
+            },
+            {
+              "feature": "genre__experimental_rock",
+              "pretty_feature": "experimental rock",
+              "score": 0.5629883629550252
+            },
+            {
+              "feature": "genre__psychedelic_soul",
+              "pretty_feature": "psychedelic soul",
+              "score": 0.5496199676117769
+            },
+            {
+              "feature": "tag__psychedelic_soul",
+              "pretty_feature": "psychedelic soul",
+              "score": 0.5496199577247984
+            },
+            {
+              "feature": "acoustic__highlevel__mood_sad__all__sad",
+              "pretty_feature": "mood sad / sad",
+              "score": 0.5420492023871348
+            },
+            {
+              "feature": "genre__slowcore",
+              "pretty_feature": "slowcore",
+              "score": 0.5091427987108195
+            },
+            {
+              "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+              "pretty_feature": "mood relaxed / relaxed",
+              "score": 0.447362781839995
+            },
+            {
+              "feature": "tag__alt_rock",
+              "pretty_feature": "alt rock",
+              "score": 0.3962387059537923
+            },
+            {
+              "feature": "genre__easy_listening",
+              "pretty_feature": "easy listening",
+              "score": 0.37880484730400515
+            }
+          ],
+          "parent_top_score": 0.623235899576167,
+          "parent_low_signal": false,
+          "sub_final_k": 3,
+          "sub_best_adjusted_score": 0.2771119725762853,
+          "sub_silhouette": 0.3485204232805105,
+          "sub_adjusted_score": 0.2771119725762853,
+          "sub_cluster_sizes": [
+            42,
+            24,
+            5
+          ],
+          "sub_largest_fraction": 0.5915492957746479,
+          "sub_meaningful_cluster_count": 3,
+          "sub_cluster_summaries": [
+            {
+              "cluster_id": 0,
+              "size": 5,
+              "cluster_name": "psychedelic soul / alternative r and b",
+              "top_features": [
+                {
+                  "feature": "genre__psychedelic_soul",
+                  "pretty_feature": "psychedelic soul",
+                  "score": 8.371947888646062
+                },
+                {
+                  "feature": "tag__psychedelic_soul",
+                  "pretty_feature": "psychedelic soul",
+                  "score": 8.371947752412627
+                },
+                {
+                  "feature": "tag__alternative_r_and_b",
+                  "pretty_feature": "alternative r and b",
+                  "score": 3.6973203524880383
+                },
+                {
+                  "feature": "tag__contemporary_r_and_b",
+                  "pretty_feature": "contemporary r and b",
+                  "score": 3.1977307060054696
+                },
+                {
+                  "feature": "genre__contemporary_r_and_b",
+                  "pretty_feature": "contemporary r and b",
+                  "score": 3.1593132684299325
+                },
+                {
+                  "feature": "genre__neo_soul",
+                  "pretty_feature": "neo soul",
+                  "score": 3.1107320174657787
+                },
+                {
+                  "feature": "genre__alternative_r_and_b",
+                  "pretty_feature": "alternative r and b",
+                  "score": 2.917038263962053
+                },
+                {
+                  "feature": "tag__neo_soul",
+                  "pretty_feature": "neo soul",
+                  "score": 2.6393839488200252
+                },
+                {
+                  "feature": "tag__soul",
+                  "pretty_feature": "soul",
+                  "score": 1.9583027112078537
+                },
+                {
+                  "feature": "genre__soul",
+                  "pretty_feature": "soul",
+                  "score": 1.9583025818688469
+                }
+              ],
+              "top_score": 8.371947888646062
+            },
+            {
+              "cluster_id": 1,
+              "size": 42,
+              "cluster_name": "slowcore / stutter house",
+              "top_features": [
+                {
+                  "feature": "genre__slowcore",
+                  "pretty_feature": "slowcore",
+                  "score": 0.8896237323286782
+                },
+                {
+                  "feature": "genre__stutter_house",
+                  "pretty_feature": "stutter house",
+                  "score": 0.592726611723526
+                },
+                {
+                  "feature": "genre__neo_psychedelic",
+                  "pretty_feature": "neo psychedelic",
+                  "score": 0.5561062569014394
+                },
+                {
+                  "feature": "genre__neo_psychedelia",
+                  "pretty_feature": "neo psychedelia",
+                  "score": 0.36345676245126946
+                },
+                {
+                  "feature": "tag__neo_psychedelia",
+                  "pretty_feature": "neo psychedelia",
+                  "score": 0.363456749481293
+                },
+                {
+                  "feature": "genre__deep_house",
+                  "pretty_feature": "deep house",
+                  "score": 0.31550614608943917
+                },
+                {
+                  "feature": "tag__deep_house",
+                  "pretty_feature": "deep house",
+                  "score": 0.31550613254709253
+                },
+                {
+                  "feature": "genre__shoegaze",
+                  "pretty_feature": "shoegaze",
+                  "score": 0.24873957784889053
+                },
+                {
+                  "feature": "genre__indie",
+                  "pretty_feature": "indie",
+                  "score": 0.16337895767398372
+                },
+                {
+                  "feature": "acoustic__highlevel__timbre__all__dark",
+                  "pretty_feature": "timbre / dark",
+                  "score": 0.12672623058647506
+                }
+              ],
+              "top_score": 0.8896237323286782
+            },
+            {
+              "cluster_id": 2,
+              "size": 24,
+              "cluster_name": "experimental rock / acoustic",
+              "top_features": [
+                {
+                  "feature": "tag__experimental_rock",
+                  "pretty_feature": "experimental rock",
+                  "score": 1.7562361339652115
+                },
+                {
+                  "feature": "genre__experimental_rock",
+                  "pretty_feature": "experimental rock",
+                  "score": 1.7562361011652723
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                  "pretty_feature": "acoustic",
+                  "score": 1.574888129272457
+                },
+                {
+                  "feature": "tag__alt_rock",
+                  "pretty_feature": "alt rock",
+                  "score": 1.2797269526705561
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_sad__all__sad",
+                  "pretty_feature": "mood sad / sad",
+                  "score": 1.2748882712500704
+                },
+                {
+                  "feature": "genre__easy_listening",
+                  "pretty_feature": "easy listening",
+                  "score": 1.2149879930978276
+                },
+                {
+                  "feature": "tag__easy_listening",
+                  "pretty_feature": "easy listening",
+                  "score": 1.2149879757139626
+                },
+                {
+                  "feature": "genre__lo_fi_indie",
+                  "pretty_feature": "lo fi indie",
+                  "score": 1.110378687090895
+                },
+                {
+                  "feature": "genre__nu_jazz",
+                  "pretty_feature": "nu jazz",
+                  "score": 1.0656324133925807
+                },
+                {
+                  "feature": "tag__musical",
+                  "pretty_feature": "musical",
+                  "score": 1.0252373859533626
+                }
+              ],
+              "top_score": 1.7562361339652115
+            }
+          ],
+          "strong_child_count": 3,
+          "strong_child_threshold": 0.703235899576167,
+          "signal_improved": false,
+          "diagnostics": [
+            {
+              "k": 3,
+              "silhouette": null,
+              "adjusted_score": -3.4200000000000004,
+              "cluster_sizes": [
+                71
+              ],
+              "largest_fraction": 1.0,
+              "second_fraction": 0.0,
+              "meaningful_cluster_count": 1,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 4,
+              "silhouette": 0.5127400795273165,
+              "adjusted_score": -0.8469782303318389,
+              "cluster_sizes": [
+                63,
+                8
+              ],
+              "largest_fraction": 0.8873239436619719,
+              "second_fraction": 0.11267605633802817,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 5,
+              "silhouette": 0.5127400795273165,
+              "adjusted_score": -0.8469782303318389,
+              "cluster_sizes": [
+                63,
+                8
+              ],
+              "largest_fraction": 0.8873239436619719,
+              "second_fraction": 0.11267605633802817,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 6,
+              "silhouette": 0.4419938446887859,
+              "adjusted_score": 0.15368398553385645,
+              "cluster_sizes": [
+                49,
+                17,
+                5
+              ],
+              "largest_fraction": 0.6901408450704225,
+              "second_fraction": 0.23943661971830985,
+              "meaningful_cluster_count": 3,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 7,
+              "silhouette": 0.3485204232805105,
+              "adjusted_score": 0.2771119725762853,
+              "cluster_sizes": [
+                42,
+                24,
+                5
+              ],
+              "largest_fraction": 0.5915492957746479,
+              "second_fraction": 0.3380281690140845,
+              "meaningful_cluster_count": 3,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            },
+            {
+              "k": 8,
+              "silhouette": 0.307105980575979,
+              "adjusted_score": 0.060767952406964976,
+              "cluster_sizes": [
+                47,
+                24
+              ],
+              "largest_fraction": 0.6619718309859155,
+              "second_fraction": 0.3380281690140845,
+              "meaningful_cluster_count": 2,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": true
+            }
+          ],
+          "reason": "accepted"
+        }
+      },
+      {
+        "round": 2,
+        "split_size_threshold": 28,
+        "candidates": [
+          {
+            "cluster_id": 0,
+            "cluster_size": 42,
+            "candidate_ks": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "accepted": false,
+            "trigger_reason": "size",
+            "parent_cluster_name": "slowcore / stutter house",
+            "parent_top_features": [
+              {
+                "feature": "genre__slowcore",
+                "pretty_feature": "slowcore",
+                "score": 0.8896237323286782
+              },
+              {
+                "feature": "genre__stutter_house",
+                "pretty_feature": "stutter house",
+                "score": 0.592726611723526
+              },
+              {
+                "feature": "genre__neo_psychedelic",
+                "pretty_feature": "neo psychedelic",
+                "score": 0.5561062569014394
+              },
+              {
+                "feature": "genre__neo_psychedelia",
+                "pretty_feature": "neo psychedelia",
+                "score": 0.36345676245126946
+              },
+              {
+                "feature": "tag__neo_psychedelia",
+                "pretty_feature": "neo psychedelia",
+                "score": 0.363456749481293
+              },
+              {
+                "feature": "genre__deep_house",
+                "pretty_feature": "deep house",
+                "score": 0.31550614608943917
+              },
+              {
+                "feature": "tag__deep_house",
+                "pretty_feature": "deep house",
+                "score": 0.31550613254709253
+              },
+              {
+                "feature": "genre__shoegaze",
+                "pretty_feature": "shoegaze",
+                "score": 0.24873957784889053
+              },
+              {
+                "feature": "genre__indie",
+                "pretty_feature": "indie",
+                "score": 0.16337895767398372
+              },
+              {
+                "feature": "acoustic__highlevel__timbre__all__dark",
+                "pretty_feature": "timbre / dark",
+                "score": 0.12672623058647506
+              }
+            ],
+            "parent_top_score": 0.8896237323286782,
+            "parent_low_signal": false,
+            "sub_final_k": 2,
+            "sub_best_adjusted_score": -0.8962453254375151,
+            "sub_silhouette": 0.4080403888481991,
+            "sub_adjusted_score": -0.8962453254375151,
+            "sub_cluster_sizes": [
+              37,
+              5
+            ],
+            "sub_largest_fraction": 0.8809523809523809,
+            "sub_meaningful_cluster_count": 2,
+            "sub_cluster_summaries": [
+              {
+                "cluster_id": 0,
+                "size": 37,
+                "cluster_name": "slowcore / stutter house",
+                "top_features": [
+                  {
+                    "feature": "genre__slowcore",
+                    "pretty_feature": "slowcore",
+                    "score": 1.0155051222954439
+                  },
+                  {
+                    "feature": "genre__stutter_house",
+                    "pretty_feature": "stutter house",
+                    "score": 0.6779348642765087
+                  },
+                  {
+                    "feature": "genre__neo_psychedelic",
+                    "pretty_feature": "neo psychedelic",
+                    "score": 0.6414978670786443
+                  },
+                  {
+                    "feature": "genre__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 0.4228967801803899
+                  },
+                  {
+                    "feature": "tag__neo_psychedelia",
+                    "pretty_feature": "neo psychedelia",
+                    "score": 0.42289676552422745
+                  },
+                  {
+                    "feature": "genre__deep_house",
+                    "pretty_feature": "deep house",
+                    "score": 0.3654183186333721
+                  },
+                  {
+                    "feature": "tag__deep_house",
+                    "pretty_feature": "deep house",
+                    "score": 0.3654183027131422
+                  },
+                  {
+                    "feature": "genre__shoegaze",
+                    "pretty_feature": "shoegaze",
+                    "score": 0.29533703073637396
+                  },
+                  {
+                    "feature": "genre__indie",
+                    "pretty_feature": "indie",
+                    "score": 0.20623011595019253
+                  },
+                  {
+                    "feature": "genre__dream_pop",
+                    "pretty_feature": "dream pop",
+                    "score": 0.15566388998222286
+                  }
+                ],
+                "top_score": 1.0155051222954439
+              },
+              {
+                "cluster_id": 1,
+                "size": 5,
+                "cluster_name": "rage rap / timbre / dark",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 1.3241680428384968
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 1.0928827424934235
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 0.9279223070779986
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                    "pretty_feature": "mood relaxed / relaxed",
+                    "score": 0.8291157610365711
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+                    "pretty_feature": "mood electronic / electronic",
+                    "score": 0.5893987743197077
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_party__all__party",
+                    "pretty_feature": "mood party / party",
+                    "score": 0.3880521329699833
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+                    "pretty_feature": "voice instrumental / instrumental",
+                    "score": 0.3735035436550672
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 0.33693860555873745
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                    "pretty_feature": "voice instrumental / voice",
+                    "score": 0.3099936131675463
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_happy__all__happy",
+                    "pretty_feature": "mood happy / happy",
+                    "score": 0.1868699292999786
+                  }
+                ],
+                "top_score": 1.3241680428384968
+              }
+            ],
+            "strong_child_count": 2,
+            "strong_child_threshold": 0.9696237323286782,
+            "signal_improved": false,
+            "diagnostics": [
+              {
+                "k": 3,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  42
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 4,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  42
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 5,
+                "silhouette": 0.4080403888481991,
+                "adjusted_score": -0.8962453254375151,
+                "cluster_sizes": [
+                  37,
+                  5
+                ],
+                "largest_fraction": 0.8809523809523809,
+                "second_fraction": 0.11904761904761904,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 6,
+                "silhouette": 0.4080403888481991,
+                "adjusted_score": -0.8962453254375151,
+                "cluster_sizes": [
+                  37,
+                  5
+                ],
+                "largest_fraction": 0.8809523809523809,
+                "second_fraction": 0.11904761904761904,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 7,
+                "silhouette": 0.4080403888481991,
+                "adjusted_score": -0.8962453254375151,
+                "cluster_sizes": [
+                  37,
+                  5
+                ],
+                "largest_fraction": 0.8809523809523809,
+                "second_fraction": 0.11904761904761904,
+                "meaningful_cluster_count": 2,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              },
+              {
+                "k": 8,
+                "silhouette": null,
+                "adjusted_score": -3.4200000000000004,
+                "cluster_sizes": [
+                  42
+                ],
+                "largest_fraction": 1.0,
+                "second_fraction": 0.0,
+                "meaningful_cluster_count": 1,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": true
+              }
+            ],
+            "reason": "adjusted_score_too_low,largest_subcluster_still_too_large"
+          }
+        ],
+        "accepted": null
+      }
+    ]
+  },
+  "outputs": {
+    "assignments_json": "ml_pipeline/data/test_runs/playlist_5_v1_9/playlist_cluster_assignments.json",
+    "summary_json": "ml_pipeline/data/test_runs/playlist_5_v1_9/playlist_cluster_summary.json",
+    "report_json": "ml_pipeline/data/test_runs/playlist_5_v1_9/playlist_clustering_report.json",
+    "embeddings_npy": "ml_pipeline/data/test_runs/playlist_5_v1_9/playlist_embeddings.npy"
+  }
+}

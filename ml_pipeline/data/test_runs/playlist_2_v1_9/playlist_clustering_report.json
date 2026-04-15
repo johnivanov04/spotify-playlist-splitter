@@ -2,7 +2,7 @@
   "input": "ml_pipeline/data/test_runs/playlist_2_v1_9/playlist_2_backfilled.json",
   "representation": "ml_pipeline/data/artifacts/representation_v1_9/representation_artifacts.npz",
   "records": 284,
-  "feature_count": 802,
+  "feature_count": 819,
   "embedding_dim": 32,
   "candidate_ks": [
     5,
@@ -13,37 +13,37 @@
   "final_k": 16,
   "min_cluster_size": 5,
   "cluster_sizes": {
-    "0": 26,
-    "1": 17,
-    "2": 7,
-    "3": 7,
-    "4": 36,
-    "5": 8,
-    "6": 11,
-    "7": 50,
-    "8": 19,
-    "9": 19,
-    "10": 11,
-    "11": 13,
-    "12": 19,
-    "13": 15,
-    "14": 6,
-    "15": 20
+    "0": 11,
+    "1": 16,
+    "2": 6,
+    "3": 36,
+    "4": 17,
+    "5": 29,
+    "6": 51,
+    "7": 16,
+    "8": 18,
+    "9": 7,
+    "10": 6,
+    "11": 17,
+    "12": 5,
+    "13": 8,
+    "14": 25,
+    "15": 16
   },
   "diagnostics": [
     {
       "k": 5,
-      "silhouette": 0.54013135598331,
-      "adjusted_score": 0.2763285390819017,
+      "silhouette": 0.5160081244818647,
+      "adjusted_score": 0.22614896955228747,
       "cluster_sizes": [
-        198,
-        53,
+        200,
+        47,
         16,
-        11,
+        15,
         6
       ],
-      "largest_fraction": 0.6971830985915493,
-      "second_fraction": 0.18661971830985916,
+      "largest_fraction": 0.704225352112676,
+      "second_fraction": 0.16549295774647887,
       "meaningful_cluster_count": 5,
       "small_cluster_count": 0,
       "small_item_count": 0,
@@ -51,18 +51,18 @@
     },
     {
       "k": 6,
-      "silhouette": 0.5566581991198037,
-      "adjusted_score": 0.29285538221839547,
+      "silhouette": 0.521656751831299,
+      "adjusted_score": 0.23179759690172175,
       "cluster_sizes": [
-        198,
-        43,
+        200,
+        36,
         16,
+        15,
         11,
-        10,
         6
       ],
-      "largest_fraction": 0.6971830985915493,
-      "second_fraction": 0.15140845070422534,
+      "largest_fraction": 0.704225352112676,
+      "second_fraction": 0.1267605633802817,
       "meaningful_cluster_count": 6,
       "small_cluster_count": 0,
       "small_item_count": 0,
@@ -70,46 +70,44 @@
     },
     {
       "k": 7,
-      "silhouette": 0.5739446634207181,
-      "adjusted_score": 0.31014184651930987,
+      "silhouette": 0.5222173911128589,
+      "adjusted_score": 0.25841457421145064,
       "cluster_sizes": [
         198,
         36,
         17,
-        11,
-        8,
-        7,
-        7
-      ],
-      "largest_fraction": 0.6971830985915493,
-      "second_fraction": 0.1267605633802817,
-      "meaningful_cluster_count": 7,
-      "small_cluster_count": 0,
-      "small_item_count": 0,
-      "merged_before_scoring": false
-    },
-    {
-      "k": 8,
-      "silhouette": 0.5602844364359391,
-      "adjusted_score": 0.2964816195345308,
-      "cluster_sizes": [
-        198,
-        34,
         16,
-        12,
-        10,
-        8,
+        11,
         6
       ],
       "largest_fraction": 0.6971830985915493,
-      "second_fraction": 0.11971830985915492,
-      "meaningful_cluster_count": 7,
+      "second_fraction": 0.1267605633802817,
+      "meaningful_cluster_count": 6,
+      "small_cluster_count": 0,
+      "small_item_count": 0,
+      "merged_before_scoring": true
+    },
+    {
+      "k": 8,
+      "silhouette": 0.5074855790281786,
+      "adjusted_score": 0.2436827621267703,
+      "cluster_sizes": [
+        198,
+        32,
+        20,
+        16,
+        12,
+        6
+      ],
+      "largest_fraction": 0.6971830985915493,
+      "second_fraction": 0.11267605633802817,
+      "meaningful_cluster_count": 6,
       "small_cluster_count": 0,
       "small_item_count": 0,
       "merged_before_scoring": true
     }
   ],
-  "best_adjusted_score": 0.31014184651930987,
+  "best_adjusted_score": 0.25841457421145064,
   "weights": {
     "tag_weight": 1.0,
     "genre_weight": 0.7,
@@ -136,7 +134,7 @@
         "split_size_threshold": 80,
         "candidates": [
           {
-            "cluster_id": 0,
+            "cluster_id": 5,
             "cluster_size": 198,
             "candidate_ks": [
               4,
@@ -147,423 +145,567 @@
             ],
             "accepted": true,
             "trigger_reason": "size",
-            "parent_cluster_name": "danceable / timbre / dark",
+            "parent_cluster_name": "rage rap / rap",
             "parent_top_features": [
+              {
+                "feature": "genre__rage_rap",
+                "pretty_feature": "rage rap",
+                "score": 2.780257550131523
+              },
+              {
+                "feature": "genre__rap",
+                "pretty_feature": "rap",
+                "score": 1.7426709837246348
+              },
+              {
+                "feature": "genre__melodic_rap",
+                "pretty_feature": "melodic rap",
+                "score": 1.5390934633766598
+              },
               {
                 "feature": "acoustic__highlevel__danceability__all__danceable",
                 "pretty_feature": "danceable",
-                "score": 0.6281327829021388
+                "score": 0.615857024018646
+              },
+              {
+                "feature": "genre__trap_soul",
+                "pretty_feature": "trap soul",
+                "score": 0.535622700751708
               },
               {
                 "feature": "acoustic__highlevel__timbre__all__dark",
                 "pretty_feature": "timbre / dark",
-                "score": 0.49332441792077175
+                "score": 0.4866223089701867
+              },
+              {
+                "feature": "genre__boom_bap",
+                "pretty_feature": "boom bap",
+                "score": 0.4789841661503108
               },
               {
                 "feature": "acoustic__highlevel__voice_instrumental__all__voice",
                 "pretty_feature": "voice instrumental / voice",
-                "score": 0.45976478017076966
+                "score": 0.45010027433838373
               },
               {
                 "feature": "acoustic__highlevel__mood_electronic__all__electronic",
                 "pretty_feature": "mood electronic / electronic",
-                "score": 0.43288006334839224
+                "score": 0.42343092306206404
               },
               {
                 "feature": "acoustic__highlevel__mood_sad__all__sad",
                 "pretty_feature": "mood sad / sad",
-                "score": 0.3799702824326293
-              },
-              {
-                "feature": "acoustic__highlevel__mood_party__all__party",
-                "pretty_feature": "mood party / party",
-                "score": 0.34287126002666685
-              },
-              {
-                "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                "pretty_feature": "mood relaxed / relaxed",
-                "score": 0.30390032149096385
-              },
-              {
-                "feature": "tag__1_4_wochen",
-                "pretty_feature": "1 4 wochen",
-                "score": 0.12532679656072718
-              },
-              {
-                "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-                "pretty_feature": "acoustic",
-                "score": 0.07867090018130406
+                "score": 0.3456563503720399
               }
             ],
-            "parent_top_score": 0.6281327829021388,
+            "parent_top_score": 2.780257550131523,
             "parent_low_signal": false,
-            "sub_final_k": 6,
-            "sub_best_adjusted_score": 0.5956284998125705,
-            "sub_silhouette": 0.5356284998125705,
-            "sub_adjusted_score": 0.5956284998125705,
+            "sub_final_k": 7,
+            "sub_best_adjusted_score": 0.47173280649687327,
+            "sub_silhouette": 0.41173280649687327,
+            "sub_adjusted_score": 0.47173280649687327,
             "sub_cluster_sizes": [
-              86,
-              50,
-              19,
-              19,
-              13,
-              11
+              83,
+              51,
+              18,
+              17,
+              16,
+              7,
+              6
             ],
-            "sub_largest_fraction": 0.43434343434343436,
-            "sub_meaningful_cluster_count": 6,
+            "sub_largest_fraction": 0.41919191919191917,
+            "sub_meaningful_cluster_count": 7,
             "sub_cluster_summaries": [
               {
                 "cluster_id": 0,
-                "size": 86,
-                "cluster_name": "mixed vibe cluster",
-                "top_features": [],
-                "top_score": 0.0
+                "size": 51,
+                "cluster_name": "rage rap / melodic rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 3.878085560258402
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 1.7167995347336495
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 1.2378198388633639
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 1.0845689530234726
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_party__all__party",
+                    "pretty_feature": "mood party / party",
+                    "score": 1.0226874099905983
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                    "pretty_feature": "voice instrumental / voice",
+                    "score": 0.991367319742259
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+                    "pretty_feature": "mood electronic / electronic",
+                    "score": 0.9823380898764714
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 0.8788729990255849
+                  },
+                  {
+                    "feature": "genre__boom_bap",
+                    "pretty_feature": "boom bap",
+                    "score": 0.3631868484712464
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 0.23200196394946096
+                  }
+                ],
+                "top_score": 3.878085560258402
               },
               {
                 "cluster_id": 1,
-                "size": 50,
-                "cluster_name": "danceable / timbre / dark",
+                "size": 16,
+                "cluster_name": "rage rap / melodic rap",
                 "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 2.604713764353816
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 2.06922143105461
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 1.4929334711415734
+                  },
+                  {
+                    "feature": "genre__trap_soul",
+                    "pretty_feature": "trap soul",
+                    "score": 1.3900864894528304
+                  },
                   {
                     "feature": "acoustic__highlevel__danceability__all__danceable",
                     "pretty_feature": "danceable",
-                    "score": 1.261155438864113
-                  },
-                  {
-                    "feature": "acoustic__highlevel__timbre__all__dark",
-                    "pretty_feature": "timbre / dark",
-                    "score": 1.1533517128944657
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_party__all__party",
-                    "pretty_feature": "mood party / party",
-                    "score": 1.0520550340786243
+                    "score": 1.1706352255283943
                   },
                   {
                     "feature": "acoustic__highlevel__voice_instrumental__all__voice",
                     "pretty_feature": "voice instrumental / voice",
-                    "score": 1.0287846837510055
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                    "pretty_feature": "mood electronic / electronic",
-                    "score": 0.9896555161305208
+                    "score": 1.0830883686107688
                   },
                   {
                     "feature": "acoustic__highlevel__mood_sad__all__sad",
                     "pretty_feature": "mood sad / sad",
-                    "score": 0.26866149578494586
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                    "pretty_feature": "mood relaxed / relaxed",
-                    "score": 0.24489207163814997
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_happy__all__happy",
-                    "pretty_feature": "mood happy / happy",
-                    "score": 0.13198775779885077
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-                    "pretty_feature": "aggressive",
-                    "score": 0.1250534788476043
-                  }
-                ],
-                "top_score": 1.261155438864113
-              },
-              {
-                "cluster_id": 2,
-                "size": 19,
-                "cluster_name": "acoustic / mood sad / sad",
-                "top_features": [
-                  {
-                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-                    "pretty_feature": "acoustic",
-                    "score": 1.3754966913633375
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_sad__all__sad",
-                    "pretty_feature": "mood sad / sad",
-                    "score": 1.3565650272278902
-                  },
-                  {
-                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                    "pretty_feature": "voice instrumental / voice",
-                    "score": 1.1346550747912147
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                    "pretty_feature": "mood relaxed / relaxed",
-                    "score": 1.0053466624447747
-                  },
-                  {
-                    "feature": "acoustic__highlevel__timbre__all__dark",
-                    "pretty_feature": "timbre / dark",
-                    "score": 0.7378339000460945
-                  },
-                  {
-                    "feature": "acoustic__highlevel__danceability__all__danceable",
-                    "pretty_feature": "danceable",
-                    "score": 0.6837166150807441
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                    "pretty_feature": "mood electronic / electronic",
-                    "score": 0.3219667345562275
-                  }
-                ],
-                "top_score": 1.3754966913633375
-              },
-              {
-                "cluster_id": 3,
-                "size": 19,
-                "cluster_name": "danceable / voice instrumental / instrumental",
-                "top_features": [
-                  {
-                    "feature": "acoustic__highlevel__danceability__all__danceable",
-                    "pretty_feature": "danceable",
-                    "score": 1.0772046173238616
-                  },
-                  {
-                    "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-                    "pretty_feature": "voice instrumental / instrumental",
-                    "score": 1.016009836235788
-                  },
-                  {
-                    "feature": "acoustic__highlevel__timbre__all__dark",
-                    "pretty_feature": "timbre / dark",
-                    "score": 0.9728294865394641
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                    "pretty_feature": "mood relaxed / relaxed",
-                    "score": 0.9005250368558224
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                    "pretty_feature": "mood electronic / electronic",
-                    "score": 0.8262417442953242
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_sad__all__sad",
-                    "pretty_feature": "mood sad / sad",
-                    "score": 0.7898817911996595
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_party__all__party",
-                    "pretty_feature": "mood party / party",
-                    "score": 0.4539291134095613
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-                    "pretty_feature": "acoustic",
-                    "score": 0.12052882035528505
-                  }
-                ],
-                "top_score": 1.0772046173238616
-              },
-              {
-                "cluster_id": 4,
-                "size": 11,
-                "cluster_name": "1 4 wochen / hip hop",
-                "top_features": [
-                  {
-                    "feature": "tag__1_4_wochen",
-                    "pretty_feature": "1 4 wochen",
-                    "score": 2.801789793007477
-                  },
-                  {
-                    "feature": "genre__hip_hop",
-                    "pretty_feature": "hip hop",
-                    "score": 1.4042118375774664
-                  },
-                  {
-                    "feature": "tag__hip_hop",
-                    "pretty_feature": "hip hop",
-                    "score": 1.1369850288140553
-                  },
-                  {
-                    "feature": "tag__ambient",
-                    "pretty_feature": "ambient",
-                    "score": 1.1239342505627024
-                  },
-                  {
-                    "feature": "genre__ambient",
-                    "pretty_feature": "ambient",
-                    "score": 1.1239342492988902
-                  },
-                  {
-                    "feature": "acoustic__highlevel__danceability__all__danceable",
-                    "pretty_feature": "danceable",
-                    "score": 1.0775473574773877
-                  },
-                  {
-                    "feature": "acoustic__highlevel__timbre__all__dark",
-                    "pretty_feature": "timbre / dark",
-                    "score": 1.0146249175531044
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_sad__all__sad",
-                    "pretty_feature": "mood sad / sad",
-                    "score": 0.9106815481308804
-                  },
-                  {
-                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                    "pretty_feature": "voice instrumental / voice",
-                    "score": 0.8220101394774771
-                  },
-                  {
-                    "feature": "tag__contemporary_r_and_b",
-                    "pretty_feature": "contemporary r and b",
-                    "score": 0.7502153983363503
-                  }
-                ],
-                "top_score": 2.801789793007477
-              },
-              {
-                "cluster_id": 5,
-                "size": 13,
-                "cluster_name": "danceable / voice instrumental / voice",
-                "top_features": [
-                  {
-                    "feature": "acoustic__highlevel__danceability__all__danceable",
-                    "pretty_feature": "danceable",
-                    "score": 1.2309226710368457
-                  },
-                  {
-                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                    "pretty_feature": "voice instrumental / voice",
-                    "score": 1.0525151251427027
+                    "score": 0.9744565623001469
                   },
                   {
                     "feature": "acoustic__highlevel__timbre__all__bright",
                     "pretty_feature": "timbre / bright",
-                    "score": 1.0226359574544326
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_sad__all__sad",
-                    "pretty_feature": "mood sad / sad",
-                    "score": 0.846234965603862
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                    "pretty_feature": "mood electronic / electronic",
-                    "score": 0.512454889207949
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_party__all__party",
-                    "pretty_feature": "mood party / party",
-                    "score": 0.4622396188858675
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                    "pretty_feature": "mood relaxed / relaxed",
-                    "score": 0.39638436363191
-                  },
-                  {
-                    "feature": "acoustic__highlevel__mood_happy__all__happy",
-                    "pretty_feature": "mood happy / happy",
-                    "score": 0.34202225638801365
+                    "score": 0.844422113256444
                   },
                   {
                     "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
                     "pretty_feature": "acoustic",
-                    "score": 0.29493285541015357
+                    "score": 0.778350857355102
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                    "pretty_feature": "mood relaxed / relaxed",
+                    "score": 0.5590101322219274
                   }
                 ],
-                "top_score": 1.2309226710368457
+                "top_score": 2.604713764353816
+              },
+              {
+                "cluster_id": 2,
+                "size": 18,
+                "cluster_name": "rage rap / melodic rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 3.5193892797218984
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 1.1905161695610138
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 1.095334871097512
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+                    "pretty_feature": "voice instrumental / instrumental",
+                    "score": 1.0125666768356425
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 0.9745615400316113
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 0.9435109434588477
+                  },
+                  {
+                    "feature": "genre__uk_grime",
+                    "pretty_feature": "uk grime",
+                    "score": 0.906269239709148
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                    "pretty_feature": "mood relaxed / relaxed",
+                    "score": 0.8976023182163895
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+                    "pretty_feature": "mood electronic / electronic",
+                    "score": 0.8786509885416378
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 0.684094283752663
+                  }
+                ],
+                "top_score": 3.5193892797218984
+              },
+              {
+                "cluster_id": 3,
+                "size": 83,
+                "cluster_name": "rage rap / rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 2.5936935774216674
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 1.8305304459827667
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 0.8825362312500056
+                  },
+                  {
+                    "feature": "genre__jazz_rap",
+                    "pretty_feature": "jazz rap",
+                    "score": 0.3081903531344418
+                  },
+                  {
+                    "feature": "genre__trap_soul",
+                    "pretty_feature": "trap soul",
+                    "score": 0.23271293208004118
+                  },
+                  {
+                    "feature": "genre__uk_grime",
+                    "pretty_feature": "uk grime",
+                    "score": 0.15126140750788333
+                  },
+                  {
+                    "feature": "genre__experimental_hip_hop",
+                    "pretty_feature": "experimental hip hop",
+                    "score": 0.10094846111221206
+                  },
+                  {
+                    "feature": "genre__grime",
+                    "pretty_feature": "grime",
+                    "score": 0.06361493671907141
+                  }
+                ],
+                "top_score": 2.5936935774216674
+              },
+              {
+                "cluster_id": 4,
+                "size": 7,
+                "cluster_name": "trap soul / melodic rap",
+                "top_features": [
+                  {
+                    "feature": "genre__trap_soul",
+                    "pretty_feature": "trap soul",
+                    "score": 9.787831085912533
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 9.772157164927046
+                  },
+                  {
+                    "feature": "genre__trap",
+                    "pretty_feature": "trap",
+                    "score": 7.5012729169684045
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 4.554001839659614
+                  },
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 2.996717556654421
+                  },
+                  {
+                    "feature": "genre__southern_hip_hop",
+                    "pretty_feature": "southern hip hop",
+                    "score": 1.0083503242631726
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 0.8799591039855162
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 0.8408844495730072
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_party__all__party",
+                    "pretty_feature": "mood party / party",
+                    "score": 0.7215943817033692
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                    "pretty_feature": "voice instrumental / voice",
+                    "score": 0.6710674734639667
+                  }
+                ],
+                "top_score": 9.787831085912533
+              },
+              {
+                "cluster_id": 5,
+                "size": 6,
+                "cluster_name": "boom bap / nu jazz",
+                "top_features": [
+                  {
+                    "feature": "genre__boom_bap",
+                    "pretty_feature": "boom bap",
+                    "score": 13.637216211892605
+                  },
+                  {
+                    "feature": "genre__nu_jazz",
+                    "pretty_feature": "nu jazz",
+                    "score": 8.789760507320471
+                  },
+                  {
+                    "feature": "genre__experimental_hip_hop",
+                    "pretty_feature": "experimental hip hop",
+                    "score": 6.859213472761506
+                  },
+                  {
+                    "feature": "genre__jazz_rap",
+                    "pretty_feature": "jazz rap",
+                    "score": 4.103718046024158
+                  },
+                  {
+                    "feature": "genre__alternative_hip_hop",
+                    "pretty_feature": "alternative hip hop",
+                    "score": 3.2648974844611427
+                  },
+                  {
+                    "feature": "tag__ambient",
+                    "pretty_feature": "ambient",
+                    "score": 1.8061971368761176
+                  },
+                  {
+                    "feature": "genre__ambient",
+                    "pretty_feature": "ambient",
+                    "score": 1.7490919496121222
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                    "pretty_feature": "acoustic",
+                    "score": 1.2035750356081418
+                  },
+                  {
+                    "feature": "genre__jazz",
+                    "pretty_feature": "jazz",
+                    "score": 1.1737257048087009
+                  },
+                  {
+                    "feature": "tag__jazz",
+                    "pretty_feature": "jazz",
+                    "score": 1.173725675293345
+                  }
+                ],
+                "top_score": 13.637216211892605
+              },
+              {
+                "cluster_id": 6,
+                "size": 17,
+                "cluster_name": "rap / melodic rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 4.110770220688676
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 1.2656995074428186
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_sad__all__sad",
+                    "pretty_feature": "mood sad / sad",
+                    "score": 1.1711147810684555
+                  },
+                  {
+                    "feature": "acoustic__highlevel__timbre__all__dark",
+                    "pretty_feature": "timbre / dark",
+                    "score": 1.1447983057475044
+                  },
+                  {
+                    "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                    "pretty_feature": "voice instrumental / voice",
+                    "score": 1.0583358707649082
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                    "pretty_feature": "mood relaxed / relaxed",
+                    "score": 0.869320239299103
+                  },
+                  {
+                    "feature": "acoustic__highlevel__danceability__all__danceable",
+                    "pretty_feature": "danceable",
+                    "score": 0.7446354595007565
+                  },
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 0.721558291537171
+                  },
+                  {
+                    "feature": "tag__contemporary_r_and_b",
+                    "pretty_feature": "contemporary r and b",
+                    "score": 0.6572308027415494
+                  },
+                  {
+                    "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                    "pretty_feature": "acoustic",
+                    "score": 0.649901369539822
+                  }
+                ],
+                "top_score": 4.110770220688676
               }
             ],
             "strong_child_count": 5,
-            "strong_child_threshold": 0.7081327829021388,
+            "strong_child_threshold": 2.8602575501315233,
             "signal_improved": false,
             "diagnostics": [
               {
                 "k": 4,
-                "silhouette": 0.5230294326066419,
-                "adjusted_score": 0.5430294326066419,
+                "silhouette": 0.3853892413365399,
+                "adjusted_score": 0.4253892413365399,
                 "cluster_sizes": [
                   88,
-                  78,
-                  32
-                ],
-                "largest_fraction": 0.4444444444444444,
-                "second_fraction": 0.3939393939393939,
-                "meaningful_cluster_count": 3,
-                "small_cluster_count": 0,
-                "small_item_count": 0,
-                "merged_before_scoring": true
-              },
-              {
-                "k": 5,
-                "silhouette": 0.5234422876078832,
-                "adjusted_score": 0.5634422876078833,
-                "cluster_sizes": [
-                  88,
-                  53,
+                  69,
                   32,
-                  25
+                  9
                 ],
                 "largest_fraction": 0.4444444444444444,
-                "second_fraction": 0.2676767676767677,
+                "second_fraction": 0.3484848484848485,
                 "meaningful_cluster_count": 4,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
-                "merged_before_scoring": true
+                "merged_before_scoring": false
               },
               {
-                "k": 6,
-                "silhouette": 0.5262972289388848,
-                "adjusted_score": 0.5862972289388848,
+                "k": 5,
+                "silhouette": 0.39871703371587514,
+                "adjusted_score": 0.45871703371587513,
                 "cluster_sizes": [
                   86,
-                  53,
-                  25,
-                  20,
-                  14
+                  65,
+                  31,
+                  9,
+                  7
                 ],
                 "largest_fraction": 0.43434343434343436,
-                "second_fraction": 0.2676767676767677,
+                "second_fraction": 0.3282828282828283,
                 "meaningful_cluster_count": 5,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
-                "merged_before_scoring": true
+                "merged_before_scoring": false
               },
               {
-                "k": 7,
-                "silhouette": 0.5356284998125705,
-                "adjusted_score": 0.5956284998125705,
+                "k": 6,
+                "silhouette": 0.4021827909834647,
+                "adjusted_score": 0.4621827909834647,
                 "cluster_sizes": [
-                  86,
-                  50,
-                  19,
-                  19,
-                  13,
-                  11
+                  83,
+                  51,
+                  26,
+                  25,
+                  7,
+                  6
                 ],
-                "largest_fraction": 0.43434343434343436,
-                "second_fraction": 0.25252525252525254,
+                "largest_fraction": 0.41919191919191917,
+                "second_fraction": 0.25757575757575757,
                 "meaningful_cluster_count": 6,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
-                "merged_before_scoring": true
+                "merged_before_scoring": false
+              },
+              {
+                "k": 7,
+                "silhouette": 0.4064020229512445,
+                "adjusted_score": 0.4664020229512445,
+                "cluster_sizes": [
+                  83,
+                  46,
+                  23,
+                  17,
+                  16,
+                  7,
+                  6
+                ],
+                "largest_fraction": 0.41919191919191917,
+                "second_fraction": 0.23232323232323232,
+                "meaningful_cluster_count": 7,
+                "small_cluster_count": 0,
+                "small_item_count": 0,
+                "merged_before_scoring": false
               },
               {
                 "k": 8,
-                "silhouette": 0.5085228644775593,
-                "adjusted_score": 0.5685228644775593,
+                "silhouette": 0.41173280649687327,
+                "adjusted_score": 0.47173280649687327,
                 "cluster_sizes": [
-                  86,
-                  41,
+                  83,
+                  51,
                   18,
                   17,
-                  13,
-                  12,
-                  11
+                  16,
+                  7,
+                  6
                 ],
-                "largest_fraction": 0.43434343434343436,
-                "second_fraction": 0.20707070707070707,
+                "largest_fraction": 0.41919191919191917,
+                "second_fraction": 0.25757575757575757,
                 "meaningful_cluster_count": 7,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
@@ -574,7 +716,7 @@
           }
         ],
         "accepted": {
-          "cluster_id": 0,
+          "cluster_id": 5,
           "cluster_size": 198,
           "candidate_ks": [
             4,
@@ -585,423 +727,567 @@
           ],
           "accepted": true,
           "trigger_reason": "size",
-          "parent_cluster_name": "danceable / timbre / dark",
+          "parent_cluster_name": "rage rap / rap",
           "parent_top_features": [
+            {
+              "feature": "genre__rage_rap",
+              "pretty_feature": "rage rap",
+              "score": 2.780257550131523
+            },
+            {
+              "feature": "genre__rap",
+              "pretty_feature": "rap",
+              "score": 1.7426709837246348
+            },
+            {
+              "feature": "genre__melodic_rap",
+              "pretty_feature": "melodic rap",
+              "score": 1.5390934633766598
+            },
             {
               "feature": "acoustic__highlevel__danceability__all__danceable",
               "pretty_feature": "danceable",
-              "score": 0.6281327829021388
+              "score": 0.615857024018646
+            },
+            {
+              "feature": "genre__trap_soul",
+              "pretty_feature": "trap soul",
+              "score": 0.535622700751708
             },
             {
               "feature": "acoustic__highlevel__timbre__all__dark",
               "pretty_feature": "timbre / dark",
-              "score": 0.49332441792077175
+              "score": 0.4866223089701867
+            },
+            {
+              "feature": "genre__boom_bap",
+              "pretty_feature": "boom bap",
+              "score": 0.4789841661503108
             },
             {
               "feature": "acoustic__highlevel__voice_instrumental__all__voice",
               "pretty_feature": "voice instrumental / voice",
-              "score": 0.45976478017076966
+              "score": 0.45010027433838373
             },
             {
               "feature": "acoustic__highlevel__mood_electronic__all__electronic",
               "pretty_feature": "mood electronic / electronic",
-              "score": 0.43288006334839224
+              "score": 0.42343092306206404
             },
             {
               "feature": "acoustic__highlevel__mood_sad__all__sad",
               "pretty_feature": "mood sad / sad",
-              "score": 0.3799702824326293
-            },
-            {
-              "feature": "acoustic__highlevel__mood_party__all__party",
-              "pretty_feature": "mood party / party",
-              "score": 0.34287126002666685
-            },
-            {
-              "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-              "pretty_feature": "mood relaxed / relaxed",
-              "score": 0.30390032149096385
-            },
-            {
-              "feature": "tag__1_4_wochen",
-              "pretty_feature": "1 4 wochen",
-              "score": 0.12532679656072718
-            },
-            {
-              "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-              "pretty_feature": "acoustic",
-              "score": 0.07867090018130406
+              "score": 0.3456563503720399
             }
           ],
-          "parent_top_score": 0.6281327829021388,
+          "parent_top_score": 2.780257550131523,
           "parent_low_signal": false,
-          "sub_final_k": 6,
-          "sub_best_adjusted_score": 0.5956284998125705,
-          "sub_silhouette": 0.5356284998125705,
-          "sub_adjusted_score": 0.5956284998125705,
+          "sub_final_k": 7,
+          "sub_best_adjusted_score": 0.47173280649687327,
+          "sub_silhouette": 0.41173280649687327,
+          "sub_adjusted_score": 0.47173280649687327,
           "sub_cluster_sizes": [
-            86,
-            50,
-            19,
-            19,
-            13,
-            11
+            83,
+            51,
+            18,
+            17,
+            16,
+            7,
+            6
           ],
-          "sub_largest_fraction": 0.43434343434343436,
-          "sub_meaningful_cluster_count": 6,
+          "sub_largest_fraction": 0.41919191919191917,
+          "sub_meaningful_cluster_count": 7,
           "sub_cluster_summaries": [
             {
               "cluster_id": 0,
-              "size": 86,
-              "cluster_name": "mixed vibe cluster",
-              "top_features": [],
-              "top_score": 0.0
+              "size": 51,
+              "cluster_name": "rage rap / melodic rap",
+              "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 3.878085560258402
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 1.7167995347336495
+                },
+                {
+                  "feature": "acoustic__highlevel__danceability__all__danceable",
+                  "pretty_feature": "danceable",
+                  "score": 1.2378198388633639
+                },
+                {
+                  "feature": "acoustic__highlevel__timbre__all__dark",
+                  "pretty_feature": "timbre / dark",
+                  "score": 1.0845689530234726
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_party__all__party",
+                  "pretty_feature": "mood party / party",
+                  "score": 1.0226874099905983
+                },
+                {
+                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                  "pretty_feature": "voice instrumental / voice",
+                  "score": 0.991367319742259
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+                  "pretty_feature": "mood electronic / electronic",
+                  "score": 0.9823380898764714
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 0.8788729990255849
+                },
+                {
+                  "feature": "genre__boom_bap",
+                  "pretty_feature": "boom bap",
+                  "score": 0.3631868484712464
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_sad__all__sad",
+                  "pretty_feature": "mood sad / sad",
+                  "score": 0.23200196394946096
+                }
+              ],
+              "top_score": 3.878085560258402
             },
             {
               "cluster_id": 1,
-              "size": 50,
-              "cluster_name": "danceable / timbre / dark",
+              "size": 16,
+              "cluster_name": "rage rap / melodic rap",
               "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 2.604713764353816
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 2.06922143105461
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 1.4929334711415734
+                },
+                {
+                  "feature": "genre__trap_soul",
+                  "pretty_feature": "trap soul",
+                  "score": 1.3900864894528304
+                },
                 {
                   "feature": "acoustic__highlevel__danceability__all__danceable",
                   "pretty_feature": "danceable",
-                  "score": 1.261155438864113
-                },
-                {
-                  "feature": "acoustic__highlevel__timbre__all__dark",
-                  "pretty_feature": "timbre / dark",
-                  "score": 1.1533517128944657
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_party__all__party",
-                  "pretty_feature": "mood party / party",
-                  "score": 1.0520550340786243
+                  "score": 1.1706352255283943
                 },
                 {
                   "feature": "acoustic__highlevel__voice_instrumental__all__voice",
                   "pretty_feature": "voice instrumental / voice",
-                  "score": 1.0287846837510055
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                  "pretty_feature": "mood electronic / electronic",
-                  "score": 0.9896555161305208
+                  "score": 1.0830883686107688
                 },
                 {
                   "feature": "acoustic__highlevel__mood_sad__all__sad",
                   "pretty_feature": "mood sad / sad",
-                  "score": 0.26866149578494586
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                  "pretty_feature": "mood relaxed / relaxed",
-                  "score": 0.24489207163814997
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_happy__all__happy",
-                  "pretty_feature": "mood happy / happy",
-                  "score": 0.13198775779885077
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-                  "pretty_feature": "aggressive",
-                  "score": 0.1250534788476043
-                }
-              ],
-              "top_score": 1.261155438864113
-            },
-            {
-              "cluster_id": 2,
-              "size": 19,
-              "cluster_name": "acoustic / mood sad / sad",
-              "top_features": [
-                {
-                  "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-                  "pretty_feature": "acoustic",
-                  "score": 1.3754966913633375
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_sad__all__sad",
-                  "pretty_feature": "mood sad / sad",
-                  "score": 1.3565650272278902
-                },
-                {
-                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                  "pretty_feature": "voice instrumental / voice",
-                  "score": 1.1346550747912147
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                  "pretty_feature": "mood relaxed / relaxed",
-                  "score": 1.0053466624447747
-                },
-                {
-                  "feature": "acoustic__highlevel__timbre__all__dark",
-                  "pretty_feature": "timbre / dark",
-                  "score": 0.7378339000460945
-                },
-                {
-                  "feature": "acoustic__highlevel__danceability__all__danceable",
-                  "pretty_feature": "danceable",
-                  "score": 0.6837166150807441
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                  "pretty_feature": "mood electronic / electronic",
-                  "score": 0.3219667345562275
-                }
-              ],
-              "top_score": 1.3754966913633375
-            },
-            {
-              "cluster_id": 3,
-              "size": 19,
-              "cluster_name": "danceable / voice instrumental / instrumental",
-              "top_features": [
-                {
-                  "feature": "acoustic__highlevel__danceability__all__danceable",
-                  "pretty_feature": "danceable",
-                  "score": 1.0772046173238616
-                },
-                {
-                  "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
-                  "pretty_feature": "voice instrumental / instrumental",
-                  "score": 1.016009836235788
-                },
-                {
-                  "feature": "acoustic__highlevel__timbre__all__dark",
-                  "pretty_feature": "timbre / dark",
-                  "score": 0.9728294865394641
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                  "pretty_feature": "mood relaxed / relaxed",
-                  "score": 0.9005250368558224
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                  "pretty_feature": "mood electronic / electronic",
-                  "score": 0.8262417442953242
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_sad__all__sad",
-                  "pretty_feature": "mood sad / sad",
-                  "score": 0.7898817911996595
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_party__all__party",
-                  "pretty_feature": "mood party / party",
-                  "score": 0.4539291134095613
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-                  "pretty_feature": "acoustic",
-                  "score": 0.12052882035528505
-                }
-              ],
-              "top_score": 1.0772046173238616
-            },
-            {
-              "cluster_id": 4,
-              "size": 11,
-              "cluster_name": "1 4 wochen / hip hop",
-              "top_features": [
-                {
-                  "feature": "tag__1_4_wochen",
-                  "pretty_feature": "1 4 wochen",
-                  "score": 2.801789793007477
-                },
-                {
-                  "feature": "genre__hip_hop",
-                  "pretty_feature": "hip hop",
-                  "score": 1.4042118375774664
-                },
-                {
-                  "feature": "tag__hip_hop",
-                  "pretty_feature": "hip hop",
-                  "score": 1.1369850288140553
-                },
-                {
-                  "feature": "tag__ambient",
-                  "pretty_feature": "ambient",
-                  "score": 1.1239342505627024
-                },
-                {
-                  "feature": "genre__ambient",
-                  "pretty_feature": "ambient",
-                  "score": 1.1239342492988902
-                },
-                {
-                  "feature": "acoustic__highlevel__danceability__all__danceable",
-                  "pretty_feature": "danceable",
-                  "score": 1.0775473574773877
-                },
-                {
-                  "feature": "acoustic__highlevel__timbre__all__dark",
-                  "pretty_feature": "timbre / dark",
-                  "score": 1.0146249175531044
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_sad__all__sad",
-                  "pretty_feature": "mood sad / sad",
-                  "score": 0.9106815481308804
-                },
-                {
-                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                  "pretty_feature": "voice instrumental / voice",
-                  "score": 0.8220101394774771
-                },
-                {
-                  "feature": "tag__contemporary_r_and_b",
-                  "pretty_feature": "contemporary r and b",
-                  "score": 0.7502153983363503
-                }
-              ],
-              "top_score": 2.801789793007477
-            },
-            {
-              "cluster_id": 5,
-              "size": 13,
-              "cluster_name": "danceable / voice instrumental / voice",
-              "top_features": [
-                {
-                  "feature": "acoustic__highlevel__danceability__all__danceable",
-                  "pretty_feature": "danceable",
-                  "score": 1.2309226710368457
-                },
-                {
-                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-                  "pretty_feature": "voice instrumental / voice",
-                  "score": 1.0525151251427027
+                  "score": 0.9744565623001469
                 },
                 {
                   "feature": "acoustic__highlevel__timbre__all__bright",
                   "pretty_feature": "timbre / bright",
-                  "score": 1.0226359574544326
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_sad__all__sad",
-                  "pretty_feature": "mood sad / sad",
-                  "score": 0.846234965603862
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-                  "pretty_feature": "mood electronic / electronic",
-                  "score": 0.512454889207949
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_party__all__party",
-                  "pretty_feature": "mood party / party",
-                  "score": 0.4622396188858675
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-                  "pretty_feature": "mood relaxed / relaxed",
-                  "score": 0.39638436363191
-                },
-                {
-                  "feature": "acoustic__highlevel__mood_happy__all__happy",
-                  "pretty_feature": "mood happy / happy",
-                  "score": 0.34202225638801365
+                  "score": 0.844422113256444
                 },
                 {
                   "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
                   "pretty_feature": "acoustic",
-                  "score": 0.29493285541015357
+                  "score": 0.778350857355102
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                  "pretty_feature": "mood relaxed / relaxed",
+                  "score": 0.5590101322219274
                 }
               ],
-              "top_score": 1.2309226710368457
+              "top_score": 2.604713764353816
+            },
+            {
+              "cluster_id": 2,
+              "size": 18,
+              "cluster_name": "rage rap / melodic rap",
+              "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 3.5193892797218984
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 1.1905161695610138
+                },
+                {
+                  "feature": "acoustic__highlevel__danceability__all__danceable",
+                  "pretty_feature": "danceable",
+                  "score": 1.095334871097512
+                },
+                {
+                  "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+                  "pretty_feature": "voice instrumental / instrumental",
+                  "score": 1.0125666768356425
+                },
+                {
+                  "feature": "acoustic__highlevel__timbre__all__dark",
+                  "pretty_feature": "timbre / dark",
+                  "score": 0.9745615400316113
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 0.9435109434588477
+                },
+                {
+                  "feature": "genre__uk_grime",
+                  "pretty_feature": "uk grime",
+                  "score": 0.906269239709148
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                  "pretty_feature": "mood relaxed / relaxed",
+                  "score": 0.8976023182163895
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+                  "pretty_feature": "mood electronic / electronic",
+                  "score": 0.8786509885416378
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_sad__all__sad",
+                  "pretty_feature": "mood sad / sad",
+                  "score": 0.684094283752663
+                }
+              ],
+              "top_score": 3.5193892797218984
+            },
+            {
+              "cluster_id": 3,
+              "size": 83,
+              "cluster_name": "rage rap / rap",
+              "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 2.5936935774216674
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 1.8305304459827667
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 0.8825362312500056
+                },
+                {
+                  "feature": "genre__jazz_rap",
+                  "pretty_feature": "jazz rap",
+                  "score": 0.3081903531344418
+                },
+                {
+                  "feature": "genre__trap_soul",
+                  "pretty_feature": "trap soul",
+                  "score": 0.23271293208004118
+                },
+                {
+                  "feature": "genre__uk_grime",
+                  "pretty_feature": "uk grime",
+                  "score": 0.15126140750788333
+                },
+                {
+                  "feature": "genre__experimental_hip_hop",
+                  "pretty_feature": "experimental hip hop",
+                  "score": 0.10094846111221206
+                },
+                {
+                  "feature": "genre__grime",
+                  "pretty_feature": "grime",
+                  "score": 0.06361493671907141
+                }
+              ],
+              "top_score": 2.5936935774216674
+            },
+            {
+              "cluster_id": 4,
+              "size": 7,
+              "cluster_name": "trap soul / melodic rap",
+              "top_features": [
+                {
+                  "feature": "genre__trap_soul",
+                  "pretty_feature": "trap soul",
+                  "score": 9.787831085912533
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 9.772157164927046
+                },
+                {
+                  "feature": "genre__trap",
+                  "pretty_feature": "trap",
+                  "score": 7.5012729169684045
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 4.554001839659614
+                },
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 2.996717556654421
+                },
+                {
+                  "feature": "genre__southern_hip_hop",
+                  "pretty_feature": "southern hip hop",
+                  "score": 1.0083503242631726
+                },
+                {
+                  "feature": "acoustic__highlevel__danceability__all__danceable",
+                  "pretty_feature": "danceable",
+                  "score": 0.8799591039855162
+                },
+                {
+                  "feature": "acoustic__highlevel__timbre__all__dark",
+                  "pretty_feature": "timbre / dark",
+                  "score": 0.8408844495730072
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_party__all__party",
+                  "pretty_feature": "mood party / party",
+                  "score": 0.7215943817033692
+                },
+                {
+                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                  "pretty_feature": "voice instrumental / voice",
+                  "score": 0.6710674734639667
+                }
+              ],
+              "top_score": 9.787831085912533
+            },
+            {
+              "cluster_id": 5,
+              "size": 6,
+              "cluster_name": "boom bap / nu jazz",
+              "top_features": [
+                {
+                  "feature": "genre__boom_bap",
+                  "pretty_feature": "boom bap",
+                  "score": 13.637216211892605
+                },
+                {
+                  "feature": "genre__nu_jazz",
+                  "pretty_feature": "nu jazz",
+                  "score": 8.789760507320471
+                },
+                {
+                  "feature": "genre__experimental_hip_hop",
+                  "pretty_feature": "experimental hip hop",
+                  "score": 6.859213472761506
+                },
+                {
+                  "feature": "genre__jazz_rap",
+                  "pretty_feature": "jazz rap",
+                  "score": 4.103718046024158
+                },
+                {
+                  "feature": "genre__alternative_hip_hop",
+                  "pretty_feature": "alternative hip hop",
+                  "score": 3.2648974844611427
+                },
+                {
+                  "feature": "tag__ambient",
+                  "pretty_feature": "ambient",
+                  "score": 1.8061971368761176
+                },
+                {
+                  "feature": "genre__ambient",
+                  "pretty_feature": "ambient",
+                  "score": 1.7490919496121222
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                  "pretty_feature": "acoustic",
+                  "score": 1.2035750356081418
+                },
+                {
+                  "feature": "genre__jazz",
+                  "pretty_feature": "jazz",
+                  "score": 1.1737257048087009
+                },
+                {
+                  "feature": "tag__jazz",
+                  "pretty_feature": "jazz",
+                  "score": 1.173725675293345
+                }
+              ],
+              "top_score": 13.637216211892605
+            },
+            {
+              "cluster_id": 6,
+              "size": 17,
+              "cluster_name": "rap / melodic rap",
+              "top_features": [
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 4.110770220688676
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 1.2656995074428186
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_sad__all__sad",
+                  "pretty_feature": "mood sad / sad",
+                  "score": 1.1711147810684555
+                },
+                {
+                  "feature": "acoustic__highlevel__timbre__all__dark",
+                  "pretty_feature": "timbre / dark",
+                  "score": 1.1447983057475044
+                },
+                {
+                  "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+                  "pretty_feature": "voice instrumental / voice",
+                  "score": 1.0583358707649082
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+                  "pretty_feature": "mood relaxed / relaxed",
+                  "score": 0.869320239299103
+                },
+                {
+                  "feature": "acoustic__highlevel__danceability__all__danceable",
+                  "pretty_feature": "danceable",
+                  "score": 0.7446354595007565
+                },
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 0.721558291537171
+                },
+                {
+                  "feature": "tag__contemporary_r_and_b",
+                  "pretty_feature": "contemporary r and b",
+                  "score": 0.6572308027415494
+                },
+                {
+                  "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+                  "pretty_feature": "acoustic",
+                  "score": 0.649901369539822
+                }
+              ],
+              "top_score": 4.110770220688676
             }
           ],
           "strong_child_count": 5,
-          "strong_child_threshold": 0.7081327829021388,
+          "strong_child_threshold": 2.8602575501315233,
           "signal_improved": false,
           "diagnostics": [
             {
               "k": 4,
-              "silhouette": 0.5230294326066419,
-              "adjusted_score": 0.5430294326066419,
+              "silhouette": 0.3853892413365399,
+              "adjusted_score": 0.4253892413365399,
               "cluster_sizes": [
                 88,
-                78,
-                32
-              ],
-              "largest_fraction": 0.4444444444444444,
-              "second_fraction": 0.3939393939393939,
-              "meaningful_cluster_count": 3,
-              "small_cluster_count": 0,
-              "small_item_count": 0,
-              "merged_before_scoring": true
-            },
-            {
-              "k": 5,
-              "silhouette": 0.5234422876078832,
-              "adjusted_score": 0.5634422876078833,
-              "cluster_sizes": [
-                88,
-                53,
+                69,
                 32,
-                25
+                9
               ],
               "largest_fraction": 0.4444444444444444,
-              "second_fraction": 0.2676767676767677,
+              "second_fraction": 0.3484848484848485,
               "meaningful_cluster_count": 4,
               "small_cluster_count": 0,
               "small_item_count": 0,
-              "merged_before_scoring": true
+              "merged_before_scoring": false
             },
             {
-              "k": 6,
-              "silhouette": 0.5262972289388848,
-              "adjusted_score": 0.5862972289388848,
+              "k": 5,
+              "silhouette": 0.39871703371587514,
+              "adjusted_score": 0.45871703371587513,
               "cluster_sizes": [
                 86,
-                53,
-                25,
-                20,
-                14
+                65,
+                31,
+                9,
+                7
               ],
               "largest_fraction": 0.43434343434343436,
-              "second_fraction": 0.2676767676767677,
+              "second_fraction": 0.3282828282828283,
               "meaningful_cluster_count": 5,
               "small_cluster_count": 0,
               "small_item_count": 0,
-              "merged_before_scoring": true
+              "merged_before_scoring": false
             },
             {
-              "k": 7,
-              "silhouette": 0.5356284998125705,
-              "adjusted_score": 0.5956284998125705,
+              "k": 6,
+              "silhouette": 0.4021827909834647,
+              "adjusted_score": 0.4621827909834647,
               "cluster_sizes": [
-                86,
-                50,
-                19,
-                19,
-                13,
-                11
+                83,
+                51,
+                26,
+                25,
+                7,
+                6
               ],
-              "largest_fraction": 0.43434343434343436,
-              "second_fraction": 0.25252525252525254,
+              "largest_fraction": 0.41919191919191917,
+              "second_fraction": 0.25757575757575757,
               "meaningful_cluster_count": 6,
               "small_cluster_count": 0,
               "small_item_count": 0,
-              "merged_before_scoring": true
+              "merged_before_scoring": false
+            },
+            {
+              "k": 7,
+              "silhouette": 0.4064020229512445,
+              "adjusted_score": 0.4664020229512445,
+              "cluster_sizes": [
+                83,
+                46,
+                23,
+                17,
+                16,
+                7,
+                6
+              ],
+              "largest_fraction": 0.41919191919191917,
+              "second_fraction": 0.23232323232323232,
+              "meaningful_cluster_count": 7,
+              "small_cluster_count": 0,
+              "small_item_count": 0,
+              "merged_before_scoring": false
             },
             {
               "k": 8,
-              "silhouette": 0.5085228644775593,
-              "adjusted_score": 0.5685228644775593,
+              "silhouette": 0.41173280649687327,
+              "adjusted_score": 0.47173280649687327,
               "cluster_sizes": [
-                86,
-                41,
+                83,
+                51,
                 18,
                 17,
-                13,
-                12,
-                11
+                16,
+                7,
+                6
               ],
-              "largest_fraction": 0.43434343434343436,
-              "second_fraction": 0.20707070707070707,
+              "largest_fraction": 0.41919191919191917,
+              "second_fraction": 0.25757575757575757,
               "meaningful_cluster_count": 7,
               "small_cluster_count": 0,
               "small_item_count": 0,
@@ -1016,8 +1302,8 @@
         "split_size_threshold": 80,
         "candidates": [
           {
-            "cluster_id": 0,
-            "cluster_size": 86,
+            "cluster_id": 5,
+            "cluster_size": 83,
             "candidate_ks": [
               3,
               4,
@@ -1028,122 +1314,276 @@
             ],
             "accepted": true,
             "trigger_reason": "size",
-            "parent_cluster_name": "mixed vibe cluster",
-            "parent_top_features": [],
-            "parent_top_score": 0.0,
-            "parent_low_signal": true,
-            "sub_final_k": 5,
-            "sub_best_adjusted_score": 0.6926964675428313,
-            "sub_silhouette": 0.6326964675428313,
-            "sub_adjusted_score": 0.6926964675428313,
-            "sub_cluster_sizes": [
-              26,
-              20,
-              19,
-              15,
-              6
+            "parent_cluster_name": "rage rap / rap",
+            "parent_top_features": [
+              {
+                "feature": "genre__rage_rap",
+                "pretty_feature": "rage rap",
+                "score": 2.5936935774216674
+              },
+              {
+                "feature": "genre__rap",
+                "pretty_feature": "rap",
+                "score": 1.8305304459827667
+              },
+              {
+                "feature": "genre__melodic_rap",
+                "pretty_feature": "melodic rap",
+                "score": 0.8825362312500056
+              },
+              {
+                "feature": "genre__jazz_rap",
+                "pretty_feature": "jazz rap",
+                "score": 0.3081903531344418
+              },
+              {
+                "feature": "genre__trap_soul",
+                "pretty_feature": "trap soul",
+                "score": 0.23271293208004118
+              },
+              {
+                "feature": "genre__uk_grime",
+                "pretty_feature": "uk grime",
+                "score": 0.15126140750788333
+              },
+              {
+                "feature": "genre__experimental_hip_hop",
+                "pretty_feature": "experimental hip hop",
+                "score": 0.10094846111221206
+              },
+              {
+                "feature": "genre__grime",
+                "pretty_feature": "grime",
+                "score": 0.06361493671907141
+              }
             ],
-            "sub_largest_fraction": 0.3023255813953488,
+            "parent_top_score": 2.5936935774216674,
+            "parent_low_signal": false,
+            "sub_final_k": 5,
+            "sub_best_adjusted_score": 0.5172799945284059,
+            "sub_silhouette": 0.45727999452840595,
+            "sub_adjusted_score": 0.5172799945284059,
+            "sub_cluster_sizes": [
+              29,
+              25,
+              16,
+              8,
+              5
+            ],
+            "sub_largest_fraction": 0.3493975903614458,
             "sub_meaningful_cluster_count": 5,
             "sub_cluster_summaries": [
               {
                 "cluster_id": 0,
-                "size": 19,
-                "cluster_name": "mixed vibe cluster",
-                "top_features": [],
-                "top_score": 0.0
+                "size": 29,
+                "cluster_name": "rage rap / rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 4.15019997997575
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 2.345485669269939
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 0.3090563461191631
+                  }
+                ],
+                "top_score": 4.15019997997575
               },
               {
                 "cluster_id": 1,
-                "size": 15,
-                "cluster_name": "mixed vibe cluster",
-                "top_features": [],
-                "top_score": 0.0
+                "size": 5,
+                "cluster_name": "rap / hip hop",
+                "top_features": [
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 3.800508087409019
+                  },
+                  {
+                    "feature": "genre__hip_hop",
+                    "pretty_feature": "hip hop",
+                    "score": 1.7179224200177372
+                  },
+                  {
+                    "feature": "genre__neo_soul",
+                    "pretty_feature": "neo soul",
+                    "score": 1.5199025377665785
+                  },
+                  {
+                    "feature": "genre__west_coast_hip_hop",
+                    "pretty_feature": "west coast hip hop",
+                    "score": 1.2557857818289966
+                  },
+                  {
+                    "feature": "genre__east_coast_hip_hop",
+                    "pretty_feature": "east coast hip hop",
+                    "score": 1.1577746908062032
+                  },
+                  {
+                    "feature": "genre__funk",
+                    "pretty_feature": "funk",
+                    "score": 0.9863476070196899
+                  },
+                  {
+                    "feature": "tag__rap",
+                    "pretty_feature": "rap",
+                    "score": 0.9074083902724036
+                  },
+                  {
+                    "feature": "tag__hip_hop",
+                    "pretty_feature": "hip hop",
+                    "score": 0.8606697402319974
+                  }
+                ],
+                "top_score": 3.800508087409019
               },
               {
                 "cluster_id": 2,
-                "size": 26,
-                "cluster_name": "mixed vibe cluster",
-                "top_features": [],
-                "top_score": 0.0
+                "size": 8,
+                "cluster_name": "jazz rap / experimental hip hop",
+                "top_features": [
+                  {
+                    "feature": "genre__jazz_rap",
+                    "pretty_feature": "jazz rap",
+                    "score": 4.314863353336387
+                  },
+                  {
+                    "feature": "genre__experimental_hip_hop",
+                    "pretty_feature": "experimental hip hop",
+                    "score": 1.6653616582532522
+                  },
+                  {
+                    "feature": "genre__alternative_hip_hop",
+                    "pretty_feature": "alternative hip hop",
+                    "score": 0.7330511708791563
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 0.668799679617485
+                  }
+                ],
+                "top_score": 4.314863353336387
               },
               {
                 "cluster_id": 3,
-                "size": 6,
+                "size": 25,
                 "cluster_name": "mixed vibe cluster",
                 "top_features": [],
                 "top_score": 0.0
               },
               {
                 "cluster_id": 4,
-                "size": 20,
-                "cluster_name": "mixed vibe cluster",
-                "top_features": [],
-                "top_score": 0.0
+                "size": 16,
+                "cluster_name": "rage rap / melodic rap",
+                "top_features": [
+                  {
+                    "feature": "genre__rage_rap",
+                    "pretty_feature": "rage rap",
+                    "score": 6.263415825826149
+                  },
+                  {
+                    "feature": "genre__melodic_rap",
+                    "pretty_feature": "melodic rap",
+                    "score": 4.226043436538892
+                  },
+                  {
+                    "feature": "genre__rap",
+                    "pretty_feature": "rap",
+                    "score": 3.9653348457138358
+                  },
+                  {
+                    "feature": "genre__trap_soul",
+                    "pretty_feature": "trap soul",
+                    "score": 1.3900864894528306
+                  },
+                  {
+                    "feature": "genre__uk_grime",
+                    "pretty_feature": "uk grime",
+                    "score": 1.0267801052335805
+                  },
+                  {
+                    "feature": "genre__grime",
+                    "pretty_feature": "grime",
+                    "score": 0.6344260003594223
+                  }
+                ],
+                "top_score": 6.263415825826149
               }
             ],
-            "strong_child_count": 0,
-            "strong_child_threshold": 0.35,
+            "strong_child_count": 4,
+            "strong_child_threshold": 2.6736935774216675,
             "signal_improved": false,
             "diagnostics": [
               {
                 "k": 3,
-                "silhouette": 0.7234917017139747,
-                "adjusted_score": -0.08743853084416481,
+                "silhouette": 0.41642543394717424,
+                "adjusted_score": 0.43642543394717426,
                 "cluster_sizes": [
-                  69,
-                  17
+                  45,
+                  25,
+                  13
                 ],
-                "largest_fraction": 0.8023255813953488,
-                "second_fraction": 0.19767441860465115,
-                "meaningful_cluster_count": 2,
+                "largest_fraction": 0.5421686746987951,
+                "second_fraction": 0.30120481927710846,
+                "meaningful_cluster_count": 3,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
-                "merged_before_scoring": true
+                "merged_before_scoring": false
               },
               {
                 "k": 4,
-                "silhouette": 0.7234917017139747,
-                "adjusted_score": -0.08743853084416481,
+                "silhouette": 0.45655358302088583,
+                "adjusted_score": 0.4965535830208858,
                 "cluster_sizes": [
-                  69,
-                  17
+                  45,
+                  25,
+                  8,
+                  5
                 ],
-                "largest_fraction": 0.8023255813953488,
-                "second_fraction": 0.19767441860465115,
-                "meaningful_cluster_count": 2,
+                "largest_fraction": 0.5421686746987951,
+                "second_fraction": 0.30120481927710846,
+                "meaningful_cluster_count": 4,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
-                "merged_before_scoring": true
+                "merged_before_scoring": false
               },
               {
                 "k": 5,
-                "silhouette": 0.6654143613834274,
-                "adjusted_score": 0.03843761719738063,
+                "silhouette": 0.45655358302088583,
+                "adjusted_score": 0.4965535830208858,
                 "cluster_sizes": [
-                  66,
-                  12,
-                  8
+                  45,
+                  25,
+                  8,
+                  5
                 ],
-                "largest_fraction": 0.7674418604651163,
-                "second_fraction": 0.13953488372093023,
-                "meaningful_cluster_count": 3,
+                "largest_fraction": 0.5421686746987951,
+                "second_fraction": 0.30120481927710846,
+                "meaningful_cluster_count": 4,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
                 "merged_before_scoring": true
               },
               {
                 "k": 6,
-                "silhouette": 0.5912076258405783,
-                "adjusted_score": 0.6312076258405783,
+                "silhouette": 0.45655358302088583,
+                "adjusted_score": 0.4965535830208858,
                 "cluster_sizes": [
-                  43,
-                  24,
-                  11,
-                  8
+                  45,
+                  25,
+                  8,
+                  5
                 ],
-                "largest_fraction": 0.5,
-                "second_fraction": 0.27906976744186046,
+                "largest_fraction": 0.5421686746987951,
+                "second_fraction": 0.30120481927710846,
                 "meaningful_cluster_count": 4,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
@@ -1151,35 +1591,35 @@
               },
               {
                 "k": 7,
-                "silhouette": 0.538111197249293,
-                "adjusted_score": 0.578111197249293,
+                "silhouette": 0.45727999452840595,
+                "adjusted_score": 0.5172799945284059,
                 "cluster_sizes": [
-                  43,
-                  22,
-                  15,
-                  6
+                  29,
+                  25,
+                  16,
+                  8,
+                  5
                 ],
-                "largest_fraction": 0.5,
-                "second_fraction": 0.2558139534883721,
-                "meaningful_cluster_count": 4,
+                "largest_fraction": 0.3493975903614458,
+                "second_fraction": 0.30120481927710846,
+                "meaningful_cluster_count": 5,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
                 "merged_before_scoring": true
               },
               {
                 "k": 8,
-                "silhouette": 0.6326964675428313,
-                "adjusted_score": 0.6926964675428313,
+                "silhouette": 0.41591771923435833,
+                "adjusted_score": 0.4559177192343583,
                 "cluster_sizes": [
-                  26,
-                  20,
-                  19,
-                  15,
-                  6
+                  29,
+                  25,
+                  16,
+                  13
                 ],
-                "largest_fraction": 0.3023255813953488,
-                "second_fraction": 0.23255813953488372,
-                "meaningful_cluster_count": 5,
+                "largest_fraction": 0.3493975903614458,
+                "second_fraction": 0.30120481927710846,
+                "meaningful_cluster_count": 4,
                 "small_cluster_count": 0,
                 "small_item_count": 0,
                 "merged_before_scoring": true
@@ -1189,8 +1629,8 @@
           }
         ],
         "accepted": {
-          "cluster_id": 0,
-          "cluster_size": 86,
+          "cluster_id": 5,
+          "cluster_size": 83,
           "candidate_ks": [
             3,
             4,
@@ -1201,122 +1641,276 @@
           ],
           "accepted": true,
           "trigger_reason": "size",
-          "parent_cluster_name": "mixed vibe cluster",
-          "parent_top_features": [],
-          "parent_top_score": 0.0,
-          "parent_low_signal": true,
-          "sub_final_k": 5,
-          "sub_best_adjusted_score": 0.6926964675428313,
-          "sub_silhouette": 0.6326964675428313,
-          "sub_adjusted_score": 0.6926964675428313,
-          "sub_cluster_sizes": [
-            26,
-            20,
-            19,
-            15,
-            6
+          "parent_cluster_name": "rage rap / rap",
+          "parent_top_features": [
+            {
+              "feature": "genre__rage_rap",
+              "pretty_feature": "rage rap",
+              "score": 2.5936935774216674
+            },
+            {
+              "feature": "genre__rap",
+              "pretty_feature": "rap",
+              "score": 1.8305304459827667
+            },
+            {
+              "feature": "genre__melodic_rap",
+              "pretty_feature": "melodic rap",
+              "score": 0.8825362312500056
+            },
+            {
+              "feature": "genre__jazz_rap",
+              "pretty_feature": "jazz rap",
+              "score": 0.3081903531344418
+            },
+            {
+              "feature": "genre__trap_soul",
+              "pretty_feature": "trap soul",
+              "score": 0.23271293208004118
+            },
+            {
+              "feature": "genre__uk_grime",
+              "pretty_feature": "uk grime",
+              "score": 0.15126140750788333
+            },
+            {
+              "feature": "genre__experimental_hip_hop",
+              "pretty_feature": "experimental hip hop",
+              "score": 0.10094846111221206
+            },
+            {
+              "feature": "genre__grime",
+              "pretty_feature": "grime",
+              "score": 0.06361493671907141
+            }
           ],
-          "sub_largest_fraction": 0.3023255813953488,
+          "parent_top_score": 2.5936935774216674,
+          "parent_low_signal": false,
+          "sub_final_k": 5,
+          "sub_best_adjusted_score": 0.5172799945284059,
+          "sub_silhouette": 0.45727999452840595,
+          "sub_adjusted_score": 0.5172799945284059,
+          "sub_cluster_sizes": [
+            29,
+            25,
+            16,
+            8,
+            5
+          ],
+          "sub_largest_fraction": 0.3493975903614458,
           "sub_meaningful_cluster_count": 5,
           "sub_cluster_summaries": [
             {
               "cluster_id": 0,
-              "size": 19,
-              "cluster_name": "mixed vibe cluster",
-              "top_features": [],
-              "top_score": 0.0
+              "size": 29,
+              "cluster_name": "rage rap / rap",
+              "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 4.15019997997575
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 2.345485669269939
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 0.3090563461191631
+                }
+              ],
+              "top_score": 4.15019997997575
             },
             {
               "cluster_id": 1,
-              "size": 15,
-              "cluster_name": "mixed vibe cluster",
-              "top_features": [],
-              "top_score": 0.0
+              "size": 5,
+              "cluster_name": "rap / hip hop",
+              "top_features": [
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 3.800508087409019
+                },
+                {
+                  "feature": "genre__hip_hop",
+                  "pretty_feature": "hip hop",
+                  "score": 1.7179224200177372
+                },
+                {
+                  "feature": "genre__neo_soul",
+                  "pretty_feature": "neo soul",
+                  "score": 1.5199025377665785
+                },
+                {
+                  "feature": "genre__west_coast_hip_hop",
+                  "pretty_feature": "west coast hip hop",
+                  "score": 1.2557857818289966
+                },
+                {
+                  "feature": "genre__east_coast_hip_hop",
+                  "pretty_feature": "east coast hip hop",
+                  "score": 1.1577746908062032
+                },
+                {
+                  "feature": "genre__funk",
+                  "pretty_feature": "funk",
+                  "score": 0.9863476070196899
+                },
+                {
+                  "feature": "tag__rap",
+                  "pretty_feature": "rap",
+                  "score": 0.9074083902724036
+                },
+                {
+                  "feature": "tag__hip_hop",
+                  "pretty_feature": "hip hop",
+                  "score": 0.8606697402319974
+                }
+              ],
+              "top_score": 3.800508087409019
             },
             {
               "cluster_id": 2,
-              "size": 26,
-              "cluster_name": "mixed vibe cluster",
-              "top_features": [],
-              "top_score": 0.0
+              "size": 8,
+              "cluster_name": "jazz rap / experimental hip hop",
+              "top_features": [
+                {
+                  "feature": "genre__jazz_rap",
+                  "pretty_feature": "jazz rap",
+                  "score": 4.314863353336387
+                },
+                {
+                  "feature": "genre__experimental_hip_hop",
+                  "pretty_feature": "experimental hip hop",
+                  "score": 1.6653616582532522
+                },
+                {
+                  "feature": "genre__alternative_hip_hop",
+                  "pretty_feature": "alternative hip hop",
+                  "score": 0.7330511708791563
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 0.668799679617485
+                }
+              ],
+              "top_score": 4.314863353336387
             },
             {
               "cluster_id": 3,
-              "size": 6,
+              "size": 25,
               "cluster_name": "mixed vibe cluster",
               "top_features": [],
               "top_score": 0.0
             },
             {
               "cluster_id": 4,
-              "size": 20,
-              "cluster_name": "mixed vibe cluster",
-              "top_features": [],
-              "top_score": 0.0
+              "size": 16,
+              "cluster_name": "rage rap / melodic rap",
+              "top_features": [
+                {
+                  "feature": "genre__rage_rap",
+                  "pretty_feature": "rage rap",
+                  "score": 6.263415825826149
+                },
+                {
+                  "feature": "genre__melodic_rap",
+                  "pretty_feature": "melodic rap",
+                  "score": 4.226043436538892
+                },
+                {
+                  "feature": "genre__rap",
+                  "pretty_feature": "rap",
+                  "score": 3.9653348457138358
+                },
+                {
+                  "feature": "genre__trap_soul",
+                  "pretty_feature": "trap soul",
+                  "score": 1.3900864894528306
+                },
+                {
+                  "feature": "genre__uk_grime",
+                  "pretty_feature": "uk grime",
+                  "score": 1.0267801052335805
+                },
+                {
+                  "feature": "genre__grime",
+                  "pretty_feature": "grime",
+                  "score": 0.6344260003594223
+                }
+              ],
+              "top_score": 6.263415825826149
             }
           ],
-          "strong_child_count": 0,
-          "strong_child_threshold": 0.35,
+          "strong_child_count": 4,
+          "strong_child_threshold": 2.6736935774216675,
           "signal_improved": false,
           "diagnostics": [
             {
               "k": 3,
-              "silhouette": 0.7234917017139747,
-              "adjusted_score": -0.08743853084416481,
+              "silhouette": 0.41642543394717424,
+              "adjusted_score": 0.43642543394717426,
               "cluster_sizes": [
-                69,
-                17
+                45,
+                25,
+                13
               ],
-              "largest_fraction": 0.8023255813953488,
-              "second_fraction": 0.19767441860465115,
-              "meaningful_cluster_count": 2,
+              "largest_fraction": 0.5421686746987951,
+              "second_fraction": 0.30120481927710846,
+              "meaningful_cluster_count": 3,
               "small_cluster_count": 0,
               "small_item_count": 0,
-              "merged_before_scoring": true
+              "merged_before_scoring": false
             },
             {
               "k": 4,
-              "silhouette": 0.7234917017139747,
-              "adjusted_score": -0.08743853084416481,
+              "silhouette": 0.45655358302088583,
+              "adjusted_score": 0.4965535830208858,
               "cluster_sizes": [
-                69,
-                17
+                45,
+                25,
+                8,
+                5
               ],
-              "largest_fraction": 0.8023255813953488,
-              "second_fraction": 0.19767441860465115,
-              "meaningful_cluster_count": 2,
+              "largest_fraction": 0.5421686746987951,
+              "second_fraction": 0.30120481927710846,
+              "meaningful_cluster_count": 4,
               "small_cluster_count": 0,
               "small_item_count": 0,
-              "merged_before_scoring": true
+              "merged_before_scoring": false
             },
             {
               "k": 5,
-              "silhouette": 0.6654143613834274,
-              "adjusted_score": 0.03843761719738063,
+              "silhouette": 0.45655358302088583,
+              "adjusted_score": 0.4965535830208858,
               "cluster_sizes": [
-                66,
-                12,
-                8
+                45,
+                25,
+                8,
+                5
               ],
-              "largest_fraction": 0.7674418604651163,
-              "second_fraction": 0.13953488372093023,
-              "meaningful_cluster_count": 3,
+              "largest_fraction": 0.5421686746987951,
+              "second_fraction": 0.30120481927710846,
+              "meaningful_cluster_count": 4,
               "small_cluster_count": 0,
               "small_item_count": 0,
               "merged_before_scoring": true
             },
             {
               "k": 6,
-              "silhouette": 0.5912076258405783,
-              "adjusted_score": 0.6312076258405783,
+              "silhouette": 0.45655358302088583,
+              "adjusted_score": 0.4965535830208858,
               "cluster_sizes": [
-                43,
-                24,
-                11,
-                8
+                45,
+                25,
+                8,
+                5
               ],
-              "largest_fraction": 0.5,
-              "second_fraction": 0.27906976744186046,
+              "largest_fraction": 0.5421686746987951,
+              "second_fraction": 0.30120481927710846,
               "meaningful_cluster_count": 4,
               "small_cluster_count": 0,
               "small_item_count": 0,
@@ -1324,35 +1918,35 @@
             },
             {
               "k": 7,
-              "silhouette": 0.538111197249293,
-              "adjusted_score": 0.578111197249293,
+              "silhouette": 0.45727999452840595,
+              "adjusted_score": 0.5172799945284059,
               "cluster_sizes": [
-                43,
-                22,
-                15,
-                6
+                29,
+                25,
+                16,
+                8,
+                5
               ],
-              "largest_fraction": 0.5,
-              "second_fraction": 0.2558139534883721,
-              "meaningful_cluster_count": 4,
+              "largest_fraction": 0.3493975903614458,
+              "second_fraction": 0.30120481927710846,
+              "meaningful_cluster_count": 5,
               "small_cluster_count": 0,
               "small_item_count": 0,
               "merged_before_scoring": true
             },
             {
               "k": 8,
-              "silhouette": 0.6326964675428313,
-              "adjusted_score": 0.6926964675428313,
+              "silhouette": 0.41591771923435833,
+              "adjusted_score": 0.4559177192343583,
               "cluster_sizes": [
-                26,
-                20,
-                19,
-                15,
-                6
+                29,
+                25,
+                16,
+                13
               ],
-              "largest_fraction": 0.3023255813953488,
-              "second_fraction": 0.23255813953488372,
-              "meaningful_cluster_count": 5,
+              "largest_fraction": 0.3493975903614458,
+              "second_fraction": 0.30120481927710846,
+              "meaningful_cluster_count": 4,
               "small_cluster_count": 0,
               "small_item_count": 0,
               "merged_before_scoring": true

@@ -1,0 +1,1762 @@
+[
+  {
+    "row": 0,
+    "track_id": null,
+    "canonical_key": "isrc:USRC10100769",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "7hm4HTk9encxT0LYC0J6oI",
+    "spotify_uri": null,
+    "isrc": "USRC10100769",
+    "musicbrainz_recording_id": "e8d5c3f6-494f-439a-8f6c-889df2b7a4b8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 1,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 2,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 3,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2017,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 4,
+    "track_id": null,
+    "canonical_key": "isrc:QM24S2306183",
+    "title": null,
+    "artists": [
+      "Flawed Mangoes"
+    ],
+    "year": 2023,
+    "spotify_id": "0BkWtEXXzkDMadmURIQhRp",
+    "spotify_uri": null,
+    "isrc": "QM24S2306183",
+    "musicbrainz_recording_id": "8d84581d-ea89-453e-a7b5-346ddc733e70",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 5,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Nafeesisboujee",
+      "kkanji"
+    ],
+    "year": 2024,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 6,
+    "track_id": null,
+    "canonical_key": "isrc:USCGH1682129",
+    "title": null,
+    "artists": [
+      "TV Girl"
+    ],
+    "year": 2016,
+    "spotify_id": "6QeYSvYqYUsfBzsApbjDHO",
+    "spotify_uri": null,
+    "isrc": "USCGH1682129",
+    "musicbrainz_recording_id": "b589b70d-e156-4276-9c15-55b9398d4a0f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 7,
+    "track_id": null,
+    "canonical_key": "isrc:QZCE61802033",
+    "title": null,
+    "artists": [
+      "Vansire"
+    ],
+    "year": 2018,
+    "spotify_id": "0qOCy2LqvdkMora7eZsJhQ",
+    "spotify_uri": null,
+    "isrc": "QZCE61802033",
+    "musicbrainz_recording_id": "d6396aee-0081-4008-9d85-1026537b2e9f",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 8,
+    "track_id": null,
+    "canonical_key": "isrc:USUM72013244",
+    "title": null,
+    "artists": [
+      "070 Shake",
+      "Tame Impala"
+    ],
+    "year": 2020,
+    "spotify_id": "5i5fCpsnqDJ9AfeObgd0gW",
+    "spotify_uri": null,
+    "isrc": "USUM72013244",
+    "musicbrainz_recording_id": "a8b2f68d-6bdb-4958-9259-f4bc6897c046",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 9,
+    "track_id": null,
+    "canonical_key": "isrc:ITF730701379",
+    "title": null,
+    "artists": [
+      "Piero Piccioni"
+    ],
+    "year": 1969,
+    "spotify_id": "29KwH2LEjfWEtiC2jCrLVw",
+    "spotify_uri": null,
+    "isrc": "ITF730701379",
+    "musicbrainz_recording_id": "d57cd3d3-832c-42de-9d8b-410e58ceb04a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 10,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 11,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 12,
+    "track_id": null,
+    "canonical_key": "isrc:USA4D0922204",
+    "title": null,
+    "artists": [
+      "Sweet Trip"
+    ],
+    "year": 2009,
+    "spotify_id": "2IwL0fwckPbO9sau1EHslH",
+    "spotify_uri": null,
+    "isrc": "USA4D0922204",
+    "musicbrainz_recording_id": "10cbef83-c00a-46a8-8a1a-b79dee49d912",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 13,
+    "track_id": null,
+    "canonical_key": "isrc:SEYOK1669273",
+    "title": null,
+    "artists": [
+      "Vacations"
+    ],
+    "year": 2016,
+    "spotify_id": "5TuTHrKzN6NweeQaKkBNb7",
+    "spotify_uri": null,
+    "isrc": "SEYOK1669273",
+    "musicbrainz_recording_id": "2d0ad22d-b1b0-4bc3-b084-fb657f74d238",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 14,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2013,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 15,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Current Joys"
+    ],
+    "year": 2015,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 16,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2014,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 17,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2017,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 18,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605018",
+    "title": null,
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2006,
+    "spotify_id": "0Q1nTiEPnoQSqM0qrY9TMY",
+    "spotify_uri": null,
+    "isrc": "JPH491605018",
+    "musicbrainz_recording_id": "dd024d97-07c4-46b3-be2d-63956abae44b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 19,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605000",
+    "title": null,
+    "artists": [
+      "Nujabes",
+      "Cise Starr & Akin from CYNE"
+    ],
+    "year": 2005,
+    "spotify_id": "2ej1A2Ze6P2EOW7KfIosZR",
+    "spotify_uri": null,
+    "isrc": "JPH491605000",
+    "musicbrainz_recording_id": "5fffe791-c8fd-440a-b301-d511d8b9c31f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 20,
+    "track_id": null,
+    "canonical_key": "isrc:USWB11601434",
+    "title": null,
+    "artists": [
+      "Mac Miller",
+      "Bilal"
+    ],
+    "year": 2016,
+    "spotify_id": "1OubIZ0ARYCUq5kceYUQiO",
+    "spotify_uri": null,
+    "isrc": "USWB11601434",
+    "musicbrainz_recording_id": "9e95430d-6cd9-4566-ace1-f7327c5f19b2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 21,
+    "track_id": null,
+    "canonical_key": "isrc:QZTGW2100275",
+    "title": null,
+    "artists": [
+      "Tory Lanez"
+    ],
+    "year": 2021,
+    "spotify_id": "3azJifCSqg9fRij2yKIbWz",
+    "spotify_uri": null,
+    "isrc": "QZTGW2100275",
+    "musicbrainz_recording_id": "52a0345e-497d-479e-99ca-f869f45dfefc",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 22,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605003",
+    "title": null,
+    "artists": [
+      "Nujabes",
+      "Shing02"
+    ],
+    "year": 2015,
+    "spotify_id": "4xlpJ99yL9xYQtzG6c3hwk",
+    "spotify_uri": null,
+    "isrc": "JPH491605003",
+    "musicbrainz_recording_id": "abb499e1-6da9-468a-8599-c1a16364450f",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 23,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605056",
+    "title": null,
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2003,
+    "spotify_id": "4pVwc3fU2RqL7l7L0fSwaq",
+    "spotify_uri": null,
+    "isrc": "JPH491605056",
+    "musicbrainz_recording_id": "e77ab91b-de91-4f95-8932-f866afe6e346",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 24,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605044",
+    "title": null,
+    "artists": [
+      "Nujabes",
+      "Cise Starr"
+    ],
+    "year": 2003,
+    "spotify_id": "0JL9TZip7mL7iwC5EOkALS",
+    "spotify_uri": null,
+    "isrc": "JPH491605044",
+    "musicbrainz_recording_id": "f71d8647-e338-47e0-860c-920dbbc6a276",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 25,
+    "track_id": null,
+    "canonical_key": "isrc:USRC11802773",
+    "title": null,
+    "artists": [
+      "Childish Gambino"
+    ],
+    "year": 2018,
+    "spotify_id": "7p4vHnYXkxlzvfePJVpcTr",
+    "spotify_uri": null,
+    "isrc": "USRC11802773",
+    "musicbrainz_recording_id": "f363ff62-b887-4f72-9742-e835fb051b8b",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 26,
+    "track_id": null,
+    "canonical_key": "isrc:QZ5C81600007",
+    "title": null,
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "5GUYJTQap5F3RDQiCOJhrS",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600007",
+    "musicbrainz_recording_id": "039326dc-e853-4de8-84c5-dd91c31d4256",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 27,
+    "track_id": null,
+    "canonical_key": "isrc:USQX91901118",
+    "title": null,
+    "artists": [
+      "Tyler, The Creator"
+    ],
+    "year": 2019,
+    "spotify_id": "1hz7SRTGUNAtIQ46qiNv2p",
+    "spotify_uri": null,
+    "isrc": "USQX91901118",
+    "musicbrainz_recording_id": "fb010874-ff33-45c9-b2f6-4afe146096b0",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 28,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "MF DOOM",
+      "Pebbles The Invisible Girl"
+    ],
+    "year": 1999,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 29,
+    "track_id": null,
+    "canonical_key": "isrc:USUM71804186",
+    "title": null,
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2018,
+    "spotify_id": "4IO2X2YoXoUMv0M2rwomLC",
+    "spotify_uri": null,
+    "isrc": "USUM71804186",
+    "musicbrainz_recording_id": "d8f1e3f6-c2b9-460d-8282-8874bb59d6ba",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 30,
+    "track_id": null,
+    "canonical_key": "isrc:USUM71703106",
+    "title": null,
+    "artists": [
+      "Playboi Carti",
+      "Leven Kali"
+    ],
+    "year": 2017,
+    "spotify_id": "2xyBvir9n474qfsOkxXMgx",
+    "spotify_uri": null,
+    "isrc": "USUM71703106",
+    "musicbrainz_recording_id": "142643f8-8b31-42bb-9080-9046e78d589d",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 31,
+    "track_id": null,
+    "canonical_key": "isrc:USUM71616271",
+    "title": null,
+    "artists": [
+      "Playboi Carti"
+    ],
+    "year": 2017,
+    "spotify_id": "3yk7PJnryiJ8mAPqsrujzf",
+    "spotify_uri": null,
+    "isrc": "USUM71616271",
+    "musicbrainz_recording_id": "96475c55-ae4b-4889-b9f6-d516c4a7c517",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 32,
+    "track_id": null,
+    "canonical_key": "isrc:AUUM71500292",
+    "title": null,
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "2X485T9Z5Ly0xyaghN73ed",
+    "spotify_uri": null,
+    "isrc": "AUUM71500292",
+    "musicbrainz_recording_id": "b85f7f6d-813a-4ebc-8a1d-5998ab02be9a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 33,
+    "track_id": null,
+    "canonical_key": "isrc:GBSTK0700004",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 2007,
+    "spotify_id": "4wajJ1o7jWIg62YqpkHC7S",
+    "spotify_uri": null,
+    "isrc": "GBSTK0700004",
+    "musicbrainz_recording_id": "f74b48a6-5a60-4b5a-864d-3ecb7e983c31",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 34,
+    "track_id": null,
+    "canonical_key": "isrc:USCA29600651",
+    "title": null,
+    "artists": [
+      "Mazzy Star"
+    ],
+    "year": 1996,
+    "spotify_id": "010ALbbh5KlQ4fKWgSdhRd",
+    "spotify_uri": null,
+    "isrc": "USCA29600651",
+    "musicbrainz_recording_id": "583f735b-1314-4cd5-94d5-91fe855c10cc",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 35,
+    "track_id": null,
+    "canonical_key": "isrc:USCA29300105",
+    "title": null,
+    "artists": [
+      "Mazzy Star"
+    ],
+    "year": 1993,
+    "spotify_id": "1LzNfuep1bnAUR9skqdHCK",
+    "spotify_uri": null,
+    "isrc": "USCA29300105",
+    "musicbrainz_recording_id": "cdb6eff4-47c0-4306-919f-68421b72cd12",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 36,
+    "track_id": null,
+    "canonical_key": "isrc:USCGH1682131",
+    "title": null,
+    "artists": [
+      "TV Girl"
+    ],
+    "year": 2016,
+    "spotify_id": "3IznIgmXtrUaoPWpQTy5jB",
+    "spotify_uri": null,
+    "isrc": "USCGH1682131",
+    "musicbrainz_recording_id": "75d28825-110a-46b7-b08b-8001f7aacfd8",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 37,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Pinegrove"
+    ],
+    "year": 2015,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 38,
+    "track_id": null,
+    "canonical_key": "isrc:USUG11600660",
+    "title": null,
+    "artists": [
+      "Justin Hurwitz"
+    ],
+    "year": 2016,
+    "spotify_id": "1Vk4yRsz0iBzDiZEoFMQyv",
+    "spotify_uri": null,
+    "isrc": "USUG11600660",
+    "musicbrainz_recording_id": "4ea29bcf-6221-40da-a315-8b47dd1cf97a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 39,
+    "track_id": null,
+    "canonical_key": "isrc:USRC12204602",
+    "title": null,
+    "artists": [
+      "SZA",
+      "Travis Scott"
+    ],
+    "year": 2022,
+    "spotify_id": "0xaFw2zDYf1rIJWl2dXiSF",
+    "spotify_uri": null,
+    "isrc": "USRC12204602",
+    "musicbrainz_recording_id": "0a1d4a69-14ce-43aa-b112-5d075b5894e7",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 40,
+    "track_id": null,
+    "canonical_key": "isrc:US38Y0913401",
+    "title": null,
+    "artists": [
+      "Bon Iver"
+    ],
+    "year": 2009,
+    "spotify_id": "15WbjBy1bzH1UsUldBwwlW",
+    "spotify_uri": null,
+    "isrc": "US38Y0913401",
+    "musicbrainz_recording_id": "4d8995da-a1c1-48e8-a4af-70d265b9ba67",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 41,
+    "track_id": null,
+    "canonical_key": "isrc:US38Y0913402",
+    "title": null,
+    "artists": [
+      "Bon Iver"
+    ],
+    "year": 2009,
+    "spotify_id": "2LXtyj95dK56ENS1QLt4IB",
+    "spotify_uri": null,
+    "isrc": "US38Y0913402",
+    "musicbrainz_recording_id": "7d748809-0178-49d4-b791-dc8f34bbc2bc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 42,
+    "track_id": null,
+    "canonical_key": "isrc:GBJGV1900102",
+    "title": null,
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2019,
+    "spotify_id": "0TZejo18HlJ86OrWNsXKnw",
+    "spotify_uri": null,
+    "isrc": "GBJGV1900102",
+    "musicbrainz_recording_id": "7ea4728a-3cfb-4546-a651-7b27eaea9c48",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 43,
+    "track_id": null,
+    "canonical_key": "isrc:QZG4T1900008",
+    "title": null,
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2019,
+    "spotify_id": "7EAMXbLcL0qXmciM5SwMh2",
+    "spotify_uri": null,
+    "isrc": "QZG4T1900008",
+    "musicbrainz_recording_id": "31ef2e3e-7747-4930-b942-47ae9201507a",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 44,
+    "track_id": null,
+    "canonical_key": "isrc:GBAHS2301151",
+    "title": null,
+    "artists": [
+      "Fred again..",
+      "Jozzy"
+    ],
+    "year": 2024,
+    "spotify_id": "6twB0uYXJYW9t5GHfYaQ3i",
+    "spotify_uri": null,
+    "isrc": "GBAHS2301151",
+    "musicbrainz_recording_id": "82733c0a-8257-462d-8a5e-9f4fec47b7bd",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 45,
+    "track_id": null,
+    "canonical_key": "isrc:QZG4T1900002",
+    "title": null,
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2019,
+    "spotify_id": "42EMSKPgulAzr4RLY65Eut",
+    "spotify_uri": null,
+    "isrc": "QZG4T1900002",
+    "musicbrainz_recording_id": "d22fbdb7-1559-47a5-adc5-084b6db16d7c",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 46,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE0800814",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 2000,
+    "spotify_id": "4SrRrB27n7fiRkQcPoKfpk",
+    "spotify_uri": null,
+    "isrc": "GBAYE0800814",
+    "musicbrainz_recording_id": "1028eb84-91ff-4a23-925b-7a46866a5771",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 47,
+    "track_id": null,
+    "canonical_key": "isrc:QZ5C81600014",
+    "title": null,
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "2LMkwUfqC6S6s6qDVlEuzV",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600014",
+    "musicbrainz_recording_id": "a1f25623-f56c-4f36-bcce-67488d04e7cc",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 48,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2019,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 49,
+    "track_id": null,
+    "canonical_key": "isrc:AUUM71000133",
+    "title": null,
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2010,
+    "spotify_id": "6SmV1Oo24nCZBPzIYkL4HZ",
+    "spotify_uri": null,
+    "isrc": "AUUM71000133",
+    "musicbrainz_recording_id": "7a7f8825-532a-4586-93e4-8edfe3c958de",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 50,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605020",
+    "title": null,
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2006,
+    "spotify_id": "7HVtTrysxfpqyozf4uYUUQ",
+    "spotify_uri": null,
+    "isrc": "JPH491605020",
+    "musicbrainz_recording_id": "e83bb4a3-22c0-4c6a-94c8-e62de973e86d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 51,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605041",
+    "title": null,
+    "artists": [
+      "Nujabes"
+    ],
+    "year": 2007,
+    "spotify_id": "3GFiNXCDyjCw14IRQIQszu",
+    "spotify_uri": null,
+    "isrc": "JPH491605041",
+    "musicbrainz_recording_id": "3b63dbb2-2476-422c-af64-e40d8efb7e92",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 52,
+    "track_id": null,
+    "canonical_key": "isrc:GBJGV1900105",
+    "title": null,
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2019,
+    "spotify_id": "2isf9DCebk6mUhGagcD5bf",
+    "spotify_uri": null,
+    "isrc": "GBJGV1900105",
+    "musicbrainz_recording_id": "bd0a6481-613f-4012-9c48-60ddf8ac6283",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 53,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Loving"
+    ],
+    "year": 2016,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 54,
+    "track_id": null,
+    "canonical_key": "isrc:USRC10100762",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "0jBE7Fn78EAvmIs3dCd6GO",
+    "spotify_uri": null,
+    "isrc": "USRC10100762",
+    "musicbrainz_recording_id": "824ec953-d221-4488-8c11-aff83ee7646e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 55,
+    "track_id": null,
+    "canonical_key": "isrc:QZDA52423551",
+    "title": null,
+    "artists": [
+      "Blue Imagined"
+    ],
+    "year": 2024,
+    "spotify_id": "4D7pqnF6VzLbwF96Ywe8H5",
+    "spotify_uri": null,
+    "isrc": "QZDA52423551",
+    "musicbrainz_recording_id": "b7a4ee57-6a25-4aee-8cd3-1a5bd8a422d1",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 56,
+    "track_id": null,
+    "canonical_key": "isrc:CAL451959501",
+    "title": null,
+    "artists": [
+      "Loving"
+    ],
+    "year": 2020,
+    "spotify_id": "6pTSHhupVbWJmO5hGymxkL",
+    "spotify_uri": null,
+    "isrc": "CAL451959501",
+    "musicbrainz_recording_id": "eb5d8dc5-236e-4dd1-9d49-8b5902309cbb",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 57,
+    "track_id": null,
+    "canonical_key": "isrc:QZG4T1900005",
+    "title": null,
+    "artists": [
+      "Mac DeMarco"
+    ],
+    "year": 2019,
+    "spotify_id": "6N4WUdbz6HVKy6u6JX1KqK",
+    "spotify_uri": null,
+    "isrc": "QZG4T1900005",
+    "musicbrainz_recording_id": "710142a0-16ff-433f-b937-6b3241d57d28",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 58,
+    "track_id": null,
+    "canonical_key": "isrc:USRC11300085",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2013,
+    "spotify_id": "3Y4rUyw7XBCK6hGHCOt6rp",
+    "spotify_uri": null,
+    "isrc": "USRC11300085",
+    "musicbrainz_recording_id": "f77547b6-b113-485b-a327-1ecb3325c47a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 59,
+    "track_id": null,
+    "canonical_key": "isrc:GBJGV2100407",
+    "title": null,
+    "artists": [
+      "Strawberry Guy"
+    ],
+    "year": 2021,
+    "spotify_id": "6hj8HbgTMVMvcA8a9fKAhr",
+    "spotify_uri": null,
+    "isrc": "GBJGV2100407",
+    "musicbrainz_recording_id": "97720c8e-22b6-44e3-ae02-628bcaa4c4b1",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 60,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Peter Cat Recording Co."
+    ],
+    "year": 2019,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 61,
+    "track_id": null,
+    "canonical_key": "isrc:FR31Q0900001",
+    "title": null,
+    "artists": [
+      "Phoenix"
+    ],
+    "year": 2009,
+    "spotify_id": "6ZrlXT6mUMEgomN128iekU",
+    "spotify_uri": null,
+    "isrc": "FR31Q0900001",
+    "musicbrainz_recording_id": "21664467-2453-4867-8a0e-fca8826cd054",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 62,
+    "track_id": null,
+    "canonical_key": "isrc:USWB11801014",
+    "title": null,
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2020,
+    "spotify_id": "2Yv2mHzr5AQavVdwQjEokV",
+    "spotify_uri": null,
+    "isrc": "USWB11801014",
+    "musicbrainz_recording_id": "d5d3ebed-47cc-4454-9207-eb9a8356066f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 63,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2013,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 64,
+    "track_id": null,
+    "canonical_key": "isrc:USRC12204591",
+    "title": null,
+    "artists": [
+      "SZA"
+    ],
+    "year": 2022,
+    "spotify_id": "4iZ4pt7kvcaH6Yo8UoZ4s2",
+    "spotify_uri": null,
+    "isrc": "USRC12204591",
+    "musicbrainz_recording_id": "6cf2ac53-82d4-4c6d-94ca-083cfd23db6d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 65,
+    "track_id": null,
+    "canonical_key": "isrc:GBSTK0700003",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 2007,
+    "spotify_id": "35YyxFpE0ZTOoqFx5bADW8",
+    "spotify_uri": null,
+    "isrc": "GBSTK0700003",
+    "musicbrainz_recording_id": "f3bea96c-5ebf-4d37-990d-14f1bc281459",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 66,
+    "track_id": null,
+    "canonical_key": "isrc:QM24S2307357",
+    "title": null,
+    "artists": [
+      "Mk.gee"
+    ],
+    "year": 2024,
+    "spotify_id": "1sWYVBg7ix2WAq43J9nY7E",
+    "spotify_uri": null,
+    "isrc": "QM24S2307357",
+    "musicbrainz_recording_id": "6c1cc859-c978-4db2-be60-46ce7215c245",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 67,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE9700386",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1997,
+    "spotify_id": "10nyNJ6zNy2YVYLrcwLccB",
+    "spotify_uri": null,
+    "isrc": "GBAYE9700386",
+    "musicbrainz_recording_id": "980a426e-623e-4ea5-98c7-008d037a0508",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 68,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE9400056",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1995,
+    "spotify_id": "73CKjW3vsUXRpy3NnX4H7F",
+    "spotify_uri": null,
+    "isrc": "GBAYE9400056",
+    "musicbrainz_recording_id": "1e73e7a6-7378-46e5-97a7-2c299c656a29",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 69,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE9701374",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1997,
+    "spotify_id": "2fuYa3Lx06QQJAm0MjztKr",
+    "spotify_uri": null,
+    "isrc": "GBAYE9701374",
+    "musicbrainz_recording_id": "47b02a82-c3bf-4647-b894-dd1c8f608e7f",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 70,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE9400055",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1995,
+    "spotify_id": "5jafMI8FLibnjkYTZ33m0c",
+    "spotify_uri": null,
+    "isrc": "GBAYE9400055",
+    "musicbrainz_recording_id": "83cf16bc-01db-4766-9e3e-f3c796639cf2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 71,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE0000569",
+    "title": null,
+    "artists": [
+      "Coldplay"
+    ],
+    "year": 2000,
+    "spotify_id": "7D0RhFcb3CrfPuTJ0obrod",
+    "spotify_uri": null,
+    "isrc": "GBAYE0000569",
+    "musicbrainz_recording_id": "22d49305-4e35-4a69-8638-05ac5f734065",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 72,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE9400060",
+    "title": null,
+    "artists": [
+      "Radiohead"
+    ],
+    "year": 1995,
+    "spotify_id": "1dyTcli07c77mtQK3ahUZR",
+    "spotify_uri": null,
+    "isrc": "GBAYE9400060",
+    "musicbrainz_recording_id": "e234705a-d068-43d5-a122-cef8f056588e",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 73,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Mt. Joy"
+    ],
+    "year": 2018,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 74,
+    "track_id": null,
+    "canonical_key": "isrc:USDMG1885206",
+    "title": null,
+    "artists": [
+      "Mt. Joy"
+    ],
+    "year": 2018,
+    "spotify_id": "1xHQRQVnfefr7sxZNYTx0k",
+    "spotify_uri": null,
+    "isrc": "USDMG1885206",
+    "musicbrainz_recording_id": "65840325-af6b-4f5f-a750-fa248b3dc979",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 75,
+    "track_id": null,
+    "canonical_key": "isrc:USVI21200910",
+    "title": null,
+    "artists": [
+      "The Smashing Pumpkins"
+    ],
+    "year": 1995,
+    "spotify_id": "5QLHGv0DfpeXLNFo7SFEy1",
+    "spotify_uri": null,
+    "isrc": "USVI21200910",
+    "musicbrainz_recording_id": "d4261bc4-a684-40d1-9f40-a4c394bfacb8",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 76,
+    "track_id": null,
+    "canonical_key": "isrc:USRC10100768",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "0OM9ri37LIbPc9hffwsyb1",
+    "spotify_uri": null,
+    "isrc": "USRC10100768",
+    "musicbrainz_recording_id": "5105e2ef-4f42-44c5-967d-b1343d4b5827",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 77,
+    "track_id": null,
+    "canonical_key": "isrc:USRC10100764",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2001,
+    "spotify_id": "21Ay8Y9Pr91nSauPGtK6MW",
+    "spotify_uri": null,
+    "isrc": "USRC10100764",
+    "musicbrainz_recording_id": "f4e25493-e6c0-457c-85cf-144035ddeec2",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 3
+  },
+  {
+    "row": 78,
+    "track_id": null,
+    "canonical_key": "isrc:QZ5C81600009",
+    "title": null,
+    "artists": [
+      "Frank Ocean"
+    ],
+    "year": 2016,
+    "spotify_id": "7eqoqGkKwgOaWNNHx90uEZ",
+    "spotify_uri": null,
+    "isrc": "QZ5C81600009",
+    "musicbrainz_recording_id": "3e341bc1-16e2-43e3-adf5-d7a8c2059b0d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 79,
+    "track_id": null,
+    "canonical_key": "isrc:GBCRL1100070",
+    "title": null,
+    "artists": [
+      "The Smiths"
+    ],
+    "year": 1984,
+    "spotify_id": "1xaTREM89RbIxkcjlpf4Uw",
+    "spotify_uri": null,
+    "isrc": "GBCRL1100070",
+    "musicbrainz_recording_id": "69cabdb6-0909-4177-b41d-6f39e75c250b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 80,
+    "track_id": null,
+    "canonical_key": "isrc:USWB11801016",
+    "title": null,
+    "artists": [
+      "Mac Miller"
+    ],
+    "year": 2020,
+    "spotify_id": "1kwnxJNVl7cwcU98RvMBaR",
+    "spotify_uri": null,
+    "isrc": "USWB11801016",
+    "musicbrainz_recording_id": "07780adb-b905-442c-8ecb-e7439a87e0d3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 5
+  },
+  {
+    "row": 81,
+    "track_id": null,
+    "canonical_key": "isrc:AUUM71500293",
+    "title": null,
+    "artists": [
+      "Tame Impala"
+    ],
+    "year": 2015,
+    "spotify_id": "1cCbsojaA6GIT7Y3zuMJ1q",
+    "spotify_uri": null,
+    "isrc": "AUUM71500293",
+    "musicbrainz_recording_id": "c9f0e0e0-3789-4a78-a91e-03bc0c3ea998",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 82,
+    "track_id": null,
+    "canonical_key": "isrc:NZUM71300124",
+    "title": null,
+    "artists": [
+      "Lorde"
+    ],
+    "year": 2013,
+    "spotify_id": "3G6hD9B2ZHOsgf4WfNu7X1",
+    "spotify_uri": null,
+    "isrc": "NZUM71300124",
+    "musicbrainz_recording_id": "f5756433-92ff-4a85-9857-35c625c0ed26",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 83,
+    "track_id": null,
+    "canonical_key": "isrc:NZUM71300122",
+    "title": null,
+    "artists": [
+      "Lorde"
+    ],
+    "year": 2013,
+    "spotify_id": "2MvvoeRt8NcOXWESkxWn3g",
+    "spotify_uri": null,
+    "isrc": "NZUM71300122",
+    "musicbrainz_recording_id": "808e54ee-0ab6-48b8-8297-61e8016b8b5c",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 84,
+    "track_id": null,
+    "canonical_key": "isrc:USRC11803252",
+    "title": null,
+    "artists": [
+      "A$AP Rocky"
+    ],
+    "year": 2018,
+    "spotify_id": "2aPTvyE09vUCRwVvj0I8WK",
+    "spotify_uri": null,
+    "isrc": "USRC11803252",
+    "musicbrainz_recording_id": "2310544e-003a-4d85-aa96-634a55023954",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 85,
+    "track_id": null,
+    "canonical_key": "isrc:JPH491605079",
+    "title": null,
+    "artists": [
+      "Nujabes",
+      "Uyama Hiroto"
+    ],
+    "year": 2015,
+    "spotify_id": "16wGHOPaWoat5rkAZkixxk",
+    "spotify_uri": null,
+    "isrc": "JPH491605079",
+    "musicbrainz_recording_id": "ad912b6e-e39c-4382-a106-d69148b991ac",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 86,
+    "track_id": null,
+    "canonical_key": "isrc:USLS51832403",
+    "title": null,
+    "artists": [
+      "Nicholas Britell"
+    ],
+    "year": 2018,
+    "spotify_id": "2IvnDjlgH8yy70Nz99UdcJ",
+    "spotify_uri": null,
+    "isrc": "USLS51832403",
+    "musicbrainz_recording_id": "4c4c3c7d-5407-4558-a0f5-2074e78f0f9a",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 87,
+    "track_id": null,
+    "canonical_key": "isrc:GBUM71303827",
+    "title": null,
+    "artists": [
+      "Disclosure",
+      "Eliza Doolittle",
+      "Flume"
+    ],
+    "year": 2013,
+    "spotify_id": "1snNAXmmPXCn0dkF9DaPWw",
+    "spotify_uri": null,
+    "isrc": "GBUM71303827",
+    "musicbrainz_recording_id": "f6e92952-b106-4b3d-8b08-b691e2979359",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 88,
+    "track_id": null,
+    "canonical_key": "isrc:TCACJ1593857",
+    "title": null,
+    "artists": [
+      "Cigarettes After Sex"
+    ],
+    "year": 2012,
+    "spotify_id": "3W7KHojYGgYaoX9ogKO9hU",
+    "spotify_uri": null,
+    "isrc": "TCACJ1593857",
+    "musicbrainz_recording_id": "a91bb323-f019-4897-a2c5-4c64408ddfa6",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 89,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Clairo"
+    ],
+    "year": 2019,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 90,
+    "track_id": null,
+    "canonical_key": "isrc:FR31Q0900002",
+    "title": null,
+    "artists": [
+      "Phoenix"
+    ],
+    "year": 2009,
+    "spotify_id": "5JtPGzRgrWxkXX9LoROq3d",
+    "spotify_uri": null,
+    "isrc": "FR31Q0900002",
+    "musicbrainz_recording_id": "8e20739e-0dcc-45b7-ad13-6b5548f0523a",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 91,
+    "track_id": null,
+    "canonical_key": "isrc:USRC11702649",
+    "title": null,
+    "artists": [
+      "Bleachers",
+      "Lorde"
+    ],
+    "year": 2017,
+    "spotify_id": "25wTebB8ECapFHWRPywpYR",
+    "spotify_uri": null,
+    "isrc": "USRC11702649",
+    "musicbrainz_recording_id": "4064d149-cd73-46a0-bc19-c22e4860e673",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 92,
+    "track_id": null,
+    "canonical_key": "isrc:USUM71900773",
+    "title": null,
+    "artists": [
+      "Billie Eilish"
+    ],
+    "year": 2019,
+    "spotify_id": "6CcJMwBtXByIz4zQLzFkKc",
+    "spotify_uri": null,
+    "isrc": "USUM71900773",
+    "musicbrainz_recording_id": "853e1775-727f-4b7f-b91d-09be9bb55ef8",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 4
+  },
+  {
+    "row": 93,
+    "track_id": null,
+    "canonical_key": "isrc:USRC11902727",
+    "title": null,
+    "artists": [
+      "The Strokes"
+    ],
+    "year": 2020,
+    "spotify_id": "2t0wwvR15fc3K1ey8OiOaN",
+    "spotify_uri": null,
+    "isrc": "USRC11902727",
+    "musicbrainz_recording_id": "489416b0-7fce-4261-908b-b8b16b2a9f12",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 94,
+    "track_id": null,
+    "canonical_key": "isrc:USWB11301111",
+    "title": null,
+    "artists": [
+      "Fleetwood Mac"
+    ],
+    "year": 1977,
+    "spotify_id": "0ofHAoxe9vBkTCp2UQIavz",
+    "spotify_uri": null,
+    "isrc": "USWB11301111",
+    "musicbrainz_recording_id": "248cc9d1-97ea-493e-84d4-4c5ec718683b",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 6
+  },
+  {
+    "row": 95,
+    "track_id": null,
+    "canonical_key": "isrc:GBAYE0200774",
+    "title": null,
+    "artists": [
+      "Coldplay"
+    ],
+    "year": 2002,
+    "spotify_id": "3ou9rSNUQnE7XYmJkUUIOc",
+    "spotify_uri": null,
+    "isrc": "GBAYE0200774",
+    "musicbrainz_recording_id": "522da5b6-9ce1-4fbb-9262-4914b91fb532",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 96,
+    "track_id": null,
+    "canonical_key": "isrc:JPVI00441210",
+    "title": null,
+    "artists": [
+      "Force Of Nature"
+    ],
+    "year": 2004,
+    "spotify_id": "2ff0Hy1uymLoiiHD1nmeOB",
+    "spotify_uri": null,
+    "isrc": "JPVI00441210",
+    "musicbrainz_recording_id": "abbe9286-9f36-4c79-8f4f-ba7f2bfa7bb3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  }
+]

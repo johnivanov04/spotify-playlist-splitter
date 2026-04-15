@@ -1,0 +1,233 @@
+[
+  {
+    "cluster_id": 1,
+    "cluster_name": "tech house / house",
+    "size": 21,
+    "sample_tracks": [
+      "None — John Summit, HAYLA",
+      "None — John Summit, HAYLA",
+      "None — Wh0, Kideko",
+      "None — Dom Dolla, Clementine Douglas",
+      "None — Dom Dolla",
+      "None — Dom Dolla",
+      "None — Matroda",
+      "None — Dominica",
+      "None — Chris Lake, Aatig",
+      "None — Disclosure"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__tech_house",
+        "pretty_feature": "tech house",
+        "score": 5.454028778355583
+      },
+      {
+        "feature": "genre__house",
+        "pretty_feature": "house",
+        "score": 3.2777103085637456
+      },
+      {
+        "feature": "genre__bass_house",
+        "pretty_feature": "bass house",
+        "score": 2.777509971006391
+      },
+      {
+        "feature": "genre__stutter_house",
+        "pretty_feature": "stutter house",
+        "score": 2.4843498183997452
+      },
+      {
+        "feature": "genre__afro_house",
+        "pretty_feature": "afro house",
+        "score": 1.5132679093541601
+      },
+      {
+        "feature": "genre__bassline",
+        "pretty_feature": "bassline",
+        "score": 1.3467661261976052
+      },
+      {
+        "feature": "genre__funky_house",
+        "pretty_feature": "funky house",
+        "score": 1.346766126197605
+      },
+      {
+        "feature": "genre__electro_house",
+        "pretty_feature": "electro house",
+        "score": 0.18113959975111765
+      },
+      {
+        "feature": "genre__edm",
+        "pretty_feature": "edm",
+        "score": 0.1314329160809784
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.09318882856583799
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "bass house / tech house",
+    "size": 14,
+    "sample_tracks": [
+      "None — Odd Mob, OMNOM",
+      "None — FISHER",
+      "None — Chris Lake, Alexis Roberts",
+      "None — Moksi, Emy Perez, Digitzz",
+      "None — FISHER, Kita Alexander",
+      "None — Sunday Scaries, Kaleena Zanders",
+      "None — X Eliot",
+      "None — Jengi",
+      "None — ACRAZE, Cherish",
+      "None — All Cane"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__bass_house",
+        "pretty_feature": "bass house",
+        "score": 2.06806392455656
+      },
+      {
+        "feature": "genre__tech_house",
+        "pretty_feature": "tech house",
+        "score": 1.0937437993270211
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "tech house / house",
+    "size": 11,
+    "sample_tracks": [
+      "None — Peggy Gou",
+      "None — Jauz, Habstrakt",
+      "None — FISHER",
+      "None — LF SYSTEM",
+      "None — Mau P",
+      "None — Oliver Heldens, Nile Rodgers, House Gospel Choir",
+      "None — Endor",
+      "None — FISHER",
+      "None — Daft Punk",
+      "None — James Hype"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__tech_house",
+        "pretty_feature": "tech house",
+        "score": 5.644447558981851
+      },
+      {
+        "feature": "genre__house",
+        "pretty_feature": "house",
+        "score": 5.02286890280607
+      },
+      {
+        "feature": "tag__tech_house",
+        "pretty_feature": "tech house",
+        "score": 3.443804991867466
+      },
+      {
+        "feature": "tag__dance_electro_pop",
+        "pretty_feature": "dance electro pop",
+        "score": 3.376802474210111
+      },
+      {
+        "feature": "tag__french_house",
+        "pretty_feature": "french house",
+        "score": 3.173222724498227
+      },
+      {
+        "feature": "genre__french_house",
+        "pretty_feature": "french house",
+        "score": 3.1603791032392974
+      },
+      {
+        "feature": "tag__club_dance",
+        "pretty_feature": "club dance",
+        "score": 3.09645581137804
+      },
+      {
+        "feature": "tag__house",
+        "pretty_feature": "house",
+        "score": 3.030233655944137
+      },
+      {
+        "feature": "genre__bass_house",
+        "pretty_feature": "bass house",
+        "score": 2.648519780742787
+      },
+      {
+        "feature": "genre__bassline",
+        "pretty_feature": "bassline",
+        "score": 2.6024767918951706
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "cluster_name": "bassline / uk garage",
+    "size": 5,
+    "sample_tracks": [
+      "None — piri, Tommy Villiers, piri & tommy",
+      "None — Jhelisa, Sunship",
+      "None — James Hype, Ayak, Dots Per Inch, TS7",
+      "None — NOTION",
+      "None — NOTION, Carrie Baxter"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__bassline",
+        "pretty_feature": "bassline",
+        "score": 17.369634220498547
+      },
+      {
+        "feature": "genre__uk_garage",
+        "pretty_feature": "uk garage",
+        "score": 16.70781717057431
+      },
+      {
+        "feature": "genre__drum_and_bass",
+        "pretty_feature": "drum and bass",
+        "score": 14.351735112233223
+      },
+      {
+        "feature": "genre__bass_house",
+        "pretty_feature": "bass house",
+        "score": 8.87874597047495
+      },
+      {
+        "feature": "genre__tech_house",
+        "pretty_feature": "tech house",
+        "score": 1.5694112515846825
+      },
+      {
+        "feature": "genre__house",
+        "pretty_feature": "house",
+        "score": 1.2688971530440631
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "pretty_feature": "aggressive",
+        "score": 0.31390534329314856
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.3101755393123506
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.25928315769664545
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.24895543421981198
+      }
+    ]
+  }
+]
