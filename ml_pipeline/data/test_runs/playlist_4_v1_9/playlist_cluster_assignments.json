@@ -1,0 +1,950 @@
+[
+  {
+    "row": 0,
+    "track_id": null,
+    "canonical_key": "isrc:USUG12301338",
+    "title": null,
+    "artists": [
+      "John Summit",
+      "HAYLA"
+    ],
+    "year": 2024,
+    "spotify_id": "3pUz2qJe5nqZemi3hhIxMk",
+    "spotify_uri": null,
+    "isrc": "USUG12301338",
+    "musicbrainz_recording_id": "9867854c-eb21-4d64-bab2-fe1d1105004b",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 1,
+    "track_id": null,
+    "canonical_key": "isrc:USUG12401003",
+    "title": null,
+    "artists": [
+      "John Summit",
+      "HAYLA"
+    ],
+    "year": 2024,
+    "spotify_id": "32VIrOsJmwvqRm4rWFBCsi",
+    "spotify_uri": null,
+    "isrc": "USUG12401003",
+    "musicbrainz_recording_id": "c10c8681-4870-4449-8d9c-a70b769acb6c",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 2,
+    "track_id": null,
+    "canonical_key": "isrc:GBJAJ2101652",
+    "title": null,
+    "artists": [
+      "Wh0",
+      "Kideko"
+    ],
+    "year": 2021,
+    "spotify_id": "1oLcBdX94CvaIRzdpTJA8u",
+    "spotify_uri": null,
+    "isrc": "GBJAJ2101652",
+    "musicbrainz_recording_id": "f0fcea14-9438-45bd-96e3-813876f5dbee",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 3,
+    "track_id": null,
+    "canonical_key": "isrc:GBBKS2300080",
+    "title": null,
+    "artists": [
+      "Peggy Gou"
+    ],
+    "year": 2023,
+    "spotify_id": "23RoR84KodL5HWvUTneQ1w",
+    "spotify_uri": null,
+    "isrc": "GBBKS2300080",
+    "musicbrainz_recording_id": "dd6dd3da-97cb-45f3-b28b-ff3e7eb22de3",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 4,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Odd Mob",
+      "OMNOM"
+    ],
+    "year": 2023,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 5,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "FISHER"
+    ],
+    "year": 2017,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 6,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Chris Lake",
+      "Alexis Roberts"
+    ],
+    "year": 2018,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 7,
+    "track_id": null,
+    "canonical_key": "isrc:USQX92201881",
+    "title": null,
+    "artists": [
+      "Dom Dolla",
+      "Clementine Douglas"
+    ],
+    "year": 2022,
+    "spotify_id": "6txvQu0zUbiqG24A8XMLnK",
+    "spotify_uri": null,
+    "isrc": "USQX92201881",
+    "musicbrainz_recording_id": "9ed2b09e-20d6-4ced-891c-35998be81099",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 8,
+    "track_id": null,
+    "canonical_key": "isrc:USA2P1937036",
+    "title": null,
+    "artists": [
+      "Moksi",
+      "Emy Perez",
+      "Digitzz"
+    ],
+    "year": 2019,
+    "spotify_id": "5ijp0ctfwwkmkR6hWDQnwn",
+    "spotify_uri": null,
+    "isrc": "USA2P1937036",
+    "musicbrainz_recording_id": "cec81375-1652-4b6b-9040-89e918b8b882",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 9,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "FISHER",
+      "Kita Alexander"
+    ],
+    "year": 2023,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 10,
+    "track_id": null,
+    "canonical_key": "isrc:GBUM72204910",
+    "title": null,
+    "artists": [
+      "piri",
+      "Tommy Villiers",
+      "piri & tommy"
+    ],
+    "year": 2022,
+    "spotify_id": "2fmtrXfvbN8xkHwE0zgTTc",
+    "spotify_uri": null,
+    "isrc": "GBUM72204910",
+    "musicbrainz_recording_id": "42385c60-1761-4ef1-bffb-a2a289f17e20",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 11,
+    "track_id": null,
+    "canonical_key": "isrc:USQX92305379",
+    "title": null,
+    "artists": [
+      "Dom Dolla"
+    ],
+    "year": 2023,
+    "spotify_id": "787Y2idwCU2Rk60Prv4wpr",
+    "spotify_uri": null,
+    "isrc": "USQX92305379",
+    "musicbrainz_recording_id": "db12004b-2dd7-4a5d-adae-dcf1d33d9289",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 12,
+    "track_id": null,
+    "canonical_key": "isrc:NLZ542200800",
+    "title": null,
+    "artists": [
+      "Jauz",
+      "Habstrakt"
+    ],
+    "year": 2022,
+    "spotify_id": "1E3u84XwqE5mHxjdTSIodR",
+    "spotify_uri": null,
+    "isrc": "NLZ542200800",
+    "musicbrainz_recording_id": "ca815061-d9b1-45f5-ac00-31b850393912",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 13,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "Sunday Scaries",
+      "Kaleena Zanders"
+    ],
+    "year": 2023,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 14,
+    "track_id": null,
+    "canonical_key": "isrc:USQX92401650",
+    "title": null,
+    "artists": [
+      "Dom Dolla"
+    ],
+    "year": 2024,
+    "spotify_id": "46N3FCKFABRjNoNBVq4osr",
+    "spotify_uri": null,
+    "isrc": "USQX92401650",
+    "musicbrainz_recording_id": "8994d46c-950a-4c2e-9a0f-70a360879ad2",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 15,
+    "track_id": null,
+    "canonical_key": "isrc:QZTAS2317356",
+    "title": null,
+    "artists": [
+      "X Eliot"
+    ],
+    "year": 2023,
+    "spotify_id": "3LPO7SRYyPIzcOUQQnATOm",
+    "spotify_uri": null,
+    "isrc": "QZTAS2317356",
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 16,
+    "track_id": null,
+    "canonical_key": "isrc:CA5KR2136652",
+    "title": null,
+    "artists": [
+      "Matroda"
+    ],
+    "year": 2022,
+    "spotify_id": "5lbFVZ3g63LLssXLKirfjA",
+    "spotify_uri": null,
+    "isrc": "CA5KR2136652",
+    "musicbrainz_recording_id": "ae72e6f7-6808-4bdc-9788-4f343c36fc83",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 17,
+    "track_id": null,
+    "canonical_key": "isrc:BE5KW2300388",
+    "title": null,
+    "artists": [
+      "Jengi"
+    ],
+    "year": 2023,
+    "spotify_id": "1YwWHm6Ad1fizVPaQ8nrco",
+    "spotify_uri": null,
+    "isrc": "BE5KW2300388",
+    "musicbrainz_recording_id": "6ba4a12b-bc2a-4c7c-9889-9d08ce610e7f",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 18,
+    "track_id": null,
+    "canonical_key": "isrc:NLML61600010",
+    "title": null,
+    "artists": [
+      "Dominica"
+    ],
+    "year": 1994,
+    "spotify_id": "77eJSMNYSqeZdhiOHDPaK6",
+    "spotify_uri": null,
+    "isrc": "NLML61600010",
+    "musicbrainz_recording_id": "28bb8f1d-7068-4986-8d47-b8361f1c32b2",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 1
+  },
+  {
+    "row": 19,
+    "track_id": null,
+    "canonical_key": "isrc:USUG12207808",
+    "title": null,
+    "artists": [
+      "Chris Lake",
+      "Aatig"
+    ],
+    "year": 2022,
+    "spotify_id": "2e2yKavdT6WQzzMHwNtPFa",
+    "spotify_uri": null,
+    "isrc": "USUG12207808",
+    "musicbrainz_recording_id": "c9ffd2b7-9853-4882-8ab4-349bba3b9825",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 20,
+    "track_id": null,
+    "canonical_key": "isrc:USA2P2420371",
+    "title": null,
+    "artists": [
+      "Disclosure"
+    ],
+    "year": 2024,
+    "spotify_id": "29I9dv9Nq704w0Oc5yFGsR",
+    "spotify_uri": null,
+    "isrc": "USA2P2420371",
+    "musicbrainz_recording_id": "36bf7af6-57f6-4c9b-846b-d102666bf48e",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 21,
+    "track_id": null,
+    "canonical_key": "track_id:None",
+    "title": null,
+    "artists": [
+      "ACRAZE",
+      "Cherish"
+    ],
+    "year": 2021,
+    "spotify_id": null,
+    "spotify_uri": null,
+    "isrc": null,
+    "musicbrainz_recording_id": null,
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 22,
+    "track_id": null,
+    "canonical_key": "isrc:GBBCM9800344",
+    "title": null,
+    "artists": [
+      "Jhelisa",
+      "Sunship"
+    ],
+    "year": 1998,
+    "spotify_id": "7vfIghWey3FItmcZXZy2fE",
+    "spotify_uri": null,
+    "isrc": "GBBCM9800344",
+    "musicbrainz_recording_id": "6b8a16a4-99fb-4e10-9fc0-bca826ef673d",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 23,
+    "track_id": null,
+    "canonical_key": "isrc:CA5KR2131835",
+    "title": null,
+    "artists": [
+      "Knock2"
+    ],
+    "year": 2021,
+    "spotify_id": "0dAfw35k2hBsnbSl74AVJF",
+    "spotify_uri": null,
+    "isrc": "CA5KR2131835",
+    "musicbrainz_recording_id": "e0de4a5f-7b9b-4c0a-b7d4-281f4839ba43",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 24,
+    "track_id": null,
+    "canonical_key": "isrc:USAT22306807",
+    "title": null,
+    "artists": [
+      "FISHER",
+      "Aatig"
+    ],
+    "year": 2023,
+    "spotify_id": "7zp9FOU4cjFdGN1zdWTvcB",
+    "spotify_uri": null,
+    "isrc": "USAT22306807",
+    "musicbrainz_recording_id": "897e7cad-d6df-43e3-8838-463e2720f29b",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 25,
+    "track_id": null,
+    "canonical_key": "isrc:CA5KR1923939",
+    "title": null,
+    "artists": [
+      "FISHER"
+    ],
+    "year": 2019,
+    "spotify_id": "1gRQxbfL4ULWyTosgXSbWT",
+    "spotify_uri": null,
+    "isrc": "CA5KR1923939",
+    "musicbrainz_recording_id": "80301138-7cf1-468d-9dd2-7a0d6f03a4d1",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 26,
+    "track_id": null,
+    "canonical_key": "isrc:QM24S2300657",
+    "title": null,
+    "artists": [
+      "it's murph"
+    ],
+    "year": 2023,
+    "spotify_id": "7u0fz3V6cYeYTX91DMmIvQ",
+    "spotify_uri": null,
+    "isrc": "QM24S2300657",
+    "musicbrainz_recording_id": "2c798f65-2904-4a7a-92c7-6ec0f4338fa1",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 27,
+    "track_id": null,
+    "canonical_key": "isrc:QZTAY2308581",
+    "title": null,
+    "artists": [
+      "Twin Diplomacy",
+      "Sunday Scaries"
+    ],
+    "year": 2023,
+    "spotify_id": "6TvCNh37pSO9rp9fIhskKN",
+    "spotify_uri": null,
+    "isrc": "QZTAY2308581",
+    "musicbrainz_recording_id": "11be23d6-33f0-45be-9938-4f5869511aff",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 28,
+    "track_id": null,
+    "canonical_key": "isrc:GBHAD2102582",
+    "title": null,
+    "artists": [
+      "HUGEL",
+      "Cumbiafrica"
+    ],
+    "year": 2021,
+    "spotify_id": "0pIiCv0GdhtsOjCJ5Y7zHj",
+    "spotify_uri": null,
+    "isrc": "GBHAD2102582",
+    "musicbrainz_recording_id": "e91614f4-bd97-42ab-8a7c-088ce0255da5",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 29,
+    "track_id": null,
+    "canonical_key": "isrc:QZUCN2200599",
+    "title": null,
+    "artists": [
+      "All Cane"
+    ],
+    "year": 2023,
+    "spotify_id": "3UYsJbgJ6EelhHwL00zmwr",
+    "spotify_uri": null,
+    "isrc": "QZUCN2200599",
+    "musicbrainz_recording_id": "34d7e686-35e0-44db-8686-332e2f1c837a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 30,
+    "track_id": null,
+    "canonical_key": "isrc:USUG12301938",
+    "title": null,
+    "artists": [
+      "Chris Lake",
+      "Aluna"
+    ],
+    "year": 2023,
+    "spotify_id": "74nEGIzIefJhJ5qX7NeIAz",
+    "spotify_uri": null,
+    "isrc": "USUG12301938",
+    "musicbrainz_recording_id": "bcd16fa7-1760-4457-9841-b8d017bddd57",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 31,
+    "track_id": null,
+    "canonical_key": "isrc:GBAHT2200492",
+    "title": null,
+    "artists": [
+      "LF SYSTEM"
+    ],
+    "year": 2022,
+    "spotify_id": "40SBS57su9xLiE1WqkXOVr",
+    "spotify_uri": null,
+    "isrc": "GBAHT2200492",
+    "musicbrainz_recording_id": "d71f7d62-f7fc-4907-ba37-3f97a12448f7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 32,
+    "track_id": null,
+    "canonical_key": "isrc:NLRD52264071",
+    "title": null,
+    "artists": [
+      "Mau P"
+    ],
+    "year": 2023,
+    "spotify_id": "7jURkEKDVEm9sHueqUX0ko",
+    "spotify_uri": null,
+    "isrc": "NLRD52264071",
+    "musicbrainz_recording_id": "6c3c246c-32e4-4959-a461-8d6f86707c7a",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 33,
+    "track_id": null,
+    "canonical_key": "isrc:US39N2300454",
+    "title": null,
+    "artists": [
+      "GENESI",
+      "MEDUZA"
+    ],
+    "year": 2023,
+    "spotify_id": "5ooCfBqZyTB5CTdu1x7S77",
+    "spotify_uri": null,
+    "isrc": "US39N2300454",
+    "musicbrainz_recording_id": "25b2fc11-31fc-4c57-80eb-3104de046395",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 34,
+    "track_id": null,
+    "canonical_key": "isrc:USUM70906794",
+    "title": null,
+    "artists": [
+      "Yeah Yeah Yeahs",
+      "A-Trak"
+    ],
+    "year": 2009,
+    "spotify_id": "2idmlkd8oUaQvYEtINpLBX",
+    "spotify_uri": null,
+    "isrc": "USUM70906794",
+    "musicbrainz_recording_id": "e6889fcc-343f-461f-9e15-79c09d29ea6d",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 35,
+    "track_id": null,
+    "canonical_key": "isrc:USSM11306037",
+    "title": null,
+    "artists": [
+      "Cherub"
+    ],
+    "year": 2014,
+    "spotify_id": "44CZRkOxv7UItaAUmh8PgN",
+    "spotify_uri": null,
+    "isrc": "USSM11306037",
+    "musicbrainz_recording_id": "d10f0b6a-c553-46e9-a99b-cde6688ac42a",
+    "has_tags": false,
+    "has_genres": false,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 36,
+    "track_id": null,
+    "canonical_key": "isrc:GBK6Y2251421",
+    "title": null,
+    "artists": [
+      "Mau P"
+    ],
+    "year": 2022,
+    "spotify_id": "0w7JPlp7eEQI2EKW3ayXrv",
+    "spotify_uri": null,
+    "isrc": "GBK6Y2251421",
+    "musicbrainz_recording_id": "ab4c7716-3f41-4fa9-b47a-586f69d962a9",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 37,
+    "track_id": null,
+    "canonical_key": "isrc:USRC12201414",
+    "title": null,
+    "artists": [
+      "Oliver Heldens",
+      "Nile Rodgers",
+      "House Gospel Choir"
+    ],
+    "year": 2022,
+    "spotify_id": "2LxdNADWier3MKTei8FbOY",
+    "spotify_uri": null,
+    "isrc": "USRC12201414",
+    "musicbrainz_recording_id": "a91cb813-0d30-4a9f-b837-a0dafad4ed35",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 38,
+    "track_id": null,
+    "canonical_key": "isrc:UKRPL1900015",
+    "title": null,
+    "artists": [
+      "James Hype",
+      "Ayak",
+      "Dots Per Inch",
+      "TS7"
+    ],
+    "year": 2019,
+    "spotify_id": "51bwChuoablcgmmSjvwe8Y",
+    "spotify_uri": null,
+    "isrc": "UKRPL1900015",
+    "musicbrainz_recording_id": "741655d6-2b67-411f-9124-47e977e066db",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 39,
+    "track_id": null,
+    "canonical_key": "isrc:NL8RL2409745",
+    "title": null,
+    "artists": [
+      "Mau P"
+    ],
+    "year": 2024,
+    "spotify_id": "5vASuVQkngtFoCOczem52V",
+    "spotify_uri": null,
+    "isrc": "NL8RL2409745",
+    "musicbrainz_recording_id": "d4ba4d01-a2eb-435c-9919-5a021e48f928",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 40,
+    "track_id": null,
+    "canonical_key": "isrc:USAT22401740",
+    "title": null,
+    "artists": [
+      "Anti Up"
+    ],
+    "year": 2024,
+    "spotify_id": "1KEs5gnaNl40iM9Ytmq1DD",
+    "spotify_uri": null,
+    "isrc": "USAT22401740",
+    "musicbrainz_recording_id": "bb41db3b-e1f5-407f-bce2-5503f604d97a",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 3
+  },
+  {
+    "row": 41,
+    "track_id": null,
+    "canonical_key": "isrc:GBCPZ1916610",
+    "title": null,
+    "artists": [
+      "Endor"
+    ],
+    "year": 2020,
+    "spotify_id": "4tcPIwy0UvLYjhXLrMyx89",
+    "spotify_uri": null,
+    "isrc": "GBCPZ1916610",
+    "musicbrainz_recording_id": "6a741b54-33de-4c23-936c-183c2cd14516",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 42,
+    "track_id": null,
+    "canonical_key": "isrc:CA5KR1821202",
+    "title": null,
+    "artists": [
+      "FISHER"
+    ],
+    "year": 2018,
+    "spotify_id": "6ho0GyrWZN3mhi9zVRW7xi",
+    "spotify_uri": null,
+    "isrc": "CA5KR1821202",
+    "musicbrainz_recording_id": "e9d2bfb0-48c1-431a-91d6-08233a4571b5",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 43,
+    "track_id": null,
+    "canonical_key": "isrc:GBDUW0000053",
+    "title": null,
+    "artists": [
+      "Daft Punk"
+    ],
+    "year": 2001,
+    "spotify_id": "0DiWol3AO6WpXZgp0goxAV",
+    "spotify_uri": null,
+    "isrc": "GBDUW0000053",
+    "musicbrainz_recording_id": "60fa767a-d85d-4991-82bc-4294e0b11ae7",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 2
+  },
+  {
+    "row": 44,
+    "track_id": null,
+    "canonical_key": "isrc:FRX202008600",
+    "title": null,
+    "artists": [
+      "Noizu"
+    ],
+    "year": 2020,
+    "spotify_id": "7pARbCUoO1CTzU5ucMEaVF",
+    "spotify_uri": null,
+    "isrc": "FRX202008600",
+    "musicbrainz_recording_id": "2cd38ed6-d576-4bca-bf73-c23527d0e95a",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 45,
+    "track_id": null,
+    "canonical_key": "isrc:UKU932482797",
+    "title": null,
+    "artists": [
+      "Gaskin"
+    ],
+    "year": 2024,
+    "spotify_id": "4gPzgnuf6njljiwLFKM2lV",
+    "spotify_uri": null,
+    "isrc": "UKU932482797",
+    "musicbrainz_recording_id": "5b711ff1-cc2d-4c6c-8464-db12a61ae918",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 46,
+    "track_id": null,
+    "canonical_key": "isrc:CYA111900402",
+    "title": null,
+    "artists": [
+      "NOTION"
+    ],
+    "year": 2019,
+    "spotify_id": "4v7kKFlEDmpVToHOICsXaM",
+    "spotify_uri": null,
+    "isrc": "CYA111900402",
+    "musicbrainz_recording_id": "3f059a8d-e940-43c7-936f-9b30bbc4edf8",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": true,
+    "cluster": 0
+  },
+  {
+    "row": 47,
+    "track_id": null,
+    "canonical_key": "isrc:UKQNV2100042",
+    "title": null,
+    "artists": [
+      "NOTION",
+      "Carrie Baxter"
+    ],
+    "year": 2022,
+    "spotify_id": "5Ndsdhx3jKxjQmHw7QkHmi",
+    "spotify_uri": null,
+    "isrc": "UKQNV2100042",
+    "musicbrainz_recording_id": "9ff885cb-5bdd-463b-a1bd-c3f05ef2dda3",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 0
+  },
+  {
+    "row": 48,
+    "track_id": null,
+    "canonical_key": "isrc:GBKCF2101056",
+    "title": null,
+    "artists": [
+      "D.O.D",
+      "Carla Monroe"
+    ],
+    "year": 2021,
+    "spotify_id": "4vyG9ZhHT8MKJE5mTICMFC",
+    "spotify_uri": null,
+    "isrc": "GBKCF2101056",
+    "musicbrainz_recording_id": "4e6a7de5-5f81-4023-ad88-46e122a0a496",
+    "has_tags": false,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 1
+  },
+  {
+    "row": 49,
+    "track_id": null,
+    "canonical_key": "isrc:NLRD52319304",
+    "title": null,
+    "artists": [
+      "James Hype"
+    ],
+    "year": 2023,
+    "spotify_id": "3DLWVhaowApIGw1JnJj6GS",
+    "spotify_uri": null,
+    "isrc": "NLRD52319304",
+    "musicbrainz_recording_id": "4434baf6-3ae4-499f-bfd4-c1926b2b617d",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  },
+  {
+    "row": 50,
+    "track_id": null,
+    "canonical_key": "isrc:GBKQU2296427",
+    "title": null,
+    "artists": [
+      "ANOTR",
+      "Abel Balder"
+    ],
+    "year": 2022,
+    "spotify_id": "5u4hhtZ7f4rWkMZEZcTKrH",
+    "spotify_uri": null,
+    "isrc": "GBKQU2296427",
+    "musicbrainz_recording_id": "435d9359-d5fe-4055-9b61-038fa3489a54",
+    "has_tags": true,
+    "has_genres": true,
+    "has_acoustic_high_level": false,
+    "cluster": 2
+  }
+]

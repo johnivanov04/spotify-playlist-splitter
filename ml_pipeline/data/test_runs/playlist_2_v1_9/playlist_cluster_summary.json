@@ -1,308 +1,405 @@
 [
   {
-    "cluster_id": 7,
-    "cluster_name": "danceable / timbre / dark",
-    "size": 50,
+    "cluster_id": 6,
+    "cluster_name": "rage rap / melodic rap",
+    "size": 51,
     "sample_tracks": [
       "None — Playboi Carti",
       "None — Travis Scott",
       "None — Travis Scott",
       "None — Travis Scott",
       "None — Travis Scott",
+      "None — Travis Scott",
       "None — Tyler, The Creator",
       "None — Tyler, The Creator",
-      "None — Tyler, The Creator",
-      "None — Lil Uzi Vert",
-      "None — Baby Keem, Kendrick Lamar"
+      "None — 21 Savage",
+      "None — Tyler, The Creator"
     ],
     "top_features": [
       {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 3.878085560258402
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 1.7167995347336495
+      },
+      {
         "feature": "acoustic__highlevel__danceability__all__danceable",
         "pretty_feature": "danceable",
-        "score": 1.261155438864113
+        "score": 1.2378198388633639
       },
       {
         "feature": "acoustic__highlevel__timbre__all__dark",
         "pretty_feature": "timbre / dark",
-        "score": 1.1533517128944657
+        "score": 1.0845689530234726
       },
       {
         "feature": "acoustic__highlevel__mood_party__all__party",
         "pretty_feature": "mood party / party",
-        "score": 1.0520550340786243
+        "score": 1.0226874099905983
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
         "pretty_feature": "voice instrumental / voice",
-        "score": 1.0287846837510055
+        "score": 0.991367319742259
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
         "pretty_feature": "mood electronic / electronic",
-        "score": 0.9896555161305208
+        "score": 0.9823380898764714
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 0.8788729990255849
+      },
+      {
+        "feature": "genre__boom_bap",
+        "pretty_feature": "boom bap",
+        "score": 0.3631868484712464
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
         "pretty_feature": "mood sad / sad",
-        "score": 0.26866149578494586
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.24489207163814997
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "pretty_feature": "mood happy / happy",
-        "score": 0.13198775779885077
-      },
-      {
-        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
-        "pretty_feature": "aggressive",
-        "score": 0.1250534788476043
+        "score": 0.23200196394946096
       }
     ]
   },
   {
-    "cluster_id": 4,
-    "cluster_name": "hip hop / west coast hip hop",
+    "cluster_id": 3,
+    "cluster_name": "west coast hip hop / hip hop",
     "size": 36,
     "sample_tracks": [
       "None — J. Cole",
+      "None — Travis Scott, Kacy Hill",
       "None — Kendrick Lamar, Jay Rock",
+      "None — Lil Uzi Vert",
+      "None — Kendrick Lamar, Zacari",
+      "None — Travis Scott, Justin Bieber, Young Thug",
       "None — A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
       "None — Kendrick Lamar, MC Eiht",
-      "None — Kid Cudi",
-      "None — A Tribe Called Quest",
-      "None — Kendrick Lamar",
-      "None — Tyler, The Creator, Lil Wayne, Kanye West",
-      "None — A$AP Rocky, Joe Fox, Kanye West",
-      "None — Kendrick Lamar, Mary J. Blige"
+      "None — Juice WRLD",
+      "None — Kid Cudi"
     ],
     "top_features": [
       {
-        "feature": "genre__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 3.8223196988776422
-      },
-      {
         "feature": "genre__west_coast_hip_hop",
         "pretty_feature": "west coast hip hop",
-        "score": 3.6399679993270837
-      },
-      {
-        "feature": "tag__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 3.5821972837959697
-      },
-      {
-        "feature": "genre__underground_hip_hop",
-        "pretty_feature": "underground hip hop",
-        "score": 3.523772095329016
-      },
-      {
-        "feature": "tag__underground_hip_hop",
-        "pretty_feature": "underground hip hop",
-        "score": 3.5237719580486435
+        "score": 4.389589120802775
       },
       {
         "feature": "tag__west_coast_hip_hop",
         "pretty_feature": "west coast hip hop",
-        "score": 3.2848719708470315
+        "score": 3.9139620508106825
       },
       {
-        "feature": "genre__conscious_hip_hop",
-        "pretty_feature": "conscious hip hop",
-        "score": 2.44620219883139
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 3.764587588544324
       },
       {
-        "feature": "tag__conscious_hip_hop",
-        "pretty_feature": "conscious hip hop",
-        "score": 2.4462020513408147
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 2.935661923818694
       },
       {
-        "feature": "tag__rap",
+        "feature": "tag__thug_rap",
+        "pretty_feature": "thug rap",
+        "score": 2.8157022032220027
+      },
+      {
+        "feature": "tag__trap",
+        "pretty_feature": "trap",
+        "score": 2.6363495227624116
+      },
+      {
+        "feature": "genre__trap",
+        "pretty_feature": "trap",
+        "score": 2.4461227172023263
+      },
+      {
+        "feature": "genre__rap",
         "pretty_feature": "rap",
-        "score": 2.3712767075120142
+        "score": 2.0423559988242976
       },
       {
-        "feature": "tag__jazz_rap",
-        "pretty_feature": "jazz rap",
-        "score": 1.4767675391216801
+        "feature": "genre__old_school_hip_hop",
+        "pretty_feature": "old school hip hop",
+        "score": 1.8519795719146548
+      },
+      {
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 1.5769999420731513
       }
     ]
   },
   {
-    "cluster_id": 0,
-    "cluster_name": "mixed vibe cluster",
-    "size": 26,
+    "cluster_id": 5,
+    "cluster_name": "rage rap / rap",
+    "size": 29,
     "sample_tracks": [
-      "None — Mustard, Travis Scott",
-      "None — 21 Savage",
-      "None — PARTYNEXTDOOR, Drake, Yebba",
-      "None — Playboi Carti, Future, Travis Scott",
-      "None — Playboi Carti, Travis Scott",
       "None — Playboi Carti",
-      "None — Playboi Carti, Travis Scott",
       "None — Playboi Carti",
-      "None — Playboi Carti, The Weeknd",
-      "None — Playboi Carti, Travis Scott"
-    ],
-    "top_features": []
-  },
-  {
-    "cluster_id": 15,
-    "cluster_name": "mixed vibe cluster",
-    "size": 20,
-    "sample_tracks": [
-      "None — Lil Uzi Vert",
-      "None — Lil Yachty, Diana Gordon",
+      "None — Playboi Carti",
+      "None — Playboi Carti",
+      "None — Playboi Carti",
+      "None — Playboi Carti",
       "None — Metro Boomin, A$AP Rocky, Roisee",
       "None — Metro Boomin, Swae Lee, NAV, A Boogie Wit da Hoodie",
-      "None — Lil Uzi Vert",
-      "None — EI8HT, Offset",
-      "None — skoomy",
-      "None — Tory Lanez",
-      "None — Metro Boomin, Coi Leray",
-      "None — The Kid LAROI"
+      "None — Mustard, Travis Scott",
+      "None — Travis Scott, James Blake, 21 Savage"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 4.15019997997575
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 2.345485669269939
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 0.3090563461191631
+      }
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "cluster_name": "mixed vibe cluster",
+    "size": 25,
+    "sample_tracks": [
+      "None — Childish Gambino",
+      "None — J. Cole",
+      "None — Mac Miller",
+      "None — Mac Miller",
+      "None — MF DOOM, Pebbles The Invisible Girl",
+      "None — Mac Miller",
+      "None — Baby Keem",
+      "None — MF DOOM, DJ Cucumber Slice",
+      "None — Baby Keem",
+      "None — Baby Keem, Kendrick Lamar"
     ],
     "top_features": []
   },
   {
     "cluster_id": 8,
-    "cluster_name": "acoustic / mood sad / sad",
-    "size": 19,
+    "cluster_name": "rage rap / melodic rap",
+    "size": 18,
     "sample_tracks": [
-      "None — Lil Uzi Vert, Oh Wonder",
-      "None — Lil Uzi Vert",
-      "None — Playboi Carti, Leven Kali",
-      "None — Playboi Carti",
-      "None — Travis Scott",
-      "None — The Alchemist, Earl Sweatshirt",
-      "None — Tyler, The Creator",
-      "None — Joey Bada$$, Capital Steez",
-      "None — Joey Bada$$",
-      "None — Mac Miller, Miguel"
-    ],
-    "top_features": [
-      {
-        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-        "pretty_feature": "acoustic",
-        "score": 1.3754966913633375
-      },
-      {
-        "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "pretty_feature": "mood sad / sad",
-        "score": 1.3565650272278902
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "pretty_feature": "voice instrumental / voice",
-        "score": 1.1346550747912147
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "mood relaxed / relaxed",
-        "score": 1.0053466624447747
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__dark",
-        "pretty_feature": "timbre / dark",
-        "score": 0.7378339000460945
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "pretty_feature": "danceable",
-        "score": 0.6837166150807441
-      },
-      {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "pretty_feature": "mood electronic / electronic",
-        "score": 0.3219667345562275
-      }
-    ]
-  },
-  {
-    "cluster_id": 9,
-    "cluster_name": "danceable / voice instrumental / instrumental",
-    "size": 19,
-    "sample_tracks": [
+      "None — Drake",
       "None — Playboi Carti",
       "None — Lil Uzi Vert",
       "None — Lil Uzi Vert, Pharrell Williams",
       "None — Mac Miller",
       "None — J. Cole",
-      "None — Tyler, The Creator",
       "None — Baby Keem",
       "None — Frank Ocean",
-      "None — Playboi Carti, Lil Uzi Vert",
-      "None — Playboi Carti"
+      "None — Playboi Carti",
+      "None — Playboi Carti, Nicki Minaj"
     ],
     "top_features": [
       {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 3.5193892797218984
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 1.1905161695610138
+      },
+      {
         "feature": "acoustic__highlevel__danceability__all__danceable",
         "pretty_feature": "danceable",
-        "score": 1.0772046173238616
+        "score": 1.095334871097512
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
         "pretty_feature": "voice instrumental / instrumental",
-        "score": 1.016009836235788
+        "score": 1.0125666768356425
       },
       {
         "feature": "acoustic__highlevel__timbre__all__dark",
         "pretty_feature": "timbre / dark",
-        "score": 0.9728294865394641
+        "score": 0.9745615400316113
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 0.9435109434588477
+      },
+      {
+        "feature": "genre__uk_grime",
+        "pretty_feature": "uk grime",
+        "score": 0.906269239709148
       },
       {
         "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
         "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.9005250368558224
+        "score": 0.8976023182163895
       },
       {
         "feature": "acoustic__highlevel__mood_electronic__all__electronic",
         "pretty_feature": "mood electronic / electronic",
-        "score": 0.8262417442953242
+        "score": 0.8786509885416378
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
         "pretty_feature": "mood sad / sad",
-        "score": 0.7898817911996595
-      },
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "pretty_feature": "mood party / party",
-        "score": 0.4539291134095613
-      },
-      {
-        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
-        "pretty_feature": "acoustic",
-        "score": 0.12052882035528505
+        "score": 0.684094283752663
       }
     ]
   },
   {
-    "cluster_id": 12,
-    "cluster_name": "mixed vibe cluster",
-    "size": 19,
+    "cluster_id": 4,
+    "cluster_name": "underground hip hop / conscious hip hop",
+    "size": 17,
     "sample_tracks": [
-      "None — Lil Tecca",
-      "None — Baby Keem",
-      "None — Baby Keem",
-      "None — Baby Keem, Kendrick Lamar",
-      "None — The Alchemist, Earl Sweatshirt",
-      "None — Ben Reilly",
-      "None — Playboi Carti",
-      "None — Baby Keem, Brent Faiyaz",
-      "None — Playboi Carti, Kanye West",
-      "None — Playboi Carti"
+      "None — Kendrick Lamar",
+      "None — Ice Cube",
+      "None — Kendrick Lamar",
+      "None — Tyler, The Creator, Frank Ocean",
+      "None — Kendrick Lamar, Bilal, Anna Wise, Thundercat",
+      "None — MF DOOM",
+      "None — MF DOOM",
+      "None — MF DOOM, Stahhr, 4ize",
+      "None — MF DOOM, Mr. Fantastik",
+      "None — Madvillain, Madlib, MF DOOM"
     ],
-    "top_features": []
+    "top_features": [
+      {
+        "feature": "tag__underground_hip_hop",
+        "pretty_feature": "underground hip hop",
+        "score": 10.248889274246205
+      },
+      {
+        "feature": "genre__underground_hip_hop",
+        "pretty_feature": "underground hip hop",
+        "score": 9.85763291436531
+      },
+      {
+        "feature": "genre__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 9.128830192046982
+      },
+      {
+        "feature": "tag__conscious_hip_hop",
+        "pretty_feature": "conscious hip hop",
+        "score": 9.12882960256583
+      },
+      {
+        "feature": "genre__plunderphonics",
+        "pretty_feature": "plunderphonics",
+        "score": 8.496930387346099
+      },
+      {
+        "feature": "genre__experimental_hip_hop",
+        "pretty_feature": "experimental hip hop",
+        "score": 7.266574399389603
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 6.11289449707781
+      },
+      {
+        "feature": "genre__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 5.436663237820764
+      },
+      {
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 5.284402356955809
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 5.202914359159617
+      }
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "cluster_name": "rap / melodic rap",
+    "size": 17,
+    "sample_tracks": [
+      "None — Lil Uzi Vert, Oh Wonder",
+      "None — Lil Uzi Vert",
+      "None — Travis Scott",
+      "None — Travis Scott",
+      "None — Drake",
+      "None — Drake",
+      "None — Tyler, The Creator",
+      "None — Tyler, The Creator",
+      "None — Tyler, The Creator, Kali Uchis",
+      "None — Tyler, The Creator"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 4.110770220688676
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 1.2656995074428186
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "pretty_feature": "mood sad / sad",
+        "score": 1.1711147810684555
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 1.1447983057475044
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 1.0583358707649082
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.869320239299103
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.7446354595007565
+      },
+      {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 0.721558291537171
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "pretty_feature": "contemporary r and b",
+        "score": 0.6572308027415494
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "pretty_feature": "acoustic",
+        "score": 0.649901369539822
+      }
+    ]
   },
   {
     "cluster_id": 1,
-    "cluster_name": "instrumental / cool jazz",
-    "size": 17,
+    "cluster_name": "cool jazz / instrumental",
+    "size": 16,
     "sample_tracks": [
       "None — Nujabes, Cise Starr",
       "None — Nujabes",
@@ -317,142 +414,178 @@
     ],
     "top_features": [
       {
-        "feature": "genre__instrumental",
-        "pretty_feature": "instrumental",
-        "score": 12.176899978208793
-      },
-      {
-        "feature": "tag__instrumental",
-        "pretty_feature": "instrumental",
-        "score": 12.176899189035867
-      },
-      {
         "feature": "tag__cool_jazz",
         "pretty_feature": "cool jazz",
-        "score": 12.162079508714797
+        "score": 13.449163902998242
       },
       {
         "feature": "genre__cool_jazz",
         "pretty_feature": "cool jazz",
-        "score": 12.162079346230726
+        "score": 13.44916334692144
+      },
+      {
+        "feature": "genre__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 12.67830647145751
+      },
+      {
+        "feature": "tag__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 12.678305853812683
       },
       {
         "feature": "tag__jazz_rap",
         "pretty_feature": "jazz rap",
-        "score": 10.907187245789673
+        "score": 11.454876259191042
       },
       {
         "feature": "genre__jazz_rap",
         "pretty_feature": "jazz rap",
-        "score": 10.907187241288591
-      },
-      {
-        "feature": "genre__trip_hop",
-        "pretty_feature": "trip hop",
-        "score": 9.149279134910582
+        "score": 10.30869138118664
       },
       {
         "feature": "genre__downtempo",
         "pretty_feature": "downtempo",
-        "score": 8.600516555883177
+        "score": 8.2570066229142
       },
       {
         "feature": "tag__downtempo",
         "pretty_feature": "downtempo",
-        "score": 8.600516436558964
+        "score": 8.25700639952423
       },
       {
-        "feature": "tag__trip_hop",
-        "pretty_feature": "trip hop",
-        "score": 8.584732882013704
+        "feature": "tag__hip_hop_instrumental_hip_hop",
+        "pretty_feature": "hip hop instrumental hip hop",
+        "score": 8.238037573914047
+      },
+      {
+        "feature": "tag__instrumentalhiphop",
+        "pretty_feature": "instrumentalhiphop",
+        "score": 8.238037573914047
       }
     ]
   },
   {
-    "cluster_id": 13,
-    "cluster_name": "mixed vibe cluster",
-    "size": 15,
-    "sample_tracks": [
-      "None — Mac Miller",
-      "None — MF DOOM, Pebbles The Invisible Girl",
-      "None — Mac Miller",
-      "None — MF DOOM, DJ Cucumber Slice",
-      "None — Mac Miller",
-      "None — Mac Miller",
-      "None — Nujabes, Substantial, Pase Rock",
-      "None — Beyoncé, JAŸ-Z",
-      "None — Lil Uzi Vert, Nicki Minaj",
-      "None — Travis Scott"
-    ],
-    "top_features": []
-  },
-  {
-    "cluster_id": 11,
-    "cluster_name": "danceable / voice instrumental / voice",
-    "size": 13,
+    "cluster_id": 7,
+    "cluster_name": "rage rap / melodic rap",
+    "size": 16,
     "sample_tracks": [
       "None — Lil Uzi Vert",
+      "None — Playboi Carti, Leven Kali",
+      "None — Playboi Carti",
       "None — Lil Uzi Vert",
-      "None — Travis Scott",
       "None — Travis Scott",
       "None — Playboi Carti",
       "None — Tyler, The Creator, YoungBoy Never Broke Again, Ty Dolla $ign",
       "None — Baby Keem",
       "None — Post Malone, Swae Lee",
-      "None — A$AP Mob, A$AP Rocky, Playboi Carti, Big Sean",
-      "None — Playboi Carti, Travis Scott"
+      "None — Joey Bada$$, Capital Steez"
     ],
     "top_features": [
       {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 2.604713764353816
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 2.06922143105461
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 1.4929334711415734
+      },
+      {
+        "feature": "genre__trap_soul",
+        "pretty_feature": "trap soul",
+        "score": 1.3900864894528304
+      },
+      {
         "feature": "acoustic__highlevel__danceability__all__danceable",
         "pretty_feature": "danceable",
-        "score": 1.2309226710368457
+        "score": 1.1706352255283943
       },
       {
         "feature": "acoustic__highlevel__voice_instrumental__all__voice",
         "pretty_feature": "voice instrumental / voice",
-        "score": 1.0525151251427027
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__bright",
-        "pretty_feature": "timbre / bright",
-        "score": 1.0226359574544326
+        "score": 1.0830883686107688
       },
       {
         "feature": "acoustic__highlevel__mood_sad__all__sad",
         "pretty_feature": "mood sad / sad",
-        "score": 0.846234965603862
+        "score": 0.9744565623001469
       },
       {
-        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
-        "pretty_feature": "mood electronic / electronic",
-        "score": 0.512454889207949
-      },
-      {
-        "feature": "acoustic__highlevel__mood_party__all__party",
-        "pretty_feature": "mood party / party",
-        "score": 0.4622396188858675
-      },
-      {
-        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
-        "pretty_feature": "mood relaxed / relaxed",
-        "score": 0.39638436363191
-      },
-      {
-        "feature": "acoustic__highlevel__mood_happy__all__happy",
-        "pretty_feature": "mood happy / happy",
-        "score": 0.34202225638801365
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "pretty_feature": "timbre / bright",
+        "score": 0.844422113256444
       },
       {
         "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
         "pretty_feature": "acoustic",
-        "score": 0.29493285541015357
+        "score": 0.778350857355102
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "pretty_feature": "mood relaxed / relaxed",
+        "score": 0.5590101322219274
       }
     ]
   },
   {
-    "cluster_id": 6,
-    "cluster_name": "neo soul / soul",
+    "cluster_id": 15,
+    "cluster_name": "rage rap / melodic rap",
+    "size": 16,
+    "sample_tracks": [
+      "None — Lil Tecca",
+      "None — Playboi Carti, Kanye West",
+      "None — Lil Uzi Vert",
+      "None — Lil Uzi Vert, Nicki Minaj",
+      "None — Lil Uzi Vert",
+      "None — PARTYNEXTDOOR, Drake, Yebba",
+      "None — Playboi Carti, Future, Travis Scott",
+      "None — Playboi Carti, Travis Scott",
+      "None — Playboi Carti, Travis Scott",
+      "None — Playboi Carti, Travis Scott"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 6.263415825826149
+      },
+      {
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 4.226043436538892
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 3.9653348457138358
+      },
+      {
+        "feature": "genre__trap_soul",
+        "pretty_feature": "trap soul",
+        "score": 1.3900864894528306
+      },
+      {
+        "feature": "genre__uk_grime",
+        "pretty_feature": "uk grime",
+        "score": 1.0267801052335805
+      },
+      {
+        "feature": "genre__grime",
+        "pretty_feature": "grime",
+        "score": 0.6344260003594223
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "cluster_name": "soul / afrobeats",
     "size": 11,
     "sample_tracks": [
       "None — Drake, Wizkid, Kyla",
@@ -468,337 +601,342 @@
     ],
     "top_features": [
       {
-        "feature": "genre__neo_soul",
-        "pretty_feature": "neo soul",
-        "score": 4.924378486649195
+        "feature": "tag__soul",
+        "pretty_feature": "soul",
+        "score": 5.046262289859666
       },
       {
         "feature": "genre__soul",
         "pretty_feature": "soul",
-        "score": 4.843111222920221
-      },
-      {
-        "feature": "tag__soul",
-        "pretty_feature": "soul",
-        "score": 4.843111022914349
+        "score": 5.046261956571789
       },
       {
         "feature": "tag__afrobeats",
         "pretty_feature": "afrobeats",
-        "score": 4.770033654136791
+        "score": 4.963759161861812
       },
       {
         "feature": "genre__afrobeats",
         "pretty_feature": "afrobeats",
-        "score": 4.770033592635907
-      },
-      {
-        "feature": "genre__alternative_r_and_b",
-        "pretty_feature": "alternative r and b",
-        "score": 4.58761416610295
+        "score": 4.6319799468691185
       },
       {
         "feature": "tag__alternative_r_and_b",
         "pretty_feature": "alternative r and b",
-        "score": 4.587613957007899
+        "score": 4.352213444991514
+      },
+      {
+        "feature": "genre__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 4.26769891179247
       },
       {
         "feature": "tag__neo_soul",
         "pretty_feature": "neo soul",
-        "score": 4.070301727535252
+        "score": 4.238952982054267
       },
       {
-        "feature": "genre__r_and_b",
-        "pretty_feature": "r and b",
-        "score": 3.6979534967577563
+        "feature": "genre__alternative_r_and_b",
+        "pretty_feature": "alternative r and b",
+        "score": 3.438116204253406
       },
       {
         "feature": "tag__r_and_b",
         "pretty_feature": "r and b",
-        "score": 3.279951415965302
-      }
-    ]
-  },
-  {
-    "cluster_id": 10,
-    "cluster_name": "1 4 wochen / hip hop",
-    "size": 11,
-    "sample_tracks": [
-      "None — Drake",
-      "None — A$AP Rocky",
-      "None — Travis Scott",
-      "None — Drake",
-      "None — Drake",
-      "None — 21 Savage",
-      "None — Tyler, The Creator",
-      "None — Tyler, The Creator, Kali Uchis",
-      "None — 21 Savage, Metro Boomin, Young Thug",
-      "None — Baby Keem"
-    ],
-    "top_features": [
-      {
-        "feature": "tag__1_4_wochen",
-        "pretty_feature": "1 4 wochen",
-        "score": 2.801789793007477
-      },
-      {
-        "feature": "genre__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 1.4042118375774664
-      },
-      {
-        "feature": "tag__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 1.1369850288140553
-      },
-      {
-        "feature": "tag__ambient",
-        "pretty_feature": "ambient",
-        "score": 1.1239342505627024
-      },
-      {
-        "feature": "genre__ambient",
-        "pretty_feature": "ambient",
-        "score": 1.1239342492988902
-      },
-      {
-        "feature": "acoustic__highlevel__danceability__all__danceable",
-        "pretty_feature": "danceable",
-        "score": 1.0775473574773877
-      },
-      {
-        "feature": "acoustic__highlevel__timbre__all__dark",
-        "pretty_feature": "timbre / dark",
-        "score": 1.0146249175531044
-      },
-      {
-        "feature": "acoustic__highlevel__mood_sad__all__sad",
-        "pretty_feature": "mood sad / sad",
-        "score": 0.9106815481308804
-      },
-      {
-        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
-        "pretty_feature": "voice instrumental / voice",
-        "score": 0.8220101394774771
+        "score": 3.4228897323408387
       },
       {
         "feature": "tag__contemporary_r_and_b",
         "pretty_feature": "contemporary r and b",
-        "score": 0.7502153983363503
+        "score": 3.0247802398894876
       }
     ]
   },
   {
-    "cluster_id": 5,
-    "cluster_name": "trap / thug rap",
+    "cluster_id": 13,
+    "cluster_name": "jazz rap / experimental hip hop",
     "size": 8,
     "sample_tracks": [
-      "None — Travis Scott, Kacy Hill",
-      "None — Lil Uzi Vert",
-      "None — Kendrick Lamar, Zacari",
-      "None — Travis Scott, Justin Bieber, Young Thug",
-      "None — Juice WRLD",
-      "None — Travis Scott",
-      "None — Travis Scott, Swae Lee, Chief Keef",
-      "None — Travis Scott, ScHoolboy Q"
+      "None — Joey Bada$$",
+      "None — Earl Sweatshirt",
+      "None — Nujabes, Substantial, Pase Rock",
+      "None — Witness",
+      "None — Yakkle, Shing02",
+      "None — Yakkle, Shing02",
+      "None — Witness, Daimyo",
+      "None — Witness"
     ],
     "top_features": [
       {
-        "feature": "genre__trap",
-        "pretty_feature": "trap",
-        "score": 11.65448421238893
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 4.314863353336387
       },
       {
-        "feature": "tag__trap",
-        "pretty_feature": "trap",
-        "score": 11.654483992114603
+        "feature": "genre__experimental_hip_hop",
+        "pretty_feature": "experimental hip hop",
+        "score": 1.6653616582532522
       },
       {
-        "feature": "tag__thug_rap",
-        "pretty_feature": "thug rap",
-        "score": 8.80402948933311
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 0.7330511708791563
       },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 0.668799679617485
+      }
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "cluster_name": "trap soul / melodic rap",
+    "size": 7,
+    "sample_tracks": [
+      "None — 21 Savage, Metro Boomin, Young Thug",
+      "None — Playboi Carti, Bryson Tiller",
+      "None — Travis Scott, Rich Homie Quan, Young Thug",
+      "None — Travis Scott, Young Thug",
+      "None — Playboi Carti, Young Thug",
+      "None — Playboi Carti, Young Thug, Ty Dolla $ign",
+      "None — Trippie Redd, PARTYNEXTDOOR"
+    ],
+    "top_features": [
       {
         "feature": "genre__trap_soul",
         "pretty_feature": "trap soul",
-        "score": 4.471037457648377
+        "score": 9.787831085912533
       },
       {
-        "feature": "tag__trap_soul",
-        "pretty_feature": "trap soul",
-        "score": 4.471037212711148
+        "feature": "genre__melodic_rap",
+        "pretty_feature": "melodic rap",
+        "score": 9.772157164927046
+      },
+      {
+        "feature": "genre__trap",
+        "pretty_feature": "trap",
+        "score": 7.5012729169684045
+      },
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 4.554001839659614
+      },
+      {
+        "feature": "genre__rage_rap",
+        "pretty_feature": "rage rap",
+        "score": 2.996717556654421
       },
       {
         "feature": "genre__southern_hip_hop",
         "pretty_feature": "southern hip hop",
-        "score": 2.6244962618202137
+        "score": 1.0083503242631726
       },
       {
-        "feature": "tag__southern_hip_hop",
-        "pretty_feature": "southern hip hop",
-        "score": 2.6244961282159416
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "pretty_feature": "danceable",
+        "score": 0.8799591039855162
       },
       {
-        "feature": "genre__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 2.1284679427498876
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "pretty_feature": "timbre / dark",
+        "score": 0.8408844495730072
       },
       {
-        "feature": "tag__west_coast_hip_hop",
-        "pretty_feature": "west coast hip hop",
-        "score": 2.0618441145962234
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "pretty_feature": "mood party / party",
+        "score": 0.7215943817033692
       },
       {
-        "feature": "tag__hip_hop",
-        "pretty_feature": "hip hop",
-        "score": 1.7406991471587567
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "pretty_feature": "voice instrumental / voice",
+        "score": 0.6710674734639667
       }
     ]
   },
   {
     "cluster_id": 2,
-    "cluster_name": "conscious hip hop / g funk",
-    "size": 7,
+    "cluster_name": "instrumental / jazz rap",
+    "size": 6,
     "sample_tracks": [
-      "None — Kendrick Lamar",
-      "None — Ice Cube",
-      "None — Kendrick Lamar",
-      "None — Tyler, The Creator, Frank Ocean",
-      "None — Kendrick Lamar, Bilal, Anna Wise, Thundercat",
-      "None — MF DOOM, Mr. Fantastik",
-      "None — A Tribe Called Quest"
-    ],
-    "top_features": [
-      {
-        "feature": "genre__conscious_hip_hop",
-        "pretty_feature": "conscious hip hop",
-        "score": 13.36867150566756
-      },
-      {
-        "feature": "tag__conscious_hip_hop",
-        "pretty_feature": "conscious hip hop",
-        "score": 13.368670682353795
-      },
-      {
-        "feature": "genre__g_funk",
-        "pretty_feature": "g funk",
-        "score": 12.569814984276363
-      },
-      {
-        "feature": "tag__west_coast_hip_hop",
-        "pretty_feature": "west coast hip hop",
-        "score": 10.769092732172526
-      },
-      {
-        "feature": "genre__west_coast_hip_hop",
-        "pretty_feature": "west coast hip hop",
-        "score": 10.752418978755342
-      },
-      {
-        "feature": "tag__jazz_rap",
-        "pretty_feature": "jazz rap",
-        "score": 7.828630376227156
-      },
-      {
-        "feature": "genre__jazz_rap",
-        "pretty_feature": "jazz rap",
-        "score": 7.8286303717260735
-      },
-      {
-        "feature": "tag__east_coast_hip_hop",
-        "pretty_feature": "east coast hip hop",
-        "score": 5.826443592150609
-      },
-      {
-        "feature": "genre__east_coast_hip_hop",
-        "pretty_feature": "east coast hip hop",
-        "score": 5.8264434989144345
-      },
-      {
-        "feature": "genre__hardcore_hip_hop",
-        "pretty_feature": "hardcore hip hop",
-        "score": 4.894829689586735
-      }
-    ]
-  },
-  {
-    "cluster_id": 3,
-    "cluster_name": "underground hip hop / alternative hip hop",
-    "size": 7,
-    "sample_tracks": [
-      "None — MF DOOM",
-      "None — MF DOOM, Stahhr, 4ize",
       "None — Nujabes, Cise Starr & Akin from CYNE",
       "None — Nujabes",
       "None — Funky DL",
       "None — Nujabes",
-      "None — Nujabes"
+      "None — Nujabes",
+      "None — Force Of Nature, Suiken, S-Word"
     ],
     "top_features": [
       {
-        "feature": "genre__underground_hip_hop",
-        "pretty_feature": "underground hip hop",
-        "score": 8.107857455441307
+        "feature": "genre__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 9.569056271607495
       },
       {
-        "feature": "tag__underground_hip_hop",
-        "pretty_feature": "underground hip hop",
-        "score": 8.10785714268486
+        "feature": "tag__instrumental",
+        "pretty_feature": "instrumental",
+        "score": 9.56905580454419
       },
       {
-        "feature": "genre__alternative_hip_hop",
-        "pretty_feature": "alternative hip hop",
-        "score": 7.387275267179981
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 8.326624192268747
       },
       {
-        "feature": "tag__beatboxing",
-        "pretty_feature": "beatboxing",
-        "score": 6.273557655081473
-      },
-      {
-        "feature": "tag__boom_bap",
-        "pretty_feature": "boom bap",
-        "score": 6.273557655081473
-      },
-      {
-        "feature": "genre__beatboxing",
-        "pretty_feature": "beatboxing",
-        "score": 6.2735574425263465
-      },
-      {
-        "feature": "genre__experimental_hip_hop",
-        "pretty_feature": "experimental hip hop",
-        "score": 6.2735574425263465
+        "feature": "tag__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 8.045869388265748
       },
       {
         "feature": "genre__boom_bap",
         "pretty_feature": "boom bap",
-        "score": 6.273557442526346
+        "score": 6.79907987316039
+      },
+      {
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 5.239611019173889
       },
       {
         "feature": "tag__alternative_hip_hop",
         "pretty_feature": "alternative hip hop",
-        "score": 6.172222396497789
+        "score": 5.148203198910068
       },
       {
-        "feature": "genre__instrumental",
-        "pretty_feature": "instrumental",
-        "score": 6.137950425302117
+        "feature": "tag__hip_hop_instrumental_hip_hop",
+        "pretty_feature": "hip hop instrumental hip hop",
+        "score": 4.37597329136922
+      },
+      {
+        "feature": "tag__instrumentalhiphop",
+        "pretty_feature": "instrumentalhiphop",
+        "score": 4.37597329136922
+      },
+      {
+        "feature": "genre__nu_jazz",
+        "pretty_feature": "nu jazz",
+        "score": 4.375973025075962
       }
     ]
   },
   {
-    "cluster_id": 14,
-    "cluster_name": "mixed vibe cluster",
+    "cluster_id": 10,
+    "cluster_name": "boom bap / nu jazz",
     "size": 6,
     "sample_tracks": [
-      "None — Childish Gambino",
-      "None — J. Cole",
-      "None — Mac Miller",
-      "None — Kendrick Lamar, George Clinton, Thundercat",
-      "None — Joey Bada$$",
-      "None — Earl Sweatshirt"
+      "None — A$AP Rocky",
+      "None — The Alchemist, Earl Sweatshirt",
+      "None — The Alchemist, Earl Sweatshirt",
+      "None — Funky DL",
+      "None — Nujabes, Uyama Hiroto",
+      "None — The Alchemist, Boldy James"
     ],
-    "top_features": []
+    "top_features": [
+      {
+        "feature": "genre__boom_bap",
+        "pretty_feature": "boom bap",
+        "score": 13.637216211892605
+      },
+      {
+        "feature": "genre__nu_jazz",
+        "pretty_feature": "nu jazz",
+        "score": 8.789760507320471
+      },
+      {
+        "feature": "genre__experimental_hip_hop",
+        "pretty_feature": "experimental hip hop",
+        "score": 6.859213472761506
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "pretty_feature": "jazz rap",
+        "score": 4.103718046024158
+      },
+      {
+        "feature": "genre__alternative_hip_hop",
+        "pretty_feature": "alternative hip hop",
+        "score": 3.2648974844611427
+      },
+      {
+        "feature": "tag__ambient",
+        "pretty_feature": "ambient",
+        "score": 1.8061971368761176
+      },
+      {
+        "feature": "genre__ambient",
+        "pretty_feature": "ambient",
+        "score": 1.7490919496121222
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "pretty_feature": "acoustic",
+        "score": 1.2035750356081418
+      },
+      {
+        "feature": "genre__jazz",
+        "pretty_feature": "jazz",
+        "score": 1.1737257048087009
+      },
+      {
+        "feature": "tag__jazz",
+        "pretty_feature": "jazz",
+        "score": 1.173725675293345
+      }
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "cluster_name": "rap / hip hop",
+    "size": 5,
+    "sample_tracks": [
+      "None — Kendrick Lamar, George Clinton, Thundercat",
+      "None — Beyoncé, JAŸ-Z",
+      "None — Travis Scott",
+      "None — Mac Miller, Bilal",
+      "None — Travis Scott"
+    ],
+    "top_features": [
+      {
+        "feature": "genre__rap",
+        "pretty_feature": "rap",
+        "score": 3.800508087409019
+      },
+      {
+        "feature": "genre__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 1.7179224200177372
+      },
+      {
+        "feature": "genre__neo_soul",
+        "pretty_feature": "neo soul",
+        "score": 1.5199025377665785
+      },
+      {
+        "feature": "genre__west_coast_hip_hop",
+        "pretty_feature": "west coast hip hop",
+        "score": 1.2557857818289966
+      },
+      {
+        "feature": "genre__east_coast_hip_hop",
+        "pretty_feature": "east coast hip hop",
+        "score": 1.1577746908062032
+      },
+      {
+        "feature": "genre__funk",
+        "pretty_feature": "funk",
+        "score": 0.9863476070196899
+      },
+      {
+        "feature": "tag__rap",
+        "pretty_feature": "rap",
+        "score": 0.9074083902724036
+      },
+      {
+        "feature": "tag__hip_hop",
+        "pretty_feature": "hip hop",
+        "score": 0.8606697402319974
+      }
+    ]
   }
 ]

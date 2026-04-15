@@ -404,6 +404,7 @@ def featurize_against_frozen_vocab(
 
         tags = list(iter_name_count_items(brainz.get("tags")))
         genres = list(iter_name_count_items(brainz.get("genres")))
+        genres += list(iter_name_count_items(record.get("spotify_artist_genres")))
 
         acoustic_vals: list[tuple[str, float]] = []
         acoustic_obj = brainz.get("acoustic_high_level")

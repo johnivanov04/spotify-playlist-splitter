@@ -1,0 +1,698 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 2115,
+    "sample_tracks": [
+      "Lover Is a Day — Cuco",
+      "Dream Girl — Crisaunt",
+      "Cariño — The Marías",
+      "Someone To Spend Time With — Los Retros",
+      "You Might Be Sleeping — Jakob, Clairo",
+      "What Once Was — Her's",
+      "Marcel — Her's",
+      "F Song — Strawberry Guy",
+      "I Hope to Be Around — Men I Trust",
+      "Cool with You — Her's"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": -1.4653672080113695,
+        "abs_weight": 1.4653672080113695
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": -1.4307550091768717,
+        "abs_weight": 1.4307550091768717
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": -1.290321976214009,
+        "abs_weight": 1.290321976214009
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": -1.2745734864563192,
+        "abs_weight": 1.2745734864563192
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": -1.2152756982764343,
+        "abs_weight": 1.2152756982764343
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": -1.2023668334456636,
+        "abs_weight": 1.2023668334456636
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": -1.1799059470791777,
+        "abs_weight": 1.1799059470791777
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": -1.138469255543529,
+        "abs_weight": 1.138469255543529
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": -1.1194298728852092,
+        "abs_weight": 1.1194298728852092
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": -1.0856871834133968,
+        "abs_weight": 1.0856871834133968
+      },
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": -0.9673712837432488,
+        "abs_weight": 0.9673712837432488
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": -0.8665754515618982,
+        "abs_weight": 0.8665754515618982
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "size": 704,
+    "sample_tracks": [
+      "Pretty Girl — Clairo",
+      "Flaming Hot Cheetos — Clairo",
+      "4EVER — Clairo",
+      "Mrs Magic — Strawberry Guy",
+      "Show Me How — Men I Trust",
+      "From the Subway Train — Vansire",
+      "Young — Vacations",
+      "Harvey — Her's",
+      "She Needs Him — Her's",
+      "I Don't Know You — The Marías"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": 2.884389331157941,
+        "abs_weight": 2.884389331157941
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": 2.7578641141655025,
+        "abs_weight": 2.7578641141655025
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": 2.1339805709687076,
+        "abs_weight": 2.1339805709687076
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 2.0533042027140214,
+        "abs_weight": 2.0533042027140214
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 1.7759653855939994,
+        "abs_weight": 1.7759653855939994
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 1.6573049437447946,
+        "abs_weight": 1.6573049437447946
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 1.0600324047426488,
+        "abs_weight": 1.0600324047426488
+      },
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": 1.0029597805786072,
+        "abs_weight": 1.0029597805786072
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 0.9415963960424991,
+        "abs_weight": 0.9415963960424991
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": 0.5963742858975335,
+        "abs_weight": 0.5963742858975335
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 0.5805577737516073,
+        "abs_weight": 0.5805577737516073
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 0.3644128609605698,
+        "abs_weight": 0.3644128609605698
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 509,
+    "sample_tracks": [
+      "Can I Call You Tonight? — Dayglow",
+      "Stay Away from My Baby — Banes World",
+      "I'll Try — Her's",
+      "We Had to End It — Cuco",
+      "If You Know What's Right — Her's",
+      "Highway to Hell — AC/DC",
+      "Livin' On A Prayer — Bon Jovi",
+      "Smells Like Teen Spirit — Nirvana",
+      "Kryptonite — 3 Doors Down",
+      "Welcome To The Jungle — Guns N' Roses"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "weight": 3.373355193641371,
+        "abs_weight": 3.373355193641371
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 3.132338536455774,
+        "abs_weight": 3.132338536455774
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 2.3631062666199543,
+        "abs_weight": 2.3631062666199543
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 1.8352909765417116,
+        "abs_weight": 1.8352909765417116
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 1.7736255923232132,
+        "abs_weight": 1.7736255923232132
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 1.324972658443728,
+        "abs_weight": 1.324972658443728
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 1.2107322360138666,
+        "abs_weight": 1.2107322360138666
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 1.0293709003761196,
+        "abs_weight": 1.0293709003761196
+      },
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": 0.9832377032991702,
+        "abs_weight": 0.9832377032991702
+      },
+      {
+        "feature": "meta__has_tags",
+        "weight": 0.8333676576886784,
+        "abs_weight": 0.8333676576886784
+      },
+      {
+        "feature": "meta__has_genres",
+        "weight": 0.8220789666189131,
+        "abs_weight": 0.8220789666189131
+      },
+      {
+        "feature": "meta__year_z",
+        "weight": -0.7320613176995453,
+        "abs_weight": 0.7320613176995453
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 414,
+    "sample_tracks": [
+      "Hello? — Clairo, Rejjie Snow",
+      "Intermission — Strawberry Guy",
+      "Pour Some Sugar On Me - Remastered 2017 — Def Leppard",
+      "Carry on Wayward Son — Kansas",
+      "Renegade — Styx",
+      "Crazy Train — Ozzy Osbourne",
+      "Jessie's Girl — Rick Springfield",
+      "Zombie — The Cranberries",
+      "Barracuda — Heart",
+      "All The Small Things — blink-182"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": 3.645177281945198,
+        "abs_weight": 3.645177281945198
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 3.3671839662356793,
+        "abs_weight": 3.3671839662356793
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 2.873991117237578,
+        "abs_weight": 2.873991117237578
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": 2.4652666992301566,
+        "abs_weight": 2.4652666992301566
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": -1.2377509238336317,
+        "abs_weight": 1.2377509238336317
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": -1.157730515560933,
+        "abs_weight": 1.157730515560933
+      },
+      {
+        "feature": "meta__has_genres",
+        "weight": 1.0072534115872773,
+        "abs_weight": 1.0072534115872773
+      },
+      {
+        "feature": "meta__has_tags",
+        "weight": 0.9955448055696953,
+        "abs_weight": 0.9955448055696953
+      },
+      {
+        "feature": "meta__has_acoustic_high_level",
+        "weight": 0.9371054098524145,
+        "abs_weight": 0.9371054098524145
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": -0.8664298738696935,
+        "abs_weight": 0.8664298738696935
+      },
+      {
+        "feature": "meta__year_z",
+        "weight": -0.8432869518528071,
+        "abs_weight": 0.8432869518528071
+      },
+      {
+        "feature": "tag__metal",
+        "weight": 0.7435598749790924,
+        "abs_weight": 0.7435598749790924
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 234,
+    "sample_tracks": [
+      "Purple Rain — Prince",
+      "Billie Jean — Michael Jackson",
+      "Careless Whisper — George Michael",
+      "Friday I'm in Love — The Cure",
+      "All Night Long (All Night) - Single Version — Lionel Richie",
+      "Dancing Queen — ABBA",
+      "When Doves Cry — Prince",
+      "Super Freak — Rick James",
+      "I'll Be There — The Jackson 5",
+      "Hello — Lionel Richie"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 2.6502065416246197,
+        "abs_weight": 2.6502065416246197
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 2.0739550315251036,
+        "abs_weight": 2.0739550315251036
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 1.8120858841367278,
+        "abs_weight": 1.8120858841367278
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 1.7468742766364627,
+        "abs_weight": 1.7468742766364627
+      },
+      {
+        "feature": "tag__electronic",
+        "weight": 1.4617007576591066,
+        "abs_weight": 1.4617007576591066
+      },
+      {
+        "feature": "tag__dance",
+        "weight": 1.441223506399922,
+        "abs_weight": 1.441223506399922
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 1.4274775429714246,
+        "abs_weight": 1.4274775429714246
+      },
+      {
+        "feature": "tag__house",
+        "weight": 1.3994539670020032,
+        "abs_weight": 1.3994539670020032
+      },
+      {
+        "feature": "tag__dance_pop",
+        "weight": 1.3391970177130441,
+        "abs_weight": 1.3391970177130441
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 1.2971308693653003,
+        "abs_weight": 1.2971308693653003
+      },
+      {
+        "feature": "tag__pop",
+        "weight": 1.2399119549164221,
+        "abs_weight": 1.2399119549164221
+      },
+      {
+        "feature": "tag__soul",
+        "weight": 1.2320462478549938,
+        "abs_weight": 1.2320462478549938
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 177,
+    "sample_tracks": [
+      "Free Fallin' — Tom Petty",
+      "Jump - 2015 Remaster — Van Halen",
+      "Hotel California - 2013 Remaster — Eagles",
+      "All Along the Watchtower — Jimi Hendrix",
+      "Sharp Dressed Man - 2008 Remaster — ZZ Top",
+      "(Don't Fear) The Reaper — Blue Öyster Cult",
+      "Fortunate Son — Creedence Clearwater Revival",
+      "Rocket Man (I Think It's Going To Be A Long, Long Time) — Elton John",
+      "Dream On — Aerosmith",
+      "Heat Of The Moment — Asia"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 2.595023064532578,
+        "abs_weight": 2.595023064532578
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 2.4691826483062616,
+        "abs_weight": 2.4691826483062616
+      },
+      {
+        "feature": "meta__year_z",
+        "weight": -2.0277579261365344,
+        "abs_weight": 2.0277579261365344
+      },
+      {
+        "feature": "tag__classic_rock",
+        "weight": 1.9774673541924561,
+        "abs_weight": 1.9774673541924561
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 1.6738043172657502,
+        "abs_weight": 1.6738043172657502
+      },
+      {
+        "feature": "tag__rock",
+        "weight": 1.6581907068105968,
+        "abs_weight": 1.6581907068105968
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": 1.5433970386953524,
+        "abs_weight": 1.5433970386953524
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": 1.5092207674300406,
+        "abs_weight": 1.5092207674300406
+      },
+      {
+        "feature": "tag__album_rock",
+        "weight": 1.4651428498302717,
+        "abs_weight": 1.4651428498302717
+      },
+      {
+        "feature": "tag__pop_rock",
+        "weight": 1.443805516900376,
+        "abs_weight": 1.443805516900376
+      },
+      {
+        "feature": "genre__classic_rock",
+        "weight": 1.413929112754098,
+        "abs_weight": 1.413929112754098
+      },
+      {
+        "feature": "tag__blues_rock",
+        "weight": 1.2518080975408148,
+        "abs_weight": 1.2518080975408148
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 26,
+    "sample_tracks": [
+      "Feel Good Inc. — Gorillaz, De La Soul",
+      "Somebody That I Used To Know — Gotye, Kimbra",
+      "Clint Eastwood — Gorillaz, Del The Funky Homosapien",
+      "Lady Brown (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Horn in the middle — Nujabes",
+      "Highs 2 Lows (feat. Cise Starr from CYNE) — Nujabes, Cise Starr",
+      "Beat laments the world — Nujabes",
+      "Think Different (feat. Substantial) — Nujabes, Substantial",
+      "Next view (feat. Uyama Hiroto) — Nujabes, Uyama Hiroto",
+      "Latitude -remix (feat. Five Deez) — Nujabes, Five Deez"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__instrumental",
+        "weight": 6.44889091936189,
+        "abs_weight": 6.44889091936189
+      },
+      {
+        "feature": "tag__jazz_rap",
+        "weight": 6.330860796130644,
+        "abs_weight": 6.330860796130644
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "weight": 5.836209352424391,
+        "abs_weight": 5.836209352424391
+      },
+      {
+        "feature": "tag__trip_hop",
+        "weight": 5.634752542219813,
+        "abs_weight": 5.634752542219813
+      },
+      {
+        "feature": "tag__downtempo",
+        "weight": 5.136933341463077,
+        "abs_weight": 5.136933341463077
+      },
+      {
+        "feature": "genre__instrumental",
+        "weight": 4.606350660112996,
+        "abs_weight": 4.606350660112996
+      },
+      {
+        "feature": "genre__jazz_rap",
+        "weight": 4.522043415892151,
+        "abs_weight": 4.522043415892151
+      },
+      {
+        "feature": "genre__cool_jazz",
+        "weight": 4.168720966017469,
+        "abs_weight": 4.168720966017469
+      },
+      {
+        "feature": "genre__trip_hop",
+        "weight": 4.10523331732002,
+        "abs_weight": 4.10523331732002
+      },
+      {
+        "feature": "tag__alternative_hip_hop",
+        "weight": 3.9063105293541796,
+        "abs_weight": 3.9063105293541796
+      },
+      {
+        "feature": "tag__instrumentalhiphop",
+        "weight": 3.8897427448482222,
+        "abs_weight": 3.8897427448482222
+      },
+      {
+        "feature": "tag__hip_hop_instrumental_hip_hop",
+        "weight": 3.8897427448482222,
+        "abs_weight": 3.8897427448482222
+      }
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "size": 19,
+    "sample_tracks": [
+      "Under the Bridge — Red Hot Chili Peppers",
+      "Enter Sandman — Metallica",
+      "Wonderwall (Remastered) — Oasis",
+      "Chop Suey! — System Of A Down",
+      "Uprising — Muse",
+      "Do I Wanna Know? — Arctic Monkeys",
+      "Nothing Else Matters — Metallica",
+      "Scar Tissue — Red Hot Chili Peppers",
+      "Can't Stop — Red Hot Chili Peppers",
+      "Stop Crying Your Heart Out — Oasis"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__melodic",
+        "weight": 7.413632897281751,
+        "abs_weight": 7.413632897281751
+      },
+      {
+        "feature": "tag__introspective",
+        "weight": 6.787715274381299,
+        "abs_weight": 6.787715274381299
+      },
+      {
+        "feature": "tag__melancholic",
+        "weight": 6.517288919992317,
+        "abs_weight": 6.517288919992317
+      },
+      {
+        "feature": "tag__serious",
+        "weight": 5.863240396649574,
+        "abs_weight": 5.863240396649574
+      },
+      {
+        "feature": "tag__rhythmic",
+        "weight": 5.472601016604702,
+        "abs_weight": 5.472601016604702
+      },
+      {
+        "feature": "tag__passionate",
+        "weight": 5.3406631993758475,
+        "abs_weight": 5.3406631993758475
+      },
+      {
+        "feature": "tag__love",
+        "weight": 5.318073353293971,
+        "abs_weight": 5.318073353293971
+      },
+      {
+        "feature": "tag__anthemic",
+        "weight": 4.898574671752649,
+        "abs_weight": 4.898574671752649
+      },
+      {
+        "feature": "tag__bittersweet",
+        "weight": 4.792868002589672,
+        "abs_weight": 4.792868002589672
+      },
+      {
+        "feature": "tag__sentimental",
+        "weight": 4.767737802222248,
+        "abs_weight": 4.767737802222248
+      },
+      {
+        "feature": "tag__breakup",
+        "weight": 3.7658222355218722,
+        "abs_weight": 3.7658222355218722
+      },
+      {
+        "feature": "tag__romantic",
+        "weight": 3.764922654911432,
+        "abs_weight": 3.764922654911432
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 4,
+    "sample_tracks": [
+      "Bohemian Rhapsody - Remastered 2011 — Queen",
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "The Chain - 2004 Remaster — Fleetwood Mac",
+      "Fireflies — Owl City"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__rain",
+        "weight": 20.241052045921666,
+        "abs_weight": 20.241052045921666
+      },
+      {
+        "feature": "tag__sing_along",
+        "weight": 20.241052045921666,
+        "abs_weight": 20.241052045921666
+      },
+      {
+        "feature": "tag__hanging_out",
+        "weight": 19.715752108824393,
+        "abs_weight": 19.715752108824393
+      },
+      {
+        "feature": "tag__wake_up",
+        "weight": 18.428750083417942,
+        "abs_weight": 18.428750083417942
+      },
+      {
+        "feature": "tag__road",
+        "weight": 17.411204523944136,
+        "abs_weight": 17.411204523944136
+      },
+      {
+        "feature": "tag__vibin",
+        "weight": 14.873697292274837,
+        "abs_weight": 14.873697292274837
+      },
+      {
+        "feature": "tag__emotional",
+        "weight": 14.847215481746698,
+        "abs_weight": 14.847215481746698
+      },
+      {
+        "feature": "tag__late_night",
+        "weight": 14.547677859934112,
+        "abs_weight": 14.547677859934112
+      },
+      {
+        "feature": "tag__soothing",
+        "weight": 13.97789382540096,
+        "abs_weight": 13.97789382540096
+      },
+      {
+        "feature": "tag__party",
+        "weight": 13.287735324326933,
+        "abs_weight": 13.287735324326933
+      },
+      {
+        "feature": "tag__dreamy",
+        "weight": 11.76664520614243,
+        "abs_weight": 11.76664520614243
+      },
+      {
+        "feature": "tag__summer",
+        "weight": 11.485014764511938,
+        "abs_weight": 11.485014764511938
+      }
+    ]
+  }
+]

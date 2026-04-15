@@ -547,7 +547,8 @@
       "spotify_uri": null,
       "isrc": "USWU31400038",
       "musicbrainz_recording_id": "eb3659b7-4ee1-45fc-acf4-d57e33237a1e"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0KyAGiNGUytG5JLxJu4F6l",
@@ -1186,7 +1187,8 @@
       "spotify_uri": null,
       "isrc": "USRC11301169",
       "musicbrainz_recording_id": "34c6765e-a256-4cff-95c7-3150a288f447"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4wCmqSrbyCgxEXROQE6vtV",
@@ -1867,7 +1869,8 @@
       "spotify_uri": null,
       "isrc": "AUZS21100040",
       "musicbrainz_recording_id": "5b6ad1ba-9e08-4570-bcef-e3343519070a"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1yqn3XYxrZ4I805SuoJSL1",
@@ -2386,7 +2389,8 @@
       "spotify_uri": null,
       "isrc": "USUYG1179135",
       "musicbrainz_recording_id": "4a2c97e7-f149-4016-9ed9-e7f61d514b42"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6K4t31amVTZDgR3sKmwUJJ",
@@ -2862,7 +2866,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71500303",
       "musicbrainz_recording_id": "78be434c-0908-458f-9693-f16cdebb68ef"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4sebUbjqbcgDSwG6PbSGI0",
@@ -3345,7 +3359,8 @@
       "spotify_uri": null,
       "isrc": "USRC11301144",
       "musicbrainz_recording_id": "12882098-a4f6-4023-ad7d-32b4524ad4cc"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5n0CTysih20NYdT2S0Wpe8",
@@ -3882,7 +3897,8 @@
       "spotify_uri": null,
       "isrc": "USRC11502826",
       "musicbrainz_recording_id": "1435da5b-a01f-458d-a3e0-5ed7d33ec3d1"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3OP8UeYimRl9HCNxMg7Ihl",
@@ -4367,7 +4383,13 @@
       "spotify_uri": null,
       "isrc": "USAT21705384",
       "musicbrainz_recording_id": "7ea92086-ffdd-4d45-b728-afc4e831d7c5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "folk pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5mIOsPuQdXchVY0jB5NO9Q",
@@ -4899,7 +4921,8 @@
       "spotify_uri": null,
       "isrc": "USSM11300080",
       "musicbrainz_recording_id": "4e9f954e-df92-40d9-b68d-8abcd4eae4da"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3YSefJ4OGYCIHNVowuSx7O",
@@ -5365,7 +5388,8 @@
       "spotify_uri": null,
       "isrc": "SE3OH1624243",
       "musicbrainz_recording_id": "039dcd78-bede-4524-abd2-c1c85bb22aba"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0rKtyWc8bvkriBthvHKY8d",
@@ -5972,7 +5996,13 @@
       "spotify_uri": null,
       "isrc": "USRC11902533",
       "musicbrainz_recording_id": "c55131fe-0135-4f83-b517-94cd7e91140d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6MpCaSIOfqBqbMED4kXgNY",
@@ -6832,7 +6862,17 @@
       "spotify_uri": null,
       "isrc": "GBAYE0601696",
       "musicbrainz_recording_id": "440f60e8-0b25-4ec4-abb1-c6beec624ab0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2nr9WZdKntw9a5muEC3gOk",
@@ -7345,7 +7385,13 @@
       "spotify_uri": null,
       "isrc": "USQY51745799",
       "musicbrainz_recording_id": "dbe815e3-bbaf-46d2-8eb3-ac97645f9961"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0jA4h2SD50Oak4C3Vn905a",
@@ -7813,7 +7859,13 @@
       "spotify_uri": null,
       "isrc": "QMEZE1907824",
       "musicbrainz_recording_id": "07dacd71-fb61-47a5-9808-e3f9284762c1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7H0ya83CMmgFcOhw0UB6ow",
@@ -8261,11 +8313,17 @@
       "acoustic_low_level": null
     },
     "ids": {
-      "spotify_id": "7H0ya83CMmgFcOhw0UB6ow",
+      "spotify_id": "1ZgMsA55GIY7ICkQh5MILA",
       "spotify_uri": null,
       "isrc": "USSUB1512203",
       "musicbrainz_recording_id": "5a8f7959-6906-4672-ac64-f994e98976ae"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "dream pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0So2sgVa8aJiARPl2P29u2",
@@ -8743,7 +8801,13 @@
       "spotify_uri": null,
       "isrc": "TCACN1687807",
       "musicbrainz_recording_id": "cbb1bdb8-3d94-4472-a2e3-d61806815764"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1BYZxKSf0aTxp8ZFoeyM3d",
@@ -9261,7 +9325,21 @@
       "spotify_uri": null,
       "isrc": "USRC11902726",
       "musicbrainz_recording_id": "57b269a0-99eb-4b31-a4d4-ff311f965a3e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "77OOBEhQnWEum2pokUnoMU",
@@ -9312,7 +9390,8 @@
       "spotify_uri": null,
       "isrc": "GBSMU5360586",
       "musicbrainz_recording_id": "4c26503e-08f8-4761-9d31-58a24bb145ec"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0HUTL8i4y4MiGCPId7M7wb",
@@ -9959,7 +10038,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71200493",
       "musicbrainz_recording_id": "74bbaf1e-220c-4329-b494-bcfd7da17ec0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0aVM2DspPoHNTDBm7ehySx",
@@ -9990,7 +10079,8 @@
       "spotify_uri": null,
       "isrc": "USCGH1723894",
       "musicbrainz_recording_id": "ae5d1547-b7bb-466b-8e8c-39a395424ba9"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5F3DM6Iz4axGiLUhxvQLs1",
@@ -10668,7 +10758,17 @@
       "spotify_uri": null,
       "isrc": "GBAYE0601489",
       "musicbrainz_recording_id": "5e7a3a47-3df6-4ae7-a60d-fb212758ad81"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5yaO6I0gPMq6OgkroE7Pfd",
@@ -11224,7 +11324,8 @@
       "spotify_uri": null,
       "isrc": "GBAHS1700229",
       "musicbrainz_recording_id": "d02fd6c8-ee4c-4b24-b8f8-df65eaf0d8cd"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4keAoywVf4jxRvXU7ON0hV",
@@ -11275,7 +11376,13 @@
       "spotify_uri": null,
       "isrc": "QM24S1926398",
       "musicbrainz_recording_id": "762cee10-bbc6-43fa-9f4f-1cce0ea3c30e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5PSplhA4PEZHqw0bOfelEp",
@@ -11753,7 +11860,8 @@
       "spotify_uri": null,
       "isrc": "QM6MZ1553510",
       "musicbrainz_recording_id": "2a33ee51-8104-4cdd-8fde-98a82cb965a0"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0SIAFU49FFHwR3QnT5Jx0k",
@@ -11784,7 +11892,13 @@
       "spotify_uri": null,
       "isrc": "TCABX1485212",
       "musicbrainz_recording_id": "40463171-06cc-42ef-bdb9-3b5ef3e3cd79"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7CIERzyqIwLVKGp00YbHRO",
@@ -12275,7 +12389,13 @@
       "spotify_uri": null,
       "isrc": "QZFZ52145391",
       "musicbrainz_recording_id": "cdfe8a75-28c0-4029-831b-e61257519f4a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1FWoak0OgTq1jrYfRKfXsj",
@@ -12915,7 +13035,17 @@
       "spotify_uri": null,
       "isrc": "GBAYE0500172",
       "musicbrainz_recording_id": "5004ea88-6c7e-4096-a89f-b24e358408ee"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "77G0k1La0c5Dw8bAFANcyp",
@@ -12966,7 +13096,8 @@
       "spotify_uri": null,
       "isrc": "GBBBL9902165",
       "musicbrainz_recording_id": "0463dbee-a2bd-4de2-b219-9f96f41fff88"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "37y7iDayfwm3WXn5BiAoRk",
@@ -13017,7 +13148,13 @@
       "spotify_uri": null,
       "isrc": "QZDA71930214",
       "musicbrainz_recording_id": "6279aef8-8a9f-40cc-bf06-d4850e7d16af"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1Go9q6KaCpAsQ0wkZFGzY2",
@@ -13652,7 +13789,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1300876",
       "musicbrainz_recording_id": "bc250b9d-a363-4ae0-a14a-e4e749ef5a3d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4cHKd6qPMR1TMx55KHlida",
@@ -14339,7 +14486,21 @@
       "spotify_uri": null,
       "isrc": "USQX91300809",
       "musicbrainz_recording_id": "744787e9-444c-4494-a544-7640dafc0e9d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "french house",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "electro",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1FvDJ9KGxcqwv1utyPL3JZ",
@@ -14927,7 +15088,21 @@
       "spotify_uri": null,
       "isrc": "GBCRL1100240",
       "musicbrainz_recording_id": "da0e7052-0c6c-4b1e-b936-b3c0d6ad4f74"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "new wave",
+        "count": 1
+      },
+      {
+        "name": "madchester",
+        "count": 1
+      },
+      {
+        "name": "jangle pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7B3z0ySL9Rr0XvZEAjWZzM",
@@ -15419,7 +15594,8 @@
       "spotify_uri": null,
       "isrc": "QMW9F1100003",
       "musicbrainz_recording_id": "52f2b74f-27cb-47fb-89ce-6de40f3acfef"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0Xu6ZcuiQNRqtvvwOxm8y8",
@@ -15946,7 +16122,13 @@
       "spotify_uri": null,
       "isrc": "USUM72114018",
       "musicbrainz_recording_id": "6af22228-ed15-4603-b093-2acbb6c4bc73"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indonesian r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1OOtq8tRnDM8kG2gqUPjAj",
@@ -16530,7 +16712,8 @@
       "spotify_uri": null,
       "isrc": "USSM19902990",
       "musicbrainz_recording_id": "de798de6-70fc-49f6-b580-339cd2e62052"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "75JFxkI2RXiU7L9VXzMkle",
@@ -17180,7 +17363,8 @@
       "spotify_uri": null,
       "isrc": "GBAYE0200772",
       "musicbrainz_recording_id": "a478f801-521b-40e7-8bb4-5faeffb1f3e4"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5TuTHrKzN6NweeQaKkBNb7",
@@ -17221,7 +17405,8 @@
       "spotify_uri": null,
       "isrc": "SEYOK1669273",
       "musicbrainz_recording_id": "2d0ad22d-b1b0-4bc3-b084-fb657f74d238"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2EQWbkcNoKPOXQtJM7nqRV",
@@ -17651,7 +17836,8 @@
       "spotify_uri": null,
       "isrc": "GB01A0600033",
       "musicbrainz_recording_id": "3ec819b7-533e-4da8-9355-05078bd1dd68"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2QzKAF0y1BQhxwg8N05Uog",
@@ -18162,7 +18348,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1701310",
       "musicbrainz_recording_id": "e1908849-7f73-41b5-bbd3-da97f611dcdd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2MLHyLy5z5l5YRp7momlgw",
@@ -18741,7 +18937,13 @@
       "spotify_uri": null,
       "isrc": "USIR10110358",
       "musicbrainz_recording_id": "58044028-9a7e-4da6-9ca8-e5322a25d9a2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5M4yti0QxgqJieUYaEXcpw",
@@ -19205,7 +19407,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71500296",
       "musicbrainz_recording_id": "9db8c054-4379-4f1a-8b5e-5d6b1c2b0f3a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "78j9wYboWAkB0UxVVq0X0H",
@@ -19256,7 +19468,13 @@
       "spotify_uri": null,
       "isrc": "GBYEJ1100223",
       "musicbrainz_recording_id": "3605eba7-c5f4-4965-8378-042fdcce807b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2aaCNg42RA74s0EmHTBqS7",
@@ -19770,7 +19988,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1300874",
       "musicbrainz_recording_id": "076116f8-833e-4e7f-b026-5e2f94044c46"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "71WT6kvVYlGba71B65JrH4",
@@ -20348,7 +20576,13 @@
       "spotify_uri": null,
       "isrc": "USUG12101890",
       "musicbrainz_recording_id": "cd514f3c-27b7-4176-9bbe-f563a382fdfa"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0HAqq2GcQKyi3s87GuN7jU",
@@ -20806,7 +21040,13 @@
       "spotify_uri": null,
       "isrc": "USUG12101891",
       "musicbrainz_recording_id": "3438bc61-52ec-4a3b-b113-210f68e8205e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7brBeAX3RT0CMh3qbTBrIP",
@@ -21330,7 +21570,13 @@
       "spotify_uri": null,
       "isrc": "USUG12101894",
       "musicbrainz_recording_id": "8151e187-0308-4a03-8c3c-04e548d4d5e8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6VyCMQf7wZyZF4j9368HGK",
@@ -21788,7 +22034,13 @@
       "spotify_uri": null,
       "isrc": "USUG12101895",
       "musicbrainz_recording_id": "73203c72-47b0-4e3c-9f0d-8325c53f3827"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "57VAuR1WgKFzcpO3ujQx9A",
@@ -22246,7 +22498,13 @@
       "spotify_uri": null,
       "isrc": "USUG12101896",
       "musicbrainz_recording_id": "cd092139-8985-435f-8bc6-810e074dc78e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Qoz4HdYCIzQCmEd8ARYWP",
@@ -22277,7 +22535,13 @@
       "spotify_uri": null,
       "isrc": "QMEZE1907827",
       "musicbrainz_recording_id": "38276c91-b4ea-48d3-8a35-e59c0dac5a91"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2lO8mP1QvI7RizGcBYQ7Mx",
@@ -22804,7 +23068,8 @@
       "spotify_uri": null,
       "isrc": "QM24S1926168",
       "musicbrainz_recording_id": "5b12e50e-d64f-4d69-8521-fdfdee2cb7fb"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7qwt4xUIqQWCu1DJf96g2k",
@@ -23272,7 +23537,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1200052",
       "musicbrainz_recording_id": "ab27559d-f24d-4d3e-8a01-b6189024731f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4RvWPyQ5RL0ao9LPZeSouE",
@@ -23891,7 +24166,17 @@
       "spotify_uri": null,
       "isrc": "GBF088590110",
       "musicbrainz_recording_id": "e4b347be-ecb2-44ff-aaa8-3d4c517d7ea5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "new wave",
+        "count": 1
+      },
+      {
+        "name": "synthpop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4aR9bPMAOFySBuQSbVWF3d",
@@ -24433,7 +24718,8 @@
       "spotify_uri": null,
       "isrc": "GBAYE0600634",
       "musicbrainz_recording_id": "10cfdacf-53c3-4662-b216-62046e318f6e"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2IwL0fwckPbO9sau1EHslH",
@@ -25035,7 +25321,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922204",
       "musicbrainz_recording_id": "10cbef83-c00a-46a8-8a1a-b79dee49d912"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4sNG6zQBmtq7M8aeeKJRMQ",
@@ -25502,7 +25802,8 @@
       "spotify_uri": null,
       "isrc": "GBARL1500856",
       "musicbrainz_recording_id": "cf1a1949-9c4c-4500-9958-4d7589cf2827"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5CM4UuQ9Gnd6K2YyKGPMoK",
@@ -25543,7 +25844,8 @@
       "spotify_uri": null,
       "isrc": "USRC12201440",
       "musicbrainz_recording_id": "1abdf128-2f80-457c-8da0-e554e8e3b534"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4OmfWzukSVD140NiAIEjem",
@@ -25574,7 +25876,8 @@
       "spotify_uri": null,
       "isrc": "USRC12202285",
       "musicbrainz_recording_id": "4f59eb16-913b-4659-b509-0c3cf9e518bb"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6uVZddXkgQIArp8myEHs4x",
@@ -25605,7 +25908,8 @@
       "spotify_uri": null,
       "isrc": "USRC12201526",
       "musicbrainz_recording_id": "a6369ecb-d0fa-456d-aa47-2fa50af70a9c"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2kk2trjT2JXhEHtCnz9FWA",
@@ -25636,7 +25940,8 @@
       "spotify_uri": null,
       "isrc": "USRC12202289",
       "musicbrainz_recording_id": "2393327c-92f0-475a-a047-0589cd2e8523"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2RwOqicYzwMSuzKzHx78jm",
@@ -26147,7 +26452,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1701299",
       "musicbrainz_recording_id": "679912fd-7b4f-4f23-a888-f073f53262b8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6IvKEu4YwRYba9ZG6H7MIL",
@@ -26658,7 +26973,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1701300",
       "musicbrainz_recording_id": "abad6ba8-c0f7-43a5-9086-73986f54a6b5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5gC8P6NwgqxcTYnwml5q5j",
@@ -27169,7 +27494,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1701302",
       "musicbrainz_recording_id": "f36d8c66-b2e5-4b89-8282-f2ccde62c85b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5Bc2A2xlkRhe3POKAFo1Rg",
@@ -27680,7 +28015,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1701306",
       "musicbrainz_recording_id": "8d68716c-261c-4445-9646-1f3b0320c90e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7KtxHirt0UpK7NQE0aG8L6",
@@ -27771,7 +28116,8 @@
       "spotify_uri": null,
       "isrc": "TCACT1617859",
       "musicbrainz_recording_id": "d3d1a743-a512-49c7-b38d-0610c3433a39"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4jDmJ51x1o9NZB5Nxxc7gY",
@@ -28416,7 +28762,13 @@
       "spotify_uri": null,
       "isrc": "USSM17700369",
       "musicbrainz_recording_id": "2e31e4c7-8670-4470-b667-a27f78229126"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "soft rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "40riOy7x9W7GXjyGp4pjAv",
@@ -28958,7 +29310,21 @@
       "spotify_uri": null,
       "isrc": "USEE11300353",
       "musicbrainz_recording_id": "40bd0203-bc3f-4b15-9ab3-ceeb2ef35d7a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "yacht rock",
+        "count": 1
+      },
+      {
+        "name": "soft rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2AYEOC02WLhUiOoaig2SEH",
@@ -29399,7 +29765,8 @@
       "spotify_uri": null,
       "isrc": "USAT21300149",
       "musicbrainz_recording_id": "a4fd6c50-4b1e-48e5-8139-9da17b20fa18"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "42qNWdLKCI41S4uzfamhFM",
@@ -29919,7 +30286,8 @@
       "spotify_uri": null,
       "isrc": "USCGJ0659337",
       "musicbrainz_recording_id": "f4d36326-da1b-4b43-af19-7113c2adb92d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1OKkG3vxEuBBwLw1gCqdNW",
@@ -30434,7 +30802,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0313602",
       "musicbrainz_recording_id": "8ef5deae-63c6-487f-bca9-ba3e34d4dded"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4U5TPHqsmvVzc8CCZPLfzg",
@@ -30901,7 +31283,17 @@
       "spotify_uri": null,
       "isrc": "AUDJ01801775",
       "musicbrainz_recording_id": "e5aedf96-0e6c-4e86-917a-b10cc008adb2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      },
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "09RamrocZneYcLYLRIxYha",
@@ -30932,7 +31324,13 @@
       "spotify_uri": null,
       "isrc": "TCAFE2075120",
       "musicbrainz_recording_id": "b052da4b-23a7-4515-b5c2-9782624ea8b5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4z9KVNX4hmk672SJfhtQNz",
@@ -30963,7 +31361,13 @@
       "spotify_uri": null,
       "isrc": "TCADT1853143",
       "musicbrainz_recording_id": "cb83e163-b8e3-4de7-bce5-4dc8290a24da"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6s1HDGKsQJUi1kelHkXkXr",
@@ -30994,7 +31398,13 @@
       "spotify_uri": null,
       "isrc": "TCADF1755213",
       "musicbrainz_recording_id": "a2f90321-1347-4cdc-b938-91ef06b51042"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "surf rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2TeYAizye4GlmzQq5zyf91",
@@ -31421,7 +31831,8 @@
       "spotify_uri": null,
       "isrc": "USDY41739832",
       "musicbrainz_recording_id": "a030a5f8-b065-4aae-a4b0-e0eb6213f4a6"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0tMMPZEt6Gyrl9FI8zSicm",
@@ -31453,7 +31864,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2302605",
       "musicbrainz_recording_id": "42cd7ca9-ee58-42cb-aa53-570afd2a83fb"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3wgx6kB0t5yTPcB7UP3p9b",
@@ -31684,7 +32101,8 @@
       "spotify_uri": null,
       "isrc": "ITF730701379",
       "musicbrainz_recording_id": "d57cd3d3-832c-42de-9d8b-410e58ceb04a"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "08vlprFBmwh9TQnjXUtZDG",
@@ -31715,7 +32133,13 @@
       "spotify_uri": null,
       "isrc": "USUM72300085",
       "musicbrainz_recording_id": "636247ca-0043-4608-9708-07abbe9057dc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3kQfBtkQqgN1fAMfhks8TU",
@@ -31766,7 +32190,8 @@
       "spotify_uri": null,
       "isrc": "QMDA62312088",
       "musicbrainz_recording_id": "8abe1e2a-7467-4dc2-9c2c-dfd6c7dc9b42"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "754kgU5rWscRTfvlsuEwFp",
@@ -32347,7 +32772,8 @@
       "spotify_uri": null,
       "isrc": "USEE19900312",
       "musicbrainz_recording_id": "c4cb7174-97d0-4fae-8ee8-8486b4a5c930"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5WbfFTuIldjL9x7W6y5l7R",
@@ -32837,7 +33263,8 @@
       "spotify_uri": null,
       "isrc": "US38W1837601",
       "musicbrainz_recording_id": "2c5148ad-02ce-45a1-85fd-ebd5271f9c52"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3vkCueOmm7xQDoJ17W1Pm3",
@@ -32886,7 +33313,8 @@
       "spotify_uri": null,
       "isrc": "USJ5G2335007",
       "musicbrainz_recording_id": "8f667b90-a2a4-46ea-8806-e957ea78c7bd"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1zFbBrZmJr1Z49HYe84dBg",
@@ -33379,7 +33807,13 @@
       "spotify_uri": null,
       "isrc": "GBYEJ1800003",
       "musicbrainz_recording_id": "e2628bf0-da68-48c3-b289-22ed474a08ba"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1TQuqiFxqnVeez9OMq3emB",
@@ -33830,7 +34264,8 @@
       "spotify_uri": null,
       "isrc": "SEYOK1669271",
       "musicbrainz_recording_id": "276dd589-30af-44ed-b508-206bd3c11a51"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0qOCy2LqvdkMora7eZsJhQ",
@@ -34257,7 +34692,13 @@
       "spotify_uri": null,
       "isrc": "QZCE61802033",
       "musicbrainz_recording_id": "d6396aee-0081-4008-9d85-1026537b2e9f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5u9cuDcYdOpSRB7fAYXXdp",
@@ -34288,7 +34729,13 @@
       "spotify_uri": null,
       "isrc": "GBYEJ1100253",
       "musicbrainz_recording_id": "53e7860c-04ab-4e8c-830d-520a1981e5fe"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5hS8s1Vf4CeSRBT1bTWa39",
@@ -34319,7 +34766,8 @@
       "spotify_uri": null,
       "isrc": "GBKPL1959394",
       "musicbrainz_recording_id": "d22dd184-3f74-4b77-931a-caf19b042a1d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3VIJBrMpvimHEw5wtPh2wB",
@@ -34861,7 +35309,13 @@
       "spotify_uri": null,
       "isrc": "GBUM71105426",
       "musicbrainz_recording_id": "a4fc3d78-6520-4663-82bd-10393bb0af2b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "16gJmoOqRt2lKmlXtDpWgH",
@@ -34884,475 +35338,7 @@
     "brainz": {
       "tags": [],
       "genres": [],
-      "acoustic_high_level": {
-        "highlevel": {
-          "danceability": {
-            "all": {
-              "danceable": 0.90551841259,
-              "not_danceable": 0.0944815948606
-            },
-            "probability": 0.90551841259,
-            "value": "danceable",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "gender": {
-            "all": {
-              "female": 0.817891418934,
-              "male": 0.182108610868
-            },
-            "probability": 0.817891418934,
-            "value": "female",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "genre_dortmund": {
-            "all": {
-              "alternative": 0.0108051672578,
-              "blues": 0.000685879145749,
-              "electronic": 0.984324276447,
-              "folkcountry": 0.000728285987861,
-              "funksoulrnb": 3.21159641317e-05,
-              "jazz": 0.00270356307738,
-              "pop": 6.80451048538e-05,
-              "raphiphop": 2.14614046854e-05,
-              "rock": 0.00063121895073
-            },
-            "probability": 0.984324276447,
-            "value": "electronic",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "genre_electronic": {
-            "all": {
-              "ambient": 0.713293373585,
-              "dnb": 0.00714605255052,
-              "house": 0.136303290725,
-              "techno": 0.0192141570151,
-              "trance": 0.124043129385
-            },
-            "probability": 0.713293373585,
-            "value": "ambient",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "genre_rosamerica": {
-            "all": {
-              "cla": 0.0208141449839,
-              "dan": 0.0512263551354,
-              "hip": 0.0460990928113,
-              "jaz": 0.289448052645,
-              "pop": 0.323616057634,
-              "rhy": 0.172979101539,
-              "roc": 0.0774224251509,
-              "spe": 0.0183947496116
-            },
-            "probability": 0.323616057634,
-            "value": "pop",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "genre_tzanetakis": {
-            "all": {
-              "blu": 0.0626613423228,
-              "cla": 0.0348169617355,
-              "cou": 0.104475811124,
-              "dis": 0.0784321576357,
-              "hip": 0.15692435205,
-              "jaz": 0.313974827528,
-              "met": 0.0448166541755,
-              "pop": 0.0627359300852,
-              "reg": 0.0627360641956,
-              "roc": 0.0784258767962
-            },
-            "probability": 0.313974827528,
-            "value": "jaz",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "ismir04_rhythm": {
-            "all": {
-              "ChaChaCha": 0.0252382289618,
-              "Jive": 0.00441493233666,
-              "Quickstep": 0.00299079576507,
-              "Rumba-American": 0.0562150478363,
-              "Rumba-International": 0.0116989025846,
-              "Rumba-Misc": 0.00725308479741,
-              "Samba": 0.0143167367205,
-              "Tango": 0.855836391449,
-              "VienneseWaltz": 0.0196080934256,
-              "Waltz": 0.00242777424864
-            },
-            "probability": 0.855836391449,
-            "value": "Tango",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_acoustic": {
-            "all": {
-              "acoustic": 0.492193847895,
-              "not_acoustic": 0.507806181908
-            },
-            "probability": 0.507806181908,
-            "value": "not_acoustic",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_aggressive": {
-            "all": {
-              "aggressive": 0.0173521172255,
-              "not_aggressive": 0.982647895813
-            },
-            "probability": 0.982647895813,
-            "value": "not_aggressive",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_electronic": {
-            "all": {
-              "electronic": 0.883083224297,
-              "not_electronic": 0.116916790605
-            },
-            "probability": 0.883083224297,
-            "value": "electronic",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_happy": {
-            "all": {
-              "happy": 0.016229333356,
-              "not_happy": 0.983770668507
-            },
-            "probability": 0.983770668507,
-            "value": "not_happy",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_party": {
-            "all": {
-              "not_party": 0.975282609463,
-              "party": 0.0247174054384
-            },
-            "probability": 0.975282609463,
-            "value": "not_party",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_relaxed": {
-            "all": {
-              "not_relaxed": 0.0168448742479,
-              "relaxed": 0.98315513134
-            },
-            "probability": 0.98315513134,
-            "value": "relaxed",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "mood_sad": {
-            "all": {
-              "not_sad": 0.461137592793,
-              "sad": 0.538862407207
-            },
-            "probability": 0.538862407207,
-            "value": "sad",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "moods_mirex": {
-            "all": {
-              "Cluster1": 0.0892144441605,
-              "Cluster2": 0.129170700908,
-              "Cluster3": 0.386867284775,
-              "Cluster4": 0.238409459591,
-              "Cluster5": 0.156338110566
-            },
-            "probability": 0.386867284775,
-            "value": "Cluster3",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "timbre": {
-            "all": {
-              "bright": 0.659306883812,
-              "dark": 0.340693086386
-            },
-            "probability": 0.659306883812,
-            "value": "bright",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "tonal_atonal": {
-            "all": {
-              "atonal": 0.310203373432,
-              "tonal": 0.689796626568
-            },
-            "probability": 0.689796626568,
-            "value": "tonal",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          },
-          "voice_instrumental": {
-            "all": {
-              "instrumental": 0.995740354061,
-              "voice": 0.00425963383168
-            },
-            "probability": 0.995740354061,
-            "value": "instrumental",
-            "version": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            }
-          }
-        },
-        "metadata": {
-          "audio_properties": {
-            "analysis_sample_rate": 44100,
-            "bit_rate": 0,
-            "codec": "flac",
-            "downmix": "mix",
-            "equal_loudness": 0,
-            "length": 258.713531494,
-            "lossless": 1,
-            "md5_encoded": "86b8277d029da69f3c548335243a82b1",
-            "replay_gain": -10.6571521759,
-            "sample_rate": 44100
-          },
-          "tags": {
-            "acoustid_fingerprint": [
-              "AQADtFKSh5KENAk7HL5x0QquXIHd4zxyKfCD9yus1qi4A31wbQ_yTDG0xEf-44lyVLoVeNnxHDn8FnrwB9cX-EEvHkV6VLSHK8Z3dI0O58h_2MF3nIYr9FpQUYeoouJu5MxTPKgnpG9xDZo6mXgcXLeC64MWC5Geg5_x4_mxb-gXJJcQng--7MNzXEejOQ36UPiO4-SRB4-Y1NB42EbwpsYfuJKOi7lgfggliVAudEPzGke_URCn7XgVkMf3QT_yCB8Ho6fxhwifbGiUXMEv3PgRnmg0_MfzBEeYx9DsFEcs6iCVo50eNJOyFE-OPEbi9GiUoM-DPzH6oumP7EeyzElQS8cffNLx1E6ExsnCofwNjkfiI9QVnMmK84IXaTkc6Rm64z6OPokXuMmLMJMSBTqFMHxQJaSD_woe5UOYKoJ2BXlOnBeuVEqCH-dh9cizINGP50Q_bbgffOHx6_CKFOoPq0mS49JBbUWeyDwsP6iM40nQTNKJRwiTkZCLdMcZIw_OJKkWNFV0JPuGMqjEJ_iUa_hRPeIR5umh60Z2VCJzKfiF6kuD62DyHP-GMEdSZUmy4pHwL9jTo-mHHk_x1fiFpjyeB8kSM4jaDM3RSzHOJLiSJEeu7IH0ILyJ5rmCS8eT3niaJNHhH8mFvMXXF5WP_glqhSR88EssIsxzJFWDJ59x-nimoHHNYRLx-LixN0IzHXYeJBPHIy_6Y8qZBmdy7FGSB1eSIzlyw88T_JKC_9gT8YjG6xB-Il-fgJyk4H9w5WjYByGZE0Ll4HsKx0kOypFy5N12XMnRHfeDD00VUQu-HU1HJJ8RCo3CsMF94Ym-gLF2JMsVhMxR8gJH5Unw4zsPx8iuQJWPsM7hK2ESOKaNSyH8w8-OENJ-dFOSQG1EHeKe49ERSj1-4dnxoXEUNii1D2EeaM_QRDl6xviGKx8khYoe5BPKHJWkKwlIJheOihwR5gkP_Rsy56iU8Qp6fA7-gEm44UOYHImTJclx3rg77E2Ppp_RHT9u4xaa8oioQUtV5M3Ro8nTDE8uXFGOPNmRHD_8KzGeD9_xLEKaB8l1cNcalFH4wHUKh3bw5PgvZPqKZHmOq1GOJxf-40rQhO_RLcd_HE-jI6QPzQ_OJDzyonmO6g7yLDmu6ZCe5EG-FwWTSCt1nFdExLSgdxmiHb-I50JfmPzRn_ilBE_z4USYH8mAWUqNL1kqBWSF6oePejyR_ESeB8eJRkevDzEZHbqQH_SyUEFPEdsDe_CJehHiK4WsLynyPfjx4kfaLUi-7BPuB3uxHG5KZriKR83x5sKP5Eee8Hj2MMR5wk-wL9kCfpGO92iTOvAx_QjzLgvUTDnSSXmKH-ODZ3nwFz-c3Ih3EQnH47mNZzlOoXmS4U6UDQ_LIA8SPfvh33jw4wmeTDIuCWqa40dh7sMtXGuHH0cfVcOpEe-HJE1n5FmnDL8m9NxxCn6C8niWI--hEp8hLlN-5G8SvDde7ELD8_gTBUe7BFePXjucjMj0QZN6REfzC3UrEo2HUheqH89RkcGPKyWS9WqQZvNx74F3ODV-HP2GP8HJNMfnBz_S7IcuHvlz7MmikChZGs-PytcQKj94BXqo4V-gi8Qb5DrYcIbzobtV7FmmIcd_dE-kIxYTPSiT5BFuDr_QH9-RPGESpMp-OBJ_lNkTfGTgMziAJHuizOAXzOlOlFKuDE9O3PAx6YOc48uNazmYBvmP_Yg_BY1MqIcunEXqqcMlpsO1PLiJLh-cJjNq6TjyQ1_TIex4uIo4tMGXRMbVKURzhDrOo0uiLMVzBc51vDr66MhzoXxwX_hSPBwFh7rR-_gy_PgRdQyHL8vB8_gl8GLQXOgMPd2OWA56eHmS4MyaB80Z4QFuUWhkgZGFM3Uw51QQUy3ULOGxPchB3DkuLjteZcIjcTzGEz183D3RE3l-JMd3jAqPgzkTuMqIXseOn4ik3kgnJQ_Y7LA-oqKDXONx7DxeaDlCSsmF_oGPMxlShxe0I7SFMjsuZTryD8lSp5iu4yS-8KgsI4z-GMkTHd-Dt3gKR8fxM0Ku5EjeoVly9EF-6EEs4k8iXD1-Bv-RX0hmH83IlHiW48KP0yLyTFGRLEdVvAxOhSEuKgOTH300HfWFhgqPXLnxQ0u5o5fw7PhDjeAv9DwhviMmR4MeHQ-K5jueLTEHXdnxLGzwQv0RnimaJYouXIl0PMR5TEf14EtXhF4UiHuQPiLaB3_wo1SOHy9TNFWe4Mh1QXUUB2Ec5kR_4w9uDmmTZCP0I18Ox6Gk40lPXML1oU9-JMuH3EeZBT2QM4TOG2F6Br3wZGzw6KiWDlaswXGLMtwkJOqRH2dy_IflnDh98A1j5PyhHWFi5sHDTMa2BOePIz_uIHSP8MfTKA4eNIcmbhW-oodf6MeX4yThHNdxyyguZsYb0mg4RoRGKR_OTETI6zhH3A9uHFfCCFeiDL8C3-iz7EJ-_Ap-YaSmHFeSI_Q1-JSE8U_xaAuS7kTk7fDyo-SVYT9Rq2iO49h-3FEekPExKlFYPEfMQzusZsP04fqMSw8kRwyPd8d-4eh-iA-hHZ8Em0NOhVHw7vjRKDqqJqtwnTiP_MefGVoVptDy5FCLj8QVHs2OkmxwTUdJpkJaZcuEl8GvCQ8jCj-O87hiHU82OL5i3OizDO-P_GRwxlC1BoqTrcWF8VRE9Gg6DvqRZ0ejLDqqp0nwUfDxAzmUPcvBWcGa5ygzfMoVnKkPP0KkGwdz_KgTZsezY8zxo_mDfngpAGEwMkIwogBACBNhBBCCASEQNgABShQAQkBABTYAIMOAQQoogKgAQCtlGFJGCEIAQYAQ4ACSAhhRIBBCAAMJgIIYiAAyAAJmBCOOKUWAMMQRowwkECGnAJBMEIqUYYAAIYwViBmmIBBWAAQAIAgYAYhBSgIABGJSGGCMMEABBZATglAIkGAKEGMEUEwAoQDiAimAFFBMEaGMA8YKQIBBDAkCkBFMAACcIQIRAzAhBhhmCBEACAoAAU4RoAwgAhCCpAKEGGQQMAZQQQAgABHDBCFICMAgAJAYAQwCjABDFBAAACAIAQo4gIRgxhgmAIECCSCEAsQhQdhQgEFkHVNqCAIQEQYCQAwCTBkHCBJIAiUAQsI5ASQjSiEABIEACAEM4UBYAAAqzDhAACJGCEKAcgAIAjRSyAhhBEAGASYYMIACRITmwAihICIKGCeYYAopLAAAiCMoiDBSAiOAAQYRYJjhQgFABAFIEGqBAQoJBhgAgBABgAHdeEcgAA0UR8hBAAkBAEPUEQmoAkAQJYgAgghCCCAUWQKAgcIyCwEQwCFrjQMEACKoMEAoAwgBShCAAFFICe2IAVEQIQhBQCriBCBIAOMADAQQBKgCDjBFhFAGGYMAEQYRgI4BgCAACVRCCCSIEMghRQhSxAkIiWHEKKIpQFoRABAgQABWAAJACMkRIEoRQBQBBAjhEWIACWTAIBYIRQwhXBGElFLMAUGIQYQRq5FhwBgrHBQCIEaQA4gAAhhCTGIBoHGEEGGIGAAAC4wCBgBhwAIACCIEkIAASxG1QhjnEDKQCIEUQAYZpBgxhAhAMGLACCKEVEgYSRSQzACCABDACUOEBUIYIg4QAChhFLFAKWIAd4YAQQAAhggQCxAMCaIMBAIqIxAhRADhhEGAwwgEEEYhJSghQgliDAFFASUMEQYAZKAyxhAAiEEGCgYQIASCpggiggphCAAIHA2EY8Y4gLQDSggBAEAEjMQMA5g4JIwE"
-            ],
-            "acoustid_id": [
-              "e939d8ba-3676-4cf8-ae3b-e6134a964581"
-            ],
-            "album": [
-              "Superclean Vol. II"
-            ],
-            "albumartist": [
-              "The Mar\u00edas"
-            ],
-            "albumartistsort": [
-              "Mar\u00edas, The"
-            ],
-            "artist": [
-              "The Mar\u00edas"
-            ],
-            "artistsort": [
-              "Mar\u00edas, The"
-            ],
-            "bpm": [
-              "0"
-            ],
-            "compilation": [
-              "0"
-            ],
-            "date": [
-              "2018-09-26"
-            ],
-            "discnumber": [
-              "1"
-            ],
-            "disctotal": [
-              "1"
-            ],
-            "file_name": "01.02 Cari\u00f1o.flac",
-            "genre": [
-              "Indie Pop"
-            ],
-            "label": [
-              "Superclean Records"
-            ],
-            "language": [
-              "eng"
-            ],
-            "media": [
-              "Digital Media"
-            ],
-            "musicbrainz_albumartistid": [
-              "7a3970c9-ecd8-4eee-a267-4d8c77d97ff3"
-            ],
-            "musicbrainz_albumid": [
-              "daa807df-967f-4aa5-96f8-08c2d9fffa42"
-            ],
-            "musicbrainz_artistid": [
-              "7a3970c9-ecd8-4eee-a267-4d8c77d97ff3"
-            ],
-            "musicbrainz_recordingid": [
-              "c55840a9-cb74-440c-b5b3-ca801b166528"
-            ],
-            "musicbrainz_releasegroupid": [
-              "03184966-3f87-4849-b3c1-923dab352b1c"
-            ],
-            "musicbrainz_releasetrackid": [
-              "e207f5b1-465a-4803-913e-69983174dd89"
-            ],
-            "originaldate": [
-              "2018-09-26"
-            ],
-            "releasecountry": [
-              "XW"
-            ],
-            "script": [
-              "Latn"
-            ],
-            "title": [
-              "Cari\u00f1o"
-            ],
-            "totaldiscs": [
-              "1"
-            ],
-            "totaltracks": [
-              "6"
-            ],
-            "tracknumber": [
-              "2"
-            ],
-            "tracktotal": [
-              "6"
-            ]
-          },
-          "version": {
-            "highlevel": {
-              "essentia": "2.1-beta5-dev",
-              "essentia_build_sha": "e74af04b57b164eed312abeef4963962215860f0",
-              "essentia_git_sha": "v2.1_beta4-674-g8c1d4f0",
-              "extractor": "music 2.0",
-              "gaia": "2.4.5",
-              "gaia_git_sha": "v2.4.4-44-g95f4851",
-              "models_essentia_git_sha": "v2.1_beta1"
-            },
-            "lowlevel": {
-              "essentia": "2.1-beta2",
-              "essentia_build_sha": "05ddcf096b9560a4bec586e3e2c3f09258f97377",
-              "essentia_git_sha": "v2.1_beta2",
-              "extractor": "music 1.0"
-            }
-          }
-        }
-      },
+      "acoustic_high_level": null,
       "acoustic_low_level": null
     },
     "ids": {
@@ -35360,7 +35346,13 @@
       "spotify_uri": null,
       "isrc": "QZDA71858168",
       "musicbrainz_recording_id": "c55840a9-cb74-440c-b5b3-ca801b166528"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3cxZT78mZDyLsLPJKcTu3U",
@@ -35850,7 +35842,8 @@
       "spotify_uri": null,
       "isrc": "US38W1937602",
       "musicbrainz_recording_id": "c17c99b4-8773-4d6b-9360-d9cfb7a133d4"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2P5yIMu2DNeMXTyOANKS6k",
@@ -36349,7 +36342,8 @@
       "spotify_uri": null,
       "isrc": "USJ5G1815009",
       "musicbrainz_recording_id": "e77b161d-664d-413e-bd04-f0a8ac205735"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5euumi7eqEgmxvCIJw2pSp",
@@ -36839,7 +36833,13 @@
       "spotify_uri": null,
       "isrc": "TCADU1861897",
       "musicbrainz_recording_id": "542ab58b-1053-4d9e-944e-20bf63d39481"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3vjs2MDHoF9xhylNg6Y9un",
@@ -36870,7 +36870,8 @@
       "spotify_uri": null,
       "isrc": "GBKPL1959342",
       "musicbrainz_recording_id": "00debd1b-c1e9-4d7f-8219-df83e2868231"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2X485T9Z5Ly0xyaghN73ed",
@@ -37333,7 +37334,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71500292",
       "musicbrainz_recording_id": "b85f7f6d-813a-4ebc-8a1d-5998ab02be9a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5xA5MggKc3aQxuOzNzPUWB",
@@ -37832,7 +37843,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1901010",
       "musicbrainz_recording_id": "d0e81ecb-eb4e-4b4f-b20e-d1f7c3bf330f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "180AbZduI6bYQIzwCHRwu9",
@@ -37864,7 +37881,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2302799",
       "musicbrainz_recording_id": "0ce783dd-9777-4f1d-a8c8-3782737ef4fa"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6QeYSvYqYUsfBzsApbjDHO",
@@ -38348,7 +38371,8 @@
       "spotify_uri": null,
       "isrc": "USCGH1682129",
       "musicbrainz_recording_id": "b589b70d-e156-4276-9c15-55b9398d4a0f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "41P6Tnd8KIHqON0QIydx6a",
@@ -38379,7 +38403,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202093",
       "musicbrainz_recording_id": "b503cb6f-ef3b-4e5e-8237-37f22810f484"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0gEyKnHvgkrkBM6fbeHdwK",
@@ -38939,7 +38969,8 @@
       "spotify_uri": null,
       "isrc": "USIR29300085",
       "musicbrainz_recording_id": "c181fb92-5699-43ee-9f6e-c7ddc338aea3"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "12UQIJePnGeLmpVReYpG2w",
@@ -38970,7 +39001,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202090",
       "musicbrainz_recording_id": "669eb7e5-69df-4d76-8fc0-306bb1e4d6d4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7aX39T4YHNZ03NAmjc3DLr",
@@ -39001,7 +39038,8 @@
       "spotify_uri": null,
       "isrc": "US38W2349104",
       "musicbrainz_recording_id": "e6613a11-58b4-44ba-941c-6a0e9e8f6e1f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "78nMVqRwap5hysPgnziW4u",
@@ -39032,7 +39070,8 @@
       "spotify_uri": null,
       "isrc": "US38W2349101",
       "musicbrainz_recording_id": "4dfca251-8d87-44c5-b4f1-2902f1a3654b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2WjEUnzuDhwlFpp9epgtrW",
@@ -39063,7 +39102,8 @@
       "spotify_uri": null,
       "isrc": "US38W2349110",
       "musicbrainz_recording_id": "57dc019a-b8fd-4f2a-9903-3a42c85f5925"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6TPTnROcnJQXuAyRDw2qfu",
@@ -39553,7 +39593,8 @@
       "spotify_uri": null,
       "isrc": "US38W1937601",
       "musicbrainz_recording_id": "2814d685-99ce-450d-974f-0b4a250702f1"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0uphGVj1uIticJK6gb2WnO",
@@ -40043,7 +40084,8 @@
       "spotify_uri": null,
       "isrc": "US38W1937603",
       "musicbrainz_recording_id": "8b28c85a-c013-4f07-b30a-10381623da74"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7ddVpLW467CLYffbPRQNmH",
@@ -40115,7 +40157,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416224",
       "musicbrainz_recording_id": "4b4e3304-8655-4e2e-a91c-192a0f486134"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7qGnlI5MrFAs3OHU1E7Wpa",
@@ -40565,7 +40613,8 @@
       "spotify_uri": null,
       "isrc": "QZ5VZ1600004",
       "musicbrainz_recording_id": "4492acaf-d7ea-4eb1-8a0d-5b9262444c9a"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0P4OHmZ7t092na79ElH7F5",
@@ -40596,7 +40645,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202089",
       "musicbrainz_recording_id": "48ce8aef-86ce-4b69-a77b-5552c8841d3f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4tf04WrZTy60CawyvueIdK",
@@ -40627,7 +40682,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202095",
       "musicbrainz_recording_id": "a81dfe54-1ff4-4862-bb96-034843b58da2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3SeDS5sSoWnwAZvVgkdKzf",
@@ -41083,7 +41144,8 @@
       "spotify_uri": null,
       "isrc": "QM5BK1900509",
       "musicbrainz_recording_id": "8830029e-c795-4cc7-928f-8b4c0b225115"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3SAga35lAPYdjj3qyfEsCF",
@@ -41114,7 +41176,8 @@
       "spotify_uri": null,
       "isrc": "USUM72401132",
       "musicbrainz_recording_id": "eee69716-0661-4351-ad2e-7a953a804d2b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4KGGeE7RJsgLNZmnxGFlOj",
@@ -41145,7 +41208,8 @@
       "spotify_uri": null,
       "isrc": "GBKPL2298396",
       "musicbrainz_recording_id": "6587f3e0-2eaa-4b9e-bf49-948cc323029a"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7zgEoBci3rKmEkLdsZ8ZKJ",
@@ -41196,7 +41260,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2302683",
       "musicbrainz_recording_id": "0e011401-8380-48f3-b4bf-ad89e5e8e6ae"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7pMEJEVSjQBuUAqWOupJk6",
@@ -41247,7 +41317,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416223",
       "musicbrainz_recording_id": "0a90854e-6735-4242-89d7-5c33cf36cb01"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5BeHDeGz9sTRNu5kOZRmHh",
@@ -41278,7 +41354,8 @@
       "spotify_uri": null,
       "isrc": "QZNWV2426953",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "7zLyWCEGgfdtUq6vC4saTi",
@@ -41309,7 +41386,8 @@
       "spotify_uri": null,
       "isrc": "QZTAT2388822",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5GMQdzgtI7vtpmtps2YiYx",
@@ -41924,7 +42002,13 @@
       "spotify_uri": null,
       "isrc": "USTO11000021",
       "musicbrainz_recording_id": "257afb49-e911-4e7e-908a-46a7d7f853dd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "christmas",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2dono2Koz7DEvGwxUsmMLq",
@@ -41955,7 +42039,13 @@
       "spotify_uri": null,
       "isrc": "FRX872443806",
       "musicbrainz_recording_id": "02cba491-0cef-431f-8369-a4e916f194b0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7IBzp33O4Hjr92wXtH3yQJ",
@@ -41986,7 +42076,8 @@
       "spotify_uri": null,
       "isrc": "SEYOK1814660",
       "musicbrainz_recording_id": "3230ad51-5898-4971-9049-861b3374dc5f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "429NtPmr12aypzFH3FkN9l",
@@ -42476,7 +42567,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800819",
       "musicbrainz_recording_id": "c6cdaca3-37a1-47f3-a5e3-e9c012a6c0f1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6WZjjf4mKurHPC5BhdGwet",
@@ -42921,7 +43018,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1200050",
       "musicbrainz_recording_id": "8b395199-4145-4b37-b648-92160f4a973e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7cFwopK7QTOgaEwF9JgipA",
@@ -42952,7 +43059,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416225",
       "musicbrainz_recording_id": "0280ccfd-b3a7-46b1-a4a6-18aa1d340c51"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2qmmnbJ9JR3f7vofbyje5r",
@@ -42983,7 +43096,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416226",
       "musicbrainz_recording_id": "b073c842-791f-4a8b-8073-2ab3d58dc770"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0mMlo76aVZHpuvoR6fjBSK",
@@ -43014,7 +43133,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416227",
       "musicbrainz_recording_id": "1fdb1f10-6047-4464-a5af-3e109c4e91f7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "32fwe7MW5koort1Ua3YFx6",
@@ -43045,7 +43170,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416228",
       "musicbrainz_recording_id": "4be2aed9-3719-4655-951c-51f7e488a569"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2mWfVxEo4xZYDaz0v7hYrN",
@@ -43076,7 +43207,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416229",
       "musicbrainz_recording_id": "016d187f-0e11-4171-82e9-15f04fafa097"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6FcDxtnGfsYHOcGkXN2OIG",
@@ -43107,7 +43244,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416230",
       "musicbrainz_recording_id": "1c6e21a9-f90b-4bd8-8b75-a397e05f347b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6QlSPjiXHc1XwGKeEls6Gh",
@@ -43138,7 +43281,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416231",
       "musicbrainz_recording_id": "f2f031af-8b44-4572-b141-c281c4f5bf0f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4JLBaHFkjxnbf9X0D8G3zQ",
@@ -43169,7 +43318,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416232",
       "musicbrainz_recording_id": "75f78724-93ec-44e4-be66-896d3008ce33"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3lnEcmIHlkeqcgDiZ5cgN3",
@@ -43200,7 +43355,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2416233",
       "musicbrainz_recording_id": "b092f031-e8f9-4a6c-a991-0a051b9b0665"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6drC7tBnx8AiYfTfBmDPVO",
@@ -43731,7 +43892,17 @@
       "spotify_uri": null,
       "isrc": "QMMZN1300561",
       "musicbrainz_recording_id": "371a649d-dd4e-4d15-bdf3-6aeb62926d33"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1lDS95xiG8ln73gdOlNjfU",
@@ -43762,7 +43933,13 @@
       "spotify_uri": null,
       "isrc": "QMB622400008",
       "musicbrainz_recording_id": "866934f3-f9e4-4938-b999-84d42cc6e5be"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indian indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4JHCLFKkuvNMb67DYuAjUU",
@@ -43793,7 +43970,13 @@
       "spotify_uri": null,
       "isrc": "TCADG1703072",
       "musicbrainz_recording_id": "69f4b9e5-3151-421f-b80e-7285dc82dd10"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0zzz9l8ZX5vDBJmNHnWOom",
@@ -44321,7 +44504,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1900970",
       "musicbrainz_recording_id": "cb4d7ba1-dc6e-4e50-b78a-2057ad757f51"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5R4u3LgAC2BNkxo0bKQmS5",
@@ -44811,7 +45000,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800912",
       "musicbrainz_recording_id": "0054f087-73e4-4f34-a171-184a3f5c77f8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0lko8s8up1bZSqctfuoPKj",
@@ -44862,7 +45057,8 @@
       "spotify_uri": null,
       "isrc": "QZDA61986777",
       "musicbrainz_recording_id": "9fb62336-68b7-43fa-a220-e7f3637c7cc5"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6wpcfnVXNj4705DPx2aqvs",
@@ -44893,7 +45089,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2402970",
       "musicbrainz_recording_id": "01c7faf5-15a0-41c6-8d61-cdacad22ebbf"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "09qNOVfxhuBsZC6XVreQ49",
@@ -44924,7 +45126,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2402974",
       "musicbrainz_recording_id": "ac12715d-eb53-4aa7-9a60-f96e05e67ffd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6GDd1lZ0zp5pB6JleN5Xzx",
@@ -44955,7 +45163,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2402962",
       "musicbrainz_recording_id": "c5083ea6-0ca4-4e73-b9e1-8e8dbfeddd5b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3w3seawXfQGat9yH2B8Tge",
@@ -44986,7 +45200,8 @@
       "spotify_uri": null,
       "isrc": "US38W2349105",
       "musicbrainz_recording_id": "85923a00-1d26-46b8-a01e-bfa0ad10f996"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "22lMC9sDCLMGXRsxJ0Qj1F",
@@ -45017,7 +45232,13 @@
       "spotify_uri": null,
       "isrc": "QMB622400010",
       "musicbrainz_recording_id": "ec115504-35d7-425e-ae66-8ed1b2882e23"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indian indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2VYnlKxB8jpbCeLUjQsebc",
@@ -45444,7 +45665,8 @@
       "spotify_uri": null,
       "isrc": "US38W2040401",
       "musicbrainz_recording_id": "e2334adb-fbc0-4642-8e1b-b9267ccad5c6"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3TFNxpIwIzMi3jsMRy9GVZ",
@@ -45895,7 +46117,13 @@
       "spotify_uri": null,
       "isrc": "QM24S1926314",
       "musicbrainz_recording_id": "a8a5f170-04a3-400d-b66e-4d3d2e74ce94"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "68SSN8C0cJmUEXJkGyNYqe",
@@ -45926,7 +46154,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202101",
       "musicbrainz_recording_id": "c5a7b549-6778-48ec-a54e-5adba67e0de8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5QvditjxADt1HMKPgaMjJm",
@@ -46404,7 +46638,17 @@
       "spotify_uri": null,
       "isrc": "TCADT1887356",
       "musicbrainz_recording_id": "5232159f-ded9-48cb-8ddc-093cfde4c20a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      },
+      {
+        "name": "indie pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7xLfmCx9jcZNgzlIK7NupN",
@@ -46435,7 +46679,13 @@
       "spotify_uri": null,
       "isrc": "QZMEP2194356",
       "musicbrainz_recording_id": "754a49d4-e41e-4849-9b1c-23f501792787"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0SpkyS1Q4MD8GaVcP5YjT4",
@@ -46960,7 +47210,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2101743",
       "musicbrainz_recording_id": "aba89a10-fd4c-4d8b-b643-6744d85cf4e3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6ilc4vQcwMPlvAHFfsTGng",
@@ -47011,7 +47267,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2402964",
       "musicbrainz_recording_id": "49ead472-78fa-4c0a-bfca-6aaec23acc7c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5sGGlfbqdGlJr3ZMMjODoy",
@@ -47441,7 +47703,8 @@
       "spotify_uri": null,
       "isrc": "QZ5VZ1600001",
       "musicbrainz_recording_id": "06b517b2-183f-4d43-a4e1-8ea978275e7f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1FWsomP9StpCcXNWmJk8Cl",
@@ -47492,7 +47755,13 @@
       "spotify_uri": null,
       "isrc": "TCADG1703082",
       "musicbrainz_recording_id": "cee8886c-192b-47c3-b69d-c13d0d28cf00"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0tZ9JXJ5Yi1dvEKwK3FYma",
@@ -47523,7 +47792,13 @@
       "spotify_uri": null,
       "isrc": "GBJGV2100404",
       "musicbrainz_recording_id": "de4301cb-9f17-4a2d-9d1e-dccc6ddcf535"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7I1kle4TNmkfednJDKo8GR",
@@ -48013,7 +48288,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800913",
       "musicbrainz_recording_id": "2c12b59e-656d-4e75-8a0d-25e210e42b95"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7hm4HTk9encxT0LYC0J6oI",
@@ -48546,7 +48827,21 @@
       "spotify_uri": null,
       "isrc": "USRC10100769",
       "musicbrainz_recording_id": "e8d5c3f6-494f-439a-8f6c-889df2b7a4b8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7hNPcyHhNYLCtTFa5bxvX1",
@@ -48973,7 +49268,8 @@
       "spotify_uri": null,
       "isrc": "US38W2140109",
       "musicbrainz_recording_id": "7e644146-7b26-4d50-9dfb-193b6e2db902"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "47Crl3BP6YFeC4Y3EjpUYi",
@@ -49524,7 +49820,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71000133",
       "musicbrainz_recording_id": "7a7f8825-532a-4586-93e4-8edfe3c958de"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2yNfAd72XQBpDYEncn387J",
@@ -49555,7 +49861,8 @@
       "spotify_uri": null,
       "isrc": "QZTB42450555",
       "musicbrainz_recording_id": null
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "52zzYSu7RUsSFn8cZlVjWp",
@@ -50048,7 +50355,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1901098",
       "musicbrainz_recording_id": "297dd100-3148-49f7-841d-c44ce59f34bd"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "70YTBH8vOGJNMhy6186yFm",
@@ -50597,7 +50910,21 @@
       "spotify_uri": null,
       "isrc": "US38W2140110",
       "musicbrainz_recording_id": "3e99b655-1cf2-45a8-8f68-bac70ef67f6b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "japanese indie",
+        "count": 1
+      },
+      {
+        "name": "shibuya-kei",
+        "count": 1
+      },
+      {
+        "name": "city pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2UkoyDNn9bJbGl6sH87xXc",
@@ -51027,7 +51354,8 @@
       "spotify_uri": null,
       "isrc": "QZ5VZ1600003",
       "musicbrainz_recording_id": "1eecd49c-7233-4835-a662-98a411fb0c93"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3siwsiaEoU4Kuuc9WKMUy5",
@@ -51084,7 +51412,13 @@
       "spotify_uri": null,
       "isrc": "USAT22307579",
       "musicbrainz_recording_id": "d13a634b-9f69-4256-9415-b7e95aac101d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0InIeZW4P6VO7dUGRM4AKH",
@@ -51132,7 +51466,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400849",
       "musicbrainz_recording_id": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "466C6kwoJHLUJ8VHG98hCY",
@@ -51707,7 +52047,21 @@
       "spotify_uri": null,
       "isrc": "USRH12302535",
       "musicbrainz_recording_id": "6ba2685d-2d73-462c-90f9-5fd87862a7b6"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "progressive rock",
+        "count": 1
+      },
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "aor",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1ShRHPAiiIrh0arZbSFmx1",
@@ -52170,7 +52524,13 @@
       "spotify_uri": null,
       "isrc": "USAT22100694",
       "musicbrainz_recording_id": "c09e14e5-97ee-4c52-ae4a-a28d0084e44c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7eQ0SV1eQXSZHBA1x4mcYu",
@@ -52201,7 +52561,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400848",
       "musicbrainz_recording_id": "84cfc393-1fcf-4397-bfcd-ea85a816d24d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3L0JDlycMhSA7R0M0OfNIY",
@@ -52232,7 +52598,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400846",
       "musicbrainz_recording_id": "f876c94e-9815-4470-a065-6f5d227c2f83"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6kp9czhrGZrP0hr9Y6opEr",
@@ -52731,7 +53103,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1901014",
       "musicbrainz_recording_id": "74224dbd-acb4-4765-a4e3-ff7a02f2f1e6"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0jBE7Fn78EAvmIs3dCd6GO",
@@ -53274,7 +53652,21 @@
       "spotify_uri": null,
       "isrc": "USRC10100762",
       "musicbrainz_recording_id": "824ec953-d221-4488-8c11-aff83ee7646e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2plbrEY59IikOBgBGLjaoe",
@@ -53460,7 +53852,17 @@
       "spotify_uri": null,
       "isrc": "USUM72409273",
       "musicbrainz_recording_id": "098ed81a-fa33-4212-ac6d-2cc19dde5fef"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "art pop",
+        "count": 1
+      },
+      {
+        "name": "pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2qkb3hhx8iCBvYzX9SvVxj",
@@ -53491,7 +53893,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202096",
       "musicbrainz_recording_id": "1e68edf1-d4ad-46ed-9de0-0bd9a34c15ea"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4D7pqnF6VzLbwF96Ywe8H5",
@@ -53522,7 +53930,8 @@
       "spotify_uri": null,
       "isrc": "QZDA52423551",
       "musicbrainz_recording_id": "b7a4ee57-6a25-4aee-8cd3-1a5bd8a422d1"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4XYo3W8U6IY42EbB01rnR4",
@@ -53553,7 +53962,13 @@
       "spotify_uri": null,
       "isrc": "USUG11801803",
       "musicbrainz_recording_id": "766f9fb8-2f2a-46a0-9423-7be14a452b77"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5e0b9LgOfi3aJSKXFcOWRe",
@@ -53584,7 +53999,8 @@
       "spotify_uri": null,
       "isrc": "QZWFH2353145",
       "musicbrainz_recording_id": "bdcf8037-9584-4c0a-9782-141478385bbb"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4fPjI40ElIwJQ4DJJxSCOe",
@@ -53615,7 +54031,13 @@
       "spotify_uri": null,
       "isrc": "QZFZ52144176",
       "musicbrainz_recording_id": "54100470-534b-48ec-a7a7-ea46f20abadc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0jx2hPIzs7bNveWHU2Ohzu",
@@ -54066,7 +54488,13 @@
       "spotify_uri": null,
       "isrc": "QZ4JJ1752726",
       "musicbrainz_recording_id": "8771a072-447d-469e-b5d4-13ec1a4ae81a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6oP8iOWmJkwsm4yjDpSbhv",
@@ -54493,7 +54921,8 @@
       "spotify_uri": null,
       "isrc": "US38W2140105",
       "musicbrainz_recording_id": "27c64703-a0a5-498d-a277-e81db3f65cb6"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6F5mZpEEjhsAW8UEqbIpz1",
@@ -54983,7 +55412,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800910",
       "musicbrainz_recording_id": "de83443a-003c-4bfb-9f15-7725f8313d92"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3CmcswzHOACDjooV1KLULN",
@@ -55410,7 +55845,8 @@
       "spotify_uri": null,
       "isrc": "US38W2042601",
       "musicbrainz_recording_id": "8669864b-17b0-4103-b993-7d8331edd6d4"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4gtIYSYu8u2ItBqrhCaChL",
@@ -55441,7 +55877,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400843",
       "musicbrainz_recording_id": "5cc4b58a-e222-46e1-9f62-6c1d7e6b6065"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6pTSHhupVbWJmO5hGymxkL",
@@ -55472,7 +55914,8 @@
       "spotify_uri": null,
       "isrc": "CAL451959501",
       "musicbrainz_recording_id": "eb5d8dc5-236e-4dd1-9d49-8b5902309cbb"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3SUusuA9jH1v6PVwtYMbdv",
@@ -55503,7 +55946,21 @@
       "spotify_uri": null,
       "isrc": "USRC10100765",
       "musicbrainz_recording_id": "a51c7e7d-938b-4485-b5f0-5649e0bc09b0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1FnaRNR5YLddYYd6xwJ3DX",
@@ -56000,7 +56457,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2001454",
       "musicbrainz_recording_id": "a719c4d3-c3f1-48ae-87ee-b307ed8dcf77"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6N4WUdbz6HVKy6u6JX1KqK",
@@ -56490,7 +56953,17 @@
       "spotify_uri": null,
       "isrc": "QZG4T1900005",
       "musicbrainz_recording_id": "710142a0-16ff-433f-b937-6b3241d57d28"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0phzfJn8NeT1LkbqfV2peI",
@@ -56521,7 +56994,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400844",
       "musicbrainz_recording_id": "372716a2-0fd5-4a64-970f-4bd9ead6be43"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6hj8HbgTMVMvcA8a9fKAhr",
@@ -56552,7 +57031,13 @@
       "spotify_uri": null,
       "isrc": "GBJGV2100407",
       "musicbrainz_recording_id": "97720c8e-22b6-44e3-ae02-628bcaa4c4b1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2rrq3SGYxk90xLx5fMmPhZ",
@@ -57043,7 +57528,13 @@
       "spotify_uri": null,
       "isrc": "GBAYE2101300",
       "musicbrainz_recording_id": "5fd04647-4a8b-436b-8ba7-ebe31046b69d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2lTm559tuIvatlT1u0JYG2",
@@ -57124,7 +57615,25 @@
       "spotify_uri": null,
       "isrc": "QMFMF2447057",
       "musicbrainz_recording_id": "587289b2-90f4-4aea-b3c4-8a0aee6bf661"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "trap latino",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7wei8Hb9DxoVKUOIIAhDEQ",
@@ -57155,7 +57664,13 @@
       "spotify_uri": null,
       "isrc": "USSUB2464403",
       "musicbrainz_recording_id": "d1299f85-a5d7-4f9b-a5d7-86a76de7095d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0oS6978exXanyIZJD4cdgV",
@@ -57654,7 +58169,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1901009",
       "musicbrainz_recording_id": "e55d6e74-ef32-4630-b7cd-764c5c726660"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4Gy8ZglxsvsIX04R5PWY7U",
@@ -57685,7 +58206,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2202091",
       "musicbrainz_recording_id": "8bb62e4a-5ae3-449e-9c7d-5d1c0e59a0b4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0JIMT9gzLIIz0esKLyjbKf",
@@ -58198,7 +58725,8 @@
       "spotify_uri": null,
       "isrc": "SEYOK1814657",
       "musicbrainz_recording_id": "a63b1608-2ff9-4aa3-9947-2997fa45545c"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1gNPP8TazAPuvq6R8oxxnU",
@@ -58648,7 +59176,8 @@
       "spotify_uri": null,
       "isrc": "QZ5VZ1600005",
       "musicbrainz_recording_id": "5b3c3e10-7281-4015-9ab5-4a915f349731"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3Y4rUyw7XBCK6hGHCOt6rp",
@@ -59154,7 +59683,21 @@
       "spotify_uri": null,
       "isrc": "USRC11300085",
       "musicbrainz_recording_id": "f77547b6-b113-485b-a327-1ecb3325c47a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "08BgHsJg8f3Z8QJDAqabIA",
@@ -59629,7 +60172,8 @@
       "spotify_uri": null,
       "isrc": "CAL451960801",
       "musicbrainz_recording_id": "af1aaee1-7943-48a4-9f04-ab1758e712af"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "13GNwY7azIE7J0VJUaz18S",
@@ -60119,7 +60663,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800909",
       "musicbrainz_recording_id": "399b7fe2-7858-4a14-b005-70be69efcf35"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4TXkzFABQIgKrTC9tcVlgR",
@@ -60549,7 +61099,8 @@
       "spotify_uri": null,
       "isrc": "QZ5VZ1600006",
       "musicbrainz_recording_id": "898d78de-9ce2-41f2-999c-6e046a1a7005"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4esUVfYnFcCCVHntx9FQCb",
@@ -61156,11 +61707,17 @@
       "acoustic_low_level": null
     },
     "ids": {
-      "spotify_id": "4esUVfYnFcCCVHntx9FQCb",
+      "spotify_id": "6ZrlXT6mUMEgomN128iekU",
       "spotify_uri": null,
       "isrc": "FR31Q0900001",
       "musicbrainz_recording_id": "21664467-2453-4867-8a0e-fca8826cd054"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "21Ay8Y9Pr91nSauPGtK6MW",
@@ -61699,7 +62256,21 @@
       "spotify_uri": null,
       "isrc": "USRC10100764",
       "musicbrainz_recording_id": "f4e25493-e6c0-457c-85cf-144035ddeec2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5QLHGv0DfpeXLNFo7SFEy1",
@@ -61730,7 +62301,17 @@
       "spotify_uri": null,
       "isrc": "USVI21200910",
       "musicbrainz_recording_id": "d4261bc4-a684-40d1-9f40-a4c394bfacb8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "alternative rock",
+        "count": 1
+      },
+      {
+        "name": "rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7eqoqGkKwgOaWNNHx90uEZ",
@@ -62267,7 +62848,8 @@
       "spotify_uri": null,
       "isrc": "QZ5C81600009",
       "musicbrainz_recording_id": "3e341bc1-16e2-43e3-adf5-d7a8c2059b0d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0OM9ri37LIbPc9hffwsyb1",
@@ -62870,7 +63452,21 @@
       "spotify_uri": null,
       "isrc": "USRC10100768",
       "musicbrainz_recording_id": "5105e2ef-4f42-44c5-967d-b1343d4b5827"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3iBgrkexCzVuPy4O9vx7Mf",
@@ -62901,7 +63497,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2302568",
       "musicbrainz_recording_id": "f220ba2e-0d12-41a2-b9ef-5a5119b967b8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2IvnDjlgH8yy70Nz99UdcJ",
@@ -63391,7 +63993,13 @@
       "spotify_uri": null,
       "isrc": "USLS51832403",
       "musicbrainz_recording_id": "4c4c3c7d-5407-4558-a0f5-2074e78f0f9a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "score",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2eRYuzlSOBk3HlMsCSOLPJ",
@@ -63884,7 +64492,13 @@
       "spotify_uri": null,
       "isrc": "NLF050190048",
       "musicbrainz_recording_id": "988f3d0f-82bf-4aef-9b1f-491977413a83"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "yacht rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2FPmvXIMpjgzJQbUeJo8Iv",
@@ -63916,7 +64530,13 @@
       "spotify_uri": null,
       "isrc": "USRC12202291",
       "musicbrainz_recording_id": "1725091c-4c28-45ae-8abf-7f4308bd66cc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie r&b",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2QdcmNlQdW8iA4JEg29cgx",
@@ -63968,7 +64588,13 @@
       "spotify_uri": null,
       "isrc": "USAT22501642",
       "musicbrainz_recording_id": "11bb6328-85a5-425c-8db3-bffe469ae057"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3G9tyuUoBVNTDXY0icrUVf",
@@ -63999,7 +64625,8 @@
       "spotify_uri": null,
       "isrc": "TCAFF2074443",
       "musicbrainz_recording_id": "0457c61e-4034-44bf-b140-10dc5264fd85"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1oAwsWBovWRIp7qLMGPIet",
@@ -64493,7 +65120,13 @@
       "spotify_uri": null,
       "isrc": "USBQU1700034",
       "musicbrainz_recording_id": "a847bc14-7d8e-4009-ae3c-e7b60ecc71d3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "dream pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0u2CGItUO2jYEiFaXD7n5S",
@@ -64524,7 +65157,21 @@
       "spotify_uri": null,
       "isrc": "USWB10903804",
       "musicbrainz_recording_id": "ff462c68-7bcf-49c0-a96e-9c379c71eb6e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "quiet storm",
+        "count": 1
+      },
+      {
+        "name": "disco",
+        "count": 1
+      },
+      {
+        "name": "classic soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6CcJMwBtXByIz4zQLzFkKc",
@@ -65057,7 +65704,8 @@
       "spotify_uri": null,
       "isrc": "USUM71900773",
       "musicbrainz_recording_id": "853e1775-727f-4b7f-b91d-09be9bb55ef8"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4R5GN0mBvb6jkRj3Zvyhkl",
@@ -65484,7 +66132,13 @@
       "spotify_uri": null,
       "isrc": "USA2B2059944",
       "musicbrainz_recording_id": "ad113b40-7ec8-4bda-a11c-0db0c9db0c5e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "retro soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1aTf6n7MSd9z1LQYJEcmqF",
@@ -65981,7 +66635,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2001414",
       "musicbrainz_recording_id": "167cc877-14c7-4be8-bd17-921a8dbf92e7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6Jmr2w49vC2cj4fPgmkjfH",
@@ -66471,7 +67131,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800822",
       "musicbrainz_recording_id": "2426e5cc-192f-4c8c-8355-8c64dbf404e8"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1TUff6XKeK8DoVxdPIJnT3",
@@ -66961,7 +67627,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800820",
       "musicbrainz_recording_id": "0cde9ac4-28d0-4587-8a78-2ed319434916"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4yc69QtlnLzjcYSMPOtrEo",
@@ -67445,7 +68117,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2101665",
       "musicbrainz_recording_id": "7e7f47c2-6af9-4759-b637-8571700ca22e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0mW58kig39aueBh99f6yGz",
@@ -67935,7 +68613,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800821",
       "musicbrainz_recording_id": "eacfb73d-1f51-4f2c-b48f-433901eb6b07"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2sBKLT7bFa38yVAYxYltUX",
@@ -68425,7 +69109,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W1800911",
       "musicbrainz_recording_id": "1ab54563-dbd0-4097-9d35-d223bf628ff5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6PvxbkegGnVGxd1NDYS6fZ",
@@ -68930,7 +69620,13 @@
       "spotify_uri": null,
       "isrc": "GBK3W2101745",
       "musicbrainz_recording_id": "e9d6be3c-6130-4e40-95de-b38ad242e02a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4rYUOu5vQ8pjBCYZL24Gfx",
@@ -68981,7 +69677,13 @@
       "spotify_uri": null,
       "isrc": "QZK6N2400242",
       "musicbrainz_recording_id": "ef23317d-ef87-4571-bb0d-a6b7bb20b6d7"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "retro soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1uehfWs4shogYWuboAFkme",
@@ -69012,7 +69714,13 @@
       "spotify_uri": null,
       "isrc": "QZMER2383531",
       "musicbrainz_recording_id": "ec9ca1ae-3af4-4869-9739-169bb7f76d12"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "retro soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1XttACqLBTsxeyegtr1VbV",
@@ -69520,7 +70228,21 @@
       "spotify_uri": null,
       "isrc": "USRC11902727",
       "musicbrainz_recording_id": "489416b0-7fce-4261-908b-b8b16b2a9f12"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "garage rock",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3a3zDlE4bgI6ZvU00m6o84",
@@ -69551,7 +70273,13 @@
       "spotify_uri": null,
       "isrc": "QZTAY2562283",
       "musicbrainz_recording_id": "2bbc2827-5924-435c-95a9-62c3e22d3050"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4TLXwgCmciX8sYIVj1b7Xg",
@@ -69582,7 +70310,13 @@
       "spotify_uri": null,
       "isrc": "QZTAY2562284",
       "musicbrainz_recording_id": "f36f2dfb-917e-4af0-8782-f358f384f908"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1RXzYAbCsqYP6CcAkmPDM1",
@@ -70072,7 +70806,8 @@
       "spotify_uri": null,
       "isrc": "SEYOK1837592",
       "musicbrainz_recording_id": "314e2332-a06b-4d1e-be94-f1dcf9e73813"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5Dp7CfpvcRYCamP1MTXxN1",
@@ -70103,7 +70838,13 @@
       "spotify_uri": null,
       "isrc": "QZNWR2435830",
       "musicbrainz_recording_id": "e79b129b-3654-41fd-b2a9-a29e07b09707"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "retro soul",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "19fKJrO9XdOf6Xla2QHecO",
@@ -70134,7 +70875,13 @@
       "spotify_uri": null,
       "isrc": "USAT22400351",
       "musicbrainz_recording_id": "b0cdf3d5-8f3b-4d47-981b-a5937cebe454"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1PHPODXYdkxmU9nkrqLd8y",
@@ -70165,7 +70912,8 @@
       "spotify_uri": null,
       "isrc": "USCW61403206",
       "musicbrainz_recording_id": "372b37dd-46a4-449c-9d08-a027a4ef147b"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "3ou9rSNUQnE7XYmJkUUIOc",
@@ -70816,7 +71564,8 @@
       "spotify_uri": null,
       "isrc": "GBAYE0200774",
       "musicbrainz_recording_id": "522da5b6-9ce1-4fbb-9262-4914b91fb532"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2fuYa3Lx06QQJAm0MjztKr",
@@ -71409,7 +72158,17 @@
       "spotify_uri": null,
       "isrc": "GBAYE9701374",
       "musicbrainz_recording_id": "47b02a82-c3bf-4647-b894-dd1c8f608e7f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0cM751o5JLWKvlskFhAlo2",
@@ -71863,7 +72622,17 @@
       "spotify_uri": null,
       "isrc": "USEZ61716902",
       "musicbrainz_recording_id": "b6080590-2e5f-4ea3-b411-55d4aed67462"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "6klFWv2xDGeTDoiKTtx4hg",
@@ -71894,7 +72663,8 @@
       "spotify_uri": null,
       "isrc": "CAN112100381",
       "musicbrainz_recording_id": "71cf610c-1948-4a2d-8e94-87212d85c09f"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "5Qv2Nby1xTr9pQyjkrc94J",
@@ -72473,7 +73243,17 @@
       "spotify_uri": null,
       "isrc": "GBSTK0700005",
       "musicbrainz_recording_id": "72c6b4d3-71a8-4c70-bf50-da11c0149089"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "alternative rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3RmFPuTTAjSQ2pbEd2j9oA",
@@ -72586,7 +73366,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504224",
       "musicbrainz_recording_id": "ec87b2e6-3d7e-4121-96a3-051fe779de6f"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2G2YzndIA6jeWFPBXhUjh5",
@@ -73135,7 +73925,13 @@
       "spotify_uri": null,
       "isrc": "USQX91100088",
       "musicbrainz_recording_id": "f3bac840-b32d-4a4d-90e1-19c17a9f3ec6"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "christmas",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0bfvHnWWOeU1U5XeKyVLbW",
@@ -73727,7 +74523,13 @@
       "spotify_uri": null,
       "isrc": "USRH11000238",
       "musicbrainz_recording_id": "e00ce662-d559-4901-a64f-25219a02c07a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "doo-wop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "65vdMBskhx3akkG9vQlSH1",
@@ -74439,7 +75241,17 @@
       "spotify_uri": null,
       "isrc": "GBAYE0601442",
       "musicbrainz_recording_id": "917f2be3-065e-4d1e-8a76-1b50abd1ad95"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "709ZIqPHyFOpx2QdjmeWAM",
@@ -74556,7 +75368,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504223",
       "musicbrainz_recording_id": "5b1c893a-16da-4e3d-b9b7-6cc57afc360c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "09DR0sHnQUhHOiSNttc1mv",
@@ -74616,7 +75438,13 @@
       "spotify_uri": null,
       "isrc": "USUG12209242",
       "musicbrainz_recording_id": "58389d98-bfc9-4956-9dc2-4a692525958b"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "ambient folk",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0cqrg8N4D0260NkHGUoS0z",
@@ -74647,7 +75475,8 @@
       "spotify_uri": null,
       "isrc": "USAT22504787",
       "musicbrainz_recording_id": "df5e310a-6345-452a-b927-0f94b9fc3b8d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2AkJfhzKOTqgb3RxqyPMeU",
@@ -74678,7 +75507,8 @@
       "spotify_uri": null,
       "isrc": "USAT22504789",
       "musicbrainz_recording_id": "906e3b30-5850-49ca-8ef9-f2ee449d600d"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "47rCs1JJXC6AG20WKbyOUR",
@@ -74709,7 +75539,8 @@
       "spotify_uri": null,
       "isrc": "USAT22504790",
       "musicbrainz_recording_id": "de8c5d5d-8520-4e1a-94b3-49130d4b0bb9"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "2fgawGARU29VQIf8jb26fl",
@@ -74740,7 +75571,8 @@
       "spotify_uri": null,
       "isrc": "USAT22504793",
       "musicbrainz_recording_id": "60e88da5-cbb1-4964-a1f9-ba14c9491baf"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4LqkSEGv7SpGzruiSTkfL5",
@@ -74837,7 +75669,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504230",
       "musicbrainz_recording_id": "571cf5ba-695a-4b9d-a22b-b2361603faee"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4whkhyXTrTgHKZzkUvdwoq",
@@ -74958,7 +75800,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504221",
       "musicbrainz_recording_id": "f2581fbc-ab90-4a48-a131-130b6cbb7cf3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5x0zW1JcdON7Zli2umGEJg",
@@ -75063,7 +75915,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504222",
       "musicbrainz_recording_id": "b0dee447-bdfe-4b46-8c0e-84689b94a853"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0gwCQvjDPCTFEq9790FGdC",
@@ -75168,7 +76030,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504227",
       "musicbrainz_recording_id": "ad79b526-8df8-4e79-8756-0607df153e59"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0On1SxfkvTOfzvjVgFLK7V",
@@ -75265,7 +76137,17 @@
       "spotify_uri": null,
       "isrc": "USQX92504228",
       "musicbrainz_recording_id": "6da0b598-d9cf-4f62-8376-bc3181e509af"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4zEvxRDaKDoFlHxK7Hy0wg",
@@ -75769,7 +76651,8 @@
       "spotify_uri": null,
       "isrc": "USIR29300081",
       "musicbrainz_recording_id": "706afb2e-9e9e-4844-bca6-00536f12f20c"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0ccoGCaOFCxI6pHixrQpKj",
@@ -75827,7 +76710,25 @@
       "spotify_uri": null,
       "isrc": "FR8EU2300010",
       "musicbrainz_recording_id": "aadeced3-ae64-4ef7-afce-2d72cfddfd80"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "french house",
+        "count": 1
+      },
+      {
+        "name": "new rave",
+        "count": 1
+      },
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0pJW1Xw3aY4Eh6k5iuBkfI",
@@ -76383,7 +77284,8 @@
       "spotify_uri": null,
       "isrc": "USJ5G2020011",
       "musicbrainz_recording_id": "8846d338-a4c5-4e2c-b48b-babba2958d6c"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "4PEGwWH4tL6H7dGl4uVSPg",
@@ -76978,7 +77880,8 @@
       "spotify_uri": null,
       "isrc": "GBBBM9202008",
       "musicbrainz_recording_id": "c16dcdcd-e24b-445d-b02b-89d9e0269a27"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "1JmRbZclLHgneDrpyA9e3X",
@@ -77480,11 +78383,21 @@
       "acoustic_low_level": null
     },
     "ids": {
-      "spotify_id": "1JmRbZclLHgneDrpyA9e3X",
+      "spotify_id": "2jnvdMCTvtdVCci3YLqxGY",
       "spotify_uri": null,
       "isrc": "FRU700900115",
       "musicbrainz_recording_id": "64bca479-8a95-4ebd-a1db-bff355892b62"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0xtIp0lgccN85GfGOekS5L",
@@ -77972,7 +78885,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71500295",
       "musicbrainz_recording_id": "173324ec-808e-467a-bab8-0fa3a78bf90d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "65krtHkaYLPr0mEbjL61UP",
@@ -78591,7 +79514,8 @@
       "spotify_uri": null,
       "isrc": "GBBBM9200026",
       "musicbrainz_recording_id": "603dce52-0704-4851-8c63-835e4b0a14f7"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6qZjm61s6u8Ead9sWxCDro",
@@ -79170,7 +80094,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71200495",
       "musicbrainz_recording_id": "920be16d-e040-433d-b941-39bef05543b0"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1cCbsojaA6GIT7Y3zuMJ1q",
@@ -79650,7 +80584,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71500293",
       "musicbrainz_recording_id": "c9f0e0e0-3789-4a78-a91e-03bc0c3ea998"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2cGxRwrMyEAp8dEbuZaVv6",
@@ -80244,7 +81188,21 @@
       "spotify_uri": null,
       "isrc": "USQX91300105",
       "musicbrainz_recording_id": "dbc0da50-4bc6-4230-9e7b-136b5dc2b31a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "french house",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "electro",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2LD2gT7gwAurzdQDQtILds",
@@ -80830,7 +81788,21 @@
       "spotify_uri": null,
       "isrc": "GBDUW0000066",
       "musicbrainz_recording_id": "2a220770-1150-4190-b0e0-57d89a0a7469"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "french house",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "electro",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3TO7bbrUKrOSPGRTB5MeCz",
@@ -81423,7 +82395,29 @@
       "spotify_uri": null,
       "isrc": "GBN9Y1100079",
       "musicbrainz_recording_id": "41959321-f2bb-4580-aa19-16248fe665d3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "progressive rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      },
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "2TjdnqlpwOjhijHCwHCP2d",
@@ -82013,7 +83007,29 @@
       "spotify_uri": null,
       "isrc": "GBN9Y1100080",
       "musicbrainz_recording_id": "73b01cea-2dad-4fc2-9e61-02a31477c1b1"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "progressive rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      },
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1TKTiKp3zbNgrBH2IwSwIx",
@@ -82575,7 +83591,29 @@
       "spotify_uri": null,
       "isrc": "GBN9Y1100082",
       "musicbrainz_recording_id": "2d1201cf-59bb-4ffa-9f52-f5b3afa13346"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "progressive rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic rock",
+        "count": 1
+      },
+      {
+        "name": "classic rock",
+        "count": 1
+      },
+      {
+        "name": "art rock",
+        "count": 1
+      },
+      {
+        "name": "rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4SgcE7RxpK3ydWrjoAQH1K",
@@ -83090,7 +84128,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71000135",
       "musicbrainz_recording_id": "db644461-3d63-4b80-9a95-435ccef31243"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3iohh4bLsUKefmjHw5jhbq",
@@ -83613,7 +84661,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71000141",
       "musicbrainz_recording_id": "041ee6fd-12c0-4f34-a4a0-77425410bdc5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7qU7vhCPKhkDiJYGoboISc",
@@ -84164,7 +85222,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71200489",
       "musicbrainz_recording_id": "5b83bc77-5bf8-4abc-a5bb-9a3421b60b27"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3LbZIhU0smEU5SUnxod4j4",
@@ -84721,7 +85789,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71900929",
       "musicbrainz_recording_id": "e99935b9-9939-43bf-ae9a-cc954689463e"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "20I8RduZC2PWMWTDCZuuAN",
@@ -85344,7 +86422,13 @@
       "spotify_uri": null,
       "isrc": "GBCEL0300192",
       "musicbrainz_recording_id": "a1818245-54db-4881-86be-7ff3180c3e06"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "62ocXa3rr5qUWI3GAhWnaH",
@@ -85913,7 +86997,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922205",
       "musicbrainz_recording_id": "76fca1bb-849b-4a4c-9677-31a10f3f67ba"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3I7Uqll4wyJmfBSDQWiLWh",
@@ -86475,7 +87573,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922202",
       "musicbrainz_recording_id": "483a44e1-c3f3-41d5-94f1-22831d0282ca"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "330R1oj7yJCoFU3BL6jWas",
@@ -87053,7 +88165,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922207",
       "musicbrainz_recording_id": "fda88ae1-9fc6-4f02-81ad-3c0aed0f248a"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3GTxASUt4xxZsvxDxyvJFi",
@@ -87615,7 +88741,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922211",
       "musicbrainz_recording_id": "02f04536-6fb7-41a2-b379-e63e82f7aaa2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "7zKoboLWr4yfJhBtjrLYb5",
@@ -88177,7 +89317,21 @@
       "spotify_uri": null,
       "isrc": "USA4D0922213",
       "musicbrainz_recording_id": "49aa06f1-f5cf-44a4-b4eb-d22b38db0521"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "1yV3yP5zCoDu6V1MkFzudx",
@@ -88208,7 +89362,17 @@
       "spotify_uri": null,
       "isrc": "QZTAU2217247",
       "musicbrainz_recording_id": "ba12ebe8-da95-4371-aac4-7612ad7c9f7c"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "breakcore",
+        "count": 1
+      },
+      {
+        "name": "jungle",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5QZaScL5GyxA3e2MQ61TYj",
@@ -88239,7 +89403,17 @@
       "spotify_uri": null,
       "isrc": "QZTAU2217248",
       "musicbrainz_recording_id": "350db4fa-5d5e-4607-a541-ecd983746400"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "breakcore",
+        "count": 1
+      },
+      {
+        "name": "jungle",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0QzRVIKjGxKNPzBkX1rZJn",
@@ -88270,7 +89444,17 @@
       "spotify_uri": null,
       "isrc": "QZFYY2473143",
       "musicbrainz_recording_id": "2e23d699-1b0a-458d-a79d-e89b4d76dcea"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "breakcore",
+        "count": 1
+      },
+      {
+        "name": "jungle",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5ibvAGEIPKfrK4WKGg9Iuy",
@@ -88724,7 +89908,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136201",
       "musicbrainz_recording_id": "b20873ff-9a7f-4f76-a8aa-780e8473d00d"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4f1QecfPOW4F8auLfkRFrn",
@@ -89178,7 +90376,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136204",
       "musicbrainz_recording_id": "52b0e436-a422-4266-b06f-e58133a5b4b4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3xsIMaBaqCFmUE0wxwedhd",
@@ -89632,7 +90844,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136205",
       "musicbrainz_recording_id": "4d5f791b-e5db-41c3-a53c-097ed839cc00"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0M654gJiZE24jGSAurvvd0",
@@ -90086,7 +91312,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136206",
       "musicbrainz_recording_id": "611e1669-9c10-42bf-aa90-099b221ad8c3"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3g8vzv61JHmJ2edNcmF7lf",
@@ -90543,7 +91783,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136211",
       "musicbrainz_recording_id": "6b8bcd72-241f-414c-91f4-22e6d04285a2"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0dWxlbq9Dvj7VvACr1UiHt",
@@ -90574,7 +91828,21 @@
       "spotify_uri": null,
       "isrc": "USA4D2136216",
       "musicbrainz_recording_id": "0909249f-f1b9-4a39-aa4a-4631827f4b78"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "dream pop",
+        "count": 1
+      },
+      {
+        "name": "idm",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4iZxeyibg6w4EFCOoAQ6Eh",
@@ -91068,11 +92336,21 @@
       "acoustic_low_level": null
     },
     "ids": {
-      "spotify_id": "4iZxeyibg6w4EFCOoAQ6Eh",
+      "spotify_id": "6jrMVRReY24qzCfe1BRrww",
       "spotify_uri": null,
       "isrc": "FRU700900116",
       "musicbrainz_recording_id": "cadde50b-8c42-4a16-af00-185fcc3827f4"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0zo5H2QWXCkarmPSK2KJvH",
@@ -91507,11 +92785,21 @@
       "acoustic_low_level": null
     },
     "ids": {
-      "spotify_id": "0zo5H2QWXCkarmPSK2KJvH",
+      "spotify_id": "1aGvLFHJ2shKqO9uycaUcW",
       "spotify_uri": null,
       "isrc": "FRU700900101",
       "musicbrainz_recording_id": "c9ea9f98-f40b-4067-9f86-16a4c3bf4b45"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "indie",
+        "count": 1
+      },
+      {
+        "name": "indie rock",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0tkBOcK7oRVXQJY97zzSvr",
@@ -91990,7 +93278,8 @@
       "spotify_uri": null,
       "isrc": "USRC11301162",
       "musicbrainz_recording_id": "f6cfcf2c-0b87-408b-be0f-6bf060e7b7fa"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "6VLjdregMReJhKp2r32IWo",
@@ -92021,7 +93310,13 @@
       "spotify_uri": null,
       "isrc": "TCAFE2075141",
       "musicbrainz_recording_id": "a86f4df6-1810-4072-8476-e6f2f85587f5"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "lo-fi indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "3F9ByoUqu31xU0I3G5xfVg",
@@ -92506,7 +93801,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71900284",
       "musicbrainz_recording_id": "bba0e134-26c5-4546-9cca-5e0ccea9cdfc"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "0qhVpwKivK3u4OMLb7Z9Ah",
@@ -92537,7 +93842,8 @@
       "spotify_uri": null,
       "isrc": "SGW502501648",
       "musicbrainz_recording_id": "b84e37ea-ea52-4ce7-8fdd-b1155dd207f9"
-    }
+    },
+    "spotify_artist_genres": []
   },
   {
     "id": "0qWoOHqTirzo59FQ9eoECH",
@@ -92578,7 +93884,13 @@
       "spotify_uri": null,
       "isrc": "USA2P2532105",
       "musicbrainz_recording_id": "bd3cbfe4-f240-47b6-8095-99278d4ed979"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "bedroom pop",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "5JWPUEov2wlX7c0jhYZpeB",
@@ -93143,7 +94455,17 @@
       "spotify_uri": null,
       "isrc": "AUUM71900932",
       "musicbrainz_recording_id": "4c4cba2e-a6a2-44ca-beac-560d33c923ed"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "neo-psychedelic",
+        "count": 1
+      },
+      {
+        "name": "indie",
+        "count": 1
+      }
+    ]
   },
   {
     "id": "4wG1OI56aIbNlvQcI2P8VA",
@@ -93174,6 +94496,12 @@
       "spotify_uri": null,
       "isrc": "TCADN1867874",
       "musicbrainz_recording_id": "e00f83b5-92e4-4001-88ba-2577264f3372"
-    }
+    },
+    "spotify_artist_genres": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
   }
 ]

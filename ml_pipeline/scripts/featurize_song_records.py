@@ -320,6 +320,7 @@ def build_vocabs(
 
         tag_keys = {name for name, _ in iter_name_count_items(brainz.get("tags"))}
         genre_keys = {name for name, _ in iter_name_count_items(brainz.get("genres"))}
+        genre_keys |= {name for name, _ in iter_name_count_items(record.get("spotify_artist_genres"))}
 
         acoustic_keys = set()
         acoustic = brainz.get("acoustic_high_level")
@@ -428,6 +429,7 @@ def featurize_records(
             X[row_i, 0] = binary_weight
 
         genres = list(iter_name_count_items(brainz.get("genres")))
+        genres += list(iter_name_count_items(record.get("spotify_artist_genres")))
         if genres:
             genres_present = True
             X[row_i, 1] = binary_weight

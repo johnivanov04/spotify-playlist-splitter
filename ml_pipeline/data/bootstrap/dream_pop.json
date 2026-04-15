@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "0AxZUYeQ9bZwSdt1LmZuok",
+    "name": "Heaven or Las Vegas",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Heaven or Las Vegas",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/0AxZUYeQ9bZwSdt1LmZuok",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 298400,
+    "isrc": "GBAFL9000039",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "31CYUJj5f9lbQ0Qqm9PzK5",
+    "name": "Falling",
+    "artists": [
+      "Julee Cruise"
+    ],
+    "album": "Floating Into The Night",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/31CYUJj5f9lbQ0Qqm9PzK5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cbf4c697c4c807d3c656875",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 321853,
+    "isrc": "USWB10100198",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1LzNfuep1bnAUR9skqdHCK",
+    "name": "Fade Into You",
+    "artists": [
+      "Mazzy Star"
+    ],
+    "album": "So Tonight That I Might See",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+    "popularity": 88,
+    "previewUrl": null,
+    "durationMs": 295600,
+    "isrc": "USCA29300105",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3ZOMVzyjvE8kJouhVScrqg",
+    "name": "Starlust",
+    "artists": [
+      "Lush"
+    ],
+    "album": "Split",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/3ZOMVzyjvE8kJouhVScrqg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273444e986cd2fe7fd5a4d29c6c",
+    "popularity": 28,
+    "previewUrl": null,
+    "durationMs": 272026,
+    "isrc": "GBAFL9400119",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "44L6RNTBjYRshdzeqd2d3S",
+    "name": "Goodbye",
+    "artists": [
+      "The Sundays"
+    ],
+    "album": "Blind",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/44L6RNTBjYRshdzeqd2d3S",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27389a6eefcafaa64e46a0bef06",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 286160,
+    "isrc": "GBAYE9201034",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "26uVYNtKahTAcZMDWiuBnt",
+    "name": "Song To The Siren - Remastered",
+    "artists": [
+      "This Mortal Coil"
+    ],
+    "album": "It'll End In Tears (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/26uVYNtKahTAcZMDWiuBnt",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273201a9af6d3296d20a205adb5",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 211093,
+    "isrc": "GBAFL1000001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6BrMEbPSSj55nQhkgf6DnE",
+    "name": "Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
+    "artists": [
+      "The Smiths"
+    ],
+    "album": "Hatful of Hollow",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/6BrMEbPSSj55nQhkgf6DnE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273786b44c75ebf915866523f5b",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 112706,
+    "isrc": "GBCRL1100072",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "51EMSRpNm9Rg5rGViVCczv",
+    "name": "Andromeda",
+    "artists": [
+      "Weyes Blood"
+    ],
+    "album": "Titanic Rising",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/51EMSRpNm9Rg5rGViVCczv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730c64e752dec4c08362cc4a88",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 280186,
+    "isrc": "USSUB1923202",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "55Wm3y6wUy5xS1thd0Zial",
+    "name": "Floating",
+    "artists": [
+      "Julee Cruise"
+    ],
+    "album": "Floating Into The Night",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/55Wm3y6wUy5xS1thd0Zial",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cbf4c697c4c807d3c656875",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 294706,
+    "isrc": "USWB10101656",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5gSHlT2SI0dtjeHrjj96A1",
+    "name": "Here's Where the Story Ends",
+    "artists": [
+      "The Sundays"
+    ],
+    "album": "Reading Writing And Arithmetic",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/5gSHlT2SI0dtjeHrjj96A1",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27329c94727f5e032d76352de6c",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 230040,
+    "isrc": "GB01A9000004",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6Q0GTFuMlUj98CC1VWnFAs",
+    "name": "Light From A Dead Star",
+    "artists": [
+      "Lush"
+    ],
+    "album": "Split",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/6Q0GTFuMlUj98CC1VWnFAs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273444e986cd2fe7fd5a4d29c6c",
+    "popularity": 39,
+    "previewUrl": null,
+    "durationMs": 197293,
+    "isrc": "GBAFL9400109",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7aciebfpMZffzCTSg9rLIZ",
+    "name": "Levitation",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Depression Cherry",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/7aciebfpMZffzCTSg9rLIZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d1430224d631eaa5954f13c9",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 354600,
+    "isrc": "USSUB1512201",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0Coai3QxvjCXWMhVN1hpgE",
+    "name": "Iceblink Luck",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Heaven or Las Vegas",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/0Coai3QxvjCXWMhVN1hpgE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 198666,
+    "isrc": "GBAFL9000038",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7kPEvL8UmQiqRFcwUGPEtk",
+    "name": "On Earth",
+    "artists": [
+      "The Sundays"
+    ],
+    "album": "Blind",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/7kPEvL8UmQiqRFcwUGPEtk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27389a6eefcafaa64e46a0bef06",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 144506,
+    "isrc": "GBAYE9201036",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1YrnDTqvcnUKxAIeXyaEmU",
+    "name": "How Soon Is Now? - 2011 Remaster",
+    "artists": [
+      "The Smiths"
+    ],
+    "album": "Hatful of Hollow",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/1YrnDTqvcnUKxAIeXyaEmU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273786b44c75ebf915866523f5b",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 408173,
+    "isrc": "GBCRL1100068",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "37pKTyMwalomKCZjxTc2QZ",
+    "name": "Cherry-coloured Funk",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Heaven or Las Vegas",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/37pKTyMwalomKCZjxTc2QZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 192466,
+    "isrc": "GBAFL9000062",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4kxpoNJE8r3LgsSzEqaEDU",
+    "name": "Bluebeard",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Four-Calendar Cafe",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/4kxpoNJE8r3LgsSzEqaEDU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d4246bc9ee45258e5ef1747",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 234893,
+    "isrc": "GBF089390058",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1ZgMsA55GIY7ICkQh5MILA",
+    "name": "Space Song",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Depression Cherry",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/1ZgMsA55GIY7ICkQh5MILA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d1430224d631eaa5954f13c9",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 320466,
+    "isrc": "USSUB1512203",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3TDaBwnmuPar60qaJrAJjU",
+    "name": "Used to Be",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Teen Dream",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/3TDaBwnmuPar60qaJrAJjU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a9a2f4dbb6ce31157d2e4783",
+    "popularity": 37,
+    "previewUrl": null,
+    "durationMs": 238760,
+    "isrc": "GBBRP1022505",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2Zw3HNjaNV42LnQ2uY5JQs",
+    "name": "Myth",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Bloom",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/2Zw3HNjaNV42LnQ2uY5JQs",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 258653,
+    "isrc": "GBBRP1233401",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6i18oi8cbvlv9Y2QVBSzkB",
+    "name": "Frou-frou Foxes in Midsummer Fires",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Heaven or Las Vegas",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/6i18oi8cbvlv9Y2QVBSzkB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 338053,
+    "isrc": "GBAFL9000068",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5nxG6nyYvcTFGp36y62kvn",
+    "name": "Pur",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Four-Calendar Cafe",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/5nxG6nyYvcTFGp36y62kvn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d4246bc9ee45258e5ef1747",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 302506,
+    "isrc": "GBF089390065",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3PpGwU54vZRyv7Xt0mU9vB",
+    "name": "Fond Affections - Remastered",
+    "artists": [
+      "This Mortal Coil"
+    ],
+    "album": "It'll End In Tears (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/3PpGwU54vZRyv7Xt0mU9vB",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273201a9af6d3296d20a205adb5",
+    "popularity": 33,
+    "previewUrl": null,
+    "durationMs": 265146,
+    "isrc": "GBAFL1000004",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "23nIqNfEOOoTJaOfGjbRw5",
+    "name": "Wild",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Bloom",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/23nIqNfEOOoTJaOfGjbRw5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26",
+    "popularity": 40,
+    "previewUrl": null,
+    "durationMs": 298320,
+    "isrc": "GBBRP1233402",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0mxe1uof85IOstFsn2l2da",
+    "name": "Pearly-Dewdrops' Drops - 7\" Version",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "The Pink Opaque",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/0mxe1uof85IOstFsn2l2da",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738a823e9022d22f19ea293ecf",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 250800,
+    "isrc": "GBAFL8400091",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "56eSclzdXaWU5jOJ7DX7Vp",
+    "name": "Silver Soul",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Teen Dream",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/56eSclzdXaWU5jOJ7DX7Vp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a9a2f4dbb6ce31157d2e4783",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 298680,
+    "isrc": "GBBRP1022502",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1ZnXuijpwEBjhNxpEnb8WH",
+    "name": "Lorelei",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Treasure",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/1ZnXuijpwEBjhNxpEnb8WH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27308036980eb9381f0ec3d28e9",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 223266,
+    "isrc": "GBAFL8400054",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5YdXj6Pz4GJ24oOz2xbGPp",
+    "name": "Lovelife",
+    "artists": [
+      "Lush"
+    ],
+    "album": "Split",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/5YdXj6Pz4GJ24oOz2xbGPp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273444e986cd2fe7fd5a4d29c6c",
+    "popularity": 36,
+    "previewUrl": null,
+    "durationMs": 236360,
+    "isrc": "GBAFL9400113",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7j2nn9KC6oUeDf3IdxfEeV",
+    "name": "Contender",
+    "artists": [
+      "The Pains Of Being Pure At Heart"
+    ],
+    "album": "The Pains of Being Pure at Heart",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/7j2nn9KC6oUeDf3IdxfEeV",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27325accb0142eb80b023b34ec4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 155997,
+    "isrc": "US4TA0900013",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "45oBuExKn34tep5nf585jQ",
+    "name": "PPP",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Depression Cherry",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/45oBuExKn34tep5nf585jQ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d1430224d631eaa5954f13c9",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 368546,
+    "isrc": "USSUB1512206",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "28gz2W2KMsn1QnvojoWPqv",
+    "name": "Sugar Hiccup",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Head Over Heels",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/28gz2W2KMsn1QnvojoWPqv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dd69a64d46d35725c47df19c",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 221466,
+    "isrc": "GBAFL8300054",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "03h8yG6LxpmSLgeSJXQDeu",
+    "name": "A Teenager in Love",
+    "artists": [
+      "The Pains Of Being Pure At Heart"
+    ],
+    "album": "The Pains of Being Pure at Heart",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/03h8yG6LxpmSLgeSJXQDeu",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27325accb0142eb80b023b34ec4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 199999,
+    "isrc": "US4TA0900020",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5hUCTgttGB1eS4GJdPEQEM",
+    "name": "Kinky Love",
+    "artists": [
+      "Pale Saints"
+    ],
+    "album": "Flesh Balloon",
+    "year": 1991,
+    "spotifyUrl": "https://open.spotify.com/track/5hUCTgttGB1eS4GJdPEQEM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734050cee3c77374ac009bcb70",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 244240,
+    "isrc": "GBAFL9100116",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2TIJiqr72Qe9tGd26fStIN",
+    "name": "Lazuli",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Bloom",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/2TIJiqr72Qe9tGd26fStIN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 301866,
+    "isrc": "GBBRP1233403",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3BdHMOIA9B0bN53jbE5nWe",
+    "name": "Blue Light",
+    "artists": [
+      "Mazzy Star"
+    ],
+    "album": "So Tonight That I Might See",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/3BdHMOIA9B0bN53jbE5nWe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27389a392107ebd79818022b3ea",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 310733,
+    "isrc": "USCA29300471",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7Bv26qd7JX525wGCmhrPtj",
+    "name": "Desire Lines",
+    "artists": [
+      "Lush"
+    ],
+    "album": "Split",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/7Bv26qd7JX525wGCmhrPtj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273444e986cd2fe7fd5a4d29c6c",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 459173,
+    "isrc": "GBAFL9400114",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0md12GKBGH8ZuLG2fTfGUz",
+    "name": "Dreams",
+    "artists": [
+      "The Cranberries"
+    ],
+    "album": "Everybody Else Is Doing It, So Why Can't We?",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/0md12GKBGH8ZuLG2fTfGUz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e523d15ff106aec2804a24af",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 271560,
+    "isrc": "USIR29300080",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0sE5llq6jkO2puFg8EHd2t",
+    "name": "Into the Night",
+    "artists": [
+      "Julee Cruise"
+    ],
+    "album": "Floating Into The Night",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/0sE5llq6jkO2puFg8EHd2t",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cbf4c697c4c807d3c656875",
+    "popularity": 44,
+    "previewUrl": null,
+    "durationMs": 284333,
+    "isrc": "USWB10101660",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6DQdSxAihGualboMJt2vcg",
+    "name": "Young Adult Friction",
+    "artists": [
+      "The Pains Of Being Pure At Heart"
+    ],
+    "album": "The Pains of Being Pure at Heart",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/6DQdSxAihGualboMJt2vcg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27325accb0142eb80b023b34ec4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 243929,
+    "isrc": "US4TA0900015",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "2HsOICaAi5bwnqyG7uO1Fo",
+    "name": "Kangaroo - Remastered",
+    "artists": [
+      "This Mortal Coil"
+    ],
+    "album": "It'll End In Tears (Remastered)",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/2HsOICaAi5bwnqyG7uO1Fo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273201a9af6d3296d20a205adb5",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 209093,
+    "isrc": "GBAFL1000000",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7anJBerQqBKIbbKvLf9eAq",
+    "name": "Ivo",
+    "artists": [
+      "Cocteau Twins"
+    ],
+    "album": "Treasure",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/7anJBerQqBKIbbKvLf9eAq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27308036980eb9381f0ec3d28e9",
+    "popularity": 47,
+    "previewUrl": null,
+    "durationMs": 233160,
+    "isrc": "GBAFL8400057",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0ftgoTIc4IMEUi9w4lJ3IS",
+    "name": "Other People",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Bloom",
+    "year": 2012,
+    "spotifyUrl": "https://open.spotify.com/track/0ftgoTIc4IMEUi9w4lJ3IS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26",
+    "popularity": 45,
+    "previewUrl": null,
+    "durationMs": 264626,
+    "isrc": "GBBRP1233404",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6UxuobFOEqndZcTD6jjmAP",
+    "name": "Zebra",
+    "artists": [
+      "Beach House"
+    ],
+    "album": "Teen Dream",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/6UxuobFOEqndZcTD6jjmAP",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a9a2f4dbb6ce31157d2e4783",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 288720,
+    "isrc": "GBBRP1022501",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7vPHiwgCOAjSBRjAirbMvS",
+    "name": "Sea, Swallow Me",
+    "artists": [
+      "Cocteau Twins",
+      "Harold Budd"
+    ],
+    "album": "The Moon and the Melodies",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/7vPHiwgCOAjSBRjAirbMvS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732bace4cf1388fa974fcdc14c",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 189040,
+    "isrc": "GBAFL8600048",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0bHpsorTpt9wX6Dkr2LEfg",
+    "name": "Come To Me",
+    "artists": [
+      "Björk"
+    ],
+    "album": "Debut",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/0bHpsorTpt9wX6Dkr2LEfg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273768d171a47a3adae90c7c48a",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 295360,
+    "isrc": "GBBTF9300124",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "3KiKpbpJp9QKuTZb9ocfJi",
+    "name": "For Love",
+    "artists": [
+      "Lush"
+    ],
+    "album": "Spooky",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/3KiKpbpJp9QKuTZb9ocfJi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731b5c06982d105c8b6b08d041",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 209133,
+    "isrc": "GBAFL9200097",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5kEcXZZS97TSNXc6174Ed6",
+    "name": "The Nightingale",
+    "artists": [
+      "Julee Cruise"
+    ],
+    "album": "Floating Into The Night",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/5kEcXZZS97TSNXc6174Ed6",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cbf4c697c4c807d3c656875",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 296200,
+    "isrc": "USWB10101662",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0xUetoq2q1rY73Ce4AkTVX",
+    "name": "Love",
+    "artists": [
+      "The Sundays"
+    ],
+    "album": "Blind",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/0xUetoq2q1rY73Ce4AkTVX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27389a6eefcafaa64e46a0bef06",
+    "popularity": 46,
+    "previewUrl": null,
+    "durationMs": 274506,
+    "isrc": "GBAYE9201038",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "4zEvxRDaKDoFlHxK7Hy0wg",
+    "name": "Sunday",
+    "artists": [
+      "The Cranberries"
+    ],
+    "album": "Everybody Else Is Doing It, So Why Can't We?",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/4zEvxRDaKDoFlHxK7Hy0wg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 211066,
+    "isrc": "USIR29300081",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "0Rds81XabM2aXUcCCi6lDI",
+    "name": "Fine Friend",
+    "artists": [
+      "Pale Saints"
+    ],
+    "album": "Slow Buildings",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/0Rds81XabM2aXUcCCi6lDI",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349f6b7749e557eda913f17ec",
+    "popularity": 52,
+    "previewUrl": null,
+    "durationMs": 244773,
+    "isrc": "GBAFL9400060",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6GGtHZgBycCgGBUhZo81xe",
+    "name": "Say Yes To Heaven",
+    "artists": [
+      "Lana Del Rey"
+    ],
+    "album": "Say Yes To Heaven",
+    "year": 2023,
+    "spotifyUrl": "https://open.spotify.com/track/6GGtHZgBycCgGBUhZo81xe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273aa27708d07f49c82ff0d0dae",
+    "popularity": 87,
+    "previewUrl": null,
+    "durationMs": 209156,
+    "isrc": "GBUM72304301",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "7InHgiDyJ0GtvnIVslWNPK",
+    "name": "I'm Not In Love",
+    "artists": [
+      "Kelsey Lu"
+    ],
+    "album": "Blood",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/7InHgiDyJ0GtvnIVslWNPK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27314594847f07dbc57fc182226",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 414466,
+    "isrc": "USSM11809046",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "1i84eCrJbu0EIP5aWToMMa",
+    "name": "グライド",
+    "artists": [
+      "Lily Chou-Chou"
+    ],
+    "album": "呼吸",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/1i84eCrJbu0EIP5aWToMMa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732420365b61d3bfa992f89435",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 220240,
+    "isrc": "JPSR00000521",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "6MC9eyZJiicT4tT2YOqf5d",
+    "name": "Thursday",
+    "artists": [
+      "Asobi Seksu"
+    ],
+    "album": "Citrus",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/6MC9eyZJiicT4tT2YOqf5d",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731538c44b0d9a5281e226be21",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 257173,
+    "isrc": "US4WD0610010",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  },
+  {
+    "id": "5QD1qq1szPvWYT2hxqCfpa",
+    "name": "Insubstantial",
+    "artists": [
+      "Pale Saints"
+    ],
+    "album": "The Comforts of Madness",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/5QD1qq1szPvWYT2hxqCfpa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734534e9cb47e2d722de48334e",
+    "popularity": 26,
+    "previewUrl": null,
+    "durationMs": 259506,
+    "isrc": "GBAFL9000006",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null
+  }
+]
