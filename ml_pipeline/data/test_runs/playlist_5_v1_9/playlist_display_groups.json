@@ -1,20 +1,14 @@
 [
   {
-    "display_group": "Rock / Indie",
-    "size": 86,
+    "display_group": "Electronic / Dance",
+    "size": 49,
     "member_cluster_ids": [
       0,
-      6,
-      4,
-      2,
-      3
+      2
     ],
     "member_cluster_names": [
       "slowcore / stutter house",
-      "experimental rock / acoustic",
-      "indietronica / psychedelic rock indie rock shoegaze",
-      "post britpop / britpop",
-      "retro / cool"
+      "post britpop / britpop"
     ],
     "top_descriptors": [
       "slowcore",
@@ -24,9 +18,9 @@
       "deep house",
       "shoegaze",
       "indie",
-      "experimental rock",
-      "acoustic",
-      "alt rock"
+      "post britpop",
+      "britpop",
+      "alternative rock pop"
     ],
     "sample_tracks": [
       "None \u2014 Cigarettes After Sex",
@@ -36,11 +30,48 @@
       "None \u2014 070 Shake, Tame Impala",
       "None \u2014 Piero Piccioni",
       "None \u2014 Peter Cat Recording Co.",
+      "None \u2014 Radiohead",
+      "None \u2014 Coldplay"
+    ]
+  },
+  {
+    "display_group": "Rock / Indie",
+    "size": 37,
+    "member_cluster_ids": [
+      6,
+      4,
+      3
+    ],
+    "member_cluster_names": [
+      "experimental rock / acoustic",
+      "indietronica / psychedelic rock indie rock shoegaze",
+      "retro / cool"
+    ],
+    "top_descriptors": [
+      "experimental rock",
+      "acoustic",
+      "alt rock",
+      "mood sad / sad",
+      "easy listening",
+      "lo fi indie",
+      "nu jazz",
+      "musical",
+      "indietronica",
+      "psychedelic rock indie rock shoegaze"
+    ],
+    "sample_tracks": [
       "None \u2014 Vansire",
       "None \u2014 Nujabes, Shing02",
       "None \u2014 Playboi Carti",
       "None \u2014 Playboi Carti, Leven Kali",
-      "None \u2014 Radiohead"
+      "None \u2014 Radiohead",
+      "None \u2014 Justin Hurwitz",
+      "None \u2014 Strawberry Guy",
+      "None \u2014 Mac DeMarco",
+      "None \u2014 Sweet Trip",
+      "None \u2014 Tame Impala",
+      "None \u2014 Bon Iver",
+      "None \u2014 Lorde"
     ]
   },
   {

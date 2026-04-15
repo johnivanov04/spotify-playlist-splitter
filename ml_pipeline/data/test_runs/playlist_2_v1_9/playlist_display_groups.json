@@ -1,30 +1,22 @@
 [
   {
-    "display_group": "Rap / Hip-Hop",
-    "size": 213,
+    "display_group": "Melodic / Party Rap",
+    "size": 147,
     "member_cluster_ids": [
       6,
-      3,
       5,
       8,
-      4,
       11,
       7,
-      15,
-      13,
-      12
+      15
     ],
     "member_cluster_names": [
       "rage rap / melodic rap",
-      "west coast hip hop / hip hop",
       "rage rap / rap",
       "rage rap / melodic rap",
-      "underground hip hop / conscious hip hop",
       "rap / melodic rap",
       "rage rap / melodic rap",
-      "rage rap / melodic rap",
-      "jazz rap / experimental hip hop",
-      "rap / hip hop"
+      "rage rap / melodic rap"
     ],
     "top_descriptors": [
       "rage rap",
@@ -43,6 +35,42 @@
       "None \u2014 Travis Scott",
       "None \u2014 Tyler, The Creator",
       "None \u2014 21 Savage",
+      "None \u2014 Metro Boomin, A$AP Rocky, Roisee",
+      "None \u2014 Metro Boomin, Swae Lee, NAV, A Boogie Wit da Hoodie",
+      "None \u2014 Mustard, Travis Scott",
+      "None \u2014 Travis Scott, James Blake, 21 Savage",
+      "None \u2014 Drake",
+      "None \u2014 Lil Uzi Vert",
+      "None \u2014 Lil Uzi Vert, Pharrell Williams",
+      "None \u2014 Mac Miller"
+    ]
+  },
+  {
+    "display_group": "Rap / Hip-Hop",
+    "size": 58,
+    "member_cluster_ids": [
+      3,
+      4,
+      12
+    ],
+    "member_cluster_names": [
+      "west coast hip hop / hip hop",
+      "underground hip hop / conscious hip hop",
+      "rap / hip hop"
+    ],
+    "top_descriptors": [
+      "west coast hip hop",
+      "hip hop",
+      "thug rap",
+      "trap",
+      "rap",
+      "old school hip hop",
+      "alternative hip hop",
+      "underground hip hop",
+      "conscious hip hop",
+      "plunderphonics"
+    ],
+    "sample_tracks": [
       "None \u2014 J. Cole",
       "None \u2014 Travis Scott, Kacy Hill",
       "None \u2014 Kendrick Lamar, Jay Rock",
@@ -50,19 +78,25 @@
       "None \u2014 Kendrick Lamar, Zacari",
       "None \u2014 Travis Scott, Justin Bieber, Young Thug",
       "None \u2014 A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
-      "None \u2014 Kendrick Lamar, MC Eiht"
+      "None \u2014 Kendrick Lamar, MC Eiht",
+      "None \u2014 Juice WRLD",
+      "None \u2014 Kid Cudi",
+      "None \u2014 Kendrick Lamar",
+      "None \u2014 Ice Cube"
     ]
   },
   {
     "display_group": "Jazz / Nujabes / Downtempo",
-    "size": 28,
+    "size": 36,
     "member_cluster_ids": [
       1,
+      13,
       2,
       10
     ],
     "member_cluster_names": [
       "cool jazz / instrumental",
+      "jazz rap / experimental hip hop",
       "instrumental / jazz rap",
       "boom bap / nu jazz"
     ],
@@ -73,10 +107,10 @@
       "downtempo",
       "hip hop instrumental hip hop",
       "instrumentalhiphop",
-      "boom bap",
+      "experimental hip hop",
       "alternative hip hop",
-      "nu jazz",
-      "experimental hip hop"
+      "rap",
+      "boom bap"
     ],
     "sample_tracks": [
       "None \u2014 Nujabes, Cise Starr",
@@ -85,12 +119,12 @@
       "None \u2014 Nujabes, Uyama Hiroto",
       "None \u2014 Nujabes, Five Deez",
       "None \u2014 Nujabes, Shing02",
-      "None \u2014 Nujabes, Cise Starr & Akin from CYNE",
-      "None \u2014 Funky DL",
-      "None \u2014 Force Of Nature, Suiken, S-Word",
-      "None \u2014 A$AP Rocky",
-      "None \u2014 The Alchemist, Earl Sweatshirt",
-      "None \u2014 The Alchemist, Boldy James"
+      "None \u2014 Joey Bada$$",
+      "None \u2014 Earl Sweatshirt",
+      "None \u2014 Nujabes, Substantial, Pase Rock",
+      "None \u2014 Witness",
+      "None \u2014 Yakkle, Shing02",
+      "None \u2014 Witness, Daimyo"
     ]
   },
   {
@@ -115,14 +149,12 @@
   },
   {
     "display_group": "R&B / Soul",
-    "size": 18,
+    "size": 11,
     "member_cluster_ids": [
-      0,
-      9
+      0
     ],
     "member_cluster_names": [
-      "soul / afrobeats",
-      "trap soul / melodic rap"
+      "soul / afrobeats"
     ],
     "top_descriptors": [
       "soul",
@@ -130,17 +162,37 @@
       "alternative r and b",
       "neo soul",
       "r and b",
-      "contemporary r and b",
-      "trap soul",
-      "melodic rap",
-      "trap",
-      "rap"
+      "contemporary r and b"
     ],
     "sample_tracks": [
       "None \u2014 Drake, Wizkid, Kyla",
       "None \u2014 Drake, Majid Jordan",
       "None \u2014 Frank Ocean",
-      "None \u2014 Frank Ocean, Earl Sweatshirt",
+      "None \u2014 Frank Ocean, Earl Sweatshirt"
+    ]
+  },
+  {
+    "display_group": "Trap",
+    "size": 7,
+    "member_cluster_ids": [
+      9
+    ],
+    "member_cluster_names": [
+      "trap soul / melodic rap"
+    ],
+    "top_descriptors": [
+      "trap soul",
+      "melodic rap",
+      "trap",
+      "rap",
+      "rage rap",
+      "southern hip hop",
+      "danceable",
+      "timbre / dark",
+      "mood party / party",
+      "voice instrumental / voice"
+    ],
+    "sample_tracks": [
       "None \u2014 21 Savage, Metro Boomin, Young Thug",
       "None \u2014 Playboi Carti, Bryson Tiller",
       "None \u2014 Travis Scott, Rich Homie Quan, Young Thug",
