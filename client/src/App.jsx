@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import kmeansModel from "./ml/kmeans_model.json";
-import { predictCluster } from "./ml/kmeansInfer";
+import { clusterPlaylist } from "./ml/kmeansInfer";
 
 const API_BASE = "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
@@ -239,24 +239,27 @@ function buildSuggestions(tracks, usageMap, thresholds) {
 }
 
 function buildMlClusterSuggestions(tracks) {
-  const byCluster = new Map();
+  if (!tracks.length) return [];
 
-  for (const t of tracks) {
-    const c = predictCluster(kmeansModel, t);
+  const k = Math.min(9, Math.max(2, Math.ceil(tracks.length / 30)));
+  const labels = clusterPlaylist(kmeansModel, tracks, k);
+
+  const byCluster = new Map();
+  for (let i = 0; i < tracks.length; i++) {
+    const c = labels[i];
     if (!byCluster.has(c)) byCluster.set(c, []);
-    byCluster.get(c).push(t);
+    byCluster.get(c).push(tracks[i]);
   }
 
   const suggestions = [];
   for (const [clusterId, clusterTracks] of Array.from(byCluster.entries()).sort(
-    (a, b) => a[0] - b[0]
+    (a, b) => b[1].length - a[1].length
   )) {
-    if (clusterTracks.length < 10) continue;
-
+    if (clusterTracks.length < 5) continue;
     suggestions.push({
       id: `ml-cluster-${clusterId}`,
-      label: `ML Vibe Cluster ${clusterId + 1}`,
-      description: "Grouped by learned audio + metadata similarity.",
+      label: `Vibe Cluster ${clusterId + 1}`,
+      description: "Grouped by learned genre + mood similarity.",
       ruleDescription: `kmeans cluster = ${clusterId}`,
       tracks: clusterTracks
     });
@@ -425,7 +428,9 @@ function App() {
     if (!selectedPlaylist || !tracks.length || !usageMap) return;
 
     const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
-    setSuggestions(nextSuggestions);
+    const mlSuggestions = buildMlClusterSuggestions(tracks);
+    const allSuggestions = [...nextSuggestions, ...mlSuggestions];
+    setSuggestions(allSuggestions);
     setDismissedSuggestionIds(new Set());
 
     const initialSelection = {};
@@ -569,6 +574,39 @@ function App() {
     }
   };
 
+  const enrichTracksWithSpotifyGenres = async (playlistId, t) => {
+    const trackIds = t.map((tr) => tr.id).filter(Boolean);
+    if (!trackIds.length) return;
+
+    try {
+      const res = await fetch(`${API_BASE}/api/spotify/artist-genres`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ trackIds }),
+      });
+      if (!res.ok) return;
+
+      const data = await res.json();
+      const byTrackId = data.byTrackId || {};
+
+      if (selectedPlaylistIdRef.current !== playlistId) return;
+
+      setTracks((prev) =>
+        prev.map((tr) => {
+          const genres = byTrackId[tr.id];
+          if (!genres) return tr;
+          return {
+            ...tr,
+            spotifyArtistGenres: genres.map((g) => ({ name: g, count: 1 })),
+          };
+        })
+      );
+    } catch (err) {
+      console.warn("Spotify genres fetch failed (non-fatal):", err);
+    }
+  };
+
   const handleSelectPlaylist = async (pl) => {
     setSelectedPlaylist(pl);
     selectedPlaylistIdRef.current = pl.id;
@@ -588,18 +626,9 @@ function App() {
       setTracks(t);
       window.__tracks = t;
 
-      const s = buildSuggestions(t, usageMap, thresholds);
-      const mlSuggestions = buildMlClusterSuggestions(t);
-      setSuggestions([...s, ...mlSuggestions]);
-
-      const initialSelection = {};
-      s.forEach((suggestion) => {
-        initialSelection[suggestion.id] = new Set(suggestion.tracks.map((track) => track.id));
-      });
-      setSelectionBySuggestion(initialSelection);
-
-      // fire-and-forget enrichment
+      // fire-and-forget enrichment (useEffect rebuilds suggestions on each setTracks)
       enrichTracksWithBrainz(pl.id, t);
+      enrichTracksWithSpotifyGenres(pl.id, t);
     } catch (err) {
       console.error(err);
       setError("Failed to load tracks for that playlist.");

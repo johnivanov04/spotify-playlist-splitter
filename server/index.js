@@ -637,6 +637,68 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
   }
 });
 
+// Batch-fetch Spotify artist genres for a list of track IDs.
+// POST { trackIds: string[] } → { byTrackId: { [id]: string[] } }
+app.post("/api/spotify/artist-genres", requireSpotifyAuth, async (req, res) => {
+  const accessToken = req.session.accessToken;
+  const { trackIds } = req.body || {};
+
+  if (!Array.isArray(trackIds) || trackIds.length === 0) {
+    return res.status(400).json({ error: "Missing trackIds" });
+  }
+
+  try {
+    // 1) Track → artist IDs (batch 50)
+    const trackToArtists = {};
+    for (let i = 0; i < trackIds.length; i += 50) {
+      const chunk = trackIds.slice(i, i + 50);
+      const r = await fetch(`${SPOTIFY_API_BASE}/tracks?ids=${chunk.join(",")}`, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      });
+      if (!r.ok) continue;
+      const data = await r.json();
+      for (const t of data.tracks || []) {
+        if (!t || !t.id) continue;
+        trackToArtists[t.id] = (t.artists || []).map((a) => a.id).filter(Boolean);
+      }
+    }
+
+    // 2) Artist → genres (batch 50)
+    const allArtistIds = [...new Set(Object.values(trackToArtists).flat())];
+    const artistGenres = {};
+    for (let i = 0; i < allArtistIds.length; i += 50) {
+      const chunk = allArtistIds.slice(i, i + 50);
+      const r = await fetch(`${SPOTIFY_API_BASE}/artists?ids=${chunk.join(",")}`, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      });
+      if (!r.ok) continue;
+      const data = await r.json();
+      for (const a of data.artists || []) {
+        if (!a || !a.id) continue;
+        artistGenres[a.id] = a.genres || [];
+      }
+    }
+
+    // 3) Build result
+    const byTrackId = {};
+    for (const [trackId, artistIds] of Object.entries(trackToArtists)) {
+      const seen = new Set();
+      const genres = [];
+      for (const aid of artistIds) {
+        for (const g of artistGenres[aid] || []) {
+          if (!seen.has(g)) { seen.add(g); genres.push(g); }
+        }
+      }
+      if (genres.length > 0) byTrackId[trackId] = genres;
+    }
+
+    res.json({ byTrackId });
+  } catch (err) {
+    console.error("Artist genres error:", err);
+    res.status(500).json({ error: "Failed to fetch artist genres" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on http://127.0.0.1:${PORT}`);
 });
