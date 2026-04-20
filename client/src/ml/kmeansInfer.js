@@ -213,7 +213,7 @@ export function clusterPlaylist(model, tracks, k, nInit = 3) {
     return Array.from(embed(x, model));
   });
 
-  const effectiveK = Math.min(k, Math.max(2, Math.floor(tracks.length / 6)));
+  const effectiveK = Math.min(k, Math.max(2, Math.floor(tracks.length / 15)));
 
   let best = null;
   for (let i = 0; i < nInit; i++) {
