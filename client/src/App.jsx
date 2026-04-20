@@ -241,7 +241,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
 function buildMlClusterSuggestions(tracks) {
   if (!tracks.length) return [];
 
-  const k = Math.min(9, Math.max(2, Math.ceil(tracks.length / 30)));
+  const k = Math.min(14, Math.max(2, Math.ceil(tracks.length / 20)));
   const labels = clusterPlaylist(kmeansModel, tracks, k);
 
   const byCluster = new Map();
