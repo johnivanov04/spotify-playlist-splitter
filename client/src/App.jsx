@@ -425,9 +425,9 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (!selectedPlaylist || !tracks.length || !usageMap) return;
+    if (!selectedPlaylist || !tracks.length) return;
 
-    const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
+    const nextSuggestions = usageMap ? buildSuggestions(tracks, usageMap, thresholds) : [];
     const mlSuggestions = buildMlClusterSuggestions(tracks);
     const allSuggestions = [...nextSuggestions, ...mlSuggestions];
     setSuggestions(allSuggestions);
