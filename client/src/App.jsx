@@ -238,6 +238,41 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   return suggestions;
 }
 
+function termKey(raw) {
+  return raw.trim().toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+const LABEL_SKIP_EXACT = new Set([
+  "rap_hip_hop", "hip_hop_rap", "hip_hop_underground_hip_hop",
+  "contemporary_rap_gangsta_rap_hardcore_rap_rap_west_coast_rap",
+]);
+
+function collectTerms(tracks, freqMap, displayMap) {
+  for (const t of tracks) {
+    const seen = new Set();
+    const sources = [
+      ...(t.spotifyArtistGenres || []),
+      ...(t.brainz?.genres || []),
+      ...(t.brainz?.tags || []),
+    ];
+    for (const item of sources) {
+      const raw = typeof item === "string" ? item : item?.name;
+      if (!raw) continue;
+      const key = termKey(raw);
+      if (!key || seen.has(key)) continue;
+      if (key.length > 40 || LABEL_SKIP_EXACT.has(key)) continue;
+      seen.add(key);
+      freqMap.set(key, (freqMap.get(key) || 0) + 1);
+      if (!displayMap.has(key))
+        displayMap.set(key, key.replace(/_/g, " "));
+    }
+  }
+}
+
 function buildMlClusterSuggestions(tracks) {
   if (!tracks.length) return [];
 
@@ -251,15 +286,38 @@ function buildMlClusterSuggestions(tracks) {
     byCluster.get(c).push(tracks[i]);
   }
 
+  // Global term frequencies across all tracks (for IDF)
+  const globalFreq = new Map();
+  const displayMap = new Map();
+  collectTerms(tracks, globalFreq, displayMap);
+
   const suggestions = [];
   for (const [clusterId, clusterTracks] of Array.from(byCluster.entries()).sort(
     (a, b) => b[1].length - a[1].length
   )) {
     if (clusterTracks.length < 5) continue;
+
+    // Cluster-level term frequencies
+    const clusterFreq = new Map();
+    collectTerms(clusterTracks, clusterFreq, displayMap);
+
+    // TF-IDF: how distinctive is this term to this cluster?
+    const scored = Array.from(clusterFreq.entries()).map(([key, cf]) => {
+      const tf = cf / clusterTracks.length;
+      const idf = Math.log((tracks.length + 1) / (globalFreq.get(key) || 1));
+      return [key, tf * idf];
+    });
+
+    const top = scored
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map(([key]) => displayMap.get(key));
+
+    const label = top.length ? top.join(" · ") : "Mixed";
     suggestions.push({
       id: `ml-cluster-${clusterId}`,
-      label: `Vibe Cluster ${clusterId + 1}`,
-      description: "Grouped by learned genre + mood similarity.",
+      label,
+      description: "Clustered by genre & mood similarity.",
       ruleDescription: `kmeans cluster = ${clusterId}`,
       tracks: clusterTracks
     });
