@@ -1117,9 +1117,9 @@ function App() {
                                   />
                                 ) : (
                                   <h3
+                                    className="editable-label"
                                     onClick={() => setEditingLabel({ id: s.id, value: labelOverrides[s.id] ?? s.label })}
                                     title="Click to rename"
-                                    style={{ cursor: "text" }}
                                   >{labelOverrides[s.id] ?? s.label}</h3>
                                 )}
                                 <p className="suggestion-sub">{s.description}</p>
