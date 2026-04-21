@@ -266,6 +266,23 @@ body {
   font-size: 1.1rem;
 }
 
+.suggestion-header h3.editable-label {
+  cursor: text;
+  border-bottom: 1px dashed transparent;
+  transition: border-color 0.15s;
+}
+
+.suggestion-header h3.editable-label:hover {
+  border-bottom-color: var(--text-subdued);
+}
+
+.suggestion-header h3.editable-label:hover::after {
+  content: " ✏";
+  font-size: 0.75em;
+  font-weight: normal;
+  opacity: 0.5;
+}
+
 .label-edit-input {
   background: transparent;
   border: none;
