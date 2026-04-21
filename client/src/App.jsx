@@ -410,6 +410,7 @@ function App() {
   const [usageMap, setUsageMap] = useState(null);
 
   const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(() => new Set());
+  const [historyFileNames, setHistoryFileNames] = useState([]);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
@@ -933,7 +934,27 @@ function App() {
                 {usageMap && <span className="pill pill-success">Data loaded</span>}
               </div>
 
-              <input type="file" multiple accept=".json,application/json" onChange={handleHistoryFilesSelected} />
+              <div className="file-input-row">
+                <label className="file-input-btn" htmlFor="history-file-input">
+                  Choose files
+                </label>
+                <input
+                  id="history-file-input"
+                  type="file"
+                  multiple
+                  accept=".json,application/json"
+                  onChange={e => {
+                    setHistoryFileNames(Array.from(e.target.files || []).map(f => f.name));
+                    handleHistoryFilesSelected(e);
+                  }}
+                  style={{ display: "none" }}
+                />
+                <span className="file-input-names">
+                  {historyFileNames.length
+                    ? historyFileNames.join(", ")
+                    : "No files chosen"}
+                </span>
+              </div>
             </div>
 
             {!selectedPlaylist && (
