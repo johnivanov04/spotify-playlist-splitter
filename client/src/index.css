@@ -266,6 +266,19 @@ body {
   font-size: 1.1rem;
 }
 
+.label-edit-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-subdued);
+  color: inherit;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: inherit;
+  width: 100%;
+  padding: 0;
+  outline: none;
+}
+
 .suggestion-sub {
   margin-top: 0.2rem;
   font-size: 0.9rem;
