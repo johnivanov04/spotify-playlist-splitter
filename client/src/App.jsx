@@ -273,6 +273,50 @@ function collectTerms(tracks, freqMap, displayMap) {
   }
 }
 
+function pickDisplayGroup(routingTerms) {
+  const t = routingTerms.toLowerCase();
+
+  if (t.includes("breakbeat") || t.includes("soundtrack"))
+    return "Instrumental / Breakbeat";
+
+  if (["cool jazz", "jazz rap", "boom bap", "nu jazz"].some(k => t.includes(k))
+      && !["rage rap", "melodic rap", "emo rap", "pluggnb"].some(k => t.includes(k)))
+    return "Jazz / Nujabes / Downtempo";
+
+  if (t.includes("singer songwriter"))
+    return "Acoustic / Chill";
+
+  if (["tech house", "bass house", "uk garage", "bassline", "drum and bass", "dnb",
+       "dubstep", "techno", "trance", "electro house", "big beat"].some(k => t.includes(k))
+      || (t.includes("house") && !t.includes("rock")))
+    return "Electronic / Dance";
+
+  if (["rock", "indie", "alternative", "punk", "grunge", "emo",
+       "shoegaze", "slowcore", "indietronica"].some(k => t.includes(k))
+      && !t.includes("hip hop") && !t.includes("r and b") && !t.includes("rap"))
+    return "Rock / Indie";
+
+  if (["trap", "thug rap", "southern hip hop"].some(k => t.includes(k)))
+    return "Trap";
+
+  if (["r and b", "soul", "neo soul", "contemporary r and b", "psychedelic soul"]
+      .some(k => t.includes(k)))
+    return "R&B / Soul";
+
+  if (["rage rap", "melodic rap", "emo rap", "pluggnb", "plugg"].some(k => t.includes(k)))
+    return "Melodic / Party Rap";
+
+  if (["rap", "hip hop", "pop rap", "conscious hip hop", "underground hip hop",
+       "west coast hip hop", "hardcore hip hop"].some(k => t.includes(k)))
+    return "Rap / Hip-Hop";
+
+  if (["mood party", "danceable", "voice instrumental", "timbre", "aggressive"]
+      .some(k => t.includes(k)))
+    return "Melodic / Party Rap";
+
+  return "More Picks";
+}
+
 function buildMlClusterSuggestions(tracks) {
   if (!tracks.length) return [];
 
@@ -286,40 +330,53 @@ function buildMlClusterSuggestions(tracks) {
     byCluster.get(c).push(tracks[i]);
   }
 
-  // Global term frequencies across all tracks (for IDF)
   const globalFreq = new Map();
   const displayMap = new Map();
   collectTerms(tracks, globalFreq, displayMap);
 
   const suggestions = [];
+  const groupCounts = new Map();
+
   for (const [clusterId, clusterTracks] of Array.from(byCluster.entries()).sort(
     (a, b) => b[1].length - a[1].length
   )) {
     if (clusterTracks.length < 5) continue;
 
-    // Cluster-level term frequencies
     const clusterFreq = new Map();
     collectTerms(clusterTracks, clusterFreq, displayMap);
 
-    // TF-IDF: how distinctive is this term to this cluster?
+    // Raw frequency for routing (what the cluster IS)
+    const byFreq = Array.from(clusterFreq.entries()).sort((a, b) => b[1] - a[1]);
+    const routingTerms = byFreq.slice(0, 3).map(([key]) => displayMap.get(key));
+    const group = pickDisplayGroup(routingTerms.join(" | "));
+
+    // TF-IDF for description (what's distinctive)
     const scored = Array.from(clusterFreq.entries()).map(([key, cf]) => {
       const tf = cf / clusterTracks.length;
       const idf = Math.log((tracks.length + 1) / (globalFreq.get(key) || 1));
       return [key, tf * idf];
     });
+    scored.sort((a, b) => b[1] - a[1]);
+    const description = scored.slice(0, 4).map(([key]) => displayMap.get(key)).join(" · ");
+    const count = (groupCounts.get(group) || 0) + 1;
+    groupCounts.set(group, count);
 
-    const top = scored
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3)
-      .map(([key]) => displayMap.get(key));
+    // For duplicates, find the most distinctive term not already in the group name
+    let label = group;
+    if (count > 1) {
+      const groupLower = group.toLowerCase();
+      const suffix = scored
+        .map(([key]) => displayMap.get(key))
+        .find(term => !groupLower.includes(term));
+      label = suffix ? `${group} — ${suffix}` : `${group} ${count}`;
+    }
 
-    const label = top.length ? top.join(" · ") : "Mixed";
     suggestions.push({
       id: `ml-cluster-${clusterId}`,
       label,
-      description: "Clustered by genre & mood similarity.",
+      description,
       ruleDescription: `kmeans cluster = ${clusterId}`,
-      tracks: clusterTracks
+      tracks: clusterTracks,
     });
   }
 
