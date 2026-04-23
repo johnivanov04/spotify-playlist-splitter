@@ -528,6 +528,90 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.data-help-link {
+  background: none;
+  border: none;
+  color: var(--spotify-green);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.data-help-link:hover {
+  color: var(--spotify-green-hover);
+}
+
+/* Data help modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 520px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.modal-steps {
+  padding-left: 1.25rem;
+  margin: 0 0 1rem;
+  line-height: 1.8;
+}
+
+.modal-steps li {
+  margin-bottom: 0.5rem;
+}
+
+.modal-steps a {
+  color: var(--spotify-green);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.modal-steps a:hover {
+  color: var(--spotify-green-hover);
+}
+
+.modal-steps code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.modal-note {
+  font-size: 0.85rem;
+  color: var(--text-subdued);
+  margin: 0;
+  line-height: 1.5;
+}
+
 .advanced-steps {
   padding-left: 1.25rem;
   margin: 0.5rem 0 0.75rem;
