@@ -368,6 +368,7 @@ function buildMlClusterSuggestions(tracks) {
 
   const suggestions = [];
   const groupCounts = new Map();
+  const usedSuffixes = new Map();
 
   for (const [clusterId, clusterTracks] of Array.from(byCluster.entries()).sort(
     (a, b) => b[1].length - a[1].length
@@ -395,14 +396,26 @@ function buildMlClusterSuggestions(tracks) {
 
     if (group === "More Picks") continue;
 
-    // For duplicates, find the most distinctive term not already in the group name
+    // For duplicates, find a suffix that isn't redundant with the group name
+    // and hasn't been used by another cluster in the same group
     let label = group;
     if (count > 1) {
-      const groupLower = group.toLowerCase();
+      const groupWords = new Set(group.toLowerCase().split(/[^a-z]+/).filter(Boolean));
+      const taken = usedSuffixes.get(group) || new Set();
       const suffix = scored
         .map(([key]) => displayMap.get(key))
-        .find(term => !groupLower.includes(term));
-      label = suffix ? `${group} — ${suffix}` : `${group} ${count}`;
+        .find(term => {
+          const termWords = term.split(/\s+/);
+          const overlaps = termWords.every(w => groupWords.has(w));
+          return !overlaps && !taken.has(term);
+        });
+      if (suffix) {
+        taken.add(suffix);
+        usedSuffixes.set(group, taken);
+        label = `${group} — ${suffix}`;
+      } else {
+        label = `${group} ${count}`;
+      }
     }
 
     suggestions.push({
