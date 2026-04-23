@@ -502,6 +502,7 @@ function App() {
 
   const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(() => new Set());
   const [historyFileNames, setHistoryFileNames] = useState([]);
+  const [showDataHelp, setShowDataHelp] = useState(false);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
@@ -1025,6 +1026,10 @@ function App() {
                 {usageMap && <span className="pill pill-success">Data loaded</span>}
               </div>
 
+              <button className="data-help-link" onClick={() => setShowDataHelp(true)}>
+                How do I get this data?
+              </button>
+
               <div className="file-input-row">
                 <label className="file-input-btn" htmlFor="history-file-input">
                   Choose files
@@ -1346,6 +1351,39 @@ function App() {
             )}
           </section>
         </main>
+      )}
+      {showDataHelp && (
+        <div className="modal-overlay" onClick={() => setShowDataHelp(false)}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <div className="modal-header">
+              <h2>How to get your listening data</h2>
+              <button className="dismiss-btn" onClick={() => setShowDataHelp(false)}>×</button>
+            </div>
+            <ol className="modal-steps">
+              <li>
+                Go to your <a href="https://www.spotify.com/account/privacy/" target="_blank" rel="noopener noreferrer">Spotify Privacy Settings</a>
+              </li>
+              <li>
+                Scroll down to <strong>"Download your data"</strong> and check <strong>"Extended streaming history"</strong>
+              </li>
+              <li>
+                Click <strong>"Request data"</strong> and confirm via email
+              </li>
+              <li>
+                Wait for Spotify to prepare your data (usually 5-30 days). You'll get an email when it's ready.
+              </li>
+              <li>
+                Download the ZIP file from the email link and extract it
+              </li>
+              <li>
+                Upload the <code>Streaming_History_Audio_*.json</code> files using the file picker above
+              </li>
+            </ol>
+            <p className="modal-note">
+              This data includes your full play history — play counts, skip counts, and timestamps. It enables suggestions like "frequently skipped", "barely played", and "core favorites".
+            </p>
+          </div>
+        </div>
       )}
     </div>
   );
