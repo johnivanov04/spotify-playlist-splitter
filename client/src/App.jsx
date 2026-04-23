@@ -393,6 +393,8 @@ function buildMlClusterSuggestions(tracks) {
     const count = (groupCounts.get(group) || 0) + 1;
     groupCounts.set(group, count);
 
+    if (group === "More Picks") continue;
+
     // For duplicates, find the most distinctive term not already in the group name
     let label = group;
     if (count > 1) {
