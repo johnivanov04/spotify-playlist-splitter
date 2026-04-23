@@ -287,14 +287,24 @@ function pickDisplayGroup(routingTerms) {
     return "Acoustic / Chill";
 
   if (["tech house", "bass house", "uk garage", "bassline", "drum and bass", "dnb",
-       "dubstep", "techno", "trance", "electro house", "big beat"].some(k => t.includes(k))
+       "dubstep", "techno", "trance", "electro house", "big beat", "idm",
+       "electronic", "electronica"].some(k => t.includes(k))
       || (t.includes("house") && !t.includes("rock")))
     return "Electronic / Dance";
 
+  if (["bedroom pop", "dream pop", "lo-fi indie"].some(k => t.includes(k)))
+    return "Dream Pop / Bedroom Pop";
+
   if (["rock", "indie", "alternative", "punk", "grunge", "emo",
-       "shoegaze", "slowcore", "indietronica"].some(k => t.includes(k))
+       "shoegaze", "slowcore", "indietronica", "neo psychedelic", "psychedelic",
+       "britpop", "post punk", "new wave"].some(k => t.includes(k))
       && !t.includes("hip hop") && !t.includes("r and b") && !t.includes("rap"))
     return "Rock / Indie";
+
+  if (["pop rock", "art pop", "indie pop", "synth pop", "electropop"]
+      .some(k => t.includes(k))
+      || (t.includes("pop") && !t.includes("hip hop") && !t.includes("rap")))
+    return "Pop";
 
   if (["trap", "thug rap", "southern hip hop"].some(k => t.includes(k)))
     return "Trap";
@@ -323,11 +333,33 @@ function buildMlClusterSuggestions(tracks) {
   const k = Math.min(14, Math.max(2, Math.ceil(tracks.length / 20)));
   const labels = clusterPlaylist(kmeansModel, tracks, k);
 
-  const byCluster = new Map();
+  let byCluster = new Map();
   for (let i = 0; i < tracks.length; i++) {
     const c = labels[i];
     if (!byCluster.has(c)) byCluster.set(c, []);
     byCluster.get(c).push(tracks[i]);
+  }
+
+  // Recursive split: break up oversized clusters
+  const splitThreshold = Math.max(30, tracks.length * 0.35);
+  for (const [clusterId, clusterTracks] of [...byCluster.entries()]) {
+    if (clusterTracks.length <= splitThreshold) continue;
+    const subK = Math.max(3, Math.ceil(clusterTracks.length / 25));
+    const subLabels = clusterPlaylist(kmeansModel, clusterTracks, subK);
+    const subClusters = new Map();
+    for (let i = 0; i < clusterTracks.length; i++) {
+      const sc = subLabels[i];
+      if (!subClusters.has(sc)) subClusters.set(sc, []);
+      subClusters.get(sc).push(clusterTracks[i]);
+    }
+    // Only accept the split if it actually broke things up
+    const largest = Math.max(...[...subClusters.values()].map(v => v.length));
+    if (largest < clusterTracks.length * 0.8) {
+      byCluster.delete(clusterId);
+      for (const [subId, subTracks] of subClusters.entries()) {
+        byCluster.set(`${clusterId}_${subId}`, subTracks);
+      }
+    }
   }
 
   const globalFreq = new Map();
