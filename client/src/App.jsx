@@ -50,6 +50,15 @@ function downloadJson(filename, obj) {
   URL.revokeObjectURL(url);
 }
 
+function lookupUsage(usageMap, t) {
+  if (!usageMap) return null;
+  if (usageMap[t.id]) return usageMap[t.id];
+  const artist = (t.artists?.[0] || "").toLowerCase().trim();
+  const name = (t.name || "").toLowerCase().trim();
+  if (artist && name) return usageMap[`name::${artist}::${name}`] || null;
+  return null;
+}
+
 function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
   const minSize = 10;
@@ -130,7 +139,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   // USAGE-BASED
   if (usageMap) {
     const barelyPlayed = tracks.filter((t) => {
-      const u = usageMap[t.id];
+      const u = lookupUsage(usageMap, t);
       if (!u) return true;
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
@@ -150,7 +159,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     }
 
     const longAgoFavorites = tracks.filter((t) => {
-      const u = usageMap[t.id];
+      const u = lookupUsage(usageMap, t);
       if (!u) return false;
       const plays = u.plays ?? 0;
       if (plays < 5 || !u.lastPlayed) return false;
@@ -176,7 +185,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     }
 
     const frequentlySkipped = tracks.filter((t) => {
-      const u = usageMap[t.id];
+      const u = lookupUsage(usageMap, t);
       if (!u) return false;
       const plays = u.plays ?? 0;
       const skips = u.skips ?? 0;
@@ -196,7 +205,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     }
 
     const coreFavorites = tracks.filter((t) => {
-      const u = usageMap[t.id];
+      const u = lookupUsage(usageMap, t);
       if (!u) return false;
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
@@ -215,7 +224,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
     }
 
     const tourists = tracks.filter((t) => {
-      const u = usageMap[t.id];
+      const u = lookupUsage(usageMap, t);
       if (!u) return true;
       const plays = u.plays ?? 0;
       const totalMs = u.totalMs ?? 0;
@@ -440,7 +449,7 @@ function computePlaylistHealth(tracks, usageMap) {
   const lastPlayAges = [];
 
   for (const t of tracks) {
-    const u = usageMap[t.id];
+    const u = lookupUsage(usageMap, t);
     const plays = u?.plays ?? 0;
     const skips = u?.skips ?? 0;
 
@@ -622,9 +631,17 @@ function App() {
       const map = {};
 
       for (const entry of allEntries) {
+        // Key: prefer track URI, fall back to artist+name
+        let key = null;
         const uri = entry.spotify_track_uri || entry.trackUri || entry.uri || null;
-        if (!uri || !uri.startsWith("spotify:track:")) continue;
-        const trackId = uri.split(":")[2];
+        if (uri && uri.startsWith("spotify:track:")) {
+          key = uri.split(":")[2];
+        } else {
+          const artist = entry.artistName || entry.master_metadata_album_artist_name || "";
+          const track = entry.trackName || entry.master_metadata_track_name || "";
+          if (artist && track) key = `name::${artist.toLowerCase().trim()}::${track.toLowerCase().trim()}`;
+        }
+        if (!key) continue;
 
         const ms =
           entry.msPlayed ??
@@ -634,8 +651,8 @@ function App() {
 
         const endTime = entry.endTime || entry.timestamp || entry.ts || null;
 
-        if (!map[trackId]) {
-          map[trackId] = {
+        if (!map[key]) {
+          map[key] = {
             plays: 0,
             totalMs: 0,
             lastPlayed: null,
@@ -644,22 +661,22 @@ function App() {
           };
         }
 
-        map[trackId].plays += 1;
-        map[trackId].totalMs += ms;
+        map[key].plays += 1;
+        map[key].totalMs += ms;
 
         if (entry.skipped === true) {
-          map[trackId].skips += 1;
-          map[trackId].skipMs += ms;
+          map[key].skips += 1;
+          map[key].skipMs += ms;
         }
 
         if (endTime) {
-          const currentLast = map[trackId].lastPlayed;
+          const currentLast = map[key].lastPlayed;
           const newDate = new Date(endTime);
           if (
             !currentLast ||
             (!Number.isNaN(newDate.getTime()) && newDate > new Date(currentLast))
           ) {
-            map[trackId].lastPlayed = endTime;
+            map[key].lastPlayed = endTime;
           }
         }
       }
