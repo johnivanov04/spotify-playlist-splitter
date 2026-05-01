@@ -525,6 +525,8 @@ function App() {
   const [dismissedSuggestionIds, setDismissedSuggestionIds] = useState(() => new Set());
   const [historyFileNames, setHistoryFileNames] = useState([]);
   const [showDataHelp, setShowDataHelp] = useState(false);
+  const [enrichProgress, setEnrichProgress] = useState(null); // { batch, totalBatches, startTime }
+  const [enrichDone, setEnrichDone] = useState(false);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
@@ -722,9 +724,17 @@ function App() {
 
     const batchSize = AUTO_ENRICH_LIMIT;
     const totalBatches = Math.ceil(allIsrcs.length / batchSize);
+    const startTime = Date.now();
+
+    setEnrichProgress({ batch: 0, totalBatches, startTime });
 
     for (let b = 0; b < totalBatches; b++) {
-      if (selectedPlaylistIdRef.current !== playlistId) return;
+      if (selectedPlaylistIdRef.current !== playlistId) {
+        setEnrichProgress(null);
+        return;
+      }
+
+      setEnrichProgress({ batch: b, totalBatches, startTime });
 
       const batchIsrcs = allIsrcs.slice(b * batchSize, (b + 1) * batchSize);
 
@@ -747,7 +757,10 @@ function App() {
         const enr = await enrRes.json();
         const byIsrc = enr.byIsrc || {};
 
-        if (selectedPlaylistIdRef.current !== playlistId) return;
+        if (selectedPlaylistIdRef.current !== playlistId) {
+          setEnrichProgress(null);
+          return;
+        }
 
         setTracks((prev) =>
           prev.map((tr) => {
@@ -762,6 +775,9 @@ function App() {
         console.warn(`Brainz batch ${b + 1} failed (non-fatal):`, err);
       }
     }
+
+    setEnrichProgress(null);
+    setEnrichDone(true);
   };
 
   const enrichTracksWithSpotifyGenres = async (playlistId, t) => {
@@ -808,6 +824,8 @@ function App() {
     setExpandedSuggestionId(null);
     setSelectionBySuggestion({});
     setDismissedSuggestionIds(new Set());
+    setEnrichDone(false);
+    setEnrichProgress(null);
 
     try {
       setLoadingTracks(true);
@@ -1121,9 +1139,34 @@ function App() {
                         </button>
                       </div>
 
-                      {AUTO_ENRICH_BRAINZ && (
+                      {AUTO_ENRICH_BRAINZ && enrichProgress && (() => {
+                        const { batch, totalBatches, startTime } = enrichProgress;
+                        const elapsed = Date.now() - startTime;
+                        const perBatch = batch > 0 ? elapsed / batch : null;
+                        const remaining = perBatch ? perBatch * (totalBatches - batch) : null;
+                        const pct = Math.max(2, Math.round((batch / totalBatches) * 100));
+                        const fmtTime = (ms) => {
+                          const s = Math.round(ms / 1000);
+                          return s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s}s`;
+                        };
+                        return (
+                          <div className="enrich-progress">
+                            <div className="enrich-progress-header">
+                              <span>Enriching with MusicBrainz tags…</span>
+                              <span className="enrich-progress-stats">
+                                Batch {batch + 1}/{totalBatches}
+                                {remaining !== null && <> · ~{fmtTime(remaining)} left</>}
+                              </span>
+                            </div>
+                            <div className="enrich-progress-bar">
+                              <div className="enrich-progress-fill" style={{ width: `${pct}%` }} />
+                            </div>
+                          </div>
+                        );
+                      })()}
+                      {AUTO_ENRICH_BRAINZ && !enrichProgress && enrichDone && (
                         <p className="hint">
-                          Extra enrichment: MusicBrainz tags fetched in batches of {AUTO_ENRICH_LIMIT} in the background.
+                          MusicBrainz enrichment complete — suggestions updated.
                         </p>
                       )}
                     </>

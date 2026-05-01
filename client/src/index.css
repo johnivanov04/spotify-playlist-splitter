@@ -228,6 +228,33 @@ body {
   color: var(--text-subdued);
 }
 
+.enrich-progress {
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+}
+.enrich-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+  color: var(--text-subdued);
+}
+.enrich-progress-stats {
+  font-variant-numeric: tabular-nums;
+}
+.enrich-progress-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.enrich-progress-fill {
+  height: 100%;
+  background: var(--green);
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
 .error {
   color: #ff5c5c;
   background: rgba(255, 92, 92, 0.1);
