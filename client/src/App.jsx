@@ -1142,8 +1142,9 @@ function App() {
                       {AUTO_ENRICH_BRAINZ && enrichProgress && (() => {
                         const { batch, totalBatches, startTime } = enrichProgress;
                         const elapsed = Date.now() - startTime;
-                        const perBatch = batch > 0 ? elapsed / batch : null;
-                        const remaining = perBatch ? perBatch * (totalBatches - batch) : null;
+                        // After first batch completes, use measured time; before that, estimate ~1.1s per ISRC × 120 per batch
+                        const perBatch = batch > 0 ? elapsed / batch : AUTO_ENRICH_LIMIT * 1.1 * 1000;
+                        const remaining = perBatch * (totalBatches - batch);
                         const pct = Math.max(2, Math.round((batch / totalBatches) * 100));
                         const fmtTime = (ms) => {
                           const s = Math.round(ms / 1000);
@@ -1155,7 +1156,7 @@ function App() {
                               <span>Enriching with MusicBrainz tags…</span>
                               <span className="enrich-progress-stats">
                                 Batch {batch + 1}/{totalBatches}
-                                {remaining !== null && <> · ~{fmtTime(remaining)} left</>}
+                                {<> · ~{fmtTime(remaining)} left</>}
                               </span>
                             </div>
                             <div className="enrich-progress-bar">
