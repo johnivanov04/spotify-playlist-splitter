@@ -507,7 +507,8 @@ async function mbGetJson(url) {
   mbNextAllowedAt = Date.now() + 1100;
 
   const r = await fetch(url, {
-    headers: { "User-Agent": MB_UA, Accept: "application/json" }
+    headers: { "User-Agent": MB_UA, Accept: "application/json" },
+    signal: AbortSignal.timeout(10000)
   });
   if (!r.ok) {
     const txt = await r.text();
@@ -517,7 +518,10 @@ async function mbGetJson(url) {
 }
 
 async function abGetJson(url) {
-  const r = await fetch(url, { headers: { Accept: "application/json" } });
+  const r = await fetch(url, {
+    headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(5000)
+  });
   if (!r.ok) return null;
   return r.json();
 }
@@ -545,8 +549,11 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
     const uniq = Array.from(new Set(isrcs.map(normalizeIsrc).filter(Boolean))).slice(0, capped);
 
     const byIsrc = {};
+    console.log(`Brainz enrich: processing ${uniq.length} ISRCs...`);
 
-    for (const isrc of uniq) {
+    for (let idx = 0; idx < uniq.length; idx++) {
+      const isrc = uniq[idx];
+      if (idx > 0 && idx % 20 === 0) console.log(`  Brainz progress: ${idx}/${uniq.length}`);
       let mbid = cacheIsrcToMbid.get(isrc);
 
       // 1) ISRC -> recording MBID

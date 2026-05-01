@@ -11,7 +11,7 @@ const AUTO_ENRICH_BRAINZ = true;
 // Server caps limit to 120 for politeness + rate limits:
 const AUTO_ENRICH_LIMIT = 120;
 const AUTO_ENRICH_INCLUDE_TAGS = true;
-const AUTO_ENRICH_INCLUDE_ACOUSTIC = true;
+const AUTO_ENRICH_INCLUDE_ACOUSTIC = false; // AcousticBrainz is offline
 const AUTO_ENRICH_INCLUDE_ACOUSTIC_LOWLEVEL = false;
 
 const DEFAULT_THRESHOLDS = {
@@ -717,44 +717,50 @@ function App() {
   const enrichTracksWithBrainz = async (playlistId, t) => {
     if (!AUTO_ENRICH_BRAINZ) return;
 
-    const isrcs = t.map((x) => x.isrc).filter(Boolean);
-    if (!isrcs.length) return;
+    const allIsrcs = [...new Set(t.map((x) => x.isrc).filter(Boolean))];
+    if (!allIsrcs.length) return;
 
-    try {
-      const enrRes = await fetch(`${API_BASE}/api/brainz/enrich`, {
-        method: "POST",
-        credentials: "include",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          isrcs,
-          includeTags: AUTO_ENRICH_INCLUDE_TAGS,
-          includeAcoustic: AUTO_ENRICH_INCLUDE_ACOUSTIC,
-          includeLowLevel: AUTO_ENRICH_INCLUDE_ACOUSTIC_LOWLEVEL,
-          limit: AUTO_ENRICH_LIMIT
-        })
-      });
+    const batchSize = AUTO_ENRICH_LIMIT;
+    const totalBatches = Math.ceil(allIsrcs.length / batchSize);
 
-      if (!enrRes.ok) return;
-
-      const enr = await enrRes.json();
-      const byIsrc = enr.byIsrc || {};
-
+    for (let b = 0; b < totalBatches; b++) {
       if (selectedPlaylistIdRef.current !== playlistId) return;
 
-      const merged = t.map((tr) => ({
-        ...tr,
-        brainz: tr.isrc ? byIsrc[String(tr.isrc).trim().toUpperCase()] || null : null
-      }));
-      window.__tracks = merged;
-      console.log("set window.__tracks", merged.slice(0, 5));
-      setTracks(merged);
+      const batchIsrcs = allIsrcs.slice(b * batchSize, (b + 1) * batchSize);
 
-      // Debug helper: lets you inspect quickly in DevTools
-      // eslint-disable-next-line no-undef
-      window.__tracks = merged;
-      console.log("enriched sample:", merged.slice(0, 5));
-    } catch (err) {
-      console.warn("Brainz enrich failed (non-fatal):", err);
+      try {
+        const enrRes = await fetch(`${API_BASE}/api/brainz/enrich`, {
+          method: "POST",
+          credentials: "include",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            isrcs: batchIsrcs,
+            includeTags: AUTO_ENRICH_INCLUDE_TAGS,
+            includeAcoustic: AUTO_ENRICH_INCLUDE_ACOUSTIC,
+            includeLowLevel: AUTO_ENRICH_INCLUDE_ACOUSTIC_LOWLEVEL,
+            limit: batchSize
+          })
+        });
+
+        if (!enrRes.ok) continue;
+
+        const enr = await enrRes.json();
+        const byIsrc = enr.byIsrc || {};
+
+        if (selectedPlaylistIdRef.current !== playlistId) return;
+
+        setTracks((prev) =>
+          prev.map((tr) => {
+            if (tr.brainz) return tr;
+            const key = tr.isrc ? String(tr.isrc).trim().toUpperCase() : null;
+            return key && byIsrc[key] ? { ...tr, brainz: byIsrc[key] } : tr;
+          })
+        );
+
+        console.log(`Brainz batch ${b + 1}/${totalBatches}: enriched ${Object.keys(byIsrc).length} tracks`);
+      } catch (err) {
+        console.warn(`Brainz batch ${b + 1} failed (non-fatal):`, err);
+      }
     }
   };
 
@@ -1117,7 +1123,7 @@ function App() {
 
                       {AUTO_ENRICH_BRAINZ && (
                         <p className="hint">
-                          Extra enrichment: MusicBrainz/AcousticBrainz fetched for up to {AUTO_ENRICH_LIMIT} tracks in the background.
+                          Extra enrichment: MusicBrainz tags fetched in batches of {AUTO_ENRICH_LIMIT} in the background.
                         </p>
                       )}
                     </>
