@@ -254,6 +254,12 @@ body {
   border-radius: 4px;
   transition: width 0.4s ease;
 }
+.enrich-note {
+  margin: 0.3rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-subdued);
+  opacity: 0.7;
+}
 
 .error {
   color: #ff5c5c;

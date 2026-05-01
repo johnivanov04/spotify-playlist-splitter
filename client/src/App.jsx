@@ -526,7 +526,7 @@ function App() {
   const [historyFileNames, setHistoryFileNames] = useState([]);
   const [showDataHelp, setShowDataHelp] = useState(false);
   const [enrichProgress, setEnrichProgress] = useState(null); // { batch, totalBatches, startTime }
-  const [enrichDone, setEnrichDone] = useState(false);
+
   const [enrichTick, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
@@ -785,7 +785,6 @@ function App() {
     }
 
     setEnrichProgress(null);
-    setEnrichDone(true);
   };
 
   const enrichTracksWithSpotifyGenres = async (playlistId, t) => {
@@ -832,7 +831,7 @@ function App() {
     setExpandedSuggestionId(null);
     setSelectionBySuggestion({});
     setDismissedSuggestionIds(new Set());
-    setEnrichDone(false);
+
     setEnrichProgress(null);
 
     try {
@@ -1170,14 +1169,10 @@ function App() {
                             <div className="enrich-progress-bar">
                               <div className="enrich-progress-fill" style={{ width: `${pct}%` }} />
                             </div>
+                            <p className="enrich-note">Suggestions will improve once enrichment finishes.</p>
                           </div>
                         );
                       })()}
-                      {AUTO_ENRICH_BRAINZ && !enrichProgress && enrichDone && (
-                        <p className="hint">
-                          MusicBrainz enrichment complete — suggestions updated.
-                        </p>
-                      )}
                     </>
                   )}
                   {error && <p className="error">{error}</p>}
