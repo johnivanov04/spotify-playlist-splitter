@@ -243,15 +243,15 @@ body {
   font-variant-numeric: tabular-nums;
 }
 .enrich-progress-bar {
-  height: 6px;
+  height: 8px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
+  border-radius: 4px;
   overflow: hidden;
 }
 .enrich-progress-fill {
   height: 100%;
-  background: var(--green);
-  border-radius: 3px;
+  background: #1db954;
+  border-radius: 4px;
   transition: width 0.4s ease;
 }
 
