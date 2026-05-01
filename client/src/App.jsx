@@ -527,6 +527,7 @@ function App() {
   const [showDataHelp, setShowDataHelp] = useState(false);
   const [enrichProgress, setEnrichProgress] = useState(null); // { batch, totalBatches, startTime }
   const [enrichDone, setEnrichDone] = useState(false);
+  const [enrichTick, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
@@ -616,6 +617,13 @@ function App() {
     });
     setSelectionBySuggestion(initialSelection);
   }, [usageMap, selectedPlaylist, tracks, thresholds]);
+
+  // tick every 5s while enrichment is running so the ETA counts down live
+  useEffect(() => {
+    if (!enrichProgress) return;
+    const id = setInterval(() => setEnrichTick(t => t + 1), 5000);
+    return () => clearInterval(id);
+  }, [enrichProgress]);
 
   async function handleHistoryFilesSelected(e) {
     const files = Array.from(e.target.files || []);
@@ -1140,12 +1148,12 @@ function App() {
                       </div>
 
                       {AUTO_ENRICH_BRAINZ && enrichProgress && (() => {
+                        void enrichTick; // force re-render every 5s for live countdown
                         const { batch, totalBatches, startTime } = enrichProgress;
                         const elapsed = Date.now() - startTime;
-                        // After first batch completes, use measured time; before that, estimate ~1.1s per ISRC × 120 per batch
-                        const perBatch = batch > 0 ? elapsed / batch : AUTO_ENRICH_LIMIT * 1.1 * 1000;
-                        const remaining = perBatch * (totalBatches - batch);
-                        const pct = Math.max(2, Math.round((batch / totalBatches) * 100));
+                        const estimatedTotal = AUTO_ENRICH_LIMIT * 1.1 * 1000 * totalBatches;
+                        const remaining = Math.max(0, estimatedTotal - elapsed);
+                        const pct = Math.max(2, Math.min(99, Math.round((elapsed / estimatedTotal) * 100)));
                         const fmtTime = (ms) => {
                           const s = Math.round(ms / 1000);
                           return s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s}s`;
