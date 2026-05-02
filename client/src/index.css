@@ -23,7 +23,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #1e1e1e 0%, #121212 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #121212 40%, #0d1117 100%);
   background-attachment: fixed;
   min-height: 100vh;
   color: #e5e7eb;
@@ -137,11 +137,16 @@ body {
 
 /* SIDEBAR & PLAYLISTS */
 .sidebar {
-  max-height: 100%;
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background: #121212;
+  background: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 8px;
   padding: 1rem;
 }
@@ -216,10 +221,12 @@ body {
 
 /* Generic cards */
 .card {
-  background: var(--bg-card);
+  background: rgba(24, 24, 24, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 8px;
   padding: 1.5rem;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
 }
 
@@ -250,9 +257,11 @@ body {
 }
 .enrich-progress-fill {
   height: 100%;
-  background: #1db954;
+  background: linear-gradient(90deg, #1db954 0%, #1ed760 50%, #1db954 100%);
+  background-size: 200% 100%;
   border-radius: 4px;
   transition: width 0.4s ease;
+  animation: shimmer 1.5s ease-in-out infinite;
 }
 .enrich-note {
   margin: 0.3rem 0 0;
@@ -271,7 +280,7 @@ body {
 /* SUGGESTIONS GRID */
 .suggestions-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 1rem;
 }
 
@@ -280,15 +289,41 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background: var(--bg-card);
+  background: rgba(24, 24, 24, 0.6);
   padding: 1.25rem;
   border-radius: 8px;
-  transition: transform 0.2s, background 0.2s;
+  border-left: 3px solid transparent;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 0.4s ease forwards;
 }
 
 .suggestion-card:hover {
-  background: var(--bg-highlight);
+  background: rgba(40, 40, 40, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 15px rgba(29, 185, 84, 0.15);
 }
+
+/* Expanded cards span full width in 2-col grid */
+.suggestion-card:has(.tracks-list-wrapper.expanded) {
+  grid-column: 1 / -1;
+}
+
+/* Display group accent colors */
+.suggestion-card[data-group="rap"]           { border-left-color: #1DB954; }
+.suggestion-card[data-group="electronic"]    { border-left-color: #BB86FC; }
+.suggestion-card[data-group="rock"]          { border-left-color: #FF7043; }
+.suggestion-card[data-group="rnb"]           { border-left-color: #F48FB1; }
+.suggestion-card[data-group="jazz"]          { border-left-color: #FFD54F; }
+.suggestion-card[data-group="pop"]           { border-left-color: #64B5F6; }
+.suggestion-card[data-group="trap"]          { border-left-color: #E040FB; }
+.suggestion-card[data-group="melodic"]       { border-left-color: #CE93D8; }
+.suggestion-card[data-group="dream"]         { border-left-color: #80DEEA; }
+.suggestion-card[data-group="acoustic"]      { border-left-color: #A5D6A7; }
+.suggestion-card[data-group="instrumental"]  { border-left-color: #90A4AE; }
+.suggestion-card[data-group="era"]           { border-left-color: #FFAB91; }
+.suggestion-card[data-group="usage"]         { border-left-color: #FFF176; }
+.suggestion-card[data-group="popularity"]    { border-left-color: #81D4FA; }
 
 .suggestion-header {
   display: flex;
@@ -298,7 +333,9 @@ body {
 
 .suggestion-header h3 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .suggestion-header h3.editable-label {
@@ -323,7 +360,7 @@ body {
   border: none;
   border-bottom: 1px solid var(--text-subdued);
   color: inherit;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: bold;
   font-family: inherit;
   width: 100%;
@@ -370,13 +407,32 @@ body {
 }
 
 /* TRACKS LIST INSIDE SUGGESTION */
+.tracks-list-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.tracks-list-wrapper.expanded {
+  grid-template-rows: 1fr;
+}
+
 .tracks-list {
-  margin-top: 0.5rem;
-  max-height: 200px;
+  overflow: hidden;
+  max-height: 260px;
   overflow-y: auto;
   border-radius: 6px;
   padding: 0.5rem;
   background: rgba(0, 0, 0, 0.2);
+}
+
+.track-cover {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
 }
 
 /* Track rows */
@@ -778,6 +834,11 @@ body {
   to {
     opacity: 1;
   }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 /* MOBILE RESPONSIVENESS */

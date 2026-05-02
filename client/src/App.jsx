@@ -247,6 +247,26 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   return suggestions;
 }
 
+function getGroupKey(s) {
+  const id = s.id || "";
+  if (id.startsWith("era-")) return "era";
+  if (id.startsWith("pop-")) return "popularity";
+  if (id.startsWith("usage-")) return "usage";
+  const l = s.label.toLowerCase();
+  if (l.includes("jazz") || l.includes("downtempo") || l.includes("nujabes")) return "jazz";
+  if (l.includes("trap")) return "trap";
+  if (l.includes("electronic") || l.includes("dance")) return "electronic";
+  if (l.includes("dream") || l.includes("bedroom")) return "dream";
+  if (l.includes("rock") || l.includes("indie")) return "rock";
+  if (l.includes("r&b") || l.includes("soul")) return "rnb";
+  if (l.includes("melodic") || l.includes("party rap")) return "melodic";
+  if (l.includes("rap") || l.includes("hip-hop") || l.includes("hip hop")) return "rap";
+  if (l.includes("pop")) return "pop";
+  if (l.includes("acoustic") || l.includes("chill")) return "acoustic";
+  if (l.includes("instrumental") || l.includes("breakbeat")) return "instrumental";
+  return "";
+}
+
 function termKey(raw) {
   return raw.trim().toLowerCase()
     .replace(/&/g, " and ")
@@ -1286,7 +1306,7 @@ function App() {
                 <div className="content-scroll">
                   {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
-                      {visibleSuggestions.map((s) => {
+                      {visibleSuggestions.map((s, index) => {
                         const expanded = expandedSuggestionId === s.id;
                         const selectedSet = selectionBySuggestion[s.id];
                         const isSaved = savedSplits.some(
@@ -1296,7 +1316,7 @@ function App() {
                         );
 
                         return (
-                          <article key={s.id} className="card suggestion-card">
+                          <article key={s.id} className="card suggestion-card" data-group={getGroupKey(s)} style={{ animationDelay: `${index * 0.05}s` }}>
                             <div className="suggestion-header">
                               <div>
                                 {editingLabel?.id === s.id ? (
@@ -1370,9 +1390,9 @@ function App() {
                               )}
                             </div>
 
-                            {expanded && (
+                            <div className={`tracks-list-wrapper ${expanded ? "expanded" : ""}`}>
                               <div className="tracks-list">
-                                {s.tracks.map((t) => {
+                                {expanded && s.tracks.map((t) => {
                                   const isSelected = !selectedSet || selectedSet.has(t.id);
                                   return (
                                     <div
@@ -1392,7 +1412,6 @@ function App() {
                                           src={t.imageUrl}
                                           alt={t.name}
                                           className="track-cover"
-                                          style={{ width: 24, height: 24, borderRadius: 3, marginRight: "0.5rem" }}
                                         />
                                       )}
 
@@ -1423,7 +1442,7 @@ function App() {
                                   );
                                 })}
                               </div>
-                            )}
+                            </div>
                           </article>
                         );
                       })}
