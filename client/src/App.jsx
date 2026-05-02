@@ -451,7 +451,7 @@ function buildMlClusterSuggestions(tracks) {
       id: `ml-cluster-${clusterId}`,
       label,
       description,
-      ruleDescription: `kmeans cluster = ${clusterId}`,
+      ruleDescription: `grouped by similarity: ${description}`,
       tracks: clusterTracks,
     });
   }
