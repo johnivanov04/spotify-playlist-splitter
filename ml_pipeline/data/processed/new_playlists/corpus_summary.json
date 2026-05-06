@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "dataset_version": "0.1.0",
+  "generated_at_utc": "2026-05-05T18:34:49+00:00",
+  "counts": {
+    "files_seen": 3,
+    "raw_tracks_seen": 570,
+    "normalized_records_written": 564,
+    "duplicate_records_skipped": 6,
+    "missing_isrc": 0,
+    "missing_mbid": 143,
+    "with_brainz_tags": 240,
+    "with_brainz_genres": 224,
+    "with_acoustic_high_level": 0,
+    "with_acoustic_low_level": 0
+  },
+  "vocabulary": {
+    "unique_tags": 229,
+    "unique_genres": 102,
+    "top_tags": [
+      [
+        "country",
+        105
+      ],
+      [
+        "pop",
+        61
+      ],
+      [
+        "contemporary country",
+        55
+      ],
+      [
+        "jazz",
+        55
+      ],
+      [
+        "latin",
+        46
+      ],
+      [
+        "billboard hot 100",
+        30
+      ],
+      [
+        "billboard hot 100 2025",
+        25
+      ],
+      [
+        "vocal jazz",
+        24
+      ],
+      [
+        "country pop",
+        22
+      ],
+      [
+        "latin pop",
+        22
+      ],
+      [
+        "modern country",
+        21
+      ],
+      [
+        "spanish",
+        21
+      ],
+      [
+        "rock",
+        18
+      ],
+      [
+        "neo-traditional country",
+        17
+      ],
+      [
+        "swing",
+        16
+      ],
+      [
+        "pop rock",
+        14
+      ],
+      [
+        "easy listening",
+        14
+      ],
+      [
+        "big band",
+        13
+      ],
+      [
+        "billboard hot 100 2026",
+        12
+      ],
+      [
+        "vocal",
+        12
+      ],
+      [
+        "electronic",
+        11
+      ],
+      [
+        "soul",
+        11
+      ],
+      [
+        "ballad",
+        10
+      ],
+      [
+        "soul jazz",
+        10
+      ],
+      [
+        "jazz vocals",
+        10
+      ]
+    ],
+    "top_genres": [
+      [
+        "country",
+        105
+      ],
+      [
+        "pop",
+        61
+      ],
+      [
+        "contemporary country",
+        55
+      ],
+      [
+        "jazz",
+        55
+      ],
+      [
+        "latin",
+        46
+      ],
+      [
+        "vocal jazz",
+        24
+      ],
+      [
+        "country pop",
+        22
+      ],
+      [
+        "latin pop",
+        22
+      ],
+      [
+        "rock",
+        18
+      ],
+      [
+        "neo-traditional country",
+        17
+      ],
+      [
+        "swing",
+        16
+      ],
+      [
+        "pop rock",
+        14
+      ],
+      [
+        "easy listening",
+        14
+      ],
+      [
+        "big band",
+        13
+      ],
+      [
+        "electronic",
+        11
+      ],
+      [
+        "soul",
+        11
+      ],
+      [
+        "ballad",
+        10
+      ],
+      [
+        "soul jazz",
+        10
+      ],
+      [
+        "hip hop",
+        9
+      ],
+      [
+        "latin rock",
+        9
+      ],
+      [
+        "reggaeton",
+        9
+      ],
+      [
+        "r&b",
+        9
+      ],
+      [
+        "cool jazz",
+        9
+      ],
+      [
+        "hard bop",
+        9
+      ],
+      [
+        "smooth jazz",
+        9
+      ]
+    ]
+  }
+}

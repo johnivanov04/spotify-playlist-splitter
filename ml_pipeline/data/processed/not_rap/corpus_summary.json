@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "dataset_version": "0.1.0",
+  "generated_at_utc": "2026-05-06T04:04:28+00:00",
+  "counts": {
+    "files_seen": 1,
+    "raw_tracks_seen": 382,
+    "normalized_records_written": 382,
+    "duplicate_records_skipped": 0,
+    "missing_isrc": 0,
+    "missing_mbid": 33,
+    "with_brainz_tags": 130,
+    "with_brainz_genres": 126,
+    "with_acoustic_high_level": 0,
+    "with_acoustic_low_level": 0
+  },
+  "vocabulary": {
+    "unique_tags": 275,
+    "unique_genres": 130,
+    "top_tags": [
+      [
+        "rock",
+        77
+      ],
+      [
+        "indie rock",
+        59
+      ],
+      [
+        "pop",
+        47
+      ],
+      [
+        "indie pop",
+        39
+      ],
+      [
+        "indie",
+        34
+      ],
+      [
+        "psychedelic rock",
+        29
+      ],
+      [
+        "electronic",
+        27
+      ],
+      [
+        "alternative rock",
+        27
+      ],
+      [
+        "pop rock",
+        18
+      ],
+      [
+        "synth-pop",
+        15
+      ],
+      [
+        "neo-psychedelia",
+        15
+      ],
+      [
+        "dance-pop",
+        11
+      ],
+      [
+        "mellow",
+        10
+      ],
+      [
+        "billboard hot 100",
+        10
+      ],
+      [
+        "classic rock",
+        10
+      ],
+      [
+        "pop/rock",
+        10
+      ],
+      [
+        "alternative",
+        10
+      ],
+      [
+        "singer-songwriter",
+        9
+      ],
+      [
+        "psychedelic pop",
+        8
+      ],
+      [
+        "psychedelic rock / indie rock / shoegaze",
+        8
+      ],
+      [
+        "alternative/indie rock",
+        8
+      ],
+      [
+        "post-punk revival",
+        8
+      ],
+      [
+        "chill",
+        7
+      ],
+      [
+        "dream pop",
+        7
+      ],
+      [
+        "indietronica",
+        7
+      ]
+    ],
+    "top_genres": [
+      [
+        "rock",
+        77
+      ],
+      [
+        "indie rock",
+        59
+      ],
+      [
+        "pop",
+        47
+      ],
+      [
+        "indie pop",
+        39
+      ],
+      [
+        "psychedelic rock",
+        29
+      ],
+      [
+        "electronic",
+        27
+      ],
+      [
+        "alternative rock",
+        27
+      ],
+      [
+        "pop rock",
+        18
+      ],
+      [
+        "synth-pop",
+        15
+      ],
+      [
+        "neo-psychedelia",
+        15
+      ],
+      [
+        "dance-pop",
+        11
+      ],
+      [
+        "classic rock",
+        10
+      ],
+      [
+        "singer-songwriter",
+        9
+      ],
+      [
+        "psychedelic pop",
+        8
+      ],
+      [
+        "post-punk revival",
+        8
+      ],
+      [
+        "dream pop",
+        7
+      ],
+      [
+        "indietronica",
+        7
+      ],
+      [
+        "alternative pop",
+        6
+      ],
+      [
+        "contemporary r&b",
+        6
+      ],
+      [
+        "soul",
+        6
+      ],
+      [
+        "blues rock",
+        5
+      ],
+      [
+        "garage rock revival",
+        5
+      ],
+      [
+        "house",
+        5
+      ],
+      [
+        "jazz",
+        5
+      ],
+      [
+        "punk",
+        5
+      ]
+    ]
+  }
+}

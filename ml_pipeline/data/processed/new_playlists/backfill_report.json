@@ -1,0 +1,32 @@
+{
+  "input": "ml_pipeline/data/processed/new_playlists/song_records.ndjson",
+  "output": "ml_pipeline/data/processed/new_playlists/song_records.backfilled.ndjson",
+  "processed_range": {
+    "offset": 0,
+    "end_exclusive": 564
+  },
+  "stats": {
+    "records_seen": 564,
+    "records_changed": 103,
+    "records_unchanged": 461,
+    "skipped_no_lookup_key": 0,
+    "mbid_resolved_isrc": 25,
+    "mbid_resolved_search": 66,
+    "mbid_already_present": 421,
+    "mbid_lookup_failed": 52,
+    "recording_payload_fetched": 288,
+    "tags_filled": 34,
+    "genres_filled": 34,
+    "acoustic_high_filled": 0,
+    "acoustic_low_filled": 0,
+    "api_errors": 1,
+    "cache_hits": 0
+  },
+  "summary_after_backfill": {
+    "with_mbid": 512,
+    "with_isrc": 564,
+    "with_tags": 274,
+    "with_genres": 258,
+    "records": 564
+  }
+}
