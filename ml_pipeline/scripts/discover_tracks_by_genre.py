@@ -125,7 +125,9 @@ def search_genre(
     contain the target as a substring. Top tracks come from /artists/{id}/top-tracks.
     """
     out: list[dict[str, Any]] = []
-    genre_l = genre.lower()
+    def norm(s: str) -> str:
+        return s.lower().replace("-", "").replace("_", "").replace(" ", "")
+    genre_norm = norm(genre)
     q = urllib.parse.quote(genre)
 
     matched_artists: list[tuple[str, str]] = []  # (id, name)
@@ -140,10 +142,10 @@ def search_genre(
         for a in items:
             if not a.get("id"):
                 continue
-            artist_genres = [g.lower() for g in (a.get("genres") or [])]
-            if not artist_genres:
+            artist_genres_norm = [norm(g) for g in (a.get("genres") or [])]
+            if not artist_genres_norm:
                 continue
-            if any(genre_l in g for g in artist_genres):
+            if any(genre_norm in g for g in artist_genres_norm):
                 matched_artists.append((a["id"], a.get("name", "?")))
                 kept += 1
         print(f"  {genre}: artist page {page + 1} → {len(items)} found, {kept} matched genre")
