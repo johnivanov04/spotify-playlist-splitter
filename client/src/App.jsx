@@ -280,6 +280,8 @@ const LABEL_SKIP_EXACT = new Set([
   "contemporary_rap_gangsta_rap_hardcore_rap_rap_west_coast_rap",
 ]);
 
+const LABEL_SKIP_SUBSTRINGS = ["billboard", "hot_100", "chart", "offizielle", "wochen"];
+
 function collectTerms(tracks, freqMap, displayMap) {
   for (const t of tracks) {
     const seen = new Set();
@@ -294,6 +296,7 @@ function collectTerms(tracks, freqMap, displayMap) {
       const key = termKey(raw);
       if (!key || seen.has(key)) continue;
       if (key.length > 40 || LABEL_SKIP_EXACT.has(key)) continue;
+      if (LABEL_SKIP_SUBSTRINGS.some(bad => key.includes(bad))) continue;
       seen.add(key);
       freqMap.set(key, (freqMap.get(key) || 0) + 1);
       if (!displayMap.has(key))
@@ -308,9 +311,15 @@ function pickDisplayGroup(routingTerms) {
   if (t.includes("breakbeat") || t.includes("soundtrack"))
     return "Instrumental / Breakbeat";
 
-  if (["cool jazz", "jazz rap", "boom bap", "nu jazz"].some(k => t.includes(k))
+  if (["jazz rap", "boom bap", "nu jazz"].some(k => t.includes(k))
       && !["rage rap", "melodic rap", "emo rap", "pluggnb"].some(k => t.includes(k)))
     return "Jazz / Nujabes / Downtempo";
+
+  if ((t.includes("jazz")
+       || ["bebop", "hard bop", "post bop", "big band", "dixieland",
+           "swing", "jazz fusion"].some(k => t.includes(k)))
+      && !t.includes("rap") && !t.includes("hip hop"))
+    return "Jazz";
 
   if (t.includes("singer songwriter"))
     return "Acoustic / Chill";
@@ -322,6 +331,17 @@ function pickDisplayGroup(routingTerms) {
       && !["shoegaze", "dream pop", "bedroom pop", "indietronica", "lo-fi indie",
            "neo psychedelic", "psychedelic"].some(k => t.includes(k)))
     return "Electronic / Dance";
+
+  if (["latin", "reggaeton", "bachata", "salsa", "merengue", "cumbia",
+       "bolero", "mariachi", "regional mexican", "banda", "ranchera",
+       "bossa nova", "musica mexicana", "corrido", "tropical"]
+      .some(k => t.includes(k)))
+    return "Latin";
+
+  if ((["country", "americana", "bluegrass", "honky tonk", "outlaw country"]
+       .some(k => t.includes(k)))
+      && !t.includes("rap") && !t.includes("hip hop"))
+    return "Country";
 
   if (["bedroom pop", "dream pop", "lo-fi indie"].some(k => t.includes(k)))
     return "Dream Pop / Bedroom Pop";
