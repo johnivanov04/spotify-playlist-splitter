@@ -1,0 +1,26 @@
+{
+  "total_new_tracks": 12176,
+  "per_genre": {
+    "k-pop": 186,
+    "j-pop": 50,
+    "synth pop": 0,
+    "hyperpop": 1146,
+    "vaporwave": 928,
+    "post punk": 0,
+    "indian": 213,
+    "bollywood": 1046,
+    "arabic": 588,
+    "afrobeats": 1122,
+    "drill": 433,
+    "lo-fi": 548,
+    "techno": 541,
+    "drum and bass": 1225,
+    "dubstep": 1217,
+    "chillwave": 365,
+    "boom bap": 725,
+    "dance pop": 19,
+    "idm": 849,
+    "folk": 595,
+    "trap": 380
+  }
+}
