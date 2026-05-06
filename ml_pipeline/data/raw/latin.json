@@ -1,0 +1,6171 @@
+[
+  {
+    "id": "6uU5OBhGUE1ngSKDj4wtoq",
+    "name": "La Bamba",
+    "artists": [
+      "Los Lobos"
+    ],
+    "album": "Just Another Band From East L.A.: A Collection",
+    "year": 1993,
+    "spotifyUrl": "https://open.spotify.com/track/6uU5OBhGUE1ngSKDj4wtoq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273223f4d1d04ee7612b1cfc858",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 172733,
+    "isrc": "USWB10900778",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USWB10900778",
+      "mbid": "e67a8c12-cbd2-44a9-b4c8-560febb85e0d",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "movie soundtrack",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 5
+        },
+        {
+          "name": "pop rock",
+          "count": 3
+        },
+        {
+          "name": "rock",
+          "count": 2
+        },
+        {
+          "name": "roots rock",
+          "count": 1
+        },
+        {
+          "name": "son jarocho",
+          "count": 1
+        },
+        {
+          "name": "soundtrack",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "synth-pop",
+          "count": 1
+        },
+        {
+          "name": "tejano",
+          "count": 2
+        },
+        {
+          "name": "tex-mex",
+          "count": 1
+        },
+        {
+          "name": "поп",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 5
+        },
+        {
+          "name": "pop rock",
+          "count": 3
+        },
+        {
+          "name": "rock",
+          "count": 2
+        },
+        {
+          "name": "roots rock",
+          "count": 1
+        },
+        {
+          "name": "son jarocho",
+          "count": 1
+        },
+        {
+          "name": "synth-pop",
+          "count": 1
+        },
+        {
+          "name": "tejano",
+          "count": 2
+        },
+        {
+          "name": "tex-mex",
+          "count": 1
+        }
+      ],
+      "title": "La bamba"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "roots rock",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1BwrMGGhPA6GarWIYaFrW8",
+    "name": "La Vida Es Un Carnaval",
+    "artists": [
+      "Celia Cruz"
+    ],
+    "album": "Para La Eternidad",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/1BwrMGGhPA6GarWIYaFrW8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733f265b6afc76d0f74d35df8e",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 278866,
+    "isrc": "USUL10110340",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUL10110340",
+      "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+      "tags": [
+        {
+          "name": "afro-cuban",
+          "count": 1
+        },
+        {
+          "name": "cuban",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "latin dance",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 3
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "salsa",
+          "count": 3
+        }
+      ],
+      "title": "La vida es un carnaval"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "cha cha cha",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "mambo",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin dance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3QHMxEOAGD51PDlbFPHLyJ",
+    "name": "Vivir Mi Vida",
+    "artists": [
+      "Marc Anthony"
+    ],
+    "album": "3.0",
+    "year": 2013,
+    "spotifyUrl": "https://open.spotify.com/track/3QHMxEOAGD51PDlbFPHLyJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b74db21e2951b303593b6b7a",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 252359,
+    "isrc": "USSD11300112",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD11300112",
+      "mbid": "76c722da-1da8-4931-90a3-c846de8c2fac",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        },
+        {
+          "name": "vocal",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        }
+      ],
+      "title": "Vivir mi vida"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "bachata",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2WD9ggmpZE7Wodh3qVVCgg",
+    "name": "De Música Ligera",
+    "artists": [
+      "Soda Stereo"
+    ],
+    "album": "Originales - 20 Exitos",
+    "year": 1983,
+    "spotifyUrl": "https://open.spotify.com/track/2WD9ggmpZE7Wodh3qVVCgg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273017ed8a01b6648a9d1fe2f58",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 212893,
+    "isrc": "ARF109600710",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ARF109600710",
+      "mbid": "86069a0c-0275-4589-800f-9805f702d25f",
+      "tags": [
+        {
+          "name": "classic rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 2
+        },
+        {
+          "name": "rock en español",
+          "count": 1
+        },
+        {
+          "name": "spanish rock",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "classic rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 2
+        }
+      ],
+      "title": "De música ligera"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "argentine rock",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "73uEbChpBB29ttwVnwuNVE",
+    "name": "Oye Cómo Va",
+    "artists": [
+      "Tito Puente"
+    ],
+    "album": "El Rey Bravo",
+    "year": 1962,
+    "spotifyUrl": "https://open.spotify.com/track/73uEbChpBB29ttwVnwuNVE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cd3bc05eb8cea8fa7d10fcf5",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 274018,
+    "isrc": "USDBB0601032",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USDBB0601032",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin jazz",
+        "count": 1
+      },
+      {
+        "name": "afro-cuban jazz",
+        "count": 1
+      },
+      {
+        "name": "cha cha cha",
+        "count": 1
+      },
+      {
+        "name": "mambo",
+        "count": 1
+      },
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "19ScoKGqnfUggyqOVQjsoH",
+    "name": "La ingrata",
+    "artists": [
+      "Café Tacvba"
+    ],
+    "album": "Re",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/19ScoKGqnfUggyqOVQjsoH",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733b9211139eb247b12f6ba6c5",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 212000,
+    "isrc": "MXF159400014",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF159400014",
+      "mbid": "0653af2b-baa1-4efa-ba1b-94010b3d27b7",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "rock en español",
+          "count": 1
+        },
+        {
+          "name": "spanish rock",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        }
+      ],
+      "title": "La ingrata"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "mexican rock",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      },
+      {
+        "name": "ska",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0UoAcG1vxtFjes7rZz8Js0",
+    "name": "Burbujas de Amor",
+    "artists": [
+      "Juan Luis Guerra 4.40"
+    ],
+    "album": "Bachata Rosa",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/0UoAcG1vxtFjes7rZz8Js0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fabe96fd440a50e9288111c2",
+    "popularity": 73,
+    "previewUrl": null,
+    "durationMs": 250920,
+    "isrc": "USJ3V1861776",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USJ3V1861776",
+      "mbid": "1f55c7ae-83f9-4a06-a44e-d9cdb1e5a1a4",
+      "tags": [
+        {
+          "name": "bachata",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 3
+        }
+      ],
+      "genres": [
+        {
+          "name": "bachata",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 3
+        }
+      ],
+      "title": "Burbujas de amor"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "bachata",
+        "count": 1
+      },
+      {
+        "name": "salsa",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1I7QJJ5o76Z9D1rmA4bQPS",
+    "name": "El Rey",
+    "artists": [
+      "José Alfredo Jimenez"
+    ],
+    "album": "Epoca De Oro",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/1I7QJJ5o76Z9D1rmA4bQPS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27304153fb27e3f6148a7910c87",
+    "popularity": 32,
+    "previewUrl": null,
+    "durationMs": 128386,
+    "isrc": "MXF019900970",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF019900970",
+      "mbid": "64fa0c6a-bfb7-4696-a218-b506d76d5925",
+      "tags": [],
+      "genres": [],
+      "title": "El rey"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "norteño",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2EM9zpAc7PVeoAydmbfVIL",
+    "name": "La Camisa Negra",
+    "artists": [
+      "Juanes"
+    ],
+    "album": "Mi Sangre",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/2EM9zpAc7PVeoAydmbfVIL",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c091c40987e92a9256d2f210",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 216706,
+    "isrc": "USUL10400965",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUL10400965",
+      "mbid": "41b23437-5d4e-48ca-acf9-a565fdf04422",
+      "tags": [
+        {
+          "name": "alternative rock",
+          "count": 2
+        },
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "general latin pop",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "alternative rock",
+          "count": 2
+        },
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        }
+      ],
+      "title": "La camisa negra"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "colombian pop",
+        "count": 1
+      },
+      {
+        "name": "rock en español",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4tXR895KKljrC2VptgyEhJ",
+    "name": "La Gota Fria",
+    "artists": [
+      "Carlos Vives"
+    ],
+    "album": "Clasicos de la Provincia",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/4tXR895KKljrC2VptgyEhJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27319620bc7b11768a982b843cd",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 215493,
+    "isrc": "COSO11300336",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "COSO11300336",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "colombian pop",
+        "count": 1
+      },
+      {
+        "name": "vallenato",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1uKjQoh8JZj9ryuYRhpd7E",
+    "name": "Ahora Te Puedes Marchar",
+    "artists": [
+      "Luis Miguel"
+    ],
+    "album": "Soy Como Quiero Ser",
+    "year": 1987,
+    "spotifyUrl": "https://open.spotify.com/track/1uKjQoh8JZj9ryuYRhpd7E",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736d2d141c6f14e161ca551971",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 191973,
+    "isrc": "USWI19600295",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USWI19600295",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "villancicos",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5EJ2THuhAapEIeQOtXUQ0x",
+    "name": "Oye Mi Amor",
+    "artists": [
+      "Maná"
+    ],
+    "album": "¿Dónde Jugarán Los Niños?",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/5EJ2THuhAapEIeQOtXUQ0x",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27363f3b7f5abf86ad483b57b77",
+    "popularity": 83,
+    "previewUrl": null,
+    "durationMs": 263306,
+    "isrc": "MXF159200061",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF159200061",
+      "mbid": "4fca7aaa-a1cc-4346-b3ab-a6b804fb5723",
+      "tags": [],
+      "genres": [],
+      "title": "Oye mi amor"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "mexican rock",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6xepovPqjvrkEw9Y5AMmTm",
+    "name": "Lambada - Original Version 1989",
+    "artists": [
+      "Kaoma"
+    ],
+    "album": "Lambada - Les originaux No. 1 de l'été (Original 1989)",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/6xepovPqjvrkEw9Y5AMmTm",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27370a92681f8aff88714cb0296",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 207466,
+    "isrc": "FR6V89602629",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "FR6V89602629",
+      "mbid": "281e0ae7-bf5e-4716-8623-9ccabdca7afa",
+      "tags": [],
+      "genres": [],
+      "title": "Lambada (Original Version 1989)"
+    }
+  },
+  {
+    "id": "56A4ILMKhg47q89wLmO70B",
+    "name": "La Negra Tomasa - Tema Remasterizado",
+    "artists": [
+      "Caifanes"
+    ],
+    "album": "De Caifanes A Jaguares",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/56A4ILMKhg47q89wLmO70B",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27342732bbd33a2f03cf621b6bb",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 205093,
+    "isrc": "MXF010500213",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF010500213",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "mexican rock",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5nvS1vouQkX0HxOohfqCoS",
+    "name": "Tren Al Sur",
+    "artists": [
+      "Los Prisioneros"
+    ],
+    "album": "Coleccion Suprema",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/5nvS1vouQkX0HxOohfqCoS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c5246f80d22d902d0be31cbf",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 338253,
+    "isrc": "CLBB29000001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "CLBB29000001",
+      "mbid": "25385251-8d11-49a7-914b-dbdd5e9d1924",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "punk",
+          "count": 1
+        },
+        {
+          "name": "rock en español",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "spanish rock",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "punk",
+          "count": 1
+        }
+      ],
+      "title": "Tren al sur"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "rock en español",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3l1ZanpJ3jFQZMqATizqfE",
+    "name": "Si No Te Hubieras Ido",
+    "artists": [
+      "Marco Antonio Solís"
+    ],
+    "album": "La Historia Continúa...Parte IV",
+    "year": 2011,
+    "spotifyUrl": "https://open.spotify.com/track/3l1ZanpJ3jFQZMqATizqfE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737c7d5a10f6ed144c432be709",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 286973,
+    "isrc": "USFI29902597",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USFI29902597",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "grupera",
+        "count": 1
+      },
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7aSxNjoVoAwNL7HDAKwGtC",
+    "name": "¿Y Cómo Es Él?",
+    "artists": [
+      "José Luis Perales"
+    ],
+    "album": "Entre El Agua Y El Fuego",
+    "year": 1982,
+    "spotifyUrl": "https://open.spotify.com/track/7aSxNjoVoAwNL7HDAKwGtC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2731bacf2c6e66f49967293636a",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 248000,
+    "isrc": "ES5098200431",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5098200431",
+      "mbid": "dce4b7be-bce2-46d8-8016-6b93c6be3210",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        }
+      ],
+      "title": "Y como es él"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "trova",
+        "count": 1
+      },
+      {
+        "name": "villancicos",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4pmRDyDRRiZ5Pq7hm4WTpb",
+    "name": "Todos Me Miran",
+    "artists": [
+      "Gloria Trevi"
+    ],
+    "album": "La Trayectoria",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/4pmRDyDRRiZ5Pq7hm4WTpb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273693645a6d8ff660920d8d51f",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 204906,
+    "isrc": "USUM50611874",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM50611874",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "23WI5V2eD4EyGKxSl7Pyeq",
+    "name": "Andas En Mi Cabeza",
+    "artists": [
+      "Chino & Nacho",
+      "Daddy Yankee"
+    ],
+    "album": "Andas En Mi Cabeza",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/23WI5V2eD4EyGKxSl7Pyeq",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736df5cc472d61a635abab06cf",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 247493,
+    "isrc": "USUM71601293",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM71601293",
+      "mbid": "e01e3276-9cf1-48af-b0e3-9f0affa2e64e",
+      "tags": [
+        {
+          "name": "electro house",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "electro house",
+          "count": 1
+        }
+      ],
+      "title": "Andas en mi cabeza"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0T7JubkdjBXNDVadRIq2ck",
+    "name": "Un Buen Perdedor",
+    "artists": [
+      "Franco De Vita"
+    ],
+    "album": "Franco de Vita",
+    "year": 1990,
+    "spotifyUrl": "https://open.spotify.com/track/0T7JubkdjBXNDVadRIq2ck",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c29b05bf9df6b47a0481f66e",
+    "popularity": 70,
+    "previewUrl": null,
+    "durationMs": 240226,
+    "isrc": "VED049200998",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "VED049200998",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "129lYDVKnWtlJc2PZJviuA",
+    "name": "A Dios Le Pido",
+    "artists": [
+      "Juanes"
+    ],
+    "album": "Un Día Normal",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/129lYDVKnWtlJc2PZJviuA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27323a1613112c1ecf946f51177",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 205373,
+    "isrc": "USUL10200158",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUL10200158",
+      "mbid": "024102a9-51c4-4666-b477-a4826047527d",
+      "tags": [
+        {
+          "name": "acoustic rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "soundtrack",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "acoustic rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        }
+      ],
+      "title": "A Dios le pido"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "colombian pop",
+        "count": 1
+      },
+      {
+        "name": "rock en español",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "47PiSg7z5qjUyEGKN4I1g7",
+    "name": "Secreto De Amor",
+    "artists": [
+      "Joan Sebastian"
+    ],
+    "album": "Secreto De Amor",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/47PiSg7z5qjUyEGKN4I1g7",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273078eeb66acfcc9c323fe2a76",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 273008,
+    "isrc": "MXF360034920",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF360034920",
+      "mbid": "a95020f0-5445-467e-8e8e-2973fc2aed26",
+      "tags": [],
+      "genres": [],
+      "title": "Secreto de amor"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "banda",
+        "count": 1
+      },
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "grupera",
+        "count": 1
+      },
+      {
+        "name": "norteño",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1q8NdCAQ9QUjpYiqzdd3mv",
+    "name": "Atrévete-Te-Te",
+    "artists": [
+      "Calle 13"
+    ],
+    "album": "Calle 13 (Explicit Version)",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/1q8NdCAQ9QUjpYiqzdd3mv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bf3d37f1fd6a7e2cb5fd1487",
+    "popularity": 77,
+    "previewUrl": null,
+    "durationMs": 239306,
+    "isrc": "US3H30500209",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "US3H30500209",
+      "mbid": "ed8bf4a6-9f27-4b58-8ace-8746ecf7451b",
+      "tags": [
+        {
+          "name": "breaks",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        },
+        {
+          "name": "regueton",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "breaks",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        }
+      ],
+      "title": "¡Atrévete te, te!"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin hip hop",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      },
+      {
+        "name": "reggaeton",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0Ph6L4l8dYUuXFmb71Ajnd",
+    "name": "Livin' la Vida Loca",
+    "artists": [
+      "Ricky Martin"
+    ],
+    "album": "Ricky Martin",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/0Ph6L4l8dYUuXFmb71Ajnd",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e7e9b85cc1f021ec12130d80",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 243160,
+    "isrc": "NLB639920005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "NLB639920005",
+      "mbid": "3dd4b7a1-9153-4626-96f5-ff3d5dabe773",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 3
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "house",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 3
+        },
+        {
+          "name": "pop",
+          "count": 9
+        },
+        {
+          "name": "pop latino",
+          "count": 1
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "puerto rican",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 3
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "house",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 3
+        },
+        {
+          "name": "pop",
+          "count": 9
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        }
+      ],
+      "title": "Livin’ la vida loca"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1TPZ028i7BWWS5xW4UN9ss",
+    "name": "La Tierra del Olvido",
+    "artists": [
+      "Carlos Vives"
+    ],
+    "album": "La Tierra del Olvido",
+    "year": 1995,
+    "spotifyUrl": "https://open.spotify.com/track/1TPZ028i7BWWS5xW4UN9ss",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ad704eb183a0a6f01bbc56d8",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 265800,
+    "isrc": "COSO11300327",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "COSO11300327",
+      "mbid": "4686c614-cfb8-4229-90b1-ddec514e9c32",
+      "tags": [
+        {
+          "name": "carlos vives",
+          "count": 1
+        },
+        {
+          "name": "colombia",
+          "count": 1
+        },
+        {
+          "name": "costa",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "vallenato",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "vallenato",
+          "count": 1
+        }
+      ],
+      "title": "La tierra del olvido"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "colombian pop",
+        "count": 1
+      },
+      {
+        "name": "vallenato",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2pOyQcM91HM3tZEiwZCraG",
+    "name": "La Nave del Olvido",
+    "artists": [
+      "José José"
+    ],
+    "album": "La Nave del Olvido",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/2pOyQcM91HM3tZEiwZCraG",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732923891706de75053884676c",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 215400,
+    "isrc": "MXF019201201",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF019201201",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "bacardi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6PSKhwo0mVcOdjUOhVJd5p",
+    "name": "Bailando - Spanish Version",
+    "artists": [
+      "Enrique Iglesias",
+      "Descemer Bueno",
+      "Gente De Zona"
+    ],
+    "album": "SEX AND LOVE (Deluxe)",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/32lm3769IRfcnrQV11LO4E",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d27447cdbed86ca4dfd61f48",
+    "popularity": 6,
+    "previewUrl": null,
+    "durationMs": 243413,
+    "isrc": "GBUM71400955",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "GBUM71400955",
+      "mbid": "1b5261e0-3fe5-4874-a691-6f953c19a436",
+      "tags": [
+        {
+          "name": "dance",
+          "count": 2
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        }
+      ],
+      "genres": [
+        {
+          "name": "dance",
+          "count": 2
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        }
+      ],
+      "title": "Bailando"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin dance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0wQCKR9OFjYu5Kzrk7WivJ",
+    "name": "Corazón partío",
+    "artists": [
+      "Alejandro Sanz"
+    ],
+    "album": "Más",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/0wQCKR9OFjYu5Kzrk7WivJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733443d9c76e9713a5986c983c",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 343413,
+    "isrc": "ES5159706045",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5159706045",
+      "mbid": "2afa4247-ceb9-442e-9ed4-4adbd3719082",
+      "tags": [
+        {
+          "name": "latin pop",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin pop",
+          "count": 1
+        }
+      ],
+      "title": "Corazón partío"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0QQHPRbgLJJ5XNzJV1l9BW",
+    "name": "María",
+    "artists": [
+      "Ricky Martin"
+    ],
+    "album": "A Medio Vivir",
+    "year": 1995,
+    "spotifyUrl": "https://open.spotify.com/track/0QQHPRbgLJJ5XNzJV1l9BW",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733116fe38544a143f10f5e489",
+    "popularity": 64,
+    "previewUrl": null,
+    "durationMs": 262573,
+    "isrc": "MXF149500003",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF149500003",
+      "mbid": "caa3dd06-3381-4ed1-bd08-6fd37078dc58",
+      "tags": [
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "disco",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "puerto rican",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "vocal pop",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "disco",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        }
+      ],
+      "title": "Maria"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5A32KQZznC2HSqr9qzTl2N",
+    "name": "Ahora Quien - Salsa Version",
+    "artists": [
+      "Marc Anthony"
+    ],
+    "album": "Valio La Pena",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/5A32KQZznC2HSqr9qzTl2N",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ac1b009b3ad89a504b927acf",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 309586,
+    "isrc": "NLB630400138",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "NLB630400138",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "bachata",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "58Q3mAOtrZdSbwAu9i92j2",
+    "name": "Somos Novios",
+    "artists": [
+      "Armando Manzanero"
+    ],
+    "album": "Serie 20 Exitos",
+    "year": 1992,
+    "spotifyUrl": "https://open.spotify.com/track/58Q3mAOtrZdSbwAu9i92j2",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2739fe741808164f4f295f3c87d",
+    "popularity": 37,
+    "previewUrl": null,
+    "durationMs": 155733,
+    "isrc": "MXF019901081",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF019901081",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "trova",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "08HeIb9BidFjKROf9ptln0",
+    "name": "Eres Tú",
+    "artists": [
+      "Mocedades"
+    ],
+    "album": "Grandes Exitos",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/08HeIb9BidFjKROf9ptln0",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27342326edd3998c2020c7d2f3b",
+    "popularity": 54,
+    "previewUrl": null,
+    "durationMs": 214573,
+    "isrc": "ES5107300008",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5107300008",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "trova",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2pX4FpOgwItRVPPUFdRcxA",
+    "name": "Smooth (feat. Rob Thomas)",
+    "artists": [
+      "Santana",
+      "Rob Thomas"
+    ],
+    "album": "Supernatural (Legacy Edition)",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/2pX4FpOgwItRVPPUFdRcxA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27305517e4e2defded1e818d3d0",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 294986,
+    "isrc": "USAR19900033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USAR19900033",
+      "mbid": "fd635cea-3510-4d4b-930d-9ed69f754685",
+      "tags": [
+        {
+          "name": "album rock",
+          "count": 1
+        },
+        {
+          "name": "alternative rock",
+          "count": 2
+        },
+        {
+          "name": "aor classic rock",
+          "count": 2
+        },
+        {
+          "name": "blues rock",
+          "count": 5
+        },
+        {
+          "name": "blues-rock",
+          "count": 1
+        },
+        {
+          "name": "classic rock",
+          "count": 3
+        },
+        {
+          "name": "classic rock_blues rock_rock",
+          "count": 1
+        },
+        {
+          "name": "contemporary pop/rock",
+          "count": 2
+        },
+        {
+          "name": "fusion",
+          "count": 1
+        },
+        {
+          "name": "hard rock",
+          "count": 2
+        },
+        {
+          "name": "jazz",
+          "count": 4
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 3
+        },
+        {
+          "name": "mexican",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "pop/rock",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 4
+        },
+        {
+          "name": "rock/pop",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "alternative rock",
+          "count": 2
+        },
+        {
+          "name": "blues rock",
+          "count": 5
+        },
+        {
+          "name": "classic rock",
+          "count": 3
+        },
+        {
+          "name": "hard rock",
+          "count": 2
+        },
+        {
+          "name": "jazz",
+          "count": 4
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 3
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 4
+        }
+      ],
+      "title": "Smooth"
+    }
+  },
+  {
+    "id": "6cHHrFD3fmBG9MR3k8kvep",
+    "name": "Tú Con Él",
+    "artists": [
+      "Frankie Ruiz"
+    ],
+    "album": "Show",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/7DcJXd2xxVcohwehWahFJJ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738181d8122c4f608df8ef5a4f",
+    "popularity": 75,
+    "previewUrl": null,
+    "durationMs": 302253,
+    "isrc": "USUL19900214",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUL19900214",
+      "mbid": "3b214d56-6845-4d0c-a60b-f676891927ed",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin dance",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        }
+      ],
+      "title": "Tú con él"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5Uve0jm1RgxKWzdSvncBDO",
+    "name": "El Cantante",
+    "artists": [
+      "Héctor Lavoe"
+    ],
+    "album": "Comedia",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/5Uve0jm1RgxKWzdSvncBDO",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734a8c66809d9bb7b8e1806099",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 626880,
+    "isrc": "USDBB0600390",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USDBB0600390",
+      "mbid": "120b2b93-b774-41b8-bbb5-448e68e25c8a",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 1
+        }
+      ],
+      "title": "El cantante"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0oPdaY4dXtc3ZsaG17V972",
+    "name": "Feliz Navidad",
+    "artists": [
+      "José Feliciano"
+    ],
+    "album": "Feliz Navidad",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/0oPdaY4dXtc3ZsaG17V972",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ddf52275ffabcc1151c65cae",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 181794,
+    "isrc": "USRC17002573",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USRC17002573",
+      "mbid": "0fd07598-5881-47ba-9eca-5a7378357c2b",
+      "tags": [
+        {
+          "name": "5+ wochen",
+          "count": 1
+        },
+        {
+          "name": "christmas music",
+          "count": 7
+        },
+        {
+          "name": "holiday",
+          "count": 4
+        },
+        {
+          "name": "jahrescharts 2025",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "offizielle charts",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 4
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "vocal",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "christmas music",
+          "count": 7
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "pop",
+          "count": 4
+        }
+      ],
+      "title": "Feliz Navidad"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "christmas",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "villancicos",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7cpFmkNmh3MM0WqXPSbs9f",
+    "name": "Suavemente",
+    "artists": [
+      "Elvis Crespo"
+    ],
+    "album": "Suavemente",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/7cpFmkNmh3MM0WqXPSbs9f",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737f21e1d44b7dbb3940f6a93b",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 267000,
+    "isrc": "USSD19700576",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD19700576",
+      "mbid": "1a34ff34-03c4-4b2c-91af-9d18436f7df2",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "latin dance",
+        "count": 1
+      },
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "28upjDakWVnHAgW2anm273",
+    "name": "A Puro Dolor - Balada",
+    "artists": [
+      "Son By Four"
+    ],
+    "album": "Son By 4",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/28upjDakWVnHAgW2anm273",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27386d271377d16a14bdc0914dd",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 210186,
+    "isrc": "USSD19905690",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD19905690",
+      "mbid": "2567ba0c-4f08-4603-b382-3526305ded08",
+      "tags": [
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        }
+      ],
+      "title": "A puro dolor"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "catholic music",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5YLlad5mumOt5obKKNAHto",
+    "name": "Cielito Lindo",
+    "artists": [
+      "Mariachi Vargas De Tecalitlán"
+    ],
+    "album": "Mariachi Total",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/17UQaysFON93fn278DeWqg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273adc0e0f3100c3beca17218e8",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 221831,
+    "isrc": "QZDQH2430230",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "QZDQH2430230",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2ib9PWWqtNyw9rff0qcm5G",
+    "name": "Paloma negra",
+    "artists": [
+      "Lola Beltrán"
+    ],
+    "album": "Serie Diamante (USA)",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/2ib9PWWqtNyw9rff0qcm5G",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273af40e8f73dddfad91f1a933b",
+    "popularity": 34,
+    "previewUrl": null,
+    "durationMs": 195533,
+    "isrc": "MXF160200172",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF160200172",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4EveU9Zb50mjgi5avDNqlK",
+    "name": "Bamboleo",
+    "artists": [
+      "Gipsy Kings"
+    ],
+    "album": "!Volare! The Very Best of the Gipsy Kings",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/4EveU9Zb50mjgi5avDNqlK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b05ca66ebcd3135cc47ce993",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 203173,
+    "isrc": "USN018884501",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USN018884501",
+      "mbid": "8212bf14-f566-45fa-8c01-445f2e0995f7",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "flamenco",
+          "count": 3
+        },
+        {
+          "name": "flamenco gypsy",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 9
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "rumba",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 2
+        },
+        {
+          "name": "traditional",
+          "count": 1
+        },
+        {
+          "name": "vocal",
+          "count": 1
+        },
+        {
+          "name": "world",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "flamenco",
+          "count": 3
+        },
+        {
+          "name": "latin",
+          "count": 9
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "rumba",
+          "count": 1
+        }
+      ],
+      "title": "Bamboleo"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "flamenco",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7Bewui7KtaMzROeteRitRz",
+    "name": "Mediterraneo",
+    "artists": [
+      "Joan Manuel Serrat"
+    ],
+    "album": "Mediterráneo",
+    "year": 1971,
+    "spotifyUrl": "https://open.spotify.com/track/7Bewui7KtaMzROeteRitRz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fa6294475152f6d5a21a7f45",
+    "popularity": 61,
+    "previewUrl": null,
+    "durationMs": 205196,
+    "isrc": "ES5020000300",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5020000300",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "trova",
+        "count": 1
+      },
+      {
+        "name": "nueva trova",
+        "count": 1
+      },
+      {
+        "name": "singer-songwriter",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1HlX3tDP7eJBs5CJx4XIIk",
+    "name": "Bésame Mucho",
+    "artists": [
+      "Los Panchos"
+    ],
+    "album": "Tesoros De Coleccion",
+    "year": 2008,
+    "spotifyUrl": "https://open.spotify.com/track/1HlX3tDP7eJBs5CJx4XIIk",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27391c726254c3a2b104826a247",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 180626,
+    "isrc": "MXF146500033",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF146500033",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7ii1YH0rOmpoRfH9HyY8To",
+    "name": "Amor Prohibido",
+    "artists": [
+      "Selena"
+    ],
+    "album": "La Leyenda (Version Super Deluxe)",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/7ii1YH0rOmpoRfH9HyY8To",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273673648f5fb3d29a82733479b",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 164120,
+    "isrc": "USEL19400011",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USEL19400011",
+      "mbid": "9c824007-ccff-422b-99a2-e9c76b976614",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 2
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "disco",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "vocal",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 2
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "disco",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 5
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        }
+      ],
+      "title": "Amor Prohibido"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "tejano",
+        "count": 1
+      },
+      {
+        "name": "cumbia",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2a1x7Ln27cNtsgtL26mdwi",
+    "name": "La Maza",
+    "artists": [
+      "Silvio Rodríguez"
+    ],
+    "album": "Cuba Classics 1: Silvio Rodriguez",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/2a1x7Ln27cNtsgtL26mdwi",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a750600d0ed898b99cf2c74e",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 351400,
+    "isrc": "USLB10210251",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USLB10210251",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "trova",
+        "count": 1
+      },
+      {
+        "name": "nueva trova",
+        "count": 1
+      },
+      {
+        "name": "singer-songwriter",
+        "count": 1
+      },
+      {
+        "name": "latin folklore",
+        "count": 1
+      },
+      {
+        "name": "latin folk",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5PycBIeabfvX3n9ILG7Vrv",
+    "name": "Propuesta Indecente",
+    "artists": [
+      "Romeo Santos"
+    ],
+    "album": "Fórmula, Vol. 2 (Deluxe Edition)",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/5PycBIeabfvX3n9ILG7Vrv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e0e4b48b060715c9aa7fca18",
+    "popularity": 83,
+    "previewUrl": null,
+    "durationMs": 235133,
+    "isrc": "USSD11300197",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD11300197",
+      "mbid": "6e4e08d5-5247-41a6-ba55-d180cbd7b400",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bachata",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6VGRiUGPup3c0tZTX2lWhv",
+    "name": "Caballo Viejo",
+    "artists": [
+      "Simón Díaz"
+    ],
+    "album": "Sus Grandes Exitos",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/6VGRiUGPup3c0tZTX2lWhv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273aaedad21cb4ab8b35f5621ac",
+    "popularity": 43,
+    "previewUrl": null,
+    "durationMs": 179666,
+    "isrc": "USA561068866",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USA561068866",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin folklore",
+        "count": 1
+      },
+      {
+        "name": "latin folk",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0aGKNekx2JAxGzza802fnC",
+    "name": "The Ketchup Song (Aserejé) - Spanish Version",
+    "artists": [
+      "Las Ketchup"
+    ],
+    "album": "Hijas del Tomate",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/0aGKNekx2JAxGzza802fnC",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27354dbaa284c53e085523cfec2",
+    "popularity": 49,
+    "previewUrl": null,
+    "durationMs": 210640,
+    "isrc": "ES5110204055",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5110204055",
+      "mbid": "6c37a912-d75f-4a70-b899-8cd33151db42",
+      "tags": [
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "euro house",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "euro house",
+          "count": 1
+        }
+      ],
+      "title": "The Ketchup Song (Aserejé) (album version)"
+    }
+  },
+  {
+    "id": "13plQdOoWSSXPRUSZc5FuM",
+    "name": "I Know You Want Me (Calle Ocho)",
+    "artists": [
+      "Pitbull"
+    ],
+    "album": "Pitbull Starring In Rebelution",
+    "year": 2009,
+    "spotifyUrl": "https://open.spotify.com/track/13plQdOoWSSXPRUSZc5FuM",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a511f69870fa68e7ba78c099",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 237120,
+    "isrc": "USJAY0900144",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USJAY0900144",
+      "mbid": null
+    }
+  },
+  {
+    "id": "3hbTkJ0yFzHbawnKyhvTQj",
+    "name": "Sálvame",
+    "artists": [
+      "RBD",
+      "Anahí",
+      "Dulce María",
+      "Maite Perroni",
+      "Christian Chávez",
+      "Christopher von Uckermann",
+      "Alfonso Herrera"
+    ],
+    "album": "Rebelde",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/3hbTkJ0yFzHbawnKyhvTQj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736784cf9227f41a10b0146021",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 224973,
+    "isrc": "MXF060400907",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF060400907",
+      "mbid": "fea74d3d-6b7e-4411-896f-ddb9d8a3f4c9",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "53AafWSzYsiJKnAtJTUB5f",
+    "name": "La Tortura (feat. Alejandro Sanz)",
+    "artists": [
+      "Shakira",
+      "Alejandro Sanz"
+    ],
+    "album": "Fijación Oral, Vol. 1",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/5BSclXJTa9B0iURhUjZo50",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f342e70aacda9d78cfb6ce7a",
+    "popularity": 7,
+    "previewUrl": null,
+    "durationMs": 212893,
+    "isrc": "USSM10501700",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSM10501700",
+      "mbid": "593bd397-feb7-477b-a523-bd4c98ca9d77",
+      "tags": [
+        {
+          "name": "adult contemporary",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 4
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "soft rock",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 4
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "soft rock",
+          "count": 1
+        }
+      ],
+      "title": "La tortura"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4GDQsK1XfB7EZOMbFINYFH",
+    "name": "La Cumparsita",
+    "artists": [
+      "Oscar Roma",
+      "Orquesta Típica Argentina"
+    ],
+    "album": "Tango, Tango",
+    "year": 2016,
+    "spotifyUrl": "https://open.spotify.com/track/6tJ0zwyKkJ9pWXN0XWqLqY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d59edcc784b239ddea442ee4",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 193800,
+    "isrc": "QMEU31506362",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "QMEU31506362",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "tango",
+        "count": 1
+      },
+      {
+        "name": "candombe",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6YTBfxkdGce9pLEy9jG9Jo",
+    "name": "Mais Que Nada",
+    "artists": [
+      "Sergio Mendes & Brasil '66"
+    ],
+    "album": "Foursider",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/6YTBfxkdGce9pLEy9jG9Jo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27363b382b8786ce29eb28783c5",
+    "popularity": 57,
+    "previewUrl": null,
+    "durationMs": 159466,
+    "isrc": "USAM16974747",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USAM16974747",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bossa nova",
+        "count": 1
+      },
+      {
+        "name": "brazilian jazz",
+        "count": 1
+      },
+      {
+        "name": "latin jazz",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5ubqSAc9LxUS2CsMHcA4kF",
+    "name": "Como La Flor",
+    "artists": [
+      "Selena"
+    ],
+    "album": "Dreaming Of You",
+    "year": 1995,
+    "spotifyUrl": "https://open.spotify.com/track/5ubqSAc9LxUS2CsMHcA4kF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273332344b575d4acea537704f5",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 184733,
+    "isrc": "USEL19500036",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USEL19500036",
+      "mbid": "d1c5d100-c172-4567-9215-284d7d84100c",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "mexican",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 3
+        }
+      ],
+      "title": "Como la flor"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "tejano",
+        "count": 1
+      },
+      {
+        "name": "cumbia",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1kQqiC1rS1FiuVpeBKN0QN",
+    "name": "Rakata",
+    "artists": [
+      "Wisin & Yandel"
+    ],
+    "album": "Pa'l Mundo",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/1kQqiC1rS1FiuVpeBKN0QN",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737715c409b824e68db51c7adf",
+    "popularity": 79,
+    "previewUrl": null,
+    "durationMs": 172680,
+    "isrc": "US3B90500021",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "US3B90500021",
+      "mbid": "64baf7ff-8f38-47f1-b1b9-b29db15bfd5a",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2a1o6ZejUi8U3wzzOtCOYw",
+    "name": "Danza Kuduro",
+    "artists": [
+      "Don Omar",
+      "Lucenzo"
+    ],
+    "album": "Meet The Orphans",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/2a1o6ZejUi8U3wzzOtCOYw",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734640a26eb27649006be29a94",
+    "popularity": 86,
+    "previewUrl": null,
+    "durationMs": 198773,
+    "isrc": "USUM71020778",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM71020778",
+      "mbid": "1458a0f5-c06b-4610-afc7-384897af92be",
+      "tags": [],
+      "genres": [],
+      "title": "Vem dançar Kuduro (radio edit)"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      },
+      {
+        "name": "kuduro",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5JLV62rg4jtnoElc4P9F6K",
+    "name": "Quiero Bailar",
+    "artists": [
+      "Ivy Queen"
+    ],
+    "album": "DIVA- Platinum Edition",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/7mY1dIaY9vY6Jrlrjg3dRn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273774ca12732a1ae8541a45b5b",
+    "popularity": 2,
+    "previewUrl": null,
+    "durationMs": 186506,
+    "isrc": "QM7281713866",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "QM7281713866",
+      "mbid": "b9d9fed6-8bc0-46a0-a453-9e592feab0db",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "42nSaPdT6g3ZIMHmKLlP2p",
+    "name": "Let's Get Loud",
+    "artists": [
+      "Jennifer Lopez"
+    ],
+    "album": "On The 6",
+    "year": 1999,
+    "spotifyUrl": "https://open.spotify.com/track/42nSaPdT6g3ZIMHmKLlP2p",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c34d7a87663652675cf3264",
+    "popularity": 72,
+    "previewUrl": null,
+    "durationMs": 239400,
+    "isrc": "USSM19900597",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSM19900597",
+      "mbid": "7a2a8fc7-536e-4472-b23b-6c8b8857eac5",
+      "tags": [],
+      "genres": [],
+      "title": "Let’s Get Loud"
+    }
+  },
+  {
+    "id": "1yoMvmasuxZfqHEipJhRbp",
+    "name": "Hawái",
+    "artists": [
+      "Maluma"
+    ],
+    "album": "PAPI JUANCHO",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/1yoMvmasuxZfqHEipJhRbp",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273079fb6c5ba37dc11d66ce1e2",
+    "popularity": 82,
+    "previewUrl": null,
+    "durationMs": 199112,
+    "isrc": "USSD12000190",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD12000190",
+      "mbid": "8b4f7e85-af3d-402b-aa7b-eb1f5460bab6",
+      "tags": [],
+      "genres": [],
+      "title": "Hawái"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2TC4v9YiuQYk3Tk8RH7fV4",
+    "name": "Amor Eterno",
+    "artists": [
+      "Rocío Dúrcal"
+    ],
+    "album": "Canta A Juan Gabriel",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/2TC4v9YiuQYk3Tk8RH7fV4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b8fec44980ac9ec471ec7d72",
+    "popularity": 69,
+    "previewUrl": null,
+    "durationMs": 409466,
+    "isrc": "MXF010200576",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF010200576",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0Y2KDdZ3l381puDPueBSPw",
+    "name": "Gracias a la Vida",
+    "artists": [
+      "Violeta Parra"
+    ],
+    "album": "Mi Chile Lindo",
+    "year": 2014,
+    "spotifyUrl": "https://open.spotify.com/track/5U7MyRNbuZrWkyAI4bm3Ja",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738393077fd051247aa2237923",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 278040,
+    "isrc": "ES71G1507855",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES71G1507855",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin folklore",
+        "count": 1
+      },
+      {
+        "name": "trova",
+        "count": 1
+      },
+      {
+        "name": "nueva trova",
+        "count": 1
+      },
+      {
+        "name": "latin folk",
+        "count": 1
+      },
+      {
+        "name": "folclor andino",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5YJ4BVvTFmVCxUyhKejHfR",
+    "name": "Pa' Que Retozen",
+    "artists": [
+      "Tego Calderón"
+    ],
+    "album": "El Abayarde",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/5YJ4BVvTFmVCxUyhKejHfR",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27372b621a4c23f797307d35f11",
+    "popularity": 81,
+    "previewUrl": null,
+    "durationMs": 151666,
+    "isrc": "USUYG1017706",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUYG1017706",
+      "mbid": "e536e3d9-4414-40cb-bf64-7e167adc694d",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin hip hop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6habFhsOp2NvshLv26DqMb",
+    "name": "Despacito",
+    "artists": [
+      "Luis Fonsi",
+      "Daddy Yankee"
+    ],
+    "album": "VIDA",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/6habFhsOp2NvshLv26DqMb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 229360,
+    "isrc": "USUM71607007",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM71607007",
+      "mbid": "1109d8da-ce4a-4739-9414-242dc3e9b81c",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "title": "Despacito"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "reggaeton",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3rdAz1fbUfZxYgaCviYhRo",
+    "name": "Todo De Ti",
+    "artists": [
+      "Rauw Alejandro"
+    ],
+    "album": "VICE VERSA",
+    "year": 2021,
+    "spotifyUrl": "https://open.spotify.com/track/3rdAz1fbUfZxYgaCviYhRo",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f793c0c53727d8c5c950f809",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 199604,
+    "isrc": "USSD12100202",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD12100202",
+      "mbid": "2928b0e8-1116-4593-a214-5838d574fb08",
+      "tags": [
+        {
+          "name": "funk;latin",
+          "count": 1
+        }
+      ],
+      "genres": [],
+      "title": "Todo de ti"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      },
+      {
+        "name": "trap latino",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7qCAVkHWZkF44OzOUKf8Cr",
+    "name": "El Perdón (with Enrique Iglesias)",
+    "artists": [
+      "Nicky Jam",
+      "Enrique Iglesias"
+    ],
+    "album": "Fénix",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/7qCAVkHWZkF44OzOUKf8Cr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b242b4213fb5c21d97dbbf4d",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 205906,
+    "isrc": "USSD11500005",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD11500005",
+      "mbid": "a5420580-a30f-412f-ac56-e383b862481d",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "pop latino",
+          "count": 1
+        },
+        {
+          "name": "pop rnb dance",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        }
+      ],
+      "title": "El perdón"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4Xtlw8oXkIOvzV7crUBKeZ",
+    "name": "Rompe",
+    "artists": [
+      "Daddy Yankee"
+    ],
+    "album": "Barrio Fino En Directo",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/4Xtlw8oXkIOvzV7crUBKeZ",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f98b3d2d2e0c530ff1d43311",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 188626,
+    "isrc": "USUM70505755",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM70505755",
+      "mbid": "156da9c1-0ccf-4205-b5c5-92d01470867f",
+      "tags": [
+        {
+          "name": "hip hop",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "rap",
+          "count": 2
+        },
+        {
+          "name": "reggaeton",
+          "count": 7
+        }
+      ],
+      "genres": [
+        {
+          "name": "hip hop",
+          "count": 2
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "reggaeton",
+          "count": 7
+        }
+      ],
+      "title": "Rompe"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "2NsMwNWumJXCdTg2IZCLZ5",
+    "name": "Lento",
+    "artists": [
+      "Julieta Venegas"
+    ],
+    "album": "Si",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/2NsMwNWumJXCdTg2IZCLZ5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c0071a27b79e46c09eef7caa",
+    "popularity": 74,
+    "previewUrl": null,
+    "durationMs": 239226,
+    "isrc": "MXF010300338",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF010300338",
+      "mbid": "2e516695-35ed-4faa-af04-e8d9a8d81a30",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1BK353EYyBMkDd80kmfrqA",
+    "name": "Ese Hombre",
+    "artists": [
+      "LA INDIA"
+    ],
+    "album": "Dicen Que Soy",
+    "year": 1994,
+    "spotifyUrl": "https://open.spotify.com/track/1BK353EYyBMkDd80kmfrqA",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cebeeb6b517176b3bb53034f",
+    "popularity": 55,
+    "previewUrl": null,
+    "durationMs": 280013,
+    "isrc": "USUL10110327",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUL10110327",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1xuYajTJZh8zZrPRmUaagf",
+    "name": "Latinoamérica (feat. Totó la Momposina, Susana Baca & Maria Rita)",
+    "artists": [
+      "Calle 13",
+      "Totó La Momposina",
+      "Susana Baca",
+      "Maria Rita"
+    ],
+    "album": "Entren Los Que Quieran",
+    "year": 2010,
+    "spotifyUrl": "https://open.spotify.com/track/1xuYajTJZh8zZrPRmUaagf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27316c24c88236c87c148bb4329",
+    "popularity": 66,
+    "previewUrl": null,
+    "durationMs": 301426,
+    "isrc": "USSD11000423",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSD11000423",
+      "mbid": "ad5f7744-3dd8-4d0d-b77a-7949dc023e74",
+      "tags": [
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        }
+      ],
+      "title": "Latinoamérica"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin hip hop",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      },
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin folk",
+        "count": 1
+      },
+      {
+        "name": "latin folklore",
+        "count": 1
+      },
+      {
+        "name": "cumbia",
+        "count": 1
+      },
+      {
+        "name": "nueva trova",
+        "count": 1
+      },
+      {
+        "name": "samba",
+        "count": 1
+      },
+      {
+        "name": "mpb",
+        "count": 1
+      },
+      {
+        "name": "pagode",
+        "count": 1
+      },
+      {
+        "name": "new mpb",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3d0WouFnFmr0K3kjeza3fF",
+    "name": "Hips Don't Lie (feat. Wyclef Jean)",
+    "artists": [
+      "Shakira",
+      "Wyclef Jean"
+    ],
+    "album": "Oral Fixation, Vol. 2 (Expanded Edition)",
+    "year": 2005,
+    "spotifyUrl": "https://open.spotify.com/track/3ZFTkvIE7kyPt6Nu3PEa7V",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27327ddd747545c0d0cfe7595fa",
+    "popularity": 19,
+    "previewUrl": null,
+    "durationMs": 218093,
+    "isrc": "USSM10600677",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSM10600677",
+      "mbid": "2c0b2787-307c-49e9-b2e9-5b1ddd6e713e",
+      "tags": [
+        {
+          "name": "acoustic",
+          "count": 1
+        },
+        {
+          "name": "blues",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 2
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 4
+        },
+        {
+          "name": "pop",
+          "count": 6
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "r&b",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "blues",
+          "count": 1
+        },
+        {
+          "name": "cumbia",
+          "count": 1
+        },
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 2
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 4
+        },
+        {
+          "name": "pop",
+          "count": 6
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "r&b",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        }
+      ],
+      "title": "Hips Don’t Lie"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3fucYASejkSMwtAYjFRKlF",
+    "name": "Maria Maria (feat. The Product G&B)",
+    "artists": [
+      "Santana",
+      "The Product G&B"
+    ],
+    "album": "Ultimate Santana",
+    "year": 2007,
+    "spotifyUrl": "https://open.spotify.com/track/3fucYASejkSMwtAYjFRKlF",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735ffffefb4343759b63f72598",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 262160,
+    "isrc": "USAR19900035",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USAR19900035",
+      "mbid": "221be129-ea4c-47c9-aebd-9e8e478d5dc7",
+      "tags": [
+        {
+          "name": "aor",
+          "count": 1
+        },
+        {
+          "name": "blues rock",
+          "count": 4
+        },
+        {
+          "name": "classic rock",
+          "count": 1
+        },
+        {
+          "name": "funk",
+          "count": 1
+        },
+        {
+          "name": "hard rock",
+          "count": 1
+        },
+        {
+          "name": "jazz",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "mexican",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "r&b",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 5
+        },
+        {
+          "name": "rock/pop",
+          "count": 1
+        },
+        {
+          "name": "samba",
+          "count": 1
+        },
+        {
+          "name": "soul",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "aor",
+          "count": 1
+        },
+        {
+          "name": "blues rock",
+          "count": 4
+        },
+        {
+          "name": "classic rock",
+          "count": 1
+        },
+        {
+          "name": "funk",
+          "count": 1
+        },
+        {
+          "name": "hard rock",
+          "count": 1
+        },
+        {
+          "name": "jazz",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin rock",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "pop rock",
+          "count": 2
+        },
+        {
+          "name": "r&b",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 5
+        },
+        {
+          "name": "samba",
+          "count": 1
+        },
+        {
+          "name": "soul",
+          "count": 1
+        }
+      ],
+      "title": "Maria Maria"
+    }
+  },
+  {
+    "id": "7k4t7uLgtOxPwTpFmtJNTY",
+    "name": "Tusa",
+    "artists": [
+      "KAROL G",
+      "Nicki Minaj"
+    ],
+    "album": "Tusa",
+    "year": 2019,
+    "spotifyUrl": "https://open.spotify.com/track/7k4t7uLgtOxPwTpFmtJNTY",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ddd3154c58e15a8bdb63bbcc",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 200960,
+    "isrc": "USUM71921183",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USUM71921183",
+      "mbid": "5032af34-43ea-4c49-a906-f0b69b5805e2",
+      "tags": [
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "title": "Tusa"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "65H6t1WQBim6q93yM8fEwn",
+    "name": "Obsesion",
+    "artists": [
+      "Aventura",
+      "Judy Santos"
+    ],
+    "album": "We Broke The Rules",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/65H6t1WQBim6q93yM8fEwn",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e1afa83bd73aa80c0ff0ee34",
+    "popularity": 84,
+    "previewUrl": null,
+    "durationMs": 254720,
+    "isrc": "US83W0500074",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "US83W0500074",
+      "mbid": "1d1e146e-5857-4050-a7bb-607a7375d5bb",
+      "tags": [],
+      "genres": [],
+      "title": "Obsesion"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bachata",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5YoITs1m0q8UOQ4AW7N5ga",
+    "name": "Gasolina",
+    "artists": [
+      "Daddy Yankee"
+    ],
+    "album": "Barrio Fino (Bonus Track Version)",
+    "year": 2004,
+    "spotifyUrl": "https://open.spotify.com/track/228BxWXUYQPJrJYHDLOHkj",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736bdcdf82ecce36bff808a40c",
+    "popularity": 13,
+    "previewUrl": null,
+    "durationMs": 192600,
+    "isrc": "QM6N21759342",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "QM6N21759342",
+      "mbid": "f4992365-73ee-40fe-9502-5eb6e7b9d67c",
+      "tags": [
+        {
+          "name": "club",
+          "count": 1
+        },
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "eurodance",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 6
+        },
+        {
+          "name": "regueton",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "club",
+          "count": 1
+        },
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "eurodance",
+          "count": 1
+        },
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 6
+        }
+      ],
+      "title": "Gasolina"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3bxZhauuIU4ubctdRZwPYW",
+    "name": "Chan Chan",
+    "artists": [
+      "Buena Vista Social Club"
+    ],
+    "album": "Buena Vista Social Club",
+    "year": 1997,
+    "spotifyUrl": "https://open.spotify.com/track/5sbw5zIz9ck2pOEDXUR0QU",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735c307d8cca81e76a0ee5c682",
+    "popularity": 1,
+    "previewUrl": null,
+    "durationMs": 256653,
+    "isrc": "GBBGU9700150",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "GBBGU9700150",
+      "mbid": "47b7339f-8f7e-432e-acf1-8cb6b53a3554",
+      "tags": [],
+      "genres": [],
+      "title": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "latin jazz",
+        "count": 1
+      },
+      {
+        "name": "afro-cuban jazz",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3898C4AbdbptwYet6547e5",
+    "name": "The Girl From Ipanema",
+    "artists": [
+      "Stan Getz"
+    ],
+    "album": "The Girl From Ipanema - The Bossa Nova Years",
+    "year": 1989,
+    "spotifyUrl": "https://open.spotify.com/track/3898C4AbdbptwYet6547e5",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c21e95926400939bba3c8730",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 321826,
+    "isrc": "USPR36305146",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USPR36305146",
+      "mbid": "fd889e33-a067-498f-bbf8-9ffe305bde16",
+      "tags": [
+        {
+          "name": "bossa nova",
+          "count": 9
+        },
+        {
+          "name": "easy listening",
+          "count": 1
+        },
+        {
+          "name": "jazz",
+          "count": 5
+        },
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "latin jazz",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "score",
+          "count": 1
+        },
+        {
+          "name": "soundtrack",
+          "count": 1
+        },
+        {
+          "name": "vocal jazz",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "bossa nova",
+          "count": 9
+        },
+        {
+          "name": "easy listening",
+          "count": 1
+        },
+        {
+          "name": "jazz",
+          "count": 5
+        },
+        {
+          "name": "latin",
+          "count": 6
+        },
+        {
+          "name": "latin jazz",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "vocal jazz",
+          "count": 1
+        }
+      ],
+      "title": "The Girl From Ipanema"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bossa nova",
+        "count": 1
+      },
+      {
+        "name": "jazz",
+        "count": 1
+      },
+      {
+        "name": "brazilian jazz",
+        "count": 1
+      },
+      {
+        "name": "cool jazz",
+        "count": 1
+      },
+      {
+        "name": "latin jazz",
+        "count": 1
+      },
+      {
+        "name": "jazz ballads",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4ipnJyDU3Lq15qBAYNqlqK",
+    "name": "Mi Gente",
+    "artists": [
+      "J Balvin",
+      "Willy William"
+    ],
+    "album": "Mi Gente",
+    "year": 2017,
+    "spotifyUrl": "https://open.spotify.com/track/4ipnJyDU3Lq15qBAYNqlqK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273dc1e881b8bb3e6ca57e82fcd",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 189440,
+    "isrc": "FR22F1701790",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "FR22F1701790",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "47EiUVwUp4C9fGccaPuUCS",
+    "name": "DÁKITI",
+    "artists": [
+      "Bad Bunny",
+      "JHAYCO"
+    ],
+    "album": "DÁKITI",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/47EiUVwUp4C9fGccaPuUCS",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27334c8199b0b3b3fb42b8a98a8",
+    "popularity": 82,
+    "previewUrl": null,
+    "durationMs": 205090,
+    "isrc": "QMFME2004132",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "QMFME2004132",
+      "mbid": "b6e10c60-9abb-4b67-860b-876d2a2eeaec",
+      "tags": [
+        {
+          "name": "1–4 wochen",
+          "count": 1
+        },
+        {
+          "name": "billboard hot 100",
+          "count": 1
+        },
+        {
+          "name": "billboard hot 100 2026",
+          "count": 1
+        },
+        {
+          "name": "jazz",
+          "count": 1
+        },
+        {
+          "name": "latin trap",
+          "count": 1
+        },
+        {
+          "name": "offizielle charts",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "jazz",
+          "count": 1
+        }
+      ],
+      "title": "DÁKITI"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "trap latino",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7m5hbyERUKJC0268b6uEZD",
+    "name": "Guantanamera",
+    "artists": [
+      "Celia Cruz"
+    ],
+    "album": "Celia",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/7m5hbyERUKJC0268b6uEZD",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e5d55d161d81f0dd9e644fd6",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 199316,
+    "isrc": "USDBB0602784",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USDBB0602784",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "cha cha cha",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "mambo",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "latin dance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1B0BQaSRHxhI0AUlItY3LK",
+    "name": "MALAMENTE - Cap.1: Augurio",
+    "artists": [
+      "ROSALÍA"
+    ],
+    "album": "El Mal Querer",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/1B0BQaSRHxhI0AUlItY3LK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b115d8632e69edce1a1da7d8",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 150027,
+    "isrc": "ES5021800275",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5021800275",
+      "mbid": "f4a822f1-66ae-4781-ae7f-0d5274ba519e",
+      "tags": [],
+      "genres": [],
+      "title": "MALAMENTE (Cap.1: Augurio)"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6tDDoYIxWvMLTdKpjFkc1B",
+    "name": "telepatía",
+    "artists": [
+      "Kali Uchis"
+    ],
+    "album": "Sin Miedo (del Amor y Otros Demonios) ∞",
+    "year": 2020,
+    "spotifyUrl": "https://open.spotify.com/track/6tDDoYIxWvMLTdKpjFkc1B",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273044a5466dac00f7b3c570b99",
+    "popularity": 85,
+    "previewUrl": null,
+    "durationMs": 160191,
+    "isrc": "GBUM72005748",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "GBUM72005748",
+      "mbid": "2fc3283f-dc40-4c7b-af4b-e60d27d66750",
+      "tags": [],
+      "genres": [],
+      "title": null
+    }
+  },
+  {
+    "id": "4bMZ60QNM6OEehI6b8RtS4",
+    "name": "El Matador",
+    "artists": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "album": "Solo Para Fanáticos",
+    "year": 2003,
+    "spotifyUrl": "https://open.spotify.com/track/3SWdfkBnN5YWgnJ4jKnqxe",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273df9c316a907f1f81864664c3",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 278693,
+    "isrc": "ARFSB0800334",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ARFSB0800334",
+      "mbid": "72db51cf-d099-4e69-9975-83c6d71c4aed",
+      "tags": [
+        {
+          "name": "alternative rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "movie soundtrack",
+          "count": 1
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 2
+        },
+        {
+          "name": "soundtrack",
+          "count": 1
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "alternative rock",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin rock",
+          "count": 1
+        },
+        {
+          "name": "pop rock",
+          "count": 1
+        },
+        {
+          "name": "rock",
+          "count": 2
+        }
+      ],
+      "title": "Matador"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "ska",
+        "count": 1
+      },
+      {
+        "name": "argentine rock",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      },
+      {
+        "name": "mexican ska",
+        "count": 1
+      },
+      {
+        "name": "murga",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "26T9IOS6Bi9iOUjKkcZsZo",
+    "name": "Tiburon",
+    "artists": [
+      "Proyecto Uno"
+    ],
+    "album": "El Poder de la Música",
+    "year": 1998,
+    "spotifyUrl": "https://open.spotify.com/track/26T9IOS6Bi9iOUjKkcZsZo",
+    "imageUrl": "https://i.scdn.co/image/e3419cd5f9f7348f93a79c6dcc47a6f8bdee0c07",
+    "popularity": 58,
+    "previewUrl": null,
+    "durationMs": 302333,
+    "isrc": "US3Z40407581",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "US3Z40407581",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "latin house",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4CKIoO64EM5M37TkshbaQE",
+    "name": "Amigo",
+    "artists": [
+      "Roberto Carlos"
+    ],
+    "album": "Inolvidables",
+    "year": 1972,
+    "spotifyUrl": "https://open.spotify.com/track/4CKIoO64EM5M37TkshbaQE",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c7787c932375f1522173f65a",
+    "popularity": 51,
+    "previewUrl": null,
+    "durationMs": 208866,
+    "isrc": "BRSME7700001",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "BRSME7700001",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mpb",
+        "count": 1
+      },
+      {
+        "name": "brega",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3gE4eQH3K83Sght0ZLvuBK",
+    "name": "MIA",
+    "artists": [
+      "Bad Bunny",
+      "Drake"
+    ],
+    "album": "X 100PRE",
+    "year": 2018,
+    "spotifyUrl": "https://open.spotify.com/track/3gE4eQH3K83Sght0ZLvuBK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273519266cd05491a5b5bc22d1e",
+    "popularity": 80,
+    "previewUrl": null,
+    "durationMs": 210367,
+    "isrc": "USWB11802236",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USWB11802236",
+      "mbid": "9611378b-f76b-4795-b61d-da9e0ee07850",
+      "tags": [
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "hip hop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 1
+        },
+        {
+          "name": "reggaeton",
+          "count": 1
+        }
+      ],
+      "title": "MIA"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "reggaeton",
+        "count": 1
+      },
+      {
+        "name": "trap latino",
+        "count": 1
+      },
+      {
+        "name": "latin",
+        "count": 1
+      },
+      {
+        "name": "urbano latino",
+        "count": 1
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5ySxlyvySBhIEvoO2xx7uT",
+    "name": "Querida",
+    "artists": [
+      "Juan Gabriel"
+    ],
+    "album": "Recuerdos II",
+    "year": 1984,
+    "spotifyUrl": "https://open.spotify.com/track/5ySxlyvySBhIEvoO2xx7uT",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2737a6a87427bbf13290fa88107",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 328320,
+    "isrc": "MXF018800797",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXF018800797",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mariachi",
+        "count": 1
+      },
+      {
+        "name": "ranchera",
+        "count": 1
+      },
+      {
+        "name": "bolero",
+        "count": 1
+      },
+      {
+        "name": "música mexicana",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1GT0Q2ZTeKtIBueYKr4vhr",
+    "name": "La Bilirrubina - En Vivo Estadio Olímpico De República Dominicana/2012",
+    "artists": [
+      "Juan Luis Guerra 4.40"
+    ],
+    "album": "Asondeguerra Tour (En Vivo Estadio Olímpico De República Dominicana/2012)",
+    "year": 2013,
+    "spotifyUrl": "https://open.spotify.com/track/1GT0Q2ZTeKtIBueYKr4vhr",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273699313e8f5fe73b7474b6c9b",
+    "popularity": 62,
+    "previewUrl": null,
+    "durationMs": 232880,
+    "isrc": "USEL11200162",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USEL11200162",
+      "mbid": "b127e979-1e68-4840-b25f-0c5b157cdaf4",
+      "tags": [],
+      "genres": [],
+      "title": "La bilirrubina"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "bachata",
+        "count": 1
+      },
+      {
+        "name": "salsa",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4sm3mdqmSqhG8KU79rVOY8",
+    "name": "Rebelión",
+    "artists": [
+      "Joe Arroyo",
+      "La Verdad"
+    ],
+    "album": "32 Cañonazos",
+    "year": 2015,
+    "spotifyUrl": "https://open.spotify.com/track/4sm3mdqmSqhG8KU79rVOY8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730c2c6e30fedd6dc367484d79",
+    "popularity": 53,
+    "previewUrl": null,
+    "durationMs": 378373,
+    "isrc": "COF019401017",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "COF019401017",
+      "mbid": "22a88034-8462-492e-8bdf-f0498697c4b0",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 2
+        }
+      ],
+      "title": "Rebelión"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "tropical music",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "5laT2a6iEq4IxgEDV9dSCr",
+    "name": "Cruz de navajas",
+    "artists": [
+      "Mecano"
+    ],
+    "album": "Entre el Cielo y el Suelo (Bonus Tracks Edition)",
+    "year": 1986,
+    "spotifyUrl": "https://open.spotify.com/track/6VWWU8EFSS7Xx1TZ830Paz",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e5cbe0beab15e064311880c5",
+    "popularity": 0,
+    "previewUrl": null,
+    "durationMs": 302493,
+    "isrc": "ES5028600056",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5028600056",
+      "mbid": "325111d4-78d2-406f-8aff-4a68db6ca7be",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "chanson française",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        },
+        {
+          "name": "synth-pop",
+          "count": 2
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "chanson française",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 2
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "synth-pop",
+          "count": 2
+        }
+      ],
+      "title": "Cruz de navajas"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "latin pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "6fJnlY8rYqC37J2u2OeEMf",
+    "name": "Mambo No 5",
+    "artists": [
+      "Pérez Prado"
+    ],
+    "album": "Mambo No 5",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/6fJnlY8rYqC37J2u2OeEMf",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730cb71a67899d301bd358f256",
+    "popularity": 50,
+    "previewUrl": null,
+    "durationMs": 162213,
+    "isrc": "GBHFE0400865",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "GBHFE0400865",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "mambo",
+        "count": 1
+      },
+      {
+        "name": "cha cha cha",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "afro-cuban jazz",
+        "count": 1
+      },
+      {
+        "name": "latin jazz",
+        "count": 1
+      },
+      {
+        "name": "exotica",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0Tl84qfow6Dv0PM60zoBhb",
+    "name": "La Bomba",
+    "artists": [
+      "Azul Azul"
+    ],
+    "album": "El Sapo",
+    "year": 2000,
+    "spotifyUrl": "https://open.spotify.com/track/0Tl84qfow6Dv0PM60zoBhb",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733af62364692dcf47b6e2c1d5",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 123960,
+    "isrc": "CLA220000021",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "CLA220000021",
+      "mbid": "bde26141-b986-4dcb-8b29-97bfa065e8d2",
+      "tags": [],
+      "genres": [],
+      "title": "La bomba"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "merengue",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1TGHvWtCeIGMvO75P1hhqa",
+    "name": "Soy un Truhán, Soy un Señor",
+    "artists": [
+      "Julio Iglesias"
+    ],
+    "album": "Personalidad",
+    "year": 2002,
+    "spotifyUrl": "https://open.spotify.com/track/1TGHvWtCeIGMvO75P1hhqa",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27364453ab832b07e158d63b587",
+    "popularity": 48,
+    "previewUrl": null,
+    "durationMs": 183546,
+    "isrc": "NLB637800101",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "NLB637800101",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1Z6fpTTJelPqdI4CwvnpK4",
+    "name": "Cali Pachanguero",
+    "artists": [
+      "Grupo Niche"
+    ],
+    "album": "Sólo Hits",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/1Z6fpTTJelPqdI4CwvnpK4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f715e5026571c08ed4357b1f",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 310360,
+    "isrc": "COC018416248",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "COC018416248",
+      "mbid": "a17ec133-87f0-4742-a528-8b6bce9d7f39",
+      "tags": [],
+      "genres": [],
+      "title": "Cali pachanguero"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7aKs8kWKKau0SDgaeyZMAX",
+    "name": "Pedro Navaja",
+    "artists": [
+      "Willie Colón",
+      "Rubén Blades"
+    ],
+    "album": "Siembra",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/7aKs8kWKKau0SDgaeyZMAX",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e646fcd49b6dfc91d1dba2ae",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 445080,
+    "isrc": "USDBB0600261",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USDBB0600261",
+      "mbid": "115ed345-6489-4a39-a527-a221cdd10794",
+      "tags": [
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin dance",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 3
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "salsa",
+          "count": 3
+        }
+      ],
+      "title": "Pedro Navaja"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "salsa",
+        "count": 1
+      },
+      {
+        "name": "merengue",
+        "count": 1
+      },
+      {
+        "name": "son cubano",
+        "count": 1
+      },
+      {
+        "name": "latin jazz",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3T07pNAEVr9adeIG9i1ex4",
+    "name": "Color Esperanza",
+    "artists": [
+      "Diego Torres"
+    ],
+    "album": "Un Mundo Diferente",
+    "year": 2001,
+    "spotifyUrl": "https://open.spotify.com/track/3T07pNAEVr9adeIG9i1ex4",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cadff4b84b0789b7a589edaf",
+    "popularity": 68,
+    "previewUrl": null,
+    "durationMs": 267106,
+    "isrc": "ARF030101992",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ARF030101992",
+      "mbid": "40398e80-1f44-4788-aea4-eb433b79b7fd",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "spanish",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 3
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 2
+        }
+      ],
+      "title": "Color esperanza"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "latin pop",
+        "count": 1
+      },
+      {
+        "name": "colombian pop",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "51dNexiESqcJLsGLrmg1Nv",
+    "name": "Cómo Te Voy A Olvidar",
+    "artists": [
+      "Los Ángeles Azules"
+    ],
+    "album": "Inolvidables",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/51dNexiESqcJLsGLrmg1Nv",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736557d6aabc5a43e0b12d5e33",
+    "popularity": 76,
+    "previewUrl": null,
+    "durationMs": 267826,
+    "isrc": "MXUM70801264",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "MXUM70801264",
+      "mbid": "2102dfad-41b7-49af-bbdf-e5b899a88310",
+      "tags": [],
+      "genres": [],
+      "title": "Cómo te voy a olvidar"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "cumbia",
+        "count": 1
+      },
+      {
+        "name": "cumbia sonidera",
+        "count": 1
+      },
+      {
+        "name": "salsa",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "0KxTWgl64TNOQXiGFJYc6t",
+    "name": "Conga!",
+    "artists": [
+      "Miami Sound Machine"
+    ],
+    "album": "The Very Best Of Gloria Estefan (English Version)",
+    "year": 2006,
+    "spotifyUrl": "https://open.spotify.com/track/0KxTWgl64TNOQXiGFJYc6t",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273710b01ac6bc0a9b602db1d32",
+    "popularity": 56,
+    "previewUrl": null,
+    "durationMs": 252933,
+    "isrc": "USSM10026825",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USSM10026825",
+      "mbid": "c7a0fed2-988b-43d2-b7ff-4055fcad868f",
+      "tags": [
+        {
+          "name": "adult contemporary",
+          "count": 3
+        },
+        {
+          "name": "cuban",
+          "count": 1
+        },
+        {
+          "name": "dance",
+          "count": 3
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "garage house",
+          "count": 1
+        },
+        {
+          "name": "international",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 6
+        },
+        {
+          "name": "pop/rock",
+          "count": 1
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        },
+        {
+          "name": "top 40",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "dance",
+          "count": 3
+        },
+        {
+          "name": "dance-pop",
+          "count": 1
+        },
+        {
+          "name": "electronic",
+          "count": 1
+        },
+        {
+          "name": "garage house",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 4
+        },
+        {
+          "name": "latin pop",
+          "count": 2
+        },
+        {
+          "name": "pop",
+          "count": 6
+        },
+        {
+          "name": "salsa",
+          "count": 1
+        }
+      ],
+      "title": "Conga"
+    }
+  },
+  {
+    "id": "5yMXpZhVnUAFT154F3MQ8G",
+    "name": "Bolero Falaz",
+    "artists": [
+      "Aterciopelados"
+    ],
+    "album": "Originales - 20 Exitos",
+    "year": 1995,
+    "spotifyUrl": "https://open.spotify.com/track/5yMXpZhVnUAFT154F3MQ8G",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2735d9e4fdf6bcdd703d0065cb4",
+    "popularity": 65,
+    "previewUrl": null,
+    "durationMs": 225240,
+    "isrc": "USBL10100446",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "USBL10100446",
+      "mbid": null
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "rock en español",
+        "count": 1
+      },
+      {
+        "name": "latin rock",
+        "count": 1
+      },
+      {
+        "name": "latin alternative",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "4oaj36KzXRgDg4McgcTsZK",
+    "name": "Macarena",
+    "artists": [
+      "Los Del Rio"
+    ],
+    "album": "Fiesta Macarena",
+    "year": 1996,
+    "spotifyUrl": "https://open.spotify.com/track/4oaj36KzXRgDg4McgcTsZK",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a8c284ce171e96a79eabf7de",
+    "popularity": 59,
+    "previewUrl": null,
+    "durationMs": 249506,
+    "isrc": "ES5109500538",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "ES5109500538",
+      "mbid": "e50061ed-a815-452b-92fd-be54de76adcb",
+      "tags": [
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 2
+        },
+        {
+          "name": "electronic",
+          "count": 2
+        },
+        {
+          "name": "eurodance",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "flamenco",
+          "count": 1
+        },
+        {
+          "name": "flamenco pop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "novelty",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "rumba flamenca",
+          "count": 1
+        },
+        {
+          "name": "traditional",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "dance",
+          "count": 1
+        },
+        {
+          "name": "dance-pop",
+          "count": 2
+        },
+        {
+          "name": "electronic",
+          "count": 2
+        },
+        {
+          "name": "eurodance",
+          "count": 1
+        },
+        {
+          "name": "europop",
+          "count": 1
+        },
+        {
+          "name": "flamenco",
+          "count": 1
+        },
+        {
+          "name": "flamenco pop",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 3
+        },
+        {
+          "name": "rumba flamenca",
+          "count": 1
+        }
+      ],
+      "title": "Macarena"
+    }
+  },
+  {
+    "id": "0kVOor973ijVqOBhYqvaE8",
+    "name": "Me Olvide De Vivir",
+    "artists": [
+      "Julio Iglesias"
+    ],
+    "album": "Begin the Beguine",
+    "year": 1978,
+    "spotifyUrl": "https://open.spotify.com/track/0kVOor973ijVqOBhYqvaE8",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27385c02182c2dff19d5c66c42d",
+    "popularity": 71,
+    "previewUrl": null,
+    "durationMs": 292573,
+    "isrc": "NLB637990017",
+    "energy": null,
+    "tempo": null,
+    "valence": null,
+    "danceability": null,
+    "brainz": {
+      "isrc": "NLB637990017",
+      "mbid": "cdd42750-efe6-42ce-a89e-58a0a9e0ec09",
+      "tags": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "chanson",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "soft rock",
+          "count": 1
+        }
+      ],
+      "genres": [
+        {
+          "name": "ballad",
+          "count": 1
+        },
+        {
+          "name": "latin",
+          "count": 1
+        },
+        {
+          "name": "latin pop",
+          "count": 1
+        },
+        {
+          "name": "pop",
+          "count": 2
+        },
+        {
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "name": "soft rock",
+          "count": 1
+        }
+      ],
+      "title": "Me olvidé de vivir"
+    },
+    "spotifyArtistGenres": [
+      {
+        "name": "bolero",
+        "count": 1
+      }
+    ]
+  }
+]

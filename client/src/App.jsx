@@ -531,6 +531,7 @@ function App() {
   const [loadingMe, setLoadingMe] = useState(true);
   const [loadingPlaylists, setLoadingPlaylists] = useState(false);
   const [selectedPlaylist, setSelectedPlaylist] = useState(null);
+  const [urlInput, setUrlInput] = useState("");
   const [tracks, setTracks] = useState([]);
   const [loadingTracks, setLoadingTracks] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
@@ -840,6 +841,14 @@ function App() {
     }
   };
 
+  const handleLoadByUrl = () => {
+    const m = urlInput.match(/playlist[/:]([a-zA-Z0-9]+)/);
+    if (!m) { setError("Couldn't find a playlist ID in that URL."); return; }
+    const id = m[1];
+    setUrlInput("");
+    handleSelectPlaylist({ id, name: "Loading…" });
+  };
+
   const handleSelectPlaylist = async (pl) => {
     setSelectedPlaylist(pl);
     selectedPlaylistIdRef.current = pl.id;
@@ -858,6 +867,11 @@ function App() {
       setLoadingTracks(true);
       const data = await fetchJson(`${API_BASE}/api/playlists/${pl.id}/tracks`);
       const t = data.tracks || [];
+
+      // Update playlist name/images if returned by server (e.g. loaded by URL)
+      if (data.playlistName) {
+        setSelectedPlaylist(prev => prev?.id === pl.id ? { ...prev, name: data.playlistName, images: data.playlistImages || prev.images } : prev);
+      }
 
       setTracks(t);
       window.__tracks = t;
@@ -1079,6 +1093,19 @@ function App() {
         <main className="layout">
           <section className="sidebar">
             <h2>Your Playlists</h2>
+            <div className="url-input-row">
+              <input
+                type="text"
+                className="url-input"
+                placeholder="Paste Spotify playlist URL…"
+                value={urlInput}
+                onChange={e => setUrlInput(e.target.value)}
+                onKeyDown={e => e.key === "Enter" && urlInput.trim() && handleLoadByUrl()}
+              />
+              <button className="btn-secondary url-load-btn" onClick={handleLoadByUrl} disabled={!urlInput.trim()}>
+                Load
+              </button>
+            </div>
             {loadingPlaylists && <p>Loading playlists…</p>}
             {!loadingPlaylists && playlists.length === 0 && <p>No playlists found.</p>}
             <ul className="playlist-list">

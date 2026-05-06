@@ -246,8 +246,14 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
   const playlistId = req.params.id;
 
   try {
+    // 0) Fetch playlist metadata (name, images)
+    const metaRes = await fetch(`${SPOTIFY_API_BASE}/playlists/${playlistId}?fields=name,images&market=from_token`, {
+      headers: { Authorization: `Bearer ${accessToken}` }
+    });
+    const playlistMeta = metaRes.ok ? await metaRes.json() : {};
+
     // 1) Fetch playlist tracks (paginated)
-    let url = `${SPOTIFY_API_BASE}/playlists/${playlistId}/tracks?limit=100`;
+    let url = `${SPOTIFY_API_BASE}/playlists/${playlistId}/tracks?limit=100&market=from_token`;
     const playlistTracks = [];
 
     while (url) {
@@ -374,7 +380,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
       };
     });
 
-    res.json({ tracks });
+    res.json({ tracks, playlistName: playlistMeta.name || null, playlistImages: playlistMeta.images || [] });
   } catch (err) {
     console.error("Error fetching playlist tracks + features:", err);
     res.status(500).json({ error: "Failed to fetch playlist tracks" });

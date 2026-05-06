@@ -1,0 +1,385 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 3579,
+    "sample_tracks": [
+      "Pretty Girl — Clairo",
+      "Flaming Hot Cheetos — Clairo",
+      "Hello? — Clairo, Rejjie Snow",
+      "Lover Is a Day — Cuco",
+      "4EVER — Clairo",
+      "Dream Girl — Crisaunt",
+      "Mrs Magic — Strawberry Guy",
+      "Show Me How — Men I Trust",
+      "Cariño — The Marías",
+      "From the Subway Train — Vansire"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": -0.41767750025701106,
+        "abs_weight": 0.41767750025701106
+      },
+      {
+        "feature": "tag__rock",
+        "weight": -0.39280842681944095,
+        "abs_weight": 0.39280842681944095
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": -0.37654360206004783,
+        "abs_weight": 0.37654360206004783
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": -0.37384625451411574,
+        "abs_weight": 0.37384625451411574
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": -0.34678486414770077,
+        "abs_weight": 0.34678486414770077
+      },
+      {
+        "feature": "tag__pop_rock",
+        "weight": -0.33448560650168035,
+        "abs_weight": 0.33448560650168035
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": -0.32186256701276467,
+        "abs_weight": 0.32186256701276467
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": -0.3140950844941027,
+        "abs_weight": 0.3140950844941027
+      },
+      {
+        "feature": "tag__pop",
+        "weight": -0.298001414636972,
+        "abs_weight": 0.298001414636972
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": -0.28555343047014214,
+        "abs_weight": 0.28555343047014214
+      },
+      {
+        "feature": "tag__hard_rock",
+        "weight": -0.28150376933873295,
+        "abs_weight": 0.28150376933873295
+      },
+      {
+        "feature": "genre__rock",
+        "weight": -0.2747382280502649,
+        "abs_weight": 0.2747382280502649
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 859,
+    "sample_tracks": [
+      "Highway to Hell — AC/DC",
+      "Livin' On A Prayer — Bon Jovi",
+      "Smells Like Teen Spirit — Nirvana",
+      "Another Brick in the Wall, Pt. 2 — Pink Floyd",
+      "Kryptonite — 3 Doors Down",
+      "Welcome To The Jungle — Guns N' Roses",
+      "I Was Made For Lovin' You — KISS",
+      "Under the Bridge — Red Hot Chili Peppers",
+      "Pour Some Sugar On Me - Remastered 2017 — Def Leppard",
+      "Enter Sandman — Metallica"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__rock",
+        "weight": 1.6847844426249277,
+        "abs_weight": 1.6847844426249277
+      },
+      {
+        "feature": "tag__hard_rock",
+        "weight": 1.3102422256159334,
+        "abs_weight": 1.3102422256159334
+      },
+      {
+        "feature": "tag__pop_rock",
+        "weight": 1.2351066576643057,
+        "abs_weight": 1.2351066576643057
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 1.1985551491768132,
+        "abs_weight": 1.1985551491768132
+      },
+      {
+        "feature": "genre__rock",
+        "weight": 1.194954244001954,
+        "abs_weight": 1.194954244001954
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 1.1516557833922303,
+        "abs_weight": 1.1516557833922303
+      },
+      {
+        "feature": "tag__classic_rock",
+        "weight": 1.132329736492106,
+        "abs_weight": 1.132329736492106
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 1.0892153878982824,
+        "abs_weight": 1.0892153878982824
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "weight": 1.0622260365158134,
+        "abs_weight": 1.0622260365158134
+      },
+      {
+        "feature": "tag__heavy_metal",
+        "weight": 1.0602629378376396,
+        "abs_weight": 1.0602629378376396
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": 1.0462949867302773,
+        "abs_weight": 1.0462949867302773
+      },
+      {
+        "feature": "tag__album_rock",
+        "weight": 1.0377928452411904,
+        "abs_weight": 1.0377928452411904
+      }
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "size": 386,
+    "sample_tracks": [
+      "Purple Rain — Prince",
+      "Feel Good Inc. — Gorillaz, De La Soul",
+      "You Spin Me Round (Like a Record) — Dead Or Alive",
+      "Billie Jean — Michael Jackson",
+      "Sabotage — Beastie Boys",
+      "Careless Whisper — George Michael",
+      "All Night Long (All Night) - Single Version — Lionel Richie",
+      "Dancing Queen — ABBA",
+      "When Doves Cry — Prince",
+      "Super Freak — Rick James"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__electronic",
+        "weight": 1.7485855869057905,
+        "abs_weight": 1.7485855869057905
+      },
+      {
+        "feature": "tag__r_and_b",
+        "weight": 1.6985752440259434,
+        "abs_weight": 1.6985752440259434
+      },
+      {
+        "feature": "tag__dance_pop",
+        "weight": 1.6843505700237615,
+        "abs_weight": 1.6843505700237615
+      },
+      {
+        "feature": "tag__soul",
+        "weight": 1.670051773617252,
+        "abs_weight": 1.670051773617252
+      },
+      {
+        "feature": "tag__contemporary_r_and_b",
+        "weight": 1.6622483967038126,
+        "abs_weight": 1.6622483967038126
+      },
+      {
+        "feature": "tag__pop",
+        "weight": 1.6522211665364879,
+        "abs_weight": 1.6522211665364879
+      },
+      {
+        "feature": "tag__dance",
+        "weight": 1.6139436557763736,
+        "abs_weight": 1.6139436557763736
+      },
+      {
+        "feature": "tag__hip_hop",
+        "weight": 1.5476851112356225,
+        "abs_weight": 1.5476851112356225
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 1.4948400935583968,
+        "abs_weight": 1.4948400935583968
+      },
+      {
+        "feature": "tag__house",
+        "weight": 1.4716006429481308,
+        "abs_weight": 1.4716006429481308
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 1.4687300306778648,
+        "abs_weight": 1.4687300306778648
+      },
+      {
+        "feature": "tag__electro",
+        "weight": 1.447354651631666,
+        "abs_weight": 1.447354651631666
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 8,
+    "sample_tracks": [
+      "'Round Midnight (feat. John Coltrane, Red Garland, Paul Chambers & Philly Joe Jones) — Miles Davis, John Coltrane",
+      "My Favorite Things — John Coltrane",
+      "Soul Eyes — John Coltrane Quartet",
+      "Summertime — Miles Davis",
+      "Blue in Green (feat. John Coltrane & Bill Evans) — Miles Davis, John Coltrane",
+      "My One And Only Love — John Coltrane, Johnny Hartman",
+      "My Little Brown Book — Duke Ellington, John Coltrane",
+      "'Round Midnight — Thelonious Monk"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__bebop",
+        "weight": 18.050576276398466,
+        "abs_weight": 18.050576276398466
+      },
+      {
+        "feature": "tag__hard_bop",
+        "weight": 17.30247684713699,
+        "abs_weight": 17.30247684713699
+      },
+      {
+        "feature": "tag__post_bop",
+        "weight": 15.707053667693007,
+        "abs_weight": 15.707053667693007
+      },
+      {
+        "feature": "tag__modal_jazz",
+        "weight": 14.897107290052233,
+        "abs_weight": 14.897107290052233
+      },
+      {
+        "feature": "tag__jazz_instrument",
+        "weight": 14.609600819016997,
+        "abs_weight": 14.609600819016997
+      },
+      {
+        "feature": "tag__classic_jazz",
+        "weight": 14.014249462744433,
+        "abs_weight": 14.014249462744433
+      },
+      {
+        "feature": "tag__instrumental_jazz",
+        "weight": 13.435583756423412,
+        "abs_weight": 13.435583756423412
+      },
+      {
+        "feature": "genre__bebop",
+        "weight": 12.649249581613507,
+        "abs_weight": 12.649249581613507
+      },
+      {
+        "feature": "genre__hard_bop",
+        "weight": 12.317558716377055,
+        "abs_weight": 12.317558716377055
+      },
+      {
+        "feature": "tag__jazz",
+        "weight": 12.134973002149108,
+        "abs_weight": 12.134973002149108
+      },
+      {
+        "feature": "tag__cool_jazz",
+        "weight": 11.398999014092599,
+        "abs_weight": 11.398999014092599
+      },
+      {
+        "feature": "genre__free_jazz",
+        "weight": 11.36426029302475,
+        "abs_weight": 11.36426029302475
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 5,
+    "sample_tracks": [
+      "Bohemian Rhapsody - Remastered 2011 — Queen",
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "The Chain - 2004 Remaster — Fleetwood Mac",
+      "Fireflies — Owl City",
+      "Take Five — The Dave Brubeck Quartet"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__rain",
+        "weight": 26.37805715029554,
+        "abs_weight": 26.37805715029554
+      },
+      {
+        "feature": "tag__hanging_out",
+        "weight": 26.07460440352537,
+        "abs_weight": 26.07460440352537
+      },
+      {
+        "feature": "tag__wake_up",
+        "weight": 25.495886628431037,
+        "abs_weight": 25.495886628431037
+      },
+      {
+        "feature": "tag__road",
+        "weight": 24.01255413795748,
+        "abs_weight": 24.01255413795748
+      },
+      {
+        "feature": "tag__sing_along",
+        "weight": 22.589429558371418,
+        "abs_weight": 22.589429558371418
+      },
+      {
+        "feature": "tag__late_night",
+        "weight": 21.82455947417593,
+        "abs_weight": 21.82455947417593
+      },
+      {
+        "feature": "tag__vibin",
+        "weight": 21.75224541944508,
+        "abs_weight": 21.75224541944508
+      },
+      {
+        "feature": "tag__soothing",
+        "weight": 21.133229607144077,
+        "abs_weight": 21.133229607144077
+      },
+      {
+        "feature": "tag__background",
+        "weight": 18.87726881464931,
+        "abs_weight": 18.87726881464931
+      },
+      {
+        "feature": "tag__party",
+        "weight": 18.4725676066808,
+        "abs_weight": 18.4725676066808
+      },
+      {
+        "feature": "tag__dreamy",
+        "weight": 17.98952765642337,
+        "abs_weight": 17.98952765642337
+      },
+      {
+        "feature": "tag__rockin",
+        "weight": 17.510010581971102,
+        "abs_weight": 17.510010581971102
+      }
+    ]
+  }
+]
