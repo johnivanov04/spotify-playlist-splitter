@@ -315,10 +315,12 @@ function pickDisplayGroup(routingTerms) {
   if (t.includes("singer songwriter"))
     return "Acoustic / Chill";
 
-  if (["tech house", "bass house", "uk garage", "bassline", "drum and bass", "dnb",
-       "dubstep", "techno", "trance", "electro house", "big beat", "idm",
-       "electronic", "electronica"].some(k => t.includes(k))
-      || (t.includes("house") && !t.includes("rock")))
+  if ((["tech house", "bass house", "uk garage", "bassline", "drum and bass", "dnb",
+        "dubstep", "techno", "trance", "electro house", "big beat", "idm",
+        "electronic", "electronica"].some(k => t.includes(k))
+       || (t.includes("house") && !t.includes("rock")))
+      && !["shoegaze", "dream pop", "bedroom pop", "indietronica", "lo-fi indie",
+           "neo psychedelic", "psychedelic"].some(k => t.includes(k)))
     return "Electronic / Dance";
 
   if (["bedroom pop", "dream pop", "lo-fi indie"].some(k => t.includes(k)))
@@ -359,7 +361,7 @@ function pickDisplayGroup(routingTerms) {
 function buildMlClusterSuggestions(tracks) {
   if (!tracks.length) return [];
 
-  const k = Math.min(14, Math.max(2, Math.ceil(tracks.length / 20)));
+  const k = Math.min(16, Math.max(2, Math.ceil(tracks.length / 15)));
   const labels = clusterPlaylist(kmeansModel, tracks, k);
 
   let byCluster = new Map();
@@ -373,7 +375,7 @@ function buildMlClusterSuggestions(tracks) {
   const splitThreshold = Math.max(30, tracks.length * 0.35);
   for (const [clusterId, clusterTracks] of [...byCluster.entries()]) {
     if (clusterTracks.length <= splitThreshold) continue;
-    const subK = Math.max(3, Math.ceil(clusterTracks.length / 25));
+    const subK = Math.max(3, Math.ceil(clusterTracks.length / 20));
     const subLabels = clusterPlaylist(kmeansModel, clusterTracks, subK);
     const subClusters = new Map();
     for (let i = 0; i < clusterTracks.length; i++) {
@@ -383,7 +385,7 @@ function buildMlClusterSuggestions(tracks) {
     }
     // Only accept the split if it actually broke things up
     const largest = Math.max(...[...subClusters.values()].map(v => v.length));
-    if (largest < clusterTracks.length * 0.8) {
+    if (largest < clusterTracks.length * 0.9) {
       byCluster.delete(clusterId);
       for (const [subId, subTracks] of subClusters.entries()) {
         byCluster.set(`${clusterId}_${subId}`, subTracks);
