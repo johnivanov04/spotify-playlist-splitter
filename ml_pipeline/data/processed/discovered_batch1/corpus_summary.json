@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "dataset_version": "0.1.0",
+  "generated_at_utc": "2026-05-06T19:27:12+00:00",
+  "counts": {
+    "files_seen": 1,
+    "raw_tracks_seen": 9334,
+    "normalized_records_written": 9334,
+    "duplicate_records_skipped": 0,
+    "missing_isrc": 0,
+    "missing_mbid": 9334,
+    "with_brainz_tags": 0,
+    "with_brainz_genres": 0,
+    "with_acoustic_high_level": 0,
+    "with_acoustic_low_level": 0
+  },
+  "vocabulary": {
+    "unique_tags": 0,
+    "unique_genres": 0,
+    "top_tags": [],
+    "top_genres": []
+  }
+}

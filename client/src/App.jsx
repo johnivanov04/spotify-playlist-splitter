@@ -321,6 +321,28 @@ function pickDisplayGroup(routingTerms) {
       && !t.includes("rap") && !t.includes("hip hop"))
     return "Jazz";
 
+  if (["k-pop", "k pop", "kpop", "j-pop", "j pop", "jpop"].some(k => t.includes(k)))
+    return "K-Pop / J-Pop";
+
+  if (["hyperpop", "glitchcore", "digicore"].some(k => t.includes(k)))
+    return "Hyperpop";
+
+  if (["vaporwave", "chillwave", "mallsoft", "future funk"].some(k => t.includes(k)))
+    return "Vaporwave / Chillwave";
+
+  if (["bollywood", "filmi", "hindi pop", "hindi rock", "indian classical",
+       "indian pop", "indian folk", "telugu", "tamil", "punjabi pop", "desi pop"]
+      .some(k => t.includes(k)))
+    return "Bollywood / Indian";
+
+  if (["arabic", "arab pop", "khaleeji", "levantine", "egyptian pop"]
+      .some(k => t.includes(k)))
+    return "Arabic";
+
+  if (["afrobeats", "afrobeat", "amapiano", "afro pop", "afro fusion", "afro house"]
+      .some(k => t.includes(k)))
+    return "Afrobeats";
+
   if (t.includes("singer songwriter"))
     return "Acoustic / Chill";
 
@@ -346,11 +368,19 @@ function pickDisplayGroup(routingTerms) {
   if (["bedroom pop", "dream pop", "lo-fi indie"].some(k => t.includes(k)))
     return "Dream Pop / Bedroom Pop";
 
+  if (["lo-fi", "lo fi", "lofi", "chillhop"].some(k => t.includes(k))
+      && !t.includes("indie"))
+    return "Lo-fi";
+
   if (["rock", "indie", "alternative", "punk", "grunge", "emo",
        "shoegaze", "slowcore", "indietronica", "neo psychedelic", "psychedelic",
        "britpop", "post punk", "new wave"].some(k => t.includes(k))
       && !t.includes("hip hop") && !t.includes("r and b") && !t.includes("rap"))
     return "Rock / Indie";
+
+  if (["folk", "neofolk", "freak folk", "anti folk", "folk pop"]
+      .some(k => t.includes(k)))
+    return "Folk";
 
   if (["pop rock", "art pop", "indie pop", "synth pop", "electropop"]
       .some(k => t.includes(k))
@@ -366,6 +396,10 @@ function pickDisplayGroup(routingTerms) {
 
   if (["rage rap", "melodic rap", "emo rap", "pluggnb", "plugg"].some(k => t.includes(k)))
     return "Melodic / Party Rap";
+
+  if (["drill", "uk drill", "ny drill", "chicago drill", "brooklyn drill"]
+      .some(k => t.includes(k)))
+    return "Drill";
 
   if (["rap", "hip hop", "pop rap", "conscious hip hop", "underground hip hop",
        "west coast hip hop", "hardcore hip hop"].some(k => t.includes(k)))

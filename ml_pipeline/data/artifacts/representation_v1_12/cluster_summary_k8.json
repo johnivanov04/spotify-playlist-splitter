@@ -1,0 +1,623 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 11718,
+    "sample_tracks": [
+      "Lover Is a Day — Cuco",
+      "Dream Girl — Crisaunt",
+      "Cariño — The Marías",
+      "Someone To Spend Time With — Los Retros",
+      "You Might Be Sleeping — Jakob, Clairo",
+      "What Once Was — Her's",
+      "Marcel — Her's",
+      "F Song — Strawberry Guy",
+      "I Hope to Be Around — Men I Trust",
+      "Cool with You — Her's"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": -0.41416707303829453,
+        "abs_weight": 0.41416707303829453
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": -0.4101242847739414,
+        "abs_weight": 0.4101242847739414
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": -0.3981088350931624,
+        "abs_weight": 0.3981088350931624
+      },
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": -0.39058915025943275,
+        "abs_weight": 0.39058915025943275
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": -0.38553661074137585,
+        "abs_weight": 0.38553661074137585
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": -0.37718038345003924,
+        "abs_weight": 0.37718038345003924
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": -0.3730691432410368,
+        "abs_weight": 0.3730691432410368
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": -0.351168636855045,
+        "abs_weight": 0.351168636855045
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": -0.3472450319589122,
+        "abs_weight": 0.3472450319589122
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": -0.33788497461415423,
+        "abs_weight": 0.33788497461415423
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": -0.2867675353027197,
+        "abs_weight": 0.2867675353027197
+      },
+      {
+        "feature": "tag__rock",
+        "weight": -0.27241324703061826,
+        "abs_weight": 0.27241324703061826
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 1562,
+    "sample_tracks": [
+      "Pretty Girl — Clairo",
+      "Flaming Hot Cheetos — Clairo",
+      "Hello? — Clairo, Rejjie Snow",
+      "4EVER — Clairo",
+      "Mrs Magic — Strawberry Guy",
+      "Show Me How — Men I Trust",
+      "From the Subway Train — Vansire",
+      "Young — Vacations",
+      "Harvey — Her's",
+      "She Needs Him — Her's"
+    ],
+    "top_features": [
+      {
+        "feature": "acoustic__highlevel__mood_sad__all__sad",
+        "weight": 2.5566390665189407,
+        "abs_weight": 2.5566390665189407
+      },
+      {
+        "feature": "acoustic__highlevel__danceability__all__danceable",
+        "weight": 2.50200064715435,
+        "abs_weight": 2.50200064715435
+      },
+      {
+        "feature": "acoustic__highlevel__mood_relaxed__all__relaxed",
+        "weight": 2.458880186089756,
+        "abs_weight": 2.458880186089756
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__bright",
+        "weight": 2.3979579006875054,
+        "abs_weight": 2.3979579006875054
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__voice",
+        "weight": 2.339587270956052,
+        "abs_weight": 2.339587270956052
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 2.3048769798650577,
+        "abs_weight": 2.3048769798650577
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 2.20478251006335,
+        "abs_weight": 2.20478251006335
+      },
+      {
+        "feature": "acoustic__highlevel__mood_party__all__party",
+        "weight": 2.000856971092387,
+        "abs_weight": 2.000856971092387
+      },
+      {
+        "feature": "acoustic__highlevel__mood_acoustic__all__acoustic",
+        "weight": 1.9508372679873127,
+        "abs_weight": 1.9508372679873127
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": 1.7419508043760972,
+        "abs_weight": 1.7419508043760972
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 1.7082323219937392,
+        "abs_weight": 1.7082323219937392
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "weight": 1.1214595225802793,
+        "abs_weight": 1.1214595225802793
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 316,
+    "sample_tracks": [
+      "Highway to Hell — AC/DC",
+      "Livin' On A Prayer — Bon Jovi",
+      "Welcome To The Jungle — Guns N' Roses",
+      "I Was Made For Lovin' You — KISS",
+      "Under the Bridge — Red Hot Chili Peppers",
+      "Pour Some Sugar On Me - Remastered 2017 — Def Leppard",
+      "Carry on Wayward Son — Kansas",
+      "Tom Sawyer — Rush",
+      "Renegade — Styx",
+      "Free Fallin' — Tom Petty"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__hard_rock",
+        "weight": 4.450960716871732,
+        "abs_weight": 4.450960716871732
+      },
+      {
+        "feature": "tag__classic_rock",
+        "weight": 4.329476754183696,
+        "abs_weight": 4.329476754183696
+      },
+      {
+        "feature": "tag__album_rock",
+        "weight": 4.227456572030103,
+        "abs_weight": 4.227456572030103
+      },
+      {
+        "feature": "tag__arena_rock",
+        "weight": 3.707975776445589,
+        "abs_weight": 3.707975776445589
+      },
+      {
+        "feature": "tag__rock",
+        "weight": 3.6670033292049107,
+        "abs_weight": 3.6670033292049107
+      },
+      {
+        "feature": "genre__classic_rock",
+        "weight": 3.138520419019741,
+        "abs_weight": 3.138520419019741
+      },
+      {
+        "feature": "genre__hard_rock",
+        "weight": 2.953239307047533,
+        "abs_weight": 2.953239307047533
+      },
+      {
+        "feature": "acoustic__highlevel__mood_aggressive__all__aggressive",
+        "weight": 2.833471789158277,
+        "abs_weight": 2.833471789158277
+      },
+      {
+        "feature": "tag__blues_rock",
+        "weight": 2.788614287908545,
+        "abs_weight": 2.788614287908545
+      },
+      {
+        "feature": "acoustic__highlevel__mood_happy__all__happy",
+        "weight": 2.7291837276573423,
+        "abs_weight": 2.7291837276573423
+      },
+      {
+        "feature": "genre__rock",
+        "weight": 2.68313167312825,
+        "abs_weight": 2.68313167312825
+      },
+      {
+        "feature": "genre__arena_rock",
+        "weight": 2.5863660317527586,
+        "abs_weight": 2.5863660317527586
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 212,
+    "sample_tracks": [
+      "Blitzkrieg Bop - 2016 Remaster — Ramones",
+      "What I Like About You — The Romantics",
+      "Hungry Like the Wolf - 2009 Remaster — Duran Duran",
+      "Need You Tonight — INXS",
+      "Whip It — DEVO",
+      "Roxanne - Remastered 2003 — The Police",
+      "Anarchy in the U.K. — Sex Pistols",
+      "Friday I'm in Love — The Cure",
+      "Faith - Remastered — George Michael",
+      "Time After Time — Cyndi Lauper"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__new_wave",
+        "weight": 5.160950473569661,
+        "abs_weight": 5.160950473569661
+      },
+      {
+        "feature": "tag__synth_pop",
+        "weight": 4.822722335614094,
+        "abs_weight": 4.822722335614094
+      },
+      {
+        "feature": "tag__punk_new_wave",
+        "weight": 4.402682644898546,
+        "abs_weight": 4.402682644898546
+      },
+      {
+        "feature": "tag__dance_rock",
+        "weight": 4.12807606924119,
+        "abs_weight": 4.12807606924119
+      },
+      {
+        "feature": "genre__new_wave",
+        "weight": 3.7141607347447163,
+        "abs_weight": 3.7141607347447163
+      },
+      {
+        "feature": "tag__synthpop",
+        "weight": 3.6856671350254433,
+        "abs_weight": 3.6856671350254433
+      },
+      {
+        "feature": "genre__synth_pop",
+        "weight": 3.14251497709501,
+        "abs_weight": 3.14251497709501
+      },
+      {
+        "feature": "tag__new_romantic",
+        "weight": 3.0972160042470738,
+        "abs_weight": 3.0972160042470738
+      },
+      {
+        "feature": "tag__alternative_dance",
+        "weight": 2.9076973977848866,
+        "abs_weight": 2.9076973977848866
+      },
+      {
+        "feature": "genre__dance_rock",
+        "weight": 2.8929187717555167,
+        "abs_weight": 2.8929187717555167
+      },
+      {
+        "feature": "tag__post_punk",
+        "weight": 2.802469875323126,
+        "abs_weight": 2.802469875323126
+      },
+      {
+        "feature": "tag__contemporary_pop_rock",
+        "weight": 2.744632816162717,
+        "abs_weight": 2.744632816162717
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 202,
+    "sample_tracks": [
+      "Enter Sandman — Metallica",
+      "Crazy Train — Ozzy Osbourne",
+      "Paranoid - 2012 - Remaster — Black Sabbath",
+      "You've Got Another Thing Comin' — Judas Priest",
+      "In the End — Linkin Park",
+      "Bring Me To Life — Evanescence",
+      "Chop Suey! — System Of A Down",
+      "Would? (2022 Remaster) — Alice In Chains",
+      "Animal I Have Become — Three Days Grace",
+      "Drive — Incubus"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__metal",
+        "weight": 6.60170118567438,
+        "abs_weight": 6.60170118567438
+      },
+      {
+        "feature": "tag__heavy_metal",
+        "weight": 6.3885034404174945,
+        "abs_weight": 6.3885034404174945
+      },
+      {
+        "feature": "genre__metal",
+        "weight": 4.658973898183427,
+        "abs_weight": 4.658973898183427
+      },
+      {
+        "feature": "tag__thrash_metal",
+        "weight": 4.59324442087824,
+        "abs_weight": 4.59324442087824
+      },
+      {
+        "feature": "genre__heavy_metal",
+        "weight": 4.521156612808364,
+        "abs_weight": 4.521156612808364
+      },
+      {
+        "feature": "acoustic__highlevel__timbre__all__dark",
+        "weight": 4.347247043490706,
+        "abs_weight": 4.347247043490706
+      },
+      {
+        "feature": "tag__speed_metal",
+        "weight": 4.314854884458435,
+        "abs_weight": 4.314854884458435
+      },
+      {
+        "feature": "acoustic__highlevel__voice_instrumental__all__instrumental",
+        "weight": 3.787257214702749,
+        "abs_weight": 3.787257214702749
+      },
+      {
+        "feature": "acoustic__highlevel__mood_electronic__all__electronic",
+        "weight": 3.5633301713784418,
+        "abs_weight": 3.5633301713784418
+      },
+      {
+        "feature": "tag__alternative_metal",
+        "weight": 3.25829320466558,
+        "abs_weight": 3.25829320466558
+      },
+      {
+        "feature": "genre__speed_metal",
+        "weight": 3.2504663864257712,
+        "abs_weight": 3.2504663864257712
+      },
+      {
+        "feature": "genre__thrash_metal",
+        "weight": 3.2098564502864497,
+        "abs_weight": 3.2098564502864497
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 144,
+    "sample_tracks": [
+      "Like a Rolling Stone — Bob Dylan",
+      "Margaritaville — Jimmy Buffett",
+      "The Sound of Silence - Acoustic Version — Simon & Garfunkel",
+      "Bridge Over Troubled Water — Simon & Garfunkel",
+      "Hurricane — Bob Dylan",
+      "Piano Man — Billy Joel",
+      "Budapest — George Ezra",
+      "Blood Bank — Bon Iver",
+      "Knockin' On Heaven's Door — Bob Dylan",
+      "Blowin' in the Wind — Bob Dylan"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__folk",
+        "weight": 7.550532622442416,
+        "abs_weight": 7.550532622442416
+      },
+      {
+        "feature": "tag__folk_rock",
+        "weight": 7.198339657447182,
+        "abs_weight": 7.198339657447182
+      },
+      {
+        "feature": "tag__singer_songwriter",
+        "weight": 6.412498340002192,
+        "abs_weight": 6.412498340002192
+      },
+      {
+        "feature": "tag__contemporary_folk",
+        "weight": 5.728037570327214,
+        "abs_weight": 5.728037570327214
+      },
+      {
+        "feature": "genre__folk",
+        "weight": 5.164272355864528,
+        "abs_weight": 5.164272355864528
+      },
+      {
+        "feature": "genre__folk_rock",
+        "weight": 4.8800994365154535,
+        "abs_weight": 4.8800994365154535
+      },
+      {
+        "feature": "genre__singer_songwriter",
+        "weight": 4.4819853086681904,
+        "abs_weight": 4.4819853086681904
+      },
+      {
+        "feature": "tag__folk_pop",
+        "weight": 4.320598057849514,
+        "abs_weight": 4.320598057849514
+      },
+      {
+        "feature": "genre__contemporary_folk",
+        "weight": 4.009626299697244,
+        "abs_weight": 4.009626299697244
+      },
+      {
+        "feature": "tag__traditional_folk_music",
+        "weight": 3.3834903654116233,
+        "abs_weight": 3.3834903654116233
+      },
+      {
+        "feature": "tag__country_rock",
+        "weight": 3.1951475094234323,
+        "abs_weight": 3.1951475094234323
+      },
+      {
+        "feature": "tag__soft_rock",
+        "weight": 3.0362595860130766,
+        "abs_weight": 3.0362595860130766
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 9,
+    "sample_tracks": [
+      "Twist And Shout - Remastered 2009 — The Beatles",
+      "Wouldn't It Be Nice — The Beach Boys",
+      "Come Together - Remastered 2009 — The Beatles",
+      "I Want To Hold Your Hand - Remastered 2009 — The Beatles",
+      "Hey Jude - Remastered 2009 — The Beatles",
+      "Surfin' U.S.A. - Remastered 2001 — The Beach Boys",
+      "Yesterday - Remastered 2009 — The Beatles",
+      "In My Life - Remastered 2009 — The Beatles",
+      "And I Love Her - Remastered 2009 — The Beatles"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__british_invasion",
+        "weight": 26.655109271639272,
+        "abs_weight": 26.655109271639272
+      },
+      {
+        "feature": "tag__beat",
+        "weight": 26.640202472938796,
+        "abs_weight": 26.640202472938796
+      },
+      {
+        "feature": "tag__beat_music",
+        "weight": 22.76003649839697,
+        "abs_weight": 22.76003649839697
+      },
+      {
+        "feature": "tag__psychedelic",
+        "weight": 21.905618713948343,
+        "abs_weight": 21.905618713948343
+      },
+      {
+        "feature": "tag__british_psychedelia",
+        "weight": 21.24982325938322,
+        "abs_weight": 21.24982325938322
+      },
+      {
+        "feature": "tag__early_pop_rock",
+        "weight": 21.084738741779173,
+        "abs_weight": 21.084738741779173
+      },
+      {
+        "feature": "tag__rock_and_roll",
+        "weight": 17.978042971545076,
+        "abs_weight": 17.978042971545076
+      },
+      {
+        "feature": "tag__am_pop",
+        "weight": 15.74114068432632,
+        "abs_weight": 15.74114068432632
+      },
+      {
+        "feature": "tag__happy",
+        "weight": 15.195884475706041,
+        "abs_weight": 15.195884475706041
+      },
+      {
+        "feature": "tag__remark_well_known",
+        "weight": 13.069944293951083,
+        "abs_weight": 13.069944293951083
+      },
+      {
+        "feature": "tag__psychedelic_garage",
+        "weight": 12.139756632354212,
+        "abs_weight": 12.139756632354212
+      },
+      {
+        "feature": "tag__melancholy",
+        "weight": 10.97629096500044,
+        "abs_weight": 10.97629096500044
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 8,
+    "sample_tracks": [
+      "Bohemian Rhapsody - Remastered 2011 — Queen",
+      "Here Comes The Sun - Remastered 2009 — The Beatles",
+      "The Chain - 2004 Remaster — Fleetwood Mac",
+      "Fireflies — Owl City",
+      "Take Five — The Dave Brubeck Quartet",
+      "Take on Me — a-ha",
+      "Crab Rave — Noisestorm",
+      "You Don't Mess Around with Jim — Jim Croce"
+    ],
+    "top_features": [
+      {
+        "feature": "tag__hanging_out",
+        "weight": 35.063644029462836,
+        "abs_weight": 35.063644029462836
+      },
+      {
+        "feature": "tag__rain",
+        "weight": 34.25656725656697,
+        "abs_weight": 34.25656725656697
+      },
+      {
+        "feature": "tag__wake_up",
+        "weight": 33.922139505947364,
+        "abs_weight": 33.922139505947364
+      },
+      {
+        "feature": "tag__road",
+        "weight": 33.875443276030744,
+        "abs_weight": 33.875443276030744
+      },
+      {
+        "feature": "tag__sing_along",
+        "weight": 31.518883882642243,
+        "abs_weight": 31.518883882642243
+      },
+      {
+        "feature": "tag__work",
+        "weight": 31.19452070930658,
+        "abs_weight": 31.19452070930658
+      },
+      {
+        "feature": "tag__party",
+        "weight": 28.05888243915759,
+        "abs_weight": 28.05888243915759
+      },
+      {
+        "feature": "tag__rockin",
+        "weight": 26.788269829629748,
+        "abs_weight": 26.788269829629748
+      },
+      {
+        "feature": "tag__summer",
+        "weight": 26.01654247626742,
+        "abs_weight": 26.01654247626742
+      },
+      {
+        "feature": "tag__vibin",
+        "weight": 25.55319190266749,
+        "abs_weight": 25.55319190266749
+      },
+      {
+        "feature": "tag__soothing",
+        "weight": 24.581193251995202,
+        "abs_weight": 24.581193251995202
+      },
+      {
+        "feature": "tag__background",
+        "weight": 24.17567074011721,
+        "abs_weight": 24.17567074011721
+      }
+    ]
+  }
+]

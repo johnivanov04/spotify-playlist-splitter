@@ -37,7 +37,7 @@ def main() -> int:
     feature_names = [str(n) for n in d["feature_names"]]
 
     model = {
-        "version": "v1_11",
+        "version": "v1_12",
         "feature_names": feature_names,
         "scaler_mean": f(d["scaler_mean"]),
         "scaler_scale": f(d["scaler_scale"]),
