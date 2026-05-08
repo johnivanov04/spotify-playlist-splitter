@@ -343,6 +343,10 @@ function pickDisplayGroup(routingTerms) {
       .some(k => t.includes(k)))
     return "Afrobeats";
 
+  if (["folk", "neofolk", "freak folk", "anti folk", "folk pop", "folk rock"]
+      .some(k => t.includes(k)))
+    return "Folk";
+
   if (t.includes("singer songwriter"))
     return "Acoustic / Chill";
 
@@ -377,10 +381,6 @@ function pickDisplayGroup(routingTerms) {
        "britpop", "post punk", "new wave"].some(k => t.includes(k))
       && !t.includes("hip hop") && !t.includes("r and b") && !t.includes("rap"))
     return "Rock / Indie";
-
-  if (["folk", "neofolk", "freak folk", "anti folk", "folk pop"]
-      .some(k => t.includes(k)))
-    return "Folk";
 
   if (["pop rock", "art pop", "indie pop", "synth pop", "electropop"]
       .some(k => t.includes(k))
