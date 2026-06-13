@@ -1032,8 +1032,34 @@ body {
 
 .vibes-refresh-row {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 12px;
+}
+
+.vibes-steer-input {
+  flex: 1;
+  padding: 7px 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 999px;
+  outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.vibes-steer-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.vibes-steer-input:focus {
+  border-color: rgba(167, 139, 250, 0.55);
+  background: rgba(167, 139, 250, 0.06);
+}
+
+.vibes-steer-input:disabled {
+  opacity: 0.5;
 }
 
 .vibes-refresh-btn {

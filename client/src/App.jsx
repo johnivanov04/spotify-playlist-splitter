@@ -545,6 +545,7 @@ function App() {
   const [enrichProgress, setEnrichProgress] = useState(null); // { batch, totalBatches, startTime }
   const [vibeGroupings, setVibeGroupings] = useState(null); // [{ name, description, track_ids }] | null
   const [vibesLoading, setVibesLoading] = useState(false);
+  const [vibeSteer, setVibeSteer] = useState("");
 
   const [enrichTick, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
@@ -646,7 +647,9 @@ function App() {
     if (!selectedPlaylist || !tracks.length) return;
 
     const nextSuggestions = buildSuggestions(tracks, usageMap, thresholds);
-    const mlSuggestions = buildMlClusterSuggestions(tracks);
+    // ML clusters disabled while we iterate on AI vibes. Flip SHOW_ML_CLUSTERS to re-enable.
+    const SHOW_ML_CLUSTERS = false;
+    const mlSuggestions = SHOW_ML_CLUSTERS ? buildMlClusterSuggestions(tracks) : [];
     const allSuggestions = [...nextSuggestions, ...mlSuggestions];
     setSuggestions(allSuggestions);
     setDismissedSuggestionIds(new Set());
@@ -874,7 +877,7 @@ function App() {
 
   const enrichTracksWithVibes = async (playlistId, t, opts = {}) => {
     if (!t.length) return;
-    const { force = false } = opts;
+    const { force = false, steer = "" } = opts;
     setVibesLoading(true);
 
     const payloadTracks = t.map((tr) => ({
@@ -894,7 +897,7 @@ function App() {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tracks: payloadTracks }),
+        body: JSON.stringify({ tracks: payloadTracks, steer: steer.trim() || undefined }),
       });
 
       if (!res.ok) {
@@ -938,6 +941,7 @@ function App() {
     setDismissedSuggestionIds(new Set());
     setVibeGroupings(null);
     setVibesLoading(false);
+    setVibeSteer("");
 
     setEnrichProgress(null);
 
@@ -1418,10 +1422,23 @@ function App() {
                   )}
                   {!loadingTracks && vibeSuggestions.length > 0 && (
                     <div className="vibes-refresh-row">
+                      <input
+                        className="vibes-steer-input"
+                        type="text"
+                        placeholder="Steer the vibes (e.g. 'more about activities', 'late-night only')…"
+                        value={vibeSteer}
+                        onChange={(e) => setVibeSteer(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" && !vibesLoading) {
+                            enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer });
+                          }
+                        }}
+                        disabled={vibesLoading}
+                      />
                       <button
                         className="vibes-refresh-btn"
                         disabled={vibesLoading}
-                        onClick={() => enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true })}
+                        onClick={() => enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer })}
                         title="Re-roll the AI's vibe groupings (~$0.10)"
                       >
                         {vibesLoading ? (
