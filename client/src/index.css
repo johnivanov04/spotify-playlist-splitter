@@ -352,6 +352,28 @@ body {
 .suggestion-card[data-group="acoustic"]      { border-left-color: #A5D6A7; }
 .suggestion-card[data-group="instrumental"]  { border-left-color: #90A4AE; }
 .suggestion-card[data-group="era"]           { border-left-color: #FFAB91; }
+.suggestion-card[data-group="vibe"]          { border-left-color: #A78BFA; border-left-width: 4px; }
+
+.suggestion-card.vibe-card {
+  position: relative;
+  background: linear-gradient(180deg, rgba(167, 139, 250, 0.06) 0%, transparent 80%);
+}
+
+.vibe-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(167, 139, 250, 1);
+  background: rgba(167, 139, 250, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  padding: 3px 8px;
+  border-radius: 999px;
+  pointer-events: none;
+}
 .suggestion-card[data-group="usage"]         { border-left-color: #FFF176; }
 .suggestion-card[data-group="popularity"]    { border-left-color: #81D4FA; }
 
@@ -974,4 +996,36 @@ body {
 
 .dismiss-btn:hover {
   color: #ffffff;
+}
+
+.vibes-loading-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: rgba(120, 100, 200, 0.08);
+  border: 1px solid rgba(120, 100, 200, 0.25);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+}
+
+.vibes-loading-banner .vibes-loading-hint {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.vibes-loading-pulse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(160, 140, 230, 1);
+  animation: vibes-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes vibes-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.4); opacity: 1; }
 }

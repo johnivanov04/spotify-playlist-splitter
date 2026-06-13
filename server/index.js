@@ -885,7 +885,7 @@ ${JSON.stringify(trimmed, null, 2)}`;
       thinking: { type: "adaptive" },
       output_config: {
         format: { type: "json_schema", schema: VIBE_SCHEMA },
-        effort: "medium"
+        effort: "low"
       },
       system: [
         {

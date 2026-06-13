@@ -1407,6 +1407,13 @@ function App() {
                 )}
 
                 <div className="content-scroll">
+                  {!loadingTracks && vibesLoading && vibeSuggestions.length === 0 && (
+                    <div className="vibes-loading-banner">
+                      <span className="vibes-loading-pulse" />
+                      <span>Analyzing vibes…</span>
+                      <span className="vibes-loading-hint">Sonnet is reading your playlist; this usually takes 30–90 seconds.</span>
+                    </div>
+                  )}
                   {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
                       {visibleSuggestions.map((s, index) => {
@@ -1418,8 +1425,10 @@ function App() {
                             split.suggestionId === s.id
                         );
 
+                        const isVibe = s.id.startsWith("vibe-");
                         return (
-                          <article key={s.id} className="card suggestion-card" data-group={getGroupKey(s)} style={{ animationDelay: `${index * 0.05}s` }}>
+                          <article key={s.id} className={`card suggestion-card${isVibe ? " vibe-card" : ""}`} data-group={getGroupKey(s)} style={{ animationDelay: `${index * 0.05}s` }}>
+                            {isVibe && <span className="vibe-badge">✨ Vibe</span>}
                             <div className="suggestion-header">
                               <div>
                                 {editingLabel?.id === s.id ? (
