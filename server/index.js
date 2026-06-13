@@ -294,8 +294,13 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
           year = parseInt(album.release_date.slice(0, 4), 10);
         }
 
+        // Spotify track relinking: when `market` is passed, `t.id` is the
+        // relinked (playable) track ID, but the playlist actually contains
+        // `t.linked_from.id`. Use the original ID so add/remove operations
+        // match the playlist's stored URIs.
+        const canonicalId = t.linked_from?.id || t.id;
         return {
-          id: t.id,
+          id: canonicalId,
           name: t.name,
           artists,
           album: album.name || "",
@@ -475,6 +480,9 @@ app.post("/api/playlists/:id/remove-tracks", requireSpotifyAuth, async (req, res
   }
 
   const tracksPayload = trackIds.map((id) => ({ uri: `spotify:track:${id}` }));
+  console.log(
+    `Remove-tracks: playlist=${playlistId} count=${trackIds.length} sample_uris=${tracksPayload.slice(0, 3).map(t => t.uri).join(", ")}`
+  );
 
   try {
     const spotifyRes = await fetch(
@@ -490,13 +498,14 @@ app.post("/api/playlists/:id/remove-tracks", requireSpotifyAuth, async (req, res
     );
 
     const text = await spotifyRes.text();
+    console.log(`Remove-tracks: Spotify responded ${spotifyRes.status} body=${text.slice(0, 300)}`);
     if (!spotifyRes.ok) {
       return res
         .status(spotifyRes.status)
         .json({ error: "Spotify remove-tracks failed", details: text });
     }
 
-    return res.json({ ok: true });
+    return res.json({ ok: true, spotify_response: text });
   } catch (err) {
     console.error("Error calling Spotify remove-tracks:", err);
     return res.status(500).json({ error: "Internal server error removing tracks" });
