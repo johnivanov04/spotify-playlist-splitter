@@ -830,9 +830,13 @@ const VIBE_SCHEMA = {
   additionalProperties: false
 };
 
-function vibeCacheKey(tracks) {
+function vibeCacheKey(tracks, steer) {
   const ids = tracks.map((t) => t && t.id).filter(Boolean).slice().sort();
-  return crypto.createHash("sha256").update(ids.join(",")).digest("hex");
+  const steerKey = (steer || "").trim().toLowerCase();
+  const hash = crypto.createHash("sha256");
+  hash.update(ids.join(","));
+  if (steerKey) hash.update("\nSTEER:" + steerKey);
+  return hash.digest("hex");
 }
 
 function summarizeTrackForPrompt(t) {
@@ -855,15 +859,16 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
     return res.status(503).json({ error: "ANTHROPIC_API_KEY not configured" });
   }
 
-  const { tracks } = req.body || {};
+  const { tracks, steer } = req.body || {};
   if (!Array.isArray(tracks) || tracks.length === 0) {
     return res.status(400).json({ error: "Missing tracks" });
   }
   if (tracks.length > 1000) {
     return res.status(400).json({ error: "Too many tracks (max 1000)" });
   }
+  const steerText = typeof steer === "string" ? steer.trim().slice(0, 500) : "";
 
-  const cacheKey = vibeCacheKey(tracks);
+  const cacheKey = vibeCacheKey(tracks, steerText);
   const cachePath = path.join(VIBE_CACHE_DIR, `${cacheKey}.json`);
   const force = req.query.force === "true" || req.body?.force === true;
 
@@ -877,7 +882,10 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
   }
 
   const trimmed = tracks.map(summarizeTrackForPrompt);
-  const userContent = `Here is the playlist (${trimmed.length} tracks). Identify 4 to 8 vibe-based groupings as described.
+  const steerInstruction = steerText
+    ? `\n\nThe user has given you this additional steer for how to shape the vibes — let it influence your choices (without overriding the core "what is a vibe" rules from the system prompt):\n"${steerText}"`
+    : "";
+  const userContent = `Here is the playlist (${trimmed.length} tracks). Identify 4 to 8 vibe-based groupings as described.${steerInstruction}
 
 ${JSON.stringify(trimmed, null, 2)}`;
 
