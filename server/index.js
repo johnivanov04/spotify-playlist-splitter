@@ -773,7 +773,7 @@ A single track can fit only ONE vibe in your output — pick the strongest fit a
 3. Each grouping needs:
    - **name**: 2-5 words, evocative and specific. Use title case. No emoji.
    - **description**: one sentence (max ~15 words) describing the moment or feeling. Don't restate the name.
-   - **track_ids**: array of track ID strings, drawn from the input. Each ID must appear in exactly one grouping across the entire output (no duplicates).
+   - **track_indices**: array of integer indices into the input track list. Each track is shown with an "index" field — use those exact integers. Every index must be unique across the entire output (no duplicates) and must fall within the valid range for the playlist (0 to N-1, where N is the number of tracks).
 4. Order groupings from most cohesive (clearest vibe, most tracks fit naturally) to least.
 5. Don't force every track to be assigned. It's expected that 10–30% of tracks won't fit any clear vibe — leave them out.
 
@@ -816,12 +816,12 @@ const VIBE_SCHEMA = {
         properties: {
           name: { type: "string", description: "2-5 words, title case, evocative" },
           description: { type: "string", description: "one sentence describing the moment or feeling" },
-          track_ids: {
+          track_indices: {
             type: "array",
-            items: { type: "string", description: "a track ID from the input" }
+            items: { type: "integer", description: "an index from the input track list (0 to N-1)" }
           }
         },
-        required: ["name", "description", "track_ids"],
+        required: ["name", "description", "track_indices"],
         additionalProperties: false
       }
     }
@@ -839,9 +839,9 @@ function vibeCacheKey(tracks, steer) {
   return hash.digest("hex");
 }
 
-function summarizeTrackForPrompt(t) {
+function summarizeTrackForPrompt(t, index) {
   return {
-    id: t.id,
+    index,
     title: t.name || t.title || "",
     artist: Array.isArray(t.artists) ? t.artists.join(", ") : (t.artist || ""),
     year: typeof t.year === "number" ? t.year : null,
@@ -881,11 +881,11 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
     }
   }
 
-  const trimmed = tracks.map(summarizeTrackForPrompt);
+  const trimmed = tracks.map((t, i) => summarizeTrackForPrompt(t, i));
   const steerInstruction = steerText
     ? `\n\nThe user has given you this additional steer for how to shape the vibes — let it influence your choices (without overriding the core "what is a vibe" rules from the system prompt):\n"${steerText}"`
     : "";
-  const userContent = `Here is the playlist (${trimmed.length} tracks). Identify 4 to 8 vibe-based groupings as described.${steerInstruction}
+  const userContent = `Here is the playlist (${trimmed.length} tracks, indices 0 to ${trimmed.length - 1}). Identify 4 to 8 vibe-based groupings as described. Use the "index" field on each track to populate "track_indices" in your output — do NOT make up indices that aren't shown.${steerInstruction}
 
 ${JSON.stringify(trimmed, null, 2)}`;
 
@@ -937,16 +937,40 @@ ${JSON.stringify(trimmed, null, 2)}`;
       return res.status(502).json({ error: "Failed to parse model output" });
     }
 
+    // Map track_indices back to track_ids using the input order.
+    const inputIds = tracks.map((t) => t && t.id);
+    const seenIndices = new Set();
+    const mappedGroupings = (parsed.groupings || []).map((g) => {
+      const indices = Array.isArray(g.track_indices) ? g.track_indices : [];
+      const trackIds = [];
+      for (const idx of indices) {
+        if (typeof idx !== "number" || !Number.isInteger(idx)) continue;
+        if (idx < 0 || idx >= inputIds.length) continue;
+        if (seenIndices.has(idx)) continue;
+        const id = inputIds[idx];
+        if (!id) continue;
+        seenIndices.add(idx);
+        trackIds.push(id);
+      }
+      return {
+        name: g.name,
+        description: g.description,
+        track_ids: trackIds,
+      };
+    }).filter((g) => g.track_ids.length >= 2);
+
+    const result = { groupings: mappedGroupings };
+
     await fs.mkdir(VIBE_CACHE_DIR, { recursive: true });
-    await fs.writeFile(cachePath, JSON.stringify(parsed, null, 2), "utf-8");
+    await fs.writeFile(cachePath, JSON.stringify(result, null, 2), "utf-8");
 
     console.log(
-      `Vibe analyze: ${trimmed.length} tracks → ${parsed.groupings?.length || 0} groupings ` +
+      `Vibe analyze: ${trimmed.length} tracks → ${result.groupings.length} groupings ` +
       `(in=${message.usage?.input_tokens}, cache_read=${message.usage?.cache_read_input_tokens || 0}, ` +
       `cache_create=${message.usage?.cache_creation_input_tokens || 0}, out=${message.usage?.output_tokens})`
     );
 
-    res.json({ ...parsed, cached: false });
+    res.json({ ...result, cached: false });
   } catch (err) {
     console.error("Vibe analyze error:", err);
     res.status(500).json({ error: "Failed to analyze vibes" });

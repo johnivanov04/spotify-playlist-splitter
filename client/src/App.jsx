@@ -7,7 +7,7 @@ const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 
 // Auto-enrich tracks with MusicBrainz tags / AcousticBrainz highlevel
-const AUTO_ENRICH_BRAINZ = true;
+const AUTO_ENRICH_BRAINZ = false;
 // Server caps limit to 120 for politeness + rate limits:
 const AUTO_ENRICH_LIMIT = 120;
 const AUTO_ENRICH_INCLUDE_TAGS = true;
@@ -1275,33 +1275,6 @@ function App() {
                         </button>
                       </div>
 
-                      {AUTO_ENRICH_BRAINZ && enrichProgress && (() => {
-                        void enrichTick; // force re-render every 5s for live countdown
-                        const { batch, totalBatches, startTime } = enrichProgress;
-                        const elapsed = Date.now() - startTime;
-                        const estimatedTotal = AUTO_ENRICH_LIMIT * 1.1 * 1000 * totalBatches;
-                        const remaining = Math.max(0, estimatedTotal - elapsed);
-                        const pct = Math.max(2, Math.min(99, Math.round((elapsed / estimatedTotal) * 100)));
-                        const fmtTime = (ms) => {
-                          const s = Math.round(ms / 1000);
-                          return s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s}s`;
-                        };
-                        return (
-                          <div className="enrich-progress">
-                            <div className="enrich-progress-header">
-                              <span>Enriching with MusicBrainz tags…</span>
-                              <span className="enrich-progress-stats">
-                                Batch {batch + 1}/{totalBatches}
-                                {<> · ~{fmtTime(remaining)} left</>}
-                              </span>
-                            </div>
-                            <div className="enrich-progress-bar">
-                              <div className="enrich-progress-fill" style={{ width: `${pct}%` }} />
-                            </div>
-                            <p className="enrich-note">Suggestions will improve once enrichment finishes.</p>
-                          </div>
-                        );
-                      })()}
                     </>
                   )}
                   {error && <p className="error">{error}</p>}
