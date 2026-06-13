@@ -872,8 +872,9 @@ function App() {
     }
   };
 
-  const enrichTracksWithVibes = async (playlistId, t) => {
+  const enrichTracksWithVibes = async (playlistId, t, opts = {}) => {
     if (!t.length) return;
+    const { force = false } = opts;
     setVibesLoading(true);
 
     const payloadTracks = t.map((tr) => ({
@@ -888,7 +889,8 @@ function App() {
     }));
 
     try {
-      const res = await fetch(`${API_BASE}/api/vibes/analyze`, {
+      const url = `${API_BASE}/api/vibes/analyze${force ? "?force=true" : ""}`;
+      const res = await fetch(url, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -1412,6 +1414,24 @@ function App() {
                       <span className="vibes-loading-pulse" />
                       <span>Analyzing vibes…</span>
                       <span className="vibes-loading-hint">Sonnet is reading your playlist; this usually takes 30–90 seconds.</span>
+                    </div>
+                  )}
+                  {!loadingTracks && vibeSuggestions.length > 0 && (
+                    <div className="vibes-refresh-row">
+                      <button
+                        className="vibes-refresh-btn"
+                        disabled={vibesLoading}
+                        onClick={() => enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true })}
+                        title="Re-roll the AI's vibe groupings (~$0.10)"
+                      >
+                        {vibesLoading ? (
+                          <>
+                            <span className="vibes-loading-pulse" /> Re-rolling vibes…
+                          </>
+                        ) : (
+                          <>↻ Refresh vibes</>
+                        )}
+                      </button>
                     </div>
                   )}
                   {!loadingTracks && visibleSuggestions.length > 0 && (
