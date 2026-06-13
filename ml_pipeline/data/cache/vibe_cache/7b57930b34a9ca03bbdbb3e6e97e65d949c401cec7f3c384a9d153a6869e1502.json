@@ -1,0 +1,53 @@
+{
+  "groupings": [
+    {
+      "name": "Slow Dance in the Dark",
+      "description": "Hazy, half-lit moments where the room shrinks to just two people.",
+      "track_ids": [
+        "2sBKLT7bFa38yVAYxYltUX",
+        "754kgU5rWscRTfvlsuEwFp",
+        "2KhrPRV0V1FS2l4eQMJUWt",
+        "3W7KHojYGgYaoX9ogKO9hU",
+        "2RtOnuOdBiecnBoX8x9uoO",
+        "2qkb3hhx8iCBvYzX9SvVxj",
+        "4pwJ6OujVQL3IpCr8KeXIg"
+      ]
+    },
+    {
+      "name": "Quietly, Completely in Love",
+      "description": "The calm, certain feeling of knowing this person is the one.",
+      "track_ids": [
+        "1fzAuUVbzlhZ1lJAx9PtY6",
+        "4A2LfnduSTsE8u0ecYROxE",
+        "1dGr1c8CrMLDpV6mPbImSI",
+        "2VYnlKxB8jpbCeLUjQsebc",
+        "5l6hpyTGBK0LAAxgPnqTQL",
+        "15xWRPHQMeqgdkGzInx3PY",
+        "7JIuqL4ZqkpfGKQhYlrirs",
+        "745JbQYxoYIegHzHTUxETp"
+      ]
+    },
+    {
+      "name": "Electric Before the Touch",
+      "description": "That charged, breathless space between wanting and having.",
+      "track_ids": [
+        "6oVxXO5oQ4pTpO8RSnkzvv",
+        "3cxZT78mZDyLsLPJKcTu3U",
+        "026wpXkLAjImiWOzzcJBHj",
+        "4PwWESSlTwzvw9B7bmtTLS"
+      ]
+    },
+    {
+      "name": "Miles Away, Still Yours",
+      "description": "Longing stretched across distance, time, or the ghost of a beginning.",
+      "track_ids": [
+        "0qvzXomUDJVaUboy2wMfiS",
+        "05GsNucq8Bngd9fnd4fRa0",
+        "5sA3i6SGkILMiZW6Fhx4wv",
+        "0iMt8ZMe2BsNvsF9LFDOAn",
+        "0pJW1Xw3aY4Eh6k5iuBkfI",
+        "6shRGWCtBUOPFLFTTqXZIC"
+      ]
+    }
+  ]
+}

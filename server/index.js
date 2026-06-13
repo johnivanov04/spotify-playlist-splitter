@@ -6,6 +6,9 @@ const cors = require("cors");
 const cookieSession = require("cookie-session");
 const querystring = require("querystring");
 const crypto = require("crypto");
+const fs = require("fs/promises");
+const path = require("path");
+const Anthropic = require("@anthropic-ai/sdk");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -16,13 +19,17 @@ const {
   SPOTIFY_REDIRECT_URI,
   FRONTEND_URL,
   SESSION_SECRET,
-  MUSICBRAINZ_USER_AGENT
+  MUSICBRAINZ_USER_AGENT,
+  ANTHROPIC_API_KEY
 } = process.env;
 
 if (!SPOTIFY_CLIENT_ID || !SPOTIFY_CLIENT_SECRET || !SPOTIFY_REDIRECT_URI) {
   console.error("Missing Spotify env vars in .env");
   process.exit(1);
 }
+
+const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
+const VIBE_CACHE_DIR = path.resolve(__dirname, "../ml_pipeline/data/cache/vibe_cache");
 
 app.use(express.json({ limit: "2mb" }));
 
@@ -709,6 +716,229 @@ app.post("/api/spotify/artist-genres", requireSpotifyAuth, async (req, res) => {
   } catch (err) {
     console.error("Artist genres error:", err);
     res.status(500).json({ error: "Failed to fetch artist genres" });
+  }
+});
+
+// ---- Vibe analysis (LLM-driven playlist splits) ----------------
+
+const VIBE_SYSTEM_PROMPT = `You are a music curator who groups songs by *vibe* — the feel, mood, setting, or moment a song belongs to — rather than by genre or musical similarity.
+
+Your task: given a playlist of tracks, identify 4 to 8 natural vibe-based groupings within it. Each grouping should feel like a coherent context in which someone would actually want to hear those songs together. Think of the name a thoughtful friend might give to a playlist they made for a specific occasion or feeling.
+
+## What a vibe IS
+
+A vibe is a contextual / emotional / situational thread. Examples of good vibe names:
+- "Late Night Drive Home"
+- "Cookout Sunday"
+- "3am Existential Crisis"
+- "Pregame Energy"
+- "Heartbreak Hours"
+- "Coffee Shop Saturday Morning"
+- "Summer Block Party"
+- "Warm Rain"
+- "Getting Ready to Go Out"
+- "Solo Walk With Headphones"
+- "Drive at Sunset"
+- "Drunk Karaoke"
+- "Workout Final Mile"
+
+These work because each evokes a *moment* — a time, place, mood, or activity — and the songs assigned to it share that feeling regardless of genre.
+
+## What a vibe is NOT
+
+- A genre label: "Hip Hop", "Indie Rock", "Country" — these are genre groupings, and the user already has those via a separate ML clustering layer. Do NOT duplicate that work.
+- An era label: "80s Throwbacks", "2010s Hits" — era is handled by separate rules.
+- A popularity label: "Hits", "Deep Cuts" — also handled elsewhere.
+- A generic descriptor: "Chill Vibes", "Good Vibes Only", "Bangers" — too vague to be useful.
+- An artist label: "All My Drake Songs" — too narrow.
+
+If a candidate name could just as well be a genre, era, or popularity bucket, reject it and find a more contextual / situational angle.
+
+## How to identify vibes in a playlist
+
+Look for clusters of tracks that share:
+- A time of day or week (late night, sunday morning, friday night)
+- A setting or activity (driving, working out, cooking, getting ready, studying)
+- An emotional state (heartbroken, hyped, contemplative, nostalgic, defiant)
+- A social context (alone, with friends, romantic, party)
+- A season or weather mood (warm summer, cold winter, rainy day)
+- An energy arc (winding down, building up, sustained calm)
+
+A single track can fit only ONE vibe in your output — pick the strongest fit and assign it there. Tracks that don't fit any vibe well should be omitted from your output rather than crammed into a mismatched grouping.
+
+## Output rules
+
+1. Return between 4 and 8 vibe groupings. If the playlist genuinely only supports fewer (e.g., a 20-track playlist where everything is the same mood), prefer 4 with clear character over forcing more.
+2. Each grouping must have at least 4 tracks. Smaller fragments aren't useful as standalone playlist splits.
+3. Each grouping needs:
+   - **name**: 2-5 words, evocative and specific. Use title case. No emoji.
+   - **description**: one sentence (max ~15 words) describing the moment or feeling. Don't restate the name.
+   - **track_ids**: array of track ID strings, drawn from the input. Each ID must appear in exactly one grouping across the entire output (no duplicates).
+4. Order groupings from most cohesive (clearest vibe, most tracks fit naturally) to least.
+5. Don't force every track to be assigned. It's expected that 10–30% of tracks won't fit any clear vibe — leave them out.
+
+## Calibration
+
+The user's playlist may be 20 tracks or 800 tracks. Scale the number of groupings accordingly within the 4-8 range:
+- Small playlists (~20-50 tracks): 4 vibes, broader strokes.
+- Medium playlists (~50-200 tracks): 4-6 vibes.
+- Large playlists (~200+ tracks): 5-8 vibes, more specific moods.
+
+Lean toward fewer, stronger vibes over more, weaker ones. A grouping is only worth including if you can describe what it specifically IS without resorting to generic adjectives.
+
+## Style
+
+Names should sound like something a human would write on a playlist cover, not like a category name from a music streaming service's UI. "Late Night Drive Home" beats "Late Night Driving Music". "Cookout Sunday" beats "Summer BBQ Vibes". "3am Existential Crisis" beats "Sad Songs". Specificity beats generality every time.
+
+Avoid:
+- Emoji in names
+- Hashtags
+- All-caps stylization
+- Marketing-speak ("Ultimate", "Essential", "Best")
+- Cliché playlist titles ("Good Vibes", "Mood", "Vibes Only")
+
+Embrace:
+- Concrete moments and settings
+- Times of day and week
+- Specific activities
+- Specific emotional states
+- A touch of voice and personality
+
+Read the playlist carefully, find the threads that actually run through it, and write the names a real person would give those threads.`;
+
+const VIBE_SCHEMA = {
+  type: "object",
+  properties: {
+    groupings: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          name: { type: "string", description: "2-5 words, title case, evocative" },
+          description: { type: "string", description: "one sentence describing the moment or feeling" },
+          track_ids: {
+            type: "array",
+            items: { type: "string", description: "a track ID from the input" }
+          }
+        },
+        required: ["name", "description", "track_ids"],
+        additionalProperties: false
+      }
+    }
+  },
+  required: ["groupings"],
+  additionalProperties: false
+};
+
+function vibeCacheKey(tracks) {
+  const ids = tracks.map((t) => t && t.id).filter(Boolean).slice().sort();
+  return crypto.createHash("sha256").update(ids.join(",")).digest("hex");
+}
+
+function summarizeTrackForPrompt(t) {
+  return {
+    id: t.id,
+    title: t.name || t.title || "",
+    artist: Array.isArray(t.artists) ? t.artists.join(", ") : (t.artist || ""),
+    year: typeof t.year === "number" ? t.year : null,
+    genres: Array.isArray(t.spotifyArtistGenres) ? t.spotifyArtistGenres.slice(0, 8) : [],
+    tags: Array.isArray(t?.brainz?.tags)
+      ? t.brainz.tags.slice(0, 6).map((x) => (typeof x === "string" ? x : x?.name)).filter(Boolean)
+      : []
+  };
+}
+
+// POST { tracks: [{ id, name, artists, year, spotifyArtistGenres, brainz: { tags } }, ...] }
+//   → { groupings: [{ name, description, track_ids }, ...], cached: boolean }
+app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
+  if (!anthropic) {
+    return res.status(503).json({ error: "ANTHROPIC_API_KEY not configured" });
+  }
+
+  const { tracks } = req.body || {};
+  if (!Array.isArray(tracks) || tracks.length === 0) {
+    return res.status(400).json({ error: "Missing tracks" });
+  }
+  if (tracks.length > 1000) {
+    return res.status(400).json({ error: "Too many tracks (max 1000)" });
+  }
+
+  const cacheKey = vibeCacheKey(tracks);
+  const cachePath = path.join(VIBE_CACHE_DIR, `${cacheKey}.json`);
+
+  try {
+    const cached = await fs.readFile(cachePath, "utf-8");
+    return res.json({ ...JSON.parse(cached), cached: true });
+  } catch (_) {
+    // cache miss — fall through
+  }
+
+  const trimmed = tracks.map(summarizeTrackForPrompt);
+  const userContent = `Here is the playlist (${trimmed.length} tracks). Identify 4 to 8 vibe-based groupings as described.
+
+${JSON.stringify(trimmed, null, 2)}`;
+
+  try {
+    const stream = anthropic.messages.stream({
+      model: "claude-sonnet-4-6",
+      max_tokens: 64000,
+      thinking: { type: "adaptive" },
+      output_config: {
+        format: { type: "json_schema", schema: VIBE_SCHEMA },
+        effort: "medium"
+      },
+      system: [
+        {
+          type: "text",
+          text: VIBE_SYSTEM_PROMPT,
+          cache_control: { type: "ephemeral" }
+        }
+      ],
+      messages: [{ role: "user", content: userContent }]
+    });
+
+    const message = await stream.finalMessage();
+
+    if (message.stop_reason === "refusal") {
+      console.error("Vibe analyze refused:", message.stop_details);
+      return res.status(502).json({ error: "Refused by model" });
+    }
+
+    const textBlock = message.content.find((b) => b.type === "text");
+    if (!textBlock) {
+      console.error(
+        "Vibe analyze: no text block",
+        "blocks:", message.content.map((b) => b.type),
+        "stop_reason:", message.stop_reason,
+        "usage:", message.usage
+      );
+      return res.status(502).json({
+        error: "No text block in response",
+        stop_reason: message.stop_reason
+      });
+    }
+
+    let parsed;
+    try {
+      parsed = JSON.parse(textBlock.text);
+    } catch (e) {
+      console.error("Vibe analyze: JSON parse failed", e, textBlock.text.slice(0, 500));
+      return res.status(502).json({ error: "Failed to parse model output" });
+    }
+
+    await fs.mkdir(VIBE_CACHE_DIR, { recursive: true });
+    await fs.writeFile(cachePath, JSON.stringify(parsed, null, 2), "utf-8");
+
+    console.log(
+      `Vibe analyze: ${trimmed.length} tracks → ${parsed.groupings?.length || 0} groupings ` +
+      `(in=${message.usage?.input_tokens}, cache_read=${message.usage?.cache_read_input_tokens || 0}, ` +
+      `cache_create=${message.usage?.cache_creation_input_tokens || 0}, out=${message.usage?.output_tokens})`
+    );
+
+    res.json({ ...parsed, cached: false });
+  } catch (err) {
+    console.error("Vibe analyze error:", err);
+    res.status(500).json({ error: "Failed to analyze vibes" });
   }
 });
 

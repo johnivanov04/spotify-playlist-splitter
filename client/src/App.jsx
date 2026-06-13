@@ -75,67 +75,6 @@ function buildSuggestions(tracks, usageMap, thresholds) {
   const coreMinPlays = coreCfg.minPlays;
   const coreMinMinutes = coreCfg.minMinutes;
 
-  // ERA
-  const hasYear = tracks.filter((t) => t.year);
-  const oldSchool = hasYear.filter((t) => t.year <= 2005);
-  const mid = hasYear.filter((t) => t.year > 2005 && t.year <= 2015);
-  const newer = hasYear.filter((t) => t.year > 2015);
-
-  if (oldSchool.length >= minSize) {
-    suggestions.push({
-      id: "era-old-school",
-      label: "Old School (≤ 2005)",
-      description: "Tracks from earlier eras in your playlist.",
-      ruleDescription: "year ≤ 2005",
-      tracks: oldSchool
-    });
-  }
-  if (mid.length >= minSize) {
-    suggestions.push({
-      id: "era-mid",
-      label: "2006–2015",
-      description: "Tracks released between 2006 and 2015.",
-      ruleDescription: "2006 ≤ year ≤ 2015",
-      tracks: mid
-    });
-  }
-  if (newer.length >= minSize) {
-    suggestions.push({
-      id: "era-new",
-      label: "Recent (2016+)",
-      description: "More recent additions to your playlist.",
-      ruleDescription: "year ≥ 2016",
-      tracks: newer
-    });
-  }
-
-  // POPULARITY
-  const hits = tracks.filter(
-    (t) => typeof t.popularity === "number" && t.popularity >= 70
-  );
-  const deepCuts = tracks.filter(
-    (t) => typeof t.popularity === "number" && t.popularity <= 40
-  );
-
-  if (hits.length >= minSize) {
-    suggestions.push({
-      id: "pop-hits",
-      label: "Hits / Mainstream",
-      description: "More popular tracks from your playlist.",
-      ruleDescription: "popularity ≥ 70",
-      tracks: hits
-    });
-  }
-  if (deepCuts.length >= minSize) {
-    suggestions.push({
-      id: "pop-deep",
-      label: "Deeper Cuts",
-      description: "Less popular tracks you might forget about.",
-      ruleDescription: "popularity ≤ 40",
-      tracks: deepCuts
-    });
-  }
-
   // USAGE-BASED
   if (usageMap) {
     const barelyPlayed = tracks.filter((t) => {
@@ -249,6 +188,7 @@ function buildSuggestions(tracks, usageMap, thresholds) {
 
 function getGroupKey(s) {
   const id = s.id || "";
+  if (id.startsWith("vibe-")) return "vibe";
   if (id.startsWith("era-")) return "era";
   if (id.startsWith("pop-")) return "popularity";
   if (id.startsWith("usage-")) return "usage";
@@ -603,6 +543,8 @@ function App() {
   const [historyFileNames, setHistoryFileNames] = useState([]);
   const [showDataHelp, setShowDataHelp] = useState(false);
   const [enrichProgress, setEnrichProgress] = useState(null); // { batch, totalBatches, startTime }
+  const [vibeGroupings, setVibeGroupings] = useState(null); // [{ name, description, track_ids }] | null
+  const [vibesLoading, setVibesLoading] = useState(false);
 
   const [enrichTick, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
@@ -613,7 +555,28 @@ function App() {
 
   const health = usageMap && tracks.length ? computePlaylistHealth(tracks, usageMap) : null;
 
-  const visibleSuggestions = suggestions.filter((s) => !dismissedSuggestionIds.has(s.id));
+  const vibeSuggestions = (() => {
+    if (!vibeGroupings || !tracks.length) return [];
+    const trackById = new Map(tracks.map((t) => [t.id, t]));
+    return vibeGroupings
+      .map((g, idx) => {
+        const groupTracks = (g.track_ids || [])
+          .map((id) => trackById.get(id))
+          .filter(Boolean);
+        if (groupTracks.length < 2) return null;
+        return {
+          id: `vibe-${idx}-${g.name.replace(/\s+/g, "-").toLowerCase()}`,
+          label: g.name,
+          description: g.description,
+          ruleDescription: `vibe: ${g.description}`,
+          tracks: groupTracks,
+        };
+      })
+      .filter(Boolean);
+  })();
+
+  const allSuggestions = [...vibeSuggestions, ...suggestions];
+  const visibleSuggestions = allSuggestions.filter((s) => !dismissedSuggestionIds.has(s.id));
 
   useEffect(() => {
     try {
@@ -882,6 +845,15 @@ function App() {
 
       if (selectedPlaylistIdRef.current !== playlistId) return;
 
+      const enrichedTracks = t.map((tr) => {
+        const genres = byTrackId[tr.id];
+        if (!genres) return tr;
+        return {
+          ...tr,
+          spotifyArtistGenres: genres.map((g) => ({ name: g, count: 1 })),
+        };
+      });
+
       setTracks((prev) =>
         prev.map((tr) => {
           const genres = byTrackId[tr.id];
@@ -892,8 +864,54 @@ function App() {
           };
         })
       );
+
+      // fire-and-forget vibe analysis using the genre-enriched tracks
+      enrichTracksWithVibes(playlistId, enrichedTracks);
     } catch (err) {
       console.warn("Spotify genres fetch failed (non-fatal):", err);
+    }
+  };
+
+  const enrichTracksWithVibes = async (playlistId, t) => {
+    if (!t.length) return;
+    setVibesLoading(true);
+
+    const payloadTracks = t.map((tr) => ({
+      id: tr.id,
+      name: tr.name || tr.title || "",
+      artists: tr.artists || [],
+      year: typeof tr.year === "number" ? tr.year : null,
+      spotifyArtistGenres: (tr.spotifyArtistGenres || []).map((g) =>
+        typeof g === "string" ? g : g?.name
+      ).filter(Boolean),
+      brainz: tr.brainz ? { tags: tr.brainz.tags || [] } : undefined,
+    }));
+
+    try {
+      const res = await fetch(`${API_BASE}/api/vibes/analyze`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tracks: payloadTracks }),
+      });
+
+      if (!res.ok) {
+        const errBody = await res.json().catch(() => ({}));
+        console.warn("Vibe analyze failed:", res.status, errBody);
+        return;
+      }
+
+      const data = await res.json();
+      if (selectedPlaylistIdRef.current !== playlistId) return;
+
+      console.log(
+        `Vibes: ${data.groupings?.length || 0} groupings ${data.cached ? "(cached)" : "(fresh)"}`
+      );
+      setVibeGroupings(data.groupings || []);
+    } catch (err) {
+      console.warn("Vibe analyze fetch failed (non-fatal):", err);
+    } finally {
+      setVibesLoading(false);
     }
   };
 
@@ -916,6 +934,8 @@ function App() {
     setExpandedSuggestionId(null);
     setSelectionBySuggestion({});
     setDismissedSuggestionIds(new Set());
+    setVibeGroupings(null);
+    setVibesLoading(false);
 
     setEnrichProgress(null);
 
