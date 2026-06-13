@@ -979,6 +979,20 @@ function App() {
     });
   };
 
+  const handleSelectAllTracks = (suggestion) => {
+    setSelectionBySuggestion((prev) => ({
+      ...prev,
+      [suggestion.id]: new Set(suggestion.tracks.map((t) => t.id)),
+    }));
+  };
+
+  const handleDeselectAllTracks = (suggestion) => {
+    setSelectionBySuggestion((prev) => ({
+      ...prev,
+      [suggestion.id]: new Set(),
+    }));
+  };
+
   const handleDismissSuggestion = (suggestionId) => {
     setDismissedSuggestionIds((prev) => {
       const next = new Set(prev);
@@ -1496,6 +1510,23 @@ function App() {
                               >
                                 {expanded ? "Hide tracks" : "View tracks"}
                               </button>
+
+                              {expanded && (
+                                <>
+                                  <button
+                                    className="btn-secondary"
+                                    onClick={() => handleSelectAllTracks(s)}
+                                  >
+                                    Select all
+                                  </button>
+                                  <button
+                                    className="btn-secondary"
+                                    onClick={() => handleDeselectAllTracks(s)}
+                                  >
+                                    Deselect all
+                                  </button>
+                                </>
+                              )}
 
                               {s.id === "usage-frequently-skipped" || s.id === "usage-barely-played" ? (
                                 <button
