@@ -865,12 +865,15 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
 
   const cacheKey = vibeCacheKey(tracks);
   const cachePath = path.join(VIBE_CACHE_DIR, `${cacheKey}.json`);
+  const force = req.query.force === "true" || req.body?.force === true;
 
-  try {
-    const cached = await fs.readFile(cachePath, "utf-8");
-    return res.json({ ...JSON.parse(cached), cached: true });
-  } catch (_) {
-    // cache miss — fall through
+  if (!force) {
+    try {
+      const cached = await fs.readFile(cachePath, "utf-8");
+      return res.json({ ...JSON.parse(cached), cached: true });
+    } catch (_) {
+      // cache miss — fall through
+    }
   }
 
   const trimmed = tracks.map(summarizeTrackForPrompt);
