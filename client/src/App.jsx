@@ -1452,7 +1452,6 @@ function App() {
                         const isVibe = s.id.startsWith("vibe-");
                         return (
                           <article key={s.id} className={`card suggestion-card${isVibe ? " vibe-card" : ""}`} data-group={getGroupKey(s)} style={{ animationDelay: `${index * 0.05}s` }}>
-                            {isVibe && <span className="vibe-badge">✨ Vibe</span>}
                             <div className="suggestion-header">
                               <div>
                                 {editingLabel?.id === s.id ? (
@@ -1481,6 +1480,7 @@ function App() {
                                 <p className="suggestion-sub">{s.description}</p>
                               </div>
                               <div className="suggestion-header-right">
+                                {isVibe && <span className="vibe-badge">✨ Vibe</span>}
                                 <button
                                   className={isSaved ? "star-btn starred" : "star-btn"}
                                   onClick={() => handleToggleSaveSuggestion(s)}

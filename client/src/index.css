@@ -355,14 +355,21 @@ body {
 .suggestion-card[data-group="vibe"]          { border-left-color: #A78BFA; border-left-width: 4px; }
 
 .suggestion-card.vibe-card {
-  position: relative;
   background: linear-gradient(180deg, rgba(167, 139, 250, 0.06) 0%, transparent 80%);
 }
 
+.suggestion-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.count-pill {
+  white-space: nowrap;
+}
+
 .vibe-badge {
-  position: absolute;
-  top: 12px;
-  right: 14px;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -372,7 +379,7 @@ body {
   border: 1px solid rgba(167, 139, 250, 0.3);
   padding: 3px 8px;
   border-radius: 999px;
-  pointer-events: none;
+  white-space: nowrap;
 }
 .suggestion-card[data-group="usage"]         { border-left-color: #FFF176; }
 .suggestion-card[data-group="popularity"]    { border-left-color: #81D4FA; }
