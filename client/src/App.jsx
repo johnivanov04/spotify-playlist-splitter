@@ -1172,15 +1172,67 @@ function App() {
 
       {!loggedIn && (
         <div className="landing-layout">
-          <div className="landing-card">
+          <div className="landing-card landing-card-wide">
             <h1 className="landing-title">Playlist Splitter</h1>
+            <p className="landing-tagline">
+              AI-curated sub-playlists, by vibe.
+            </p>
             <p className="landing-desc">
-              Take one big Spotify playlist and split it into smaller, vibe-based sub-playlists automatically.
+              Drop in any Spotify playlist — your years-deep&nbsp;"Liked Songs",
+              a sprawling&nbsp;"Workout" catch-all, the chaos of&nbsp;"Recently Added".
+              We use&nbsp;Claude to read every track and group them by <em>feel</em> —
+              think&nbsp;"Late Night Drive Home" or&nbsp;"Cookout Sunday" — not just by
+              genre. Save the ones you like as new Spotify playlists in one click.
             </p>
 
             <button className="btn-primary btn-login-large" onClick={handleLogin}>
               LOG IN WITH SPOTIFY
             </button>
+
+            <p className="landing-footnote">
+              Read-only by default. Write access is only used when you ask us to create a playlist.
+            </p>
+          </div>
+
+          <div className="landing-steps">
+            <div className="landing-step">
+              <div className="landing-step-num">1</div>
+              <h3>Connect Spotify</h3>
+              <p>One click. Your tokens never leave the server.</p>
+            </div>
+            <div className="landing-step">
+              <div className="landing-step-num">2</div>
+              <h3>Pick a playlist</h3>
+              <p>Choose from your library or paste a Spotify URL.</p>
+            </div>
+            <div className="landing-step">
+              <div className="landing-step-num">3</div>
+              <h3>See the vibes</h3>
+              <p>Claude proposes 4–8 vibe-based groupings. Refresh or steer with a custom prompt until they feel right.</p>
+            </div>
+            <div className="landing-step">
+              <div className="landing-step-num">4</div>
+              <h3>Save to Spotify</h3>
+              <p>Pick the groupings you like, cherry-pick individual tracks, and create new playlists in your account.</p>
+            </div>
+          </div>
+
+          <div className="landing-features">
+            <div className="landing-feature">
+              <div className="landing-feature-emoji">✨</div>
+              <h4>Vibes, not genres</h4>
+              <p>"3am Existential Crisis" beats "Sad Indie". The AI names groupings the way a real person would on a playlist cover.</p>
+            </div>
+            <div className="landing-feature">
+              <div className="landing-feature-emoji">🎛️</div>
+              <h4>You're in the loop</h4>
+              <p>Don't love the first take? Hit refresh, or type a steer like "more about activities than emotions" and re-roll.</p>
+            </div>
+            <div className="landing-feature">
+              <div className="landing-feature-emoji">⚡</div>
+              <h4>Free to explore</h4>
+              <p>Splits are cached per playlist, so revisiting a playlist is instant. Only fresh analyses cost anything.</p>
+            </div>
           </div>
         </div>
       )}
