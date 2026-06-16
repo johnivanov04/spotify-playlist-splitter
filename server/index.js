@@ -193,10 +193,66 @@ app.get("/api/internal/token", (req, res) => {
   res.json({ access_token: latestAccessToken });
 });
 
-function requireSpotifyAuth(req, res, next) {
+async function refreshSpotifyToken(req) {
+  if (!req.session?.refreshToken) {
+    throw new Error("No refresh token in session");
+  }
+
+  const body = querystring.stringify({
+    grant_type: "refresh_token",
+    refresh_token: req.session.refreshToken
+  });
+
+  const tokenRes = await fetch(SPOTIFY_TOKEN_URL, {
+    method: "POST",
+    headers: {
+      Authorization:
+        "Basic " + base64encode(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`),
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body
+  });
+
+  const tokenData = await tokenRes.json();
+  if (!tokenRes.ok) {
+    console.error("Spotify token refresh failed:", tokenData);
+    throw new Error(`Spotify token refresh failed: ${tokenData.error || tokenRes.status}`);
+  }
+
+  req.session.accessToken = tokenData.access_token;
+  req.session.expiresIn = tokenData.expires_in;
+  req.session.obtainedAt = Date.now();
+  // Spotify sometimes rotates the refresh token on refresh; keep the new one if provided.
+  if (tokenData.refresh_token) {
+    req.session.refreshToken = tokenData.refresh_token;
+  }
+
+  latestAccessToken = tokenData.access_token;
+  console.log(`Spotify token refreshed (expires in ${tokenData.expires_in}s)`);
+}
+
+function isTokenNearExpiry(req) {
+  if (!req.session?.obtainedAt || !req.session?.expiresIn) return true;
+  const ageMs = Date.now() - req.session.obtainedAt;
+  const expiresInMs = req.session.expiresIn * 1000;
+  // refresh 5 minutes before actual expiry to avoid mid-request failures
+  return ageMs > expiresInMs - 5 * 60 * 1000;
+}
+
+async function requireSpotifyAuth(req, res, next) {
   if (!req.session || !req.session.accessToken) {
     return res.status(401).json({ error: "Not authenticated" });
   }
+
+  if (isTokenNearExpiry(req)) {
+    try {
+      await refreshSpotifyToken(req);
+    } catch (err) {
+      console.error("Failed to refresh Spotify token:", err.message);
+      return res.status(401).json({ error: "Session expired — please log in again" });
+    }
+  }
+
   next();
 }
 
