@@ -818,6 +818,12 @@ body {
   animation: fadeInUp 0.6s ease-out;
 }
 
+.landing-card-wide {
+  max-width: 960px;
+  padding: 2.5rem 3rem;
+  margin-bottom: 2rem;
+}
+
 .landing-title {
   font-size: 2.5rem;
   font-weight: 800;
@@ -828,11 +834,129 @@ body {
   letter-spacing: -0.03em;
 }
 
+.landing-tagline {
+  color: #d0d0d0;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 0 0 1.25rem;
+  letter-spacing: -0.01em;
+}
+
 .landing-desc {
   color: #a7a7a7;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
+  margin: 0 auto 1.5rem;
+  text-align: left;
+  max-width: 720px;
+}
+
+.landing-desc em {
+  color: #d0d0d0;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.landing-footnote {
+  color: #707070;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.landing-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out 0.3s forwards;
+}
+
+.landing-step {
+  text-align: left;
+  padding: 1.25rem 1.1rem;
+  background: rgba(24, 24, 24, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.landing-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(29, 185, 84, 0.15);
+  color: #1db954;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.6rem;
+}
+
+.landing-step h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  color: #ffffff;
+}
+
+.landing-step p {
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.landing-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 1rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out 0.5s forwards;
+}
+
+.landing-feature {
+  text-align: left;
+  padding: 1rem;
+}
+
+.landing-feature-emoji {
+  font-size: 1.35rem;
+  margin-bottom: 0.4rem;
+}
+
+.landing-feature h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  color: rgba(167, 139, 250, 1);
+}
+
+.landing-feature p {
+  font-size: 0.85rem;
+  color: #a0a0a0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .landing-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+  .landing-features {
+    grid-template-columns: 1fr;
+  }
+  .landing-card-wide {
+    padding: 1.5rem 1.25rem;
+  }
 }
 
 .btn-login-large {
