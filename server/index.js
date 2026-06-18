@@ -6,8 +6,6 @@ const cors = require("cors");
 const cookieSession = require("cookie-session");
 const querystring = require("querystring");
 const crypto = require("crypto");
-const fs = require("fs/promises");
-const path = require("path");
 const Anthropic = require("@anthropic-ai/sdk");
 const { eq } = require("drizzle-orm");
 const { db, schema } = require("./db");
@@ -31,7 +29,6 @@ if (!SPOTIFY_CLIENT_ID || !SPOTIFY_CLIENT_SECRET || !SPOTIFY_REDIRECT_URI) {
 }
 
 const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
-const VIBE_CACHE_DIR = path.resolve(__dirname, "../ml_pipeline/data/cache/vibe_cache");
 
 app.use(express.json({ limit: "2mb" }));
 
@@ -997,15 +994,16 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
   const steerText = typeof steer === "string" ? steer.trim().slice(0, 500) : "";
 
   const cacheKey = vibeCacheKey(tracks, steerText);
-  const cachePath = path.join(VIBE_CACHE_DIR, `${cacheKey}.json`);
   const force = req.query.force === "true" || req.body?.force === true;
 
   if (!force) {
-    try {
-      const cached = await fs.readFile(cachePath, "utf-8");
-      return res.json({ ...JSON.parse(cached), cached: true });
-    } catch (_) {
-      // cache miss — fall through
+    const cached = await db
+      .select()
+      .from(schema.vibeCaches)
+      .where(eq(schema.vibeCaches.cacheKey, cacheKey))
+      .limit(1);
+    if (cached.length > 0) {
+      return res.json({ groupings: cached[0].groupings, cached: true });
     }
   }
 
@@ -1089,8 +1087,16 @@ ${JSON.stringify(trimmed, null, 2)}`;
 
     const result = { groupings: mappedGroupings };
 
-    await fs.mkdir(VIBE_CACHE_DIR, { recursive: true });
-    await fs.writeFile(cachePath, JSON.stringify(result, null, 2), "utf-8");
+    // Upsert into the vibe cache. Two concurrent writes for the same cache_key
+    // would conflict, so we use ON CONFLICT DO NOTHING — the first writer wins.
+    await db
+      .insert(schema.vibeCaches)
+      .values({
+        cacheKey,
+        groupings: result.groupings,
+        createdByUserId: req.user.id,
+      })
+      .onConflictDoNothing({ target: schema.vibeCaches.cacheKey });
 
     console.log(
       `Vibe analyze: ${trimmed.length} tracks → ${result.groupings.length} groupings ` +

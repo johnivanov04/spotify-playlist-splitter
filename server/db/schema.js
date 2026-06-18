@@ -1,4 +1,4 @@
-const { pgTable, text, timestamp, integer, uuid } = require("drizzle-orm/pg-core");
+const { pgTable, text, timestamp, integer, uuid, jsonb } = require("drizzle-orm/pg-core");
 
 // Users — one row per Spotify account that has logged in.
 // Spotify tokens live here so they survive server restarts and are
@@ -26,4 +26,16 @@ const users = pgTable("users", {
   updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow().notNull(),
 });
 
-module.exports = { users };
+// Vibe caches — shared across users. Key is sha256(sorted_track_ids + steer).
+// Two requests with the same playlist tracks + steer produce the same key and
+// share the cached result. created_by_user_id records who paid for the
+// original analysis (for cost attribution / future audit).
+const vibeCaches = pgTable("vibe_caches", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  cacheKey: text("cache_key").notNull().unique(),
+  groupings: jsonb("groupings").notNull(), // [{ name, description, track_ids: [string] }]
+  createdByUserId: uuid("created_by_user_id").references(() => users.id, { onDelete: "set null" }),
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
+});
+
+module.exports = { users, vibeCaches };
