@@ -9,6 +9,8 @@ const crypto = require("crypto");
 const fs = require("fs/promises");
 const path = require("path");
 const Anthropic = require("@anthropic-ai/sdk");
+const { eq } = require("drizzle-orm");
+const { db, schema } = require("./db");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -162,10 +164,59 @@ app.get("/auth/callback", async (req, res) => {
       return res.status(400).send("Token exchange failed");
     }
 
-    req.session.accessToken = tokenData.access_token;
-    req.session.refreshToken = tokenData.refresh_token;
-    req.session.expiresIn = tokenData.expires_in;
-    req.session.obtainedAt = Date.now();
+    // Fetch the Spotify user profile so we can key on their stable account ID.
+    const meRes = await fetch(`${SPOTIFY_API_BASE}/me`, {
+      headers: { Authorization: `Bearer ${tokenData.access_token}` }
+    });
+    if (!meRes.ok) {
+      console.error("Failed to fetch /me during auth:", meRes.status);
+      return res.status(502).send("Spotify profile fetch failed");
+    }
+    const me = await meRes.json();
+
+    // Upsert the user row.
+    const now = new Date();
+    const tokenObtainedAt = now;
+    const existing = await db
+      .select()
+      .from(schema.users)
+      .where(eq(schema.users.spotifyUserId, me.id))
+      .limit(1);
+
+    let userRow;
+    if (existing.length > 0) {
+      const [updated] = await db
+        .update(schema.users)
+        .set({
+          email: me.email || null,
+          displayName: me.display_name || null,
+          accessToken: tokenData.access_token,
+          refreshToken: tokenData.refresh_token,
+          expiresInSeconds: tokenData.expires_in,
+          tokenObtainedAt,
+          updatedAt: now,
+        })
+        .where(eq(schema.users.spotifyUserId, me.id))
+        .returning();
+      userRow = updated;
+    } else {
+      const [inserted] = await db
+        .insert(schema.users)
+        .values({
+          spotifyUserId: me.id,
+          email: me.email || null,
+          displayName: me.display_name || null,
+          accessToken: tokenData.access_token,
+          refreshToken: tokenData.refresh_token,
+          expiresInSeconds: tokenData.expires_in,
+          tokenObtainedAt,
+        })
+        .returning();
+      userRow = inserted;
+    }
+
+    // Session holds only the opaque user ID. Tokens stay in the DB.
+    req.session.userId = userRow.id;
 
     res.redirect(FRONTEND_URL || "http://127.0.0.1:5173");
   } catch (err) {
@@ -179,14 +230,14 @@ app.post("/auth/logout", (req, res) => {
   res.json({ ok: true });
 });
 
-async function refreshSpotifyToken(req) {
-  if (!req.session?.refreshToken) {
-    throw new Error("No refresh token in session");
+async function refreshSpotifyToken(user) {
+  if (!user?.refreshToken) {
+    throw new Error("No refresh token on user");
   }
 
   const body = querystring.stringify({
     grant_type: "refresh_token",
-    refresh_token: req.session.refreshToken
+    refresh_token: user.refreshToken
   });
 
   const tokenRes = await fetch(SPOTIFY_TOKEN_URL, {
@@ -205,39 +256,66 @@ async function refreshSpotifyToken(req) {
     throw new Error(`Spotify token refresh failed: ${tokenData.error || tokenRes.status}`);
   }
 
-  req.session.accessToken = tokenData.access_token;
-  req.session.expiresIn = tokenData.expires_in;
-  req.session.obtainedAt = Date.now();
-  // Spotify sometimes rotates the refresh token on refresh; keep the new one if provided.
+  const now = new Date();
+  const updateFields = {
+    accessToken: tokenData.access_token,
+    expiresInSeconds: tokenData.expires_in,
+    tokenObtainedAt: now,
+    updatedAt: now,
+  };
+  // Spotify sometimes rotates the refresh token; keep the new one if provided.
   if (tokenData.refresh_token) {
-    req.session.refreshToken = tokenData.refresh_token;
+    updateFields.refreshToken = tokenData.refresh_token;
   }
 
-  console.log(`Spotify token refreshed (expires in ${tokenData.expires_in}s)`);
+  const [updated] = await db
+    .update(schema.users)
+    .set(updateFields)
+    .where(eq(schema.users.id, user.id))
+    .returning();
+
+  console.log(`Spotify token refreshed for user ${user.id} (expires in ${tokenData.expires_in}s)`);
+  return updated;
 }
 
-function isTokenNearExpiry(req) {
-  if (!req.session?.obtainedAt || !req.session?.expiresIn) return true;
-  const ageMs = Date.now() - req.session.obtainedAt;
-  const expiresInMs = req.session.expiresIn * 1000;
+function isTokenNearExpiry(user) {
+  if (!user?.tokenObtainedAt || !user?.expiresInSeconds) return true;
+  const obtainedMs = new Date(user.tokenObtainedAt).getTime();
+  const ageMs = Date.now() - obtainedMs;
+  const expiresInMs = user.expiresInSeconds * 1000;
   // refresh 5 minutes before actual expiry to avoid mid-request failures
   return ageMs > expiresInMs - 5 * 60 * 1000;
 }
 
 async function requireSpotifyAuth(req, res, next) {
-  if (!req.session || !req.session.accessToken) {
+  const userId = req.session?.userId;
+  if (!userId) {
     return res.status(401).json({ error: "Not authenticated" });
   }
 
-  if (isTokenNearExpiry(req)) {
+  const found = await db
+    .select()
+    .from(schema.users)
+    .where(eq(schema.users.id, userId))
+    .limit(1);
+
+  if (found.length === 0 || !found[0].accessToken) {
+    req.session = null;
+    return res.status(401).json({ error: "Not authenticated" });
+  }
+
+  let user = found[0];
+
+  if (isTokenNearExpiry(user)) {
     try {
-      await refreshSpotifyToken(req);
+      user = await refreshSpotifyToken(user);
     } catch (err) {
       console.error("Failed to refresh Spotify token:", err.message);
       return res.status(401).json({ error: "Session expired — please log in again" });
     }
   }
 
+  req.user = user;
   next();
 }
 
@@ -245,7 +323,7 @@ async function requireSpotifyAuth(req, res, next) {
 
 app.get("/api/me", requireSpotifyAuth, async (req, res) => {
   try {
-    const me = await fetchWithAuth("/me", req.session.accessToken);
+    const me = await fetchWithAuth("/me", req.user.accessToken);
     res.json(me);
   } catch (err) {
     console.error("Error fetching /me:", err);
@@ -254,7 +332,7 @@ app.get("/api/me", requireSpotifyAuth, async (req, res) => {
 });
 
 app.get("/api/playlists", requireSpotifyAuth, async (req, res) => {
-  const accessToken = req.session.accessToken;
+  const accessToken = req.user.accessToken;
 
   try {
     let url = `${SPOTIFY_API_BASE}/me/playlists?limit=50`;
@@ -290,7 +368,7 @@ app.get("/api/playlists", requireSpotifyAuth, async (req, res) => {
 
 // Fetch playlist tracks + ISRC via /tracks batch + best-effort audio-features
 app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
-  const accessToken = req.session.accessToken;
+  const accessToken = req.user.accessToken;
   const playlistId = req.params.id;
 
   try {
@@ -441,7 +519,7 @@ app.get("/api/playlists/:id/tracks", requireSpotifyAuth, async (req, res) => {
 });
 
 app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
-  const accessToken = req.session.accessToken;
+  const accessToken = req.user.accessToken;
   const { name, description, trackIds } = req.body || {};
 
   if (!name || !Array.isArray(trackIds) || trackIds.length === 0) {
@@ -512,7 +590,7 @@ app.post("/api/playlists", requireSpotifyAuth, async (req, res) => {
 });
 
 app.post("/api/playlists/:id/remove-tracks", requireSpotifyAuth, async (req, res) => {
-  const accessToken = req.session.accessToken;
+  const accessToken = req.user.accessToken;
   const playlistId = req.params.id;
   const { trackIds } = req.body;
 
@@ -710,7 +788,7 @@ app.post("/api/brainz/enrich", requireSpotifyAuth, async (req, res) => {
 // Batch-fetch Spotify artist genres for a list of track IDs.
 // POST { trackIds: string[] } → { byTrackId: { [id]: string[] } }
 app.post("/api/spotify/artist-genres", requireSpotifyAuth, async (req, res) => {
-  const accessToken = req.session.accessToken;
+  const accessToken = req.user.accessToken;
   const { trackIds } = req.body || {};
 
   if (!Array.isArray(trackIds) || trackIds.length === 0) {
