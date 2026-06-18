@@ -9,6 +9,8 @@ const crypto = require("crypto");
 const Anthropic = require("@anthropic-ai/sdk");
 const { eq } = require("drizzle-orm");
 const { db, schema } = require("./db");
+const { vibeCacheKey, summarizeTrackForPrompt, mapIndicesToTrackIds } = require("./lib/vibes");
+const { isTokenNearExpiry } = require("./lib/token");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -273,15 +275,6 @@ async function refreshSpotifyToken(user) {
 
   console.log(`Spotify token refreshed for user ${user.id} (expires in ${tokenData.expires_in}s)`);
   return updated;
-}
-
-function isTokenNearExpiry(user) {
-  if (!user?.tokenObtainedAt || !user?.expiresInSeconds) return true;
-  const obtainedMs = new Date(user.tokenObtainedAt).getTime();
-  const ageMs = Date.now() - obtainedMs;
-  const expiresInMs = user.expiresInSeconds * 1000;
-  // refresh 5 minutes before actual expiry to avoid mid-request failures
-  return ageMs > expiresInMs - 5 * 60 * 1000;
 }
 
 async function requireSpotifyAuth(req, res, next) {
@@ -955,28 +948,6 @@ const VIBE_SCHEMA = {
   additionalProperties: false
 };
 
-function vibeCacheKey(tracks, steer) {
-  const ids = tracks.map((t) => t && t.id).filter(Boolean).slice().sort();
-  const steerKey = (steer || "").trim().toLowerCase();
-  const hash = crypto.createHash("sha256");
-  hash.update(ids.join(","));
-  if (steerKey) hash.update("\nSTEER:" + steerKey);
-  return hash.digest("hex");
-}
-
-function summarizeTrackForPrompt(t, index) {
-  return {
-    index,
-    title: t.name || t.title || "",
-    artist: Array.isArray(t.artists) ? t.artists.join(", ") : (t.artist || ""),
-    year: typeof t.year === "number" ? t.year : null,
-    genres: Array.isArray(t.spotifyArtistGenres) ? t.spotifyArtistGenres.slice(0, 8) : [],
-    tags: Array.isArray(t?.brainz?.tags)
-      ? t.brainz.tags.slice(0, 6).map((x) => (typeof x === "string" ? x : x?.name)).filter(Boolean)
-      : []
-  };
-}
-
 // POST { tracks: [{ id, name, artists, year, spotifyArtistGenres, brainz: { tags } }, ...] }
 //   → { groupings: [{ name, description, track_ids }, ...], cached: boolean }
 app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
@@ -1064,28 +1035,7 @@ ${JSON.stringify(trimmed, null, 2)}`;
     }
 
     // Map track_indices back to track_ids using the input order.
-    const inputIds = tracks.map((t) => t && t.id);
-    const seenIndices = new Set();
-    const mappedGroupings = (parsed.groupings || []).map((g) => {
-      const indices = Array.isArray(g.track_indices) ? g.track_indices : [];
-      const trackIds = [];
-      for (const idx of indices) {
-        if (typeof idx !== "number" || !Number.isInteger(idx)) continue;
-        if (idx < 0 || idx >= inputIds.length) continue;
-        if (seenIndices.has(idx)) continue;
-        const id = inputIds[idx];
-        if (!id) continue;
-        seenIndices.add(idx);
-        trackIds.push(id);
-      }
-      return {
-        name: g.name,
-        description: g.description,
-        track_ids: trackIds,
-      };
-    }).filter((g) => g.track_ids.length >= 2);
-
-    const result = { groupings: mappedGroupings };
+    const result = { groupings: mapIndicesToTrackIds(parsed.groupings, tracks) };
 
     // Upsert into the vibe cache. Two concurrent writes for the same cache_key
     // would conflict, so we use ON CONFLICT DO NOTHING — the first writer wins.
@@ -1111,6 +1061,10 @@ ${JSON.stringify(trimmed, null, 2)}`;
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on http://127.0.0.1:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server listening on http://127.0.0.1:${PORT}`);
+  });
+}
+
+module.exports = app;
