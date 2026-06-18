@@ -167,9 +167,6 @@ app.get("/auth/callback", async (req, res) => {
     req.session.expiresIn = tokenData.expires_in;
     req.session.obtainedAt = Date.now();
 
-    // keep a server-side copy so local scripts can retrieve it
-    latestAccessToken = tokenData.access_token;
-
     res.redirect(FRONTEND_URL || "http://127.0.0.1:5173");
   } catch (err) {
     console.error("Error in auth callback:", err);
@@ -179,18 +176,7 @@ app.get("/auth/callback", async (req, res) => {
 
 app.post("/auth/logout", (req, res) => {
   req.session = null;
-  latestAccessToken = null;
   res.json({ ok: true });
-});
-
-// Local-only endpoint for ML pipeline scripts running on the same machine
-let latestAccessToken = null;
-app.get("/api/internal/token", (req, res) => {
-  const ip = req.ip || req.connection.remoteAddress || "";
-  const isLocal = ip === "127.0.0.1" || ip === "::1" || ip === "::ffff:127.0.0.1";
-  if (!isLocal) return res.status(403).json({ error: "Localhost only" });
-  if (!latestAccessToken) return res.status(401).json({ error: "Not authenticated" });
-  res.json({ access_token: latestAccessToken });
 });
 
 async function refreshSpotifyToken(req) {
@@ -227,7 +213,6 @@ async function refreshSpotifyToken(req) {
     req.session.refreshToken = tokenData.refresh_token;
   }
 
-  latestAccessToken = tokenData.access_token;
   console.log(`Spotify token refreshed (expires in ${tokenData.expires_in}s)`);
 }
 
