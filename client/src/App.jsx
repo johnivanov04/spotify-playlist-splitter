@@ -546,6 +546,11 @@ function App() {
   const [vibeGroupings, setVibeGroupings] = useState(null); // [{ name, description, track_ids }] | null
   const [vibesLoading, setVibesLoading] = useState(false);
   const [vibeSteer, setVibeSteer] = useState("");
+  // Server-side enforcement of monthly quota and 30s rate limit. Server returns
+  // {used, limit, reset_at} on every vibe response (success, cache hit, 429).
+  const [vibeQuota, setVibeQuota] = useState(null);
+  // Last 429 detail — null when ok, { kind: "quota"|"rate", message, retryAfterMs? }
+  const [vibeQuotaError, setVibeQuotaError] = useState(null);
 
   const [enrichTick, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
@@ -891,6 +896,7 @@ function App() {
       brainz: tr.brainz ? { tags: tr.brainz.tags || [] } : undefined,
     }));
 
+    setVibeQuotaError(null); // clear previous 429 banner on retry
     try {
       const url = `${API_BASE}/api/vibes/analyze${force ? "?force=true" : ""}`;
       const res = await fetch(url, {
@@ -900,19 +906,30 @@ function App() {
         body: JSON.stringify({ tracks: payloadTracks, steer: steer.trim() || undefined }),
       });
 
+      const body = await res.json().catch(() => ({}));
+      if (selectedPlaylistIdRef.current !== playlistId) return;
+
+      // Quota info is included even on 429s — keep it current.
+      if (body && body.quota) setVibeQuota(body.quota);
+
       if (!res.ok) {
-        const errBody = await res.json().catch(() => ({}));
-        console.warn("Vibe analyze failed:", res.status, errBody);
+        if (res.status === 429) {
+          const isRate = typeof body.retry_after_ms === "number";
+          setVibeQuotaError({
+            kind: isRate ? "rate" : "quota",
+            message: body.error || (isRate ? "Rate limited" : "Monthly quota exceeded"),
+            retryAfterMs: isRate ? body.retry_after_ms : undefined,
+          });
+        } else {
+          console.warn("Vibe analyze failed:", res.status, body);
+        }
         return;
       }
 
-      const data = await res.json();
-      if (selectedPlaylistIdRef.current !== playlistId) return;
-
       console.log(
-        `Vibes: ${data.groupings?.length || 0} groupings ${data.cached ? "(cached)" : "(fresh)"}`
+        `Vibes: ${body.groupings?.length || 0} groupings ${body.cached ? "(cached)" : "(fresh)"}`
       );
-      setVibeGroupings(data.groupings || []);
+      setVibeGroupings(body.groupings || []);
     } catch (err) {
       console.warn("Vibe analyze fetch failed (non-fatal):", err);
     } finally {
@@ -942,6 +959,9 @@ function App() {
     setVibeGroupings(null);
     setVibesLoading(false);
     setVibeSteer("");
+    setVibeQuotaError(null);
+    // Note: do NOT reset vibeQuota on playlist switch — quota is user-scoped,
+    // not playlist-scoped, and showing the carry-over value is useful UX.
 
     setEnrichProgress(null);
 
@@ -1467,37 +1487,72 @@ function App() {
                       <span className="vibes-loading-hint">Sonnet is reading your playlist; this usually takes 30–90 seconds.</span>
                     </div>
                   )}
-                  {!loadingTracks && vibeSuggestions.length > 0 && (
-                    <div className="vibes-refresh-row">
-                      <input
-                        className="vibes-steer-input"
-                        type="text"
-                        placeholder="Steer the vibes (e.g. 'more about activities', 'late-night only')…"
-                        value={vibeSteer}
-                        onChange={(e) => setVibeSteer(e.target.value)}
-                        onKeyDown={(e) => {
-                          if (e.key === "Enter" && !vibesLoading) {
-                            enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer });
-                          }
-                        }}
-                        disabled={vibesLoading}
-                      />
-                      <button
-                        className="vibes-refresh-btn"
-                        disabled={vibesLoading}
-                        onClick={() => enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer })}
-                        title="Re-roll the AI's vibe groupings (~$0.10)"
-                      >
-                        {vibesLoading ? (
-                          <>
-                            <span className="vibes-loading-pulse" /> Re-rolling vibes…
-                          </>
-                        ) : (
-                          <>↻ Refresh vibes</>
+                  {!loadingTracks && vibeSuggestions.length > 0 && (() => {
+                    const quotaExhausted =
+                      vibeQuota && typeof vibeQuota.used === "number" &&
+                      typeof vibeQuota.limit === "number" &&
+                      vibeQuota.used >= vibeQuota.limit;
+                    const refreshDisabled =
+                      vibesLoading || quotaExhausted || (vibeQuotaError?.kind === "rate");
+                    const refreshTitle = quotaExhausted
+                      ? "Monthly fresh-analysis quota reached"
+                      : vibeQuotaError?.kind === "rate"
+                        ? "Slow down — wait a few seconds and try again"
+                        : "Re-roll the AI's vibe groupings (~$0.10)";
+                    return (
+                      <>
+                        <div className="vibes-refresh-row">
+                          <input
+                            className="vibes-steer-input"
+                            type="text"
+                            placeholder="Steer the vibes (e.g. 'more about activities', 'late-night only')…"
+                            value={vibeSteer}
+                            onChange={(e) => setVibeSteer(e.target.value)}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter" && !refreshDisabled) {
+                                enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer });
+                              }
+                            }}
+                            disabled={vibesLoading}
+                          />
+                          {vibeQuota && (
+                            <span className="vibes-quota-pill" data-exhausted={quotaExhausted ? "true" : "false"}>
+                              {vibeQuota.used}/{vibeQuota.limit} this month
+                            </span>
+                          )}
+                          <button
+                            className="vibes-refresh-btn"
+                            disabled={refreshDisabled}
+                            onClick={() => enrichTracksWithVibes(selectedPlaylist.id, tracks, { force: true, steer: vibeSteer })}
+                            title={refreshTitle}
+                          >
+                            {vibesLoading ? (
+                              <>
+                                <span className="vibes-loading-pulse" /> Re-rolling vibes…
+                              </>
+                            ) : (
+                              <>↻ Refresh vibes</>
+                            )}
+                          </button>
+                        </div>
+                        {vibeQuotaError && (
+                          <div className="vibes-quota-banner" data-kind={vibeQuotaError.kind}>
+                            {vibeQuotaError.kind === "quota" ? (
+                              <>
+                                <strong>You've used your free analyses for this month.</strong>{" "}
+                                Cache hits are still free; new vibes will be available after your quota resets.
+                              </>
+                            ) : (
+                              <>
+                                <strong>Whoa — slow down.</strong>{" "}
+                                Try again in {Math.ceil((vibeQuotaError.retryAfterMs || 30000) / 1000)} seconds.
+                              </>
+                            )}
+                          </div>
                         )}
-                      </button>
-                    </div>
-                  )}
+                      </>
+                    );
+                  })()}
                   {!loadingTracks && visibleSuggestions.length > 0 && (
                     <div className="suggestions-grid">
                       {visibleSuggestions.map((s, index) => {

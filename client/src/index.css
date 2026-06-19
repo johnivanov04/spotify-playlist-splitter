@@ -1193,6 +1193,48 @@ body {
   opacity: 0.5;
 }
 
+.vibes-quota-pill {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+
+.vibes-quota-pill[data-exhausted="true"] {
+  color: rgba(255, 165, 100, 0.9);
+  background: rgba(255, 100, 80, 0.08);
+  border-color: rgba(255, 100, 80, 0.3);
+}
+
+.vibes-quota-banner {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.vibes-quota-banner[data-kind="quota"] {
+  background: rgba(255, 100, 80, 0.08);
+  border: 1px solid rgba(255, 100, 80, 0.3);
+  color: rgba(255, 200, 180, 0.95);
+}
+
+.vibes-quota-banner[data-kind="rate"] {
+  background: rgba(167, 139, 250, 0.08);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  color: rgba(220, 210, 255, 0.95);
+}
+
+.vibes-refresh-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
 .vibes-refresh-btn {
   display: inline-flex;
   align-items: center;
