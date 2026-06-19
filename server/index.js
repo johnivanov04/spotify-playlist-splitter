@@ -38,6 +38,14 @@ if (!SPOTIFY_CLIENT_ID || !SPOTIFY_CLIENT_SECRET || !SPOTIFY_REDIRECT_URI) {
 }
 
 const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
+const IS_PRODUCTION = process.env.NODE_ENV === "production";
+
+// Trust the load balancer when deployed (Render / Fly / Vercel all sit in
+// front of us with HTTPS termination). Affects req.secure, req.ip, and
+// cookie-session's secure-flag enforcement.
+if (IS_PRODUCTION) {
+  app.set("trust proxy", 1);
+}
 
 app.use(express.json({ limit: "2mb" }));
 
@@ -45,7 +53,13 @@ app.use(
   cookieSession({
     name: "session",
     keys: [SESSION_SECRET || "dev-secret"],
-    maxAge: 24 * 60 * 60 * 1000 // 1 day
+    maxAge: 24 * 60 * 60 * 1000, // 1 day
+    // In production the cookie should only ever be sent over HTTPS and never
+    // be readable from JS. Locally we leave both off so http://127.0.0.1
+    // sessions work.
+    secure: IS_PRODUCTION,
+    httpOnly: true,
+    sameSite: IS_PRODUCTION ? "lax" : false,
   })
 );
 
@@ -71,6 +85,19 @@ const corsOptions = {
 app.use(cors(corsOptions));
 // Express 5 safe preflight handler:
 app.options(/.*/, cors(corsOptions));
+
+// ---- Health check --------------------------------------------------
+// Public, unauthenticated, intentionally cheap. Deploy probes (Render's
+// HTTP health check, Fly's checks, etc.) hit this every few seconds.
+// Returns 200 with a small JSON body so it's both ok-for-probes and
+// inspectable from a browser.
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "ok",
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+  });
+});
 
 const SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize";
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
