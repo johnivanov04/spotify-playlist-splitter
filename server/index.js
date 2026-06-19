@@ -57,9 +57,14 @@ app.use(
     // In production the cookie should only ever be sent over HTTPS and never
     // be readable from JS. Locally we leave both off so http://127.0.0.1
     // sessions work.
+    //
+    // SameSite=None is required because the client (Vercel) and server (Render)
+    // live on different origins — `fetch(...,{credentials:"include"})` from the
+    // client → server is a cross-site XHR, which only carries cookies that are
+    // SameSite=None + Secure. SameSite=Lax would block them.
     secure: IS_PRODUCTION,
     httpOnly: true,
-    sameSite: IS_PRODUCTION ? "lax" : false,
+    sameSite: IS_PRODUCTION ? "none" : false,
   })
 );
 
