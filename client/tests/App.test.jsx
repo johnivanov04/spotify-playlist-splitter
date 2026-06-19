@@ -515,6 +515,143 @@ describe("Create playlist", () => {
 });
 
 // ============================================================
+// QUOTA UI
+// ============================================================
+describe("Quota UI", () => {
+  function setupVibe({ quota, status = 200, body }) {
+    const tracks = Array.from({ length: 6 }, (_, i) => ({
+      id: `t-${i}`, name: `S${i}`, artists: ["A"], year: 2024, popularity: 50, album: "", imageUrl: "",
+    }));
+    routes = {
+      "GET /api/me": { body: { id: "u1" } },
+      "GET /api/playlists": { body: { playlists: [{ id: "p1", name: "Mix", images: [] }] } },
+      "GET /api/playlists/p1/tracks": { body: { tracks, playlistName: "Mix" } },
+      "POST /api/spotify/artist-genres": { body: { byTrackId: {} } },
+      "POST /api/vibes/analyze": {
+        status,
+        body: body ?? {
+          cached: false,
+          groupings: [
+            { name: "Vibe One", description: "d", track_ids: ["t-0", "t-1", "t-2", "t-3"] },
+          ],
+          quota,
+        },
+      },
+    };
+  }
+
+  it("renders the 'N/M this month' pill after a successful analysis", async () => {
+    setupVibe({ quota: { used: 1, limit: 3, reset_at: "2026-07-19T00:00:00Z" } });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+
+    expect(await screen.findByText(/1\s*\/\s*3 this month/i)).toBeInTheDocument();
+  });
+
+  it("renders the pill on a cache-hit response too (no separate code path)", async () => {
+    setupVibe({
+      quota: { used: 2, limit: 3, reset_at: null },
+      body: {
+        cached: true,
+        groupings: [
+          { name: "Vibe One", description: "d", track_ids: ["t-0", "t-1", "t-2", "t-3"] },
+        ],
+        quota: { used: 2, limit: 3, reset_at: null },
+      },
+    });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+    expect(await screen.findByText(/2\s*\/\s*3 this month/i)).toBeInTheDocument();
+  });
+
+  it("shows the Pro tier limit (50) when subscription is active", async () => {
+    setupVibe({ quota: { used: 7, limit: 50, reset_at: null } });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+    expect(await screen.findByText(/7\s*\/\s*50 this month/i)).toBeInTheDocument();
+  });
+
+  it("on 429 quota-exhausted, shows the quota banner and disables the refresh button", async () => {
+    // First response: groupings render with quota 2/3 — still room, refresh enabled.
+    setupVibe({ quota: { used: 2, limit: 3, reset_at: "2026-07-19T00:00:00Z" } });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+    // Sanity: refresh enabled at this point
+    expect(screen.getByRole("button", { name: /refresh vibes/i })).not.toBeDisabled();
+
+    // Force a refresh that hits the server's quota gate (429 quota-exhausted).
+    routes["POST /api/vibes/analyze"] = {
+      status: 429,
+      body: {
+        error: "Monthly fresh-analysis quota exceeded",
+        quota: { used: 3, limit: 3, reset_at: "2026-07-19T00:00:00Z" },
+      },
+    };
+    await userEvent.click(screen.getByRole("button", { name: /refresh vibes/i }));
+
+    expect(await screen.findByText(/used your free analyses/i)).toBeInTheDocument();
+    // Pill now reflects the new value, and the refresh button is disabled.
+    expect(screen.getByText(/3\s*\/\s*3 this month/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /refresh vibes/i })).toBeDisabled();
+  });
+
+  it("on 429 rate-limited, shows a 'slow down' banner with the wait time", async () => {
+    setupVibe({ quota: { used: 1, limit: 3, reset_at: null } });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+
+    routes["POST /api/vibes/analyze"] = {
+      status: 429,
+      body: {
+        error: "Rate limited; try again shortly",
+        retry_after_ms: 27000,
+        quota: { used: 1, limit: 3, reset_at: null },
+      },
+    };
+    await userEvent.click(screen.getByRole("button", { name: /refresh vibes/i }));
+
+    expect(await screen.findByText(/slow down/i)).toBeInTheDocument();
+    // The seconds-remaining hint should be present
+    expect(screen.getByText(/27 seconds/i)).toBeInTheDocument();
+    // Refresh button is disabled while rate-limited
+    expect(screen.getByRole("button", { name: /refresh vibes/i })).toBeDisabled();
+  });
+
+  it("when quota is exhausted from the very first response, the pill highlights and button disables", async () => {
+    setupVibe({ quota: { used: 3, limit: 3, reset_at: null } });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+
+    const pill = await screen.findByText(/3\s*\/\s*3 this month/i);
+    // The exhausted variant sets the data-exhausted attribute on the pill
+    expect(pill.getAttribute("data-exhausted")).toBe("true");
+    expect(screen.getByRole("button", { name: /refresh vibes/i })).toBeDisabled();
+  });
+
+  it("does not surface the pill when there's no quota info yet (still loading)", async () => {
+    // Response with NO quota field — should not crash, should not render the pill
+    setupVibe({
+      quota: undefined,
+      body: {
+        cached: false,
+        groupings: [{ name: "Vibe One", description: "d", track_ids: ["t-0", "t-1", "t-2", "t-3"] }],
+        // quota intentionally omitted
+      },
+    });
+    render(<App />);
+    await userEvent.click(await screen.findByText("Mix"));
+    await screen.findByText("Vibe One");
+    expect(screen.queryByText(/this month/i)).not.toBeInTheDocument();
+  });
+});
+
+// ============================================================
 // EDGE / RESILIENCE
 // ============================================================
 describe("Edge cases", () => {
