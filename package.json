@@ -1,0 +1,14 @@
+{
+  "name": "spotify-playlist-splitter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Root package — convenience scripts for running tests across client and server.",
+  "scripts": {
+    "test": "npm run test --prefix server && npm run test --prefix client",
+    "test:server": "npm run test --prefix server",
+    "test:client": "npm run test --prefix client",
+    "test:coverage": "npm run test:coverage --prefix server && npm run test:coverage --prefix client",
+    "test:coverage:server": "npm run test:coverage --prefix server",
+    "test:coverage:client": "npm run test:coverage --prefix client"
+  }
+}
