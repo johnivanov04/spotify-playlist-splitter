@@ -4,14 +4,22 @@ import crypto from "crypto";
 /**
  * Build a valid cookie-session header for supertest. Matches the server's
  * cookie-session config: name "session", key = SESSION_SECRET.
+ *
+ * cookie-session uses Keygrip for the signature, which produces URL-safe
+ * base64 (`-_` instead of `+/`, no padding) for both the value and the sig.
  */
 export function makeSessionCookie(sessionData, secret = process.env.SESSION_SECRET || "test-session-secret") {
-  const value = Buffer.from(JSON.stringify(sessionData)).toString("base64").replace(/=+$/, "");
+  const value = Buffer.from(JSON.stringify(sessionData)).toString("base64")
+    .replace(/=+$/, "")
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_");
   const sig = crypto
     .createHmac("sha1", secret)
     .update(`session=${value}`)
     .digest("base64")
-    .replace(/=+$/, "");
+    .replace(/=+$/, "")
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_");
   return `session=${value}; session.sig=${sig}`;
 }
 

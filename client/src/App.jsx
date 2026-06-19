@@ -969,9 +969,17 @@ function App() {
     }
   };
 
-  const handleToggleTrack = (suggestionId, trackId) => {
+  const handleToggleTrack = (suggestionId, trackId, allTracks) => {
     setSelectionBySuggestion((prev) => {
-      const prevSet = prev[suggestionId] || new Set();
+      // If no explicit selection state yet, the card was rendering with every
+      // track checked (per getSelectedTrackIdsForSuggestion: empty set = all).
+      // Seed from the full track list so the first toggle behaves as
+      // "remove this one from the full set" rather than "now only this one is
+      // selected".
+      let prevSet = prev[suggestionId];
+      if (!prevSet) {
+        prevSet = new Set((allTracks || []).map((t) => t.id));
+      }
       const nextSet = new Set(prevSet);
       if (nextSet.has(trackId)) nextSet.delete(trackId);
       else nextSet.add(trackId);
@@ -1608,7 +1616,7 @@ function App() {
                                         <input
                                           type="checkbox"
                                           checked={isSelected}
-                                          onChange={() => handleToggleTrack(s.id, t.id)}
+                                          onChange={() => handleToggleTrack(s.id, t.id, s.tracks)}
                                         />
                                       </label>
 
