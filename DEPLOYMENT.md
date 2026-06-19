@@ -32,17 +32,13 @@ and prod — only env vars.
 
 ## Required environment variables (client)
 
-The client currently hard-codes `const API_BASE = "http://127.0.0.1:4000"` in
-`client/src/App.jsx`. **Before deploying:**
+| Var | Local | Production |
+|---|---|---|
+| `VITE_API_BASE_URL` | unset → falls back to `http://127.0.0.1:4000` | `https://<your-server-host>` (set in Vercel project env vars) |
 
-1. Change that constant to read from `import.meta.env.VITE_API_BASE_URL`,
-   falling back to `http://127.0.0.1:4000` for local dev.
-2. Set `VITE_API_BASE_URL=https://<your-server-host>` in Vercel's project
-   env vars.
-
-(That's the one source-level change you'll want to make right before deploying.
-I've intentionally not done it now so local dev keeps working with the current
-constant; flag it when you're ready.)
+The constant lives in `client/src/App.jsx`; it already reads from
+`import.meta.env.VITE_API_BASE_URL` with a localhost fallback, so leaving the
+env var unset keeps local dev working. See `client/.env.example`.
 
 ## Spotify dev dashboard config
 
@@ -96,8 +92,6 @@ the test suite verifies the prod config without actually deploying.
 
 ## Not yet done (deferred to actual deploy day)
 
-- The client API base URL refactor (`VITE_API_BASE_URL`). Trivial; left in
-  place to keep local dev working.
 - A `Dockerfile` or `fly.toml` — depends on the chosen host; we'll write the
   one that fits when you pick.
 - Sentry / error tracking — recommended after first deploy.

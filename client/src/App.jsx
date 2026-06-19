@@ -2,7 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import kmeansModel from "./ml/kmeans_model.json";
 import { clusterPlaylist } from "./ml/kmeansInfer";
 
-const API_BASE = "http://127.0.0.1:4000";
+// Production deploys set VITE_API_BASE_URL in Vercel to point at the Render/Fly
+// server; local dev falls back to the localhost server.
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 
