@@ -487,3 +487,193 @@ describe("POST /api/vibes/analyze", () => {
     expect(anthropicStreamMock).toHaveBeenCalledTimes(1);
   });
 });
+
+// ============================================================
+// QUOTA + RATE LIMIT ENFORCEMENT
+// ============================================================
+describe("POST /api/vibes/analyze — quota + rate limit", () => {
+  const AUTH_COOKIE = makeSessionCookie({ userId: FAKE_USER.id });
+  function vibePost() {
+    return request(app).post("/api/vibes/analyze").set("Cookie", AUTH_COOKIE);
+  }
+  function userWith(overrides) {
+    return {
+      ...FAKE_USER,
+      tokenObtainedAt: new Date(),
+      quotaResetAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // future = no lazy reset
+      monthlyVibeQuotaUsed: 0,
+      lastFreshAnalysisAt: null,
+      subscriptionStatus: null,
+      ...overrides,
+    };
+  }
+  const tracks = () => Array.from({ length: 6 }, (_, i) => ({ id: `id-${i}` }));
+
+  it("includes quota.used/limit/reset_at on a cache hit (without incrementing)", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 1 }));
+    setCacheLookup({
+      cacheKey: "k",
+      groupings: [{ name: "A", description: "d", track_ids: ["id-0", "id-1"] }],
+    });
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(200);
+    expect(res.body.cached).toBe(true);
+    expect(res.body.quota).toBeDefined();
+    expect(res.body.quota.used).toBe(1);
+    expect(res.body.quota.limit).toBe(3);
+    const incs = dbState.updateCalls.filter((u) => u.monthlyVibeQuotaUsed !== undefined);
+    expect(incs).toHaveLength(0);
+  });
+
+  it("increments the counter after a successful fresh analysis", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 0 }));
+    setCacheLookup(null);
+    anthropicStreamMock.mockReturnValueOnce(
+      makeFakeAnthropicStream(llmTextMessage(VALID_LLM_RESPONSE))
+    );
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(200);
+    expect(res.body.cached).toBe(false);
+    const inc = dbState.updateCalls.find((u) => u.monthlyVibeQuotaUsed === 1);
+    expect(inc).toBeDefined();
+    expect(inc.lastFreshAnalysisAt).toBeInstanceOf(Date);
+    expect(res.body.quota.used).toBe(1);
+  });
+
+  it("returns 429 (quota exceeded) when used >= limit; does NOT call Anthropic", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 3 }));
+    setCacheLookup(null);
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(429);
+    expect(res.body.error).toMatch(/quota/i);
+    expect(res.body.quota.used).toBe(3);
+    expect(res.body.quota.limit).toBe(3);
+    expect(anthropicStreamMock).not.toHaveBeenCalled();
+    const incs = dbState.updateCalls.filter((u) => u.monthlyVibeQuotaUsed !== undefined);
+    expect(incs).toHaveLength(0);
+  });
+
+  it("Pro subscribers get the 50/mo limit", async () => {
+    setUserLookup(userWith({ subscriptionStatus: "active", monthlyVibeQuotaUsed: 10 }));
+    setCacheLookup(null);
+    anthropicStreamMock.mockReturnValueOnce(
+      makeFakeAnthropicStream(llmTextMessage(VALID_LLM_RESPONSE))
+    );
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(200);
+    expect(res.body.quota.limit).toBe(50);
+  });
+
+  it("lazy-resets the counter when quota_reset_at is in the past", async () => {
+    const expired = userWith({
+      monthlyVibeQuotaUsed: 3, // would otherwise be over free limit
+      quotaResetAt: new Date(Date.now() - 1000),
+    });
+    setUserLookup(expired);
+    dbState.updateResults.push([{
+      ...expired,
+      monthlyVibeQuotaUsed: 0,
+      quotaResetAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+    }]);
+    setCacheLookup(null);
+    anthropicStreamMock.mockReturnValueOnce(
+      makeFakeAnthropicStream(llmTextMessage(VALID_LLM_RESPONSE))
+    );
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(200);
+    // First UPDATE was the lazy reset (used→0)
+    expect(dbState.updateCalls[0].monthlyVibeQuotaUsed).toBe(0);
+    expect(dbState.updateCalls[0].quotaResetAt).toBeInstanceOf(Date);
+    // Second UPDATE incremented to 1
+    const incCall = dbState.updateCalls.find((u) => u.monthlyVibeQuotaUsed === 1);
+    expect(incCall).toBeDefined();
+  });
+
+  it("does NOT count a refused Anthropic call against the quota", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 0 }));
+    setCacheLookup(null);
+    anthropicStreamMock.mockReturnValueOnce(
+      makeFakeAnthropicStream({
+        stop_reason: "refusal",
+        stop_details: { category: "cyber" },
+        content: [],
+        usage: {},
+      })
+    );
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(502);
+    const incs = dbState.updateCalls.filter((u) => u.monthlyVibeQuotaUsed !== undefined);
+    expect(incs).toHaveLength(0);
+  });
+
+  it("does NOT count an Anthropic exception against the quota", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 0 }));
+    setCacheLookup(null);
+    anthropicStreamMock.mockImplementationOnce(() => ({
+      async finalMessage() { throw new Error("network down"); },
+    }));
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(500);
+    const incs = dbState.updateCalls.filter((u) => u.monthlyVibeQuotaUsed !== undefined);
+    expect(incs).toHaveLength(0);
+  });
+
+  it("returns 429 (rate-limited) when called again within the 30s cooldown; does NOT call Anthropic", async () => {
+    setUserLookup(userWith({ lastFreshAnalysisAt: new Date(Date.now() - 2000) }));
+    setCacheLookup(null);
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(429);
+    expect(res.body.error).toMatch(/rate limited/i);
+    expect(res.body.retry_after_ms).toBeGreaterThan(0);
+    expect(res.headers["retry-after"]).toBeDefined();
+    expect(anthropicStreamMock).not.toHaveBeenCalled();
+  });
+
+  it("rate limit ignores cache hits — a cached request returns immediately even right after a fresh one", async () => {
+    setUserLookup(userWith({ lastFreshAnalysisAt: new Date(Date.now() - 1000) }));
+    setCacheLookup({
+      cacheKey: "k",
+      groupings: [{ name: "A", description: "d", track_ids: ["id-0", "id-1"] }],
+    });
+
+    const res = await vibePost().send({ tracks: tracks() });
+
+    expect(res.status).toBe(200);
+    expect(res.body.cached).toBe(true);
+  });
+
+  it("force=true still respects the monthly quota", async () => {
+    setUserLookup(userWith({ monthlyVibeQuotaUsed: 3 }));
+
+    const res = await vibePost().send({ tracks: tracks(), force: true });
+
+    expect(res.status).toBe(429);
+    expect(anthropicStreamMock).not.toHaveBeenCalled();
+  });
+
+  it("force=true still respects the rate limit", async () => {
+    setUserLookup(userWith({ lastFreshAnalysisAt: new Date(Date.now() - 1000) }));
+
+    const res = await vibePost().send({ tracks: tracks(), force: true });
+
+    expect(res.status).toBe(429);
+    expect(res.body.error).toMatch(/rate limited/i);
+    expect(anthropicStreamMock).not.toHaveBeenCalled();
+  });
+});

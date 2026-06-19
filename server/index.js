@@ -11,6 +11,13 @@ const { eq } = require("drizzle-orm");
 const { db, schema } = require("./db");
 const { vibeCacheKey, summarizeTrackForPrompt, mapIndicesToTrackIds } = require("./lib/vibes");
 const { isTokenNearExpiry } = require("./lib/token");
+const {
+  effectiveQuotaLimit,
+  quotaNeedsReset,
+  nextQuotaResetDate,
+  checkMonthlyQuota,
+  rateLimitWaitMs,
+} = require("./lib/quota");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -967,6 +974,33 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
   const cacheKey = vibeCacheKey(tracks, steerText);
   const force = req.query.force === "true" || req.body?.force === true;
 
+  // Lazy-reset the user's monthly quota if their window has expired.
+  // This is a write but it's idempotent and only happens on month boundaries.
+  let quotaUser = req.user;
+  if (quotaNeedsReset(quotaUser)) {
+    const resetAt = nextQuotaResetDate();
+    const [updated] = await db
+      .update(schema.users)
+      .set({
+        monthlyVibeQuotaUsed: 0,
+        quotaResetAt: resetAt,
+        updatedAt: new Date(),
+      })
+      .where(eq(schema.users.id, quotaUser.id))
+      .returning();
+    if (updated) quotaUser = updated;
+  }
+
+  // Always include quota info in the response so the client can render
+  // "N/M used this month" UX.
+  function quotaPayload() {
+    return {
+      used: quotaUser.monthlyVibeQuotaUsed ?? 0,
+      limit: effectiveQuotaLimit(quotaUser),
+      reset_at: quotaUser.quotaResetAt ?? null,
+    };
+  }
+
   if (!force) {
     const cached = await db
       .select()
@@ -974,8 +1008,32 @@ app.post("/api/vibes/analyze", requireSpotifyAuth, async (req, res) => {
       .where(eq(schema.vibeCaches.cacheKey, cacheKey))
       .limit(1);
     if (cached.length > 0) {
-      return res.json({ groupings: cached[0].groupings, cached: true });
+      // Cache hits never count against quota or trip the rate limit.
+      return res.json({
+        groupings: cached[0].groupings,
+        cached: true,
+        quota: quotaPayload(),
+      });
     }
+  }
+
+  // Below this point the request is going to hit Anthropic. Enforce the
+  // two cost-control gates BEFORE making the call.
+  const quotaCheck = checkMonthlyQuota(quotaUser);
+  if (!quotaCheck.allowed) {
+    return res.status(429).json({
+      error: "Monthly fresh-analysis quota exceeded",
+      quota: quotaPayload(),
+    });
+  }
+  const waitMs = rateLimitWaitMs(quotaUser);
+  if (waitMs > 0) {
+    res.set("Retry-After", String(Math.ceil(waitMs / 1000)));
+    return res.status(429).json({
+      error: "Rate limited; try again shortly",
+      retry_after_ms: waitMs,
+      quota: quotaPayload(),
+    });
   }
 
   const trimmed = tracks.map((t, i) => summarizeTrackForPrompt(t, i));
@@ -1048,13 +1106,32 @@ ${JSON.stringify(trimmed, null, 2)}`;
       })
       .onConflictDoNothing({ target: schema.vibeCaches.cacheKey });
 
+    // Successful fresh analysis → increment the user's monthly counter and
+    // stamp the rate-limit timestamp. Errors above this point do NOT count
+    // against quota (we only charge for work that actually delivered).
+    const newUsed = (quotaUser.monthlyVibeQuotaUsed ?? 0) + 1;
+    const now = new Date();
+    await db
+      .update(schema.users)
+      .set({
+        monthlyVibeQuotaUsed: newUsed,
+        lastFreshAnalysisAt: now,
+        updatedAt: now,
+      })
+      .where(eq(schema.users.id, quotaUser.id))
+      .returning();
+    // We're authoritative about the new counter value; don't depend on the
+    // DB returning clause to surface it.
+    quotaUser = { ...quotaUser, monthlyVibeQuotaUsed: newUsed, lastFreshAnalysisAt: now };
+
     console.log(
       `Vibe analyze: ${trimmed.length} tracks → ${result.groupings.length} groupings ` +
       `(in=${message.usage?.input_tokens}, cache_read=${message.usage?.cache_read_input_tokens || 0}, ` +
-      `cache_create=${message.usage?.cache_creation_input_tokens || 0}, out=${message.usage?.output_tokens})`
+      `cache_create=${message.usage?.cache_creation_input_tokens || 0}, out=${message.usage?.output_tokens}, ` +
+      `quota=${newUsed}/${effectiveQuotaLimit(quotaUser)})`
     );
 
-    res.json({ ...result, cached: false });
+    res.json({ ...result, cached: false, quota: quotaPayload() });
   } catch (err) {
     console.error("Vibe analyze error:", err);
     res.status(500).json({ error: "Failed to analyze vibes" });
