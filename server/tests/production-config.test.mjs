@@ -54,6 +54,24 @@ describe("Production hardening (NODE_ENV=production)", () => {
     expect(typeof prodApp.use).toBe("function");
     expect(typeof prodApp.listen).toBe("function");
   });
+
+  it("session cookie is SameSite=None + Secure (cross-site XHR support, Vercel→Render)", async () => {
+    const request = (await import("supertest")).default;
+    // Hitting /auth/login mutates req.session.spotifyState, which forces
+    // cookie-session to emit a Set-Cookie header on the response.
+    // We forge X-Forwarded-Proto: https so the trust-proxy-aware cookie-session
+    // treats the request as secure (production load balancers do this).
+    const res = await request(prodApp)
+      .get("/auth/login")
+      .set("X-Forwarded-Proto", "https")
+      .redirects(0);
+    const setCookie = res.headers["set-cookie"] || [];
+    const sessionCookie = setCookie.find((c) => c.startsWith("session="));
+    expect(sessionCookie, "expected a session cookie to be set").toBeDefined();
+    expect(sessionCookie.toLowerCase()).toContain("samesite=none");
+    expect(sessionCookie.toLowerCase()).toContain("secure");
+    expect(sessionCookie.toLowerCase()).toContain("httponly");
+  });
 });
 
 describe("Local/test config (NODE_ENV != production)", () => {
