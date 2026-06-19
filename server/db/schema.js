@@ -17,10 +17,14 @@ const users = pgTable("users", {
   expiresInSeconds: integer("expires_in_seconds"),
   tokenObtainedAt: timestamp("token_obtained_at", { withTimezone: true }),
 
-  // Subscription / quota — wired up when Stripe lands. Nullable for now.
+  // Subscription / quota — wired up when Stripe lands. Nullable subscription
+  // status is treated as 'free' by the quota helpers.
   subscriptionStatus: text("subscription_status"), // 'free' | 'active' | 'past_due' | 'canceled' | null
   monthlyVibeQuotaUsed: integer("monthly_vibe_quota_used").default(0),
   quotaResetAt: timestamp("quota_reset_at", { withTimezone: true }),
+  // When the user most recently triggered a FRESH (non-cached) analysis.
+  // Used by the per-user rate limit (anti-spam, separate from monthly quota).
+  lastFreshAnalysisAt: timestamp("last_fresh_analysis_at", { withTimezone: true }),
 
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow().notNull(),
