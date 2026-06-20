@@ -91,6 +91,21 @@ app.use(cors(corsOptions));
 // Express 5 safe preflight handler:
 app.options(/.*/, cors(corsOptions));
 
+// ---- Request log (production only) ---------------------------------
+// One line per request so we can see auth flow problems from Render logs.
+// Deliberately minimal — never logs request bodies, cookies, or headers.
+if (IS_PRODUCTION) {
+  app.use((req, res, next) => {
+    const start = Date.now();
+    res.on("finish", () => {
+      const ms = Date.now() - start;
+      const cookieSeen = req.headers.cookie ? "cookie" : "no-cookie";
+      console.log(`${req.method} ${req.path} ${res.statusCode} ${ms}ms ${cookieSeen}`);
+    });
+    next();
+  });
+}
+
 // ---- Health check --------------------------------------------------
 // Public, unauthenticated, intentionally cheap. Deploy probes (Render's
 // HTTP health check, Fly's checks, etc.) hit this every few seconds.
