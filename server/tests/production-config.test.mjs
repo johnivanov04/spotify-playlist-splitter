@@ -55,6 +55,24 @@ describe("Production hardening (NODE_ENV=production)", () => {
     expect(typeof prodApp.listen).toBe("function");
   });
 
+  it("logs one line per request in production (visibility for debugging)", async () => {
+    const request = (await import("supertest")).default;
+    const logSpy = vi.spyOn(console, "log").mockImplementation(() => {});
+    try {
+      await request(prodApp).get("/api/health");
+      // The middleware logs after response 'finish' — give the event loop a tick.
+      await new Promise((r) => setImmediate(r));
+      const logs = logSpy.mock.calls.map((args) => args.join(" "));
+      const reqLog = logs.find((l) => l.includes("GET /api/health 200"));
+      expect(reqLog, "expected a request-log line for /api/health").toBeDefined();
+      // The line should record whether the request brought a cookie, never the cookie itself.
+      expect(reqLog).toMatch(/no-cookie|cookie/);
+      expect(reqLog).not.toContain("session=");
+    } finally {
+      logSpy.mockRestore();
+    }
+  });
+
   it("session cookie is SameSite=None + Secure (cross-site XHR support, Vercel→Render)", async () => {
     const request = (await import("supertest")).default;
     // Hitting /auth/login mutates req.session.spotifyState, which forces
