@@ -94,8 +94,8 @@ describe("VITE_API_BASE_URL fallback (default test env)", () => {
   });
 });
 
-describe("VITE_API_BASE_URL set to empty string (production same-origin via Vercel rewrites)", () => {
-  // When Vercel rewrites /api/* and /auth/* to the Render origin, the client
+describe("VITE_API_BASE_URL set to empty string (production same-origin)", () => {
+  // When the server hosts the built client (Render serves both), the client
   // should make RELATIVE calls so the browser sees them as same-origin.
   let App;
   let fetchMock;
