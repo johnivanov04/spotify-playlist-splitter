@@ -2,9 +2,13 @@ import { useEffect, useRef, useState } from "react";
 import kmeansModel from "./ml/kmeans_model.json";
 import { clusterPlaylist } from "./ml/kmeansInfer";
 
-// Production deploys set VITE_API_BASE_URL in Vercel to point at the Render/Fly
-// server; local dev falls back to the localhost server.
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:4000";
+// In production we proxy /api/* and /auth/* through Vercel rewrites (see
+// client/vercel.json) so the browser sees everything as same-origin and
+// avoids Chrome's third-party cookie blocking. Set VITE_API_BASE_URL=""
+// (empty string) in production so fetches are relative; locally we default
+// to the localhost server. `??` is used (not `||`) so an explicit empty
+// string is preserved.
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:4000";
 const SAVED_SPLITS_KEY = "playlistSplitter.savedSplits";
 const THRESHOLDS_KEY = "playlistSplitter.thresholds";
 

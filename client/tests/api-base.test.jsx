@@ -93,3 +93,50 @@ describe("VITE_API_BASE_URL fallback (default test env)", () => {
     expect(firstUrl.startsWith("http://127.0.0.1:4000")).toBe(true);
   });
 });
+
+describe("VITE_API_BASE_URL set to empty string (production same-origin via Vercel rewrites)", () => {
+  // When Vercel rewrites /api/* and /auth/* to the Render origin, the client
+  // should make RELATIVE calls so the browser sees them as same-origin.
+  let App;
+  let fetchMock;
+
+  beforeAll(async () => {
+    vi.stubEnv("VITE_API_BASE_URL", "");
+    vi.resetModules();
+    App = (await import("../src/App.jsx")).default;
+  });
+
+  afterAll(() => {
+    vi.unstubAllEnvs();
+    vi.resetModules();
+  });
+
+  beforeEach(() => {
+    fetchMock = vi.fn(() =>
+      Promise.resolve({
+        ok: false, status: 401, headers: new Map(),
+        json: async () => ({}), text: async () => "",
+      })
+    );
+    globalThis.fetch = fetchMock;
+  });
+
+  it("treats an empty VITE_API_BASE_URL as 'use relative paths' (does NOT fall back to localhost)", async () => {
+    render(<App />);
+    await waitFor(() => expect(fetchMock).toHaveBeenCalled());
+    for (const [url] of fetchMock.mock.calls) {
+      // Relative URLs (e.g. "/api/me") or absolute paths — but NOT localhost.
+      expect(url).not.toContain("127.0.0.1");
+      expect(url).not.toContain("localhost");
+    }
+  });
+
+  it("/api/me probe is requested as a relative path", async () => {
+    render(<App />);
+    await waitFor(() => expect(fetchMock).toHaveBeenCalled());
+    const meCall = fetchMock.mock.calls.find(([u]) => u.endsWith("/api/me"));
+    expect(meCall).toBeDefined();
+    // No protocol/host prefix when API_BASE is empty string.
+    expect(meCall[0]).toBe("/api/me");
+  });
+});
