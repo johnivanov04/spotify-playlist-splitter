@@ -2,6 +2,7 @@
 require("dotenv").config();
 
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
 const cookieSession = require("cookie-session");
 const querystring = require("querystring");
@@ -54,17 +55,15 @@ app.use(
     name: "session",
     keys: [SESSION_SECRET || "dev-secret"],
     maxAge: 24 * 60 * 60 * 1000, // 1 day
-    // In production the cookie should only ever be sent over HTTPS and never
-    // be readable from JS. Locally we leave both off so http://127.0.0.1
-    // sessions work.
+    // In production the cookie is HTTPS-only and not readable from JS.
+    // Locally we leave both off so http://127.0.0.1 sessions work.
     //
-    // SameSite=None is required because the client (Vercel) and server (Render)
-    // live on different origins — `fetch(...,{credentials:"include"})` from the
-    // client → server is a cross-site XHR, which only carries cookies that are
-    // SameSite=None + Secure. SameSite=Lax would block them.
+    // SameSite=Lax: the client and server share an origin (both served by
+    // Render), so XHR is same-site. Lax is sent on top-level navigations,
+    // which covers Spotify's OAuth redirect back to /auth/callback.
     secure: IS_PRODUCTION,
     httpOnly: true,
-    sameSite: IS_PRODUCTION ? "none" : false,
+    sameSite: IS_PRODUCTION ? "lax" : false,
   })
 );
 
@@ -1184,6 +1183,25 @@ ${JSON.stringify(trimmed, null, 2)}`;
     res.status(500).json({ error: "Failed to analyze vibes" });
   }
 });
+
+// ---- Static client (production only) ---------------------------------
+// In production, the same Render service hosts the built client. Vite emits
+// to client/dist/, which sits two levels above this file. Serving the client
+// from the same origin as the API eliminates cross-site cookie issues
+// (SameSite, third-party cookie blocking, Set-Cookie stripping in proxies).
+//
+// Order matters: this runs AFTER all /api/* and /auth/* routes so they win
+// for their own paths. The SPA fallback explicitly skips /api/ and /auth/
+// so unknown API paths still return 404 instead of an HTML body.
+if (IS_PRODUCTION) {
+  const clientDist = path.resolve(__dirname, "../client/dist");
+  app.use(express.static(clientDist));
+  app.use((req, res, next) => {
+    if (req.method !== "GET" && req.method !== "HEAD") return next();
+    if (req.path.startsWith("/api/") || req.path.startsWith("/auth/")) return next();
+    res.sendFile(path.join(clientDist, "index.html"));
+  });
+}
 
 if (require.main === module) {
   app.listen(PORT, () => {

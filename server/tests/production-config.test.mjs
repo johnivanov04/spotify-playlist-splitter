@@ -73,7 +73,7 @@ describe("Production hardening (NODE_ENV=production)", () => {
     }
   });
 
-  it("session cookie is SameSite=None + Secure (cross-site XHR support, Vercel→Render)", async () => {
+  it("session cookie is SameSite=Lax + Secure + HttpOnly (same-origin, Render serves both)", async () => {
     const request = (await import("supertest")).default;
     // Hitting /auth/login mutates req.session.spotifyState, which forces
     // cookie-session to emit a Set-Cookie header on the response.
@@ -86,7 +86,12 @@ describe("Production hardening (NODE_ENV=production)", () => {
     const setCookie = res.headers["set-cookie"] || [];
     const sessionCookie = setCookie.find((c) => c.startsWith("session="));
     expect(sessionCookie, "expected a session cookie to be set").toBeDefined();
-    expect(sessionCookie.toLowerCase()).toContain("samesite=none");
+    // Lax is sufficient now that the client and API share an origin — Lax
+    // is sent on same-site XHR AND on top-level navigations (the Spotify
+    // OAuth redirect back to /auth/callback). SameSite=None is unnecessary
+    // and the older "none" path was breaking under proxied Set-Cookie.
+    expect(sessionCookie.toLowerCase()).toContain("samesite=lax");
+    expect(sessionCookie.toLowerCase()).not.toContain("samesite=none");
     expect(sessionCookie.toLowerCase()).toContain("secure");
     expect(sessionCookie.toLowerCase()).toContain("httponly");
   });
