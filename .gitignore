@@ -2,11 +2,26 @@
 .DS_Store
 
 # node deps
-node_modules
-client/node_modules
-server/node_modules
+node_modules/
+
+# build output
+client/dist/
 
 # env files (secrets)
 .env
+.env.local
 client/.env
 server/.env
+
+# test coverage reports (regenerate with `npm run test:coverage`)
+coverage/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# local tooling / editor config
+.vscode/
+.claude/
+CLAUDE.md
