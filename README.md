@@ -1,5 +1,7 @@
 # Playlist Splitter
 
+[![Tests](https://github.com/johnivanov04/spotify-playlist-splitter/actions/workflows/tests.yml/badge.svg)](https://github.com/johnivanov04/spotify-playlist-splitter/actions/workflows/tests.yml)
+
 A full-stack Spotify app that takes an existing playlist and organizes its tracks into smaller mood- and context-based playlists, which you can review track by track and save back to your Spotify account.
 
 The grouping is done by an LLM rather than by genre or audio features, so a 400-track catch-all playlist comes back as a handful of named groups like "Late Night Drive Home" or "Cookout Sunday" instead of "Hip Hop" and "Indie Rock" — categories Spotify already gives you.
@@ -98,7 +100,7 @@ Spotify returns market-specific track objects whose IDs differ from the ones sto
 
 The app originally ran as a static client on one host with the API on another, and sessions silently failed in production: the proxy layer in front of the client stripped `Set-Cookie` from proxied responses, so the cookie set during the OAuth callback never reached the browser. Rather than working around it with cross-site cookie settings, the deployment collapsed to a single service that serves both the built client and the API from one origin. The SPA fallback deliberately excludes `/api/` and `/auth/`, so unknown API paths still return 404 instead of an HTML page. In production the server also enables `trust proxy`, secure and `httpOnly` cookies, `SameSite=Lax` (required for the OAuth redirect, which is a top-level cross-site navigation), an origin allow-list for CORS, and a `/api/health` endpoint for deploy probes.
 
-### Testing
+### Structured for testability
 
 Business logic is deliberately kept out of the route handlers — cache keying, prompt payload shaping, index mapping, quota arithmetic, and token expiry live in small dependency-free modules — which is what makes the interesting logic testable without HTTP, a database, or a network. See [TESTING.md](TESTING.md) for the full breakdown, including the selection-state bug the client tests uncovered.
 
