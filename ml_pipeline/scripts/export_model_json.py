@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Export v1_9 representation artifacts to kmeans_model.json for the client.
+Export v1_12 representation artifacts to kmeans_model.json for the client.
 
 Usage:
     python ml_pipeline/scripts/export_model_json.py \
-        --representation ml_pipeline/data/artifacts/representation_v1_9 \
-        --featurizer-report ml_pipeline/data/artifacts/features_v1_9/featurizer_report.json \
+        --representation ml_pipeline/data/artifacts/representation_v1_12 \
+        --featurizer-report ml_pipeline/data/artifacts/features_v1_12/featurizer_report.json \
         --output client/src/ml/kmeans_model.json
 """
 

@@ -1,5 +1,5 @@
 // client/src/ml/kmeansInfer.js
-// Inference pipeline for v1_9 representation:
+// Inference pipeline for the v1_12 representation:
 //   buildFeatureDict → vectorize → embed (scale + PCA) → per-playlist KMeans
 
 // ---- Token normalization (mirrors Python featurize_song_records.py) ----

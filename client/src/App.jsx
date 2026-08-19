@@ -66,7 +66,6 @@ function lookupUsage(usageMap, t) {
 
 function buildSuggestions(tracks, usageMap, thresholds) {
   const suggestions = [];
-  const minSize = 10;
 
   const config = thresholds || DEFAULT_THRESHOLDS;
   const barelyCfg = config.barelyPlayed || DEFAULT_THRESHOLDS.barelyPlayed;
@@ -529,7 +528,7 @@ async function fetchJson(path, options = {}) {
 function App() {
   const [user, setUser] = useState(null);
   const [playlists, setPlaylists] = useState([]);
-  const [loadingMe, setLoadingMe] = useState(true);
+  const [, setLoadingMe] = useState(true);
   const [loadingPlaylists, setLoadingPlaylists] = useState(false);
   const [selectedPlaylist, setSelectedPlaylist] = useState(null);
   const [urlInput, setUrlInput] = useState("");
@@ -557,7 +556,8 @@ function App() {
   // Last 429 detail — null when ok, { kind: "quota"|"rate", message, retryAfterMs? }
   const [vibeQuotaError, setVibeQuotaError] = useState(null);
 
-  const [enrichTick, setEnrichTick] = useState(0);
+  // Bumped on an interval to re-render the enrichment ETA; value is never read.
+  const [, setEnrichTick] = useState(0);
   const [thresholds, setThresholds] = useState(DEFAULT_THRESHOLDS);
   const [presetKey, setPresetKey] = useState("balanced");
 
@@ -645,7 +645,7 @@ function App() {
         const data = await fetchJson(`${API_BASE}/api/playlists`);
         setPlaylists(data.playlists || []);
         setLoadingPlaylists(false);
-      } catch (err) {
+      } catch {
         setLoadingMe(false);
         setLoadingPlaylists(false);
       }
@@ -1145,39 +1145,6 @@ function App() {
       };
       return [...prev, newSplit];
     });
-  };
-
-  const handleRemoveSavedSplit = (key) => {
-    setSavedSplits((prev) => prev.filter((s) => s.key !== key));
-  };
-
-  const handleCreateSavedSplit = async (split) => {
-    try {
-      if (!split.trackIds || split.trackIds.length === 0) {
-        alert("This saved split has no tracks.");
-        return;
-      }
-
-      const body = {
-        name: split.label,
-        description: `Saved split from "${split.playlistName}"`,
-        trackIds: split.trackIds
-      };
-
-      const res = await fetch(`${API_BASE}/api/playlists`, {
-        method: "POST",
-        credentials: "include",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body)
-      });
-
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      alert(`Playlist created! ${data.spotifyUrl ? "Open: " + data.spotifyUrl : ""}`);
-    } catch (err) {
-      console.error(err);
-      alert("Failed to create playlist on Spotify.");
-    }
   };
 
   const loggedIn = !!user;

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from "vitest";
-import { render, screen, waitFor, within } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "../src/App.jsx";
 
@@ -33,10 +33,6 @@ function makeRes(body, status = 200) {
     json: async () => body,
     text: async () => JSON.stringify(body),
   };
-}
-
-function setRoute(key, response) {
-  routes[key] = response;
 }
 
 beforeEach(() => {
